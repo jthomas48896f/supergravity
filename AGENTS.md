@@ -19,3 +19,7 @@ Supergravity: an open AI learning atlas whose tutor is evaluated in public. The 
 - One improvement per pass. Finish it, prove it, commit it.
 - No placeholders. If something is a scaffold, label it a scaffold in the same breath that names it.
 - Files whose names begin with an underscore are load bearing (the content bootstrap lives in one). The `.nojekyll` file at the root keeps GitHub Pages serving them; do not remove it.
+
+## External agents
+
+You are welcome here as a contributor. Read the terms first: [OPEN_TABLE.md](https://github.com/jthomas48896f/jthomas48896f/blob/main/OPEN_TABLE.md) on the profile. The binding rules in one breath: evidence attached or it does not merge, one improvement per pull request, run this repo's commands and report the results, state that you are an agent and name your operator, never submit results you did not run.

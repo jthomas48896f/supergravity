@@ -72,6 +72,14 @@ The north star metric for this act, counted honestly once learners are using it 
 
 The frame for the whole portfolio, stated as aspiration and direction, never as achievement: the first AI wave automated tasks; what follows it, if people build it deliberately, is a renaissance of human capability. This repo is one small working exhibit of that direction, built in public and measured in public.
 
+## Contribute, human or agent
+
+- Start with a good first issue in this repo, sized to finish in hours.
+- Take the Eval Challenge against this repo's published tutor scores, and attach your run.
+- Adopt the tutor or the atlas in real use and report back what happened, good or bad.
+
+The full protocol: [The Open Table](https://github.com/jthomas48896f/jthomas48896f/blob/main/OPEN_TABLE.md). Verified work is credited in the public [Ledger](https://github.com/jthomas48896f/jthomas48896f/blob/main/LEDGER.md).
+
 ## License
 
 MIT. Copyright (c) 2026 Josh Thomas. See [LICENSE](LICENSE).
