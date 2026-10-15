@@ -106,9 +106,9 @@
     }
     .frame p { margin: 0; font-size: 14.5px; }
     .frame .small { font-size: 12.5px; color: var(--ink-2); }
-    .frame-phone { flex: 1 1 240px; border-radius: 18px; }
+    .frame-phone { flex: 1 1 240px; }
     .frame-phone .f-claim { font-family: Georgia, serif; font-size: 18px; line-height: 1.35; }
-    .frame-watch { flex: 0 1 168px; border-radius: 36px; text-align: center; justify-content: center; padding: 22px 14px; }
+    .frame-watch { flex: 0 1 168px; text-align: center; justify-content: center; padding: 22px 14px; }
     .frame-watch .f-claim { font-size: 15px; font-weight: 600; line-height: 1.4; }
     .frame-voice { flex: 1 1 300px; border-left: 4px solid var(--ink); }
     .frame-voice .spoken { font-family: Georgia, serif; font-size: 16.5px; line-height: 1.5; }
@@ -135,28 +135,56 @@
       font-size: 14px;
       max-width: 640px;
     }
-    .commons-bar { max-width: 880px; margin: 0 auto; padding: 24px 24px 0; }
-    .commons-bar a { margin-right: 16px; }
+    .commons-bar {
+      position: sticky;
+      top: 0;
+      background: var(--paper);
+      border-bottom: 1px solid var(--rule);
+      padding: 0 24px;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      column-gap: 16px;
+    }
+    .commons-bar a, .commons-bar span {
+      display: inline-flex;
+      align-items: center;
+      min-height: 44px;
+    }
+    .commons-bar .wordmark { font-weight: 600; }
     .commons-bar span { font-weight: 700; }
+    .skip-link {
+      position: absolute;
+      left: -9999px;
+      top: 0;
+      background: var(--paper);
+      padding: 10px 16px;
+    }
+    .skip-link:focus { position: static; }
+    :focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
+    [id] { scroll-margin-top: 72px; }
   </style>
 </head>
 <body>
+<a class="skip-link" href="#content">Skip to the content</a>
 <nav class="commons-bar" aria-label="Aurora Commons sites">
-  <a href="https://auroracommons.github.io/auroracommons/">Aurora Commons</a>
+  <a class="wordmark" href="https://auroracommons.github.io/auroracommons/">Aurora Commons</a>
   <a href="https://auroracommons.github.io/auroracommons/foundations.html">Foundations</a>
   <a href="https://auroracommons.github.io/ground/">Ground</a>
   <a href="https://auroracommons.github.io/still/">Still</a>
-  <span aria-current="page">Atlas</span>
+  <span aria-current="page">Atlas (you are here)</span>
   <a href="https://auroracommons.github.io/cohort/">Cohort</a>
   <a href="https://auroracommons.github.io/graph/">Graph</a>
   <a href="https://auroracommons.github.io/machine/">Machine</a>
   <a href="https://auroracommons.github.io/lumen/">Lumen</a>
 </nav>
-<main>
+<main id="content">
 
   <h1>Atlas</h1>
+  <p>Atlas is one of the seven tools of Aurora Commons. It serves Layer 2, learning.</p>
   <p>First step: read the Proof below and check its seal yourself. The four lines you need are under Seal in the Proof.</p>
 
+  <h2>The Proof</h2>
   <section class="proof" aria-label="The Proof">
     <div class="proof-label">The Proof</div>
 
@@ -250,7 +278,7 @@ Check: Claim read against the recorded sources; the figure matches. Content veri
 
   <h2>Check it yourself</h2>
   <div class="receipts">
-    <p><strong>Open the source.</strong> The claim and its recorded sources sit in content/astronomy.js in this repository, and the source article is linked under Ground.</p>
+    <p><strong>Open the source.</strong> The claim and its recorded sources sit in the Solar System topic file in this repository, and the source article is linked under Ground. The exact file name is in the section for agents and builders at the end of this page.</p>
     <p><strong>Check the seal yourself.</strong> Put the four lines printed under Seal into a SHA-256 tool. The first 16 characters of the result should match the seal on this page.</p>
     <p><strong>Read the check.</strong> The method, the result, and the dates are printed in the Check block. Nothing on this page asks to be trusted.</p>
   </div>
@@ -261,13 +289,19 @@ Check: Claim read against the recorded sources; the figure matches. Content veri
     <p><a class="browse-link" href="atlas.html">Open the full atlas</a></p>
   </div>
 
-  <p>The layer below: <a href="https://auroracommons.github.io/still/">Still, the mind at peace</a></p>
-  <p>The layer above: <a href="https://auroracommons.github.io/cohort/">Cohort, belonging</a></p>
+  <h2>For agents and builders</h2>
+  <p>The tutor that used to headline Atlas was dropped on October 15, 2026, by direction. Its eval harness stays in this repository as an archived experiment, in the folder tools/tutor-eval. The harness grades answers drawn from the atlas content for groundedness (whether the facts the atlas states appear in the answer) and citation presence, over 12 questions drawn from the atlas itself.</p>
+  <p>Committed baseline results, from the run recorded in the file tools/tutor-eval/results/baseline-report.md: groundedness 0.833, citation rate 1, correct source rate 0.75, across the 12 questions. The gates are groundedness 0.75, citation rate 1, and correct source rate 0.75. Run it with npm run eval:tutor. The build smoke test is npm test and the lint is npm run lint, as defined in package.json.</p>
+  <p>The Solar System topic file named in the Proof is content/astronomy.js in this repository. The full app sits behind the proof screen at atlas.html in this repository.</p>
+
+  <p>Below this layer: <a href="https://auroracommons.github.io/still/">Still, the mind at peace</a></p>
+  <p>Above this layer: <a href="https://auroracommons.github.io/cohort/">Cohort, belonging</a></p>
   <p>Built on Still: the mind steadied.</p>
   <p>Unlocks the ability to understand.</p>
   <p>The research under this layer: <a href="https://auroracommons.github.io/auroracommons/foundations.html#learning-and-education">Foundations, Learning and education</a></p>
 
   <footer class="commons-footer">
+  <p><a href="https://auroracommons.github.io/auroracommons/">Back to the home page</a></p>
   <p>One rule: raise the floor beneath everyone.</p>
   <p>Advised by Groundskeeper.</p>
   <p><a href="https://www.linkedin.com/company/aurora-commons-io/">Aurora Commons on LinkedIn</a></p>
