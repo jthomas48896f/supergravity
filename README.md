@@ -8,7 +8,7 @@ This repo serves Layer 2: Learning. "The ability to learn what you need, when yo
 
 Unmet, it looks like: students priced out of the tutoring that changes trajectories, adults locked out of retraining, knowledge hoarded behind paywalls and jargon.
 
-The full map: [The Bedrock, a map of human needs](https://github.com/thomassupergravity/thomassupergravity/blob/main/NEEDS.md)
+The full map: [The Bedrock, a map of human needs](https://github.com/bedrockcommons/bedrockcommons/blob/main/NEEDS.md)
 
 ## What it is
 
@@ -51,10 +51,10 @@ Direction, not shipped capability: the field is moving toward tutors that are au
 
 Supergravity is Act 1, the Atlas, in a five part body of work built on one thesis: technology should increase human capability without taking human agency away. The problem family this act serves is learning poverty and unequal education. The other acts:
 
-- Act 2, the Commons: [cohort](https://github.com/thomassupergravity/cohort), how people find each other and build together.
-- Act 3, the Machine: [neural-net-lab](https://github.com/thomassupergravity/neural-net-lab), how the machine itself learns, from first principles.
-- Act 4, the Graph: [knowledge-graph-explorer](https://github.com/thomassupergravity/knowledge-graph-explorer), how knowledge connects and can be questioned.
-- Act 5, the Guardrails: [lumen-faith-platform](https://github.com/thomassupergravity/lumen-faith-platform), how all of it stays safe, cited, and human governed.
+- Act 2, the Commons: [cohort](https://github.com/bedrockcommons/cohort), how people find each other and build together.
+- Act 3, the Machine: [neural-net-lab](https://github.com/bedrockcommons/neural-net-lab), how the machine itself learns, from first principles.
+- Act 4, the Graph: [knowledge-graph-explorer](https://github.com/bedrockcommons/knowledge-graph-explorer), how knowledge connects and can be questioned.
+- Act 5, the Guardrails: [lumen-faith-platform](https://github.com/bedrockcommons/lumen-faith-platform), how all of it stays safe, cited, and human governed.
 
 The north star metric for this act, counted honestly once learners are using it and dated when reported: **learners reaching mastery in the atlas**. No number is claimed yet. Ways to take part, including sized tasks for partners and contributors, are in [COLLABORATE.md](COLLABORATE.md) and [CONTRIBUTING.md](CONTRIBUTING.md).
 
@@ -74,7 +74,7 @@ Stated plainly, here is what is not finished:
 
 ## Live demo
 
-The live demo is at [thomassupergravity.github.io/supergravity](https://thomassupergravity.github.io/supergravity/).
+The live demo is at [bedrockcommons.github.io/supergravity](https://bedrockcommons.github.io/supergravity/).
 
 An earlier version of this project is live at [american-desi.github.io/supergravity](https://american-desi.github.io/supergravity/). This repository is the canonical source going forward.
 
@@ -84,7 +84,7 @@ An earlier version of this project is live at [american-desi.github.io/supergrav
 - Take the Eval Challenge against this repo's published tutor scores, and attach your run.
 - Adopt the tutor or the atlas in real use and report back what happened, good or bad.
 
-The full protocol: [The Open Table](https://github.com/thomassupergravity/thomassupergravity/blob/main/OPEN_TABLE.md). Verified work is credited in the public [Ledger](https://github.com/thomassupergravity/thomassupergravity/blob/main/LEDGER.md).
+The full protocol: [The Open Table](https://github.com/bedrockcommons/bedrockcommons/blob/main/OPEN_TABLE.md). Verified work is credited in the public [Ledger](https://github.com/bedrockcommons/bedrockcommons/blob/main/LEDGER.md).
 
 ### Start with a prompt
 
