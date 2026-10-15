@@ -112,6 +112,8 @@ Open a failure report issue in this repo and include the input you gave the tuto
 Say what happened, and say what should have happened instead.
 ```
 
+Its record is filed in [the Index](https://auroracommons.github.io/index/).
+
 ## License
 
 MIT. Copyright (c) 2026 Josh Thomas. See [LICENSE](LICENSE).
