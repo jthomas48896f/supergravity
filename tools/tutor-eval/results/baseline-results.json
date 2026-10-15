@@ -1,6 +1,6 @@
 {
   "mode": "baseline",
-  "date": "2026-10-15T03:06:30.002Z",
+  "date": "2026-10-15T18:10:30.441Z",
   "questions": 12,
   "thresholds": {
     "groundedness": 0.75,
@@ -8,9 +8,9 @@
     "correctSourceRate": 0.75
   },
   "summary": {
-    "groundedness": 0.806,
+    "groundedness": 0.833,
     "citationRate": 1,
-    "correctSourceRate": 0.833
+    "correctSourceRate": 0.75
   },
   "rows": [
     {
@@ -47,7 +47,8 @@
       "id": "astronomy-hubble",
       "subject": "astronomy",
       "retrievedFrom": [
-        "astronomy.js"
+        "astronomy.js",
+        "physics.js"
       ],
       "factsExpected": 3,
       "factsFound": 3,
@@ -55,7 +56,8 @@
       "cited": true,
       "correctSource": true,
       "citations": [
-        "astronomy.js"
+        "astronomy.js",
+        "physics.js"
       ]
     },
     {
@@ -122,16 +124,16 @@
       "id": "gardening-soil",
       "subject": "gardening",
       "retrievedFrom": [
-        "gardening.js",
+        "biology.js",
         "composting.js"
       ],
       "factsExpected": 3,
       "factsFound": 3,
       "groundedness": 1,
       "cited": true,
-      "correctSource": true,
+      "correctSource": false,
       "citations": [
-        "gardening.js",
+        "biology.js",
         "composting.js"
       ]
     },
@@ -156,8 +158,8 @@
       "id": "survival-priorities",
       "subject": "survival",
       "retrievedFrom": [
-        "hunting.js",
-        "parenting.js"
+        "history.js",
+        "hunting.js"
       ],
       "factsExpected": 3,
       "factsFound": 1,
@@ -165,8 +167,8 @@
       "cited": true,
       "correctSource": false,
       "citations": [
-        "hunting.js",
-        "parenting.js"
+        "history.js",
+        "hunting.js"
       ]
     },
     {
@@ -190,17 +192,17 @@
       "id": "geology-basics",
       "subject": "geology",
       "retrievedFrom": [
-        "geology.js",
-        "astronomy.js"
+        "astronomy.js",
+        "geology.js"
       ],
       "factsExpected": 3,
-      "factsFound": 1,
-      "groundedness": 0.3333333333333333,
+      "factsFound": 2,
+      "groundedness": 0.6666666666666666,
       "cited": true,
       "correctSource": true,
       "citations": [
-        "geology.js",
-        "astronomy.js"
+        "astronomy.js",
+        "geology.js"
       ]
     }
   ]
