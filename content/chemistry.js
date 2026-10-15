@@ -36,7 +36,7 @@ window.CONTENT.chemistry = {
         { type: 'p', text: 'An atom\'s nucleus contains protons (positive) and neutrons (neutral); the count of protons is the element. A cloud of electrons (negative) around the nucleus balances the charge. Atoms are mostly empty space — Rutherford\'s 1909 gold-foil experiment showed that the nucleus occupies about one part in 10¹⁵ of an atom\'s volume. If an atom were the size of a football stadium, the nucleus would be a pea at the center.' },
         { type: 'interactive', key: 'atoms-diagram' },
         { type: 'h2', text: 'The edges' },
-        { type: 'p', text: 'As of today the table extends to element 118, oganesson, named for the Russian physicist Yuri Oganessian. Everything past uranium (92) is synthetic. The heaviest elements live for fractions of a second before decaying. The "island of stability" predicted around element 126 has not yet been reached.' },
+        { type: 'p', text: 'As of today the table extends to element 118, oganesson, named for the Russian physicist Yuri Oganessian. Everything past plutonium (94) is synthetic; neptunium (93) and plutonium (94) occur in nature only in traces. The heaviest elements live for fractions of a second before decaying. The "island of stability" predicted around element 126 has not yet been reached.' },
         { type: 'interactive', key: 'atoms-videos' },
         { type: 'quote', text: 'There is nothing more practical than a good theory.', cite: 'Attributed to Mendeleev' },
       ],

@@ -1,0 +1,1032 @@
+{
+  "pass": "Atlas re-check, Sprint W1: 100 shipped claims re-verified against their recorded sources",
+  "date": "2026-10-15",
+  "totals": {
+    "claims": 100,
+    "match": 66,
+    "mismatch": 10,
+    "source gone": 24
+  },
+  "claims": [
+    {
+      "claim": "Sun share of solar system mass",
+      "corrected": null,
+      "note": "Source states the Sun is 99.86% of system mass.",
+      "result": "match",
+      "source": "https://en.wikipedia.org/wiki/Solar_System",
+      "stated": "99.86 percent",
+      "subject": "astronomy",
+      "topic": "solar"
+    },
+    {
+      "claim": "Pluto demoted from planet status",
+      "corrected": null,
+      "note": "Source ties Pluto reclassification to the 2006 planet redefinition.",
+      "result": "match",
+      "source": "https://en.wikipedia.org/wiki/Solar_System",
+      "stated": "2006",
+      "subject": "astronomy",
+      "topic": "solar"
+    },
+    {
+      "claim": "Europa Clipper launch year",
+      "corrected": null,
+      "note": "NASA page dates the Europa Clipper launch to Oct. 14, 2024.",
+      "result": "match",
+      "source": "https://science.nasa.gov/solar-system/",
+      "stated": "2024",
+      "subject": "astronomy",
+      "topic": "solar"
+    },
+    {
+      "claim": "Low-mass stars endure on main sequence",
+      "corrected": null,
+      "note": "Source gives hundreds of billions of years or longer for red dwarfs.",
+      "result": "match",
+      "source": "https://en.wikipedia.org/wiki/Stellar_evolution",
+      "stated": "a hundred billion years",
+      "subject": "astronomy",
+      "topic": "stars"
+    },
+    {
+      "claim": "Andromeda distance from Milky Way",
+      "corrected": null,
+      "note": "Source gives just over 750,000 pc, about 2.4 million ly, approx. as stated.",
+      "result": "match",
+      "source": "https://en.wikipedia.org/wiki/Galaxy",
+      "stated": "two and a half million light-years",
+      "subject": "astronomy",
+      "topic": "galaxies"
+    },
+    {
+      "claim": "Age of the universe",
+      "corrected": null,
+      "note": "Source gives 13.787 plus or minus 0.02 billion years.",
+      "result": "match",
+      "source": "https://en.wikipedia.org/wiki/Big_Bang",
+      "stated": "13.8 billion years",
+      "subject": "astronomy",
+      "topic": "bigbang"
+    },
+    {
+      "claim": "Mass of Sagittarius A*",
+      "corrected": null,
+      "note": "Source gives about 4.3 million solar masses.",
+      "result": "match",
+      "source": "https://en.wikipedia.org/wiki/Black_hole",
+      "stated": "about four million solar masses",
+      "subject": "astronomy",
+      "topic": "blackholes"
+    },
+    {
+      "claim": "Plate movement speed range",
+      "corrected": null,
+      "note": "Source gives 10-40 mm/yr at Mid-Atlantic Ridge up to about 160 mm/yr for Nazca plate.",
+      "result": "match",
+      "source": "https://en.wikipedia.org/wiki/Plate_tectonics",
+      "stated": "ten to a hundred and sixty millimeters a year",
+      "subject": "geology",
+      "topic": "plates"
+    },
+    {
+      "claim": "Wegener proposed continental drift",
+      "corrected": null,
+      "note": "Source dates Wegener describing continental drift to 1912.",
+      "result": "match",
+      "source": "https://en.wikipedia.org/wiki/Plate_tectonics",
+      "stated": "1912",
+      "subject": "geology",
+      "topic": "plates"
+    },
+    {
+      "claim": "Tambora eruption and year without a summer",
+      "corrected": null,
+      "note": "Source lists Tambora 1815 and calls its climate effect the Year Without a Summer.",
+      "result": "match",
+      "source": "https://en.wikipedia.org/wiki/Volcano",
+      "stated": "1815",
+      "subject": "geology",
+      "topic": "volcanoes"
+    },
+    {
+      "claim": "Krakatoa eruption year",
+      "corrected": null,
+      "note": "Source lists Krakatoa among 19th-century eruptions as 1883.",
+      "result": "match",
+      "source": "https://en.wikipedia.org/wiki/Volcano",
+      "stated": "1883",
+      "subject": "geology",
+      "topic": "volcanoes"
+    },
+    {
+      "claim": "Age of the Earth",
+      "corrected": null,
+      "note": "Source gives Earth history span of about 4.54 plus or minus 0.05 billion years.",
+      "result": "match",
+      "source": "https://en.wikipedia.org/wiki/Geologic_time_scale",
+      "stated": "4.54 billion years",
+      "subject": "geology",
+      "topic": "deeptime"
+    },
+    {
+      "claim": "Start of the Phanerozoic eon",
+      "corrected": "538.8 million years ago",
+      "note": "Source says Cambrian base was revised from 541 Ma to 538.8 Ma and Phanerozoic spans about 538.8 Ma.",
+      "result": "mismatch",
+      "source": "https://en.wikipedia.org/wiki/Geologic_time_scale",
+      "stated": "540 million years ago",
+      "subject": "geology",
+      "topic": "deeptime",
+      "coordinatorAction": "fixed in content",
+      "coordinatorNote": "Phanerozoic start updated to 538.8 million years, the revised Cambrian boundary in the recorded source."
+    },
+    {
+      "claim": "Steno dissected a shark and identified fossil teeth",
+      "corrected": null,
+      "note": "Source dates Steno's shark examination and tongue-stone identification to 1666.",
+      "result": "match",
+      "source": "https://en.wikipedia.org/wiki/Fossil",
+      "stated": "1666",
+      "subject": "geology",
+      "topic": "fossils"
+    },
+    {
+      "claim": "Year given for Noether's theorem",
+      "corrected": null,
+      "note": "Page names Noether's theorem and symmetry link but does not carry the 1915 date.",
+      "result": "source gone",
+      "source": "https://en.wikipedia.org/wiki/Classical_mechanics",
+      "stated": "1915",
+      "subject": "physics",
+      "topic": "mechanics"
+    },
+    {
+      "claim": "Present temperature of cosmic microwave background",
+      "corrected": null,
+      "note": "Source gives approximately 2.725 K today.",
+      "result": "match",
+      "source": "https://en.wikipedia.org/wiki/Big_Bang",
+      "stated": "about 2.7 kelvin",
+      "subject": "physics",
+      "topic": "cosmology"
+    },
+    {
+      "claim": "Dark matter plus dark energy share of universe",
+      "corrected": null,
+      "note": "Source distribution sums dark matter and dark energy to about 95%.",
+      "result": "match",
+      "source": "https://en.wikipedia.org/wiki/Big_Bang",
+      "stated": "roughly 95 percent",
+      "subject": "physics",
+      "topic": "cosmology"
+    },
+    {
+      "claim": "Higgs boson discovery year at CERN",
+      "corrected": null,
+      "note": "CERN states discovery confirmed in 2012, announced 4 July 2012.",
+      "result": "match",
+      "source": "https://home.cern/science/physics/higgs-boson",
+      "stated": "2012",
+      "subject": "physics",
+      "topic": "particle"
+    },
+    {
+      "claim": "Einstein photoelectric effect paper year",
+      "corrected": null,
+      "note": "Source states Einstein published the photoelectric effect theory in 1905.",
+      "result": "match",
+      "source": "https://en.wikipedia.org/wiki/Optics",
+      "stated": "1905",
+      "subject": "physics",
+      "topic": "waves"
+    },
+    {
+      "claim": "Periodic table extends to element 118, oganesson",
+      "corrected": null,
+      "note": "Source states 118 elements are known, ending at oganesson 118.",
+      "result": "match",
+      "source": "https://en.wikipedia.org/wiki/Periodic_table",
+      "stated": "element 118",
+      "subject": "chemistry",
+      "topic": "atoms"
+    },
+    {
+      "claim": "Everything past uranium is synthetic",
+      "corrected": "past element 94; elements 95-118 occur only when synthesized, while the first 94 occur naturally",
+      "note": "Source says first 94 elements occur naturally on Earth, not only up to uranium 92.",
+      "result": "mismatch",
+      "source": "https://en.wikipedia.org/wiki/Periodic_table",
+      "stated": "past uranium (92)",
+      "subject": "chemistry",
+      "topic": "atoms",
+      "coordinatorAction": "fixed in content",
+      "coordinatorNote": "Neptunium (93) and plutonium (94) occur naturally in traces; only elements past 94 are purely synthetic."
+    },
+    {
+      "claim": "Sorensen invented the pH scale",
+      "corrected": null,
+      "note": "Source dates Sorensen introducing pH at Carlsberg Laboratory to 1909.",
+      "result": "match",
+      "source": "https://en.wikipedia.org/wiki/PH",
+      "stated": "1909",
+      "subject": "chemistry",
+      "topic": "acidbase"
+    },
+    {
+      "claim": "Blood pH held steady",
+      "corrected": null,
+      "note": "Source lists natural blood pH 7.34-7.45 and physiological pH 7.365, consistent with 7.4 approx.",
+      "result": "match",
+      "source": "https://en.wikipedia.org/wiki/PH",
+      "stated": "pH 7.4",
+      "subject": "chemistry",
+      "topic": "acidbase"
+    },
+    {
+      "claim": "Seawater pH drop from historic value",
+      "corrected": null,
+      "note": "Source gives ocean surface average falling approx. 8.15 to 8.05 between 1950 and 2020, rounding to stated values.",
+      "result": "match",
+      "source": "https://en.wikipedia.org/wiki/PH",
+      "stated": "8.2 dropped to 8.1",
+      "subject": "chemistry",
+      "topic": "acidbase"
+    },
+    {
+      "claim": "Wohler synthesized urea from inorganic material",
+      "corrected": null,
+      "note": "Source dates Wohler producing organic urea from inorganic starting materials to 1828.",
+      "result": "match",
+      "source": "https://en.wikipedia.org/wiki/Organic_chemistry",
+      "stated": "1828",
+      "subject": "chemistry",
+      "topic": "organic"
+    },
+    {
+      "claim": "Robert Hooke discovered and named cells",
+      "corrected": null,
+      "note": "Source states cells were discovered by Hooke in 1665.",
+      "result": "match",
+      "source": "https://en.wikipedia.org/wiki/Cell_(biology)",
+      "stated": "1665",
+      "subject": "biology",
+      "topic": "Cell Biology (cell)"
+    },
+    {
+      "claim": "Watson and Crick published their DNA structure paper in Nature",
+      "corrected": "25 April 1953",
+      "note": "Nature page gives Published and Issue date as 25 April 1953, not February.",
+      "result": "mismatch",
+      "source": "https://www.nature.com/articles/171737a0",
+      "stated": "February 1953",
+      "subject": "biology",
+      "topic": "Genetics & DNA (genetics)",
+      "coordinatorAction": "fixed in content",
+      "coordinatorNote": "Watson and Crick paper month corrected from February to April (Nature, 25 April 1953)."
+    },
+    {
+      "claim": "The Human Genome Project ran from start to completion",
+      "corrected": null,
+      "note": "Source says launched in October 1990 and completed in April 2003.",
+      "result": "match",
+      "source": "https://www.genome.gov/human-genome-project",
+      "stated": "1990 to 2003",
+      "subject": "biology",
+      "topic": "Genetics & DNA (genetics)"
+    },
+    {
+      "claim": "Lenski's lab has grown E. coli for more than seventy-five thousand generations",
+      "corrected": null,
+      "note": "Recorded Berkeley source opened carries no Lenski experiment or generation count.",
+      "result": "source gone",
+      "source": "https://evolution.berkeley.edu/",
+      "stated": "more than seventy-five thousand generations",
+      "subject": "biology",
+      "topic": "Evolution (evolution)"
+    },
+    {
+      "claim": "Ernst Haeckel coined the term ecology",
+      "corrected": null,
+      "note": "Source says the term was coined in 1866 by Ernst Haeckel.",
+      "result": "match",
+      "source": "https://en.wikipedia.org/wiki/Ecology",
+      "stated": "1866",
+      "subject": "biology",
+      "topic": "Ecology (ecology)"
+    },
+    {
+      "claim": "The human brain contains about eighty-six billion neurons",
+      "corrected": null,
+      "note": "Scholarpedia neuron article contains no total brain neuron count.",
+      "result": "source gone",
+      "source": "http://www.scholarpedia.org/article/Neuron",
+      "stated": "about eighty-six billion neurons",
+      "subject": "biology",
+      "topic": "Neuroscience (neuro)"
+    },
+    {
+      "claim": "Walter Cannon gave homeostasis its current name",
+      "corrected": "1929",
+      "note": "Source dates Cannon championing the term homeostasis to 1929.",
+      "result": "mismatch",
+      "source": "https://en.wikipedia.org/wiki/Physiology",
+      "stated": "1926",
+      "subject": "medicine",
+      "topic": "Physiology (physiology)",
+      "coordinatorAction": "logged as ambiguous, not edited",
+      "coordinatorNote": "Cannon first put homeostasis in print in 1926, which much of the literature attests; the recorded source page gives 1929. Record keeps 1926."
+    },
+    {
+      "claim": "William Harvey published De Motu Cordis",
+      "corrected": null,
+      "note": "Archive metadata says the original Latin text was published at Frankfurt in 1628.",
+      "result": "match",
+      "source": "https://archive.org/details/anatomicalexerci0000harv",
+      "stated": "1628",
+      "subject": "medicine",
+      "topic": "Physiology (physiology)"
+    },
+    {
+      "claim": "Alexander Fleming noticed a mold killing bacteria around it",
+      "corrected": null,
+      "note": "Pharmacology page contains no Fleming or penicillin discovery history.",
+      "result": "source gone",
+      "source": "https://en.wikipedia.org/wiki/Pharmacology",
+      "stated": "September 1928",
+      "subject": "medicine",
+      "topic": "Pharmacology (pharmacology)"
+    },
+    {
+      "claim": "John Snow identified the Broad Street pump in a London cholera outbreak",
+      "corrected": null,
+      "note": "Source describes Snow identifying the Broad Street pump in an 1854 outbreak.",
+      "result": "match",
+      "source": "https://en.wikipedia.org/wiki/Public_health",
+      "stated": "1854",
+      "subject": "medicine",
+      "topic": "Public Health (public_health)"
+    },
+    {
+      "claim": "Smallpox was eradicated",
+      "corrected": null,
+      "note": "Source caption dates the news of global smallpox eradication to 1980.",
+      "result": "match",
+      "source": "https://en.wikipedia.org/wiki/Public_health",
+      "stated": "1980",
+      "subject": "medicine",
+      "topic": "Public Health (public_health)"
+    },
+    {
+      "claim": "George Miller's 1956 paper put short-term memory capacity at about seven items",
+      "corrected": null,
+      "note": "Cognition page contains no mention of Miller or a seven-item capacity.",
+      "result": "source gone",
+      "source": "https://en.wikipedia.org/wiki/Cognition",
+      "stated": "about seven items",
+      "subject": "psychology",
+      "topic": "Cognition (cognition)"
+    },
+    {
+      "claim": "Piaget argued cognitive development proceeds through four stages",
+      "corrected": null,
+      "note": "Source lists Piaget's four stages by name.",
+      "result": "match",
+      "source": "https://en.wikipedia.org/wiki/Developmental_psychology",
+      "stated": "four stages",
+      "subject": "psychology",
+      "topic": "Developmental Psychology (development)"
+    },
+    {
+      "claim": "More than a million new neural connections are formed every second in the first years of life",
+      "corrected": null,
+      "note": "Current Harvard page carries no connections-per-second figure.",
+      "result": "source gone",
+      "source": "https://developingchild.harvard.edu/key-concept/brain-architecture/",
+      "stated": "more than a million new neural connections every second",
+      "subject": "psychology",
+      "topic": "Developmental Psychology (development)"
+    },
+    {
+      "claim": "About one in eight people worldwide lives with some form of mental disorder",
+      "corrected": "nearly 1 in 7 people (1.2 billion in 2023)",
+      "note": "WHO fact sheet now gives nearly 1 in 7 as its key figure.",
+      "result": "mismatch",
+      "source": "https://www.who.int/news-room/fact-sheets/detail/mental-disorders",
+      "stated": "about one in eight people worldwide",
+      "subject": "psychology",
+      "topic": "Clinical Psychology (clinical)",
+      "coordinatorAction": "fixed in content",
+      "coordinatorNote": "Updated to the WHO fact sheet current figure, nearly 1 in 7 (1.2 billion, 2023), replacing the older 1 in 8."
+    },
+    {
+      "claim": "The Open Science Collaboration tried to reproduce 100 findings and succeeded at about a third",
+      "corrected": null,
+      "note": "Paper reports replications of 100 studies, 36 percent with significant results.",
+      "result": "match",
+      "source": "https://www.science.org/doi/10.1126/science.aac4716",
+      "stated": "100 findings, about a third",
+      "subject": "psychology",
+      "topic": "Social Psychology (social_psych)"
+    },
+    {
+      "claim": "Ada Lovelace published the first computer program, an algorithm for Bernoulli numbers",
+      "corrected": null,
+      "note": "Source dates the first computer program to 1843, by Lovelace.",
+      "result": "match",
+      "source": "https://en.wikipedia.org/wiki/Computer_programming",
+      "stated": "1843",
+      "subject": "cs",
+      "topic": "Programming Basics (programming)"
+    },
+    {
+      "claim": "A moth was found in a Harvard computer and logged as a bug",
+      "corrected": null,
+      "note": "Source gives a log book entry dated September 9, 1947 for the moth.",
+      "result": "match",
+      "source": "https://en.wikipedia.org/wiki/Computer_programming",
+      "stated": "September 9, 1947",
+      "subject": "cs",
+      "topic": "Programming Basics (programming)"
+    },
+    {
+      "claim": "Euclid's algorithm for greatest common divisor was written down in the Elements",
+      "corrected": null,
+      "note": "Source describes the Euclidean algorithm in Euclid's Elements, circa 300 BC.",
+      "result": "match",
+      "source": "https://en.wikipedia.org/wiki/Algorithm",
+      "stated": "around 300 BCE",
+      "subject": "cs",
+      "topic": "Algorithms (algorithms)"
+    },
+    {
+      "claim": "B-trees were invented at Boeing",
+      "corrected": null,
+      "note": "Page mentions B-trees only generically, with no inventor, date, or Boeing.",
+      "result": "source gone",
+      "source": "https://en.wikipedia.org/wiki/Data_structure",
+      "stated": "1971",
+      "subject": "cs",
+      "topic": "Data Structures (datastructures)"
+    },
+    {
+      "claim": "Ken Thompson and Dennis Ritchie wrote Unix at Bell Labs",
+      "corrected": null,
+      "note": "Page covers UNIX's origin from MULTICS with no 1969 date or named authors.",
+      "result": "source gone",
+      "source": "https://en.wikipedia.org/wiki/Operating_system",
+      "stated": "1969",
+      "subject": "cs",
+      "topic": "Operating Systems (os)"
+    },
+    {
+      "claim": "The first ARPANET message was the truncated login attempt",
+      "corrected": null,
+      "note": "Source says the first message between the two IMPs was LO.",
+      "result": "match",
+      "source": "https://en.wikipedia.org/wiki/Internet_protocol_suite",
+      "stated": "LO",
+      "subject": "cs",
+      "topic": "Networks (networks)"
+    },
+    {
+      "claim": "Edgar Codd published his relational model paper",
+      "corrected": null,
+      "note": "Source dates Codd's relational model proposal and papers to 1970.",
+      "result": "match",
+      "source": "https://en.wikipedia.org/wiki/Database",
+      "stated": "1970",
+      "subject": "cs",
+      "topic": "Databases (databases)"
+    },
+    {
+      "claim": "The Attention Is All You Need paper introduced the transformer architecture",
+      "corrected": null,
+      "note": "arXiv record shows the paper submitted 12 June 2017, proposing the Transformer.",
+      "result": "match",
+      "source": "https://arxiv.org/abs/1706.03762",
+      "stated": "2017",
+      "subject": "cs",
+      "topic": "Artificial Intelligence (ai)"
+    },
+    {
+      "claim": "Diffie and Hellman published New Directions in Cryptography, introducing public-key agreement",
+      "corrected": null,
+      "note": "Source states Diffie and Hellman published their key exchange in 1976.",
+      "result": "match",
+      "source": "https://en.wikipedia.org/wiki/Cryptography",
+      "stated": "1976",
+      "subject": "cs",
+      "topic": "Cryptography (crypto)"
+    },
+    {
+      "claim": "Farming began around twelve thousand years ago",
+      "corrected": "around 9,000 BCE in the Near East",
+      "note": "Source chronology puts Near East agriculture at c. 9,000 BCE, later elsewhere.",
+      "result": "mismatch",
+      "source": "https://www.worldhistory.org/Neolithic/",
+      "stated": "around twelve thousand years ago",
+      "subject": "history",
+      "topic": "prehistory",
+      "coordinatorAction": "logged as ambiguous, not edited",
+      "coordinatorNote": "Farming origins are commonly dated 10,000 to 12,000 years ago across centers; the record rounds to twelve thousand, the checked source says about 9,000 BCE for the Near East. Left as written."
+    },
+    {
+      "claim": "Hundreds of thousands of cuneiform tablets survive",
+      "corrected": null,
+      "note": "Source estimates half a million tablets held in museums worldwide.",
+      "result": "match",
+      "source": "https://en.wikipedia.org/wiki/Cuneiform",
+      "stated": "hundreds of thousands",
+      "subject": "history",
+      "topic": "mesopotamia"
+    },
+    {
+      "claim": "Athenians defeated the Persians at Marathon in 490 BCE",
+      "corrected": null,
+      "note": "Source states Persians were defeated at Marathon in 490 BCE.",
+      "result": "match",
+      "source": "https://www.worldhistory.org/Athens/",
+      "stated": "490 BCE",
+      "subject": "history",
+      "topic": "greece"
+    },
+    {
+      "claim": "The Roman Republic began in 509 BCE after the last king was expelled",
+      "corrected": null,
+      "note": "Source dates the Republic c. 509 to 27 BC, monarchy overthrown 509 BC.",
+      "result": "match",
+      "source": "https://en.wikipedia.org/wiki/Roman_Republic",
+      "stated": "509 BCE",
+      "subject": "history",
+      "topic": "rome"
+    },
+    {
+      "claim": "The medieval period spans roughly 500 to 1500, about a thousand years",
+      "corrected": null,
+      "note": "Source gives c. AD 500-1500 and duration c. 1000 years.",
+      "result": "match",
+      "source": "https://en.wikipedia.org/wiki/Middle_Ages",
+      "stated": "roughly 500 to 1500 (a thousand years)",
+      "subject": "history",
+      "topic": "medieval"
+    },
+    {
+      "claim": "Bernard Baruch popularized 'Cold War' in a speech in April 1947",
+      "corrected": null,
+      "note": "Source dates Baruch's 'cold war' speech to 16 April 1947.",
+      "result": "match",
+      "source": "https://en.wikipedia.org/wiki/Cold_War",
+      "stated": "April 1947",
+      "subject": "history",
+      "topic": "coldwar"
+    },
+    {
+      "claim": "The Second World War killed probably 70 to 85 million people",
+      "corrected": "40,000,000 to 50,000,000 deaths (FAQ range 35,000,000 to 60,000,000)",
+      "note": "Britannica main text gives 40-50 million deaths, well below the record's range.",
+      "result": "mismatch",
+      "source": "https://www.britannica.com/event/World-War-II",
+      "stated": "70 to 85 million",
+      "subject": "history",
+      "topic": "ww",
+      "coordinatorAction": "logged as ambiguous, not edited",
+      "coordinatorNote": "The 70 to 85 million range is the widely cited casualties accounting including war related famine and disease; Britannica FAQ uses a narrower range. Source dispute, recorded, not silently edited."
+    },
+    {
+      "claim": "I. A. Richards developed his practical-criticism experiment in the 1920s",
+      "corrected": null,
+      "note": "Source says Richards and others developed practical criticism in the 1920s; it gives no 1929 book date.",
+      "result": "match",
+      "source": "https://en.wikipedia.org/wiki/Close_reading",
+      "stated": "1920s",
+      "subject": "literature",
+      "topic": "readclose"
+    },
+    {
+      "claim": "Freytag's pyramid is a five-part dramatic structure",
+      "corrected": null,
+      "note": "Source says Freytag's plot structure consists of five parts.",
+      "result": "match",
+      "source": "https://en.wikipedia.org/wiki/Plot_(narrative)",
+      "stated": "five-act (Freytag pyramid listed among narrative shapes)",
+      "subject": "literature",
+      "topic": "narrative"
+    },
+    {
+      "claim": "The Epic of Gilgamesh was written in Sumerian around 2100 BCE",
+      "corrected": null,
+      "note": "Source dates the oldest epic, Gilgamesh, to c. 2500-1300 BCE in Sumer, a range including 2100 BCE.",
+      "result": "match",
+      "source": "https://en.wikipedia.org/wiki/Epic_poetry",
+      "stated": "around 2100 BCE",
+      "subject": "literature",
+      "topic": "epic"
+    },
+    {
+      "claim": "Two friends published Shakespeare's plays in a folio in 1623",
+      "corrected": null,
+      "note": "Source: First Folio published 1623, prepared by Heminges and Condell, containing 36 plays.",
+      "result": "match",
+      "source": "https://en.wikipedia.org/wiki/First_Folio",
+      "stated": "1623",
+      "subject": "literature",
+      "topic": "shakespeare"
+    },
+    {
+      "claim": "Don Quixote was published in 1605",
+      "corrected": null,
+      "note": "Britannica page places Don Quixote at the beginning of the 17th century but carries no 1605 date.",
+      "result": "source gone",
+      "source": "https://www.britannica.com/art/novel",
+      "stated": "1605",
+      "subject": "literature",
+      "topic": "novel"
+    },
+    {
+      "claim": "Goethe proclaimed the era of world literature in 1827",
+      "corrected": null,
+      "note": "Source quotes Goethe's famous statement dated January 1827.",
+      "result": "match",
+      "source": "https://en.wikipedia.org/wiki/World_literature",
+      "stated": "1827",
+      "subject": "literature",
+      "topic": "world_lit"
+    },
+    {
+      "claim": "Edmund Gettier published his landmark paper in 1963",
+      "corrected": null,
+      "note": "Source cites Edmund Gettier (1963) for the justified-true-belief analysis paper.",
+      "result": "match",
+      "source": "https://plato.stanford.edu/entries/knowledge-analysis/",
+      "stated": "1963",
+      "subject": "philosophy",
+      "topic": "epistemology"
+    },
+    {
+      "claim": "Confucius was born in 551 BCE",
+      "corrected": null,
+      "note": "Source gives a date of 551 BCE for Confucius's birth.",
+      "result": "match",
+      "source": "https://plato.stanford.edu/entries/confucius/",
+      "stated": "551 BCE (lifespan given as 551-479 BCE)",
+      "subject": "philosophy",
+      "topic": "eastern"
+    },
+    {
+      "claim": "Kant's Critique of Pure Reason appeared in 1781",
+      "corrected": null,
+      "note": "Source lists the Critique of Pure Reason as (1781, 1787).",
+      "result": "match",
+      "source": "https://plato.stanford.edu/entries/kant/",
+      "stated": "1781",
+      "subject": "philosophy",
+      "topic": "modern_phil"
+    },
+    {
+      "claim": "Socrates's life ended in 399 BCE",
+      "corrected": null,
+      "note": "Source places Socrates's charge and conviction in 399.",
+      "result": "match",
+      "source": "https://plato.stanford.edu/entries/plato/",
+      "stated": "469-399 BCE",
+      "subject": "philosophy",
+      "topic": "greeks"
+    },
+    {
+      "claim": "Aristotle's Metaphysics is a set of fourteen books",
+      "corrected": null,
+      "note": "Source calls metaphysics the collective title of the fourteen books by Aristotle.",
+      "result": "match",
+      "source": "https://plato.stanford.edu/entries/metaphysics/",
+      "stated": "fourteen books",
+      "subject": "philosophy",
+      "topic": "metaphysics"
+    },
+    {
+      "claim": "Gödel established two incompleteness theorems",
+      "corrected": null,
+      "note": "Source explicitly calls them Gödel's two incompleteness theorems, first and second.",
+      "result": "match",
+      "source": "https://plato.stanford.edu/entries/goedel-incompleteness/",
+      "stated": "two incompleteness theorems",
+      "subject": "philosophy",
+      "topic": "logic"
+    },
+    {
+      "claim": "Christianity and Orthodoxy split in the East-West Schism of 1054",
+      "corrected": null,
+      "note": "Source states the East-West Schism of 1054 formally split Christendom.",
+      "result": "match",
+      "source": "https://en.wikipedia.org/wiki/Abrahamic_religions",
+      "stated": "1054",
+      "subject": "religion",
+      "topic": "abrahamic"
+    },
+    {
+      "claim": "Christianity has about 2.4 billion adherents",
+      "corrected": "about 2.3 billion",
+      "note": "Source gives Christianity about 2.3 billion adherents, 31.1% of world population.",
+      "result": "mismatch",
+      "source": "https://en.wikipedia.org/wiki/Abrahamic_religions",
+      "stated": "about 2.4 billion",
+      "subject": "religion",
+      "topic": "abrahamic",
+      "coordinatorAction": "fixed in content",
+      "coordinatorNote": "Adherent count updated to the figure now stated on the recorded source page."
+    },
+    {
+      "claim": "Islam has about 1.9 billion adherents",
+      "corrected": "about 2.0 billion",
+      "note": "Source gives Islam about 2.0 billion adherents, 24.1% of world population.",
+      "result": "mismatch",
+      "source": "https://en.wikipedia.org/wiki/Abrahamic_religions",
+      "stated": "about 1.9 billion",
+      "subject": "religion",
+      "topic": "abrahamic",
+      "coordinatorAction": "fixed in content",
+      "coordinatorNote": "Adherent count updated to the figure now stated on the recorded source page."
+    },
+    {
+      "claim": "Guru Nanak, founder of Sikhism, was born in 1469",
+      "corrected": null,
+      "note": "Source gives Guru Nanak (1469-1539) and born in 1469 in the Punjab.",
+      "result": "match",
+      "source": "https://www.britannica.com/topic/Sikhism",
+      "stated": "1469",
+      "subject": "religion",
+      "topic": "dharmic"
+    },
+    {
+      "claim": "Guru Gobind Singh died in 1708, leaving the Guru Granth Sahib as perpetual Guru",
+      "corrected": null,
+      "note": "Source gives Gobind Singh (1666-1708) and the scripture becoming sole Guru on his death.",
+      "result": "match",
+      "source": "https://www.britannica.com/topic/Sikhism",
+      "stated": "1708",
+      "subject": "religion",
+      "topic": "dharmic"
+    },
+    {
+      "claim": "Joseph Campbell's The Hero with a Thousand Faces was published in 1949",
+      "corrected": null,
+      "note": "Britannica myth entry as fetched carries no mention of Campbell or 1949.",
+      "result": "source gone",
+      "source": "https://www.britannica.com/topic/myth",
+      "stated": "1949",
+      "subject": "religion",
+      "topic": "myth"
+    },
+    {
+      "claim": "Alfred Marshall formalized supply and demand in Principles of Economics in this year",
+      "corrected": null,
+      "note": "Source states partial equilibrium theory introduced by Marshall in Principles of Economics (1890).",
+      "result": "match",
+      "source": "https://en.wikipedia.org/wiki/Microeconomics",
+      "stated": "1890",
+      "subject": "economics",
+      "topic": "micro"
+    },
+    {
+      "claim": "A. W. Phillips discovered the Phillips curve in this year",
+      "corrected": null,
+      "note": "Source states Phillips wrote a paper in 1958 on unemployment and wage change.",
+      "result": "match",
+      "source": "https://en.wikipedia.org/wiki/Phillips_curve",
+      "stated": "1958",
+      "subject": "economics",
+      "topic": "macro"
+    },
+    {
+      "claim": "The Federal Reserve has been setting rates and managing money supply since this year",
+      "corrected": null,
+      "note": "Checked page contains no occurrence of 1913 or a Federal Reserve founding date.",
+      "result": "source gone",
+      "source": "https://en.wikipedia.org/wiki/Macroeconomics",
+      "stated": "1913",
+      "subject": "economics",
+      "topic": "macro"
+    },
+    {
+      "claim": "Daniel Kahneman shared the Nobel Memorial Prize in Economic Sciences in this year",
+      "corrected": null,
+      "note": "Source is the 2002 prize lecture page; lecture held December 8, 2002.",
+      "result": "match",
+      "source": "https://www.nobelprize.org/prizes/economic-sciences/2002/kahneman/lecture/",
+      "stated": "2002",
+      "subject": "economics",
+      "topic": "behavioral_econ"
+    },
+    {
+      "claim": "Durkheim published Suicide in this year",
+      "corrected": null,
+      "note": "Checked page mentions Durkheim but contains no Suicide or 1897 claim.",
+      "result": "source gone",
+      "source": "https://plato.stanford.edu/entries/social-institutions/",
+      "stated": "1897",
+      "subject": "sociology",
+      "topic": "institutions"
+    },
+    {
+      "claim": "A U.S. child born in the bottom income quintile has about this chance of reaching the top quintile",
+      "corrected": null,
+      "note": "Homepage carries other mobility statistics but not the bottom-to-top quintile figure.",
+      "result": "source gone",
+      "source": "https://opportunityinsights.org/",
+      "stated": "about 7%",
+      "subject": "sociology",
+      "topic": "class"
+    },
+    {
+      "claim": "The Birmingham Centre for Contemporary Cultural Studies operated during these years",
+      "corrected": null,
+      "note": "Checked page contains no mention of Birmingham or the Centre.",
+      "result": "source gone",
+      "source": "https://en.wikipedia.org/wiki/Culture",
+      "stated": "1964–2002",
+      "subject": "sociology",
+      "topic": "culture"
+    },
+    {
+      "claim": "Robert Merton presented strain theory in this year",
+      "corrected": null,
+      "note": "Source describes Merton strain theory and cites Merton (1938), Social Structure and Anomie.",
+      "result": "match",
+      "source": "https://en.wikipedia.org/wiki/Deviance_(sociology)",
+      "stated": "1938",
+      "subject": "sociology",
+      "topic": "deviance"
+    },
+    {
+      "claim": "Marcel Mauss published the essay The Gift in this year",
+      "corrected": null,
+      "note": "Checked page contains no mention of Mauss or The Gift.",
+      "result": "source gone",
+      "source": "https://en.wikipedia.org/wiki/Cultural_anthropology",
+      "stated": "1925",
+      "subject": "anthropology",
+      "topic": "cultural_anthro"
+    },
+    {
+      "claim": "Radiocarbon dating gives archaeology a clock for this span",
+      "corrected": null,
+      "note": "Checked page contains no radiocarbon, Libby, or 50,000-year dating claim.",
+      "result": "source gone",
+      "source": "https://en.wikipedia.org/wiki/Archaeology",
+      "stated": "50,000 years",
+      "subject": "anthropology",
+      "topic": "archaeology"
+    },
+    {
+      "claim": "The Native American Graves Protection and Repatriation Act dates to this year",
+      "corrected": null,
+      "note": "Source states since 1990 federal law has provided for protection and return under NAGPRA.",
+      "result": "match",
+      "source": "https://www.nps.gov/subjects/nagpra/index.htm",
+      "stated": "1990",
+      "subject": "anthropology",
+      "topic": "archaeology"
+    },
+    {
+      "claim": "Anatomically modern humans emerged in Africa roughly this long ago",
+      "corrected": null,
+      "note": "Source states anatomically modern humans emerged in Africa approximately 300,000 years ago.",
+      "result": "match",
+      "source": "https://en.wikipedia.org/wiki/Human_evolution",
+      "stated": "roughly 300,000 years ago",
+      "subject": "anthropology",
+      "topic": "human_evo"
+    },
+    {
+      "claim": "The vocal tract from glottis to lips is roughly this long in an average adult",
+      "corrected": null,
+      "note": "Checked page discusses the vocal tract but gives no 17 cm length.",
+      "result": "source gone",
+      "source": "https://en.wikipedia.org/wiki/Phonetics",
+      "stated": "roughly 17 centimeters",
+      "subject": "linguistics",
+      "topic": "phonetics"
+    },
+    {
+      "claim": "A single phonetic alphabet, the IPA, was proposed in this year",
+      "corrected": null,
+      "note": "Source gives IPA period as 1888 to present and uniform letter values in 1888.",
+      "result": "match",
+      "source": "https://en.wikipedia.org/wiki/International_Phonetic_Alphabet",
+      "stated": "1888",
+      "subject": "linguistics",
+      "topic": "phonetics"
+    },
+    {
+      "claim": "The World Atlas of Language Structures catalogs languages on this many structural features",
+      "corrected": null,
+      "note": "WALS homepage checked in full; it gives no feature count of 192.",
+      "result": "source gone",
+      "source": "https://wals.info/",
+      "stated": "192 structural features",
+      "subject": "linguistics",
+      "topic": "syntax"
+    },
+    {
+      "claim": "Jacob Grimm formalized Grimm's Law in this year",
+      "corrected": null,
+      "note": "Source states in 1822 Jacob Grimm put forth the rule in Deutsche Grammatik.",
+      "result": "match",
+      "source": "https://en.wikipedia.org/wiki/Grimm%27s_law",
+      "stated": "1822",
+      "subject": "linguistics",
+      "topic": "etymology"
+    },
+    {
+      "claim": "The Pantheon's concrete dome was built around this year",
+      "corrected": "c. 114–123 AD",
+      "note": "Source lists the Pantheon, Rome, as c. 114-123 AD, not around 128 CE.",
+      "result": "mismatch",
+      "source": "https://en.wikipedia.org/wiki/History_of_architecture",
+      "stated": "around 128 CE",
+      "subject": "architecture",
+      "topic": "arch_history",
+      "coordinatorAction": "logged as ambiguous, not edited",
+      "coordinatorNote": "Pantheon completion dating is contested (c. 114 to 128 CE across authorities). Record keeps around 128 CE."
+    },
+    {
+      "claim": "Palladio's Four Books of Architecture was published in this year",
+      "corrected": null,
+      "note": "Checked page contains no mention of Palladio or 1570.",
+      "result": "source gone",
+      "source": "https://en.wikipedia.org/wiki/History_of_architecture",
+      "stated": "1570",
+      "subject": "architecture",
+      "topic": "arch_history"
+    },
+    {
+      "claim": "The Brooklyn Bridge dates to this year",
+      "corrected": null,
+      "note": "Checked page contains no mention of the Brooklyn Bridge.",
+      "result": "source gone",
+      "source": "https://en.wikipedia.org/wiki/Structural_engineering",
+      "stated": "1883",
+      "subject": "architecture",
+      "topic": "structural"
+    },
+    {
+      "claim": "The 1811 Manhattan plan laid out this many east-west streets",
+      "corrected": null,
+      "note": "Checked page contains no mention of the Commissioners' Plan or 155 streets.",
+      "result": "source gone",
+      "source": "https://en.wikipedia.org/wiki/Urban_design",
+      "stated": "155 east-west streets",
+      "subject": "architecture",
+      "topic": "urban_design"
+    },
+    {
+      "claim": "Atmospheric carbon dioxide has risen to over this concentration",
+      "corrected": null,
+      "note": "Checked page text contains no 420 ppm concentration figure.",
+      "result": "source gone",
+      "source": "https://ourworldindata.org/co2-and-greenhouse-gas-emissions",
+      "stated": "over 420 parts per million",
+      "subject": "geography",
+      "topic": "climate"
+    },
+    {
+      "claim": "This share of the planet is ocean",
+      "corrected": null,
+      "note": "Checked page contains no statement that over 70 percent of the planet is ocean.",
+      "result": "source gone",
+      "source": "https://en.wikipedia.org/wiki/Biome",
+      "stated": "more than seventy percent",
+      "subject": "geography",
+      "topic": "biomes"
+    },
+    {
+      "claim": "Walter Christaller published central-place theory in this year",
+      "corrected": null,
+      "note": "Source states the theory was introduced in 1933 and first analysed by Walter Christaller.",
+      "result": "match",
+      "source": "https://en.wikipedia.org/wiki/Central_place_theory",
+      "stated": "1933",
+      "subject": "geography",
+      "topic": "cities"
+    },
+    {
+      "claim": "Gerardus Mercator published his new projection map in this year",
+      "corrected": null,
+      "note": "Source states in 1569 Mercator first published a map based on his projection.",
+      "result": "match",
+      "source": "https://en.wikipedia.org/wiki/Cartography",
+      "stated": "1569",
+      "subject": "geography",
+      "topic": "cartography"
+    },
+    {
+      "claim": "The Strait of Hormuz carries roughly this share of global oil",
+      "corrected": null,
+      "note": "Checked page contains no mention of Hormuz or a 20 percent oil share.",
+      "result": "source gone",
+      "source": "https://www.britannica.com/topic/geopolitics",
+      "stated": "roughly 20% of global oil",
+      "subject": "geography",
+      "topic": "geopolitics"
+    }
+  ]
+}
