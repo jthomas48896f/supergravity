@@ -4,6 +4,14 @@
 
 Supergravity is an interactive learning environment that covers 100 subjects, from physics and mathematics to plumbing, beekeeping, chess, and pastry. Each subject is a structured set of micro lessons, visualizations, and interactive exercises, built to be browsed like an atlas rather than consumed like a course. It is for self directed learners, teachers who need rich material fast, and anyone who has ever fallen down a research rabbit hole and wished the hole had better lighting.
 
+## The need
+
+This repo serves Layer 2: Learning. "The ability to learn what you need, when you need it, at a price that does not exclude you, from teaching that does not invent its facts." Supergravity serves that need as an interactive learning environment whose tutor is evaluated in public for groundedness and citation presence.
+
+Unmet, it looks like: students priced out of the tutoring that changes trajectories, adults locked out of retraining, knowledge hoarded behind paywalls and jargon.
+
+The full map: [The Bedrock, a map of human needs](https://github.com/jthomas48896f/jthomas48896f/blob/main/NEEDS.md)
+
 An earlier version of this project is live at [american-desi.github.io/supergravity](https://american-desi.github.io/supergravity/). This repository is the canonical source going forward.
 
 ## Status

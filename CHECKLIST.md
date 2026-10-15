@@ -1,4 +1,5 @@
 # The 110 percent checklist: Supergravity
+Aligned to the Bedrock needs map: Layer 2: Learning, October 15, 2026.
 
 State as of October 15, 2026. Every line carries its evidence; a line without evidence does not count as done. This file is maintained by the daily evolution pass.
 
