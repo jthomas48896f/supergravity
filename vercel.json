@@ -1,0 +1,64 @@
+{
+  "buildCommand": "npm run build --if-present",
+  "crons": [
+    {
+      "path": "/api/ops-digest",
+      "schedule": "0 11 * * *"
+    }
+  ],
+  "functions": {
+    "api/chat.js": {
+      "maxDuration": 30
+    },
+    "api/claim.js": {
+      "maxDuration": 15
+    },
+    "api/ops-digest.js": {
+      "maxDuration": 30
+    },
+    "api/stripe-webhook.js": {
+      "maxDuration": 15
+    }
+  },
+  "headers": [
+    {
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3600, stale-while-revalidate=86400"
+        }
+      ],
+      "source": "/content/_bundle.js"
+    },
+    {
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ],
+      "source": "/dist/:path*"
+    },
+    {
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3600"
+        }
+      ],
+      "source": "/(.*)\\.css"
+    }
+  ],
+  "outputDirectory": ".",
+  "rewrites": [
+    {
+      "destination": "/api/:path*",
+      "source": "/api/:path*"
+    },
+    {
+      "destination": "/index.html",
+      "source": "/((?!api|content|dist|styles|fonts).*)"
+    }
+  ],
+  "version": 2
+}

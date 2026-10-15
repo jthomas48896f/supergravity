@@ -1,0 +1,29 @@
+{
+  "allowScripts": {
+    "esbuild@0.24.2": true
+  },
+  "description": "Atlas of Everything — an interactive learning environment.",
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "esbuild": "^0.24.0",
+    "eslint": "^10.12.0",
+    "globals": "^17.13.0"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "name": "supergravity",
+  "private": true,
+  "scripts": {
+    "build": "node scripts/build.cjs",
+    "build:content": "./tools/build-content-bundle.sh",
+    "dev": "npx serve . -l 3000",
+    "enrich": "node tools/batch-enrich.cjs",
+    "enrich:dry": "node tools/batch-enrich.cjs --dry-run",
+    "eval:tutor": "node tools/tutor-eval/run-eval.cjs --mode=baseline",
+    "eval:tutor:llm": "node tools/tutor-eval/run-eval.cjs --mode=llm",
+    "lint": "eslint api lib tools scripts tutor-api.js eslint.config.cjs",
+    "test": "node scripts/smoke-test.cjs"
+  },
+  "version": "1.0.0"
+}

@@ -1,0 +1,6 @@
+{
+  "mode": "llm",
+  "status": "skipped",
+  "reason": "No API key in environment (OPENAI_API_KEY / TUTOR_EVAL_API_KEY). Not run; no numbers claimed.",
+  "date": "2026-10-15T03:05:15.683Z"
+}

@@ -1,0 +1,10 @@
+{
+  "note": "Committed regression baseline. CI compares each baseline-mode run against these numbers and fails on a per-axis drop greater than 0.05.",
+  "date": "2026-10-15T03:05:09.692Z",
+  "questions": 12,
+  "summary": {
+    "groundedness": 0.806,
+    "citationRate": 1,
+    "correctSourceRate": 0.833
+  }
+}
