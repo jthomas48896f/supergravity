@@ -2,14 +2,6 @@
 
 **The Atlas of Everything.**
 
-Aurora Commons addresses the hierarchy of human needs through open source.
-
-Motto: Stand on the shoulders of giants.
-
-One rule: raise the floor beneath everyone.
-
-Advised by Groundskeeper.
-
 What runs today: Atlas helps you learn. You open it in a browser, choose one of 100 subjects, and read short lessons with pictures and exercises you can try. You get facts that show their sources. The first page is a proof screen. It shows one claim from the atlas, where that claim came from, who stands behind it, how it was checked, what it links to, and its seal. The same claim is shown in full on a phone, in short on a watch, read aloud by voice, and in large type on a public screen.
 
 The AI tutor that used to headline this page was dropped on 2026-10-15, by direction. Its eval harness and results stay in this repo as an archived experiment; see The proof, below.
