@@ -2,6 +2,8 @@
 
 **The Atlas of Everything.**
 
+What runs today: a learning atlas in the browser, 100 subjects of micro lessons, visualizations, and interactive exercises, with an AI tutor graded in public. On the committed tutor eval the tutor scores groundedness 0.806, citation rate 1.0, and correct source rate 0.833, and the weak answers are published beside the strong ones.
+
 ## The need
 
 This repo serves Layer 2: Learning. "The ability to learn what you need, when you need it, at a price that does not exclude you, from teaching that does not invent its facts." Atlas serves that need as an interactive learning environment whose tutor is evaluated in public for groundedness and citation presence.
