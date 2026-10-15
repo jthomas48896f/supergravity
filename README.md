@@ -24,7 +24,7 @@ The full map: [The Ascent, a map of human needs](https://github.com/auroracommon
 
 ## What it is
 
-Atlas helps you learn 100 subjects, from physics and mathematics to plumbing, beekeeping, chess, and pastry. Each subject has short lessons, pictures, and exercises you can try. You can browse it like an atlas, a few pages at a time, instead of taking a full course. It is for people learning on their own, for teachers who need good material fast, and for anyone who wants a clear place to start a new topic.
+Subjects range from physics and mathematics to plumbing, beekeeping, chess, and pastry. You can browse it like an atlas, a few pages at a time, instead of taking a full course. It is for people learning on their own, for teachers who need good material fast, and for anyone who wants a clear place to start a new topic.
 
 ### What is in here
 
@@ -72,8 +72,6 @@ Atlas is learning, Layer 2 of the Ascent, in a body of work built on one thesis:
 - Lumen, trust and meaning: [lumen](https://github.com/auroracommons/lumen), how all of it stays safe, cited, and human governed.
 
 The north star metric for this act, counted honestly once learners are using it and dated when reported: **learners reaching mastery in the atlas**. No number is claimed yet. Ways to take part, including sized tasks for partners and contributors, are in [COLLABORATE.md](COLLABORATE.md) and [CONTRIBUTING.md](CONTRIBUTING.md).
-
-The frame for the whole portfolio, stated as aspiration and direction, never as achievement: the first AI wave automated tasks; what follows it, if people build it deliberately, is a renaissance of human capability. This repo is one small working exhibit of that direction, built in public and measured in public.
 
 ## The proof
 
