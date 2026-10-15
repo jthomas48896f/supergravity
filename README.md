@@ -10,21 +10,21 @@ One rule: Raise the floor beneath everyone.
 
 Advised by Groundskeeper.
 
-What runs today: a learning atlas in the browser, 100 subjects of micro lessons, visualizations, and interactive exercises. Its front door is a proof screen: one claim from the atlas, shown with its ground, its hand, its check, its links, and its seal, and rendered the same on a phone, a watch, by voice, and on a public display. The point is human computer interaction past the smartphone: the claim does not change when the surface does.
+What runs today: Atlas helps you learn. You open it in a browser, choose one of 100 subjects, and read short lessons with pictures and exercises you can try. You get facts that show their sources. The first page is a proof screen. It shows one claim from the atlas, where that claim came from, who stands behind it, how it was checked, what it links to, and its seal. The same claim is shown in full on a phone, in short on a watch, read aloud by voice, and in large type on a public screen.
 
 The AI tutor that used to headline this page was dropped on 2026-10-15, by direction. Its eval harness and results stay in this repo as an archived experiment; see The proof, below.
 
 ## The need
 
-This repo serves Layer 2: Learning. "The ability to learn what you need, when you need it, at a price that does not exclude you, from teaching that does not invent its facts." Atlas serves that need as an interactive learning environment that records the source of what it teaches and shows its work, claim by claim.
+This repo serves Layer 2: Learning. "The ability to learn what you need, when you need it, at a price that does not exclude you, from teaching that does not invent its facts." Atlas serves that need in a plain way: it records the source of what it teaches and shows its work, claim by claim.
 
-Unmet, it looks like: students priced out of the tutoring that changes trajectories, adults locked out of retraining, knowledge hoarded behind paywalls and jargon.
+Unmet, it looks like this: students who cannot pay for the tutoring that helps them pass, adults who cannot get training for a new job, and knowledge kept behind paywalls and hard words.
 
 The full map: [The Ascent, a map of human needs](https://github.com/auroracommons/auroracommons/blob/main/NEEDS.md)
 
 ## What it is
 
-Atlas is an interactive learning environment that covers 100 subjects, from physics and mathematics to plumbing, beekeeping, chess, and pastry. Each subject is a structured set of micro lessons, visualizations, and interactive exercises, built to be browsed like an atlas rather than consumed like a course. It is for self directed learners, teachers who need rich material fast, and anyone who has ever fallen down a research rabbit hole and wished the hole had better lighting.
+Atlas helps you learn 100 subjects, from physics and mathematics to plumbing, beekeeping, chess, and pastry. Each subject has short lessons, pictures, and exercises you can try. You can browse it like an atlas, a few pages at a time, instead of taking a full course. It is for people learning on their own, for teachers who need good material fast, and for anyone who wants a clear place to start a new topic.
 
 ### What is in here
 

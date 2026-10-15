@@ -45,8 +45,6 @@
     }
     .proof-label {
       font-size: 12px;
-      letter-spacing: 0.14em;
-      text-transform: uppercase;
       color: var(--ink-3);
       margin-bottom: 8px;
     }
@@ -54,8 +52,6 @@
     .block:first-of-type { border-top: none; }
     .block h3 {
       font-size: 12px;
-      letter-spacing: 0.14em;
-      text-transform: uppercase;
       color: var(--ink-3);
       margin: 0 0 8px;
       font-weight: 600;
@@ -67,7 +63,7 @@
       font-size: 26px;
       line-height: 1.35;
     }
-    .sub { color: var(--ink-3); font-size: 13px; letter-spacing: 0.04em; text-transform: uppercase; }
+    .sub { color: var(--ink-3); font-size: 13px; }
     .block ul { margin: 0 0 10px; padding-left: 20px; }
     .block li { margin-bottom: 4px; }
     a { color: var(--ink); text-decoration: underline; text-underline-offset: 3px; }
@@ -106,8 +102,6 @@
     }
     .frame .surface {
       font-size: 11px;
-      letter-spacing: 0.14em;
-      text-transform: uppercase;
       color: var(--ink-3);
     }
     .frame p { margin: 0; font-size: 14.5px; }
@@ -161,7 +155,7 @@
 <main>
 
   <h1>Atlas</h1>
-  <p class="tagline">Every claim here carries its proof.</p>
+  <p class="tagline">Atlas is for learning. Read short lessons on 100 subjects. Each fact shows where it came from and how it was checked.</p>
   <p>Aurora Commons addresses the hierarchy of human needs through open source.</p>
   <p>Motto: Stand on the shoulders of giants.</p>
 
@@ -220,7 +214,7 @@ Check: Claim read against the recorded sources; the figure matches. Content veri
   </section>
 
   <h2>One Proof, four surfaces</h2>
-  <p class="section-sub">The same Proof on the surfaces a person actually touches. The size of the moment changes. The claim, its ground, and its check do not.</p>
+  <p class="section-sub">The same Proof, shown four ways. On a phone, a watch, by voice, and on a big screen, the words may get shorter, but the claim and its check stay the same.</p>
 
   <div class="surfaces-row">
 
@@ -255,18 +249,18 @@ Check: Claim read against the recorded sources; the figure matches. Content veri
   <h2>Check it yourself</h2>
   <div class="receipts">
     <p><strong>Open the source.</strong> The claim and its recorded sources sit in content/astronomy.js in this repository, and the source article is linked under Ground.</p>
-    <p><strong>Recompute the seal.</strong> Hash the four lines printed under Seal with SHA-256 and compare the first 16 characters.</p>
+    <p><strong>Check the seal yourself.</strong> Put the four lines printed under Seal into a SHA-256 tool. The first 16 characters of the result should match the seal on this page.</p>
     <p><strong>Read the check.</strong> The method, the result, and the dates are printed in the Check block. Nothing on this page asks to be trusted.</p>
   </div>
-  <p><a href="https://github.com/auroracommons/atlas/issues/new?title=Check%20a%20claim%3A%20The%20Sun%20is%2099.86%20percent%20of%20all%20the%20mass%20in%20the%20solar%20system">Check this claim yourself</a>: the form takes about a minute, and your check is answered in the open.</p>
+  <p><a href="https://github.com/auroracommons/atlas/issues/new?title=Check%20a%20claim%3A%20The%20Sun%20is%2099.86%20percent%20of%20all%20the%20mass%20in%20the%20solar%20system">Check this claim yourself</a>: the form takes about a minute, and someone will reply in public on that page.</p>
 
   <div class="browse">
-    <p>This page is one Proof, and it is the front door of the Atlas now. The atlas itself, 100 subjects of lessons, visualizations, and interactive exercises, lives behind one link:</p>
-    <p><a class="browse-link" href="atlas.html">Browse the atlas content</a></p>
+    <p>This page shows one Proof. The full atlas has short lessons, pictures, and exercises you can try, on 100 subjects:</p>
+    <p><a class="browse-link" href="atlas.html">Open the full atlas</a></p>
   </div>
 
   <footer>
-    <p>One claim, its ground, its hand, its check, its links, its seal. That is a Proof, the building block of the Aurora Commons. Atlas is its first exhibit.</p>
+    <p>A Proof is one claim, shown with where it came from, who stands behind it, how it was checked, what it links to, and its seal. This is the first Proof Atlas has published.</p>
   </footer>
 
   <p>The layer below: <a href="https://auroracommons.github.io/still/">Still, the mind at peace</a></p>
