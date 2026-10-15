@@ -16,7 +16,7 @@ State as of October 15, 2026. Every line carries its evidence; a line without ev
 - [x] Repo description and topics set (description states the verified eval numbers)
 - [x] Good first issues open: #1 add five questions to the tutor eval set, #2 file a groundedness failure (both labeled good first issue, sized in hours)
 - [x] Tagged release: v0.1.0, first verified baseline (published, marked Latest)
-- [x] Live demo: https://jthomas48896f.github.io/supergravity/ (visually verified rendering October 15, 2026: full atlas, 304 topics, navigation and search present, no errors)
+- [x] Live demo: https://thomassupergravity.github.io/supergravity/ (visually verified rendering October 15, 2026: full atlas, 304 topics, navigation and search present, no errors)
 
 ## Working agreements
 - AGENTS.md in this repo governs how changes are made and proven here.
