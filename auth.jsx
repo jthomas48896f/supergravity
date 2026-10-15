@@ -205,7 +205,7 @@ const SignInPage = () => (
       </div>
       <h1 className="sg-signin-h1">A quieter place<br/>to learn.</h1>
       <p className="sg-signin-sub">
-        Curated lessons, a tutor in your pocket, and a place to organize what you learn — and one day contribute it back.
+        Curated lessons and a place to organize what you learn, and one day contribute it back.
       </p>
       <EmailSignInForm/>
     </div>

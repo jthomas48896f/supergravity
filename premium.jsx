@@ -93,8 +93,8 @@ const DOORS = {
   learn: {
     kicker: 'For the endlessly curious',
     h1: <>Learn <em>everything.</em></>,
-    sub: 'One atlas: physics to plumbing, chess to cheesemaking. Interactive lessons, live simulations, and an AI tutor on every page.',
-    points: ['300+ in-depth lessons across 101 subjects — academic depth and real-world craft in one place, growing weekly', 'An AI tutor that answers on any highlighted passage, any lesson, any time', 'Pay once. Own it for life — including every subject and lesson added after you buy'],
+    sub: 'One atlas: physics to plumbing, chess to cheesemaking. Interactive lessons and live simulations on every page.',
+    points: ['300+ in-depth lessons across 101 subjects — academic depth and real-world craft in one place, growing weekly', 'Pay once. Own it for life — including every subject and lesson added after you buy'],
     chips: ['physics', 'math', 'cs', 'philosophy', 'music', 'chess', 'astronomy', 'linguistics'],
   },
   homeschool: {
@@ -197,7 +197,6 @@ const PricingPage = ({ onNav, user, purchased }) => {
           <div style={{ fontSize: 13, color: 'var(--ink-3)', marginBottom: 18 }}>once — not per year</div>
           <ul style={{ margin: '0 0 22px', padding: 0, listStyle: 'none', display: 'grid', gap: 8, fontSize: 15, color: 'var(--ink-2)' }}>
             <li>→ Every subject, every lesson, forever</li>
-            <li>→ AI tutor on every page</li>
             <li>→ All interactive simulations</li>
             <li>→ Workshop notes, paths &amp; spaced repetition</li>
           </ul>

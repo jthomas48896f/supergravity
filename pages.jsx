@@ -17,7 +17,7 @@ const AtlasPage = ({ onNav }) => {
           </h1>
         </div>
         <div className="atlas-hero-meta">
-          <p>A living encyclopedia of school and beyond — eight subjects, three hundred and twelve topics, each opening into interactive lessons, visualizations, and a tutor who never tires of your questions.</p>
+          <p>A living encyclopedia of school and beyond: eight subjects, three hundred and twelve topics, each opening into interactive lessons and visualizations.</p>
           <p style={{ color: 'var(--ink-2)' }}>Built for the curious of any age.</p>
           <div className="atlas-stats">
             <div>
@@ -64,40 +64,7 @@ const AtlasPage = ({ onNav }) => {
         ))}
       </div>
 
-      <section className="featured">
-        <div className="featured-body">
-          <div className="eyebrow">Tutor Mode</div>
-          <h2 className="serif">Claude reads along with you.</h2>
-          <p>
-            Every lesson carries an AI tutor who sees exactly what you see. Highlight a sentence to ask about it. Request a quiz on what you just read. Ask for the history of an idea, or the math underneath a metaphor — as many times as you like, at whatever depth you want.
-          </p>
-          <button className="btn-primary" onClick={() => window.__openTutor?.({ prompt: 'Give me a tour of what you can do here.' })}>
-            <Icon name="sparkle" size={12}/> Meet Claude
-          </button>
-        </div>
-        <div className="featured-visual">
-          <svg viewBox="0 0 400 280" width="100%" height="100%">
-            <defs>
-              <radialGradient id="orb" cx="30%" cy="30%">
-                <stop offset="0%" stopColor="#e09a5a"/>
-                <stop offset="60%" stopColor="#c8621a"/>
-                <stop offset="100%" stopColor="#6b2a0a"/>
-              </radialGradient>
-            </defs>
-            <circle cx="200" cy="140" r="70" fill="url(#orb)"/>
-            <circle cx="200" cy="140" r="90" fill="none" stroke="rgba(224,154,90,0.3)" strokeDasharray="2 4"/>
-            <circle cx="200" cy="140" r="120" fill="none" stroke="rgba(224,154,90,0.15)" strokeDasharray="1 6"/>
-            {[0, 72, 144, 216, 288].map(a => {
-              const rad = (a * Math.PI) / 180;
-              return <circle key={a} cx={200 + 90 * Math.cos(rad)} cy={140 + 90 * Math.sin(rad)} r="3" fill="#e09a5a"/>
-            })}
-            <text x="200" y="260" textAnchor="middle" fontFamily="JetBrains Mono, monospace" fontSize="10" fill="rgba(244,239,230,0.5)" letterSpacing="3">
-              CONTEXT · QUESTION · ANSWER
-            </text>
-          </svg>
-        </div>
-      </section>
-
+      
       <div className="section-header">
         <div>
           <div className="eyebrow">§ II</div>
@@ -304,9 +271,9 @@ const PeopleView = ({ subject }) => {
       <div className="eyebrow" style={{ marginBottom: 20 }}>Thinkers to know</div>
       <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(180px, 1fr))', gap: 1, background: 'var(--rule-soft)', border: '1px solid var(--rule-soft)' }}>
         {list.map(name => (
-          <div key={name} style={{ background: 'var(--paper)', padding: '20px 16px', cursor: 'pointer' }} onClick={() => window.__openTutor?.({ prompt: `Give me a one-paragraph portrait of ${name} and what they are known for.` })}>
+          <div key={name} style={{ background: 'var(--paper)', padding: '20px 16px' }}>
             <div className="serif" style={{ fontSize: 20 }}>{name}</div>
-            <div className="mono" style={{ color: 'var(--ink-3)', marginTop: 6, fontSize: 9 }}>Tap to learn →</div>
+            <div className="mono" style={{ color: 'var(--ink-3)', marginTop: 6, fontSize: 9 }}>Thinker to know</div>
           </div>
         ))}
       </div>
@@ -370,9 +337,9 @@ const LessonPage = ({ topicId, subjectId, onNav }) => {
           <div className="lesson-nav-dir">← Back</div>
           <div className="lesson-nav-title">All {subject.name} topics</div>
         </div>
-        <div className="lesson-nav-item next" onClick={() => { window.Progress?.markCompleted(topicId); window.__openTutor?.({ prompt: 'Quiz me on what I just read.' }); }}>
+        <div className="lesson-nav-item next" onClick={() => { window.Progress?.markCompleted(topicId); }}>
           <div className="lesson-nav-dir">Mark complete →</div>
-          <div className="lesson-nav-title">Take the quiz</div>
+          <div className="lesson-nav-title">Done with this topic</div>
         </div>
       </div>
     </div>
@@ -424,9 +391,6 @@ const LessonStub = ({ topic, subject, onNav }) => {
           <>
             <p className="lead">{reply.split('\n\n')[0]}</p>
             {reply.split('\n\n').slice(1).map((p, i) => <p key={i}>{p}</p>)}
-            <div style={{ marginTop: 40, padding: 20, background: 'var(--paper-2)', border: '1px dashed var(--rule)', fontSize: 13, color: 'var(--ink-3)' }}>
-              ✦ Generated live by your tutor. Ask Claude to go deeper, add examples, or quiz you on it.
-            </div>
           </>
         )}
       </div>
@@ -434,10 +398,6 @@ const LessonStub = ({ topic, subject, onNav }) => {
         <div className="lesson-nav-item" onClick={() => onNav({ page: 'subject', subjectId: subject.id })}>
           <div className="lesson-nav-dir">← Back</div>
           <div className="lesson-nav-title">All {subject.name} topics</div>
-        </div>
-        <div className="lesson-nav-item next" onClick={() => window.__openTutor?.({ prompt: `Explain ${topic?.name} in a different way.` })}>
-          <div className="lesson-nav-dir">Ask Claude →</div>
-          <div className="lesson-nav-title">Another angle on this</div>
         </div>
       </div>
     </div>

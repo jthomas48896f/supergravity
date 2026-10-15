@@ -111,7 +111,7 @@ const LessonPageV2 = ({ topicId, subjectId, onNav }) => {
             <div className="key-terms-title">Key terms</div>
             <div className="key-terms-list">
               {lesson.keyTerms.map(t => (
-                <button key={t} className="key-term-chip" onClick={() => window.__openTutor?.({ prompt: `Define ${t} in the context of ${lesson.title}.` })}>{t}</button>
+                <span key={t} className="key-term-chip">{t}</span>
               ))}
             </div>
           </section>
@@ -196,9 +196,9 @@ const LessonPageV2 = ({ topicId, subjectId, onNav }) => {
           <div className="lesson-nav-dir">← Back</div>
           <div className="lesson-nav-title">All {subject.name} topics</div>
         </div>
-        <div className="lesson-nav-item next" onClick={() => { window.Progress?.markCompleted(topicId); window.__openTutor?.({ prompt: `Quiz me on "${lesson.title}".` }); }}>
+        <div className="lesson-nav-item next" onClick={() => { window.Progress?.markCompleted(topicId); }}>
           <div className="lesson-nav-dir">Mark complete →</div>
-          <div className="lesson-nav-title">Take the quiz</div>
+          <div className="lesson-nav-title">Done with this topic</div>
         </div>
       </div>
 
@@ -281,10 +281,6 @@ const LessonStubV2 = ({ topic, subject, topicId, onNav }) => {
         <div className="lesson-nav-item" onClick={() => onNav({ page: 'subject', subjectId: safeSubject.id })}>
           <div className="lesson-nav-dir">← Back</div>
           <div className="lesson-nav-title">All {safeSubject.name} topics</div>
-        </div>
-        <div className="lesson-nav-item next" onClick={() => window.__openTutor?.({ prompt: `Explain ${safeTopic.name} in another way.` })}>
-          <div className="lesson-nav-dir">Ask Claude →</div>
-          <div className="lesson-nav-title">Another angle</div>
         </div>
       </div>
     </div>
@@ -816,7 +812,7 @@ const Subtopics = ({ subtopics }) => {
                       <div style={{ fontFamily:'JetBrains Mono, monospace', fontSize:10.5, letterSpacing:0.5, textTransform:'uppercase', color:'var(--ink-3)', marginBottom:8 }}>Vocabulary</div>
                       <div style={{ display:'flex', flexWrap:'wrap', gap:6 }}>
                         {st.keyTerms.map((t, ti) => (
-                          <button key={ti} className="key-term-chip" onClick={() => window.__openTutor?.({ prompt: `Define "${t}" in the context of ${st.name}.` })}>{t}</button>
+                          <span key={ti} className="key-term-chip">{t}</span>
                         ))}
                       </div>
                     </div>
@@ -874,14 +870,7 @@ const DailyPage = ({ onNav }) => {
       </div>
 
       <div className="daily-section-label">§ The editors recommend</div>
-      <div style={{padding:24,background:'var(--ink)',color:'var(--paper)'}}>
-        <div className="serif" style={{fontSize:28,lineHeight:1.2}}>Ask Claude for a custom study plan.</div>
-        <div style={{color:'rgba(244,239,230,0.7)',fontSize:14,marginTop:8,maxWidth:480}}>Tell the tutor your goal and timeframe. Claude will design a week-by-week path through the atlas to get you there.</div>
-        <button className="btn-primary" style={{background:'var(--amber)',marginTop:16}} onClick={() => window.__openTutor?.({ prompt: 'Help me design a custom study plan. Ask me what I want to learn and over what timeframe.' })}>
-          <Icon name="sparkle" size={12}/> Open the planner
-        </button>
-      </div>
-    </div>
+          </div>
   );
 };
 window.DailyPage = DailyPage;
@@ -921,7 +910,7 @@ const GlossaryPage = ({ onNav }) => {
         <div className="eyebrow">§ Reference</div>
         <h1 className="serif" style={{marginTop:16}}>Glossary</h1>
         <div style={{fontSize:15,color:'var(--ink-3)',marginTop:12,maxWidth:520,lineHeight:1.55}}>
-          Every key term in the atlas, alphabetized and cross-referenced. Tap any entry to read the lesson it comes from, or ask Claude for a plain-English definition.
+          Every key term in the atlas, alphabetized and cross-referenced. Tap any entry to read the lesson it comes from.
         </div>
         <div className="glossary-search">
           <Icon name="search" size={16}/>

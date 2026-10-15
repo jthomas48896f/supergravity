@@ -82,7 +82,6 @@ const CommandPalette = ({ open, onClose, onNav }) => {
     { kind: 'action', id: 'rule', name: 'The Rule of Atlas', desc: 'What we believe', run: () => onNav({ page: 'rule' }) },
     { kind: 'action', id: 'flashcards', name: 'Study Flashcards', desc: 'Practice what you\'ve learned', run: () => onNav({ page: 'flashcards' }) },
     { kind: 'action', id: 'progress', name: 'My Progress', desc: 'Review what you\'ve read', run: () => onNav({ page: 'progress' }) },
-    { kind: 'action', id: 'tutor', name: 'Open the Tutor', desc: 'Ask anything', run: () => window.__openTutor?.({}) },
     { kind: 'action', id: 'health', name: 'Content health', desc: 'Stewards\u2019 diagnostics \u2014 errors, warnings, issues', run: () => onNav({ page: 'health' }) },
   ];
 
@@ -135,9 +134,6 @@ const CommandPalette = ({ open, onClose, onNav }) => {
           {results.length === 0 && (
             <div className="palette-empty">
               <div>No matches for <strong>"{q}"</strong></div>
-              <button className="btn-ghost" style={{ marginTop: 12 }} onClick={() => { onClose(); window.__openTutor?.({ prompt: `Tell me about ${q}.` }); }}>
-                <Icon name="sparkle" size={12}/> Ask Claude instead
-              </button>
             </div>
           )}
           {results.map((r, i) => (
@@ -263,9 +259,6 @@ const FlashcardsPage = ({ onNav }) => {
 
         <div style={{ marginTop: 40, paddingTop: 24, borderTop: '1px solid var(--rule)', display: 'flex', justifyContent: 'space-between' }}>
           <button className="btn-ghost" onClick={() => { setI(x => (x - 1 + deck.length) % deck.length); setFlipped(false); }}><Icon name="arrowLeft" size={12}/> Previous</button>
-          <button className="btn-ghost" onClick={() => window.__openTutor?.({ prompt: `Explain the answer to this flashcard in more depth: Q: ${card.q} A: ${card.a}` })}>
-            <Icon name="sparkle" size={12}/> Ask Claude to elaborate
-          </button>
           <button className="btn-ghost" onClick={() => { setI(x => (x + 1) % deck.length); setFlipped(false); }}>Next <Icon name="arrow" size={12}/></button>
         </div>
       </div>

@@ -10,7 +10,7 @@ const { useState: uRS, useMemo: uRM } = React;
 const RULE = {
   preamble: [
     'Atlas is a school without a building, and a chapter is a building without a school — a local, living group, bound together by a Path and a Rule, under the care of its Fellows.',
-    'The atlas is our textbook, the tutor is our patient companion, the workshop is where we keep our working, and the chapter is where we become a people. The four are one thing.',
+    'The atlas is our textbook, the workshop is where we keep our working, and the chapter is where we become a people. The three are one thing.',
     'We do not claim to replace school for everyone. We claim to make a place, for those who want it, that has what school is missing — continuity, community, and a way of being recognized for what you actually know.',
   ],
   tenets: [

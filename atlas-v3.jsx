@@ -97,7 +97,7 @@ const AtlasPage = ({ onNav }) => {
             <h1>Every subject,<br/><em>one atlas.</em></h1>
           </div>
           <div className="atlas-v3-hero-right">
-            A living encyclopedia of school and beyond. {window.SUBJECTS.length} subjects, organized by tradition — from calculus to carpentry to cocktails. Each opens into topics, rich lessons, and a tutor who never tires of your questions.
+            A living encyclopedia of school and beyond. {window.SUBJECTS.length} subjects, organized by tradition — from calculus to carpentry to cocktails. Each opens into topics and rich lessons.
             <div className="counter">
               <span><strong>{window.SUBJECTS.length}</strong>Subjects</span>
               <span><strong>{totalTopics}</strong>Topics</span>
@@ -218,11 +218,6 @@ const AtlasPage = ({ onNav }) => {
               <div className="lbl">My Progress</div>
               <div className="desc">Your reading ledger — visited, completed, reviewed.</div>
             </div>
-            <div className="atlas-quick-item" onClick={() => window.__openTutor?.({ prompt: 'Give me a tour of what you can do here.' })}>
-              <div className="sym">✺</div>
-              <div className="lbl">Meet the Tutor</div>
-              <div className="desc">A Socratic partner who's read along with you the whole way.</div>
-            </div>
           </div>
         </section>
       )}
@@ -310,7 +305,7 @@ const SearchResults = ({ results, query, onNav }) => {
     return (
       <div className="atlas-empty">
         Nothing matches <em>"{query}"</em>.<br/>
-        <span style={{ fontSize: 14, fontStyle: 'normal' }}>Try another word, or ask the tutor.</span>
+        <span style={{ fontSize: 14, fontStyle: 'normal' }}>Try another word.</span>
       </div>
     );
   }

@@ -457,25 +457,6 @@ const EveningReflection = () => {
 };
 
 // ============================================
-// Tutor nudge card
-// ============================================
-const TutorNudge = () => (
-  <div className="home-card home-tutor-nudge">
-    <div className="home-tn-glow"/>
-    <div className="home-tn-eyebrow">Tutor</div>
-    <div className="home-tn-title">Ask anything, get a patient, plain-English answer.</div>
-    <div className="home-tn-body">
-      Claude is standing by to explain, quiz, or think alongside you. Press <kbd>⌘J</kbd> any time, or start with a question.
-    </div>
-    <div className="home-tn-actions">
-      <button className="home-btn primary" onClick={() => window.__openTutor?.()}>Open tutor</button>
-      <button className="home-btn quiet" onClick={() => window.__openTutor?.({ prompt: 'Make me a 20-minute study plan for today.' })}>Plan my 20 min</button>
-      <button className="home-btn quiet" onClick={() => window.__openTutor?.({ prompt: 'Teach me something I probably don\'t know.' })}>Surprise me</button>
-    </div>
-  </div>
-);
-
-// ============================================
 // Root HomePage
 // ============================================
 const HomePage = ({ user, onNav }) => {
@@ -491,9 +472,8 @@ const HomePage = ({ user, onNav }) => {
         <ContinueLearning onNav={onNav}/>
         <FocusTimer/>
 
-        {/* Row 2: stats + tutor + breathing */}
+        {/* Row 2: stats + breathing */}
         <StreakCard/>
-        <TutorNudge/>
         <Breathing/>
 
         {/* Row 3: gratitude + habits + word */}

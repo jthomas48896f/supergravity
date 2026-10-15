@@ -149,7 +149,7 @@ const ChaptersPage = ({ onNav, user }) => {
         <h1 className="serif chapters-title">In person, in the city.</h1>
         <p className="chapters-dek">
           Chapter I meets across the five boroughs — in libraries, church basements, maker spaces, and
-          parks. Events are the heart of Atlas. The atlas and the tutor are how you prepare;
+          parks. Events are the heart of Atlas. The atlas is how you prepare;
           the chapter is where you become a member.
         </p>
         <div className="chapters-stats">
@@ -286,7 +286,7 @@ const ChaptersPage = ({ onNav, user }) => {
             <div className="serif chapters-cta-title">Become a founding member.</div>
             <div className="chapters-cta-sub">
               The first cohort of Chapter I is forming now. Members pay $25 / month — this includes the
-              atlas, the tutor, and one free event per month. Supporters pay more to seed the chapter.
+              atlas and one free event per month. Supporters pay more to seed the chapter.
             </div>
           </div>
           <div className="chapters-cta-btns">

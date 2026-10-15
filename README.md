@@ -2,11 +2,13 @@
 
 **The Atlas of Everything.**
 
-What runs today: a learning atlas in the browser, 100 subjects of micro lessons, visualizations, and interactive exercises, with an AI tutor graded in public. On the committed tutor eval the tutor scores groundedness 0.806, citation rate 1.0, and correct source rate 0.833, and the weak answers are published beside the strong ones.
+What runs today: a learning atlas in the browser, 100 subjects of micro lessons, visualizations, and interactive exercises. Its front door is a proof screen: one claim from the atlas, shown with its ground, its hand, its check, its links, and its seal, and rendered the same on a phone, a watch, by voice, and on a public display. The point is human computer interaction past the smartphone: the claim does not change when the surface does.
+
+The AI tutor that used to headline this page was dropped on 2026-10-15, by direction. Its eval harness and results stay in this repo as an archived experiment; see The proof, below.
 
 ## The need
 
-This repo serves Layer 2: Learning. "The ability to learn what you need, when you need it, at a price that does not exclude you, from teaching that does not invent its facts." Atlas serves that need as an interactive learning environment whose tutor is evaluated in public for groundedness and citation presence.
+This repo serves Layer 2: Learning. "The ability to learn what you need, when you need it, at a price that does not exclude you, from teaching that does not invent its facts." Atlas serves that need as an interactive learning environment that records the source of what it teaches and shows its work, claim by claim.
 
 Unmet, it looks like: students priced out of the tutoring that changes trajectories, adults locked out of retraining, knowledge hoarded behind paywalls and jargon.
 
@@ -18,7 +20,7 @@ Atlas is an interactive learning environment that covers 100 subjects, from phys
 
 ### What is in here
 
-- A React application (no framework, esbuild compiled) with an atlas browser, chapter views, interactive visualizations, a workshop, learning paths, and a tutor interface.
+- A React application (no framework, esbuild compiled) with an atlas browser, chapter views, interactive visualizations, a workshop, and learning paths. The demo entry point is a static proof screen (`index.html`); the full app sits behind it at `atlas.html`.
 - A content pipeline (`tools/`): scripts that generate and enrich subject content with an LLM, weighted by explicit source reliability scores (`tools/source-weights.cjs`), and governed by a written grounding policy (`content/_grounding.md`). The position is simple: AI generated learning content should cite its sources, weight them by trustworthiness, and say so in the open.
 - Vercel serverless functions (`api/`): a chat proxy, a claim endpoint, an ops digest, and a Stripe webhook. The chat proxy is hardened in the ordinary production ways: origin allowlist, app check, auth verification, per user rate limiting, and input validation, with the provider key kept server side (`lib/proxy-guard.js`).
 - Supabase schema and seed tooling (`supabase/`): three migrations (foundation, security hardening, academic verification) and the full seed dataset.
@@ -63,6 +65,8 @@ The north star metric for this act, counted honestly once learners are using it 
 The frame for the whole portfolio, stated as aspiration and direction, never as achievement: the first AI wave automated tasks; what follows it, if people build it deliberately, is a renaissance of human capability. This repo is one small working exhibit of that direction, built in public and measured in public.
 
 ## The proof
+
+The tutor eval described in this section is an archived experiment. The tutor was dropped as a product surface on 2026-10-15, by direction; the harness and its published numbers are kept exactly as they ran.
 
 This is a working product, not a mockup. The app builds cleanly (`npm run build` compiles the full JSX source to a single bundle, 473 KB in the current tree), it passes a build smoke test and a scoped lint, and the content library ships in the repo: 93 content modules, a manifest of 100 subjects, and Supabase seed data covering 279 topics and 4,706 curated resources.
 

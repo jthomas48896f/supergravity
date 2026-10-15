@@ -433,9 +433,6 @@ const InteractiveEmbed = ({ kind }) => {
       <div className="interactive-body"><Comp/></div>
       <div className="interactive-foot">
         <span>Experiment freely — your changes don't save.</span>
-        <button className="btn-ghost" onClick={() => window.__openTutor?.({ prompt: `Explain what I'm seeing in the "${entry.title}" interactive.` })}>
-          <Icon name="sparkle" size={12}/> Ask Claude to explain
-        </button>
       </div>
     </div>
   );

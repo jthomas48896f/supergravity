@@ -3,91 +3,255 @@
 <head>
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <title>Atlas of Everything</title>
+  <title>Atlas</title>
+  <style>
+    :root {
+      --paper: #faf7f1;
+      --ink: #1c1a17;
+      --ink-2: #4c463e;
+      --ink-3: #7d766a;
+      --rule: #d9d2c3;
+      --card: #ffffff;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--paper);
+      color: var(--ink);
+      font-family: "Inter Tight", "Helvetica Neue", Arial, sans-serif;
+      line-height: 1.55;
+    }
+    main { max-width: 880px; margin: 0 auto; padding: 56px 24px 72px; }
+    h1 {
+      font-family: Georgia, "Times New Roman", serif;
+      font-weight: normal;
+      font-size: 44px;
+      margin: 0 0 6px;
+      letter-spacing: 0.01em;
+    }
+    .tagline { font-size: 19px; color: var(--ink-2); margin: 0 0 44px; }
+    h2 {
+      font-family: Georgia, "Times New Roman", serif;
+      font-weight: normal;
+      font-size: 26px;
+      margin: 56px 0 8px;
+    }
+    .section-sub { color: var(--ink-2); margin: 0 0 24px; max-width: 620px; }
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter+Tight:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    .proof {
+      background: var(--card);
+      border: 1px solid var(--rule);
+      padding: 32px 32px 8px;
+    }
+    .proof-label {
+      font-size: 12px;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--ink-3);
+      margin-bottom: 8px;
+    }
+    .block { border-top: 1px solid var(--rule); padding: 18px 0 20px; }
+    .block:first-of-type { border-top: none; }
+    .block h3 {
+      font-size: 12px;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--ink-3);
+      margin: 0 0 8px;
+      font-weight: 600;
+    }
+    .block p { margin: 0 0 10px; font-size: 16px; }
+    .block p:last-child { margin-bottom: 0; }
+    .claim {
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 26px;
+      line-height: 1.35;
+    }
+    .sub { color: var(--ink-3); font-size: 13px; letter-spacing: 0.04em; text-transform: uppercase; }
+    .block ul { margin: 0 0 10px; padding-left: 20px; }
+    .block li { margin-bottom: 4px; }
+    a { color: var(--ink); text-decoration: underline; text-underline-offset: 3px; }
+    .mono {
+      font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+      font-size: 13px;
+      word-break: break-all;
+    }
+    details { margin-top: 10px; }
+    summary { cursor: pointer; font-size: 14px; color: var(--ink-2); }
+    pre {
+      background: var(--paper);
+      border: 1px solid var(--rule);
+      padding: 14px 16px;
+      font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+      font-size: 12.5px;
+      line-height: 1.6;
+      white-space: pre-wrap;
+      word-break: break-word;
+      margin: 10px 0 4px;
+    }
 
-  <link rel="stylesheet" href="styles.css"/>
-  <link rel="stylesheet" href="styles-v2.css"/>
-  <link rel="stylesheet" href="styles-v3.css"/>
-  <link rel="stylesheet" href="styles-responsive.css"/>
-  <link rel="stylesheet" href="styles-auth.css"/>
-  <link rel="stylesheet" href="styles-workshop.css"/>
-  <link rel="stylesheet" href="styles-chapters.css"/>
-  <link rel="stylesheet" href="styles-media.css"/>
+    .surfaces-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+      align-items: stretch;
+    }
+    .frame {
+      background: var(--card);
+      border: 1px solid var(--rule);
+      padding: 18px;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+    .frame .surface {
+      font-size: 11px;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--ink-3);
+    }
+    .frame p { margin: 0; font-size: 14.5px; }
+    .frame .small { font-size: 12.5px; color: var(--ink-2); }
+    .frame-phone { flex: 1 1 240px; border-radius: 18px; }
+    .frame-phone .f-claim { font-family: Georgia, serif; font-size: 18px; line-height: 1.35; }
+    .frame-watch { flex: 0 1 168px; border-radius: 36px; text-align: center; justify-content: center; padding: 22px 14px; }
+    .frame-watch .f-claim { font-size: 15px; font-weight: 600; line-height: 1.4; }
+    .frame-voice { flex: 1 1 300px; border-left: 4px solid var(--ink); }
+    .frame-voice .spoken { font-family: Georgia, serif; font-size: 16.5px; line-height: 1.5; }
+    .frame-display { flex: 1 1 100%; padding: 28px; }
+    .frame-display .f-claim {
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 34px;
+      line-height: 1.25;
+    }
+    .frame-display .small { font-size: 14px; }
+
+    .receipts p { margin: 0 0 12px; max-width: 640px; }
+    .receipts strong { font-weight: 600; }
+
+    .browse { margin-top: 56px; border-top: 1px solid var(--rule); padding-top: 28px; }
+    .browse p { max-width: 640px; }
+    .browse-link { font-size: 18px; }
+
+    footer {
+      margin-top: 56px;
+      border-top: 1px solid var(--rule);
+      padding-top: 20px;
+      color: var(--ink-3);
+      font-size: 14px;
+      max-width: 640px;
+    }
+  </style>
 </head>
 <body>
-  <div id="root"></div>
+<main>
 
-  <!-- React 18 production builds — no devtools overhead, ~180KB vs 1.1MB dev -->
-  <script src="https://unpkg.com/react@18.3.1/umd/react.production.min.js" crossorigin="anonymous"></script>
-  <script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.production.min.js" crossorigin="anonymous"></script>
+  <h1>Atlas</h1>
+  <p class="tagline">Every claim here carries its proof.</p>
 
-  <!-- Supabase client (real auth + the people-powered commons).
-       supabase-js UMD → public config → client init (window.SG.sb). -->
-  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-  <script src="sg-config.js"></script>
-  <script src="sg-supabase.js"></script>
+  <section class="proof" aria-label="The Proof">
+    <div class="proof-label">The Proof</div>
 
-  <script src="data.js"></script>
-  <script src="lessons.js"></script>
-  <script src="lessons-hero.js"></script>
+    <div class="block">
+      <h3>Claim</h3>
+      <p class="claim">The Sun is 99.86 percent of all the mass in the solar system.</p>
+      <p><span class="sub">In plain words:</span> The Sun holds 99.86 percent of the solar system's mass. Everything else, every planet, moon, and rock, is the remaining 0.14 percent.</p>
+      <p><span class="sub">In simpler words:</span> Almost everything in the solar system is the Sun. If you could weigh it all, the Sun would be 99.86 parts out of 100. All the planets together are just a tiny piece.</p>
+    </div>
 
-  <!-- Content bundle (≈ 3.7MB, one HTTP request).
-       Build with: ./tools/build-content-bundle.sh
-       Dev mode: comment this line, uncomment your subject file + _bootstrap.js below. -->
-  <script src="content/_bundle.js"></script>
-  <!-- <script src="content/<subject-id>.js"></script> -->
-  <!-- <script src="content/_bootstrap.js"></script> -->
+    <div class="block">
+      <h3>Ground</h3>
+      <p>This claim stands in the Atlas topic Solar System, in the file content/astronomy.js in this repository. That file records these sources for the topic:</p>
+      <ul>
+        <li><a href="https://en.wikipedia.org/wiki/Solar_System">Wikipedia: Solar System</a></li>
+        <li><a href="https://science.nasa.gov/solar-system/">NASA: Solar System</a></li>
+        <li><a href="https://apod.nasa.gov/apod/astropix.html">NASA Astronomy Picture of the Day</a></li>
+      </ul>
+      <p>The first source states the figure directly: "The Sun accounts for 99.86% of the Solar System's total mass."</p>
+    </div>
 
-  <!-- Wikipedia + Wikimedia Commons enrichment data.
-       Generated by: npm run enrich  (requires ANTHROPIC_API_KEY)
-       Adds images, wonder hooks, truth scores, and Wikipedia links to all lessons. -->
-  <script src="content/_enrichment.js"></script>
+    <div class="block">
+      <h3>Hand</h3>
+      <p>The Atlas maintainers, who curate this atlas and stand behind what it says. The hand is on the record: the content file names the topic's curator (batch B02-hard-sciences, a working session of the maintainers) and the date the topic was verified.</p>
+    </div>
 
-  <script src="tutor-api.js"></script>
+    <div class="block">
+      <h3>Check</h3>
+      <p>Method: the claim was read against the sources recorded for its topic.</p>
+      <p>Result: a match. The cited source gives the same figure, 99.86 percent.</p>
+      <p>Dates: the atlas records this topic as verified on April 22, 2026. This page was checked on October 15, 2026.</p>
+    </div>
 
-  <!-- Compiled app bundle — all JSX pre-compiled, no Babel needed.
-       Build with: npm run build  (requires Node + esbuild, run once after changes)
-       Dev fallback: if dist/sg-app.js is absent, reload with ?babel=1 to use Babel inline. -->
-  <script>
-    (function() {
-      var compiled = document.createElement('script');
-      compiled.src = 'dist/sg-app.js';
-      compiled.onerror = function() {
-        // dist/sg-app.js not found (local dev without a build) — load Babel fallback
-        if (!location.search.includes('babel=1')) {
-          location.replace(location.href + (location.search ? '&babel=1' : '?babel=1'));
-        }
-      };
-      document.currentScript.parentNode.appendChild(compiled);
-    })();
-  </script>
+    <div class="block">
+      <h3>Links</h3>
+      <p>Supports: the Solar System topic in the Atlas, the lesson this claim is drawn from.</p>
+      <p>Depends on: the sources listed under Ground.</p>
+      <p>Contradicts: nothing recorded. This is the first Proof the Atlas has published, so its web of links starts here.</p>
+    </div>
 
-  <!-- Babel fallback: only loaded when ?babel=1 is in the URL.
-       This allows local development without running npm run build first. -->
-  <script>
-    if (location.search.includes('babel=1')) {
-      document.write('<scr'+'ipt src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" crossorigin="anonymous"></scr'+'ipt>');
-    }
-  </script>
-  <script>
-    if (location.search.includes('babel=1')) {
-      var babelScripts = [
-        'components.jsx','interactives.jsx','interactives-v2.jsx',
-        'content/_interactives-bundle.jsx','content/b04-enhance.js',
-        'tutor.jsx','tutor-v2.jsx','extras.jsx','extras2.jsx','pages.jsx',
-        'pages-v2.jsx','hero-visual.jsx','atlas-v3.jsx','auth.jsx',
-        'home.jsx','workshop.jsx','path.jsx','rule.jsx','chapters.jsx',
-        'health.jsx','contribute.jsx','premium.jsx','app.jsx'
-      ];
-      // Inject as text/babel tags so Babel transforms them
-      babelScripts.forEach(function(src) {
-        document.write('<scr'+'ipt type="text/babel" src="'+src+'"></scr'+'ipt>');
-      });
-    }
-  </script>
+    <div class="block">
+      <h3>Seal</h3>
+      <p>SHA-256, first 16 characters: <span class="mono">6cc5595908ab0208</span></p>
+      <p class="mono">6cc5595908ab0208c908eac0c2b326003d116a8da1d7315af470cfe1dfbdb60e</p>
+      <details>
+        <summary>The seal input, exactly as hashed</summary>
+        <pre>Claim: The Sun is 99.86 percent of all the mass in the solar system.
+Ground: https://en.wikipedia.org/wiki/Solar_System | https://science.nasa.gov/solar-system/ | https://apod.nasa.gov/apod/astropix.html
+Hand: The Atlas maintainers
+Check: Claim read against the recorded sources; the figure matches. Content verified 2026-04-22; this page checked 2026-10-15.</pre>
+      </details>
+    </div>
+  </section>
+
+  <h2>One Proof, four surfaces</h2>
+  <p class="section-sub">The same Proof on the surfaces a person actually touches. The size of the moment changes. The claim, its ground, and its check do not.</p>
+
+  <div class="surfaces-row">
+
+    <div class="frame frame-phone">
+      <div class="surface">Phone</div>
+      <p class="f-claim">The Sun is 99.86 percent of all the mass in the solar system.</p>
+      <p class="small">Ground: Wikipedia and NASA, recorded in the Atlas topic.</p>
+      <p class="small">Check: match. Verified April 22, 2026.</p>
+      <p class="small mono">Seal 6cc5595908ab0208</p>
+    </div>
+
+    <div class="frame frame-watch">
+      <div class="surface">Watch</div>
+      <p class="f-claim">Sun: 99.86% of the solar system's mass</p>
+      <p class="small">Checked</p>
+      <p class="small mono">Seal 6cc55959</p>
+    </div>
+
+    <div class="frame frame-voice">
+      <div class="surface">Voice, spoken exactly like this</div>
+      <p class="spoken">"Almost everything in the solar system is the Sun. If you could weigh it all, the Sun would be ninety nine point eight six parts out of one hundred. All the planets and moons together are just a tiny piece left over. This claim has been checked against its sources."</p>
+    </div>
+
+    <div class="frame frame-display">
+      <div class="surface">Public display</div>
+      <p class="f-claim">The Sun is 99.86% of the solar system's mass.</p>
+      <p class="small">Checked against its sources.</p>
+    </div>
+
+  </div>
+
+  <h2>Check it yourself</h2>
+  <div class="receipts">
+    <p><strong>Open the source.</strong> The claim and its recorded sources sit in content/astronomy.js in this repository, and the source article is linked under Ground.</p>
+    <p><strong>Recompute the seal.</strong> Hash the four lines printed under Seal with SHA-256 and compare the first 16 characters.</p>
+    <p><strong>Read the check.</strong> The method, the result, and the dates are printed in the Check block. Nothing on this page asks to be trusted.</p>
+  </div>
+
+  <div class="browse">
+    <p>This page is one Proof, and it is the front door of the Atlas now. The atlas itself, 100 subjects of lessons, visualizations, and interactive exercises, lives behind one link:</p>
+    <p><a class="browse-link" href="atlas.html">Browse the atlas content</a></p>
+  </div>
+
+  <footer>
+    <p>One claim, its ground, its hand, its check, its links, its seal. That is a Proof, the building block of the Aurora Commons. Atlas is its first exhibit.</p>
+  </footer>
+
+</main>
 </body>
 </html>

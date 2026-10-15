@@ -69,26 +69,22 @@ const App = () => {
   }, [nav]);
 
   useEffectA(() => {
-    window.__openTutor = ({ prompt } = {}) => {
-      setTutorOpen(true);
-      if (prompt) setTimeout(() => window.__tutorSeed?.(prompt), 100);
-    };
+    // The tutor was dropped as a product surface on 2026-10-15, by Joshua's
+    // direction. Its code stays in the tree (tutor.jsx, tutor-v2.jsx) and its
+    // eval harness stays as an archived experiment (tools/tutor-eval/), but
+    // nothing in the app opens it anymore, so this is deliberately a no-op.
+    window.__openTutor = () => {};
     window.__openPalette = () => setPaletteOpen(true);
     return () => { window.__openTutor = null; window.__openPalette = null; };
   }, []);
 
   useEffectA(() => {
     const onKey = (e) => {
-      if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === 'j') {
-        e.preventDefault();
-        setTutorOpen(t => !t);
-      }
       if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === 'k') {
         e.preventDefault();
         setPaletteOpen(p => !p);
       }
       if (e.key === 'Escape') {
-        setTutorOpen(false);
         setPaletteOpen(false);
         setAskTip(null);
       }
@@ -199,26 +195,8 @@ const App = () => {
 
       <CommandPalette open={paletteOpen} onClose={() => setPaletteOpen(false)} onNav={setNav}/>
 
-      {askTip && (
-        <button
-          className="ask-tip"
-          style={{ left: askTip.x, top: askTip.y, transform: 'translateX(-50%)' }}
-          onMouseDown={(e) => {
-            e.preventDefault();
-            window.__openTutor?.({ prompt: `Explain this passage: "${askTip.text}"` });
-            setAskTip(null);
-            window.getSelection()?.removeAllRanges();
-          }}
-        >
-          <span className="ask-tip-dot"/>
-          Ask Claude about this
-        </button>
-      )}
 
       {!premium && nav.page !== 'pricing' && nav.page !== 'landing' && <window.UnlockFab onNav={setNav}/>}
-      {!tutorOpen && <TutorFab onOpen={() => setTutorOpen(true)}/>}
-      {tutorOpen && <TutorDock context={tutorContext} onClose={() => setTutorOpen(false)}/>}
-
       {/* Work Pad — available on lesson & subject pages for signed-in users */}
       {user && (nav.page === 'lesson' || nav.page === 'subject') && window.WorkPadFab && <window.WorkPadFab/>}
 
