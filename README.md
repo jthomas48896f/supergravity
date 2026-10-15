@@ -12,7 +12,7 @@ This repo serves Layer 2: Learning. "The ability to learn what you need, when yo
 
 Unmet, it looks like this: students who cannot pay for the tutoring that helps them pass, adults who cannot get training for a new job, and knowledge kept behind paywalls and hard words.
 
-The full map: [The Ascent, a map of human needs](https://github.com/auroracommons/auroracommons/blob/main/NEEDS.md)
+The full map: [The Ascent, a map of human needs](https://github.com/topsoilcommons/topsoilcommons/blob/main/NEEDS.md)
 
 ## What it is
 
@@ -55,13 +55,13 @@ Direction, not shipped capability: the field is moving toward tutors that are au
 
 Atlas is learning, Layer 2 of the Ascent, in a body of work built on one thesis: technology should increase human capability without taking human agency away. The problem family Atlas serves is learning poverty and unequal education. The Ascent, in order:
 
-- Ground, the body: [ground](https://github.com/auroracommons/ground)
-- Still, the mind at peace: [still](https://github.com/auroracommons/still)
+- Ground, the body: [ground](https://github.com/topsoilcommons/ground)
+- Still, the mind at peace: [still](https://github.com/topsoilcommons/still)
 - Atlas, learning (Layer 2): this repo.
-- Cohort, belonging: [cohort](https://github.com/auroracommons/cohort), how people find each other and build together.
-- Graph, shared truth: [graph](https://github.com/auroracommons/graph), how knowledge connects and can be questioned.
-- Machine, autonomy: [machine](https://github.com/auroracommons/machine), how the machine itself learns, from first principles.
-- Lumen, trust and meaning: [lumen](https://github.com/auroracommons/lumen), how all of it stays safe, cited, and human governed.
+- Cohort, belonging: [cohort](https://github.com/topsoilcommons/cohort), how people find each other and build together.
+- Graph, shared truth: [graph](https://github.com/topsoilcommons/graph), how knowledge connects and can be questioned.
+- Machine, autonomy: [machine](https://github.com/topsoilcommons/machine), how the machine itself learns, from first principles.
+- Lumen, trust and meaning: [lumen](https://github.com/topsoilcommons/lumen), how all of it stays safe, cited, and human governed.
 
 The north star metric for this act, counted honestly once learners are using it and dated when reported: **learners reaching mastery in the atlas**. No number is claimed yet. Ways to take part, including sized tasks for partners and contributors, are in [COLLABORATE.md](COLLABORATE.md) and [CONTRIBUTING.md](CONTRIBUTING.md).
 
@@ -81,7 +81,7 @@ Stated plainly, here is what is not finished:
 
 ## Live demo
 
-The live demo is at [auroracommons.github.io/atlas](https://auroracommons.github.io/atlas/).
+The live demo is at [topsoilcommons.github.io/atlas](https://topsoilcommons.github.io/atlas/).
 
 An earlier version of this project is live at [american-desi.github.io/supergravity](https://american-desi.github.io/supergravity/). This repository is the canonical source going forward.
 
@@ -91,7 +91,7 @@ An earlier version of this project is live at [american-desi.github.io/supergrav
 - Take the Eval Challenge against this repo's published tutor scores, and attach your run.
 - Adopt the tutor or the atlas in real use and report back what happened, good or bad.
 
-The full protocol: [The Open Table](https://github.com/auroracommons/auroracommons/blob/main/OPEN_TABLE.md). Verified work is credited in the public [Ledger](https://github.com/auroracommons/auroracommons/blob/main/LEDGER.md).
+The full protocol: [The Open Table](https://github.com/topsoilcommons/topsoilcommons/blob/main/OPEN_TABLE.md). Verified work is credited in the public [Ledger](https://github.com/topsoilcommons/topsoilcommons/blob/main/LEDGER.md).
 
 ### Start with a prompt
 
@@ -112,7 +112,7 @@ Open a failure report issue in this repo and include the input you gave the tuto
 Say what happened, and say what should have happened instead.
 ```
 
-Its record is filed in [the Index](https://auroracommons.github.io/index/).
+Its record is filed in [the Index](https://topsoilcommons.github.io/index/).
 
 ## License
 
