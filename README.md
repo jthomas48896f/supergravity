@@ -2,6 +2,14 @@
 
 **The Atlas of Everything.**
 
+Aurora Commons addresses the hierarchy of human needs through open source.
+
+Motto: Stand on the shoulders of giants.
+
+One rule: Raise the floor beneath everyone.
+
+Advised by Groundskeeper.
+
 What runs today: a learning atlas in the browser, 100 subjects of micro lessons, visualizations, and interactive exercises. Its front door is a proof screen: one claim from the atlas, shown with its ground, its hand, its check, its links, and its seal, and rendered the same on a phone, a watch, by voice, and on a public display. The point is human computer interaction past the smartphone: the claim does not change when the surface does.
 
 The AI tutor that used to headline this page was dropped on 2026-10-15, by direction. Its eval harness and results stay in this repo as an archived experiment; see The proof, below.
@@ -53,12 +61,15 @@ Direction, not shipped capability: the field is moving toward tutors that are au
 
 ### The larger story
 
-Atlas is Act 1, the Atlas, in a five part body of work built on one thesis: technology should increase human capability without taking human agency away. The problem family this act serves is learning poverty and unequal education. The other acts:
+Atlas is learning, Layer 2 of the Ascent, in a body of work built on one thesis: technology should increase human capability without taking human agency away. The problem family Atlas serves is learning poverty and unequal education. The Ascent, in order:
 
-- Act 2, the Commons: [cohort](https://github.com/auroracommons/cohort), how people find each other and build together.
-- Act 3, the Machine: [machine](https://github.com/auroracommons/machine), how the machine itself learns, from first principles.
-- Act 4, the Graph: [graph](https://github.com/auroracommons/graph), how knowledge connects and can be questioned.
-- Act 5, the Guardrails: [lumen](https://github.com/auroracommons/lumen), how all of it stays safe, cited, and human governed.
+- Ground, the body: [ground](https://github.com/auroracommons/ground)
+- Still, the mind at peace: [still](https://github.com/auroracommons/still)
+- Atlas, learning (Layer 2): this repo.
+- Cohort, belonging: [cohort](https://github.com/auroracommons/cohort), how people find each other and build together.
+- Graph, shared truth: [graph](https://github.com/auroracommons/graph), how knowledge connects and can be questioned.
+- Machine, autonomy: [machine](https://github.com/auroracommons/machine), how the machine itself learns, from first principles.
+- Lumen, trust and meaning: [lumen](https://github.com/auroracommons/lumen), how all of it stays safe, cited, and human governed.
 
 The north star metric for this act, counted honestly once learners are using it and dated when reported: **learners reaching mastery in the atlas**. No number is claimed yet. Ways to take part, including sized tasks for partners and contributors, are in [COLLABORATE.md](COLLABORATE.md) and [CONTRIBUTING.md](CONTRIBUTING.md).
 
