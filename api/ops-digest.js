@@ -53,7 +53,7 @@ module.exports = async (req, res) => {
   if (paywall24 > 50 && checkout24 === 0) alerts.push('PAYWALL TRAFFIC BUT ZERO CHECKOUT CLICKS — FUNNEL LEAK');
 
   const body = [
-    `# Supergravity daily digest — ${day}`,
+    `# Atlas daily digest — ${day}`,
     alerts.length ? `\n**${alerts.join(' · ')}**\n` : '',
     `## Money`,
     `- Lifetime sales: **${sales}** total (${sales24} last 24h, ${sales7d} last 7d) — ~$${revenue.toLocaleString()} gross`,
@@ -79,7 +79,7 @@ module.exports = async (req, res) => {
       method: 'POST',
       headers: { Authorization: `Bearer ${process.env.RESEND_API_KEY}`, 'Content-Type': 'application/json' },
       body: JSON.stringify({
-        from: 'Supergravity Ops <onboarding@resend.dev>',
+        from: 'Atlas Ops <onboarding@resend.dev>',
         to: [process.env.OPS_EMAIL || 'jteducates@gmail.com'],
         subject: `SG digest ${day}: ${sales24} sale${sales24 === 1 ? '' : 's'}, ${checkout24} checkout clicks${alerts.length ? ' — ALERT' : ''}`,
         text: body,

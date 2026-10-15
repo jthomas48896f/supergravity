@@ -1,4 +1,4 @@
-# Supergravity — Finance Brief (02)
+# Atlas — Finance Brief (02)
 
 **Prepared:** 2026-07-06 · Solo founder: Josh Thomas · Panel: Campbell (pricing) / Cohen (bootstrap econ) / conservative CFO / revenue operator.
 **Disclaimer: this is internal analysis, not licensed financial, tax, or legal advice. Confirm tax/entity questions with a CPA.**
@@ -130,7 +130,7 @@ Read: opex is ~$55/mo ≈ **1 sale/month keeps the lights on**. Everything above
 
 1. **Separate account, day one.** Free business checking (Mercury or Relay). All Stripe payouts land there; all business costs (Vercel, Supabase, OpenAI, domain) paid from there. Never commingle.
 2. **Stripe settings (15 minutes, do before launch):**
-   - Statement descriptor: `SUPERGRAVITY` (prevents "what is this charge?" disputes — disputes cost $15 each).
+   - Statement descriptor: `ATLAS` (prevents "what is this charge?" disputes — disputes cost $15 each).
    - Enable customer receipt emails + support email/URL on receipts.
    - **Enable Stripe Tax** on the Payment Links: digital products/SaaS are taxable in many US states and VAT applies in EU/UK; lifetime one-time sales still count. Let Stripe collect; register only where you cross thresholds.
    - Set payout schedule to weekly (smoother reconciliation than daily).

@@ -179,7 +179,7 @@ async function getWikiImages(title, maxImages = 5) {
 async function openaiEval(topic, summary, apiKey) {
   if (!apiKey) return null;
 
-  const prompt = `You are an epistemologist and educator for "Supergravity — Atlas of Everything", an educational platform for all ages.
+  const prompt = `You are an epistemologist and educator for "Atlas of Everything", an educational platform for all ages.
 
 Topic: "${topic.name}" (${topic.subjectName})
 Wikipedia extract: "${summary.extract.slice(0, 2500)}"

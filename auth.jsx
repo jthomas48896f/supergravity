@@ -199,7 +199,7 @@ const SignInPage = () => (
       <div className="sg-signin-brand">
         <SgMark size={44}/>
         <div>
-          <div className="sg-signin-name">Supergravity</div>
+          <div className="sg-signin-name">Atlas</div>
           <div className="sg-signin-tag">Atlas of Everything</div>
         </div>
       </div>
@@ -226,7 +226,7 @@ const SignInModal = ({ onClose }) => {
         <div className="sg-signin-brand">
           <SgMark size={36}/>
           <div>
-            <div className="sg-signin-name">Supergravity</div>
+            <div className="sg-signin-name">Atlas</div>
             <div className="sg-signin-tag">Atlas of Everything</div>
           </div>
         </div>

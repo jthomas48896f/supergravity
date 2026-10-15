@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// Tutor eval harness for Supergravity.
+// Tutor eval harness for Atlas.
 //
 // What this measures: whether answers produced over the atlas content are
 // grounded (they contain the facts the atlas itself states) and cited (they
@@ -115,7 +115,7 @@ async function llmAnswer(hits, question) {
       model,
       max_tokens: 400,
       messages: [
-        { role: 'system', content: 'You are the Supergravity tutor. Answer using only the provided atlas passages. Do not add facts that are not in the passages. End your answer with citations in the form [source: filename.js] for every passage you used.' },
+        { role: 'system', content: 'You are the Atlas tutor. Answer using only the provided atlas passages. Do not add facts that are not in the passages. End your answer with citations in the form [source: filename.js] for every passage you used.' },
         { role: 'user', content: `Atlas passages:\n\n${context}\n\nQuestion: ${question}` },
       ],
     }),

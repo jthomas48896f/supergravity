@@ -1,7 +1,7 @@
 // ============================================
 // Chapters — NYC (Chapter I)
 // Local events, founding masters, partner venues.
-// This is the social/IRL surface of Supergravity. For launch it is one
+// This is the social/IRL surface of Atlas. For launch it is one
 // chapter in one city, hand-run by the founder.
 // ============================================
 
@@ -149,7 +149,7 @@ const ChaptersPage = ({ onNav, user }) => {
         <h1 className="serif chapters-title">In person, in the city.</h1>
         <p className="chapters-dek">
           Chapter I meets across the five boroughs — in libraries, church basements, maker spaces, and
-          parks. Events are the heart of Supergravity. The atlas and the tutor are how you prepare;
+          parks. Events are the heart of Atlas. The atlas and the tutor are how you prepare;
           the chapter is where you become a member.
         </p>
         <div className="chapters-stats">
@@ -240,7 +240,7 @@ const ChaptersPage = ({ onNav, user }) => {
       <section className="chapters-section">
         <h2 className="serif chapters-section-title">Where we meet</h2>
         <p className="chapters-section-lead">
-          Supergravity does not own a building. We are guests in the third places New York has already
+          Atlas does not own a building. We are guests in the third places New York has already
           built — libraries, houses of worship, shops, and parks. This is by design: a chapter is a
           current moving through the city, not a new wall inside it.
         </p>

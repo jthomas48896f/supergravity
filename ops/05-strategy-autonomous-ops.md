@@ -1,4 +1,4 @@
-# Supergravity — Strategy & Autonomous Ops Plan
+# Atlas — Strategy & Autonomous Ops Plan
 *Strategy & Ops division · Panel: Kahneman (debiasing) · Systems Architect · Growth PM · Indie Operator*
 *Date: 2026-07-06 · Horizon: 90 days · Prime directive: revenue in 4 weeks, then progressively autonomous operation*
 
@@ -135,7 +135,7 @@ Preconditions for the gate to count: Stripe was live ≥10 days AND ≥6 of 8 di
 
 ### Day 30 (Aug 5) — *Real gate.*
 - **DOUBLE DOWN** (any one): ≥$1,500 total revenue; OR ≥25 sales; OR one door showing ≥5% paywall→purchase with a repeatable channel behind it. → Commit 90 more days, deepen the winning cluster to 20+ lessons/subject, raise price at founder-500.
-- **PIVOT-WITHIN** (all of): $300–1,500 revenue AND metric #3 ≥50% (people who try it, like it) AND one door clearly outperforming → Narrow: relaunch as the single-door product ("Supergravity Homeschool" / "Trade School in Your Pocket"). The atlas remains the library; the *product* becomes the door.
+- **PIVOT-WITHIN** (all of): $300–1,500 revenue AND metric #3 ≥50% (people who try it, like it) AND one door clearly outperforming → Narrow: relaunch as the single-door product ("Atlas Homeschool" / "Trade School in Your Pocket"). The atlas remains the library; the *product* becomes the door.
 - **KILL / SHELVE** (all of): <$300 revenue AND no door >1% paywall→purchase AND refund rate >10% AND 8/8 shots fired with honest effort → Stop active work. Leave the site up (lifetime buyers keep access; costs are near-zero), write the postmortem, take the pipeline + entitlements + autonomous-ops machinery to the next product. **Explicit non-criterion: "but I have new feature ideas" does not override this row. Only funnel numbers vote.**
 
 ---

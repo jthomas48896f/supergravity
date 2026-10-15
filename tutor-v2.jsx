@@ -36,11 +36,11 @@ const TutorDockV2 = ({ context, onClose }) => {
   const ctxLabel = uTM2(() => {
     if (context.page === 'lesson' && context.lesson) return `Lesson · ${context.lesson.title}`;
     if (context.page === 'subject' && context.subject) return `Subject · ${context.subject.name}`;
-    return 'Supergravity · Atlas';
+    return 'Atlas';
   }, [context]);
 
   const systemContext = uTM2(() => {
-    let s = 'You are a friendly, literary tutor inside Supergravity, an interactive learning atlas. Reply in 2–4 short paragraphs. Plain prose, no markdown bullets. Never say you are an AI. ';
+    let s = 'You are a friendly, literary tutor inside Atlas, an interactive learning atlas. Reply in 2–4 short paragraphs. Plain prose, no markdown bullets. Never say you are an AI. ';
     const depthNote = DEPTHS.find(d => d.id === depth)?.note;
     if (depth !== 'default') s += `Explain ${depthNote}. `;
     if (mode === 'socratic') s += 'Use the Socratic method — ask a guiding question back to the student rather than answering directly. Keep it to one or two probing questions. ';

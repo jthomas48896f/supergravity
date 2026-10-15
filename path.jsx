@@ -44,7 +44,7 @@ const STAGES = [
       'An Apprentice of your own, should you wish one',
     ],
     voice:
-      'A Companion walks beside the subject — long enough to have private opinions, honest disagreements, favorite passages. Companions are the middle country of any discipline, and most of Supergravity\'s daily life is made by them.',
+      'A Companion walks beside the subject — long enough to have private opinions, honest disagreements, favorite passages. Companions are the middle country of any discipline, and most of Atlas\'s daily life is made by them.',
   },
   {
     id: 'fellow',
@@ -63,7 +63,7 @@ const STAGES = [
       'A vote on the admission of new Fellows in the subject',
     ],
     voice:
-      'A Fellow has done the subject long enough to have earned the right to a point of view. Fellows teach. Fellows host. Fellows are how Supergravity continues after any one of us is gone. The title is not a badge — it is a promise to the community.',
+      'A Fellow has done the subject long enough to have earned the right to a point of view. Fellows teach. Fellows host. Fellows are how Atlas continues after any one of us is gone. The title is not a badge — it is a promise to the community.',
   },
 ];
 

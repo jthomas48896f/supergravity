@@ -1,4 +1,4 @@
-# Supergravity backend (Supabase)
+# Atlas backend (Supabase)
 
 The foundation that turns the static atlas into a people-powered commons.
 

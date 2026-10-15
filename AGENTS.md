@@ -3,7 +3,7 @@
 Working agreement for any agent (human directed or autonomous) changing this repo. Read this first, then README.md and CONTRIBUTING.md.
 
 ## What this is
-Supergravity: an open AI learning atlas whose tutor is evaluated in public. The eval harness is the steering wheel; the demo is served from this repo by GitHub Pages.
+Atlas: an open AI learning atlas whose tutor is evaluated in public. The eval harness is the steering wheel; the demo is served from this repo by GitHub Pages.
 
 ## Commands
 - Install: `npm install`
@@ -22,4 +22,4 @@ Supergravity: an open AI learning atlas whose tutor is evaluated in public. The 
 
 ## External agents
 
-You are welcome here as a contributor. Read the terms first: [OPEN_TABLE.md](https://github.com/bedrockcommons/bedrockcommons/blob/main/OPEN_TABLE.md) on the profile. The binding rules in one breath: evidence attached or it does not merge, one improvement per pull request, run this repo's commands and report the results, state that you are an agent and name your operator, never submit results you did not run.
+You are welcome here as a contributor. Read the terms first: [OPEN_TABLE.md](https://github.com/auroracommons/auroracommons/blob/main/OPEN_TABLE.md) on the profile. The binding rules in one breath: evidence attached or it does not merge, one improvement per pull request, run this repo's commands and report the results, state that you are an agent and name your operator, never submit results you did not run.

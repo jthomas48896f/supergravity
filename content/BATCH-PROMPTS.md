@@ -18,7 +18,7 @@ only the **header line with the batch ID and subjects** changes.
 ## The reusable header (appears in every prompt)
 
 ```
-You are building out Supergravity content for BATCH {{BATCH_ID}}.
+You are building out Atlas content for BATCH {{BATCH_ID}}.
 Your subjects: {{SUBJECT_LIST}}.
 
 BEFORE YOU WRITE ANY CONTENT:
@@ -88,7 +88,7 @@ START HERE: Read the four files in step 1. Then claim your batch. Then build.
 ## Batch 01 — Mathematics
 
 ```
-You are building out Supergravity content for BATCH B01-mathematics.
+You are building out Atlas content for BATCH B01-mathematics.
 Your subjects: math.
 
 [paste the reusable header above]
@@ -112,7 +112,7 @@ Notes specific to B01:
 ## Batch 02 — Hard Sciences
 
 ```
-You are building out Supergravity content for BATCH B02-hard-sciences.
+You are building out Atlas content for BATCH B02-hard-sciences.
 Your subjects: physics, chemistry, astronomy, geology.
 
 [paste the reusable header above]
@@ -136,7 +136,7 @@ Notes specific to B02:
 ## Batch 03 — Life Sciences
 
 ```
-You are building out Supergravity content for BATCH B03-life-sciences.
+You are building out Atlas content for BATCH B03-life-sciences.
 Your subjects: biology, medicine, psychology.
 
 [paste the reusable header above]
@@ -159,7 +159,7 @@ Notes specific to B03:
 ## Batch 04 — Humanities
 
 ```
-You are building out Supergravity content for BATCH B04-humanities.
+You are building out Atlas content for BATCH B04-humanities.
 Your subjects: history, literature, philosophy, religion, architecture, art, music.
 
 [paste the reusable header above]
@@ -173,7 +173,7 @@ Notes specific to B04:
 - Primary sources: Gutenberg.org, archive.org texts, the Perseus Digital
   Library (classics), Stanford Encyclopedia of Philosophy (philosophy, always),
   JSTOR Open Access where available.
-- For religion, follow the pluralism rule in the Rule of Supergravity.
+- For religion, follow the pluralism rule in the Rule of Atlas.
   Every tradition gets the same care and the same rubric. No proselytizing,
   no dismissal. Preferred sources: the tradition's own canonical texts in
   respected translations, academic scholars who work IN the tradition, plus
@@ -187,7 +187,7 @@ Notes specific to B04:
 ## Batch 05 — Social World
 
 ```
-You are building out Supergravity content for BATCH B05-social-world.
+You are building out Atlas content for BATCH B05-social-world.
 Your subjects: sociology, economics, politics, law, linguistics, anthropology, geography.
 
 [paste the reusable header above]
@@ -213,7 +213,7 @@ Notes specific to B05:
 ## Batch 06 — Tech & Code
 
 ```
-You are building out Supergravity content for BATCH B06-tech-and-code.
+You are building out Atlas content for BATCH B06-tech-and-code.
 Your subjects: cs, ai_craft, security, gamedev, robotics, datascience.
 
 [paste the reusable header above]
@@ -240,7 +240,7 @@ Notes specific to B06:
 ## Batch 07 — Trades I
 
 ```
-You are building out Supergravity content for BATCH B07-trades-I.
+You are building out Atlas content for BATCH B07-trades-I.
 Your subjects: carpentry, plumbing, electrical, welding, masonry, hvac, roofing.
 
 [paste the reusable header above]
@@ -265,7 +265,7 @@ Notes specific to B07:
 ## Batch 08 — Trades II
 
 ```
-You are building out Supergravity content for BATCH B08-trades-II.
+You are building out Atlas content for BATCH B08-trades-II.
 Your subjects: automotive, machining, locksmithing, glazier, painting_trade, flooring, diesel, smallengine.
 
 [paste the reusable header above]
@@ -287,7 +287,7 @@ Notes specific to B08:
 ## Batch 09 — Kitchen Arts
 
 ```
-You are building out Supergravity content for BATCH B09-kitchen-arts.
+You are building out Atlas content for BATCH B09-kitchen-arts.
 Your subjects: cooking, baking, butchery, fermentation, cheesemaking, coffee, wine, cocktails, bbq, pastry.
 
 [paste the reusable header above]
@@ -312,7 +312,7 @@ Notes specific to B09:
 ## Batch 10 — Handcrafts
 
 ```
-You are building out Supergravity content for BATCH B10-handcrafts.
+You are building out Atlas content for BATCH B10-handcrafts.
 Your subjects: sewing, knitting, woodworking, leatherwork, pottery, glassblowing, blacksmithing, jewelry, calligraphy, bookbinding, paperfolding.
 
 [paste the reusable header above]
@@ -338,7 +338,7 @@ Notes specific to B10:
 ## Batch 11 — Life Skills I
 
 ```
-You are building out Supergravity content for BATCH B11-life-skills-I.
+You are building out Atlas content for BATCH B11-life-skills-I.
 Your subjects: finance, nutrition, firstaid, parenting, negotiation, publicspeaking, timemgmt, cleaning.
 
 [paste the reusable header above]
@@ -366,7 +366,7 @@ Notes specific to B11:
 ## Batch 12 — Life Skills II / Outdoor
 
 ```
-You are building out Supergravity content for BATCH B12-life-skills-II-outdoor.
+You are building out Atlas content for BATCH B12-life-skills-II-outdoor.
 Your subjects: carrepair, gardening, composting, beekeeping, sailing, survival, knots, mapreading.
 
 [paste the reusable header above]
@@ -391,7 +391,7 @@ Notes specific to B12:
 ## Batch 13 — Arts & Performing
 
 ```
-You are building out Supergravity content for BATCH B13-arts-performing.
+You are building out Atlas content for BATCH B13-arts-performing.
 Your subjects: photography, film, theater, dance, magic, stand_up, djing.
 
 [paste the reusable header above]
@@ -416,7 +416,7 @@ Notes specific to B13:
 ## Batch 14 — Movement
 
 ```
-You are building out Supergravity content for BATCH B14-movement.
+You are building out Atlas content for BATCH B14-movement.
 Your subjects: yoga, martial, running, climbing, cycling.
 
 [paste the reusable header above]
@@ -439,7 +439,7 @@ Notes specific to B14:
 ## Batch 15 — Nature & Games
 
 ```
-You are building out Supergravity content for BATCH B15-nature-and-games.
+You are building out Atlas content for BATCH B15-nature-and-games.
 Your subjects: birding, foraging, fishing, hunting, astronomy_amateur, meteorology, chess, etiquette.
 
 [paste the reusable header above]

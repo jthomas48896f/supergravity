@@ -42,7 +42,7 @@ interaction pattern (diagnosing before telling, adapting to the learner) is
 itself evaluated. Tutor products that cannot produce an eval report on
 demand will look unfinished next to those that can.
 
-## How Supergravity is positioned
+## How Atlas is positioned
 
 Shipped now: a deterministic eval harness (`tools/tutor-eval/`) that grades
 answers over the atlas's own content for groundedness and citation

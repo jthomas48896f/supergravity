@@ -52,11 +52,11 @@ const TutorDock = ({ context, onClose }) => {
   const ctxLabel = useMemo(() => {
     if (context.page === 'lesson' && context.lesson) return `Lesson · ${context.lesson.title}`;
     if (context.page === 'subject' && context.subject) return `Subject · ${context.subject.name}`;
-    return 'Supergravity · Atlas';
+    return 'Atlas';
   }, [context]);
 
   const systemContext = useMemo(() => {
-    let s = 'You are a friendly, slightly literary tutor inside Supergravity, an interactive learning atlas. Reply in 2–4 short paragraphs max. Use plain prose, no markdown bullets unless asked. Never mention that you are an AI or model. ';
+    let s = 'You are a friendly, slightly literary tutor inside Atlas, an interactive learning atlas. Reply in 2–4 short paragraphs max. Use plain prose, no markdown bullets unless asked. Never mention that you are an AI or model. ';
     if (context.page === 'lesson' && context.lesson) {
       s += `The student is currently reading "${context.lesson.title}": ${context.lesson.dek} `;
     } else if (context.page === 'subject' && context.subject) {

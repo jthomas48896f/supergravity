@@ -1,4 +1,4 @@
-# Supergravity — Marketing & Launch Playbook
+# Atlas — Marketing & Launch Playbook
 *Marketing & Launch division. Lenses: Dunford (positioning), Dry (copy), Fishkin (distribution), Bourgoin (buyer psych). Everything below is copy-paste ready.*
 
 **PRE-FLIGHT (non-negotiable, do before ANY post goes live):**
@@ -11,7 +11,7 @@
 ## 1. Positioning
 
 **Positioning statement (internal — this is the strategy, not the copy):**
-For curious people who want to actually *understand* things — not collect certificates — **Supergravity** is the only interactive learning atlas that treats rewiring a thermostat and understanding chaos theory as equally worth knowing. 101 subjects, live simulations, an AI tutor on every lesson, built by one person, $59 once. Unlike Brilliant ($161.88/yr for ~4 domains) or YouTube (free but unstructured), Supergravity bundles the academy and the workshop in one place you own forever.
+For curious people who want to actually *understand* things — not collect certificates — **Atlas** is the only interactive learning atlas that treats rewiring a thermostat and understanding chaos theory as equally worth knowing. 101 subjects, live simulations, an AI tutor on every lesson, built by one person, $59 once. Unlike Brilliant ($161.88/yr for ~4 domains) or YouTube (free but unstructured), Atlas bundles the academy and the workshop in one place you own forever.
 
 **Category frame (Dunford):** Don't compete as "another course platform." Compete as **"the atlas"** — a reference work you own, like buying an encyclopedia, not renting a gym membership. Lifetime pricing only makes sense inside this frame. Use "atlas," "library," "own it" language everywhere; never "subscription," "content," or "courses."
 
@@ -32,7 +32,7 @@ For curious people who want to actually *understand* things — not collect cert
 
 **Body:**
 
-Hi HN, solo founder here (ex-education, NYC). For the past months I've been building Supergravity — an interactive learning site that deliberately mixes academic subjects with hands-on trades: physics next to HVAC, philosophy next to beekeeping, chaos theory next to butchery.
+Hi HN, solo founder here (ex-education, NYC). For the past months I've been building Atlas — an interactive learning site that deliberately mixes academic subjects with hands-on trades: physics next to HVAC, philosophy next to beekeeping, chaos theory next to butchery.
 
 Why the weird bundle: every learning platform picks a lane — Brilliant does math/CS, Coursera does credentials, YouTube does everything but with no structure. Nobody treats "how a refrigeration cycle works" and "how differential equations work" as the same kind of knowledge, even though one literally runs on the other. I wanted the reference work I always wished existed.
 
@@ -57,18 +57,18 @@ URL: [real domain]
 
 ## 3. Product Hunt
 
-**Name:** Supergravity — Atlas of Everything
+**Name:** Atlas of Everything
 
 **Tagline (≤60 chars):** `101 subjects, live simulations, one lifetime price`
 
 **Description:**
-Supergravity is an interactive learning atlas built by one person. It covers 101 subjects — and unlike everyone else, it bundles academics with real-world skills: quantum mechanics AND welding, philosophy AND first aid, chaos theory AND beekeeping. Every lesson has live simulations instead of videos, and an AI tutor you invoke by highlighting any passage. The first lesson of every subject is free with no signup. Own the whole atlas for $59 (or $99 for a family of 6) — founder pricing for the first 500 buyers. For comparison: Brilliant covers ~4 domains for $161.88/year.
+Atlas is an interactive learning atlas built by one person. It covers 101 subjects — and unlike everyone else, it bundles academics with real-world skills: quantum mechanics AND welding, philosophy AND first aid, chaos theory AND beekeeping. Every lesson has live simulations instead of videos, and an AI tutor you invoke by highlighting any passage. The first lesson of every subject is free with no signup. Own the whole atlas for $59 (or $99 for a family of 6) — founder pricing for the first 500 buyers. For comparison: Brilliant covers ~4 domains for $161.88/year.
 
 **First comment (maker):**
 
 Hey Product Hunt — Josh here, solo founder, former educator in NYC.
 
-I built Supergravity because of a pattern I kept seeing: the people who are curious about Gödel are usually also curious about how their furnace works, but the internet forces them into separate, siloed products — one for "smart" subjects, YouTube roulette for the rest.
+I built Atlas because of a pattern I kept seeing: the people who are curious about Gödel are usually also curious about how their furnace works, but the internet forces them into separate, siloed products — one for "smart" subjects, YouTube roulette for the rest.
 
 So this is one atlas: 101 subjects, 300+ lessons (growing weekly), live simulations you can poke at, and an AI tutor on every lesson — highlight any sentence and ask about it.
 
@@ -164,7 +164,7 @@ YouTube: everything, zero structure.
 
 Nobody puts "how your AC works" next to "the thermodynamics it runs on." Even though one IS the other.
 
-**3/** So Supergravity bundles what school separates:
+**3/** So Atlas bundles what school separates:
 
 📐 The academy: physics, philosophy, math, history
 🔧 The workshop: HVAC, welding, first aid, foraging, negotiation, butchery

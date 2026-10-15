@@ -181,7 +181,7 @@ function generateJS(cache, topics) {
 // ------------------------------------------------------------------ //
 
 async function main() {
-  console.log('Supergravity enrichment pipeline');
+  console.log('Atlas enrichment pipeline');
   console.log(`  Mode: ${DRY_RUN ? 'dry-run (no AI)' : 'full (Wikipedia + OpenAI)'}`);
   console.log(`  Staleness threshold: ${SINCE_DAYS} days`);
 

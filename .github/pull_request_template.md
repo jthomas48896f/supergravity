@@ -1,6 +1,6 @@
 ## What changed
 
-Describe what changed and which Bedrock layer it serves. This repo serves Layer 2, Learning.
+Describe what changed and which Ascent layer it serves. This repo serves Layer 2, Learning.
 
 ## Evidence
 

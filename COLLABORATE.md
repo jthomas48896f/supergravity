@@ -1,6 +1,6 @@
-# Collaborate on Supergravity
+# Collaborate on Atlas
 
-Supergravity serves one problem family: learning poverty and unequal
+Atlas serves one problem family: learning poverty and unequal
 education. This page lists concrete, scoped ways an organization can work
 with the project. Every task here is real and completable. Nothing on this
 page implies an existing partnership; collaborations are invitations until

@@ -1,4 +1,4 @@
-# Contributing to Supergravity
+# Contributing to Atlas
 
 Contributions are welcome, and the door is kept visibly open: there is
 always at least one good first issue available. Every change here follows

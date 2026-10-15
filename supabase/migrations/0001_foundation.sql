@@ -1,5 +1,5 @@
 -- ═══════════════════════════════════════════════════════════════════════════
--- Supergravity — Atlas of Everything
+-- Atlas of Everything
 -- Migration 0001: Foundation
 --
 -- Turns the static, single-author content site into a people-powered commons:

@@ -167,10 +167,10 @@ const LessonPageV2 = ({ topicId, subjectId, onNav }) => {
           </div>
         )}
 
-        {/* Supergravity pull — cross-field gravity between disciplines */}
+        {/* Atlas pull — cross-field gravity between disciplines */}
         {seeAlso.length > 0 && (
           <section className="sg-pull">
-            <div className="sg-pull-eyebrow">⬡ The supergravity pull</div>
+            <div className="sg-pull-eyebrow">⬡ The Atlas pull</div>
             <p className="sg-pull-sub">Every field in the Atlas exerts a pull on every other. Here's where this topic reaches.</p>
             <div className="sg-pull-grid">
               {seeAlso.slice(0, 4).map(t => {

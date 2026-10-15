@@ -1,5 +1,5 @@
-# The 110 percent checklist: Supergravity
-Aligned to the Bedrock needs map: Layer 2: Learning, October 15, 2026.
+# The 110 percent checklist: Atlas
+Aligned to the Ascent needs map: Ascent Layer 2: Learning, October 15, 2026.
 
 State as of October 15, 2026. Every line carries its evidence; a line without evidence does not count as done. This file is maintained by the daily evolution pass.
 
@@ -16,7 +16,7 @@ State as of October 15, 2026. Every line carries its evidence; a line without ev
 - [x] Repo description and topics set (description states the verified eval numbers)
 - [x] Good first issues open: #1 add five questions to the tutor eval set, #2 file a groundedness failure (both labeled good first issue, sized in hours)
 - [x] Tagged release: v0.1.0, first verified baseline (published, marked Latest)
-- [x] Live demo: https://bedrockcommons.github.io/supergravity/ (visually verified rendering October 15, 2026: full atlas, 304 topics, navigation and search present, no errors)
+- [x] Live demo: https://auroracommons.github.io/atlas/ (visually verified rendering October 15, 2026: full atlas, 304 topics, navigation and search present, no errors)
 
 ## Working agreements
 - AGENTS.md in this repo governs how changes are made and proven here.

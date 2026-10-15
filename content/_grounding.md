@@ -1,5 +1,5 @@
 # The Atlas Grounding Philosophy
-## How Supergravity evaluates, sources, and presents knowledge
+## How Atlas evaluates, sources, and presents knowledge
 
 ---
 

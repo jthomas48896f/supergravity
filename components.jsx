@@ -184,7 +184,7 @@ const Topbar = ({ crumbs, onNav, user, onSignOut }) => (
         <circle cx="33.5" cy="15.2" r="1.4" fill="#e09a5a"/>
       </svg>
       <div>
-        <div className="brand-name">Supergravity</div>
+        <div className="brand-name">Atlas</div>
         <div className="brand-sub">Atlas of Everything</div>
       </div>
     </div>

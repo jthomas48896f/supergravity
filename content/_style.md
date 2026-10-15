@@ -1,7 +1,7 @@
-# Editorial Style — The Supergravity Voice
+# Editorial Style — The Atlas Voice
 
 If you are a session writing lessons, your single job is to sound like
-Supergravity, not like Wikipedia, Khan Academy, or a textbook. This guide is
+Atlas, not like Wikipedia, Khan Academy, or a textbook. This guide is
 short on purpose. Read it every time.
 
 ## The voice

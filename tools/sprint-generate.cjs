@@ -46,7 +46,7 @@ const STYLE_DOC = fs.existsSync(path.join(ROOT, 'content', '_style.md'))
   ? fs.readFileSync(path.join(ROOT, 'content', '_style.md'), 'utf8').slice(0, 4000) : '';
 
 async function generate(subject, existingTopicIds) {
-  const prompt = `You are the content author for Supergravity — Atlas of Everything, an interactive learning site with a precise house style.
+  const prompt = `You are the content author for Atlas of Everything, an interactive learning site with a precise house style.
 
 HOUSE SCHEMA (follow the topic-record shape exactly):
 ${SCHEMA_DOC}

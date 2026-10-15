@@ -1,4 +1,4 @@
-# Supergravity · Content Directory
+# Atlas · Content Directory
 
 You are probably a Claude Code session that has just been given a BATCH PROMPT
 asking you to build out content for one or more subjects. Read this file first.
@@ -62,7 +62,7 @@ It will tell you exactly what to do, what NOT to do, and where the rails are.
   be real, reachable, and verified. If you can't verify it, leave it out.
 - Do not write lessons in Markdown. Lessons are **component trees** — arrays
   of `{type, text}` objects. The schema shows the exact types allowed.
-- Do not gamify. No streaks, XP, badges, levels. See the Rule of Supergravity.
+- Do not gamify. No streaks, XP, badges, levels. See the Rule of Atlas.
 - Do not add emojis. The voice is literary; emojis break it.
 
 ## Running sessions in parallel

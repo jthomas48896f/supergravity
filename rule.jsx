@@ -1,5 +1,5 @@
 // ============================================
-// The Rule of Supergravity
+// The Rule of Atlas
 // One-page manifesto / constitution. Christian-rooted in form (echoes of
 // Benedict, the liturgical year, contemplative practice) without being
 // sectarian in content. Hospitable to every tradition.
@@ -9,7 +9,7 @@ const { useState: uRS, useMemo: uRM } = React;
 
 const RULE = {
   preamble: [
-    'Supergravity is a school without a building, and a chapter is a building without a school — a local, living group, bound together by a Path and a Rule, under the care of its Fellows.',
+    'Atlas is a school without a building, and a chapter is a building without a school — a local, living group, bound together by a Path and a Rule, under the care of its Fellows.',
     'The atlas is our textbook, the tutor is our patient companion, the workshop is where we keep our working, and the chapter is where we become a people. The four are one thing.',
     'We do not claim to replace school for everyone. We claim to make a place, for those who want it, that has what school is missing — continuity, community, and a way of being recognized for what you actually know.',
   ],
@@ -17,7 +17,7 @@ const RULE = {
     {
       name: 'We learn to become, not to accumulate.',
       body:
-        'A Supergravity member is not collecting facts, hours, or badges. We are shaping a life. Progress is measured in how much of the world has become familiar, not in what can be demonstrated on a test.',
+        'A Atlas member is not collecting facts, hours, or badges. We are shaping a life. Progress is measured in how much of the world has become familiar, not in what can be demonstrated on a test.',
     },
     {
       name: 'We learn in public, among friends.',
@@ -37,7 +37,7 @@ const RULE = {
     {
       name: 'We honor the traditions.',
       body:
-        'Supergravity is rooted in the long Western tradition of liberal arts, shaped by a Christian founder who does not press that inheritance on anyone. We read Scripture the way we read Plato, Rumi, the Analects, the Upanishads, and Marcus Aurelius — attentively, humbly, and with respect. Every wisdom tradition has a seat at the table. No one is asked to sit where they do not belong.',
+        'Atlas is rooted in the long Western tradition of liberal arts, shaped by a Christian founder who does not press that inheritance on anyone. We read Scripture the way we read Plato, Rumi, the Analects, the Upanishads, and Marcus Aurelius — attentively, humbly, and with respect. Every wisdom tradition has a seat at the table. No one is asked to sit where they do not belong.',
     },
     {
       name: 'We keep a sabbath.',
@@ -52,7 +52,7 @@ const RULE = {
     {
       name: 'We teach as soon as we are able.',
       body:
-        'The moment you become a Companion, you become available to an Apprentice. The moment you become a Fellow, you become responsible for hosting. Learning that does not return itself to the community is private, and Supergravity is not private.',
+        'The moment you become a Companion, you become available to an Apprentice. The moment you become a Fellow, you become responsible for hosting. Learning that does not return itself to the community is private, and Atlas is not private.',
     },
   ],
   forbidden: [
@@ -83,7 +83,7 @@ const RulePage = ({ onNav }) => {
       {/* ——— Masthead ——— */}
       <header className="rule-head">
         <div className="eyebrow">§ A plain statement of what we are</div>
-        <h1 className="serif rule-title">The Rule of Supergravity</h1>
+        <h1 className="serif rule-title">The Rule of Atlas</h1>
         <div className="rule-dateline">
           <span>Chapter I · NYC</span>
           <span>·</span>
@@ -135,7 +135,7 @@ const RulePage = ({ onNav }) => {
       <section className="rule-section">
         <div className="rule-section-label">The year, in five seasons</div>
         <p>
-          The chapter runs on a rhythm, not a calendar. These five seasons are kept in every Supergravity
+          The chapter runs on a rhythm, not a calendar. These five seasons are kept in every Atlas
           chapter, however each city chooses to fill them.
         </p>
         <div className="rule-seasons">

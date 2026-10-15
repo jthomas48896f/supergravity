@@ -1,4 +1,4 @@
-# Supergravity — Launch Checklist (your hands only, ~25 min)
+# Atlas — Launch Checklist (your hands only, ~25 min)
 
 Everything else is built, committed on branch `monetize` in `~/Desktop/projects/supergravity`,
 and documented in the ops playbooks (01–05). This file is the critical path.
@@ -12,12 +12,12 @@ vercel --prod
 
 ## 2. Stripe (10 min) — I can't touch payments; this must be you
 1. dashboard.stripe.com → Payment Links → **New**:
-   - Link A: "Supergravity — Lifetime" $59, one-time. Add metadata `plan=lifetime`.
-   - Link B: "Supergravity — Family Lifetime" $99, one-time. Add metadata `plan=family`.
+   - Link A: "Atlas — Lifetime" $59, one-time. Add metadata `plan=lifetime`.
+   - Link B: "Atlas — Family Lifetime" $99, one-time. Add metadata `plan=family`.
    - Both: After payment → redirect to `https://<your-domain>/?purchased=1`
 2. Developers → Webhooks → **Add endpoint**: `https://<your-domain>/api/stripe-webhook`,
    event: `checkout.session.completed`. Copy the signing secret (`whsec_...`).
-3. Settings: statement descriptor "SUPERGRAVITY", enable receipt emails, enable **Stripe Tax**.
+3. Settings: statement descriptor "ATLAS", enable receipt emails, enable **Stripe Tax**.
 
 ## 3. Vercel env vars (5 min) — project settings → Environment Variables
 - `STRIPE_WEBHOOK_SECRET` = whsec_... (from step 2)

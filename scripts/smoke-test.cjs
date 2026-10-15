@@ -21,7 +21,7 @@ const size = fs.statSync(bundle).size;
 if (size < 100_000) throw new Error(`dist/sg-app.js is suspiciously small (${size} bytes).`);
 
 const content = fs.readFileSync(bundle, 'utf8');
-for (const marker of ['Supergravity', 'atlas']) {
+for (const marker of ['Atlas', 'atlas']) {
   if (!content.toLowerCase().includes(marker.toLowerCase())) {
     throw new Error(`dist/sg-app.js is missing expected marker "${marker}".`);
   }

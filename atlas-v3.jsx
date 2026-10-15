@@ -229,7 +229,7 @@ const AtlasPage = ({ onNav }) => {
 
       <footer className="footer">
         <div>
-          <strong style={{ fontFamily: 'var(--serif)', fontSize: 15 }}>Supergravity</strong> · An interactive atlas of everything that ought to be taught.
+          <strong style={{ fontFamily: 'var(--serif)', fontSize: 15 }}>Atlas</strong> · An interactive atlas of everything that ought to be taught.
         </div>
         <div className="mono">Edition MMXXVI · Printed on pixels</div>
       </footer>

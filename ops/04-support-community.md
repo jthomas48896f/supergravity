@@ -1,4 +1,4 @@
-# Supergravity — Support & Community Playbook
+# Atlas — Support & Community Playbook
 
 Everything here is ship-ready copy. Voice rules: first person ("I", not "we" — you're one guy and that's a feature), short sentences, no corporate hedging, sign as Josh.
 
@@ -16,7 +16,7 @@ Simple: buy, then sign in with the same email you used at checkout. The unlock i
 $99 covers up to 6 accounts in one household. After you buy, you'll get a link to add family member emails — each person gets their own sign-in, their own progress, their own place in the Atlas. You can swap emails out later (kid changes addresses, etc.) by emailing me.
 
 ### Is "lifetime" really lifetime?
-Yes, and here's what that means concretely: lifetime of the product, backed by a person whose name is on it. You pay once and you get every subject and lesson I ever add, no upsells to a "Pro tier." The honest version of the risk: if I ever shut Supergravity down (no plans to — it's cheap to run and I use it myself), I commit to either open-sourcing the content or providing a full downloadable export to every purchaser. Your money buys the content, not a rental.
+Yes, and here's what that means concretely: lifetime of the product, backed by a person whose name is on it. You pay once and you get every subject and lesson I ever add, no upsells to a "Pro tier." The honest version of the risk: if I ever shut Atlas down (no plans to — it's cheap to run and I use it myself), I commit to either open-sourcing the content or providing a full downloadable export to every purchaser. Your money buys the content, not a rental.
 
 ### What if I want a refund?
 14 days, one email, no interrogation. Send "refund please" to jteducates@gmail.com from your purchase email and it's processed within 2 business days. You don't need a reason, though if you give one I'll genuinely use it to improve things.
@@ -56,13 +56,13 @@ One person: Josh. I write the lessons, answer the emails, and fix the bugs. That
 ## 2. Support Macros
 
 **Macro 1 — Purchase didn't unlock (email mismatch — expect this to be #1)**
-> Hi {name} — thanks for buying, and sorry for the hiccup. This almost always has a one-line fix: the Atlas unlocks for the exact email used at checkout. Your Stripe receipt (subject line "Your receipt from Supergravity") shows which email that was — often it's an old address autofilled by your browser or Apple/Google Pay. Try signing out and back in with that email. If they really are the same, or you'd rather use a different email, just reply with the email you WANT unlocked and forward the receipt — I'll link it manually within a few hours. — Josh
+> Hi {name} — thanks for buying, and sorry for the hiccup. This almost always has a one-line fix: the Atlas unlocks for the exact email used at checkout. Your Stripe receipt (subject line "Your receipt from Atlas") shows which email that was — often it's an old address autofilled by your browser or Apple/Google Pay. Try signing out and back in with that email. If they really are the same, or you'd rather use a different email, just reply with the email you WANT unlocked and forward the receipt — I'll link it manually within a few hours. — Josh
 
 **Macro 2 — Refund request**
 > Hi {name} — done. Refund processed to your original payment method; Stripe says 5–10 business days to appear. No hard feelings — if you're willing to tell me what didn't work for you, one sentence helps me more than you'd think. And the free first lessons stay free if you ever want to check back in. — Josh
 
 **Macro 3 — Chargeback response (send BEFORE responding via Stripe if there's time)**
-> Hi {name} — I see a payment dispute was opened on your Supergravity purchase. Quick heads-up before it goes through the banks: I offer a no-questions 14-day refund by email, which is faster for you and doesn't cost me a $15 dispute fee. If you meant to request a refund, reply "refund" and I'll issue it today and you can withdraw the dispute. If the charge is unrecognized or fraudulent, tell me and I'll refund it immediately and kill the account. Either way you get your money back — this route is just quicker. — Josh
+> Hi {name} — I see a payment dispute was opened on your Atlas purchase. Quick heads-up before it goes through the banks: I offer a no-questions 14-day refund by email, which is faster for you and doesn't cost me a $15 dispute fee. If you meant to request a refund, reply "refund" and I'll issue it today and you can withdraw the dispute. If the charge is unrecognized or fraudulent, tell me and I'll refund it immediately and kill the account. Either way you get your money back — this route is just quicker. — Josh
 > *(Internal: if no reply in 48h, submit Stripe evidence — receipt, sign-in logs, lesson completion data from the entitlements/progress tables — then move on. Never fight a chargeback for more than 15 minutes.)*
 
 **Macro 4 — Feature request**
@@ -90,9 +90,9 @@ One person: Josh. I write the lessons, answer the emails, and fix the bugs. That
 ## 3. Onboarding Email Sequence
 
 **Email 1 — Immediately post-purchase.** Subject: `You're in — one thing to check`
-> Hey — Josh here, the person who builds Supergravity. Thanks for buying. Sincerely: purchases like yours are the entire business model, there's no other one.
+> Hey — Josh here, the person who builds Atlas. Thanks for buying. Sincerely: purchases like yours are the entire business model, there's no other one.
 >
-> One thing to check right now so future-you doesn't email me: sign in at supergravity with THIS email address — the one this receipt went to. That's what unlocks everything. Different email = locked lessons and a confused evening.
+> One thing to check right now so future-you doesn't email me: sign in at Atlas with THIS email address — the one this receipt went to. That's what unlocks everything. Different email = locked lessons and a confused evening.
 >
 > That's it. Go poke something in the Atlas. If anything's broken or weird, just reply to this email — it goes straight to me, and I actually read it.
 >

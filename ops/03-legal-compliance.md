@@ -1,8 +1,8 @@
-# Supergravity — Legal & Compliance Working Pack
+# Atlas — Legal & Compliance Working Pack
 
 > **NOT LEGAL ADVICE.** This document was drafted by an internal AI working group (internet-products attorney lens, consumer-protection lens, insurance/risk lens, privacy counsel lens) as a **working draft for Josh Thomas to review with a licensed attorney** before publishing or relying on any of it. Nothing here creates an attorney-client relationship. State any of these documents on the site only after real counsel signs off.
 
-**Product context:** Supergravity — Atlas of Everything. Paid online learning site. US-based solo founder (NYC). $59/$99 lifetime purchases via Stripe Payment Links. Supabase email auth. AI tutor routes user text to OpenAI's API. Content spans academic subjects plus physically risky how-to (electrical, welding, HVAC, first aid, foraging, hunting, survival, locksmithing) and alcohol-related content. Homeschool families in audience → likely minor users. Free tier + 14-day refund promise.
+**Product context:** Atlas of Everything. Paid online learning site. US-based solo founder (NYC). $59/$99 lifetime purchases via Stripe Payment Links. Supabase email auth. AI tutor routes user text to OpenAI's API. Content spans academic subjects plus physically risky how-to (electrical, welding, HVAC, first aid, foraging, hunting, survival, locksmithing) and alcohol-related content. Homeschool families in audience → likely minor users. Free tier + 14-day refund promise.
 
 ---
 
@@ -15,7 +15,7 @@ This is the exposure that can actually bankrupt a solo founder. A user rewires a
 Homeschool marketing means kids will use this. If children under 13 create accounts and the AI tutor collects their free-text chat (which is personal information under COPPA and gets shipped to OpenAI), the FTC can seek ~$50k+ per violation, and "we didn't know" fails if the site is deemed directed to children or you have actual knowledge. New York's Child Data Protection Act (effective June 2025) and SAFE for Kids Act add state-level exposure for users under 18. **Mitigation:** structure as a **general-audience site with adult account holders**: accounts require age 16+ self-certification at signup (16 also clears GDPR consent age if EU users appear); market family use as a **parent-owned account** where the parent is the customer, accepts the ToS, and supervises the child's use — the parent, not the child, is your user of record. Add a neutral age gate (birthdate field, no "click here if under 13" prompt), block and don't retain data from failed gates, minimize AI-chat retention, ensure your OpenAI data-processing terms disallow training on your API data (default for the API), and revisit with counsel before ever building child-directed features or a "kids mode" — that flips you into full COPPA verifiable-parental-consent territory.
 
 ### #3 — "Lifetime" promise vs. mortality of the service (FTC/state UDAP + NY GBL §349)
-Selling a $99 "lifetime" unlock and shutting down in year three is the classic fact pattern for FTC deceptive-practices claims, state attorney-general actions, and consumer class actions under NY General Business Law §349/§350 (deceptive acts, false advertising — private right of action, statutory damages, attorney's fees). **Mitigation:** define "lifetime" **conspicuously at the point of sale**, not just in the ToS: lifetime = the operating life of the Supergravity service, plus a concrete wind-down commitment (minimum 90 days' notice; pro-rated or window-based refunds for recent purchasers; best-efforts export of user notes/progress). Put a one-line definition with a link directly under the Stripe payment link on the pricing page. Never advertise "yours forever" or "never pay again, guaranteed." Keep a reserve mentally earmarked for wind-down refunds. This converts a deception claim into a disclosed contract term.
+Selling a $99 "lifetime" unlock and shutting down in year three is the classic fact pattern for FTC deceptive-practices claims, state attorney-general actions, and consumer class actions under NY General Business Law §349/§350 (deceptive acts, false advertising — private right of action, statutory damages, attorney's fees). **Mitigation:** define "lifetime" **conspicuously at the point of sale**, not just in the ToS: lifetime = the operating life of the Atlas service, plus a concrete wind-down commitment (minimum 90 days' notice; pro-rated or window-based refunds for recent purchasers; best-efforts export of user notes/progress). Put a one-line definition with a link directly under the Stripe payment link on the pricing page. Never advertise "yours forever" or "never pay again, guaranteed." Keep a reserve mentally earmarked for wind-down refunds. This converts a deception claim into a disclosed contract term.
 
 ### #4 — Refunds and chargebacks (14-day promise + card-network reality)
 The pricing page promises a 14-day refund; if the ToS contradicts it, undercuts it with fine print, or support is slow, that's a UDAP claim and — more practically — a chargeback problem. Stripe will side with cardholders on digital-goods disputes when refund terms are murky, and a dispute rate above ~0.75–1% threatens the Stripe account itself, which is an existential business risk. **Mitigation:** make the ToS refund clause match the pricing page exactly (14 days, no questions asked, full refund, any reason), honor it fast (refund > argue — a $99 refund is always cheaper than a $114 chargeback plus dispute-rate damage), state the policy on the checkout page and in the receipt email (card networks credit clear pre-sale disclosure in dispute adjudication), and log access/usage timestamps in Supabase so you have evidence for disputes filed after heavy use or after the window.
@@ -32,33 +32,33 @@ NYC founder means NY law applies to the business regardless of what the ToS says
 
 > DRAFT FOR ATTORNEY REVIEW — do not publish as-is.
 
-**Supergravity — Terms of Service** (Last updated: [DATE])
+**Atlas — Terms of Service** (Last updated: [DATE])
 
-Welcome to Supergravity — Atlas of Everything ("Supergravity," "we," "us"), operated by [Supergravity LLC], a [New York] limited liability company. By creating an account or using the site, you agree to these Terms. If you don't agree, please don't use Supergravity.
+Welcome to Atlas of Everything ("Atlas," "we," "us"), operated by [Atlas LLC], a [New York] limited liability company. By creating an account or using the site, you agree to these Terms. If you don't agree, please don't use Atlas.
 
-**1. What Supergravity is (and isn't).**
-Supergravity is an educational reference and learning site. We publish lessons, guides, and an AI tutor covering a very wide range of subjects — from mathematics and history to hands-on topics like electrical work, welding, HVAC, first aid, foraging, hunting, survival skills, and locksmithing, plus adult topics like wine and cocktails. **Everything on Supergravity is for general educational purposes only.** It is not professional instruction, certification, or advice, and it is not a substitute for hands-on training, licensure, or the judgment of a qualified professional.
+**1. What Atlas is (and isn't).**
+Atlas is an educational reference and learning site. We publish lessons, guides, and an AI tutor covering a very wide range of subjects — from mathematics and history to hands-on topics like electrical work, welding, HVAC, first aid, foraging, hunting, survival skills, and locksmithing, plus adult topics like wine and cocktails. **Everything on Atlas is for general educational purposes only.** It is not professional instruction, certification, or advice, and it is not a substitute for hands-on training, licensure, or the judgment of a qualified professional.
 
 **2. Not professional advice — licensed-professional carve-outs.**
 - **Not electrical/trade advice.** Content about electrical work, welding, HVAC, gas, plumbing, or similar trades is not a substitute for a licensed tradesperson. Much of this work is regulated; doing it yourself may be illegal where you live, may void insurance, and can kill you. Hire a licensed professional for real-world work and always follow local codes and permit requirements.
 - **Not medical advice.** First-aid and health content is educational background, not medical advice, diagnosis, or treatment, and does not make you a trained responder. In an emergency, call 911 (or your local emergency number). Get certified through an accredited course (e.g., Red Cross, AHA) before relying on first-aid skills.
-- **Foraging and wild foods.** Plant and fungus identification from text or images is inherently unreliable, and mistakes can be fatal. **Never eat, touch, or use any wild plant or fungus based on Supergravity content alone.** Always confirm identification with a qualified local expert, in person.
+- **Foraging and wild foods.** Plant and fungus identification from text or images is inherently unreliable, and mistakes can be fatal. **Never eat, touch, or use any wild plant or fungus based on Atlas content alone.** Always confirm identification with a qualified local expert, in person.
 - **Hunting, firearms, and survival.** You are solely responsible for complying with all laws, licenses, seasons, and safety rules, and for obtaining qualified in-person instruction.
 - **Locksmithing.** Lock-related content is provided for education about how mechanisms work. Only practice on locks you own or have explicit permission to open. Possessing or using lockpicking tools is restricted or illegal in some places; you're responsible for knowing your local law.
 - **Alcohol content.** Wine and cocktail content is intended for people of legal drinking age in their jurisdiction.
-- Nothing on Supergravity is legal, financial, or tax advice either.
+- Nothing on Atlas is legal, financial, or tax advice either.
 
 **3. Assumption of risk.**
-Some subjects we teach involve activities that are inherently dangerous — including electricity, welding, open flame, sharp tools, firearms, wild foods, and remote environments. If you choose to attempt any physical activity based on anything you read or learn here, **you do so voluntarily and entirely at your own risk.** You accept full responsibility for evaluating your own skill, your equipment, local laws, and site conditions, and for injuries, death, property damage, or legal consequences that result. To the maximum extent permitted by law, you release Supergravity and its owner from claims arising out of your real-world application of the content.
+Some subjects we teach involve activities that are inherently dangerous — including electricity, welding, open flame, sharp tools, firearms, wild foods, and remote environments. If you choose to attempt any physical activity based on anything you read or learn here, **you do so voluntarily and entirely at your own risk.** You accept full responsibility for evaluating your own skill, your equipment, local laws, and site conditions, and for injuries, death, property damage, or legal consequences that result. To the maximum extent permitted by law, you release Atlas and its owner from claims arising out of your real-world application of the content.
 
 **4. AI tutor.**
 The AI tutor generates responses automatically using third-party large language models (currently OpenAI). **AI output can be confidently wrong, incomplete, outdated, or unsafe.** It is not reviewed by a human before you see it, it is not professional advice of any kind, and you must not rely on it for any safety-critical, medical, electrical, legal, or identification decision (it is specifically not able to tell you whether a plant or mushroom is safe to eat). Verify anything important against authoritative sources. Your chats may be processed by our AI provider to generate responses (see the Privacy Policy). You agree not to use the tutor to seek help with illegal activity or to harm yourself or others.
 
 **5. Accounts and age.**
-You must be **at least 16 years old** to create an account. Younger learners are welcome to use Supergravity **only through an account created, owned, and supervised by their parent or legal guardian** — the parent is our customer, is responsible for all activity on the account, and accepts these Terms on the household's behalf. We don't knowingly collect personal information directly from children under 13; if we learn we have, we'll delete it. Keep your credentials secure; you're responsible for activity under your account.
+You must be **at least 16 years old** to create an account. Younger learners are welcome to use Atlas **only through an account created, owned, and supervised by their parent or legal guardian** — the parent is our customer, is responsible for all activity on the account, and accepts these Terms on the household's behalf. We don't knowingly collect personal information directly from children under 13; if we learn we have, we'll delete it. Keep your credentials secure; you're responsible for activity under your account.
 
 **6. Free tier, purchases, and "lifetime" access — defined.**
-Some content is free. Paid plans ($59 / $99, one-time, via Stripe) unlock full access for the **lifetime of the Supergravity service** — meaning for as long as we operate Supergravity, **not** for your biological lifetime and not in perpetuity. We're a small independent product and we're honest about that. **Wind-down commitment:** if we ever permanently shut down, we will (a) give paid users at least **90 days' advance notice**, (b) offer a **full refund to anyone who purchased within the 12 months before the shutdown announcement**, and (c) make reasonable efforts to let you export your notes and progress data. We may add, change, or retire individual pieces of content over time, but we won't materially gut the paid offering without treating a paid user's request for a refund sympathetically. Prices may change for future buyers; your one-time purchase will never incur new charges.
+Some content is free. Paid plans ($59 / $99, one-time, via Stripe) unlock full access for the **lifetime of the Atlas service** — meaning for as long as we operate Atlas, **not** for your biological lifetime and not in perpetuity. We're a small independent product and we're honest about that. **Wind-down commitment:** if we ever permanently shut down, we will (a) give paid users at least **90 days' advance notice**, (b) offer a **full refund to anyone who purchased within the 12 months before the shutdown announcement**, and (c) make reasonable efforts to let you export your notes and progress data. We may add, change, or retire individual pieces of content over time, but we won't materially gut the paid offering without treating a paid user's request for a refund sympathetically. Prices may change for future buyers; your one-time purchase will never incur new charges.
 
 **7. Refunds.**
 **14-day money-back guarantee, no questions asked.** If you're unhappy for any reason within 14 days of purchase, email [support@supergravity…] and we'll refund you in full to your original payment method. After 14 days, purchases are final except where required by law or covered by the wind-down commitment above. Please contact us before disputing a charge with your bank — we resolve refunds faster than the chargeback process, and we reserve the right to close accounts that file chargebacks in place of using this refund policy.
@@ -79,7 +79,7 @@ Before filing anything, email us at [legal@supergravity…]; most issues get fix
 
 **13. Changes.** We may update these Terms; material changes will be announced by email or on-site notice at least 14 days before they take effect. Continued use after that is acceptance. We won't retroactively strip the lifetime-access or wind-down commitments from existing purchasers.
 
-**14. Contact.** [Supergravity LLC], New York, NY — [email].
+**14. Contact.** [Atlas LLC], New York, NY — [email].
 
 ---
 
@@ -87,7 +87,7 @@ Before filing anything, email us at [legal@supergravity…]; most issues get fix
 
 > DRAFT FOR ATTORNEY REVIEW — do not publish as-is.
 
-**Supergravity — Privacy Policy** (Last updated: [DATE])
+**Atlas — Privacy Policy** (Last updated: [DATE])
 
 We run a small learning site and we collect as little as we can. Here's the whole picture, in plain English.
 
@@ -109,7 +109,7 @@ We run a small learning site and we collect as little as we can. Here's the whol
 That's the whole list. No data brokers, no ad tech.
 
 **4. Children and families.**
-Supergravity is a general-audience service. **Accounts require you to be 16 or older.** We know homeschool families use Supergravity: the intended pattern is that a **parent or guardian creates and owns the account** and supervises any use by their children. We do not knowingly collect personal information directly from children under 13 (COPPA), and we don't ask kids for names, contact info, or profiles. If you believe a child under 13 has created an account or submitted personal information, email us at [privacy@…] and we will delete it promptly. Parents: you can review or delete anything on your family's account, including tutor chats, at any time.
+Atlas is a general-audience service. **Accounts require you to be 16 or older.** We know homeschool families use Atlas: the intended pattern is that a **parent or guardian creates and owns the account** and supervises any use by their children. We do not knowingly collect personal information directly from children under 13 (COPPA), and we don't ask kids for names, contact info, or profiles. If you believe a child under 13 has created an account or submitted personal information, email us at [privacy@…] and we will delete it promptly. Parents: you can review or delete anything on your family's account, including tutor chats, at any time.
 
 **5. Your rights.** Wherever you live, we honor these on request: **access** a copy of your data, **correct** it, **delete** your account and data (self-serve in settings, or by email — completed within 30 days), and **export** your notes/progress. California residents (CCPA/CPRA): we do not "sell" or "share" personal information as those terms are defined, and we don't use sensitive personal information beyond providing the service; you may exercise rights without discrimination. EU/UK visitors (GDPR): our legal bases are contract (running your account), legitimate interests (security), and consent (marketing email); you may also complain to your local supervisory authority. New York residents: we maintain a data-security program consistent with the NY SHIELD Act.
 
@@ -117,7 +117,7 @@ Supergravity is a general-audience service. **Accounts require you to be 16 or o
 
 **7. Retention.** Account and learning data: while your account exists, then deleted within [30] days of account deletion. Tutor chats: [12 months] rolling, or immediately on your request. Payment records: 7 years (tax law). Logs: [30–90] days.
 
-**8. Changes & contact.** Material changes announced by email 14 days in advance. Questions or requests: **[privacy@supergravity…]**, [Supergravity LLC], New York, NY.
+**8. Changes & contact.** Material changes announced by email 14 days in advance. Questions or requests: **[privacy@supergravity…]**, [Atlas LLC], New York, NY.
 
 ---
 

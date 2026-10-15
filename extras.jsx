@@ -79,7 +79,7 @@ const CommandPalette = ({ open, onClose, onNav }) => {
   const actions = [
     { kind: 'action', id: 'path', name: 'The Path', desc: 'Apprentice \u2192 Companion \u2192 Fellow', run: () => onNav({ page: 'path' }) },
     { kind: 'action', id: 'chapters', name: 'The NYC Chapter', desc: 'Events, masters, venues', run: () => onNav({ page: 'chapters' }) },
-    { kind: 'action', id: 'rule', name: 'The Rule of Supergravity', desc: 'What we believe', run: () => onNav({ page: 'rule' }) },
+    { kind: 'action', id: 'rule', name: 'The Rule of Atlas', desc: 'What we believe', run: () => onNav({ page: 'rule' }) },
     { kind: 'action', id: 'flashcards', name: 'Study Flashcards', desc: 'Practice what you\'ve learned', run: () => onNav({ page: 'flashcards' }) },
     { kind: 'action', id: 'progress', name: 'My Progress', desc: 'Review what you\'ve read', run: () => onNav({ page: 'progress' }) },
     { kind: 'action', id: 'tutor', name: 'Open the Tutor', desc: 'Ask anything', run: () => window.__openTutor?.({}) },
