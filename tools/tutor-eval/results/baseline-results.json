@@ -1,0 +1,207 @@
+{
+  "mode": "baseline",
+  "date": "2026-10-15T03:06:30.002Z",
+  "questions": 12,
+  "thresholds": {
+    "groundedness": 0.75,
+    "citationRate": 1,
+    "correctSourceRate": 0.75
+  },
+  "summary": {
+    "groundedness": 0.806,
+    "citationRate": 1,
+    "correctSourceRate": 0.833
+  },
+  "rows": [
+    {
+      "id": "chess-openings",
+      "subject": "chess",
+      "retrievedFrom": [
+        "chess.js"
+      ],
+      "factsExpected": 3,
+      "factsFound": 3,
+      "groundedness": 1,
+      "cited": true,
+      "correctSource": true,
+      "citations": [
+        "chess.js"
+      ]
+    },
+    {
+      "id": "plumbing-drain-slope",
+      "subject": "plumbing",
+      "retrievedFrom": [
+        "plumbing.js"
+      ],
+      "factsExpected": 3,
+      "factsFound": 3,
+      "groundedness": 1,
+      "cited": true,
+      "correctSource": true,
+      "citations": [
+        "plumbing.js"
+      ]
+    },
+    {
+      "id": "astronomy-hubble",
+      "subject": "astronomy",
+      "retrievedFrom": [
+        "astronomy.js"
+      ],
+      "factsExpected": 3,
+      "factsFound": 3,
+      "groundedness": 1,
+      "cited": true,
+      "correctSource": true,
+      "citations": [
+        "astronomy.js"
+      ]
+    },
+    {
+      "id": "beekeeping-varroa",
+      "subject": "beekeeping",
+      "retrievedFrom": [
+        "beekeeping.js"
+      ],
+      "factsExpected": 3,
+      "factsFound": 2,
+      "groundedness": 0.6666666666666666,
+      "cited": true,
+      "correctSource": true,
+      "citations": [
+        "beekeeping.js"
+      ]
+    },
+    {
+      "id": "sailing-jibe",
+      "subject": "sailing",
+      "retrievedFrom": [
+        "sailing.js"
+      ],
+      "factsExpected": 2,
+      "factsFound": 2,
+      "groundedness": 1,
+      "cited": true,
+      "correctSource": true,
+      "citations": [
+        "sailing.js"
+      ]
+    },
+    {
+      "id": "knots-three-kinds",
+      "subject": "knots",
+      "retrievedFrom": [
+        "knots.js"
+      ],
+      "factsExpected": 3,
+      "factsFound": 3,
+      "groundedness": 1,
+      "cited": true,
+      "correctSource": true,
+      "citations": [
+        "knots.js"
+      ]
+    },
+    {
+      "id": "welding-mig-tig",
+      "subject": "welding",
+      "retrievedFrom": [
+        "welding.js"
+      ],
+      "factsExpected": 3,
+      "factsFound": 3,
+      "groundedness": 1,
+      "cited": true,
+      "correctSource": true,
+      "citations": [
+        "welding.js"
+      ]
+    },
+    {
+      "id": "gardening-soil",
+      "subject": "gardening",
+      "retrievedFrom": [
+        "gardening.js",
+        "composting.js"
+      ],
+      "factsExpected": 3,
+      "factsFound": 3,
+      "groundedness": 1,
+      "cited": true,
+      "correctSource": true,
+      "citations": [
+        "gardening.js",
+        "composting.js"
+      ]
+    },
+    {
+      "id": "bbq-brisket",
+      "subject": "bbq",
+      "retrievedFrom": [
+        "cooking.js",
+        "sociology.js"
+      ],
+      "factsExpected": 3,
+      "factsFound": 1,
+      "groundedness": 0.3333333333333333,
+      "cited": true,
+      "correctSource": false,
+      "citations": [
+        "cooking.js",
+        "sociology.js"
+      ]
+    },
+    {
+      "id": "survival-priorities",
+      "subject": "survival",
+      "retrievedFrom": [
+        "hunting.js",
+        "parenting.js"
+      ],
+      "factsExpected": 3,
+      "factsFound": 1,
+      "groundedness": 0.3333333333333333,
+      "cited": true,
+      "correctSource": false,
+      "citations": [
+        "hunting.js",
+        "parenting.js"
+      ]
+    },
+    {
+      "id": "physics-frameworks",
+      "subject": "physics",
+      "retrievedFrom": [
+        "math.js",
+        "physics.js"
+      ],
+      "factsExpected": 3,
+      "factsFound": 3,
+      "groundedness": 1,
+      "cited": true,
+      "correctSource": true,
+      "citations": [
+        "math.js",
+        "physics.js"
+      ]
+    },
+    {
+      "id": "geology-basics",
+      "subject": "geology",
+      "retrievedFrom": [
+        "geology.js",
+        "astronomy.js"
+      ],
+      "factsExpected": 3,
+      "factsFound": 1,
+      "groundedness": 0.3333333333333333,
+      "cited": true,
+      "correctSource": true,
+      "citations": [
+        "geology.js",
+        "astronomy.js"
+      ]
+    }
+  ]
+}
