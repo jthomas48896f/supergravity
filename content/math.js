@@ -1,6 +1,6 @@
 // content/math.js
 // Batch: B01-mathematics
-// Last updated: 2026-04-22 by Session 00 (scaffold)
+// Last updated: 2026-10-15 by SPRINT W1
 //
 // EXEMPLAR FILE. This file is partially filled to demonstrate the schema.
 // A batch session is expected to complete the remaining topics using the
@@ -10,13 +10,14 @@
 //   Foundations: arith, algebra, geom, trig
 //   Analysis:    precalc, calc1, calc2, diffeq
 //   Discrete:    stats, linalg, discrete, numtheory
+//   Sprint W1:   fractions, percents, exponents, measurement, probability
 
 window.CONTENT = window.CONTENT || {};
 window.CONTENT.math = {
   subjectId: 'math',
   version: 1,
-  lastUpdated: '2026-04-22',
-  curator: 'Session 00 — scaffold',
+  lastUpdated: '2026-10-15',
+  curator: 'SPRINT W1',
   topics: {
 
     // ——— FULLY POPULATED EXEMPLAR: Beginner ———
@@ -2947,5 +2948,605 @@ window.CONTENT.math = {
       verifiedAt: '2026-04-22',
     },
 
+    fractions: {
+      id: 'fractions',
+      name: 'Fractions & Decimals',
+      level: 'Beginner',
+      dek: 'Cutting a whole into equal parts, and learning to name the pieces exactly.',
+      readTime: '9 min',
+
+      sections: ['Equal parts', 'Adding unlike pieces', 'Decimals are fractions too', 'When the decimal never ends'],
+      body: [
+        { type: 'lead', text: 'A cake leaves the table with one quarter gone, and the rest is still described by what is missing. A fraction names a whole by its parts: in 3/4, the numerator 3 counts the parts and the denominator 4 says how many equal parts make the whole.' },
+        { type: 'h2', text: 'Equal parts' },
+        { type: 'p', text: 'That small definition does real work. A fraction is a part of a whole, or more generally any number of equal parts, and it can also stand for a ratio or a division: 3/4 is three to four, and three divided by four. Once a whole is cut fairly, the pieces become a new unit. One fourth is a thing you can count, stack, and compare, just as one apple is. Two fourths and three fourths differ by exactly one of those units.' },
+        { type: 'p', text: 'Fractions also refuse to stay below one. A proper fraction has absolute value less than one, while an improper fraction is greater than or equal to one, so 9/4 is a respectable number, not a mistake. Its reciprocal, made by exchanging numerator and denominator, is 4/9, and a fraction times its reciprocal is 1. Every integer joins the system too: 17 can be written as 17/1, with what the old books call an invisible denominator.' },
+        { type: 'h2', text: 'Adding unlike pieces' },
+        { type: 'p', text: 'Addition is where the discipline shows. Fourths and thirds are different units, so they cannot be counted together until both are rewritten in a shared unit, a common denominator. In twelfths, 2/3 becomes 8/12 and 1/4 becomes 3/12, and the sum is 11/12. Multiplication asks for no such negotiation: multiply across, top and bottom. Division turns into multiplication by the reciprocal, which is why dividing by a half doubles a quantity instead of halving it.' },
+        { type: 'callout', text: 'The word fraction comes from the Latin fractus, meaning broken. The mathematics is what you can build, exactly, from the broken pieces.' },
+        { type: 'h2', text: 'Decimals are fractions too' },
+        { type: 'p', text: 'A decimal fraction hides its denominator in plain sight. In 0.75 the numerator is 75 and the implied denominator is 100, because two digits sit to the right of the separator. Money makes this familiar: 3.75 dollars is 375/100, or three wholes and seventy five hundredths. Decimals are fractions dressed for calculation, quick to compare and easy to line up by place.' },
+        { type: 'h2', text: 'When the decimal never ends' },
+        { type: 'p', text: 'Some fractions settle into a short decimal and some do not. Written as a decimal, 1/3 = 0.333..., the threes repeating without end, because 3 is not a power of ten. The fraction is exact and the decimal is an endless approximation of it, a useful warning about which form to trust. The cake from the first paragraph makes the point quietly: three quarters of it can be written in a breath, as 3/4, 0.75, or a picture, and each form keeps a different part of the truth visible.' },
+      ],
+
+      keyTerms: ['numerator', 'denominator', 'proper fraction', 'improper fraction', 'reciprocal', 'common denominator', 'decimal fraction'],
+
+      resources: {
+        videos: [
+          {
+            id: 'DpwUVExX27E',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=DpwUVExX27E',
+            title: 'Infinite Fractions',
+            channel: 'Numberphile',
+            duration: 'variable',
+            featured: true,
+            why: 'Matt Parker on Stern Babcot numbers, fractions, and rational numbers, in depth.',
+          },
+          {
+            id: '0hlvhQZIOQw',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=0hlvhQZIOQw',
+            title: 'Funny Fractions and Ford Circles',
+            channel: 'Numberphile',
+            duration: 'variable',
+            featured: true,
+            why: 'Farey sequences and Ford circles show how fractions sit in a hidden order.',
+          },
+          {
+            id: 'aVUUbNbQkbQ',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=aVUUbNbQkbQ',
+            title: 'Egyptian Fractions and the Greedy Algorithm',
+            channel: 'Numberphile',
+            duration: 'variable',
+            featured: true,
+            why: 'How the Egyptians wrote fractions as sums of unit fractions, and the greedy method that rebuilds them.',
+          },
+        ],
+        books: [
+          {
+            title: 'Number: The Language of Science',
+            author: 'Tobias Dantzig',
+            year: 1930,
+            url: '',
+            why: 'The classic history of number, strong on how fractions and rationals widened the number line.',
+          },
+          {
+            title: 'The Man Who Counted',
+            author: 'Malba Tahan',
+            year: 1938,
+            url: '',
+            why: 'Fables of elementary arithmetic, with fraction puzzles woven through a journey.',
+          },
+          {
+            title: 'What Is Mathematics?',
+            author: 'Richard Courant and Herbert Robbins',
+            year: 1941,
+            url: '',
+            why: 'A durable survey that treats rational numbers with the respect they deserve.',
+          },
+        ],
+        articles: [
+          {
+            title: 'Fraction',
+            source: 'Wikipedia',
+            url: 'https://en.wikipedia.org/wiki/Fraction',
+            why: 'Definitions, forms of fractions, and decimal fractions, well cited.',
+            year: null,
+          },
+          {
+            title: 'Decimal',
+            source: 'Wikipedia',
+            url: 'https://en.wikipedia.org/wiki/Decimal',
+            why: 'How decimal fractions work and why some expansions repeat.',
+            year: null,
+          },
+        ],
+        courses: [
+          {
+            title: 'Prealgebra 2e',
+            provider: 'OpenStax',
+            url: 'https://openstax.org/details/books/prealgebra-2e',
+            free: true,
+            why: 'Free online prealgebra text covering fractions, percents, exponents, and measurement, with exercises throughout.',
+          },
+        ],
+      },
+
+      seeAlso: ['arith', 'algebra', 'stats'],
+      prereqs: ['arith'],
+      leadsTo: ['algebra', 'stats'],
+
+      sources: [
+        'https://en.wikipedia.org/wiki/Fraction',
+        'https://en.wikipedia.org/wiki/Decimal',
+        'https://openstax.org/details/books/prealgebra-2e',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    percents: {
+      id: 'percents',
+      name: 'Percents & Ratios',
+      level: 'Beginner',
+      dek: 'Per hundred: one shared scale for comparing parts, prices, votes, and change.',
+      readTime: '9 min',
+
+      sections: ['Per hundred', 'Ratios underneath', 'Change is relative', 'Percentage points'],
+      body: [
+        { type: 'lead', text: 'In ancient Rome, long before the decimal system, Augustus levied a tax of 1/100 on goods sold at auction. The clerks who reckoned in hundredths were, in effect, computing percentages, and the habit has never left the counting house since.' },
+        { type: 'h2', text: 'Per hundred' },
+        { type: 'p', text: 'A percentage is a number or ratio expressed as a fraction of 100, from the Latin per centum, by the hundred. So 45% is 45/100, or 0.45, and the percent sign itself evolved by contraction from the Italian per cento. The trick is standardization. Test scores, harvests, and crowds come in different sizes, but rescaled to a hundred they can be compared at a glance. If 50% of the students in a class are male and there are 500 students, then 250 of them are male.' },
+        { type: 'h2', text: 'Ratios underneath' },
+        { type: 'p', text: 'Under every percent sits a ratio, a comparison of how many times one number contains another. Eight oranges to six lemons is the ratio 8:6, which reduces to 4:3, and oranges are 8 of 14 pieces of fruit in the bowl. A proportion states that two ratios are equal, and most percent problems are proportions in disguise: find the part, find the whole, or find the rate per hundred. Keeping track of which quantity is the whole is most of the skill.' },
+        { type: 'callout', text: 'Percentages can exceed one hundred. A price that doubles has risen by 100% and now stands at 200% of its starting value.' },
+        { type: 'h2', text: 'Change is relative' },
+        { type: 'p', text: 'Percent change is measured against the starting value, and that choice of base explains its famous traps. An increase of $0.15 on a price of $2.50 is 0.15 divided by 2.50, a 6% increase. But a 10% rise followed by a 10% fall does not cancel: $200 rises to $220, then falls by $22 to $198. The two changes were taken from different bases, so a careful reader always asks, percent of what.' },
+        { type: 'h2', text: 'Percentage points' },
+        { type: 'p', text: 'When a rate itself changes, plain language needs one more tool. If an interest rate rises from 10% per annum to 15% per annum, saying it rose by 5% invites the wrong reading, 10.5%. The clear statement is that it rose by 5 percentage points. Augustus and his auction tax have come a long way: the hundredth is now the common scale of elections, interest, and statistics, and it rewards exactly the habit his clerks practiced, naming the whole before quoting the part.' },
+      ],
+
+      keyTerms: ['percent', 'ratio', 'proportion', 'percent change', 'percentage point', 'rate', 'per mille'],
+
+      resources: {
+        videos: [
+          {
+            id: 'JeVSmq1Nrpw',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=JeVSmq1Nrpw',
+            title: 'What Are Percentages?',
+            channel: 'Math Antics',
+            duration: 'variable',
+            featured: true,
+            why: 'A patient introduction that treats a percent as a fraction with denominator one hundred.',
+          },
+          {
+            id: 'rR95Cbcjzus',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=rR95Cbcjzus',
+            title: 'Finding a Percent of a Number',
+            channel: 'Math Antics',
+            duration: 'variable',
+            featured: true,
+            why: 'Worked examples of taking a percent of a quantity, in fraction and decimal form.',
+          },
+          {
+            id: 'USmit5zUGas',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=USmit5zUGas',
+            title: 'Proportions',
+            channel: 'Math Antics',
+            duration: 'variable',
+            featured: true,
+            why: 'Proportions and cross multiplication, the machinery underneath most percent problems.',
+          },
+        ],
+        books: [
+          {
+            title: 'How to Lie with Statistics',
+            author: 'Darrell Huff',
+            year: 1954,
+            url: '',
+            why: 'The short classic on how percentages and charts mislead, and how to read them awake.',
+          },
+          {
+            title: 'Innumeracy',
+            author: 'John Allen Paulos',
+            year: 1988,
+            url: '',
+            why: 'A mathematician on the everyday cost of shaky number sense, percents included.',
+          },
+          {
+            title: 'What Is Mathematics?',
+            author: 'Richard Courant and Herbert Robbins',
+            year: 1941,
+            url: '',
+            why: 'Ratio and proportion treated as serious mathematics, not school routine.',
+          },
+        ],
+        articles: [
+          {
+            title: 'Percentage',
+            source: 'Wikipedia',
+            url: 'https://en.wikipedia.org/wiki/Percentage',
+            why: 'History, calculations, and the percentage point distinction.',
+            year: null,
+          },
+          {
+            title: 'Ratio',
+            source: 'Wikipedia',
+            url: 'https://en.wikipedia.org/wiki/Ratio',
+            why: 'Ratios, proportions, and reduction, from Euclid onward.',
+            year: null,
+          },
+        ],
+        courses: [
+          {
+            title: 'Prealgebra 2e',
+            provider: 'OpenStax',
+            url: 'https://openstax.org/details/books/prealgebra-2e',
+            free: true,
+            why: 'Free online prealgebra text covering fractions, percents, exponents, and measurement, with exercises throughout.',
+          },
+        ],
+      },
+
+      seeAlso: ['arith', 'algebra', 'stats'],
+      prereqs: ['arith'],
+      leadsTo: ['stats', 'algebra'],
+
+      sources: [
+        'https://en.wikipedia.org/wiki/Percentage',
+        'https://en.wikipedia.org/wiki/Ratio',
+        'https://openstax.org/details/books/prealgebra-2e',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    exponents: {
+      id: 'exponents',
+      name: 'Exponents & Powers',
+      level: 'Beginner',
+      dek: 'Repeated multiplication, compressed into a small raised number with outsized reach.',
+      readTime: '9 min',
+
+      sections: ['Repeated multiplication', 'The rules', 'Zero and the negatives', 'Powers of ten'],
+      body: [
+        { type: 'lead', text: 'A chessboard, a grain of rice doubled on every square, is the oldest warning about exponents. The notation is modest, a base and a small raised number, but the growth it describes outruns intuition within a few steps.' },
+        { type: 'h2', text: 'Repeated multiplication' },
+        { type: 'p', text: 'When the exponent is a positive integer, exponentiation is repeated multiplication: the base multiplied by itself that many times. The expression with base 2 and exponent 3 is 2 times 2 times 2, which is 8, while reversing the operands gives a different value, 3 to the second power is 9. Exponentiation is not commutative, and it is not associative either, so the small raised number deserves respect. The language remembers geometry: a number times itself is its square, because it measures a square, and three times is its cube.' },
+        { type: 'h2', text: 'The rules' },
+        { type: 'p', text: 'Three identities do most of the work. Multiplying powers of the same base adds the exponents. Raising a power to a power multiplies them. Raising a product to a power applies the power to each factor. These are not decrees: each one is just the repeated multiplication, counted carefully. A byte shows the scale quietly: a byte may take 256 different values, because 2 to the 8th power is 256, one doubling for each of its eight bits.' },
+        { type: 'callout', text: 'Any nonzero number raised to the power of 0 is 1. The rule is not a curiosity: it is the only choice that keeps the addition rule for exponents working.' },
+        { type: 'h2', text: 'Zero and the negatives' },
+        { type: 'p', text: 'The definition extends by keeping the rules true. A number raised to the 0 power is generally defined to be 1, and a negative exponent means a reciprocal: a base to the power of negative n is 1 over the base to the power of n. So the first negative powers of 2 have familiar names: 2 to the power of negative 1 is a half, and 2 to the power of negative 2 is a quarter. Nothing new was invented, only the pattern followed honestly past zero.' },
+        { type: 'h2', text: 'Powers of ten' },
+        { type: 'p', text: 'Powers of ten run the decimal world. Ten to the third power is 1000, ten to the power of negative 4 is 0.0001, and the prefix kilo means 10 to the third power, so a kilometre is 1000 metres. Scientific notation is this idea put to work for the very large and very small: the speed of light, 299,792,458 metres per second, is written compactly with a power of ten. The chessboard grain, counted honestly, is the same notation at play: small exponent, enormous consequence.' },
+      ],
+
+      keyTerms: ['base', 'exponent', 'power', 'square', 'cube', 'scientific notation', 'reciprocal'],
+
+      resources: {
+        videos: [
+          {
+            id: 'bXkewQ7WEdI',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=bXkewQ7WEdI',
+            title: 'Scientific Notation',
+            channel: 'Math Antics',
+            duration: 'variable',
+            featured: true,
+            why: 'How powers of ten tame very large and very small numbers.',
+          },
+          {
+            id: 'fDek6cYijxI',
+            source: 'youtube',
+            url: '10:59',
+            title: 'The most beautiful equation in math',
+            channel: 'Numberphile',
+            duration: 'variable',
+            featured: true,
+            why: 'The exponential constant e and the identity that links five famous numbers.',
+          },
+          {
+            id: '_YjNEfZ0VqU',
+            source: 'youtube',
+            url: '29:50',
+            title: 'This equation will change how you see the world',
+            channel: 'Veritasium',
+            duration: 'variable',
+            featured: true,
+            why: 'Exponential and logistic growth, and why repeated doubling deceives intuition.',
+          },
+        ],
+        books: [
+          {
+            title: 'e: The Story of a Number',
+            author: 'Eli Maor',
+            year: 1994,
+            url: '',
+            why: 'The history of e and the exponential function, told through the people who found them.',
+          },
+          {
+            title: 'What Is Mathematics?',
+            author: 'Richard Courant and Herbert Robbins',
+            year: 1941,
+            url: '',
+            why: 'Powers, roots, and logarithms in a classic, careful survey.',
+          },
+          {
+            title: 'Mathematics for the Nonmathematician',
+            author: 'Morris Kline',
+            year: 1967,
+            url: '',
+            why: 'A humane route into the ideas behind school mathematics, exponents included.',
+          },
+        ],
+        articles: [
+          {
+            title: 'Exponentiation',
+            source: 'Wikipedia',
+            url: 'https://en.wikipedia.org/wiki/Exponentiation',
+            why: 'Integer, zero, and negative exponents, with the standard identities.',
+            year: null,
+          },
+          {
+            title: 'Scientific notation',
+            source: 'Wikipedia',
+            url: 'https://en.wikipedia.org/wiki/Scientific_notation',
+            why: 'Normalized notation and how powers of ten compare magnitudes.',
+            year: null,
+          },
+        ],
+        courses: [
+          {
+            title: 'Prealgebra 2e',
+            provider: 'OpenStax',
+            url: 'https://openstax.org/details/books/prealgebra-2e',
+            free: true,
+            why: 'Free online prealgebra text covering fractions, percents, exponents, and measurement, with exercises throughout.',
+          },
+        ],
+      },
+
+      seeAlso: ['arith', 'algebra', 'numtheory'],
+      prereqs: ['arith'],
+      leadsTo: ['algebra'],
+
+      sources: [
+        'https://en.wikipedia.org/wiki/Exponentiation',
+        'https://en.wikipedia.org/wiki/Scientific_notation',
+        'https://openstax.org/details/books/prealgebra-2e',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    measurement: {
+      id: 'measurement',
+      name: 'Measurement & Units',
+      level: 'Beginner',
+      dek: 'Comparing an unknown quantity with a standard the whole world has agreed to share.',
+      readTime: '9 min',
+
+      sections: ['Comparison with a standard', 'Seven base units', 'Prefixes and conversion', 'Uncertainty is part of the answer'],
+      body: [
+        { type: 'lead', text: 'A platinum iridium bar once sat near Paris with two marks scratched on it, and the distance between those marks was, by definition, one metre. The world measured itself against a metal bar, and the bar has since been retired in favor of light itself.' },
+        { type: 'h2', text: 'Comparison with a standard' },
+        { type: 'p', text: 'Measurement is the quantification of attributes of an object or event, a process of determining how large or small a quantity is compared with a basic reference quantity of the same kind. The earliest recorded systems of weights and measures originate in the 3rd or 4th millennium BC, built from local agreements between trading partners. Every measurement since has kept that shape: an unknown, a standard, and a number that relates them.' },
+        { type: 'h2', text: 'Seven base units' },
+        { type: 'p', text: 'The modern International System of Units, the SI, reduces physical measurements to a combination of seven base units: kilogram, metre, candela, second, ampere, kelvin, and mole. These units are now defined without reference to a particular physical object. The metre is defined by taking the fixed numerical value of the speed of light in vacuum to be 299,792,458 when expressed in metres per second. The standard is no longer a bar that can scratch or shrink, but a constant of nature, the same in every laboratory.' },
+        { type: 'callout', text: 'The international yard was defined in 1960 as exactly 0.9144 metres, and the inch as exactly 25.4 millimetres. Imperial measures now stand on metric ground.' },
+        { type: 'h2', text: 'Prefixes and conversion' },
+        { type: 'p', text: 'The metric system is decimal, so conversion is mostly a matter of moving with the prefixes. There are 100 centimetres in a metre and 1000 metres in a kilometre, and to convert from metres to centimetres you multiply by 100. Derived units are built from the base ones: the watt, the unit for power, is defined from the base units as metres squared times kilograms per second cubed. One system, honestly defined, covers a tape measure and a power station.' },
+        { type: 'h2', text: 'Uncertainty is part of the answer' },
+        { type: 'p', text: 'No measurement is exact, and the honest statement of one includes its uncertainty, an indication of the confidence level in the result. Even a simple timing, an object falling one metre in about 0.45 second, carries errors from the instrument, the release, and the varying field of the Earth. That is the mature form of the bar in Paris: not a perfect object, but a shared standard, stated precisely, with its limits named, so that a metre here is the metre the lead promised, anywhere on Earth.' },
+      ],
+
+      keyTerms: ['unit', 'SI', 'metre', 'kilogram', 'prefix', 'conversion', 'uncertainty'],
+
+      resources: {
+        videos: [
+          {
+            id: '-A9luUC5LwA',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=-A9luUC5LwA',
+            title: 'Metric system part 2',
+            channel: 'Khan Academy',
+            duration: 'variable',
+            featured: true,
+            why: 'How the metre, litre, and kilogram connect length, volume, and mass.',
+          },
+          {
+            id: '6fZSr6lDm9k',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=6fZSr6lDm9k',
+            title: 'Unit conversions part 1',
+            channel: 'Khan Academy',
+            duration: 'variable',
+            featured: true,
+            why: 'Dimensional analysis: setting up conversion factors so unwanted units cancel.',
+          },
+          {
+            id: 'TeOESA4r2TQ',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=TeOESA4r2TQ',
+            title: 'Converting between measurement systems',
+            channel: 'Khan Academy',
+            duration: 'variable',
+            featured: true,
+            why: 'Using a proportion to convert a measurement from US units to metric units.',
+          },
+        ],
+        books: [
+          {
+            title: 'The Measure of All Things',
+            author: 'Ken Alder',
+            year: 2002,
+            url: '',
+            why: 'The story of the French survey that defined the metre, and the error hidden inside it.',
+          },
+          {
+            title: 'From Sundials to Atomic Clocks',
+            author: 'James Jespersen and Jane Fitz-Randolph',
+            year: 1982,
+            url: '',
+            why: 'A NIST history of time and frequency measurement, clear and authoritative.',
+          },
+          {
+            title: 'The Story of Measurement',
+            author: 'Andrew Robinson',
+            year: 2007,
+            url: '',
+            why: 'An illustrated survey of how humans have measured length, weight, time, and more.',
+          },
+        ],
+        articles: [
+          {
+            title: 'Measurement',
+            source: 'Wikipedia',
+            url: 'https://en.wikipedia.org/wiki/Measurement',
+            why: 'History, standardization, and the seven SI base units.',
+            year: null,
+          },
+          {
+            title: 'SI Units: Length',
+            source: 'NIST',
+            url: 'https://www.nist.gov/pml/owm/si-units-length',
+            why: 'The official definition of the metre and the table of length units.',
+            year: null,
+          },
+        ],
+        courses: [
+          {
+            title: 'Prealgebra 2e',
+            provider: 'OpenStax',
+            url: 'https://openstax.org/details/books/prealgebra-2e',
+            free: true,
+            why: 'Free online prealgebra text covering fractions, percents, exponents, and measurement, with exercises throughout.',
+          },
+        ],
+      },
+
+      seeAlso: ['arith', 'geom', 'algebra'],
+      prereqs: ['arith'],
+      leadsTo: ['geom'],
+
+      sources: [
+        'https://en.wikipedia.org/wiki/Measurement',
+        'https://www.nist.gov/pml/owm/si-units-length',
+        'https://openstax.org/details/books/prealgebra-2e',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    probability: {
+      id: 'probability',
+      name: 'Probability',
+      level: 'Intermediate',
+      dek: 'A number between zero and one for how likely an event is to happen.',
+      readTime: '10 min',
+
+      sections: ['Letters about a game', 'Between zero and one', 'Adding and multiplying', 'Updating with evidence'],
+      body: [
+        { type: 'lead', text: 'Two mathematicians wrote letters about a gambling problem and founded a science. The doctrine of probabilities dates to the correspondence of Pierre de Fermat and Blaise Pascal in 1654, an exchange about fairly dividing the stakes of an unfinished game.' },
+        { type: 'h2', text: 'Letters about a game' },
+        { type: 'p', text: 'The problem was practical: if a game of chance stops early, how should the pot be split. The answer required counting futures that had not happened, weighing each possible continuation. Gerolamo Cardano, a century earlier, had already shown the force of defining odds as the ratio of favourable to unfavourable outcomes. Huygens gave the subject its earliest known scientific treatment in 1657, and Jakob Bernoulli and Abraham de Moivre later treated it as a branch of mathematics in its own right.' },
+        { type: 'h2', text: 'Between zero and one' },
+        { type: 'p', text: 'The probability of an event is a number between 0 and 1, and the larger the number, the more likely the event is to occur. For a fair coin, heads and tails are equally probable, so the probability of heads is 1/2, also written 0.5 or 50%. Tossing a coin twice gives four outcomes, and the probability of head, head is 1 out of 4, or 25%, while the probability of at least one head is 3 out of 4. The complement rule does quiet work everywhere: the chance of not rolling a six on a six sided die is 1 minus 1/6, which is 5/6.' },
+        { type: 'callout', text: 'Probability theory is used to design games of chance so that casinos can make a guaranteed profit, yet provide payouts frequent enough to encourage play.' },
+        { type: 'h2', text: 'Adding and multiplying' },
+        { type: 'p', text: 'Two rules organize most calculations. For mutually exclusive events, the probability that at least one occurs is the sum of their separate probabilities. For independent events, the probability that both occur is the product. Sample spaces keep the counting honest: rolling a die can produce six possible results, and the event of an odd number is the collection 1, 3, 5. Most errors in probability are errors in the sample space, made before any arithmetic begins.' },
+        { type: 'h2', text: 'Updating with evidence' },
+        { type: 'p', text: 'Evidence should change a probability, and Bayes theorem is the rule for changing it correctly: it inverts conditional probabilities, allowing the probability of a cause to be found given its effect. Thomas Bayes developed the theorem in the 18th century, and Laplace independently reproduced and extended the results in 1774. A test result, a symptom, a witness: each is an effect from which a cause must be inferred, carefully. Pascal and Fermat, dividing a pot in 1654, could not have known they were drafting the logic by which medicine, finance, and machines would later reason under uncertainty.' },
+      ],
+
+      keyTerms: ['sample space', 'event', 'complement', 'independent events', 'conditional probability', 'Bayes theorem', 'expected value'],
+
+      resources: {
+        videos: [
+          {
+            id: 'HZGCoVF3YvM',
+            source: 'youtube',
+            url: '15:11',
+            title: 'Bayes theorem, the geometry of changing beliefs',
+            channel: '3Blue1Brown',
+            duration: 'variable',
+            featured: true,
+            why: 'A visual account of how evidence should update a probability.',
+          },
+          {
+            id: 'R13BD8qKeTg',
+            source: 'youtube',
+            url: '10:37',
+            title: 'The Bayesian Trap',
+            channel: 'Veritasium',
+            duration: 'variable',
+            featured: true,
+            why: 'Medical testing, prior probabilities, and how Bayesian updates go wrong in practice.',
+          },
+          {
+            id: 'KzfWUEJjG18',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=KzfWUEJjG18',
+            title: 'Basic Probability',
+            channel: 'Math Antics',
+            duration: 'variable',
+            featured: true,
+            why: 'Coins, dice, and the probability line from impossible to certain.',
+          },
+          {
+            id: '3m4bxse2JEQ',
+            source: 'youtube',
+            url: '8:28',
+            title: 'The Galton Board',
+            channel: 'Numberphile',
+            duration: 'variable',
+            featured: true,
+            why: 'Beads, chance, and the bell curve that emerges from many small random choices.',
+          },
+        ],
+        books: [
+          {
+            title: 'The Doctrine of Chances',
+            author: 'Abraham de Moivre',
+            year: 1718,
+            url: '',
+            why: 'The early treatise that treated probability as a branch of mathematics.',
+          },
+          {
+            title: 'Against the Gods: The Remarkable Story of Risk',
+            author: 'Peter L. Bernstein',
+            year: 1996,
+            url: '',
+            why: 'The history of probability and risk, from Pascal and Fermat to modern finance.',
+          },
+          {
+            title: 'The Signal and the Noise',
+            author: 'Nate Silver',
+            year: 2012,
+            url: '',
+            why: 'Forecasting in practice: why some predictions fail and others hold up.',
+          },
+        ],
+        articles: [
+          {
+            title: 'Probability',
+            source: 'Wikipedia',
+            url: 'https://en.wikipedia.org/wiki/Probability',
+            why: 'Definitions, interpretations, and the history from Cardano to Kolmogorov.',
+            year: null,
+          },
+          {
+            title: 'Bayes\' theorem',
+            source: 'Wikipedia',
+            url: 'https://en.wikipedia.org/wiki/Bayes%27_theorem',
+            why: 'The statement of the theorem, with medical and testing examples.',
+            year: null,
+          },
+        ],
+        courses: [
+          {
+            title: 'Introduction to Probability and Statistics',
+            provider: 'MIT OpenCourseWare',
+            url: 'https://ocw.mit.edu/courses/18-05-introduction-to-probability-and-statistics-spring-2022/',
+            free: true,
+            why: 'Free MIT course on combinatorics, random variables, distributions, and Bayesian inference.',
+          },
+        ],
+      },
+
+      seeAlso: ['stats', 'discrete', 'arith'],
+      prereqs: ['arith'],
+      leadsTo: ['stats'],
+
+      sources: [
+        'https://en.wikipedia.org/wiki/Probability',
+        'https://en.wikipedia.org/wiki/Bayes%27_theorem',
+        'https://ocw.mit.edu/courses/18-05-introduction-to-probability-and-statistics-spring-2022/',
+      ],
+      verifiedAt: '2026-10-15',
+    },
   },
 };

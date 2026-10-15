@@ -1,17 +1,17 @@
 // content/chemistry.js
 // Owned by batch: B02-hard-sciences
-// Last updated: 2026-04-22 by BATCH B02-hard-sciences
+// Last updated: 2026-10-15 by SPRINT W1
 //
 // Topics this subject must cover (from data.js):
-//   General:  atoms, bonds, reactions, acidbase
+//   General:  atoms, bonds, reactions, acidbase, periodic, states, solutions, mole
 //   Advanced: organic, biochem
 
 window.CONTENT = window.CONTENT || {};
 window.CONTENT.chemistry = {
   subjectId: 'chemistry',
   version: 1,
-  lastUpdated: '2026-04-22',
-  curator: 'BATCH B02-hard-sciences',
+  lastUpdated: '2026-10-15',
+  curator: 'SPRINT W1',
   topics: {
 
     atoms: {
@@ -919,6 +919,465 @@ window.CONTENT.chemistry = {
         'https://ocw.mit.edu/courses/5-07sc-biological-chemistry-i-fall-2013/',
       ],
       verifiedAt: '2026-04-22',
+    },
+
+
+    periodic: {
+      id: 'periodic',
+      name: 'The Periodic Table',
+      level: 'Beginner',
+      dek: 'One page of boxes that predicts how every element will behave, including elements nobody had yet found.',
+      readTime: '9 min',
+
+      sections: ['A table with gaps', 'Rows, columns, and shells', 'Groups that behave alike', 'Trends and the unfinished edges'],
+      body: [
+        { type: 'lead', text: 'On March 6, 1869, Dmitri Mendeleev presented a table that did something no list of elements had done before. It left holes. Where an element ought to sit but none was known, he left an empty square and described the missing substance anyway: its weight, its density, how it should behave. The table was a bet that matter has an order, and that the order is strong enough to predict what has not yet been seen.' },
+        { type: 'h2', text: 'A table with gaps' },
+        { type: 'p', text: 'Mendeleev was not the first chemist to notice patterns among the elements, but he trusted the pattern further than anyone else. Arranged by atomic weight, the elements fell into a rhythm: properties repeated at regular intervals, like notes returning at the octave. When the rhythm and the measured weights disagreed, he sided with the rhythm. Britannica records that his revised table of 1871 predicted three elements that had not yet been discovered: scandium, gallium, and germanium. All three were found, with properties close to his forecasts. A classification had become a prediction machine.' },
+        { type: 'h2', text: 'Rows, columns, and shells' },
+        { type: 'p', text: 'The modern table arranges elements by atomic number, the count of protons in the nucleus, rather than by weight. Hydrogen, with one proton, sits first. Oganesson, with 118, sits last among the known elements. A new row, called a period, begins when a new electron shell starts to fill, and a column, called a group, collects elements whose outer electrons are arranged alike. The groups are numbered from 1 to 18. That is why the table has its odd shape, with two long rows set below the main body: the shape is a picture of how electrons fill a space.' },
+        { type: 'h2', text: 'Groups that behave alike' },
+        { type: 'p', text: 'Read down a column and you meet a family. The alkali metals in group 1 are soft, reactive metals with one outer electron to give away. The halogens in group 17 are reactive nonmetals, one electron short of a full shell. The noble gases in group 18 have full outer shells and mostly keep to themselves. Similar outer arrangements mean similar chemistry, so the position of an unfamiliar element tells a chemist a surprising amount about how it will react, what compounds it will form, and what it will refuse to do.' },
+        { type: 'callout', text: 'Today, 118 elements are known. The first 94 occur naturally on Earth, and the remaining 24 are made in laboratories.' },
+        { type: 'h2', text: 'Trends and the unfinished edges' },
+        { type: 'p', text: 'Across a period, metallic character fades as you move from left to right, while nonmetallic character grows toward the upper right of the table. Down a group, atoms get larger and their outer electrons sit farther from the nucleus, easier to lose. These trends let chemists reason from neighbours: an element is guessed at from the company it keeps. At the far edge, the heaviest elements live briefly in accelerators before decaying, and researchers still test whether the pattern holds there. Mendeleev left holes in a table and trusted strangers to fill them. The strangers are still at work, one new square at a time, and the table on the classroom wall is still the same bet he made: that the order is real, and that it can be read.' },
+      ],
+
+      keyTerms: ['element', 'atomic number', 'periodic law', 'group', 'period', 'valence electron', 'alkali metal', 'noble gas'],
+
+      resources: {
+        videos: [
+          {
+            id: '0RRVV4Diomg',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=0RRVV4Diomg',
+            title: 'The Periodic Table: Crash Course Chemistry #4',
+            channel: 'Crash Course',
+            duration: '11:23',
+            why: 'Hank Green tours the table and tells the Mendeleev story with the right sense of obsession.',
+          },
+          {
+            id: '3NhBzKP03gY',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=3NhBzKP03gY',
+            title: 'What is the Periodic Table? How are Elements Organized?',
+            channel: 'Math and Science',
+            duration: 'variable',
+            why: 'A patient walk through groups, periods, and how position predicts behaviour.',
+          },
+          {
+            id: 'FSyAehMdpyI',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=FSyAehMdpyI',
+            title: 'The Nucleus: Crash Course Chemistry #1',
+            channel: 'Crash Course',
+            duration: '11:22',
+            why: 'Atomic number starts here, with protons, neutrons, and why the nucleus defines the element.',
+          },
+        ],
+        books: [
+          {
+            title: 'The Periodic Table',
+            author: 'Primo Levi',
+            year: 1975,
+            url: '',
+            why: 'A chemist and writer remembers a life through twenty one chapters, each named for an element.',
+          },
+          {
+            title: 'Uncle Tungsten',
+            author: 'Oliver Sacks',
+            year: 2001,
+            url: '',
+            why: 'A boyhood among metals and chemical sets, and the best invitation to the table ever written for a general reader.',
+          },
+          {
+            title: 'The Periodic Table: A Very Short Introduction',
+            author: 'Eric Scerri',
+            year: 2011,
+            url: '',
+            why: 'A short, serious account of what the table means and why philosophers of chemistry still argue about it.',
+          },
+        ],
+        articles: [
+          {
+            title: 'Periodic table',
+            source: 'Wikipedia',
+            url: 'https://en.wikipedia.org/wiki/Periodic_table',
+            why: 'The full reference: structure, trends, history, and the state of the heaviest elements.',
+            year: null,
+          },
+          {
+            title: 'Periodic table',
+            source: 'Encyclopaedia Britannica',
+            url: 'https://www.britannica.com/science/periodic-table',
+            why: 'A concise editorial account, with the 1869 presentation and the predicted elements set out clearly.',
+            year: null,
+          },
+        ],
+        courses: [
+          {
+            title: '5.111 Principles of Chemical Science',
+            provider: 'MIT OpenCourseWare',
+            url: 'https://ocw.mit.edu/courses/5-111sc-principles-of-chemical-science-fall-2014/',
+            free: true,
+            why: 'The full MIT first year chemistry course, free, with lectures, notes, and problem sets.',
+          },
+        ],
+      },
+
+      seeAlso: ['atoms', 'bonds', 'reactions'],
+      prereqs: [],
+      leadsTo: ['bonds', 'reactions'],
+
+      sources: [
+        'https://en.wikipedia.org/wiki/Periodic_table',
+        'https://www.britannica.com/science/periodic-table',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    states: {
+      id: 'states',
+      name: 'States of Matter',
+      level: 'Beginner',
+      dek: 'The same water can be ice, rain, or steam. Only the spacing and the energy of particles change.',
+      readTime: '9 min',
+
+      sections: ['Packed, flowing, and free', 'Changing state', 'Plasma, the common state', 'Stranger states at the edges'],
+      body: [
+        { type: 'lead', text: 'An ice cube in a glass does its slow work on a warm afternoon. It holds its shape, then gives it up, rounding at the corners, sliding into water that takes the shape of the glass instead. Warm that water and it escapes upward as steam, filling the kitchen and vanishing into the air. Nothing has been added and nothing taken away. The water is the same water in three different arrangements, and the difference between them is energy.' },
+        { type: 'h2', text: 'Packed, flowing, and free' },
+        { type: 'p', text: 'Four states of matter are observable in everyday life: solid, liquid, gas, and plasma. In a solid, the particles are tightly packed and held near fixed positions, able only to vibrate, so a solid keeps both its shape and its volume. In a liquid, the particles stay close but can move past one another, so a liquid keeps its volume while taking the shape of its container. In a gas, the particles are far apart and move freely, expanding to fill both the shape and the volume of whatever holds them. The states are not kinds of stuff. They are kinds of behaviour, set by how much energy the particles have and how strongly they hold on to each other.' },
+        { type: 'h2', text: 'Changing state' },
+        { type: 'p', text: 'Heat a solid and, at its melting point, it becomes a liquid. Heat the liquid and it boils into a gas. Cool a gas and it condenses; cool a liquid and it freezes. Solids can also pass directly into gas by sublimation, the way dry ice smokes on a stage without ever puddling. Each change has a name and each takes or releases energy, which is why steam burns worse than hot water and why sweat cools skin. Even a single state can hide variety: ice alone has fifteen known crystal structures, each stable at different temperatures and pressures.' },
+        { type: 'callout', text: 'Plasma is by far the most abundant of the four states. About 99 percent of all ordinary matter in the universe is plasma, because plasma is what stars are made of.' },
+        { type: 'h2', text: 'Plasma, the common state' },
+        { type: 'p', text: 'Heat a gas far enough, or pass a strong voltage through it, and electrons tear free of their atoms. The result is plasma: a gas like mixture of charged particles, ions and free electrons, that responds to electric and magnetic fields. Plasma is rare in a kitchen and everywhere in the sky. Lightning is plasma. A neon sign is plasma. The Sun, its corona, and every star you can see are plasma. The state that feels most exotic on Earth turns out to be the ordinary condition of matter in the universe at large.' },
+        { type: 'h2', text: 'Stranger states at the edges' },
+        { type: 'p', text: 'Push conditions to extremes and other states appear. Near absolute zero, atoms can settle into a Bose Einstein condensate, behaving as one quantum whole rather than as separate particles. Above the critical point of water, around 647 kelvin, liquid and gas stop being distinguishable and become a single supercritical fluid. Between solid and liquid sit liquid crystals, which flow like a liquid while keeping some of the order of a crystal, and which run the display you may be reading this on. The ice cube in the glass, meanwhile, finishes melting into the arrangement the afternoon allows. Give it heat and it will climb the same ladder again, state by state, the same water all the way up.' },
+      ],
+
+      keyTerms: ['solid', 'liquid', 'gas', 'plasma', 'phase transition', 'melting point', 'sublimation', 'critical point'],
+
+      resources: {
+        videos: [
+          {
+            id: '9TVOlTolKFA',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=9TVOlTolKFA',
+            title: 'States of Matter - Solids, Liquids, Gases & Plasma - Chemistry',
+            channel: 'The Organic Chemistry Tutor',
+            duration: 'variable',
+            why: 'A clear basic introduction to the four states and what separates them.',
+          },
+          {
+            id: 'hkBrw2fG75U',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=hkBrw2fG75U',
+            title: 'GCSE Chemistry - States of Matter & Changing State',
+            channel: 'Cognito',
+            duration: 'variable',
+            why: 'Particle theory used well: the three everyday states and the changes between them.',
+          },
+          {
+            id: 'a-X0lLGVL2o',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=a-X0lLGVL2o',
+            title: 'Every State of Matter Explained',
+            channel: 'YouTube science explainer',
+            duration: 'variable',
+            why: 'From solids to superfluids and quark gluon plasma, a tour of the states beyond the familiar four.',
+          },
+        ],
+        books: [
+          {
+            title: 'The Laws of Thermodynamics: A Very Short Introduction',
+            author: 'Peter Atkins',
+            year: 2010,
+            url: '',
+            why: 'The rules that govern energy and change of state, in a hundred lucid pages.',
+          },
+          {
+            title: 'Ice: The Nature, the History, and the Uses of an Astonishing Substance',
+            author: 'Mariana Gosnell',
+            year: 2005,
+            url: '',
+            why: 'One solid, taken seriously: its physics, its history, and its strange variety of forms.',
+          },
+          {
+            title: 'The Feynman Lectures on Physics, Vol. I',
+            author: 'Richard P. Feynman, Robert B. Leighton, and Matthew Sands',
+            year: 1964,
+            url: '',
+            why: 'The opening chapters remain the finest plain account of atoms in motion and what temperature means.',
+          },
+        ],
+        articles: [
+          {
+            title: 'State of matter',
+            source: 'Wikipedia',
+            url: 'https://en.wikipedia.org/wiki/State_of_matter',
+            why: 'The reference account of the classical states, phase transitions, and the nonclassical states beyond them.',
+            year: null,
+          },
+          {
+            title: 'Phase (matter)',
+            source: 'Wikipedia',
+            url: 'https://en.wikipedia.org/wiki/Phase_(matter)',
+            why: 'On phases, phase diagrams, the triple point, and the critical point, with water as the running example.',
+            year: null,
+          },
+        ],
+        courses: [
+          {
+            title: '5.111 Principles of Chemical Science',
+            provider: 'MIT OpenCourseWare',
+            url: 'https://ocw.mit.edu/courses/5-111sc-principles-of-chemical-science-fall-2014/',
+            free: true,
+            why: 'The full MIT first year chemistry course, free, with lectures, notes, and problem sets.',
+          },
+        ],
+      },
+
+      seeAlso: ['atoms', 'bonds', 'reactions'],
+      prereqs: ['atoms'],
+      leadsTo: ['reactions'],
+
+      sources: [
+        'https://en.wikipedia.org/wiki/State_of_matter',
+        'https://en.wikipedia.org/wiki/Phase_(matter)',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    solutions: {
+      id: 'solutions',
+      name: 'Solutions & Mixtures',
+      level: 'Intermediate',
+      dek: 'Salt vanishes into water and is still there. Dissolving, saturation, and concentration explain where it went.',
+      readTime: '9 min',
+
+      sections: ['What dissolving really is', 'Solvent, solute, and the odd cases', 'How much is in there', 'When no more will dissolve'],
+      body: [
+        { type: 'lead', text: 'Stir salt into a pan of water and it disappears. The water stays clear, tastes of the sea, and weighs exactly what the water and the salt weighed together. Nothing has vanished. The salt has come apart, ion by ion, and spread evenly through the water, too finely divided to see and too evenly mixed to settle. That evenness is the whole idea of a solution, and learning to measure it is most of practical chemistry.' },
+        { type: 'h2', text: 'What dissolving really is' },
+        { type: 'p', text: 'A solution is a homogeneous mixture: its components form a single phase, and its properties, such as concentration and density, are uniform throughout once mixing is complete. The substance present in the greatest amount is called the solvent, and the others are solutes. When salt dissolves in water, the solvent molecules surround the charged sodium and chloride ions and pull them away from the crystal, a process called hydration when the solvent is water. Such a solution conducts electricity, and the dissolved salt is an electrolyte. Sugar dissolves differently, as whole molecules, and its solution does not conduct. Same clear glass, two different microscopic stories.' },
+        { type: 'h2', text: 'Solvent, solute, and the odd cases' },
+        { type: 'p', text: 'Solutions are not only liquids. Air is a gaseous solution, gases dissolved in nitrogen. Brass is a solid solution of copper and zinc, and steel is a solution of carbon atoms in a crystalline matrix of iron atoms. The solution takes the physical state of its solvent, which is why a solid can be a solution at all. Two liquids that mix in all proportions, like ethanol and water, are called miscible. Two that refuse, like oil and water, are immiscible, and no amount of stirring persuades them for long. The working rule is old and reliable: like dissolves like. Polar solvents dissolve polar and charged solutes; nonpolar solvents dissolve nonpolar ones.' },
+        { type: 'h2', text: 'How much is in there' },
+        { type: 'p', text: 'Concentration is the measure of how much solute a given amount of solution holds, and chemistry has several ways to state it: molarity, volume fraction, mole fraction, and percent by mass among them. Molarity, the laboratory standard, counts moles of solute per litre of solution. Air shows the same bookkeeping in gas form: by volume it is about 78 percent nitrogen and about 21 percent oxygen, with argon near 1 percent. A dilute solution has little solute for its solvent; a concentrated one has much. The words are vague until a unit is attached, which is why recipes in a laboratory are written in molarity and not in pinches.' },
+        { type: 'callout', text: 'A solution can be solid. Brass and steel are both solid solutions, mixtures mixed at the level of atoms and frozen in place.' },
+        { type: 'h2', text: 'When no more will dissolve' },
+        { type: 'p', text: 'Every solution has a limit. Add solute past it and the excess stays solid at the bottom of the glass: the solution is saturated. The limit moves with conditions. Usually, the warmer the solvent, the more of a solid solute it can hold, while most gases dissolve less as temperature rises, which is why a warm soda goes flat and why fish struggle in warm, still water. Trick the limit by dissolving at high temperature and cooling slowly, and you get a supersaturated solution, holding more than it should until one seed crystal sets off a sudden snowfall of solid. The salt in the pan, though, asks for none of this drama. It is simply there, evenly, invisibly, exactly as much of it as you put in.' },
+      ],
+
+      keyTerms: ['solution', 'solute', 'solvent', 'concentration', 'molarity', 'solubility', 'saturated', 'miscible', 'electrolyte'],
+
+      resources: {
+        videos: [
+          {
+            id: 'MDHlaTHbEgM',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=MDHlaTHbEgM',
+            title: 'Solute, Solvent, & Solution - Solubility Chemistry',
+            channel: 'The Organic Chemistry Tutor',
+            duration: 'variable',
+            why: 'How water takes a salt crystal apart, and what solute, solvent, and electrolyte each mean.',
+          },
+          {
+            id: 'O_nyEj_hZzg',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=O_nyEj_hZzg',
+            title: 'Molarity, Molality, Volume & Mass Percent, Mole Fraction & Density - Solution Concentration Problems',
+            channel: 'The Organic Chemistry Tutor',
+            duration: '31:24',
+            why: 'Concentration in all its standard units, worked through real problems at a steady pace.',
+          },
+          {
+            id: 'RjXYvOiLh2w',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=RjXYvOiLh2w',
+            title: 'Concentration - ways to report it (molarity, molality, mole fraction, percentages, etc.)',
+            channel: 'The Bumbling Biochemist',
+            duration: 'variable',
+            why: 'A biochemist on which concentration unit to use when, and why the choice matters at the bench.',
+          },
+        ],
+        books: [
+          {
+            title: 'Napoleon\'s Buttons',
+            author: 'Penny Le Couteur and Jay Burreson',
+            year: 2003,
+            url: '',
+            why: 'Seventeen molecules that changed history, most of them met in solution. A friendly way into applied chemistry.',
+          },
+          {
+            title: 'Atkins\' Physical Chemistry',
+            author: 'Peter Atkins and Julio de Paula',
+            year: 1978,
+            url: '',
+            why: 'The standard text. Its treatment of mixtures and colligative properties is the reference other books follow.',
+          },
+          {
+            title: 'Chemistry: The Central Science',
+            author: 'Brown, LeMay, Bursten, et al.',
+            year: 1977,
+            url: '',
+            why: 'The general chemistry textbook of record in American universities, strong on solutions and their properties.',
+          },
+        ],
+        articles: [
+          {
+            title: 'Solution (chemistry)',
+            source: 'Wikipedia',
+            url: 'https://en.wikipedia.org/wiki/Solution_(chemistry)',
+            why: 'The IUPAC definition, the types of solution, solubility, and colligative properties in one reference.',
+            year: null,
+          },
+          {
+            title: 'Solution',
+            source: 'Encyclopaedia Britannica',
+            url: 'https://www.britannica.com/science/solution-chemistry',
+            why: 'A short editorial treatment, good on electrolytes and on why life processes run in solution.',
+            year: null,
+          },
+        ],
+        courses: [
+          {
+            title: '5.111 Principles of Chemical Science',
+            provider: 'MIT OpenCourseWare',
+            url: 'https://ocw.mit.edu/courses/5-111sc-principles-of-chemical-science-fall-2014/',
+            free: true,
+            why: 'The full MIT first year chemistry course, free, with lectures, notes, and problem sets.',
+          },
+        ],
+      },
+
+      seeAlso: ['reactions', 'acidbase', 'bonds'],
+      prereqs: ['atoms', 'bonds'],
+      leadsTo: ['acidbase', 'biochem'],
+
+      sources: [
+        'https://en.wikipedia.org/wiki/Solution_(chemistry)',
+        'https://www.britannica.com/science/solution-chemistry',
+        'https://www.youtube.com/watch?v=RjXYvOiLh2w',
+        'https://en.wikipedia.org/wiki/Atmosphere_of_Earth',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    mole: {
+      id: 'mole',
+      name: 'The Mole',
+      level: 'Intermediate',
+      dek: 'Chemists count atoms by weighing them. The mole is the exchange rate between the scale and the atom.',
+      readTime: '9 min',
+
+      sections: ['A dozen, scaled up', 'Avogadro and the long road', 'Molar mass, the bridge', 'The 2019 settlement'],
+      body: [
+        { type: 'lead', text: 'No one can count the atoms in a spoonful of sugar. There are too many, by a factor that defeats every metaphor built for human hands. So chemists do what merchants have always done with things too numerous to count one by one: they count by weight, using a fixed bundle. A dozen is a bundle of 12. A mole is a bundle so large that a bundle of atoms becomes something you can hold, pour, and put on a scale.' },
+        { type: 'h2', text: 'A dozen, scaled up' },
+        { type: 'p', text: 'One mole contains exactly 6.02214076 x 10^23 elementary entities. The entities can be atoms, molecules, ions, or other specified particles, but the count is always the same. That count is the Avogadro number. Written out, it runs to 602 sextillion, a number with no everyday comparison that survives contact with it. The point of the bundle is not the spectacle. It is that one mole of carbon 12 atoms has a mass of 12 grams, and one mole of oxygen atoms, the same count of atoms, has a mass of 15.999 grams. Equal counts, different weights, and the weights are printed on the periodic table for anyone to use.' },
+        { type: 'h2', text: 'Avogadro and the long road' },
+        { type: 'p', text: 'The idea descends from Amedeo Avogadro, the Italian physicist who proposed that equal volumes of gases, under the same conditions, contain the same number of molecules. The hypothesis helped fix atomic and molecular weights through the nineteenth century, while the bundle itself acquired a name late: the word mole is an 1897 translation of the German Mol, coined by Wilhelm Ostwald in 1894 from Molekul, the German for molecule. In 1971 the mole became the seventh base unit of the International System of Units, the unit of amount of substance. Counting, formally, had become a physical quantity.' },
+        { type: 'h2', text: 'Molar mass, the bridge' },
+        { type: 'p', text: 'The mass of one mole of a substance, in grams, is its molar mass, and it is read off the atomic weights. Water is two hydrogen atoms at 1.008 each and one oxygen at 15.999, so one mole of water has a mass of 18.015 grams. Divide the mass you have by the molar mass and you have the amount in moles; multiply back and you have the mass. With that bridge, equations become recipes. The reaction of hydrogen and oxygen reads, in moles: two moles of hydrogen and one mole of oxygen make two moles of water. A factory, a pharmacy, and a school laboratory all run on that translation between the balance and the atom.' },
+        { type: 'callout', text: 'To find how many moles of a material you have, divide its mass by its molar mass. That one division is most of stoichiometry.' },
+        { type: 'h2', text: 'The 2019 settlement' },
+        { type: 'p', text: 'For decades the mole was defined by a lump of stuff: the number of atoms in 12 grams of carbon 12. That made the Avogadro constant a measured quantity, known only as precisely as experiments could manage. The General Conference on Weights and Measures settled it the other way round. Effective May 20, 2019, the mole is defined as exactly 6.02214076 x 10^23 entities, and the lump now answers to the number rather than the number to the lump. The spoonful of sugar has not changed. What changed is that its count now rests on a definition no laboratory accident can disturb, a bundle fixed by agreement, exact by law, and large enough to hold a science.' },
+      ],
+
+      keyTerms: ['mole', 'Avogadro constant', 'amount of substance', 'molar mass', 'carbon 12', 'stoichiometry', 'elementary entity'],
+
+      resources: {
+        videos: [
+          {
+            id: 'TEl4jeETVmg',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=TEl4jeETVmg',
+            title: 'How big is a mole? (Not the animal, the other one.) - Daniel Dulek',
+            channel: 'TED-Ed',
+            duration: 'variable',
+            why: 'The classic attempt to feel the size of the Avogadro number, with mole sized piles of everyday things.',
+          },
+          {
+            id: 'wI56mHUDJgQ',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=wI56mHUDJgQ',
+            title: 'Introduction to Moles',
+            channel: 'Khan Academy',
+            duration: 'variable',
+            why: 'The mole as a name for a number, and how to abbreviate a count with 23 zeros.',
+          },
+          {
+            id: 'O_nyEj_hZzg',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=O_nyEj_hZzg',
+            title: 'Molarity, Molality, Volume & Mass Percent, Mole Fraction & Density - Solution Concentration Problems',
+            channel: 'The Organic Chemistry Tutor',
+            duration: '31:24',
+            why: 'Moles at work: the concentration calculations that turn the definition into bench skill.',
+          },
+        ],
+        books: [
+          {
+            title: 'The Measure of All Things',
+            author: 'Ken Alder',
+            year: 2002,
+            url: '',
+            why: 'The story of the metric system and the surveyors who built it. The mole is a late child of the same project.',
+          },
+          {
+            title: 'The Disappearing Spoon',
+            author: 'Sam Kean',
+            year: 2010,
+            url: '',
+            why: 'A popular tour of the elements that makes counting, weighing, and atomic mass feel like narrative.',
+          },
+          {
+            title: 'Chemistry: The Central Science',
+            author: 'Brown, LeMay, Bursten, et al.',
+            year: 1977,
+            url: '',
+            why: 'The standard general chemistry text, with the clearest worked treatment of moles and stoichiometry.',
+          },
+        ],
+        articles: [
+          {
+            title: 'Mole (unit)',
+            source: 'Wikipedia',
+            url: 'https://en.wikipedia.org/wiki/Mole_(unit)',
+            why: 'The definition, the history from Dalton to the 2019 revision, and the derived units.',
+            year: null,
+          },
+          {
+            title: 'Mole',
+            source: 'Encyclopaedia Britannica',
+            url: 'https://www.britannica.com/science/mole-chemistry',
+            why: 'A compact account of the definition, the 2019 change, and how molar mass is calculated.',
+            year: null,
+          },
+        ],
+        courses: [
+          {
+            title: '5.111 Principles of Chemical Science',
+            provider: 'MIT OpenCourseWare',
+            url: 'https://ocw.mit.edu/courses/5-111sc-principles-of-chemical-science-fall-2014/',
+            free: true,
+            why: 'The full MIT first year chemistry course, free, with lectures, notes, and problem sets.',
+          },
+        ],
+      },
+
+      seeAlso: ['atoms', 'reactions', 'acidbase'],
+      prereqs: ['atoms'],
+      leadsTo: ['reactions', 'acidbase'],
+
+      sources: [
+        'https://en.wikipedia.org/wiki/Mole_(unit)',
+        'https://www.britannica.com/science/mole-chemistry',
+      ],
+      verifiedAt: '2026-10-15',
     },
 
   },

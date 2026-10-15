@@ -1,17 +1,18 @@
 // content/physics.js
 // Owned by batch: B02-hard-sciences
-// Last updated: 2026-04-22 by BATCH B02-hard-sciences
+// Last updated: 2026-10-15 by SPRINT W1
 //
 // Topics this subject must cover (from data.js):
 //   Classical: mechanics, em, thermo, waves
 //   Modern:    quantum, relativity, particle, cosmology
+//   Sprint W1:   energy, circuits, gravity
 
 window.CONTENT = window.CONTENT || {};
 window.CONTENT.physics = {
   subjectId: 'physics',
   version: 1,
-  lastUpdated: '2026-04-22',
-  curator: 'BATCH B02-hard-sciences',
+  lastUpdated: '2026-10-15',
+  curator: 'SPRINT W1',
   topics: {
 
     mechanics: {
@@ -1267,5 +1268,358 @@ window.CONTENT.physics = {
       verifiedAt: '2026-04-22',
     },
 
+    energy: {
+      id: 'energy',
+      name: 'Energy & Work',
+      level: 'Intermediate',
+      dek: 'Energy changes form and does work, but the total in isolation never changes.',
+      readTime: '10 min',
+
+      sections: ['A lightning account', 'Kinetic and potential', 'Work is a transfer', 'Power and the watt'],
+      body: [
+        { type: 'lead', text: 'In a typical lightning strike, 500 megajoules of electric potential energy is converted into the same amount of energy in other forms, mostly light, sound, and heat. Nothing vanishes in the flash. The books balance, and that balancing is the subject.' },
+        { type: 'h2', text: 'A lightning account' },
+        { type: 'p', text: 'Energy is the quantitative property that is transferred to a body or a physical system, recognizable in the capacity to do work and in the form of heat and light. It is a conserved quantity: the law of conservation of energy states that the total energy of an isolated system remains constant, although it can be converted in form. The unit of measurement in the International System of Units is the joule. Thomas Young was possibly the first to use the term energy in its modern sense, in 1807, replacing the older living force of Leibniz.' },
+        { type: 'h2', text: 'Kinetic and potential' },
+        { type: 'p', text: 'The total energy of a system can be divided into potential energy, kinetic energy, or combinations of the two. Kinetic energy is determined by the movement of an object, while potential energy reflects the potential of an object to have motion, based on its position within a field. Gustave Gaspard Coriolis described kinetic energy in 1829 in its modern sense, and in 1853 William Rankine coined the term potential energy. A raised stone holds the second kind; let it fall and the ledger moves, line by line, into the first.' },
+        { type: 'callout', text: 'In 1845 James Prescott Joule discovered the link between mechanical work and the generation of heat, the experiment that helped close the case for conservation.' },
+        { type: 'h2', text: 'Work is a transfer' },
+        { type: 'p', text: 'Work is the energy transferred to or from an object through the application of force along a displacement. For a constant force aligned with the motion, work equals the product of the force strength and the distance traveled. The numbers are plain: a force of 10 newtons acting along a point that travels 2 metres does 20 joules of work, about the work of lifting a 1 kilogram object from ground level to over a person\'s head. The work energy principle ties it together: an increase in kinetic energy is caused by an equal amount of positive work.' },
+        { type: 'h2', text: 'Power and the watt' },
+        { type: 'p', text: 'Power is energy per unit of time, and its SI unit, the watt, is one joule per second. A kilowatt hour, the unit on an electricity bill, is the energy delivered by one kilowatt of power for an hour, equal to 3.6 million joules. According to Noether theorem, conservation of energy follows from the fact that the laws of physics do not change over time, a symmetry noticed in 1918. The lightning strike ends the account where it began: 500 megajoules arrived, 500 megajoules left in other forms, and the difference is exactly zero.' },
+      ],
+
+      keyTerms: ['joule', 'kinetic energy', 'potential energy', 'conservation of energy', 'work', 'power', 'watt'],
+
+      resources: {
+        videos: [
+          {
+            id: 'ZM8ECpBuQYE',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=ZM8ECpBuQYE',
+            title: 'Work, Energy, and Power: Crash Course Physics #9',
+            channel: 'CrashCourse',
+            duration: 'variable',
+            featured: true,
+            why: 'Work, kinetic and potential energy, and power, in one brisk course episode.',
+          },
+          {
+            id: 'ZsY4WcQOrfk',
+            source: 'youtube',
+            url: '11:58',
+            title: 'Entropy: Embrace the Chaos!',
+            channel: 'Crash Course',
+            duration: 'variable',
+            featured: true,
+            why: 'Where energy spreads out: entropy as the sequel to conservation.',
+          },
+          {
+            id: '_MR1Dp8-F8w',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=_MR1Dp8-F8w',
+            title: 'Work, Energy, and Power: Basic Introduction',
+            channel: 'The Organic Chemistry Tutor',
+            duration: 'variable',
+            featured: true,
+            why: 'A worked introduction to the work energy principle, force, and displacement.',
+          },
+        ],
+        books: [
+          {
+            title: 'Energy: A Human History',
+            author: 'Richard Rhodes',
+            year: 2018,
+            url: '',
+            why: 'Four centuries of energy transitions, from wood and water to fission.',
+          },
+          {
+            title: 'The Feynman Lectures on Physics, Vol. I',
+            author: 'Richard Feynman',
+            year: 1963,
+            url: '',
+            why: 'Chapter 4 states conservation of energy as clearly as it has ever been stated.',
+          },
+          {
+            title: 'The Character of Physical Law',
+            author: 'Richard Feynman',
+            year: 1965,
+            url: '',
+            why: 'The Messenger lectures, with a famous chapter on the great conservation principles.',
+          },
+        ],
+        articles: [
+          {
+            title: 'Energy',
+            source: 'Wikipedia',
+            url: 'https://en.wikipedia.org/wiki/Energy',
+            why: 'Forms of energy, history, and units, including the joule and the kilowatt hour.',
+            year: null,
+          },
+          {
+            title: 'Work (physics)',
+            source: 'Wikipedia',
+            url: 'https://en.wikipedia.org/wiki/Work_(physics)',
+            why: 'Work as force along a displacement, and the work energy principle.',
+            year: null,
+          },
+        ],
+        courses: [
+          {
+            title: '8.01 Classical Mechanics',
+            provider: 'MIT OpenCourseWare',
+            url: 'https://ocw.mit.edu/courses/8-01sc-classical-mechanics-fall-2016/',
+            free: true,
+            why: 'Free MIT course that treats force and conservation laws, energy included, side by side.',
+          },
+        ],
+      },
+
+      seeAlso: ['mechanics', 'thermo', 'waves'],
+      prereqs: ['mechanics'],
+      leadsTo: ['thermo'],
+
+      sources: [
+        'https://en.wikipedia.org/wiki/Energy',
+        'https://en.wikipedia.org/wiki/Work_(physics)',
+        'https://ocw.mit.edu/courses/8-01sc-classical-mechanics-fall-2016/',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    circuits: {
+      id: 'circuits',
+      name: 'Electric Circuits',
+      level: 'Intermediate',
+      dek: 'A closed loop for current, governed by Ohm and Kirchhoff, powering nearly everything indoors.',
+      readTime: '10 min',
+
+      sections: ['A closed loop', 'Ohm law', 'Kirchhoff bookkeeping', 'Series and parallel'],
+      body: [
+        { type: 'lead', text: 'A torch in a dark drawer is a complete electrical theory in miniature: a battery, a bulb, and wire joined in a closed loop. Break the loop anywhere and the light dies, because a circuit is a network with a return path for the current.' },
+        { type: 'h2', text: 'A closed loop' },
+        { type: 'p', text: 'An electrical network is an interconnection of electrical components such as batteries, resistors, and switches, or a model of such an interconnection. An electrical circuit is a network consisting of a closed loop, giving a return path for the current, so all circuits are networks, but not all networks are circuits. An active network contains at least one voltage source or current source that can supply energy indefinitely, while a passive network contains none. The torch is active in miniature: its battery injects power, and the bulb spends it as light and heat.' },
+        { type: 'h2', text: 'Ohm law' },
+        { type: 'p', text: 'Ohm law states that the current through a conductor between two points is directly proportional to the voltage across the two points, with resistance as the constant of proportionality: V equals I times R. Georg Ohm published his results in 1827, in a treatise describing measurements of voltage and current through simple circuits containing various lengths of wire. The law is empirical, and it describes most conductive materials over many orders of magnitude of current, though some materials, called non ohmic, do not obey it. Critics first called Ohm work a web of naked fancies, and it was not widely accepted until the 1840s.' },
+        { type: 'callout', text: 'Energy in a circuit travels through the electric and magnetic fields around the wires, not inside the electrons, a picture the linked Veritasium video makes vivid.' },
+        { type: 'h2', text: 'Kirchhoff bookkeeping' },
+        { type: 'p', text: 'Two accounting rules analyze almost any resistive network. Kirchhoff current law says the sum of all currents entering a node equals the sum of all currents leaving it. Kirchhoff voltage law says the directed sum of the electrical potential differences around a loop must be zero. Apply Ohm law at each resistor and these two rules at each node and loop, and the result is a set of simultaneous equations that can be solved for every current and voltage in the network.' },
+        { type: 'h2', text: 'Series and parallel' },
+        { type: 'p', text: 'Resistors in series share one current and their resistances add; resistors in parallel share one voltage and conductances add. Thevenin theorem adds a powerful shortcut: any network of voltage or current sources and resistors is electrically equivalent to a single voltage source in series with a single resistor. The drawer torch obeys all of it, battery, resistance, loop, and laws, and so does the grid behind the wall socket: same bookkeeping, larger numbers.' },
+      ],
+
+      keyTerms: ['circuit', 'voltage', 'current', 'resistance', 'Ohm law', 'Kirchhoff current law', 'Kirchhoff voltage law'],
+
+      resources: {
+        videos: [
+          {
+            id: 'F_vLWkkOETI',
+            source: 'youtube',
+            url: '12:22',
+            title: 'Introduction to circuits and Ohm law',
+            channel: 'Khan Academy',
+            duration: 'variable',
+            featured: true,
+            why: 'Sal Khan on charge, current, voltage, and resistance in a first circuit.',
+          },
+          {
+            id: 'bHIhgxav9LY',
+            source: 'youtube',
+            url: '14:48',
+            title: 'The Big Misconception About Electricity',
+            channel: 'Veritasium',
+            duration: 'variable',
+            featured: true,
+            why: 'How energy in a circuit actually flows, through the fields around the wires.',
+          },
+          {
+            id: null,
+            source: 'other',
+            url: 'https://ocw.mit.edu/courses/6-002-circuits-and-electronics-spring-2007/',
+            title: '6.002 Circuits and Electronics: lecture collection',
+            channel: 'MIT OpenCourseWare',
+            duration: 'variable',
+            featured: true,
+            why: 'The full MIT first course in circuits, free, with the lumped circuit abstraction built from the ground up.',
+          },
+        ],
+        books: [
+          {
+            title: 'The Art of Electronics',
+            author: 'Paul Horowitz and Winfield Hill',
+            year: 1980,
+            url: '',
+            why: 'The practical classic: circuits explained by people who build them.',
+          },
+          {
+            title: 'Foundations of Analog and Digital Electronic Circuits',
+            author: 'Anant Agarwal and Jeffrey H. Lang',
+            year: 2005,
+            url: '',
+            why: 'The MIT 6.002 text, cited by the course itself, rigorous and modern.',
+          },
+          {
+            title: 'Introduction to Electrodynamics',
+            author: 'David J. Griffiths',
+            year: 1981,
+            url: '',
+            why: 'The field theory underneath circuit laws, in the standard undergraduate text.',
+          },
+        ],
+        articles: [
+          {
+            title: 'Electrical network',
+            source: 'Wikipedia',
+            url: 'https://en.wikipedia.org/wiki/Electrical_network',
+            why: 'Networks, circuits, and the electrical laws that apply to all linear resistive networks.',
+            year: null,
+          },
+          {
+            title: 'Ohm\'s law',
+            source: 'Wikipedia',
+            url: 'https://en.wikipedia.org/wiki/Ohm%27s_law',
+            why: 'The law, its history in 1827, and its microscopic origins.',
+            year: null,
+          },
+        ],
+        courses: [
+          {
+            title: '6.002 Circuits and Electronics',
+            provider: 'MIT OpenCourseWare',
+            url: 'https://ocw.mit.edu/courses/6-002-circuits-and-electronics-spring-2007/',
+            free: true,
+            why: 'Free MIT first course in circuits: resistive networks, sources, and energy storage elements.',
+          },
+        ],
+      },
+
+      seeAlso: ['em', 'mechanics', 'waves'],
+      prereqs: ['mechanics'],
+      leadsTo: ['em'],
+
+      sources: [
+        'https://en.wikipedia.org/wiki/Electrical_network',
+        'https://en.wikipedia.org/wiki/Ohm%27s_law',
+        'https://ocw.mit.edu/courses/6-002-circuits-and-electronics-spring-2007/',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    gravity: {
+      id: 'gravity',
+      name: 'Gravity & Orbits',
+      level: 'Intermediate',
+      dek: 'One attraction holds the Moon, drops the apple, and shapes galaxies across the universe.',
+      readTime: '10 min',
+
+      sections: ['The same force everywhere', 'Inverse square', 'Falling around a planet', 'Neptune by arithmetic'],
+      body: [
+        { type: 'lead', text: 'A cannon on a high mountain fires its ball faster and faster, and each shot lands farther away, until at one speed the ball never lands at all. Newton drew that picture to explain an orbit: a fall that keeps missing the ground.' },
+        { type: 'h2', text: 'The same force everywhere' },
+        { type: 'p', text: 'Gravity is a fundamental interaction, described as the force that draws material objects toward each other, and it has an infinite range, although its effects become weaker as objects get farther away. Its boldest claim is universality. The gravitational attraction between clouds of primordial hydrogen caused the gas to coalesce and form stars, and at larger scales it built galaxies and clusters, so gravity is a primary driver of the large scale structures in the universe. The apple and the galaxy obey one law.' },
+        { type: 'h2', text: 'Inverse square' },
+        { type: 'p', text: 'For most applications, gravity is well approximated by Newton law of universal gravitation: an attractive force between any two bodies, proportional to the product of their masses and inversely proportional to the square of the distance between them. In symbols, F equals G times the two masses divided by r squared, where G is the gravitational constant 6.674 x 10 to the power of negative 11 in SI units. Double the distance and the force falls to a quarter. Einstein general theory of relativity, proposed in 1915, redescribes gravity as the curvature of spacetime caused by the uneven distribution of mass, and it is the deeper account.' },
+        { type: 'callout', text: 'Gravity between two electrons is vanishing beside their electric repulsion: the ratio of gravitational attraction to electrical repulsion is 1 to 4.17 x 10 to the 42nd power.' },
+        { type: 'h2', text: 'Falling around a planet' },
+        { type: 'p', text: 'To a close approximation, planets and satellites follow elliptic orbits, with the center of mass being orbited at a focal point of the ellipse, as Kepler laws describe. At any point along its orbit, a satellite has kinetic and potential energy, and the sum of the two is constant at every point: approaching its closest point it speeds up as potential energy decreases, and slows as it recedes. An orbit is that exchange, repeated without loss, which is why Newton cannonball, given enough speed, circles forever in the ideal picture.' },
+        { type: 'h2', text: 'Neptune by arithmetic' },
+        { type: 'p', text: 'The law once found a planet before any telescope did. In 1846, astronomers John Couch Adams and Urbain Le Verrier independently used Newton law to predict Neptune location in the night sky, from the unexplained wobble in the orbit of Uranus, and the planet was discovered there within a day. A force too weak to notice between two electrons had, at planetary scale, pointed a telescope at an unseen world. The cannonball is still falling around the Earth, and so, in Newton picture, is everything that orbits.' },
+      ],
+
+      keyTerms: ['gravitation', 'inverse square law', 'gravitational constant', 'orbit', 'ellipse', 'Kepler laws', 'escape velocity'],
+
+      resources: {
+        videos: [
+          {
+            id: 'AwhKZ3fd9JA',
+            source: 'youtube',
+            url: '9:42',
+            title: 'General Relativity and Curved Spacetime Explained',
+            channel: 'PBS Space Time',
+            duration: 'variable',
+            featured: true,
+            why: 'Einstein account of gravity as curved spacetime, clearly visualized.',
+          },
+          {
+            id: 'mXGc678D2N8',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=mXGc678D2N8',
+            title: 'The Physics of Orbital Mechanics',
+            channel: 'YouTube',
+            duration: 'variable',
+            featured: true,
+            why: 'Newton cannonball, Kepler laws, and how falling becomes orbiting.',
+          },
+          {
+            id: 'TKM0P3XlMNA',
+            source: 'youtube',
+            url: '12:16',
+            title: 'Introduction to the Solar System (Crash Course Astronomy #9)',
+            channel: 'Crash Course',
+            duration: 'variable',
+            featured: true,
+            why: 'The planetary system that gravity assembled, surveyed in one episode.',
+          },
+        ],
+        books: [
+          {
+            title: 'Principia: Mathematical Principles of Natural Philosophy',
+            author: 'Isaac Newton',
+            year: 1687,
+            url: '',
+            why: 'The book that stated universal gravitation and derived the orbits from it.',
+          },
+          {
+            title: 'Relativity: The Special and the General Theory',
+            author: 'Albert Einstein',
+            year: 1916,
+            url: '',
+            why: 'Einstein own popular account of gravity as geometry.',
+          },
+          {
+            title: 'A Brief History of Time',
+            author: 'Stephen Hawking',
+            year: 1988,
+            url: '',
+            why: 'Gravity, black holes, and cosmology for the general reader, a modern classic.',
+          },
+        ],
+        articles: [
+          {
+            title: 'Gravity',
+            source: 'Wikipedia',
+            url: 'https://en.wikipedia.org/wiki/Gravity',
+            why: 'The interaction, its history, and the inverse square law with the value of G.',
+            year: null,
+          },
+          {
+            title: 'Orbit',
+            source: 'Wikipedia',
+            url: 'https://en.wikipedia.org/wiki/Orbit',
+            why: 'Elliptic orbits, Kepler laws, and the energy exchange along an orbit.',
+            year: null,
+          },
+        ],
+        courses: [
+          {
+            title: '8.01 Classical Mechanics',
+            provider: 'MIT OpenCourseWare',
+            url: 'https://ocw.mit.edu/courses/8-01sc-classical-mechanics-fall-2016/',
+            free: true,
+            why: 'Free MIT mechanics course, built around motion, force, and the motion of the planets.',
+          },
+        ],
+      },
+
+      seeAlso: ['mechanics', 'relativity', 'waves'],
+      prereqs: ['mechanics'],
+      leadsTo: ['relativity'],
+
+      sources: [
+        'https://en.wikipedia.org/wiki/Gravity',
+        'https://en.wikipedia.org/wiki/Orbit',
+        'https://ocw.mit.edu/courses/8-01sc-classical-mechanics-fall-2016/',
+      ],
+      verifiedAt: '2026-10-15',
+    },
   },
 };

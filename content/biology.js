@@ -1,17 +1,17 @@
 // content/biology.js
 // Batch: B03-life-sciences
-// Last updated: 2026-04-22 by BATCH B03-life-sciences
+// Last updated: 2026-10-15 by SPRINT W1
 //
 // Topics this subject must cover (from data.js):
-//   Cells & Genes: cell, genetics, evolution
-//   Systems:       ecology, neuro, anatomy
+//   Cells & Genes: cell, genetics, evolution, microbes, kingdoms
+//   Systems:       ecology, neuro, anatomy, plants, extinction
 
 window.CONTENT = window.CONTENT || {};
 window.CONTENT.biology = {
   subjectId: 'biology',
   version: 1,
-  lastUpdated: '2026-04-22',
-  curator: 'BATCH B03-life-sciences',
+  lastUpdated: '2026-10-15',
+  curator: 'SPRINT W1',
   topics: {
 
     // ——— CELL BIOLOGY ———
@@ -879,6 +879,471 @@ window.CONTENT.biology = {
         'https://archive.org/details/anatomydescripti1858gray',
       ],
       verifiedAt: '2026-04-22',
+    },
+
+
+    plants: {
+      id: 'plants',
+      name: 'Plants & Photosynthesis',
+      level: 'Beginner',
+      dek: 'A leaf is a kitchen that runs on light, cooking sugar from air and water and exhaling oxygen.',
+      readTime: '9 min',
+
+      sections: ['A leaf at noon', 'Inside the chloroplast', 'The event that changed the air', 'The base of nearly everything'],
+      body: [
+        { type: 'lead', text: 'Hold a leaf up to the light at noon and it is doing the most consequential chemistry on Earth, quietly, without heat or noise. Sunlight falls on a green surface no thicker than paper. Air enters through pores too small to see. Water arrives from roots in the dark soil below. What leaves the leaf is sugar, stored sunlight in chemical form, and oxygen, released as waste. Almost everything alive eats the sugar, breathes the waste, or eats something that did.' },
+        { type: 'h2', text: 'A leaf at noon' },
+        { type: 'p', text: 'Photosynthesis is the process by which green plants and certain other organisms transform light energy into chemical energy. In green plants, light is captured and used to convert water, carbon dioxide, and minerals into oxygen and energy rich organic compounds. The summary equation is famous and worth reading slowly: six molecules of carbon dioxide and six of water become one molecule of glucose and six of oxygen. The sugar is the point. The oxygen, the part the rest of us care about most, is a byproduct, split off from the water. Plants, algae, and a group of bacteria called cyanobacteria are the organisms that can do this. No animal can.' },
+        { type: 'h2', text: 'Inside the chloroplast' },
+        { type: 'p', text: 'In plants, the work happens in a middle layer of the leaf called the mesophyll, inside organelles called chloroplasts. A chloroplast carries stacks of disc shaped membranes, thylakoids, and the stacks are called grana. The green pigment chlorophyll sits in the thylakoid membranes and makes the first capture of light. Gas exchange happens through small regulated openings called stomata, usually on the underside of the leaf, each flanked by guard cells that open and close them. The process runs in two stages. The light dependent reactions use light energy to make the energy carriers ATP and NADPH. The light independent reactions, the Calvin cycle, spend those carriers to build sugar from carbon dioxide in the fluid around the stacks, the stroma.' },
+        { type: 'callout', text: 'Photosynthesis powers about 99 percent of Earth ecosystems. Nearly every food chain begins with a capture of sunlight.' },
+        { type: 'h2', text: 'The event that changed the air' },
+        { type: 'p', text: 'Long before leaves existed, cyanobacteria were photosynthesizing in the oceans, and their waste oxygen slowly remade the planet. The Great Oxidation Event began about 2.4 billion years ago and was largely driven by those photosynthetic cyanobacteria. Over a span of some 600 million years it raised atmospheric oxygen to nearly 1 percent of present levels, paving the way for most forms of multicellular life. The air in your lungs is an inheritance from microbes cooking in ancient seas. Much later, the buried remains of photosynthetic organisms, protected from decay and changed by geology, became the coal, oil, and natural gas that industrial society burns, returning their stored carbon to the air in a few centuries.' },
+        { type: 'h2', text: 'The base of nearly everything' },
+        { type: 'p', text: 'As primary producers, photosynthetic organisms form the base of Earth food webs and are eaten, directly or indirectly, by nearly every higher life form. If photosynthesis ceased, there would soon be little food or other organic matter on Earth, most organisms would disappear, and the atmosphere would in time lose nearly all its gaseous oxygen. That is the quiet transaction the leaf at noon is performing. It is not scenery. It is the first step of your lunch, the origin of the breath you just took, and the oldest solar technology on the planet, still running at full scale on every green surface the light can reach.' },
+      ],
+
+      keyTerms: ['photosynthesis', 'chlorophyll', 'chloroplast', 'thylakoid', 'stomata', 'Calvin cycle', 'photoautotroph', 'glucose'],
+
+      resources: {
+        videos: [
+          {
+            id: 'sQK3Yr4Sc_k',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=sQK3Yr4Sc_k',
+            title: 'Photosynthesis: Crash Course Biology #8',
+            channel: 'CrashCourse',
+            duration: '13:14',
+            why: 'Hank Green works through the light reactions and the Calvin cycle at full speed and full clarity.',
+          },
+          {
+            id: '8IlzKri08kk',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=8IlzKri08kk',
+            title: 'Introduction to Cells: The Grand Cell Tour',
+            channel: 'Amoeba Sisters',
+            duration: '9:04',
+            why: 'The chloroplast in context, on a tour of the cell that compares plant and animal cells directly.',
+          },
+          {
+            id: 'QnQe0xW_JY4',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=QnQe0xW_JY4',
+            title: 'Carbon... SO SIMPLE: Crash Course Biology #1',
+            channel: 'CrashCourse',
+            duration: '13:23',
+            why: 'Why carbon is the backbone of the sugars photosynthesis builds, from the first episode of the series.',
+          },
+        ],
+        books: [
+          {
+            title: 'The Private Life of Plants',
+            author: 'David Attenborough',
+            year: 1995,
+            url: '',
+            why: 'The companion to the television series: how plants feed, grow, compete, and travel, told with patience.',
+          },
+          {
+            title: 'What a Plant Knows',
+            author: 'Daniel Chamovitz',
+            year: 2012,
+            url: '',
+            why: 'A plant biologist on what plants sense: light, touch, and time. Short, rigorous, and surprising.',
+          },
+          {
+            title: 'The Life of a Leaf',
+            author: 'Steven Vogel',
+            year: 2012,
+            url: '',
+            why: 'A biomechanicist reads a leaf as engineering: light capture, water loss, and heat, all in one thin green sheet.',
+          },
+        ],
+        articles: [
+          {
+            title: 'Photosynthesis',
+            source: 'Encyclopaedia Britannica',
+            url: 'https://www.britannica.com/science/photosynthesis',
+            why: 'The definition, the equation, and the Great Oxidation Event, in a careful editorial summary.',
+            year: null,
+          },
+          {
+            title: 'Overview of Photosynthesis (Biology 2e, 8.1)',
+            source: 'OpenStax',
+            url: 'https://openstax.org/books/biology-2e/pages/8-1-overview-of-photosynthesis',
+            why: 'The free textbook chapter: structures, stages, and why photosynthesis feeds the grocery store.',
+            year: null,
+          },
+        ],
+        courses: [
+          {
+            title: 'Fundamentals of Biology (MIT 7.01SC)',
+            provider: 'MIT OpenCourseWare',
+            url: 'https://ocw.mit.edu/courses/7-01sc-fundamentals-of-biology-fall-2011/',
+            free: true,
+            why: 'A full MIT undergraduate biology course, free, with lectures, problem sets, and exams.',
+          },
+        ],
+      },
+
+      seeAlso: ['cell', 'ecology', 'biochem'],
+      prereqs: ['cell'],
+      leadsTo: ['ecology'],
+
+      sources: [
+        'https://www.britannica.com/science/photosynthesis',
+        'https://openstax.org/books/biology-2e/pages/8-1-overview-of-photosynthesis',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    microbes: {
+      id: 'microbes',
+      name: 'Microbes & Disease',
+      level: 'Beginner',
+      dek: 'Most microbes feed us, digest for us, and enrich the soil. A minority make us ill, changing medicine.',
+      readTime: '9 min',
+
+      sections: ['A world too small to see', 'Mostly harmless, often essential', 'When microbes make us ill', 'Clean hands and the resistance problem'],
+      body: [
+        { type: 'lead', text: 'A gram of garden soil, a pinch held between finger and thumb, contains more living things than there are people in a large city, and almost none of them wish you any harm. They are breaking down dead leaves, freeing nutrients, making the soil fertile enough for the garden above them. Microbes are the oldest, smallest, and most numerous form of life on Earth. Disease is a small part of their story, but it is the part that forced us to notice them.' },
+        { type: 'h2', text: 'A world too small to see' },
+        { type: 'p', text: 'Microbes are organisms too small to be seen except through a microscope: bacteria, viruses, fungi, and protozoa among them. Bacteria alone live in enormous numbers in almost every environment on Earth, from deep sea vents to deep below the surface to the digestive tracts of humans. They are prokaryotes, single celled organisms without a membrane bound nucleus, and as a group they have been present for perhaps three quarters of Earth history. Their metabolic range is wider than that of all visible life put together. Some live on sulfur, some on iron, some in boiling springs and some in ice. Wherever a chemist can imagine a living, something microbial is usually already there, living it.' },
+        { type: 'h2', text: 'Mostly harmless, often essential' },
+        { type: 'p', text: 'Most bacteria are harmless, and many are beneficial ecological agents whose work sustains higher life. Bacteria fix nitrogen from the air into forms plants can use. They decompose dead material, without which soil would not be fertile and the dead would not decay at any useful speed. They are symbiotic partners of plants and animals, they ferment our foods, and they are widely used to prepare chemicals and antibiotics. Your own gut is an ecosystem of them, digesting what your enzymes cannot. The popular picture of the microbe as an enemy is a sampling error. We met the dangerous ones first because they announced themselves.' },
+        { type: 'h2', text: 'When microbes make us ill' },
+        { type: 'p', text: 'The minority that cause disease are called pathogens, and the principle that specific microbes cause specific diseases is the germ theory of medicine. In the mid nineteenth century, Louis Pasteur showed that fermentation and putrefaction are caused by organisms in the air, disproving spontaneous generation. In the 1860s, Joseph Lister revolutionized surgery by using carbolic acid to exclude germs from wounds. In the 1880s, Robert Koch identified the organisms that cause tuberculosis and cholera, and set out the postulates, the criteria for proving that a given microbe causes a given disease. Viruses complicate the picture: they are not cells at all, and they can reproduce only inside a living host, which is why antibiotics, aimed at bacterial machinery, do nothing against them.' },
+        { type: 'callout', text: 'Antibiotics treat bacteria, not viruses. Taking one for a cold does nothing to the cold and trains bacteria elsewhere to resist it.' },
+        { type: 'h2', text: 'Clean hands and the resistance problem' },
+        { type: 'p', text: 'Germ theory led to antiseptic surgery, sterilization, sanitation, vaccination, and the humblest effective technology in medicine, hand hygiene. The World Health Organization treats antimicrobial resistance as a major threat to global health and development: microbes evolve, and every use of an antimicrobial drug selects for the ones that survive it. The pinch of soil between finger and thumb is the right place to end. Those microbes are not invaders and not pets. They are the senior inhabitants of the planet, running its chemistry since long before there were hands to hold soil, and our health depends on keeping the peace with most of them while outwitting the few that harm us.' },
+      ],
+
+      keyTerms: ['microbe', 'bacterium', 'virus', 'pathogen', 'germ theory', 'prokaryote', 'antibiotic', 'antimicrobial resistance', 'vaccination'],
+
+      resources: {
+        videos: [
+          {
+            id: 'ORB866QSGv8',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=ORB866QSGv8',
+            title: 'Bacteria (Updated)',
+            channel: 'Amoeba Sisters',
+            duration: 'variable',
+            why: 'Bacterial structure and reproduction, with the useful correction that not all bacteria are bad.',
+          },
+          {
+            id: '8FqlTslU22s',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=8FqlTslU22s',
+            title: 'Viruses (Updated)',
+            channel: 'Amoeba Sisters',
+            duration: 'variable',
+            why: 'What a virus is, why it needs a host, and how the lytic and lysogenic cycles differ.',
+          },
+          {
+            id: 'uVUf_pt7Sh0',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=uVUf_pt7Sh0',
+            title: 'Antibiotics, Antivirals, and Vaccines',
+            channel: 'Amoeba Sisters',
+            duration: 'variable',
+            why: 'How the three great antimicrobial tools work, and why each only works on its own kind of target.',
+          },
+        ],
+        books: [
+          {
+            title: 'Microbe Hunters',
+            author: 'Paul de Kruif',
+            year: 1926,
+            url: '',
+            why: 'The dramatic classic of early microbiology: Leeuwenhoek, Pasteur, Koch, and the race to name the killers.',
+          },
+          {
+            title: 'Spillover',
+            author: 'David Quammen',
+            year: 2012,
+            url: '',
+            why: 'How animal microbes cross into humans. The best reported account of where new diseases come from.',
+          },
+          {
+            title: 'I Contain Multitudes',
+            author: 'Ed Yong',
+            year: 2016,
+            url: '',
+            why: 'The microbiome, taken seriously and written beautifully. The corrective to a century of germ panic.',
+          },
+        ],
+        articles: [
+          {
+            title: 'Bacteria',
+            source: 'Encyclopaedia Britannica',
+            url: 'https://www.britannica.com/science/bacteria',
+            why: 'What bacteria are, where they live, and why most of them are partners rather than enemies.',
+            year: null,
+          },
+          {
+            title: 'Germ theory',
+            source: 'Encyclopaedia Britannica',
+            url: 'https://www.britannica.com/science/germ-theory',
+            why: 'Pasteur, Lister, and Koch, and how a contested idea rebuilt medicine and public health.',
+            year: null,
+          },
+          {
+            title: 'Antimicrobial resistance',
+            source: 'World Health Organization',
+            url: 'https://www.who.int/health-topics/antimicrobial-resistance',
+            why: 'The WHO topic page on resistance, the slow emergency that now shadows every antibiotic.',
+            year: null,
+          },
+        ],
+        courses: [
+          {
+            title: 'Fundamentals of Biology (MIT 7.01SC)',
+            provider: 'MIT OpenCourseWare',
+            url: 'https://ocw.mit.edu/courses/7-01sc-fundamentals-of-biology-fall-2011/',
+            free: true,
+            why: 'A full MIT undergraduate biology course, free, with lectures, problem sets, and exams.',
+          },
+        ],
+      },
+
+      seeAlso: ['cell', 'genetics', 'anatomy'],
+      prereqs: ['cell'],
+      leadsTo: ['genetics'],
+
+      sources: [
+        'https://www.britannica.com/science/bacteria',
+        'https://www.britannica.com/science/germ-theory',
+        'https://www.who.int/health-topics/antimicrobial-resistance',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    kingdoms: {
+      id: 'kingdoms',
+      name: 'The Kingdoms of Life',
+      level: 'Beginner',
+      dek: 'Sorting life into kingdoms looks like tidiness. It is a running argument about how living things are related.',
+      readTime: '9 min',
+
+      sections: ['Why sort the living world', 'Linnaeus and the two part name', 'The five kingdoms', 'Three domains redraw the map'],
+      body: [
+        { type: 'lead', text: 'In a museum basement there are cabinets of beetles, each drawer sorted, each specimen pinned above a small printed label with a two part Latin name. The labels look like tidiness for its own sake. They are not. Every name is a claim: this beetle belongs with these others, shares an ancestor with them, and differs from the drawer above in ways that can be stated and tested. Classification is biology filing its knowledge where it can be found again, and arguing, drawer by drawer, about where things truly belong.' },
+        { type: 'h2', text: 'Why sort the living world' },
+        { type: 'p', text: 'Taxonomy is the science of classification, and a formal system gives biologists a uniform, internationally understood naming scheme, so that a researcher in Brazil and a researcher in Japan can be certain they mean the same organism. The ranks run from the broad to the narrow: domain, kingdom, phylum, class, order, family, genus, and species. A kingdom is the second broadest rank, a great division of life based on fundamental characters such as cell type, body organization, and how an organism feeds. Move down the ranks and the groups get smaller and the resemblance closer, until a species name picks out one interbreeding kind. The hierarchy is a ladder of claims about relatedness, built to be climbed in both directions.' },
+        { type: 'h2', text: 'Linnaeus and the two part name' },
+        { type: 'p', text: 'The system in use was created by the Swedish naturalist Carolus Linnaeus in the 1750s. Its heart is binomial nomenclature: every species gets a two part name, a capitalized genus name and a lowercase species name, both italicized. Homo sapiens is the famous example. Common names could not do this work. The American robin and the English robin are different birds on different continents, and a shellfish is not a fish. One Latin name per species, the same in every language and every century, ended that confusion. Linnaeus worked from visible structure, long before evolution was proposed or DNA imagined, and the remarkable fact is how much of his filing system survived both revolutions.' },
+        { type: 'h2', text: 'The five kingdoms' },
+        { type: 'p', text: 'The classification most schoolrooms inherited recognized five kingdoms. Animalia: multicellular organisms that ingest their food. Plantae: multicellular makers of food by photosynthesis. Fungi: organisms with cell walls that absorb food, from yeasts to mushrooms. Protista: the mostly single celled eukaryotes, amoebas and algae and their kin, gathered partly by exclusion. And Monera: all the prokaryotes, the bacteria, treated as one kingdom of organisms without a nucleus. For a century this map was good enough to teach from, and parts of it still are. Animals, plants, and fungi remain kingdoms in modern systems, recognized by everyone.' },
+        { type: 'callout', text: 'In the traditional scheme there were five kingdoms: Animalia, Plantae, Fungi, Protista, and Monera. The first four are still in use.' },
+        { type: 'h2', text: 'Three domains redraw the map' },
+        { type: 'p', text: 'The map broke at its smallest scale. Genetic evidence showed that the prokaryotes lumped together as Monera were two profoundly different kinds of life. In the late 1970s the American microbiologist Carl Woese placed all organisms into three domains: Eukarya, Bacteria, and Archaea. Bacteria and Archaea look alike under a microscope, both small and nucleus free, but their chemistry and genes are as different from each other as either is from ours. DNA analysis has gone on reshaping the tree since, measuring relatedness directly instead of inferring it from shape. The beetles in the museum drawer keep their Latin labels. What the labels mean has deepened: not a cabinet of kinds, but a family tree, still being redrawn as the evidence arrives.' },
+      ],
+
+      keyTerms: ['kingdom', 'taxonomy', 'domain', 'binomial nomenclature', 'genus', 'species', 'protist', 'fungi', 'archaea'],
+
+      resources: {
+        videos: [
+          {
+            id: 'DVouQRAKxYo',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=DVouQRAKxYo',
+            title: 'Classification',
+            channel: 'Amoeba Sisters',
+            duration: 'variable',
+            why: 'The full hierarchy, domain to species, with domains and kingdoms in their proper places.',
+          },
+          {
+            id: 'P3GagfbA2vo',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=P3GagfbA2vo',
+            title: 'Evolution: It\'s a Thing - Crash Course Biology #20',
+            channel: 'CrashCourse',
+            duration: 'variable',
+            why: 'Why classification is really about common descent, told through fossils and homologous structures.',
+          },
+          {
+            id: '8IlzKri08kk',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=8IlzKri08kk',
+            title: 'Introduction to Cells: The Grand Cell Tour',
+            channel: 'Amoeba Sisters',
+            duration: '9:04',
+            why: 'Prokaryote against eukaryote, the cell level difference on which the domains rest.',
+          },
+        ],
+        books: [
+          {
+            title: 'Systema Naturae',
+            author: 'Carl Linnaeus',
+            year: 1735,
+            url: '',
+            why: 'The founding document of modern classification, expanded through edition after edition in Linnaeus lifetime.',
+          },
+          {
+            title: 'The Diversity of Life',
+            author: 'Edward O. Wilson',
+            year: 1992,
+            url: '',
+            why: 'A great biologist surveys the variety of life and the systems we use to hold it in mind.',
+          },
+          {
+            title: 'Life on a Young Planet',
+            author: 'Andrew H. Knoll',
+            year: 2003,
+            url: '',
+            why: 'The first three billion years of evolution, where the deepest divisions among kingdoms and domains were set.',
+          },
+        ],
+        articles: [
+          {
+            title: 'Taxonomy',
+            source: 'Encyclopaedia Britannica',
+            url: 'https://www.britannica.com/science/taxonomy',
+            why: 'The history and method of biological classification, from Aristotle through Linnaeus to DNA.',
+            year: null,
+          },
+          {
+            title: 'Bacteria',
+            source: 'Encyclopaedia Britannica',
+            url: 'https://www.britannica.com/science/bacteria',
+            why: 'The clearest short account of the three domain system and why Monera was split.',
+            year: null,
+          },
+        ],
+        courses: [
+          {
+            title: 'Fundamentals of Biology (MIT 7.01SC)',
+            provider: 'MIT OpenCourseWare',
+            url: 'https://ocw.mit.edu/courses/7-01sc-fundamentals-of-biology-fall-2011/',
+            free: true,
+            why: 'A full MIT undergraduate biology course, free, with lectures, problem sets, and exams.',
+          },
+        ],
+      },
+
+      seeAlso: ['cell', 'evolution', 'ecology'],
+      prereqs: ['cell'],
+      leadsTo: ['evolution', 'ecology'],
+
+      sources: [
+        'https://www.britannica.com/science/taxonomy',
+        'https://www.britannica.com/science/bacteria',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    extinction: {
+      id: 'extinction',
+      name: 'Extinction & Biodiversity',
+      level: 'Intermediate',
+      dek: 'Species have always died out. What is new is the rate, and a cause that can read warnings.',
+      readTime: '10 min',
+
+      sections: ['The quiet final individual', 'The Permian warning', 'The present rate', 'What a list can do'],
+      body: [
+        { type: 'lead', text: 'Every extinction ends the same way, in a quiet that is easy to miss: a last individual, unaware of its status, eating or sleeping or calling for a mate that will never answer. Then the place goes on without it. A species is a lineage millions of years in the making, and its ending is permanent in a way that almost nothing else in nature is. Death is reversible for a population. Extinction is not.' },
+        { type: 'h2', text: 'The quiet final individual' },
+        { type: 'p', text: 'Extinction is the dying out of a species, and it occurs when a species is diminished by environmental forces, such as habitat fragmentation, global change, natural disaster, or overexploitation, or by changes within its own members, such as inbreeding and poor reproduction. It is also, at a low background rate, a normal part of evolution: species arise, persist for a time, and yield to successors. The vast majority of species that have ever lived are extinct. What the fossil record adds is a warning about scale. Five times, the record shows mass extinctions, events in which vast numbers of species died out across the whole planet within a geologically short span, separated by long stretches of ordinary, background loss.' },
+        { type: 'h2', text: 'The Permian warning' },
+        { type: 'p', text: 'The most dramatic of the five was the Permian extinction, which closed about 251.9 million years ago. It eliminated about half of all families and about 90 percent of all species, including some 95 percent of marine species and about 70 percent of land species. The event that ended the dinosaurs, the Cretaceous Paleogene extinction about 66 million years ago, was smaller: about 80 percent of animal species, gone in the aftermath of an asteroid strike and a violent climate. Recovery from such events took millions of years, and what recovered was different in kind, built from the survivors. Mass extinction does not end life. It ends the world that was, and hands the planet to whoever is left.' },
+        { type: 'callout', text: 'Ecologists estimate the present day extinction rate at 1,000 to 10,000 times the background rate of one to five species per year.' },
+        { type: 'h2', text: 'The present rate' },
+        { type: 'p', text: 'That estimate is why some scientists call the present moment a sixth mass extinction. The causes are not mysterious: hunting and overharvesting, forests and wetlands converted to cropland and cities, pollution, introduced invasive species, and a warming climate, all driven by human numbers and appetites. Habitat loss is the greatest single factor. The pattern differs from the ancient events in one respect that matters. The Permian world had no witness who could read a core sample, count the missing, and choose otherwise. The current event is being measured while it happens, species by species, by the same species that is causing it.' },
+        { type: 'h2', text: 'What a list can do' },
+        { type: 'p', text: 'Measurement has an address. The IUCN Red List of Threatened Species, established in 1964, is the world most comprehensive record of the conservation status of animal, fungi, and plant species. More than 175,900 species have been assessed for it so far, and more than 49,500 of them are listed as threatened with extinction, about 28 percent of all assessed species. A list cannot save anything by itself. What it does is remove excuses: it names the species, states the risk, records the threats, and points to the conservation actions that would help. The last individual of a species dies quietly, in a place going on without it. The work of the list is to make sure the quiet is noticed in time, while there is still a population left to protect and a choice left to make.' },
+      ],
+
+      keyTerms: ['extinction', 'biodiversity', 'mass extinction', 'background rate', 'endangered species', 'habitat loss', 'IUCN Red List', 'invasive species'],
+
+      resources: {
+        videos: [
+          {
+            id: 'izRvPaAWgyw',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=izRvPaAWgyw',
+            title: 'Ecology - Rules for Living on Earth: Crash Course Biology #40',
+            channel: 'CrashCourse',
+            duration: '11:54',
+            why: 'The ecological frame extinction sits in: populations, communities, and what holds them together.',
+          },
+          {
+            id: 'N2DP1I6CnXw',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=N2DP1I6CnXw',
+            title: 'How Humans Are Causing The Sixth Mass Extinction | The Holocene Extinction, Explained | EXPLORE MODE',
+            channel: 'Explore Mode',
+            duration: 'variable',
+            why: 'The human causes, taken one at a time: climate, habitat, hunting, and invasive species.',
+          },
+          {
+            id: 'ysa5OBhXz-Q',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=ysa5OBhXz-Q',
+            title: 'How Wolves Change Rivers',
+            channel: 'Sustainable Human',
+            duration: '4:34',
+            why: 'The reverse of extinction in four minutes: a returned species rebuilding a whole ecosystem.',
+          },
+        ],
+        books: [
+          {
+            title: 'The Sixth Extinction: An Unnatural History',
+            author: 'Elizabeth Kolbert',
+            year: 2014,
+            url: '',
+            why: 'Pulitzer winning reporting on the current crisis, from golden frogs to the Great Auk.',
+          },
+          {
+            title: 'The Song of the Dodo',
+            author: 'David Quammen',
+            year: 1996,
+            url: '',
+            why: 'Island biogeography and extinction, written as an adventure in ideas. The deepest popular book on the subject.',
+          },
+          {
+            title: 'The Diversity of Life',
+            author: 'Edward O. Wilson',
+            year: 1992,
+            url: '',
+            why: 'What biodiversity is, how it arose, and what its loss would mean, by the biologist who named it.',
+          },
+        ],
+        articles: [
+          {
+            title: 'Extinction',
+            source: 'Encyclopaedia Britannica',
+            url: 'https://www.britannica.com/science/extinction-biology',
+            why: 'The five mass extinctions ranked, the background rate, and the human causes, in one editorial account.',
+            year: null,
+          },
+          {
+            title: 'The IUCN Red List of Threatened Species',
+            source: 'IUCN',
+            url: 'https://www.iucnredlist.org/',
+            why: 'The working list itself: categories, counts of threatened species, and the evidence behind each listing.',
+            year: null,
+          },
+        ],
+        courses: [
+          {
+            title: 'Fundamentals of Biology (MIT 7.01SC)',
+            provider: 'MIT OpenCourseWare',
+            url: 'https://ocw.mit.edu/courses/7-01sc-fundamentals-of-biology-fall-2011/',
+            free: true,
+            why: 'A full MIT undergraduate biology course, free, with lectures, problem sets, and exams.',
+          },
+        ],
+      },
+
+      seeAlso: ['evolution', 'ecology', 'genetics'],
+      prereqs: ['evolution', 'ecology'],
+      leadsTo: [],
+
+      sources: [
+        'https://www.britannica.com/science/extinction-biology',
+        'https://www.iucnredlist.org/',
+      ],
+      verifiedAt: '2026-10-15',
     },
 
   },

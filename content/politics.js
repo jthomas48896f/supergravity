@@ -1,16 +1,16 @@
 // content/politics.js
 // Owned by batch: B05-social-world
-// Last updated: 2026-04-23 by BATCH B05-social-world
+// Last updated: 2026-10-15 by SPRINT W1
 //
 // Topics this subject must cover (from data.js):
-//   Core: governments, constitutions, ir
+//   Core: governments, constitutions, ir, voting, humanrights
 
 window.CONTENT = window.CONTENT || {};
 window.CONTENT.politics = {
   subjectId: 'politics',
   version: 2,
-  lastUpdated: '2026-04-23',
-  curator: 'BATCH B05-social-world',
+  lastUpdated: '2026-10-15',
+  curator: 'SPRINT W1',
   topics: {
 
     // ——— GOVERNMENTS ———
@@ -923,6 +923,239 @@ window.CONTENT.politics = {
         'https://www.britannica.com/topic/international-relations',
       ],
       verifiedAt: '2026-04-23',
+    },
+
+    voting: {
+      id: 'voting',
+      name: 'Voting & Elections',
+      level: 'Beginner',
+      dek: 'The ballot looks simple; who gets one, and how it is counted, has been fought over for centuries.',
+      readTime: '9 min',
+
+      sections: ['What a vote does', 'The secret ballot', 'Who was shut out', 'Counting and being counted'],
+      body: [
+        { type: 'lead', text: 'In Gambia, a voter walks into a polling station carrying a marble. Behind a screen stand metal drums painted in party colours, each with a candidate\'s photograph attached. The voter drops the marble into one drum, a bell rings to register the vote, and bicycles are banned near the station so nobody mistakes a bicycle bell for a count. The system, introduced in 1965 to serve voters who could not read, is a reminder that a ballot is a technology, and technologies get designed.' },
+        { type: 'h2', text: 'What a vote does' },
+        { type: 'p', text: 'Voting is how a group turns many individual choices into one collective decision. The object can be a person, a law, or a yes or no question put to the whole electorate in a referendum. Electoral systems, the rules that convert votes cast into winners, vary by country and by office, and the rules matter as much as the votes: the same ballots counted by different rules can seat different governments. Debates about electoral reform are usually debates about which conversion a country thinks is fair.' },
+        { type: 'h2', text: 'The secret ballot' },
+        { type: 'p', text: 'All modern liberal democracies vote by secret ballot, so that no employer, landlord, party worker, or family member can verify how a person voted and punish or reward it. Secrecy is what makes the stated preference plausibly the real one. The alternatives still exist at the edges: open votes by show of hands survive in some Swiss cantons, voice votes settle routine business in legislatures, and voting itself can be a legal duty rather than a choice, as in Australia, or done from home by post, or online, as Estonia first allowed in its local elections in 2005.' },
+        { type: 'h2', text: 'Who was shut out' },
+        { type: 'p', text: 'For most of democratic history the electorate was a minority of the governed. The long expansion of the suffrage ran by class, by race, and by sex, and the last of these came latest. The first national granting of women\'s suffrage was in 1893, in the self governing British colony of New Zealand, after a campaign led by Kate Sheppard. The United States followed in 1920, the United Kingdom completed equal voting rights in 1928, France waited until 1944, and Swiss women could not vote in federal elections until 1971. Each date was the end of a long organised campaign, not a gift that arrived on its own.' },
+        { type: 'h2', text: 'Counting and being counted' },
+        { type: 'p', text: 'An election is also an act of trust in arithmetic performed by strangers. Ballots may be paper, machine read, or cast on electronic machines; some allow one mark, some allow ranking candidates in order of preference, and ranked ballots are then redistributed until a winner emerges. More than five hundred national referendums have been held since the end of the eighteenth century, more than three hundred of them in Switzerland alone. The machinery differs, the question underneath does not: a vote only settles an argument if the losers believe the count. Where that belief holds, power changes hands without violence. Where it fails, the marble, the paper, and the bell are just objects in a room.' },
+      ],
+
+      keyTerms: ['suffrage', 'secret ballot', 'electoral system', 'referendum', 'turnout', 'franchise', 'ranked ballot'],
+
+      resources: {
+        videos: [
+          {
+            id: 'eauMLjugC8o',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=eauMLjugC8o',
+            title: 'Voting Rights | Constitution 101',
+            channel: 'National Constitution Center',
+            duration: 'variable',
+            why: 'Jeffrey Rosen on the Fifteenth, Nineteenth, Twenty-fourth, and Twenty-sixth Amendments, and the long American fight over who may vote. Part of the Constitution 101 course made with Khan Academy.',
+          },
+          {
+            id: 'You0q4JJzS4',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=You0q4JJzS4',
+            title: 'Voter turnout: Political participation',
+            channel: 'Khan Academy',
+            duration: 'variable',
+            why: 'Why some elections draw most of the electorate and others do not: efficacy, engagement, and the state laws that make voting easier or harder.',
+          },
+          {
+            id: 'p-n_YOtUnqU',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=p-n_YOtUnqU',
+            title: 'Sal teaches Grover about the Electoral College',
+            channel: 'Khan Academy',
+            duration: 'variable',
+            why: 'The gentlest possible introduction to the strangest part of American elections, taught to a Muppet and entirely clear to adults too.',
+          },
+        ],
+        books: [
+          {
+            title: 'The Right to Vote: The Contested History of Democracy in the United States',
+            author: 'Alexander Keyssar',
+            year: 2000,
+            url: '',
+            why: 'The standard history of the American franchise, expansion and contraction alike. The book to read on who was let in, who was pushed out, and how.',
+          },
+          {
+            title: 'The Turnout Gap: Race, Ethnicity, and Political Inequality in a Diversifying America',
+            author: 'Bernard L. Fraga',
+            year: 2018,
+            url: '',
+            why: 'A political scientist tests the common stories about who does not vote and why, with data. Bracing and unsentimental.',
+          },
+          {
+            title: 'Election Meltdown: Dirty Tricks, Distrust, and the Threat to American Democracy',
+            author: 'Richard L. Hasen',
+            year: 2020,
+            url: '',
+            why: 'A leading election law scholar on the machinery of counting and the fragility of trust in the count itself.',
+          },
+        ],
+        articles: [
+          {
+            title: 'Voting',
+            source: 'Wikipedia',
+            url: 'https://en.wikipedia.org/wiki/Voting',
+            why: 'Ballot types, voting methods, and electoral systems compared, from paper ballots to Gambian marbles.',
+            year: null,
+          },
+          {
+            title: 'Women\'s suffrage',
+            source: 'Wikipedia',
+            url: 'https://en.wikipedia.org/wiki/Women%27s_suffrage',
+            why: 'The country by country chronology of the last great expansion of the electorate, from New Zealand in 1893 onward.',
+            year: null,
+          },
+        ],
+        courses: [
+          {
+            title: 'Elections and Voting Rights: Constitution 101, Unit 9',
+            provider: 'National Constitution Center with Khan Academy',
+            url: 'https://ConstitutionCenter.org/education/constitution-101-curriculum/constitution-101-with-khan-academy/unit-9-elections-and-voting-rights-from-the-founding-through-the-civil-rights-movement',
+            free: true,
+            why: 'Eighteen videos on elections and voting rights from the founding through the civil rights movement, free with the full curriculum.',
+          },
+        ],
+      },
+
+      seeAlso: ['governments', 'constitutions', 'ir'],
+      prereqs: ['governments'],
+      leadsTo: ['constitutions'],
+
+      sources: [
+        'https://en.wikipedia.org/wiki/Voting',
+        'https://en.wikipedia.org/wiki/Women%27s_suffrage',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    humanrights: {
+      id: 'humanrights',
+      name: 'Human Rights',
+      level: 'Intermediate',
+      dek: 'After a world war, nations agreed that every person holds rights no government grants and none may take.',
+      readTime: '10 min',
+
+      sections: ['Paris, December 1948', 'Thirty articles, one claim', 'From declaration to treaties', 'Rights on paper, rights in practice'],
+      body: [
+        { type: 'lead', text: 'On 10 December 1948, in Paris, the General Assembly of the new United Nations proclaimed a document of thirty articles that began with a sentence no government had ever quite signed before: all human beings are born free and equal in dignity and rights. The drafters came from different legal and cultural backgrounds and every region of the world, and they had written it in the shadow of a war that had shown, in detail, what happens when a state decides some people have no rights at all.' },
+        { type: 'h2', text: 'Paris, December 1948' },
+        { type: 'p', text: 'The Universal Declaration of Human Rights was a proclamation, not a treaty. It bound no state in law, and its authors knew it. What it did was set a common standard of achievement for all peoples and all nations, in the Declaration\'s own phrase, and give reformers, judges, and prisoners of conscience everywhere the same text to point to. It has since been translated into over 500 languages.' },
+        { type: 'h2', text: 'Thirty articles, one claim' },
+        { type: 'p', text: 'The articles run in a deliberate order. First come the civil and political rights: life, liberty, and security of person; no slavery; no torture; equality before the law; a fair and public hearing; freedom of thought, conscience, and religion; freedom of opinion and expression; and the right to take part in government through periodic and genuine elections by universal and equal suffrage. Then come the economic and social rights: social security, work and equal pay, rest and leisure, an adequate standard of living, and education, which the Declaration says shall be free at least in the elementary stages. The claim holding the list together is that these belong to everyone, without distinction of any kind.' },
+        { type: 'callout', text: 'Article 1 is the load bearing sentence: human beings are born free and equal in dignity and rights, and are endowed with reason and conscience. Everything after it is commentary.' },
+        { type: 'h2', text: 'From declaration to treaties' },
+        { type: 'p', text: 'A declaration that binds nobody could have faded into ceremony. Instead it became a template. The United Nations records that the Declaration inspired, and paved the way for, the adoption of more than seventy human rights treaties, applied today at global and regional levels, and its language was written into constitutions across the world, often by states founded after 1948 whose drafters needed a bill of rights in a hurry and reached for the one already agreed. Rights that begin as standards have a habit of hardening into law.' },
+        { type: 'h2', text: 'Rights on paper, rights in practice' },
+        { type: 'p', text: 'None of this enforces itself. The Declaration closes by saying that nothing in it may be read as giving any state, group, or person a right to destroy the rights it lists, which is an admission that its enemies would try. The distance between the text and the world remains the central fact of human rights politics: the standard is nearly universal, the compliance is not. But a standard is not nothing. It is the thing a violation can be measured against, in a court, in a newspaper, or in a prison letter, and on 10 December 1948 the world\'s governments agreed, in public and in writing, to be measured.' },
+      ],
+
+      keyTerms: ['Universal Declaration', 'dignity', 'inalienable rights', 'treaty', 'civil rights', 'social rights', 'United Nations'],
+
+      resources: {
+        videos: [
+          {
+            id: '3KylsKUSgVc',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=3KylsKUSgVc',
+            title: '10th December 1948: Universal Declaration of Human Rights adopted by the UN General Assembly',
+            channel: 'YouTube documentary',
+            duration: 'variable',
+            why: 'The adoption itself: two years of drafting, the objections raised, and the vote of forty eight in favour, none against, eight abstentions.',
+          },
+          {
+            id: 'w0OtpaKfONM',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=w0OtpaKfONM',
+            title: 'Universal Declaration of Human Rights Animation',
+            channel: 'Amnesty International (1988 film)',
+            duration: 'variable',
+            why: 'The celebrated 1988 animated film made for the Declaration\'s fortieth anniversary, bringing all thirty articles to life. A fine way to meet the whole text.',
+          },
+          {
+            id: '83zo2yuUn9E',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=83zo2yuUn9E',
+            title: 'Human Rights: The UN Declaration 1948',
+            channel: 'YouTube documentary',
+            duration: 'variable',
+            why: 'A plain spoken walk through the Declaration article by article, organised around dignity, equality, and the right to life and liberty.',
+          },
+        ],
+        books: [
+          {
+            title: 'The Universal Declaration of Human Rights: Origins, Drafting, and Intent',
+            author: 'Johannes Morsink',
+            year: 1999,
+            url: '',
+            why: 'The definitive history of the drafting, clause by clause, by a scholar who worked through the full archive of the negotiations.',
+          },
+          {
+            title: 'A World Made New: Eleanor Roosevelt and the Universal Declaration of Human Rights',
+            author: 'Mary Ann Glendon',
+            year: 2001,
+            url: '',
+            why: 'The readable narrative version: the small committee, the arguments, and how a text acceptable to rival systems got written at all.',
+          },
+          {
+            title: 'Human Rights: A Very Short Introduction',
+            author: 'Andrew Clapham',
+            year: 2007,
+            url: '',
+            why: 'A compact, clear map of the modern human rights system by a Geneva international lawyer. The best short entry.',
+          },
+        ],
+        articles: [
+          {
+            title: 'Universal Declaration of Human Rights',
+            source: 'United Nations',
+            url: 'https://www.un.org/en/about-us/universal-declaration-of-human-rights',
+            why: 'The full text of all thirty articles on the UN site, with the history of the proclamation. Read the primary source itself.',
+            year: null,
+          },
+          {
+            title: 'Human rights',
+            source: 'Wikipedia',
+            url: 'https://en.wikipedia.org/wiki/Human_rights',
+            why: 'The wider history and philosophy, and the treaty system that grew out of the Declaration.',
+            year: null,
+          },
+        ],
+        courses: [
+          {
+            title: 'The Moral Foundations of Politics (PLSC 118)',
+            provider: 'Yale Open Courses',
+            url: 'https://oyc.yale.edu/political-science/plsc-118',
+            free: true,
+            why: 'Ian Shapiro\'s free Yale course works through the traditions, utilitarian, Marxist, and social contract, that argue about whether rights exist and where they come from.',
+          },
+        ],
+        primarySources: [
+          {
+            title: 'The Universal Declaration of Human Rights (full text)',
+            url: 'https://www.un.org/en/about-us/universal-declaration-of-human-rights',
+            why: 'Thirty short articles. Twenty minutes to read, and the source every other item here is about.',
+          },
+        ],
+      },
+
+      seeAlso: ['constitutions', 'governments', 'ir'],
+      prereqs: ['constitutions'],
+      leadsTo: ['ir'],
+
+      sources: [
+        'https://www.un.org/en/about-us/universal-declaration-of-human-rights',
+      ],
+      verifiedAt: '2026-10-15',
     },
 
   },

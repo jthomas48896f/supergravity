@@ -1,13 +1,13 @@
 // content/art.js
 // Batch: B04-humanities
-// Last updated: 2026-04-22 by BATCH B04-humanities
+// Last updated: 2026-10-15 by SPRINT W1
 
 window.CONTENT = window.CONTENT || {};
 window.CONTENT.art = {
   subjectId: 'art',
   version: 1,
-  lastUpdated: '2026-04-22',
-  curator: 'BATCH B04-humanities',
+  lastUpdated: '2026-10-15',
+  curator: 'SPRINT W1',
   topics: {
 
     cave_to_cath: {
@@ -912,6 +912,122 @@ window.CONTENT.art = {
         'https://www.interaction-design.org/literature/topics/design-principles',
       ],
       verifiedAt: '2026-04-22',
+    },
+
+    sculpture: {
+      id: 'sculpture',
+      name: 'Sculpture',
+      level: 'Beginner',
+      dek: 'Art you walk around: carving, modeling, casting, and the long argument between stone and bronze.',
+      readTime: '6 min',
+
+      sections: ['Two ways of making', 'In the round and in relief', 'A short history in objects', 'How to look at sculpture'],
+      body: [
+        { type: 'lead', text: 'The largest sculpture on record is not in a museum. The Statue of Unity in India, completed in 2018, stands 182 meters tall, about 597 feet, a figure you read from kilometers away. At the other end of the scale, a sculptor\'s thumb can finish the curve of a lip. Sculpture is the branch of the visual arts that works in three dimensions, and its whole history is an argument about what three dimensions can be made to say.' },
+        { type: 'h2', text: 'Two ways of making' },
+        { type: 'p', text: 'The durable processes of sculpture divide into two families. Carving removes: the sculptor cuts away stone or wood until the form remains, and every cut is final. Modeling adds: clay or wax is built up, and mistakes can be scraped off and begun again. Casting turns a modeled form into a durable one, pouring molten metal, classically bronze, into a mold taken from it. The classic durable materials of the art are metal, especially bronze, stone, and pottery, and most of what survives from the ancient world survives because it was made of them.' },
+        { type: 'h2', text: 'In the round and in relief' },
+        { type: 'p', text: 'Sculpture also divides by how it meets the viewer. Sculpture in the round stands free and asks to be circled; its back is part of the work. Relief stays attached to a background surface. In low relief, or bas relief, the forms barely rise from the surface, like the figures on a coin. In high relief they project boldly, sometimes undercut until they are nearly free. Public sculpture is the oldest setting of all: the Great Sphinx of Egypt, carved some 4,500 years ago, still guards its plateau in the round.' },
+        { type: 'h2', text: 'A short history in objects' },
+        { type: 'p', text: 'The Western tradition of sculpture began in ancient Greece, whose carvers moved from stiff archaic figures toward bodies that shift their weight and breathe. Rome carried the Greek achievement across an empire. In Renaissance Florence the tradition revived: Donatello cast a bronze David, likely in the 1440s, standing in contrapposto like a Greek hero reborn, and Michelangelo\'s David became the emblem of the age. Verrocchio\'s David of about 1465 is wirier, more real and less ideal. Two centuries after Donatello, Bernini carved Apollo and Daphne in marble: a god\'s hand closing on bark as a nymph turns into a laurel tree, motion frozen mid gesture.' },
+        { type: 'callout', text: 'A painting shows you the view its maker chose. A sculpture keeps every other view in reserve, and charges you a walk for them.' },
+        { type: 'h2', text: 'How to look at sculpture' },
+        { type: 'p', text: 'Look at sculpture the way it was made: in the round, on foot. Walk the full circle and watch the silhouette change. Ask which family of making you are seeing, removal or addition, and what the material allowed and forbade. Stone forbids thin projections; bronze permits a raised arm or a rearing horse. The Statue of Unity and a palm sized bronze are the same art at different scales: form occupying real space, asking your body, and not just your eyes, to do the looking.' },
+      ],
+
+      keyTerms: ['sculpture in the round', 'relief', 'bas-relief', 'carving', 'modeling', 'casting', 'bronze', 'contrapposto'],
+      resources: {
+        videos: [
+          {
+            id: '6kUUJJV_MNA',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=6kUUJJV_MNA',
+            title: 'Donatello, David',
+            channel: 'Smarthistory',
+            duration: 'variable',
+            why: 'Beth Harris and Steven Zucker on the bronze David in the Bargello, its contrapposto, and its lost wax casting.',
+          },
+          {
+            id: '8ydl4I6eJCs',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=8ydl4I6eJCs',
+            title: 'Verrocchio\'s David: more real, less ideal',
+            channel: 'Smarthistory',
+            duration: 'variable',
+            why: 'The next Florentine generation: Verrocchio\'s wiry, confident David of about 1465, in bronze with gilding.',
+          },
+          {
+            id: 'WHrFyEBW_j0',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=WHrFyEBW_j0',
+            title: 'The Beautiful Sculpture That Tells a Horrifying Story',
+            channel: 'YouTube',
+            duration: 'variable',
+            why: 'Bernini\'s Apollo and Daphne in the Galleria Borghese, and how a single block of marble is made to move.',
+          },
+        ],
+        books: [
+          {
+            title: 'The Story of Art',
+            author: 'E. H. Gombrich',
+            year: 1950,
+            url: '',
+            why: 'Still the best single volume entrance to Western art, with sculpture given its full weight in every period.',
+          },
+          {
+            title: 'Modelling and Sculpture',
+            author: 'Edouard Lanteri',
+            year: 1911,
+            url: '',
+            why: 'The great atelier manual of sculptural technique, long used to teach modeling and carving.',
+          },
+          {
+            title: 'The Sculptor\'s Way: A Guide to Modelling and Sculpture',
+            author: 'Brenda Putnam',
+            year: 1939,
+            url: '',
+            why: 'An American sculptor\'s complete handbook of studio practice, from armature to finished cast.',
+          },
+        ],
+        articles: [
+          {
+            title: 'Sculpture',
+            source: 'Wikipedia',
+            url: 'https://en.wikipedia.org/wiki/Sculpture',
+            why: 'The forms, processes, and materials of the art, with its history from the Greeks onward.',
+            year: null,
+          },
+          {
+            title: 'Heilbrunn Timeline of Art History',
+            source: 'The Metropolitan Museum of Art',
+            url: 'https://www.metmuseum.org/toah/',
+            why: 'More than a thousand expert essays from the Met, searchable by period, material, and theme, sculpture included.',
+            year: null,
+          },
+        ],
+        courses: [
+          {
+            title: 'Introduction to Art History',
+            provider: 'MIT OpenCourseWare',
+            url: 'https://ocw.mit.edu/courses/4-601-introduction-to-art-history-fall-2018/',
+            free: true,
+            why: 'MIT\'s survey of Euro American art from the fourteenth century on, objects and images in their social settings.',
+          },
+        ],
+      },
+
+      seeAlso: ['cave_to_cath', 'renart', 'drawing', 'composition'],
+      prereqs: ['cave_to_cath'],
+      leadsTo: ['modern_art'],
+
+      chapterActivity: 'A museum hour spent entirely on foot: choose one sculpture, circle it slowly three times, and sketch the silhouette from two sides.',
+
+      sources: [
+        'https://en.wikipedia.org/wiki/Sculpture',
+        'https://www.youtube.com/watch?v=6kUUJJV_MNA',
+        'https://www.youtube.com/watch?v=8ydl4I6eJCs',
+      ],
+      verifiedAt: '2026-10-15',
     },
 
   },

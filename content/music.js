@@ -1,13 +1,13 @@
 // content/music.js
 // Batch: B04-humanities
-// Last updated: 2026-04-22 by BATCH B04-humanities
+// Last updated: 2026-10-15 by SPRINT W1
 
 window.CONTENT = window.CONTENT || {};
 window.CONTENT.music = {
   subjectId: 'music',
   version: 1,
-  lastUpdated: '2026-04-22',
-  curator: 'BATCH B04-humanities',
+  lastUpdated: '2026-10-15',
+  curator: 'SPRINT W1',
   topics: {
 
     notation: {
@@ -825,6 +825,237 @@ window.CONTENT.music = {
         'https://www.loc.gov/programs/national-recording-preservation-board/recording-registry/',
       ],
       verifiedAt: '2026-04-22',
+    },
+
+    rhythm: {
+      id: 'rhythm',
+      name: 'Rhythm & Meter',
+      level: 'Beginner',
+      dek: 'Pulse, meter, and the patterns between: how music organizes time into something the body can keep.',
+      readTime: '6 min',
+
+      sections: ['First, the beat', 'Meter: grouping the beats', 'Tempo and syncopation', 'Feeling time'],
+      body: [
+        { type: 'lead', text: 'Clap along to any song and your hands will find it: a pulse that recurs at regular intervals, the beat. Everything in rhythm is built on that pulse, and on what musicians do to group it, stretch it, and play against it. A metronome set to 60 beats per minute ticks exactly once per second, one beat for every swing of the second hand, and from that plain fact grows the whole architecture of musical time.' },
+        { type: 'h2', text: 'First, the beat' },
+        { type: 'p', text: 'Rhythm, pulse, meter, and beat are often used as if they were one idea, but they are four. The beat is the regularly recurring pulse you tap your foot to, most often counted as a quarter note in Western notation. Pulse is the underlying stream of equal ticks, whether or not anyone accents them. Meter is the pattern that groups beats into measures. Rhythm proper is the pattern of durations actually played against that grid: long and short, expected and surprising. Keeping the four apart makes the rest of the subject simple.' },
+        { type: 'h2', text: 'Meter: grouping the beats' },
+        { type: 'p', text: 'Meters group beats into twos, threes, and fours: duple, triple, and quadruple. In a simple meter each beat divides into two. In a compound meter each beat divides into three, which is why 6/8 feels like a rocking two rather than a march. A time signature reports the grouping: the top number counts the beats in the measure, and the bottom number names the note value that gets the beat. Conductors draw the meter in the air, downbeat first, and ensembles breathe by it.' },
+        { type: 'callout', text: 'A time signature is not a fraction. The top number counts beats per measure; the bottom number tells you which note value carries the beat.' },
+        { type: 'h2', text: 'Tempo and syncopation' },
+        { type: 'p', text: 'Tempo is the speed of the beat, measured in beats per minute and generally specified between 40 and 240. Within that range the same rhythm can feel funereal or frantic. Syncopation is rhythm\'s favorite surprise: an accent lands where the meter taught you to expect a weak beat, and de-emphasises the downbeat, so the music seems to lean forward or step sideways. Complex meters break the even pattern entirely, grouping eighth notes as 2 plus 3 in 5/8, or as 2 plus 2 plus 3 in 7/8.' },
+        { type: 'h2', text: 'Feeling time' },
+        { type: 'p', text: 'None of this stays on paper. Dancers, marching bands, and rowing crews all live inside meter, and listeners feel syncopation in the body before they can name it. Start with the pulse your hands found on their own: count it, group it, notice where the accents fall and where they dodge. That is the whole subject in miniature, one beat per second at 60, and every tempo, meter, and rhythm you will ever meet is a way of organizing it.' },
+      ],
+
+      keyTerms: ['beat', 'pulse', 'meter', 'tempo', 'time signature', 'syncopation', 'downbeat', 'compound meter'],
+      resources: {
+        videos: [
+          {
+            id: 'qi6uuhU1unk',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=qi6uuhU1unk',
+            title: 'Grade 3 Music Theory: Simple and Compound Time Signatures',
+            channel: 'Music Matters',
+            duration: 'variable',
+            why: 'The clearest single lesson on duple, triple, and quadruple time, and on how to group beats in each.',
+          },
+          {
+            id: 'NlBcIkUyop4',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=NlBcIkUyop4',
+            title: 'Music Reading Basics: Compound Meters',
+            channel: 'MusePrep',
+            duration: 'variable',
+            why: 'Compound meters 6/8, 9/8, and 12/8 explained step by step, with examples such as Greensleeves.',
+          },
+          {
+            id: '-LWHomi16rs',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=-LWHomi16rs',
+            title: 'Time and Rhythm: Notating and Interpreting Music in Complex Meters',
+            channel: 'Berklee Online',
+            duration: 'variable',
+            why: 'Berklee instructor Matt Sharrock shows how beaming reveals the beat groups inside 5/8 and 7/8.',
+          },
+        ],
+        books: [
+          {
+            title: 'Music: A Mathematical Offering',
+            author: 'Dave Benson',
+            year: 2007,
+            url: '',
+            why: 'Rhythm and meter treated as patterns in time, by a mathematician who is also a working musician.',
+          },
+          {
+            title: 'This Is Your Brain on Music',
+            author: 'Daniel J. Levitin',
+            year: 2006,
+            url: '',
+            why: 'How the brain finds the beat, and why rhythm may be the oldest layer of musical perception.',
+          },
+          {
+            title: 'Musicophilia: Tales of Music and the Brain',
+            author: 'Oliver Sacks',
+            year: 2007,
+            url: '',
+            why: 'Case studies of rhythm, memory, and movement, including patients who keep time when little else remains.',
+          },
+        ],
+        articles: [
+          {
+            title: 'Rhythm',
+            source: 'Wikipedia',
+            url: 'https://en.wikipedia.org/wiki/Rhythm',
+            why: 'Definitions of rhythm, meter, and tempo, and how the terms differ in music theory.',
+            year: null,
+          },
+          {
+            title: 'Simple Meter and Time Signatures',
+            source: 'Open Music Theory',
+            url: 'https://viva.pressbooks.pub/openmusictheory/chapter/simple-meter-and-time-signatures/',
+            why: 'A free textbook chapter with listening examples, conducting patterns, and counting practice.',
+            year: null,
+          },
+        ],
+        courses: [
+          {
+            title: 'Fundamentals of Music Theory',
+            provider: 'The University of Edinburgh (Coursera)',
+            url: 'https://www.coursera.org/learn/edinburgh-music-theory',
+            free: true,
+            why: 'Edinburgh\'s beginner course covers rhythm and meter alongside notation, scales, and basic harmony.',
+          },
+        ],
+      },
+
+      seeAlso: ['notation', 'harmony', 'counterpoint'],
+      prereqs: ['notation'],
+      leadsTo: ['harmony'],
+
+      chapterActivity: 'A listening log for one week: for every song you hear, write down the meter, the tempo in beats per minute, and one syncopation you can clap.',
+
+      sources: [
+        'https://en.wikipedia.org/wiki/Rhythm',
+        'https://viva.pressbooks.pub/openmusictheory/chapter/simple-meter-and-time-signatures/',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    instruments: {
+      id: 'instruments',
+      name: 'Instruments & Ensembles',
+      level: 'Beginner',
+      dek: 'From bone flutes to the modern orchestra: how instruments are classified, grouped, and made to sing together.',
+      readTime: '6 min',
+
+      sections: ['The oldest instruments', 'Sorting by sound: Hornbostel-Sachs', 'The families of the orchestra', 'Ensembles: putting instruments together'],
+      body: [
+        { type: 'lead', text: 'The oldest musical instruments we know are flutes made of bone. Flutes from the caves of the Swabian Alps, carved from bone and ivory, are dated to between 30,000 and 37,000 years ago, and bone flutes from Jiahu in China are 7,000 to 9,000 years old. Before writing, before farming had spread far, people were already hollowing out sound. Every orchestra since is a footnote to that impulse.' },
+        { type: 'h2', text: 'The oldest instruments' },
+        { type: 'p', text: 'What survives of early instruments is what was made of durable stuff: bone, ivory, clay, bronze, stone. Drums and rattles are surely older than any flute, but skin and wood rot away, so the record begins with the flutes. The academic study of musical instruments is called organology, and its first problem is the one the cave flutes pose: how do you file thousands of sound makers, from every culture on earth, in a single system that a museum, a scholar, or a curious listener can use?' },
+        { type: 'h2', text: 'Sorting by sound: Hornbostel-Sachs' },
+        { type: 'p', text: 'The standard answer is the Hornbostel-Sachs system, devised by Erich Moritz von Hornbostel and Curt Sachs and first published in the Zeitschrift für Ethnologie in 1914. It sorts not by material or by culture but by the means by which an instrument produces sound. Its five top level classes begin with idiophones, whose own solid body vibrates, and membranophones, which sound through a stretched membrane, and the full system runs to more than 300 basic categories. A scheme built on an earlier four category system by Victor Mahillon now organizes everything from hand drums to synthesizers.' },
+        { type: 'h2', text: 'The families of the orchestra' },
+        { type: 'p', text: 'Working musicians use a homelier sorting: the four families of the orchestra. Strings (violin, viola, cello, double bass, and often the harp) sing with bowed or plucked strings and form the foundation. Woodwinds (flute, oboe, clarinet, bassoon) speak through reeds or an edge of air. Brass (trumpet, horn, trombone, tuba) sound through the player\'s vibrating lips in metal tubing. Percussion is struck, shaken, or scraped, pitched like the timpani or unpitched like the cymbals. The families agree with Hornbostel-Sachs more often than not: the orchestra is a sound sorted crowd.' },
+        { type: 'callout', text: 'Classify a piano and the systems argue politely. Hornbostel-Sachs files it among the chordophones, a struck string instrument, while the orchestra seats it wherever it was invited: soloist, guest, or one player orchestra.' },
+        { type: 'h2', text: 'Ensembles: putting instruments together' },
+        { type: 'p', text: 'An ensemble is instruments in conversation. A string quartet sets two violins, a viola, and a cello in balance, four voices of one family running soprano to bass. A choir offers the same ladder in human voices, and the orchestral families mirror it, each stacking its members from high to low like the voices of a choir. The bone flutes of the Swabian Alps were solo instruments, one breath at a time. The history since is accumulation: more materials, more mechanisms, more players in the room, until a hundred musicians can be filed, sorted, and seated as a single instrument with a hundred voices. The impulse never changed. It is still a person, a hollowed thing, and a sound worth sharing.' },
+      ],
+
+      keyTerms: ['organology', 'Hornbostel-Sachs', 'idiophone', 'membranophone', 'chordophone', 'aerophone', 'ensemble', 'string quartet'],
+      resources: {
+        videos: [
+          {
+            id: 'jxKBBoX8Dmo',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=jxKBBoX8Dmo',
+            title: 'Meet the Orchestra! 21 Instruments and Their Sounds',
+            channel: 'Felt & Fable Studio',
+            duration: 'variable',
+            why: 'All four families introduced with short sound examples, strings to percussion, in a felt animated world.',
+          },
+          {
+            id: 'd-BZ2j22bjk',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=d-BZ2j22bjk',
+            title: 'Meet the String Family: The Heart of the Orchestra',
+            channel: 'Rick Steves',
+            duration: 'variable',
+            why: 'Rick Steves and the Cincinnati Symphony Youth Orchestra introduce the violin, viola, cello, and bass up close.',
+          },
+          {
+            id: 'spU5vwuqypM',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=spU5vwuqypM',
+            title: 'Grade 4 Music Theory: Orchestral Instruments and Families',
+            channel: 'YouTube',
+            duration: 'variable',
+            why: 'A systematic tour of the standard orchestral instruments, their ranges, clefs, and transpositions.',
+          },
+        ],
+        books: [
+          {
+            title: 'The History of Musical Instruments',
+            author: 'Curt Sachs',
+            year: 1940,
+            url: '',
+            why: 'Curt Sachs, one of the two scholars behind this lesson\'s classification, surveys instruments from prehistory to the modern orchestra.',
+          },
+          {
+            title: 'Musical Instruments: A Comprehensive Dictionary',
+            author: 'Sibyl Marcuse',
+            year: 1964,
+            url: '',
+            why: 'The standard English language dictionary of instruments: names, histories, and construction.',
+          },
+          {
+            title: 'Origins and Development of Musical Instruments',
+            author: 'Jeremy Montagu',
+            year: 2007,
+            url: '',
+            why: 'A concise, expert account of how the instrument families emerged and spread around the world.',
+          },
+        ],
+        articles: [
+          {
+            title: 'Musical instrument',
+            source: 'Wikipedia',
+            url: 'https://en.wikipedia.org/wiki/Musical_instrument',
+            why: 'History and classification of instruments, from the Swabian bone flutes onward.',
+            year: null,
+          },
+          {
+            title: 'Hornbostel-Sachs',
+            source: 'Wikipedia',
+            url: 'https://en.wikipedia.org/wiki/Hornbostel%E2%80%93Sachs',
+            why: 'The classification system in full: its five top level classes, its 300 plus categories, and its history since 1914.',
+            year: null,
+          },
+        ],
+        courses: [
+          {
+            title: 'Fundamentals of Music Theory',
+            provider: 'The University of Edinburgh (Coursera)',
+            url: 'https://www.coursera.org/learn/edinburgh-music-theory',
+            free: true,
+            why: 'Edinburgh\'s beginner course grounds the listening: notation, rhythm, and harmony for the instruments you are learning to hear.',
+          },
+        ],
+      },
+
+      seeAlso: ['notation', 'classical', 'harmony'],
+      prereqs: ['notation'],
+      leadsTo: ['classical'],
+
+      chapterActivity: 'A concert exercise: at any orchestral performance, for each movement, name the family carrying the melody before you look at the stage.',
+
+      sources: [
+        'https://en.wikipedia.org/wiki/Musical_instrument',
+        'https://en.wikipedia.org/wiki/Hornbostel%E2%80%93Sachs',
+        'https://www.youtube.com/watch?v=jxKBBoX8Dmo',
+      ],
+      verifiedAt: '2026-10-15',
     },
 
   },

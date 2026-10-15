@@ -1,17 +1,17 @@
 // content/astronomy.js
 // Owned by batch: B02-hard-sciences
-// Last updated: 2026-04-22 by BATCH B02-hard-sciences
+// Last updated: 2026-10-15 by SPRINT W1
 //
 // Topics this subject must cover (from data.js):
-//   Solar & Stellar: solar, stars, galaxies
-//   Cosmos:          bigbang, blackholes
+//   Solar & Stellar: solar, stars, galaxies, moon, telescopes
+//   Cosmos:          bigbang, blackholes, spaceflight
 
 window.CONTENT = window.CONTENT || {};
 window.CONTENT.astronomy = {
   subjectId: 'astronomy',
   version: 1,
-  lastUpdated: '2026-04-22',
-  curator: 'BATCH B02-hard-sciences',
+  lastUpdated: '2026-10-15',
+  curator: 'SPRINT W1',
   topics: {
 
     solar: {
@@ -772,6 +772,351 @@ window.CONTENT.astronomy = {
         'https://www.eso.org/public/news/eso1907/',
       ],
       verifiedAt: '2026-04-22',
+    },
+
+    moon: {
+      id: 'moon',
+      name: 'The Moon',
+      level: 'Beginner',
+      dek: 'A quarter as wide as Earth, close enough to raise tides and preserve a record Earth erases.',
+      readTime: '9 min',
+
+      sections: ['A collision, preserved', 'The same face, changing light', 'Highlands, maria, and craters', 'Water at the poles'],
+      body: [
+        { type: 'lead', text: 'On a clear night the Moon looks painted: bright high ground, dark plains, one round face that never turns away. Those dark plains are not seas. They are basins filled with old lava, and the face is not a picture but a record, kept for billions of years because almost nothing up there erases it.' },
+        { type: 'h2', text: 'A collision, preserved' },
+        { type: 'p', text: 'The leading account, in NASA\'s summary, is a collision. About 4.5 billion years ago a Mars sized body struck the young Earth, and debris from both bodies gathered into the Moon. The new Moon was molten. Within about 100 million years most of its global magma ocean had crystallized, with lighter rock floating up to form the crust. The Moon still has the layered plan of that cooling: a core, a mantle, and a crust, proportionally with a smaller core than Earth\'s.' },
+        { type: 'h2', text: 'The same face, changing light' },
+        { type: 'p', text: 'The Moon turns at the same rate that it circles Earth, a match called synchronous rotation, so the same hemisphere always faces us. One full circuit takes 27 Earth days, though from our moving planet the cycle of phases appears to take 29 days. Phases are only changing light. At full moon the side facing us is lit by the Sun; at new moon that side is in its own night, while the far side has the sunlight.' },
+        { type: 'h2', text: 'Highlands, maria, and craters' },
+        { type: 'p', text: 'The light areas are the highlands. The dark maria, Latin for seas, are impact basins that filled with lava between 4.2 and 1.2 billion years ago, so the two tones are rocks of different ages. With almost no atmosphere to stop them, asteroids and comets have left craters everywhere: Tycho alone is more than 85 kilometers wide. Gravity at the surface is one sixth of Earth\'s, which is why Apollo walkers seem to bounce, and noon reaches about 127 degrees Celsius while night falls to about minus 173.' },
+        { type: 'h2', text: 'Water at the poles' },
+        { type: 'p', text: 'The Moon was long treated as dry. Missions including India\'s Chandrayaan 1, which found hydroxyl spread across the surface in 2008, changed that. NASA reports high concentrations of water ice in permanently shadowed polar craters, and in October 2020 its SOFIA observatory confirmed water on a sunlit surface for the first time, in Clavius Crater. The ice matters practically: a future crew could drink it, breathe part of it, or split it into fuel.' },
+        { type: 'p', text: 'So the painted face is an archive with supplies in its cold corners: a collision product, 384,400 kilometers away on average, that kept the receipts Earth weathered away and may yet help people leave again.' },
+        { type: 'callout', text: 'The Moon is an average of 384,400 kilometers away. Thirty Earth sized planets could fit in the gap, and it widens by about an inch a year.' },
+      ],
+
+      keyTerms: ['synchronous rotation', 'maria', 'highlands', 'regolith', 'phase', 'magma ocean', 'crater'],
+
+      resources: {
+        videos: [
+          {
+            id: 'mCzchPx3yF8',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=mCzchPx3yF8',
+            title: 'The Moon: Crash Course Astronomy #12',
+            channel: 'Crash Course',
+            duration: 'variable',
+            why: 'Phil Plait tours the surface, the inside, and the giant impact account of how the Moon formed.',
+          },
+          {
+            id: 'AQ5vty8f9Xc',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=AQ5vty8f9Xc',
+            title: 'Moon Phases: Crash Course Astronomy #4',
+            channel: 'Crash Course',
+            duration: 'variable',
+            why: 'The cause and the names of the phases, plus earthshine, in one short episode.',
+          },
+          {
+            id: 'PRgua7xceDA',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=PRgua7xceDA',
+            title: 'Eclipses: Crash Course Astronomy #5',
+            channel: 'Crash Course',
+            duration: 'variable',
+            why: 'What the Moon\'s shadow and Earth\'s shadow do, and why totality is worth traveling for.',
+          },
+        ],
+        books: [
+          {
+            title: 'A Man on the Moon',
+            author: 'Andrew Chaikin',
+            year: 1994,
+            url: '',
+            why: 'The standard narrative of Apollo, built from interviews with the astronauts themselves.',
+          },
+          {
+            title: 'Of a Fire on the Moon',
+            author: 'Norman Mailer',
+            year: 1970,
+            url: '',
+            why: 'A novelist sent to cover Apollo 11, uneven and vivid, and a period piece in its own right.',
+          },
+          {
+            title: 'The Moon: A History for the Future',
+            author: 'Oliver Morton',
+            year: 2019,
+            url: '',
+            why: 'The modern case for the Moon, scientific, economic, and imaginative, in one short book.',
+          },
+        ],
+        articles: [
+          {
+            title: 'Earth\'s Moon',
+            source: 'NASA Science',
+            url: 'https://science.nasa.gov/moon/',
+            why: 'NASA\'s hub for lunar science, its layers, and the Artemis program.',
+            year: null,
+          },
+          {
+            title: 'In Depth: Earth\'s Moon',
+            source: 'NASA Solar System Exploration',
+            url: 'https://solarsystem.nasa.gov/moons/earths-moon/in-depth.amp',
+            why: 'The fact sheet behind this lesson: size, distance, structure, formation, surface, and water.',
+            year: null,
+          },
+        ],
+        courses: [
+          {
+            title: 'Crash Course Astronomy (full series)',
+            provider: 'Crash Course / PBS',
+            url: 'https://www.youtube.com/playlist?list=PL8dPuuaLjXtPAJr1ysd5yGIyiSFuh0mIL',
+            free: true,
+            why: 'Episodes 4, 5, and 12 cover phases, eclipses, and the Moon itself. Free.',
+          },
+        ],
+      },
+
+      seeAlso: ['solar', 'stars', 'bigbang'],
+      prereqs: ['solar'],
+      leadsTo: ['stars'],
+
+      sources: [
+        'https://science.nasa.gov/moon/',
+        'https://solarsystem.nasa.gov/moons/earths-moon/in-depth.amp',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    spaceflight: {
+      id: 'spaceflight',
+      name: 'Human Spaceflight',
+      level: 'Intermediate',
+      dek: 'From a 108 minute first orbit to a station occupied since 2000, the short history of leaving Earth.',
+      readTime: '10 min',
+
+      sections: ['108 minutes to orbit', 'The Moon in eight years', 'Living off the planet', 'The cost, written plainly'],
+      body: [
+        { type: 'lead', text: 'On October 4, 1957, radios around the world picked up a beep from orbit: Sputnik 1, the first artificial satellite, built by the Soviet Union. No person was aboard. The beep said the hard part, reaching orbit at all, could now be done, and it started a race to put a person where the satellite had been.' },
+        { type: 'h2', text: '108 minutes to orbit' },
+        { type: 'p', text: 'Yuri Gagarin won that race on April 12, 1961, orbiting Earth once in a flight of 108 minutes. Alan Shepard followed on May 5, 1961 with a suborbital flight of 15 minutes and 22 seconds, and John Glenn became the first American to orbit on February 20, 1962, circling three times. In June 1963 Valentina Tereshkova became the first woman in space and completed 48 orbits, a reminder that the early records fell in bunches, within a few years.' },
+        { type: 'h2', text: 'The Moon in eight years' },
+        { type: 'p', text: 'President Kennedy had set the goal in May 1961: a person on the Moon, returned safely, before the decade ended. Apollo 8 orbited the Moon in December 1968. On July 20, 1969, Neil Armstrong and Buzz Aldrin landed, spending about two and a half hours walking on the surface while Michael Collins waited in orbit. The program\'s last and longest stay came with Apollo 17 in December 1972, at 74 hours and 59 minutes on the surface.' },
+        { type: 'h2', text: 'Living off the planet' },
+        { type: 'p', text: 'After Apollo, the work moved closer to home. Skylab, the first American orbiting laboratory, launched in 1973, and in July 1975 American astronauts and Soviet cosmonauts docked together in the Apollo Soyuz mission. The space shuttle Columbia first flew on April 12, 1981, the first winged spaceship to orbit and land like an airplane, and the fleet flew until July 21, 2011. The International Space Station took its first crew on November 2, 2000, and people have lived there continuously since, about 250 miles up, circling at about five miles a second.' },
+        { type: 'h2', text: 'The cost, written plainly' },
+        { type: 'p', text: 'The record includes the losses, and any honest history keeps them in the main text. Three Apollo 1 astronauts died in a fire during a ground test on January 27, 1967. The shuttle Challenger broke apart 73 seconds after launch on January 28, 1986, killing its crew of seven, and Columbia broke apart on return on February 1, 2003, also with seven aboard. Each disaster stopped the program that suffered it, and each investigation changed how the next vehicles were built and flown.' },
+        { type: 'p', text: 'The beep of 1957 now has a permanent address: a station that has not been empty since November 2000, kept by crews who treat living off the planet as a job rather than a stunt.' },
+        { type: 'callout', text: 'The International Space Station took its first crew on November 2, 2000. It has been occupied continuously since that day.' },
+      ],
+
+      keyTerms: ['orbit', 'suborbital', 'cosmonaut', 'astronaut', 'docking', 'space station', 'extravehicular activity', 'reentry'],
+
+      resources: {
+        videos: [
+          {
+            id: 'S9HdPi9Ikhk',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=S9HdPi9Ikhk',
+            title: 'Restored Apollo 11 Moonwalk: Original NASA EVA Mission Video',
+            channel: 'NASA',
+            duration: 'variable',
+            why: 'The original mission video as aired in July 1969, restored. The primary source, not a retelling.',
+          },
+          {
+            id: 'DAOIY_sRNeg',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=DAOIY_sRNeg',
+            title: 'The Evolution of Space Travel: From Sputnik to Mars',
+            channel: 'The Evolution Series',
+            duration: 'variable',
+            why: 'A sourced timeline from Sputnik and Gagarin to the shuttle, the station, and reusable rockets.',
+          },
+          {
+            id: 'c2pvhYQnraY',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=c2pvhYQnraY',
+            title: 'Apollo 11, First Ever Moon Landing (Official NASA Archive, 1969)',
+            channel: 'Global Archive Vault',
+            duration: 'variable',
+            why: 'Public domain NASA archive footage of the landing and the first steps, presented as recorded.',
+          },
+        ],
+        books: [
+          {
+            title: 'Failure Is Not an Option',
+            author: 'Gene Kranz',
+            year: 2000,
+            url: '',
+            why: 'Mission Control\'s own account, by the flight director most associated with Apollo 13.',
+          },
+          {
+            title: 'An Astronaut\'s Guide to Life on Earth',
+            author: 'Chris Hadfield',
+            year: 2013,
+            url: '',
+            why: 'A station commander on the working habits that long missions actually require.',
+          },
+          {
+            title: 'Rocket Men',
+            author: 'Robert Kurson',
+            year: 2018,
+            url: '',
+            why: 'Apollo 8, the first crewed flight around the Moon, told as the gamble it was.',
+          },
+        ],
+        articles: [
+          {
+            title: 'Key dates in history of space exploration',
+            source: 'Phys.org (Associated Press)',
+            url: 'https://phys.org/news/2012-08-key-dates-history-space-exploration.html',
+            why: 'The dated spine of this lesson, from Sputnik in 1957 to the last shuttle flight in 2011.',
+            year: 2012,
+          },
+          {
+            title: 'NASA marks 15 years of space station occupation',
+            source: 'Spaceflight Now',
+            url: 'https://spaceflightnow.com/2015/11/02/nasa-marks-15-years-of-space-station-occupation/',
+            why: 'What continuous occupation since November 2, 2000 took to build and keep supplied.',
+            year: 2015,
+          },
+        ],
+        courses: [
+          {
+            title: 'Crash Course Astronomy (full series)',
+            provider: 'Crash Course / PBS',
+            url: 'https://www.youtube.com/playlist?list=PL8dPuuaLjXtPAJr1ysd5yGIyiSFuh0mIL',
+            free: true,
+            why: 'The astronomy background for the missions, in the same free series. Episodes 9 to 23 cover the worlds the crews visited or passed.',
+          },
+        ],
+      },
+
+      seeAlso: ['solar', 'bigbang', 'blackholes'],
+      prereqs: ['solar'],
+      leadsTo: ['galaxies'],
+
+      sources: [
+        'https://phys.org/news/2012-08-key-dates-history-space-exploration.html',
+        'https://spaceflightnow.com/2015/11/02/nasa-marks-15-years-of-space-station-occupation/',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    telescopes: {
+      id: 'telescopes',
+      name: 'Telescopes',
+      level: 'Beginner',
+      dek: 'Lenses, mirrors, and mirrors in orbit: how a tube for seeing far became astronomy\'s main instrument.',
+      readTime: '9 min',
+
+      sections: ['A patent in 1608', 'Lenses, then mirrors', 'Bigger glass, higher ground', 'Telescopes leave the ground'],
+      body: [
+        { type: 'lead', text: 'The first telescope on record was not built for the sky. In 1608, in the Netherlands, the eyeglass maker Hans Lippershey applied for a patent on an instrument for seeing distant things as if they were nearby. His design magnified only about three times. Within a year the news had crossed Europe, and the instrument had been pointed up.' },
+        { type: 'h2', text: 'A patent in 1608' },
+        { type: 'p', text: 'Galileo heard of the Dutch device in 1609, built his own, and improved it fast, reaching about 23 times magnification with an objective lens under four centimeters across. With it, beginning in late 1609, he saw mountains on the Moon, four satellites circling Jupiter, spots on the Sun, and the phases of Venus. None of these sights needed a large instrument. They needed the instrument aimed at the sky, and an observer willing to publish what it showed.' },
+        { type: 'h2', text: 'Lenses, then mirrors' },
+        { type: 'p', text: 'Early telescopes used lenses, and bent light by refraction. A lens objective collects light the way a wide bucket collects rain: the bigger the objective, the more light, and the finer the detail it can separate. Lenses are hard to make large and can split colors. Isaac Newton answered with a different geometry in 1668, building the first reflector: a curved mirror to gather the light, and a small flat mirror to send it to an eyepiece at the side. Most large telescopes since have been reflectors.' },
+        { type: 'h2', text: 'Bigger glass, higher ground' },
+        { type: 'p', text: 'The refractor reached its practical peak with the one meter telescope at Yerkes Observatory in 1897, and then mirrors took over. The 100 inch Hooker telescope at Mount Wilson followed in 1917 and the 200 inch Hale telescope in 1948. Computer controlled mounts and active optics, which adjust a mirror\'s shape as it moves, opened the next size class: the 10 meter Keck telescopes of 1993 and 1996, and a generation of 8 meter instruments on high, dry sites in Hawaii and Chile.' },
+        { type: 'h2', text: 'Telescopes leave the ground' },
+        { type: 'p', text: 'The twentieth century also widened the meaning of the word. Radio astronomy began with Karl Jansky\'s accidental discovery of an astronomical radio source in 1931, and telescopes were built for wavelengths from radio to gamma rays. Space observatories after 1960 reached bands the air blocks, including X rays and long wavelength infrared. NASA\'s comparison makes the gain concrete: Hubble\'s mirror is 2.4 meters across, while Webb\'s is 6.6 meters, with more than five times the collecting area, so it gathers light faster and sees dimmer, more distant objects in finer detail.' },
+        { type: 'p', text: 'A three power spyglass became, in four centuries, an instrument that had to be folded to fit its rocket: the same idea, a surface shaped to collect light, carried as far as it will go.' },
+        { type: 'callout', text: 'Magnification is the least of a telescope. Its real work is collecting light and separating close details, and both improve with the size of the objective.' },
+      ],
+
+      keyTerms: ['refractor', 'reflector', 'objective', 'resolution', 'aperture', 'active optics', 'radio telescope', 'infrared'],
+
+      resources: {
+        videos: [
+          {
+            id: 'mYhy7eaazIk',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=mYhy7eaazIk',
+            title: 'Telescopes: Crash Course Astronomy #6',
+            channel: 'Crash Course',
+            duration: 'variable',
+            why: 'How telescopes work, refractors against reflectors, and honest buying advice.',
+          },
+          {
+            id: '0rHUDWjR5gg',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=0rHUDWjR5gg',
+            title: 'Introduction to Astronomy: Crash Course Astronomy #1',
+            channel: 'Crash Course',
+            duration: 'variable',
+            why: 'The revolutions in astronomy that instruments made possible, in series order.',
+          },
+          {
+            id: 'L-Wtlev6suc',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=L-Wtlev6suc',
+            title: 'Naked Eye Observations: Crash Course Astronomy #2',
+            channel: 'Crash Course',
+            duration: 'variable',
+            why: 'What the unaided eye can already do, which is the baseline every telescope extends.',
+          },
+        ],
+        books: [
+          {
+            title: 'The Glass Universe',
+            author: 'Dava Sobel',
+            year: 2016,
+            url: '',
+            why: 'The Harvard Observatory computers, the women whose glass plate work built modern stellar astronomy.',
+          },
+          {
+            title: 'Cosmos',
+            author: 'Carl Sagan',
+            year: 1980,
+            url: '',
+            why: 'Still a good first tour of what the instruments of each era revealed.',
+          },
+          {
+            title: 'The Telescope: Its History, Technology, and Future',
+            author: 'Geoff Andersen',
+            year: 2007,
+            url: '',
+            why: 'A working optical physicist on how telescopes are designed, built, and chosen.',
+          },
+        ],
+        articles: [
+          {
+            title: 'History of the telescope',
+            source: 'Wikipedia',
+            url: 'https://en.wikipedia.org/wiki/History_of_the_telescope',
+            why: 'The dated record behind this lesson, from the 1608 patent to Keck and the space observatories.',
+            year: null,
+          },
+          {
+            title: 'Hubble-Webb Mirror Comparison',
+            source: 'NASA Science',
+            url: 'http://science.nasa.gov/asset/webb/hubble-webb-mirror-comparison/',
+            why: 'NASA\'s own side by side: 2.4 meters against 6.6, and why collecting area is the point.',
+            year: null,
+          },
+        ],
+        courses: [
+          {
+            title: 'Crash Course Astronomy (full series)',
+            provider: 'Crash Course / PBS',
+            url: 'https://www.youtube.com/playlist?list=PL8dPuuaLjXtPAJr1ysd5yGIyiSFuh0mIL',
+            free: true,
+            why: 'Episode 6 is the telescope lesson; episodes 1 and 2 set up what there is to observe. Free.',
+          },
+        ],
+      },
+
+      seeAlso: ['solar', 'stars', 'galaxies'],
+      prereqs: [],
+      leadsTo: ['stars', 'galaxies'],
+
+      sources: [
+        'https://en.wikipedia.org/wiki/History_of_the_telescope',
+        'http://science.nasa.gov/asset/webb/hubble-webb-mirror-comparison/',
+      ],
+      verifiedAt: '2026-10-15',
     },
 
   },

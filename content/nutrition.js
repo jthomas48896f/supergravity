@@ -1,15 +1,15 @@
 // content/nutrition.js
 // Batch: B11-life-skills-I
-// Last updated: 2026-04-23 by BATCH B11-life-skills-I
+// Last updated: 2026-10-15 by SPRINT W1
 //
-// Topics from data.js: macros, micronutrients
+// Topics from data.js: macros, micronutrients, balanced_diet, hydration
 
 window.CONTENT = window.CONTENT || {};
 window.CONTENT.nutrition = {
   subjectId: 'nutrition',
   version: 1,
-  lastUpdated: '2026-04-23',
-  curator: 'BATCH B11-life-skills-I',
+  lastUpdated: '2026-10-15',
+  curator: 'SPRINT W1',
   topics: {
 
     macros: {
@@ -284,6 +284,238 @@ window.CONTENT.nutrition = {
         'https://ods.od.nih.gov/factsheets/list-all/',
       ],
       verifiedAt: '2026-04-23',
+    },
+
+    balanced_diet: {
+      id: 'balanced_diet',
+      name: 'Eating a Balanced Diet',
+      level: 'Beginner',
+      dek: 'Half the plate in vegetables and fruit, the rest in grains and protein: balance you can see.',
+      readTime: '6 min',
+
+      sections: ['What balanced means', 'Building the plate', 'Variety and moderation', 'Balance over a week'],
+      body: [
+        { type: 'lead', text: 'A dinner plate is a pie chart you can eat. The Healthy Eating Plate, drawn by nutrition experts at Harvard, divides it into three regions: vegetables and fruits fill half the plate, whole grains fill one quarter, and protein fills the last quarter. No counting, no weighing. The plate itself does the arithmetic, at every meal, in any kitchen.' },
+        { type: 'h2', text: 'What balanced means' },
+        { type: 'p', text: 'A balanced diet is not a list of forbidden foods. International guidance describes a healthy diet with four principles: adequate, diverse, balanced, and moderate. Adequate means enough of the nutrients the body needs. Diverse means many different foods, since no single food carries everything. Balanced means the proportions among food groups stay roughly right. Moderate means not too much of the things that crowd out the rest. Reference summaries of World Health Organization guidance suggest at least 400 grams of fruit and vegetables a day, free sugars under 10 percent of energy intake, salt under 5 grams a day, and fat at no more than 30 percent of total energy.' },
+        { type: 'h2', text: 'Building the plate' },
+        { type: 'p', text: 'The Harvard plate adds quality rules to the proportions. Vegetables and fruits should be varied and colorful, and potatoes pointedly do not count as a vegetable on this plate, because of their effect on blood sugar. The grain quarter should be whole grains, such as whole wheat bread, brown rice, oats, and quinoa, which keep their fiber and nutrients. The protein quarter favors fish, poultry, beans, and nuts, with red meat limited and processed meats largely avoided. Healthy plant oils, such as olive oil, belong in the cooking and on the salad, in moderation. To drink, the plate says water, coffee, or tea, and it tells you to skip sugary drinks.' },
+        { type: 'h2', text: 'Variety and moderation' },
+        { type: 'p', text: 'Why does variety matter so much? Because nutrients are distributed unevenly across foods, and a rotating cast covers gaps that any single menu leaves open. A dietitian\'s version of the same idea sorts food into groups: fruits and vegetables; grains and cereals for energy; protein rich foods for growth and repair; and milk and dairy, nuts, and seeds. Eat across the groups, in proportions suited to your own needs, and balance takes care of itself most days.' },
+        { type: 'callout', text: 'Balance is a property of the whole diet, not of any single meal. One celebratory dinner does not unbalance a diet, and one virtuous salad does not balance it.' },
+        { type: 'h2', text: 'Balance over a week' },
+        { type: 'p', text: 'Judged across a week rather than a meal, balance becomes forgiving. A day heavy on grains can lean on vegetables the next. A feast day can sit inside an ordinary week without breaking anything, because the proportions the plate teaches are averages, not commandments. That is the quiet genius of the plate as a teacher: it turns an abstract science into a picture you can hold in your head at the market and at the stove. Half vegetables and fruit, a quarter of grains, a quarter of protein, and water in the glass.' },
+      ],
+
+      keyTerms: ['balanced diet', 'food groups', 'whole grains', 'portion', 'nutrient density', 'free sugars', 'variety', 'moderation'],
+      resources: {
+        videos: [
+          {
+            id: 'IL7ZH9baqyE',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=IL7ZH9baqyE',
+            title: 'Healthy Plate, illustrating balanced portions of veggies, fruits, grains, proteins, and healthy oils',
+            channel: 'YouTube',
+            duration: 'variable',
+            why: 'A walk through the Healthy Eating Plate section by section, with the reasoning behind each proportion.',
+          },
+          {
+            id: 'iqIvFFu4GiY',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=iqIvFFu4GiY',
+            title: '5 Food Groups for a Healthy Life',
+            channel: 'Aakash Healthcare',
+            duration: 'variable',
+            why: 'Dietitian Ginni Kalra explains the five food groups and how to build everyday meals from them.',
+          },
+          {
+            id: 'yrBQDvAmIvU',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=yrBQDvAmIvU',
+            title: 'Balanced Diet is the Foundation of Good Health',
+            channel: 'YouTube',
+            duration: 'variable',
+            why: 'An Eatwell style tour of the food groups, from fruit and vegetables to oils and spreads.',
+          },
+        ],
+        books: [
+          {
+            title: 'In Defense of Food: An Eater\'s Manifesto',
+            author: 'Michael Pollan',
+            year: 2008,
+            url: '',
+            why: 'The case for eating food, not too much, mostly plants, and for judging diets by whole foods rather than nutrients.',
+          },
+          {
+            title: 'Food Rules: An Eater\'s Manual',
+            author: 'Michael Pollan',
+            year: 2009,
+            url: '',
+            why: 'Sixty four short rules for eating well, gathered from doctors, dietitians, and grandmothers. A pocket companion to this lesson.',
+          },
+          {
+            title: 'How Not to Die',
+            author: 'Michael Greger',
+            year: 2015,
+            url: '',
+            why: 'A physician\'s tour of the evidence on diet and the leading causes of death, with the studies cited chapter by chapter.',
+          },
+        ],
+        articles: [
+          {
+            title: 'Healthy Eating Plate',
+            source: 'Harvard T.H. Chan School of Public Health',
+            url: 'https://nutritionsource.hsph.harvard.edu/healthy-eating-plate/',
+            why: 'The plate itself, with Harvard\'s guidance on each section, on drinks, and on healthy oils.',
+            year: null,
+          },
+          {
+            title: 'Healthy diet',
+            source: 'Wikipedia',
+            url: 'https://en.wikipedia.org/wiki/Healthy_diet',
+            why: 'A survey of international dietary guidance: the FAO and WHO principles and the headline numbers.',
+            year: null,
+          },
+        ],
+        courses: [
+          {
+            title: 'Stanford Introduction to Food and Health',
+            provider: 'Stanford Online (Coursera)',
+            url: 'https://www.coursera.org/learn/food-and-health',
+            free: true,
+            why: 'Maya Adam\'s beginner friendly course on making sensible food choices amid modern food culture.',
+          },
+        ],
+      },
+
+      seeAlso: ['macros', 'micronutrients', 'public_health'],
+      prereqs: ['macros'],
+      leadsTo: [],
+
+      chapterActivity: 'A market exercise: fill a basket that matches the plate, half produce, a quarter grains, a quarter protein, then cook it together.',
+
+      sources: [
+        'https://nutritionsource.hsph.harvard.edu/healthy-eating-plate/',
+        'https://en.wikipedia.org/wiki/Healthy_diet',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    hydration: {
+      id: 'hydration',
+      name: 'Water & Hydration',
+      level: 'Beginner',
+      dek: 'The body runs on water: what it does, how much you need, and how thirst keeps accounts.',
+      readTime: '6 min',
+
+      sections: ['The body\'s water', 'How much is enough', 'Losing water: dehydration', 'Plain water, safe water'],
+      body: [
+        { type: 'lead', text: 'Set a glass of water on the table and consider that the person reaching for it is, by weight, between 55 and 60 percent water. It is the medium every cell lives in, the solvent of the blood, the coolant of the skin. The body keeps no reservoir of it. What leaves in breath, sweat, and urine must be replaced, day after day, which is why the oldest dietary advice in the world is also the simplest: drink.' },
+        { type: 'h2', text: 'The body\'s water' },
+        { type: 'p', text: 'Water has two great jobs. The first is transport and chemistry: nutrients, gases, and wastes move dissolved in it, and the reactions of metabolism happen in it. The second is temperature: sweating spends water to carry heat away. The kidneys regulate the total with help from a hormone called ADH. When water runs low, ADH rises and aquaporin channels in the kidney pull water back into the body instead of letting it leave as urine. Food quietly helps. Roughly 22 percent of the water Americans take in comes from food rather than drink, one reason fruit, vegetables, and soups all count toward the day\'s total.' },
+        { type: 'h2', text: 'How much is enough' },
+        { type: 'p', text: 'Britain\'s Eatwell Guide gives the most usable answer in ordinary language: aim to drink 6 to 8 cups or glasses of fluid a day. Water is the first choice, but the guide counts lower fat milk and lower sugar drinks, including tea and coffee, toward the total. The simplest gauge is built in. Urine should be a clear pale yellow. Darker urine, thirst, and a dry mouth are the body\'s early notices that the account is running low.' },
+        { type: 'callout', text: 'Coffee and tea count. The Eatwell Guide counts tea and coffee toward the daily 6 to 8 cups, along with water and lower fat milk.' },
+        { type: 'h2', text: 'Losing water: dehydration' },
+        { type: 'p', text: 'Dehydration is a lack of total body water severe enough to disrupt the metabolic processes that depend on it. Most people tolerate a decrease of 3 to 4 percent of total body water without difficulty or noticeable harm. A decrease of 5 to 8 percent can cause fatigue and dizziness. Beyond that the stakes climb quickly, because blood volume, temperature control, and the kidneys are all drawing on the same shrinking supply. The lesson of the numbers is not to fear water loss but to respect its slope: the body forgives the first few percent, and protests the next few.' },
+        { type: 'h2', text: 'Plain water, safe water' },
+        { type: 'p', text: 'For most of human history the harder problem was not drinking enough but drinking safely. Nearly 800 million people still do not have regular access to clean water, and telling safe water from contaminated water is a matter of treatment and testing, not of taste. The glass on the table closes the loop this lesson opened with: a body more than half water, refilled a few cups at a time, 6 to 8 glasses across an ordinary day.' },
+      ],
+
+      keyTerms: ['hydration', 'dehydration', 'total body water', 'ADH', 'aquaporin', 'electrolyte', 'fluid balance', 'thirst'],
+      resources: {
+        videos: [
+          {
+            id: '9iMGFqMmUFs',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=9iMGFqMmUFs',
+            title: 'What would happen if you didn\'t drink water?',
+            channel: 'TED-Ed',
+            duration: 'variable',
+            why: 'Mia Nacamulli follows water through the body and shows what falters, in order, when it runs out.',
+          },
+          {
+            id: 'G244Q4AGJ7U',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=G244Q4AGJ7U',
+            title: 'When is water safe to drink?',
+            channel: 'TED-Ed',
+            duration: 'variable',
+            why: 'Mia Nacamulli on contamination and treatment, and why clean water remains out of reach for nearly 800 million people.',
+          },
+          {
+            id: 'oGtnphj69UA',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=oGtnphj69UA',
+            title: 'HYDRATION',
+            channel: 'YouTube',
+            duration: 'variable',
+            why: 'A short primer on how the body loses and replaces water, and which everyday foods carry water with them.',
+          },
+        ],
+        books: [
+          {
+            title: 'Waterlogged: The Serious Problem of Overhydration in Endurance Sports',
+            author: 'Timothy Noakes',
+            year: 2012,
+            url: '',
+            why: 'A sports scientist argues that drinking too much can be as dangerous as too little, and traces how the advice changed.',
+          },
+          {
+            title: 'Quench',
+            author: 'Dana Cohen and Gina Bria',
+            year: 2018,
+            url: '',
+            why: 'A physician and an anthropologist on the water hidden in food, and what traditional cultures know about staying hydrated.',
+          },
+          {
+            title: 'The Big Thirst: The Secret Life and Turbulent Future of Water',
+            author: 'Charles Fishman',
+            year: 2011,
+            url: '',
+            why: 'How cities, farms, and industries get their water, and why the era of cheap, invisible water is ending.',
+          },
+        ],
+        articles: [
+          {
+            title: 'Water, drinks and hydration',
+            source: 'NHS',
+            url: 'https://www.nhs.uk/live-well/eat-well/food-guidelines-and-food-labels/water-drinks-nutrition/',
+            why: 'The Eatwell Guide page on fluids: 6 to 8 cups a day, what counts toward it, and the pale yellow test.',
+            year: null,
+          },
+          {
+            title: 'Dehydration',
+            source: 'Wikipedia',
+            url: 'https://en.wikipedia.org/wiki/Dehydration',
+            why: 'The physiology of water loss, from ADH and aquaporins to the percentages at which symptoms begin.',
+            year: null,
+          },
+        ],
+        courses: [
+          {
+            title: 'Stanford Introduction to Food and Health',
+            provider: 'Stanford Online (Coursera)',
+            url: 'https://www.coursera.org/learn/food-and-health',
+            free: true,
+            why: 'For the food half of hydration: how whole foods, many of them mostly water, fit a healthy pattern of eating and drinking.',
+          },
+        ],
+      },
+
+      seeAlso: ['macros', 'micronutrients', 'physiology'],
+      prereqs: ['macros'],
+      leadsTo: [],
+
+      chapterActivity: 'A one day fluid log: tally every cup and glass, note your urine color at midday, and compare the total with the Eatwell 6 to 8.',
+
+      sources: [
+        'https://www.nhs.uk/live-well/eat-well/food-guidelines-and-food-labels/water-drinks-nutrition/',
+        'https://en.wikipedia.org/wiki/Dehydration',
+        'https://www.youtube.com/watch?v=9iMGFqMmUFs',
+        'https://www.youtube.com/watch?v=G244Q4AGJ7U',
+      ],
+      verifiedAt: '2026-10-15',
     },
 
   },

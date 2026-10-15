@@ -1,13 +1,13 @@
 // content/history.js
 // Batch: B04-humanities
-// Last updated: 2026-04-22 by BATCH B04-humanities
+// Last updated: 2026-10-15 by SPRINT W1
 
 window.CONTENT = window.CONTENT || {};
 window.CONTENT.history = {
   subjectId: 'history',
   version: 1,
-  lastUpdated: '2026-04-22',
-  curator: 'BATCH B04-humanities',
+  lastUpdated: '2026-10-15',
+  curator: 'SPRINT W1',
   topics: {
 
     prehistory: {
@@ -1744,6 +1744,567 @@ window.CONTENT.history = {
         'https://digitalarchive.wilsoncenter.org/',
       ],
       verifiedAt: '2026-04-22',
+    },
+
+    writing: {
+      id: 'writing',
+      name: 'The Invention of Writing',
+      level: 'Beginner',
+      dek: 'How a tally of barley on wet clay became law, poetry, and memory that outlived its makers.',
+      readTime: '9 min',
+
+      sections: ['Marks before words', 'Four separate births', 'From accounts to literature', 'The alphabet shortcut'],
+      body: [
+        { type: 'lead', text: 'The first writing we know of was not a poem or a prayer. It was bookkeeping. In southern Mesopotamia, more than five thousand years ago, someone pressed a reed into wet clay to record goods, and a mark that began as a tally became, in time, a way to keep a sentence alive after the speaker was gone.' },
+        { type: 'h2', text: 'Marks before words' },
+        { type: 'p', text: 'Writing grew out of counting. Clay tokens used in agriculture and accounting are attested as early as 8000 BCE, small shapes that stood for sheep, grain, and jars of oil. Marks like these are called proto-writing: they carry information, but they cannot yet record the grammar of a spoken sentence. The step from symbol to true writing, where a later reader can rebuild the words themselves, is the step that matters.' },
+        { type: 'h2', text: 'Four separate births' },
+        { type: 'p', text: 'Writing was not invented once and handed around. Four independent inventions are most commonly recognised: in Mesopotamia between 3400 and 3100 BCE, in Egypt around 3250 BCE, in China before 1250 BCE, and in Mesoamerica before 1 CE. Sumerian cuneiform and Egyptian hieroglyphs both grew slowly out of proto-writing, and the earliest coherent texts appear around 2600 BCE. Each birth happened where farming, cities, and administration had made memory alone too small for the job.' },
+        { type: 'callout', text: 'The Indus script, used between about 2600 and 2000 BCE, is still undeciphered. Whether it records full language at all remains an open question.' },
+        { type: 'h2', text: 'From accounts to literature' },
+        { type: 'p', text: 'The first uses of writing were practical: documenting agricultural transactions and contracts. Finance, religion, government, and law followed quickly, because a written record can travel, can be checked, and can bind people who have never met. Only later did scribes turn the same marks to hymns, letters, and stories. The order is worth noticing. Literature was not the cause of writing. It was one of its later, happier accidents.' },
+        { type: 'h2', text: 'The alphabet shortcut' },
+        { type: 'p', text: 'Most early scripts needed hundreds of signs, and learning them was a profession. The first alphabetic writing appeared around 1800 BCE, developed by workers in the Sinai Peninsula who adapted ideas and letterforms from Egyptian hieroglyphs to write a West Semitic language. A short list of signs that stand for sounds, rather than whole words, made literacy cheaper to acquire. The clay tally had become, at last, a tool a child could learn, and it has never stopped travelling since.' },
+      ],
+
+      keyTerms: ['cuneiform', 'hieroglyphs', 'proto-writing', 'scribe', 'alphabet', 'literacy', 'clay tablet'],
+
+      resources: {
+        videos: [
+          {
+            id: 'PfYYraMgiBA',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=PfYYraMgiBA',
+            title: 'Cracking Ancient Codes: Cuneiform Writing, with Irving Finkel',
+            channel: 'The Royal Institution',
+            duration: 'variable',
+            why: 'Irving Finkel, the British Museum curator in charge of cuneiform tablets, on how wedge shaped marks in clay became the first writing we can read.',
+          },
+          {
+            id: 'zOwP0KUlnZg',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=zOwP0KUlnZg',
+            title: 'Irving Finkel Teaches Us Cuneiform',
+            channel: 'Matt and Tom',
+            duration: 'variable',
+            why: 'A hands on demonstration: a reed stylus, wet clay, and your first cuneiform signs in minutes.',
+          },
+          {
+            id: 'IAuuF7XQeFM',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=IAuuF7XQeFM',
+            title: 'Writing Didn\'t Start With Words: It Started With Numbers',
+            channel: 'How We Got Here',
+            duration: 'variable',
+            why: 'The full arc in one sitting, from accounting marks to the alphabet, arguing that the first thing ever written down was a receipt.',
+          },
+        ],
+        books: [
+          {
+            title: 'The Story of Writing',
+            author: 'Andrew Robinson',
+            year: 1995,
+            url: '',
+            why: 'The standard illustrated survey of scripts worldwide, from cuneiform to the alphabet, by a science writer who knows the decipherment stories cold.',
+          },
+          {
+            title: 'Cuneiform',
+            author: 'Irving Finkel and Jonathan Taylor',
+            year: 2015,
+            url: '',
+            why: 'A short British Museum introduction by two curators who read the tablets for a living. The best first book on the first script.',
+          },
+          {
+            title: 'Empires of the Word: A Language History of the World',
+            author: 'Nicholas Ostler',
+            year: 2005,
+            url: '',
+            why: 'How written languages spread, ruled, and died. The long view of what writing does to the tongues that adopt it.',
+          },
+        ],
+        articles: [
+          {
+            title: 'History of writing',
+            source: 'Wikipedia',
+            url: 'https://en.wikipedia.org/wiki/History_of_writing',
+            why: 'Careful survey of the four independent inventions, with the dating debates laid out honestly.',
+            year: null,
+          },
+          {
+            title: 'Cuneiform',
+            source: 'Wikipedia',
+            url: 'https://en.wikipedia.org/wiki/Cuneiform',
+            why: 'The script itself: how it worked, how it changed, and how it was read again.',
+            year: null,
+          },
+        ],
+        courses: [
+          {
+            title: 'World History',
+            provider: 'Khan Academy',
+            url: 'https://www.khanacademy.org/humanities/world-history/world-history-beginnings',
+            free: true,
+            why: 'The free opening units place the first scripts inside the first farming cities, which is where they belong.',
+          },
+        ],
+      },
+
+      seeAlso: ['mesopotamia', 'egypt', 'prehistory'],
+      prereqs: ['prehistory'],
+      leadsTo: ['mesopotamia', 'egypt'],
+
+      sources: [
+        'https://en.wikipedia.org/wiki/History_of_writing',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    democracy: {
+      id: 'democracy',
+      name: 'The Birth of Democracy',
+      level: 'Intermediate',
+      dek: 'In one small city, ordinary citizens took power from kings and nobles, and kept it, mostly, for themselves.',
+      readTime: '10 min',
+
+      sections: ['Before the people ruled', 'Solon opens the door', 'Cleisthenes redraws the map', 'Who was left out'],
+      body: [
+        { type: 'lead', text: 'In 508 BCE the people of Athens did something with no real precedent: they besieged a Spartan backed ruler on their own acropolis and took the city back for themselves. The reforms that followed, drawn up by an aristocrat named Cleisthenes, turned that street victory into a system. The word for it, demokratia, means the power of the people.' },
+        { type: 'h2', text: 'Before the people ruled' },
+        { type: 'p', text: 'Athens began as other Greek cities did, ruled by archons and a council of former archons drawn from noble families. A first crack came in 621 BCE, when Draco replaced oral custom with a written law code enforced by a court. The code was harsh, and later ages repealed most of it, but the principle survived: law written down belongs, in some sense, to everyone who can read it or hear it read.' },
+        { type: 'h2', text: 'Solon opens the door' },
+        { type: 'p', text: 'In 594 BCE, facing a crisis of debt and dispossession, Athens made Solon its chief archon and let him rewrite the rules. He cancelled existing debts, freed debtors, and ended borrowing on the security of a person\'s own body. He sorted citizens into four property classes and gave every free resident of Attica a political function, with a council of 400, one hundred from each of the four tribes, to run daily affairs and set the agenda for an assembly open to all male citizens.' },
+        { type: 'h2', text: 'Cleisthenes redraws the map' },
+        { type: 'p', text: 'Solon\'s settlement did not hold; tyranny followed, then expulsion. Cleisthenes, in 508 and 507 BCE, broke the power of the noble families at its root. He made the old kinship tribes politically irrelevant and built ten new tribes out of neighbourhood districts called demes, mixed across the city, the coast, and the inland farms. Every male citizen over 18 registered in his deme. Loyalty now ran to a district and a city, not to a clan. It is the most consequential piece of political engineering in the ancient world.' },
+        { type: 'h2', text: 'Who was left out' },
+        { type: 'p', text: 'The achievement was real, and so were its limits. Participation was open only to free adult male citizens, who probably made up no more than 30 percent of the total adult population; in the fourth century BCE perhaps 30,000 men held the vote in a territory of a quarter of a million people. Women, resident foreigners, and enslaved people were outside the system that their labour sustained. Later ages took the Athenian invention and widened the circle Athens had drawn too small. The invention came first. The widening took another two thousand years, and the argument over who counts as the people has never really closed.' },
+      ],
+
+      keyTerms: ['demokratia', 'polis', 'Cleisthenes', 'Solon', 'deme', 'assembly', 'citizen', 'ostracism'],
+
+      resources: {
+        videos: [
+          {
+            id: 'UHiyFEE10S8',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=UHiyFEE10S8',
+            title: 'Athens: When Humans First Governed Themselves',
+            channel: 'YouTube documentary',
+            duration: 'variable',
+            why: 'A long narrative of the birth of democracy, from Solon\'s debt reforms in 594 BCE to the trial of Socrates, honest about who was excluded.',
+          },
+          {
+            id: 'tCjAPLwHi9E',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=tCjAPLwHi9E',
+            title: 'The Civic Flame: A Day in the Life of Ancient Athenian Democracy',
+            channel: 'History recaps',
+            duration: 'variable',
+            why: 'Assembly day on the Pnyx in 433 BCE, reconstructed: lotteries, water clocks, and 6,000 citizens voting directly on war and peace.',
+          },
+          {
+            id: 'PJJ2lSv21aE',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=PJJ2lSv21aE',
+            title: 'Athens: How Ordinary Citizens Invented the World\'s First Democracy',
+            channel: 'Speed Study',
+            duration: 'variable',
+            why: 'A compact account of the institutions: the Assembly, the Council of 500, sortition, and the flaws built into the design.',
+          },
+        ],
+        books: [
+          {
+            title: 'Democracy and Knowledge: Innovation and Learning in Classical Athens',
+            author: 'Josiah Ober',
+            year: 2008,
+            url: '',
+            why: 'Ober argues that Athens succeeded because its institutions pooled what ordinary citizens knew. The strongest modern case for taking Athenian democracy seriously as a system, not a slogan.',
+          },
+          {
+            title: 'The Athenian Democracy in the Age of Demosthenes',
+            author: 'Mogens Herman Hansen',
+            year: 1991,
+            url: '',
+            why: 'The standard scholarly account of how the institutions actually worked, by the Danish historian who rebuilt the field.',
+          },
+          {
+            title: 'Democracy: A Life',
+            author: 'Paul Cartledge',
+            year: 2016,
+            url: '',
+            why: 'A Cambridge classicist traces the word and the practice from Athens to the present. Readable, sceptical, and fair to both.',
+          },
+        ],
+        articles: [
+          {
+            title: 'Athenian democracy',
+            source: 'Wikipedia',
+            url: 'https://en.wikipedia.org/wiki/Athenian_democracy',
+            why: 'Detailed, well cited account of the reforms of Solon, Cleisthenes, and Ephialtes, and of who could take part.',
+            year: null,
+          },
+          {
+            title: 'Athens',
+            source: 'World History Encyclopedia',
+            url: 'https://www.worldhistory.org/Athens/',
+            why: 'A concise entry on the institutions, the Council of 500, the Areopagus, and the Assembly, that made the system run.',
+            year: null,
+          },
+        ],
+        courses: [
+          {
+            title: 'Introduction to Ancient Greek History (CLCV 205)',
+            provider: 'Open Yale Courses',
+            url: 'https://oyc.yale.edu/classics/clcv-205',
+            free: true,
+            why: 'Donald Kagan\'s free Yale lectures give the democratic experiment its full political and military context.',
+          },
+        ],
+      },
+
+      seeAlso: ['greece', 'rome', 'enlightenment'],
+      prereqs: ['greece'],
+      leadsTo: ['rome', 'enlightenment'],
+
+      sources: [
+        'https://en.wikipedia.org/wiki/Athenian_democracy',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    printing: {
+      id: 'printing',
+      name: 'The Printing Revolution',
+      level: 'Intermediate',
+      dek: 'A goldsmith in Mainz made books cheap enough to argue with, and Europe was never quiet again.',
+      readTime: '10 min',
+
+      sections: ['Printing before Gutenberg', 'A goldsmith builds a system', 'Books by the million', 'What print changed'],
+      body: [
+        { type: 'lead', text: 'Around 1440, in a workshop in Mainz, a goldsmith who had once made mirrors for pilgrims finished assembling a machine out of parts that already existed: a screw press, metal type, oil based ink, and cheap paper. No single part was new. Put together, they made the book, for five thousand years a luxury object, into something a town could produce by the thousand.' },
+        { type: 'h2', text: 'Printing before Gutenberg' },
+        { type: 'p', text: 'Printing itself was old. The Chinese artisan Bi Sheng made the first movable type in the eleventh century, from baked clay. Around 1300 Wang Zhen built movable wooden type on revolving tables, and the oldest surviving book printed with metal movable type, the Jikji, was produced in Korea in 1377. These systems worked, but a logographic script needs thousands of distinct characters, and the cost of a full set of type kept East Asian printing wedded to the carved woodblock.' },
+        { type: 'h2', text: 'A goldsmith builds a system' },
+        { type: 'p', text: 'Johannes Gutenberg\'s contribution was integration, plus a few inventions of his own. He was the first to cast type from an alloy of lead, tin, and antimony, durable enough for long print runs, and he used a hand mould that let one worker cast letter after identical letter quickly and precisely. He added an oil based ink that would stick to metal, and adapted the screw press, long used for wine and paper, to press a sheet evenly against the inked type. Two men working such a press could produce about 3,600 impressions in a day.' },
+        { type: 'h2', text: 'Books by the million' },
+        { type: 'p', text: 'The spread was fast because the equipment was portable and the demand was real. Gutenberg\'s shop in Mainz was at first the only one in Europe; by the end of the fifteenth century around 270 European cities had printing, and presses across Western Europe had produced over 20 million copies by 1500. Output climbed to an estimated 150 to 200 million copies by 1600. A hand copied book had been the work of months. Now it was the work of a print run.' },
+        { type: 'h2', text: 'What print changed' },
+        { type: 'p', text: 'Cheap copies changed what an argument could be. Printers across Germany reprinted Martin Luther\'s works at a pace that surprised both the Pope and secular rulers, distributing 300,000 printed copies between 1518 and 1520 alone, and the Reformation became the first European movement carried by mass media. The same machinery standardised national languages, spread scientific results in identical copies that readers in different countries could check line by line, and slowly raised literacy. The press did not decide what Europe would think. It decided that Europe would think it in public, in numbers no authority could fully police, and that decision is still working itself out.' },
+      ],
+
+      keyTerms: ['movable type', 'Gutenberg', 'incunabula', 'hand mould', 'type alloy', 'print run', 'vernacular'],
+
+      resources: {
+        videos: [
+          {
+            id: 'IByctuC1OAw',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=IByctuC1OAw',
+            title: 'Gutenberg\'s Printing Press',
+            channel: 'Daily Dose Documentary',
+            duration: 'variable',
+            why: 'A short documentary history of the press, from Bi Sheng\'s clay type in 1040s China to Gutenberg\'s workshop.',
+          },
+          {
+            id: 'loOoexuJEV8',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=loOoexuJEV8',
+            title: 'Johannes Gutenberg: The Forgotten Genius Who Lost His Own Invention',
+            channel: 'The Long Shadow',
+            duration: 'variable',
+            why: 'The full life: the secret experiments, the hand mould, the 42 line Bible, and the lawsuit that took the workshop from its inventor.',
+          },
+          {
+            id: 'sDgx2Em1T3s',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=sDgx2Em1T3s',
+            title: 'Why the Printing Press Changed Everything (It\'s Not What You Think)',
+            channel: 'Sphota Origins',
+            duration: 'variable',
+            why: 'Argues the breakthrough was the reusable metal letter and a 26 letter alphabet, not the press itself. A sharp, short counterpoint.',
+          },
+        ],
+        books: [
+          {
+            title: 'The Printing Press as an Agent of Change',
+            author: 'Elizabeth L. Eisenstein',
+            year: 1979,
+            url: '',
+            why: 'The landmark study of what print did to scholarship, religion, and science. Long, argued, and still the book every later account answers.',
+          },
+          {
+            title: 'The Gutenberg Revolution',
+            author: 'John Man',
+            year: 2002,
+            url: '',
+            why: 'A readable life of Gutenberg and a clear account of the technology, written for the general reader.',
+          },
+          {
+            title: 'Printing, Propaganda, and Martin Luther',
+            author: 'Mark U. Edwards Jr.',
+            year: 1994,
+            url: '',
+            why: 'Counts what the presses actually produced in the Reformation\'s first decade, and shows how print shaped the argument itself.',
+          },
+        ],
+        articles: [
+          {
+            title: 'Printing press',
+            source: 'Wikipedia',
+            url: 'https://en.wikipedia.org/wiki/Printing_press',
+            why: 'The technology and its spread, with production figures for the fifteenth and sixteenth centuries.',
+            year: null,
+          },
+          {
+            title: 'Printing press',
+            source: 'Encyclopaedia Britannica',
+            url: 'https://www.britannica.com/technology/printing-press',
+            why: 'A concise editorial history, useful as a check on the longer Wikipedia account.',
+            year: null,
+          },
+        ],
+        courses: [
+          {
+            title: 'World History',
+            provider: 'Khan Academy',
+            url: 'https://www.khanacademy.org/humanities/world-history/world-history-beginnings',
+            free: true,
+            why: 'Khan\'s free world history sequence covers the centuries on both sides of Gutenberg, so the press lands in context.',
+          },
+        ],
+      },
+
+      seeAlso: ['renaissance', 'enlightenment', 'exploration'],
+      prereqs: ['medieval'],
+      leadsTo: ['renaissance', 'enlightenment'],
+
+      sources: [
+        'https://en.wikipedia.org/wiki/Printing_press',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    silkroad: {
+      id: 'silkroad',
+      name: 'The Silk Road',
+      level: 'Intermediate',
+      dek: 'Not one road but a web of relays across Eurasia, carrying silk, faiths, inventions, and disease.',
+      readTime: '10 min',
+
+      sections: ['A network, not a road', 'Zhang Qian and the Han opening', 'What actually travelled', 'Relays, risks, and the long decline'],
+      body: [
+        { type: 'lead', text: 'No traveller in the year 800 would have recognised the name. There was no signposted highway from China to the Mediterranean, no single road at all, only a shifting web of caravan tracks, oasis towns, mountain passes, and sea lanes, more than 6,400 kilometres across on land, along which a bolt of silk might change hands a dozen times before it reached a buyer who had never heard of the worm.' },
+        { type: 'h2', text: 'A network, not a road' },
+        { type: 'p', text: 'The name itself is modern. It comes from the German word Seidenstrasse, popularised in 1877 by Ferdinand von Richthofen, and it misleads in two ways: there were many routes, not one, and silk was only the most famous cargo. Historians who prefer the plural, Silk Routes, have a point. The network ran from the ancient capitals of China through Central Asia to the Levant and the Mediterranean, with branches to India, Persia, and the steppe, and a maritime twin across the Indian Ocean.' },
+        { type: 'h2', text: 'Zhang Qian and the Han opening' },
+        { type: 'p', text: 'The network took shape when the Han dynasty expanded into Central Asia around 114 BCE, following the missions and explorations of the imperial envoy Zhang Qian. China wanted secure trade and allies against steppe nomads, and extended the Great Wall to protect the routes. The Parthian Empire formed a bridge toward the Mediterranean, and by the first century CE Chinese silk was widely sought after in Rome, Egypt, and Greece, most of it carried by middlemen who never saw either end of the journey.' },
+        { type: 'h2', text: 'What actually travelled' },
+        { type: 'p', text: 'Westbound went silk, tea, dyes, perfumes, and porcelain. Eastbound came horses, camels, honey, wine, and gold. The cargo that changed history most was not for sale at all: paper and gunpowder moved west along these routes and altered politics across Eurasia, while religions, above all Buddhism, travelled with the merchants and monks, along with philosophy, astronomy, and mathematics. Disease travelled too. Plague spread along the same roads, possibly contributing to the Black Death that reached Europe in the fourteenth century.' },
+        { type: 'h2', text: 'Relays, risks, and the long decline' },
+        { type: 'p', text: 'Almost nobody walked the whole way. Trade was relay trade: goods changed hands many times at stopping points along the route, and travellers faced bandits, nomadic raiders, deserts, and high passes with little organised security. The network flourished and faded with the empires that guarded its stretches, and from the mid fifteenth century sea routes took over much of its traffic. UNESCO listed the Chang\'an to Tianshan corridor as a World Heritage Site in 2014, a late official honour for a road that never existed as one road, and connected the world anyway.' },
+      ],
+
+      keyTerms: ['Silk Road', 'Zhang Qian', 'caravan', 'relay trade', 'oasis', 'Han dynasty', 'Samarkand', 'Buddhism'],
+
+      resources: {
+        videos: [
+          {
+            id: 'vfe-eNq-Qyg',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=vfe-eNq-Qyg',
+            title: 'The Silk Road and Ancient Trade: Crash Course World History #9',
+            channel: 'CrashCourse',
+            duration: '10:31',
+            why: 'John Green on the network as a whole: goods, nomads, Buddhism, and disease, in ten brisk minutes.',
+          },
+          {
+            id: 'j4Wi4_oWo_U',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=j4Wi4_oWo_U',
+            title: 'The Silk Road in Late Antiquity, by Peter Brown',
+            channel: 'Penn Museum',
+            duration: '38:35',
+            why: 'Princeton\'s Peter Brown lecturing at the Penn Museum on communication between Rome and China between 300 and 700 CE. The scholarly version.',
+          },
+          {
+            id: '2lwbsep-U5g',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=2lwbsep-U5g',
+            title: 'History of Silk Road through Legendary Emperors',
+            channel: 'Dr Mao Ming (lecture)',
+            duration: 'variable',
+            why: 'A two thousand year survey through Alexander, Han Wudi, and Tang Taizong, by a journal editor who taught Silk Road courses at the British Museum.',
+          },
+        ],
+        books: [
+          {
+            title: 'The Silk Road: A New History',
+            author: 'Valerie Hansen',
+            year: 2012,
+            url: '',
+            why: 'Built from documents found along the routes themselves. Hansen shows a trade smaller, stranger, and more local than the legend, which makes it more believable.',
+          },
+          {
+            title: 'Life Along the Silk Road',
+            author: 'Susan Whitfield',
+            year: 1999,
+            url: '',
+            why: 'Ten lives reconstructed from the Dunhuang manuscripts and the collections of the British Library. The human scale of the network.',
+          },
+          {
+            title: 'The Silk Roads: A New History of the World',
+            author: 'Peter Frankopan',
+            year: 2015,
+            url: '',
+            why: 'The bestselling argument that the centre of world history sat in Persia and Central Asia, not in Europe. Read it against Hansen.',
+          },
+        ],
+        articles: [
+          {
+            title: 'Silk Road',
+            source: 'Wikipedia',
+            url: 'https://en.wikipedia.org/wiki/Silk_Road',
+            why: 'The routes, the goods, and the historiographical argument about the name itself, with a strong bibliography.',
+            year: null,
+          },
+          {
+            title: 'Silk Road',
+            source: 'World History Encyclopedia',
+            url: 'https://www.worldhistory.org/Silk_Road/',
+            why: 'A concise overview with maps, good as a second pass after the longer Wikipedia entry.',
+            year: null,
+          },
+        ],
+        courses: [
+          {
+            title: 'Introduction to Ancient Empires',
+            provider: 'Khan Academy',
+            url: 'https://www.khanacademy.org/humanities/world-history/world-history-beginnings',
+            free: true,
+            why: 'Khan\'s free opening world history units cover the Han and Roman worlds whose trade the routes connected.',
+          },
+        ],
+      },
+
+      seeAlso: ['islam', 'medieval', 'exploration'],
+      prereqs: ['rome'],
+      leadsTo: ['islam', 'exploration'],
+
+      sources: [
+        'https://en.wikipedia.org/wiki/Silk_Road',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    ancient_americas: {
+      id: 'ancient_americas',
+      name: 'The Ancient Americas',
+      level: 'Intermediate',
+      dek: 'Cities, calendars, and empires rose across two continents for millennia before any European ship arrived.',
+      readTime: '10 min',
+
+      sections: ['A hemisphere of builders', 'Mounds and cities in the north', 'Mesoamerica: writing and time', 'What the meeting of worlds broke'],
+      body: [
+        { type: 'lead', text: 'On the floodplain of the Mississippi, around the year 1200, a city of earthen pyramids and grand plazas held more people than most cities on Earth at that moment, and no one in Europe, Africa, or Asia knew it existed. Cahokia was not an exception. It was one chapter in a hemisphere long history of building, farming, and statecraft that ran for thousands of years in near total separation from the rest of the world.' },
+        { type: 'h2', text: 'A hemisphere of builders' },
+        { type: 'p', text: 'People spread through the Americas over thousands of years and diversified into hundreds of distinct cultures, adapting to Arctic coast, desert, jungle, and high mountain valley. Over millennia they domesticated, bred, and cultivated so many plant species that crops first raised in the Americas now make up an estimated 50 to 60 percent of worldwide agriculture. Maize, potatoes, tomatoes, and beans are the famous names on a much longer list, and every one of them is the product of patient selection by farmers whose names we do not know.' },
+        { type: 'h2', text: 'Mounds and cities in the north' },
+        { type: 'p', text: 'Monumental building in North America is older than farming there. At Watson Brake in present day Louisiana, hunter gatherers began a complex of eleven platform mounds in 3400 BCE and added to it over five centuries. The Mississippian culture, which appeared around 1000 CE, raised the tradition to city scale. Cahokia, near modern East St. Louis, may have reached a population of over 20,000, and at its peak between the twelfth and thirteenth centuries it was the most populous city in North America. Its Monks Mound remains the largest earthen construction of the prehistoric Americas.' },
+        { type: 'h2', text: 'Mesoamerica: writing and time' },
+        { type: 'p', text: 'Further south, the civilisations of Mesoamerica and the Andes built permanent settlements, cities, civic and monumental architecture, and complex social hierarchies. The Maya kept written records, maintained by a literate culture with its own script and calendar traditions. Most of those records were later destroyed by Christian Europeans who viewed them as pagan, among them Diego de Landa; a few original documents survived, and others were transcribed into Spanish, which is why the Maya can still speak to us partly in their own words.' },
+        { type: 'h2', text: 'What the meeting of worlds broke' },
+        { type: 'p', text: 'The pre-Columbian era is usually dated to the onset of European colonisation, which began with the voyage of Christopher Columbus in 1492. What followed was not a simple encounter. Some civilisations had already declined before Europeans arrived; others were at their height and were documented in European accounts of the time, even as disease and conquest dismantled them. The honest way to read this history is the way archaeology now reads it: as a full human story, thousands of years long, of which the catastrophe of contact is the last chapter, not the first. The hemisphere that Columbus reached was not waiting to be discovered. It was busy.' },
+      ],
+
+      keyTerms: ['pre-Columbian', 'Cahokia', 'Mississippian', 'Mesoamerica', 'Maya', 'chinampa', 'Monks Mound', 'domestication'],
+
+      resources: {
+        videos: [
+          {
+            id: '1YeKidGZLTA',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=1YeKidGZLTA',
+            title: 'New World Archeology (Mesoamerica)',
+            channel: 'Professor Dave Explains',
+            duration: 'variable',
+            why: 'A brisk survey of the Olmec, Maya, and Aztec worlds, then the Inca and the Mississippians, with the archaeology kept in front.',
+          },
+          {
+            id: '282FwLqPsg0',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=282FwLqPsg0',
+            title: 'History of the Olmec, Maya, Aztec, Inca and Amazon Civilization: Ed Barnhart',
+            channel: 'Ed Barnhart (lecture)',
+            duration: 'variable',
+            why: 'A working Maya archaeologist on three thousand years of civilisation in the Americas, including his own field discoveries.',
+          },
+          {
+            id: 'envqZGr3SHY',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=envqZGr3SHY',
+            title: 'Mesoamerican Civilizations: A Historical Overview',
+            channel: 'YouTube documentary',
+            duration: 'variable',
+            why: 'From the Olmec around 1200 BCE to the Aztec capital on Lake Texcoco, a single arc through the region\'s major cultures.',
+          },
+        ],
+        books: [
+          {
+            title: '1491: New Revelations of the Americas Before Columbus',
+            author: 'Charles C. Mann',
+            year: 2005,
+            url: '',
+            why: 'The book that reset the public picture of the pre-Columbian Americas: populous, engineered, and ecologically managed. Start here.',
+          },
+          {
+            title: 'The Maya',
+            author: 'Michael D. Coe',
+            year: 1966,
+            url: '',
+            why: 'The classic introduction to Maya civilisation, kept in print and revised across six decades. Still the one volume to own.',
+          },
+          {
+            title: 'The Incas',
+            author: 'Terence N. D\'Altroy',
+            year: 2002,
+            url: '',
+            why: 'The standard scholarly account of the largest empire in the pre-Columbian Americas, by a Columbia anthropologist who works in the Andes.',
+          },
+        ],
+        articles: [
+          {
+            title: 'Pre-Columbian era',
+            source: 'Wikipedia',
+            url: 'https://en.wikipedia.org/wiki/Pre-Columbian_era',
+            why: 'Region by region survey, from the first settlement of the hemisphere to Cahokia, the Puebloans, and Mesoamerica.',
+            year: null,
+          },
+          {
+            title: 'Columbian exchange',
+            source: 'Encyclopaedia Britannica',
+            url: 'https://www.britannica.com/event/Columbian-exchange',
+            why: 'What crossed the Atlantic in both directions after 1492, and what it did to both hemispheres.',
+            year: null,
+          },
+        ],
+        courses: [
+          {
+            title: 'Introduction to Ancient Empires',
+            provider: 'Khan Academy',
+            url: 'https://www.khanacademy.org/humanities/world-history/world-history-beginnings',
+            free: true,
+            why: 'Khan\'s free world history opening units give the global frame into which the American civilisations fit.',
+          },
+        ],
+      },
+
+      seeAlso: ['exploration', 'prehistory', 'mesopotamia'],
+      prereqs: ['prehistory'],
+      leadsTo: ['exploration'],
+
+      sources: [
+        'https://en.wikipedia.org/wiki/Pre-Columbian_era',
+      ],
+      verifiedAt: '2026-10-15',
     },
 
   },

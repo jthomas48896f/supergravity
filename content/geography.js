@@ -1,17 +1,17 @@
 // content/geography.js
 // Owned by batch: B05-social-world
-// Last updated: 2026-04-23 by BATCH B05-social-world
+// Last updated: 2026-10-15 by SPRINT W1
 //
 // Topics this subject must cover (from data.js):
-//   Physical: climate, biomes
-//   Human:    cities, cartography, geopolitics
+//   Physical: climate, biomes, continents, landforms
+//   Human:    cities, cartography, geopolitics, population
 
 window.CONTENT = window.CONTENT || {};
 window.CONTENT.geography = {
   subjectId: 'geography',
   version: 2,
-  lastUpdated: '2026-04-23',
-  curator: 'BATCH B05-social-world',
+  lastUpdated: '2026-10-15',
+  curator: 'SPRINT W1',
   topics: {
 
     // ——— CLIMATE ———
@@ -1520,6 +1520,352 @@ window.CONTENT.geography = {
         'https://plato.stanford.edu/entries/realism-intl-relations/',
       ],
       verifiedAt: '2026-04-23',
+    },
+
+    continents: {
+      id: 'continents',
+      name: 'Continents & Oceans',
+      level: 'Beginner',
+      dek: 'Seven large landmasses by convention, five oceans around them, and borders that geology and history draw differently.',
+      readTime: '9 min',
+
+      sections: ['Seven by convention', 'The ocean between them', 'Joined, split, and joined again', 'Borders that are not lines in rock'],
+      body: [
+        { type: 'lead', text: 'A classroom globe makes the world look settled: blue water, colored land, seven continents with names in confident type. Spin it slowly and the confidence thins. Where exactly does Europe end and Asia begin? Why is Greenland, bigger than most countries, an island, while Australia, not much larger, is a continent? The globe hides the arguments. This lesson opens them.' },
+        { type: 'h2', text: 'Seven by convention' },
+        { type: 'p', text: 'Most English speaking countries are taught seven continents: Asia, Africa, North America, South America, Antarctica, Europe, and Australia with Oceania. It is a convention, not a law of nature, and other traditions count differently. By the figures in the standard reference table, Asia is the largest at 44,614,000 square kilometers, about 29.8 percent of the world\'s land, and Europe the second smallest at 10,000,000. The island question is settled by size alone: Greenland covers 2,166,086 square kilometers and is called the world\'s largest island, while Australia at 7,617,930 is deemed the smallest continent.' },
+        { type: 'h2', text: 'The ocean between them' },
+        { type: 'p', text: 'The water is one body. All the landmasses border a single continuous ocean, divided by the continents into named oceans, much as the continents divide the land. The naming runs the other way from the drawing: we speak of five oceans as if they were separate seas, but a ship can sail among them without crossing land, and the water itself does not respect the labels. Only two continents are completely cut off by that water, Antarctica and Australia. Every other landmass is joined to a neighbor somewhere.' },
+        { type: 'h2', text: 'Joined, split, and joined again' },
+        { type: 'p', text: 'The joins are narrow and famous. Africa meets Asia at the Isthmus of Suez, and North America meets South America at the Isthmus of Panama, which is why canals were dug at exactly those two seams. Underneath the conventions sits the geology: continents are not fixed rafts but fragments of crust that have moved, and the standard account has them once joined in a single supercontinent, Pangaea, then broken apart by continental drift into the arrangement the globe now shows. The borders children memorize are a snapshot of a process still running.' },
+        { type: 'h2', text: 'Borders that are not lines in rock' },
+        { type: 'p', text: 'So a continent is a large landmass, partly a fact of geology and partly a decision of culture. Europe and Asia share one continuous landmass, and the line between them follows mountains, rivers, and history rather than any break in the crust. Geographers keep the seven continent model because it is useful and widely shared, not because the planet insists on it. Knowing which parts of the map are rock and which are agreements is the beginning of reading any map critically.' },
+        { type: 'p', text: 'Spin the globe again. The colors and names are still there, but now they read as what they are: geology underneath, convention on top, and water, one world ocean, holding the whole arrangement together.' },
+        { type: 'callout', text: 'By size alone: Greenland at 2,166,086 square kilometers is an island. Australia at 7,617,930 is a continent. The category follows the convention, not the coastline.' },
+      ],
+
+      keyTerms: ['continent', 'world ocean', 'isthmus', 'continental drift', 'Pangaea', 'landmass', 'Oceania'],
+
+      resources: {
+        videos: [
+          {
+            id: '93LLwiMjDko',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=93LLwiMjDko',
+            title: 'What is Geography? Crash Course Geography #1',
+            channel: 'CrashCourse',
+            duration: 'variable',
+            why: 'The opening of the series: how maps, borders, and categories get made, banana for scale.',
+          },
+          {
+            id: 'vlVVaZhRAEA',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=vlVVaZhRAEA',
+            title: 'What is Physical Geography? Crash Course Geography #4',
+            channel: 'CrashCourse',
+            duration: 'variable',
+            why: 'The physical half of the discipline: landforms, climate, water, and plate tectonics as one system.',
+          },
+          {
+            id: 'xa6SdvFA3w0',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=xa6SdvFA3w0',
+            title: 'How Do Oceans Circulate? Crash Course Geography #9',
+            channel: 'CrashCourse',
+            duration: 'variable',
+            why: 'The single world ocean in motion: currents, gyres, and why the water connects more than it divides.',
+          },
+        ],
+        books: [
+          {
+            title: 'Prisoners of Geography',
+            author: 'Tim Marshall',
+            year: 2015,
+            url: '',
+            why: 'Ten maps and the landforms, seas, and borders that still constrain what states can do.',
+          },
+          {
+            title: 'The Revenge of Geography',
+            author: 'Robert D. Kaplan',
+            year: 2012,
+            url: '',
+            why: 'The argument that geography, long declared dead, still shapes the fate of nations.',
+          },
+          {
+            title: 'Maps: Finding Our Place in the World',
+            author: 'James R. Akerman and Robert W. Karrow (editors)',
+            year: 2007,
+            url: '',
+            why: 'Essays on what maps are for, from a major exhibition at the Field Museum and the Newberry Library.',
+          },
+        ],
+        articles: [
+          {
+            title: 'Continent',
+            source: 'Wikipedia',
+            url: 'https://en.wikipedia.org/wiki/Continent',
+            why: 'The models compared, the areas ranked, and the history of how the word picked up its meanings.',
+            year: null,
+          },
+          {
+            title: 'Oceans and Seas and the Water Cycle',
+            source: 'U.S. Geological Survey',
+            url: 'https://www.usgs.gov/water-science-school/science/oceans-and-seas-and-water-cycle?page=1',
+            why: 'The ocean side of the topic from the USGS: how much water the oceans hold and how it moves.',
+            year: null,
+          },
+        ],
+        courses: [
+          {
+            title: 'National Geographic Education',
+            provider: 'National Geographic Society',
+            url: 'https://education.nationalgeographic.org/',
+            free: true,
+            why: 'Free maps, videos, and classroom resources organized by subject. Start with the geography and mapping collections.',
+          },
+        ],
+      },
+
+      seeAlso: ['climate', 'biomes', 'cartography'],
+      prereqs: [],
+      leadsTo: ['climate', 'cartography'],
+
+      sources: [
+        'https://en.wikipedia.org/wiki/Continent',
+        'https://www.usgs.gov/water-science-school/science/oceans-and-seas-and-water-cycle?page=1',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    landforms: {
+      id: 'landforms',
+      name: 'Landforms',
+      level: 'Beginner',
+      dek: 'Mountains, plains, plateaus, and valleys: the surface shapes that tectonics builds and water, wind, and ice revise.',
+      readTime: '8 min',
+
+      sections: ['Four major kinds', 'Built from below', 'Carved from above', 'Reading a landscape'],
+      body: [
+        { type: 'lead', text: 'Stand on a ridge at dusk and the land reads like a sentence half finished: a slope, a flat, a cut where the river runs. Every shape in that view was made by a process, and most are being remade now, slowly. Landforms are the vocabulary of that sentence, and there are only a few main words.' },
+        { type: 'h2', text: 'Four major kinds' },
+        { type: 'p', text: 'Geographers sort the surface first by scale and shape. The four major types of landforms are hills, mountains, plains, and plateaus: raised ground of two heights, flat ground at low elevation, and flat ground held high. Around them cluster the minor forms, buttes, canyons, valleys, and basins, and the small features, peaks, dunes, and waterfalls. The sorting scales up as well as down. Continents and ocean basins are landforms of the first order, the largest there are; mountains, plains, and plateaus sit at the second order; a single dune or valley is third order, the scale a person can walk in an hour.' },
+        { type: 'h2', text: 'Built from below' },
+        { type: 'p', text: 'The big shapes are built by the planet\'s interior. Landforms take shape from the movements of the tectonic plates, which can push up hills and mountains where plates collide, and from volcanic activity, which adds new land outright. Elevation, slope, and the layering and exposure of rock are the properties scientists use to classify what the building produced. A mountain range is therefore not scenery. It is evidence, readable at a glance, of forces acting on crust over millions of years.' },
+        { type: 'h2', text: 'Carved from above' },
+        { type: 'p', text: 'What tectonics raises, weather revises. The factors that shape landforms run from plate tectonics to erosion and deposition: water cutting valleys and laying down plains of sediment, wind moving sand into dunes, ice grinding whole regions flat and leaving the debris in ridges. Even biology edits the surface, with vegetation holding dunes in place and coral animals building reefs. Most real landscapes are an argument between the two directions, uplift against erosion, and the shape at any moment says which side is currently winning.' },
+        { type: 'h2', text: 'Reading a landscape' },
+        { type: 'p', text: 'The study of all this has a name, geomorphology, and its habit is the useful part: treat every slope and flat as a record. A plateau edge records uplift and then incision by rivers. A broad plain records deposition winning for a long time. A canyon records the opposite. Once the four major kinds and the two directions of change are in mind, unfamiliar country stops being a blur from a train window and becomes a sequence of events that can be read in order.' },
+        { type: 'p', text: 'Back on the ridge, the sentence completes itself. Slope, flat, and river cut are not three views but one story, written from below and edited from above, still being revised under the reader\'s feet.' },
+        { type: 'callout', text: 'Continents and ocean basins are the largest landforms of all, the first order. A dune you can cross in a minute is third order. The same processes explain both.' },
+      ],
+
+      keyTerms: ['landform', 'plateau', 'plain', 'erosion', 'deposition', 'geomorphology', 'tectonic uplift'],
+
+      resources: {
+        videos: [
+          {
+            id: '1gMU7zfDqfg',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=1gMU7zfDqfg',
+            title: 'How Does the Earth Create Different Landforms? Crash Course Geography #20',
+            channel: 'CrashCourse',
+            duration: 'variable',
+            why: 'Uplift and erosion at work on real terrain, from the Grand Canyon to karst country.',
+          },
+          {
+            id: '7Bxw4kkeHJ8',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=7Bxw4kkeHJ8',
+            title: 'What Are Rocks and How Do They Form? Crash Course Geography #18',
+            channel: 'CrashCourse',
+            duration: 'variable',
+            why: 'The material landforms are built from, and why rock type decides how a landscape weathers.',
+          },
+          {
+            id: 'vlVVaZhRAEA',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=vlVVaZhRAEA',
+            title: 'What is Physical Geography? Crash Course Geography #4',
+            channel: 'CrashCourse',
+            duration: 'variable',
+            why: 'Landforms in their system: how surface shapes interact with climate, water, and ecosystems.',
+          },
+        ],
+        books: [
+          {
+            title: 'Annals of the Former World',
+            author: 'John McPhee',
+            year: 1998,
+            url: '',
+            why: 'The classic survey of North American geology and terrain, five books in one volume.',
+          },
+          {
+            title: 'The Control of Nature',
+            author: 'John McPhee',
+            year: 1989,
+            url: '',
+            why: 'People against rivers, lava, and sliding hillsides: landform processes at human scale.',
+          },
+          {
+            title: 'Landforms of the World with Google Earth',
+            author: 'Anja M. Scheffers, Simon M. May, and Dieter H. Kelletat',
+            year: 2015,
+            url: '',
+            why: 'A photographic atlas of landform types, keyed to satellite views the reader can revisit.',
+          },
+        ],
+        articles: [
+          {
+            title: 'Landform',
+            source: 'Wikipedia',
+            url: 'https://en.wikipedia.org/wiki/Landform',
+            why: 'The classification used in this lesson, from first order continents down to single dunes and falls.',
+            year: null,
+          },
+          {
+            title: 'Continent',
+            source: 'Wikipedia',
+            url: 'https://en.wikipedia.org/wiki/Continent',
+            why: 'The first order case in full: how the largest landforms are defined and bounded.',
+            year: null,
+          },
+        ],
+        courses: [
+          {
+            title: 'National Geographic Education',
+            provider: 'National Geographic Society',
+            url: 'https://education.nationalgeographic.org/',
+            free: true,
+            why: 'Free encyclopedic entries, maps, and media on landforms and earth science for self study.',
+          },
+        ],
+      },
+
+      seeAlso: ['climate', 'biomes', 'cartography'],
+      prereqs: ['climate'],
+      leadsTo: ['biomes'],
+
+      sources: [
+        'https://en.wikipedia.org/wiki/Landform',
+        'https://www.youtube.com/watch?v=1gMU7zfDqfg',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    population: {
+      id: 'population',
+      name: 'Population & Migration',
+      level: 'Intermediate',
+      dek: 'Eight billion people, unevenly placed: how births, deaths, and migration redraw the map of where humans live.',
+      readTime: '10 min',
+
+      sections: ['From one billion to eight', 'Where people cluster', 'Why people move', 'Aging, cities, and what comes next'],
+      body: [
+        { type: 'lead', text: 'Somewhere in November 2022, a child was born who tipped the human count past eight billion. No bell rang and no one knows the child\'s name, but the milestone closed an astonishing run: a species that took hundreds of thousands of years to reach one billion needed only about two centuries to add seven billion more.' },
+        { type: 'h2', text: 'From one billion to eight' },
+        { type: 'p', text: 'The dates mark the acceleration. The United Nations estimates that world population exceeded 8 billion on November 15, 2022. The road there, from the reference chronology, runs 1 billion in 1804, 2 billion in 1927 after 123 years, then 3 billion in 1960 after only 33. Growth itself peaked at 2.1 percent a year between 1965 and 1970 and has since declined, to 1.1 percent between 2015 and 2020. The population is still rising, but the rate that made the twentieth century explosive is behind us.' },
+        { type: 'h2', text: 'Where people cluster' },
+        { type: 'p', text: 'Eight billion people are not spread evenly. They cluster where water, farmland, and work coincide, and increasingly in cities: the urban share of world population was 3 percent in 1800, 47 percent by 2000, and 56 percent by 2020. Human geography studies this distribution the way physical geography studies landforms, as a pattern with causes: climate, terrain, trade, and history deciding where the dense patches and the near empty ones fall.' },
+        { type: 'h2', text: 'Why people move' },
+        { type: 'p', text: 'Migration moves the pattern without changing the total. The reference typology separates push factors, the conditions that drive people away from a place, from pull factors, the conditions that attract them to another. Most movement is internal, within a country, and it is the dominant form of migration globally. International migrants numbered 280,598,105 in 2020, about 3.6 percent of world population, a small share with outsized effects. The largest single diaspora is India\'s, over 18 million people of Indian descent living outside the country of their birth. The words matter here: migrants move by choice, refugees are forced from their homes, and asylum seekers are asking for that protection in law.' },
+        { type: 'h2', text: 'Aging, cities, and what comes next' },
+        { type: 'p', text: 'The next map will differ from this one less by totals than by ages and addresses. Urban residents already outnumber rural ones worldwide, in the United Nations figures cited in the course videos, and city growth is now driven more by reclassification and natural increase than by arrivals. The global median age stands at 31.1 years in 2026 by the reference estimate, and it is rising, which shifts demand from schools toward pensions and care. Whether the total peaks this century, and where, is the open question the counts cannot yet answer.' },
+        { type: 'p', text: 'The unnamed child of November 2022 will grow up in that older, more urban world. The milestone was never really about the number. It was a marker on the road from the first billion to whatever distribution comes next.' },
+        { type: 'callout', text: 'International migrants were 3.6 percent of world population in 2020. The other 96.4 percent lived in their country of birth, and most who moved, moved within it.' },
+      ],
+
+      keyTerms: ['demography', 'fertility rate', 'migration', 'push factor', 'pull factor', 'diaspora', 'urbanization', 'median age', 'refugee'],
+
+      resources: {
+        videos: [
+          {
+            id: 'JpAiBg0hrfQ',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=JpAiBg0hrfQ',
+            title: 'How Populations Grow and Change: Crash Course Geography #33',
+            channel: 'CrashCourse',
+            duration: 'variable',
+            why: 'Malthus, Boserup, and the Demographic Transition Model: the three classic frames for growth.',
+          },
+          {
+            id: '5Z55k7CqZ0c',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=5Z55k7CqZ0c',
+            title: 'Where and Why Do People Move? Crash Course Geography #32',
+            channel: 'CrashCourse',
+            duration: 'variable',
+            why: 'Intervening obstacles, Ravenstein\'s laws, and the largest diaspora on Earth.',
+          },
+          {
+            id: 'ON4oIKza7bw',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=ON4oIKza7bw',
+            title: 'Why are People Moving to Cities? Crash Course Geography #45',
+            channel: 'CrashCourse',
+            duration: 'variable',
+            why: 'Urbanization through history, and why city growth now comes from within cities themselves.',
+          },
+        ],
+        books: [
+          {
+            title: 'Factfulness',
+            author: 'Hans Rosling',
+            year: 2018,
+            url: '',
+            why: 'Population data against instinct: why the world is less poor, less crowded in the ways feared, and better counted than assumed.',
+          },
+          {
+            title: 'The Population Bomb',
+            author: 'Paul R. Ehrlich',
+            year: 1968,
+            url: '',
+            why: 'The famous warning that framed a half century of population debate, read now as a historical document.',
+          },
+          {
+            title: 'Empty Planet',
+            author: 'Darrell Bricker and John Ibbitson',
+            year: 2019,
+            url: '',
+            why: 'The counter argument: fertility falling faster than the models, and a peak followed by decline.',
+          },
+        ],
+        articles: [
+          {
+            title: 'World population',
+            source: 'Wikipedia',
+            url: 'https://en.wikipedia.org/wiki/World_population',
+            why: 'The milestone dates, growth rates, and density figures used in this lesson, with UN sources behind them.',
+            year: null,
+          },
+          {
+            title: 'Human migration',
+            source: 'Wikipedia',
+            url: 'https://en.wikipedia.org/wiki/Human_migration',
+            why: 'Push and pull factors, migrant categories, and the international migrant counts by year.',
+            year: null,
+          },
+        ],
+        courses: [
+          {
+            title: 'National Geographic Education',
+            provider: 'National Geographic Society',
+            url: 'https://education.nationalgeographic.org/',
+            free: true,
+            why: 'Free resources on human geography, population, and migration, organized for self study.',
+          },
+        ],
+      },
+
+      seeAlso: ['cities', 'geopolitics', 'cartography'],
+      prereqs: ['cities'],
+      leadsTo: ['geopolitics'],
+
+      sources: [
+        'https://en.wikipedia.org/wiki/World_population',
+        'https://en.wikipedia.org/wiki/Human_migration',
+        'https://www.youtube.com/watch?v=5Z55k7CqZ0c',
+      ],
+      verifiedAt: '2026-10-15',
     },
 
   },

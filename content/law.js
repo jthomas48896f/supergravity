@@ -1,16 +1,16 @@
 // content/law.js
 // Owned by batch: B05-social-world
-// Last updated: 2026-04-23 by BATCH B05-social-world
+// Last updated: 2026-10-15 by SPRINT W1
 //
 // Topics this subject must cover (from data.js):
-//   Core: contract_law, criminal, constitutional
+//   Core: contract_law, criminal, constitutional, courts
 
 window.CONTENT = window.CONTENT || {};
 window.CONTENT.law = {
   subjectId: 'law',
   version: 2,
-  lastUpdated: '2026-04-23',
-  curator: 'BATCH B05-social-world',
+  lastUpdated: '2026-10-15',
+  curator: 'SPRINT W1',
   topics: {
 
     // ——— CONTRACT LAW ———
@@ -934,6 +934,119 @@ window.CONTENT.law = {
         'https://www.law.cornell.edu/wex/constitutional_law',
       ],
       verifiedAt: '2026-04-23',
+    },
+
+    courts: {
+      id: 'courts',
+      name: 'Courts & Trials',
+      level: 'Beginner',
+      dek: 'Where disputes end without violence: judges, juries, evidence, and rules that bind the powerful as well.',
+      readTime: '9 min',
+
+      sections: ['What a court is for', 'Facts first, then appeals', 'Judge, jury, and the bench', 'The American pyramid'],
+      body: [
+        { type: 'lead', text: 'Strip a court down to its minimum and, as William Blackstone counted it in the eighteenth century, you need three parties: a plaintiff who complains of an injury, a defendant who is called to answer for it, and a judge to examine the truth of the facts, declare the law that arises from them, and apply a remedy. Everything else in the building, the robes, the jury box, the appeals, is machinery built around that triangle.' },
+        { type: 'h2', text: 'What a court is for' },
+        { type: 'p', text: 'A court is an institution, usually created by a constitution or by legislation, with authority to decide legal disputes and administer justice in civil, criminal, and administrative matters under the rule of law. That authority has a name, jurisdiction, and it has three basic parts: power over the persons before the court, power over the subject matter of the case, and power within a territory. A court acting outside its jurisdiction is not being bold. It is acting without authority, and its decisions do not stand.' },
+        { type: 'h2', text: 'Facts first, then appeals' },
+        { type: 'p', text: 'Courts are arranged in a ladder because two different jobs need doing. Trial courts, the courts of first instance, hear evidence, question witnesses, and decide what actually happened. Appellate courts hear appeals from below and ask a narrower question: was the law applied correctly? Some courts, like the Crown Court in England and Wales, do both jobs. The ladder means a losing party gets a second look from fresh eyes, and it means the system can correct a legal error without pretending the facts were different.' },
+        { type: 'h2', text: 'Judge, jury, and the bench' },
+        { type: 'p', text: 'Who finds the facts depends on the kind of trial. In a jury trial, citizens act as the finders of fact, weighing evidence and delivering a verdict, while the judge declares the law and runs the proceeding. In a bench trial the judge does both jobs. Juries are a hallmark of the common law world, the tradition built up by English royal judges after the Norman invasion of 1066, who combined local customs gathered on their travels into one common standard. Civil law systems, descended from Roman law, use juries far less and give professional judges a more active hand in questioning.' },
+        { type: 'h2', text: 'The American pyramid' },
+        { type: 'p', text: 'The federal system in the United States shows the ladder at full scale. At its base sit 94 district courts, the trial courts, which resolve disputes by determining the facts and applying the law to them. Above them are 13 courts of appeals, whose task is to decide whether the law was applied correctly below. At the top is the Supreme Court, created by Article III of the Constitution, which also authorised Congress to build the lower courts beneath it. Most cases end at the first rung, by settlement, plea, or judgment, and that is by design: a court system that had to try everything twice would try nothing well. The triangle Blackstone described, plaintiff, defendant, judge, now runs at continental scale, and it still does the same quiet work of ending arguments without bloodshed.' },
+      ],
+
+      keyTerms: ['jurisdiction', 'trial court', 'appellate court', 'jury', 'bench trial', 'plaintiff', 'defendant', 'common law'],
+
+      resources: {
+        videos: [
+          {
+            id: 'IGyx5UEwgtA',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=IGyx5UEwgtA',
+            title: 'Structure of the Court System: Crash Course Government and Politics #19',
+            channel: 'CrashCourse',
+            duration: 'variable',
+            why: 'Craig Benzine on trial courts, district courts, appeals courts, and the Supreme Court, and on why most cases never reach a courtroom at all.',
+          },
+          {
+            id: '7sualy8OiKk',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=7sualy8OiKk',
+            title: 'Supreme Court Procedures: Crash Course Government and Politics #20',
+            channel: 'CrashCourse',
+            duration: 'variable',
+            why: 'What happens when a case reaches the top: petitions, briefs, oral argument, and how opinions are issued.',
+          },
+          {
+            id: '8fwQuPQOwH4',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=8fwQuPQOwH4',
+            title: 'How do jury trials work?',
+            channel: 'Khan Academy and National Constitution Center',
+            duration: 'variable',
+            why: 'Judge Stephanos Bibas explains jury trials from the bench, made for the Constitution 101 course.',
+          },
+        ],
+        books: [
+          {
+            title: 'The Nine: Inside the Secret World of the Supreme Court',
+            author: 'Jeffrey Toobin',
+            year: 2007,
+            url: '',
+            why: 'A readable account of the American Supreme Court as a working institution of nine people. The friendliest entry to life at the top of the pyramid.',
+          },
+          {
+            title: 'Making Our Democracy Work: A Judge\'s View',
+            author: 'Stephen Breyer',
+            year: 2010,
+            url: '',
+            why: 'A sitting justice explains, in plain language, what courts are for and why the public\'s trust is their only real enforcement power.',
+          },
+          {
+            title: 'The Court and the World: American Law and the New Global Realities',
+            author: 'Stephen Breyer',
+            year: 2015,
+            url: '',
+            why: 'Breyer on how national courts now read each other\'s decisions. A clear window on courts as a worldwide conversation.',
+          },
+        ],
+        articles: [
+          {
+            title: 'Court',
+            source: 'Wikipedia',
+            url: 'https://en.wikipedia.org/wiki/Court',
+            why: 'Jurisdiction, trial and appellate courts, and the common law and civil law traditions compared in one entry.',
+            year: null,
+          },
+          {
+            title: 'Court Role and Structure',
+            source: 'United States Courts',
+            url: 'https://www.uscourts.gov/about-federal-courts/court-role-and-structure',
+            why: 'The federal courts\' own account of their structure: 94 district courts, 13 courts of appeals, and the Supreme Court above them.',
+            year: null,
+          },
+        ],
+        courses: [
+          {
+            title: 'Constitutional Interpretation: The Constitution Annotated',
+            provider: 'Cornell Law School',
+            url: 'https://www.law.cornell.edu/constitution-conan',
+            free: true,
+            why: 'Cornell\'s free clause by clause commentary on the Constitution, including Article III and the judiciary it creates.',
+          },
+        ],
+      },
+
+      seeAlso: ['criminal', 'contract_law', 'constitutional'],
+      prereqs: [],
+      leadsTo: ['criminal', 'constitutional'],
+
+      sources: [
+        'https://en.wikipedia.org/wiki/Court',
+        'https://www.uscourts.gov/about-federal-courts/court-role-and-structure',
+      ],
+      verifiedAt: '2026-10-15',
     },
 
   },

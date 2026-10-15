@@ -1,17 +1,17 @@
 // content/geology.js
 // Owned by batch: B02-hard-sciences
-// Last updated: 2026-04-22 by BATCH B02-hard-sciences
+// Last updated: 2026-10-15 by SPRINT W1
 //
 // Topics this subject must cover (from data.js):
-//   Structure: plates, rocks, volcanoes
+//   Structure: plates, rocks, volcanoes, earthquakes, watercycle
 //   History:   deeptime, fossils
 
 window.CONTENT = window.CONTENT || {};
 window.CONTENT.geology = {
   subjectId: 'geology',
   version: 1,
-  lastUpdated: '2026-04-22',
-  curator: 'BATCH B02-hard-sciences',
+  lastUpdated: '2026-10-15',
+  curator: 'SPRINT W1',
   topics: {
 
     plates: {
@@ -777,6 +777,238 @@ window.CONTENT.geology = {
         'https://www.science.org/doi/10.1126/science.208.4448.1095',
       ],
       verifiedAt: '2026-04-22',
+    },
+
+    earthquakes: {
+      id: 'earthquakes',
+      name: 'Earthquakes',
+      level: 'Beginner',
+      dek: 'Locked faults store energy slowly, then release it in seconds: what seismographs record and cities must withstand.',
+      readTime: '9 min',
+
+      sections: ['Stuck edges', 'Waves that locate', 'Magnitude is not the whole story', 'The largest on record'],
+      body: [
+        { type: 'lead', text: 'A seismograph at rest draws a nearly flat line. Then the line jumps, swings wide, and slowly settles, and somewhere a town has had the worst minute of its century. The jump is not random. It is the sound, written down, of rock that was stuck for years letting go all at once.' },
+        { type: 'h2', text: 'Stuck edges' },
+        { type: 'p', text: 'The U.S. Geological Survey puts the mechanism plainly. The crust and the top of the mantle form plates that keep moving, sliding past and into each other, and their edges are made of faults. The edges are rough, so they stick while the rest of the plate keeps moving, and energy builds in the stuck place. When the force overcomes the friction, the fault slips, and that slip is an earthquake. The point where it starts underground is the hypocenter; the point on the surface directly above it is the epicenter. Smaller shocks can come first, as foreshocks, and always follow, as aftershocks, sometimes for months or years.' },
+        { type: 'h2', text: 'Waves that locate' },
+        { type: 'p', text: 'The released energy travels as seismic waves, and instruments called seismographs record them as seismograms. Two wave kinds do the locating. P waves arrive first because they travel faster; S waves follow, and the gap between them grows with distance, the way thunder lags further behind lightning the farther away the storm is. One station gives a distance and so a circle on the map. Three stations give three circles, and where they cross is the epicenter. That method, triangulation, is how a flat line jumping in three quiet rooms becomes a place and a time.' },
+        { type: 'h2', text: 'Magnitude is not the whole story' },
+        { type: 'p', text: 'An earthquake has one magnitude, set by the size of the fault and how far it slipped, read from seismograms around the world. It has many intensities, because the shaking people feel depends on distance, depth, and the ground under their feet. Most earthquakes happen on plate boundaries, and the pattern is lopsided: the USGS figure, tested in a recent mapping of a decade of its catalog, puts about 81 percent of the planet\'s largest earthquakes on the Ring of Fire, the subduction zone rim of the Pacific. Scientists can say where large earthquakes are likely over decades. The Survey is blunt about the rest: no one can predict the day.' },
+        { type: 'h2', text: 'The largest on record' },
+        { type: 'p', text: 'The largest earthquake in the USGS list since 1900 is the Valdivia earthquake in Chile, magnitude 9.5, on May 22, 1960. Behind it come southern Alaska at magnitude 9.2 on March 28, 1964, and two at magnitude 9.1: northern Sumatra on December 26, 2004, and the Tohoku earthquake in Japan on March 11, 2011. All four were megathrust events at subduction zones, where one plate dives under another, which is why the map of the largest earthquakes is mostly a map of plate edges meeting the sea.' },
+        { type: 'p', text: 'The flat line, then, is not peace. It is a fault either sliding gently or storing the next jump, and the seismograph is how we learned to tell the difference after the fact and prepare before it.' },
+        { type: 'callout', text: 'An earthquake cannot be predicted to a day or a place. What science offers instead is a map of likely ground, and buildings designed for the shaking that map implies.' },
+      ],
+
+      keyTerms: ['fault', 'hypocenter', 'epicenter', 'seismograph', 'P wave', 'S wave', 'magnitude', 'intensity', 'aftershock', 'Ring of Fire'],
+
+      resources: {
+        videos: [
+          {
+            id: '-FBq5lE1Kz0',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=-FBq5lE1Kz0',
+            title: 'Natural Hazards: Crash Course Geography #27',
+            channel: 'Crash Course',
+            duration: 'variable',
+            why: 'Earthquakes and eruptions as hazards, and the line between a natural event and a disaster.',
+          },
+          {
+            id: '7CPv0NSIG2M',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=7CPv0NSIG2M',
+            title: 'The Plate Tectonics Revolution: Crash Course Geography #19',
+            channel: 'Crash Course',
+            duration: 'variable',
+            why: 'The plate framework that explains where earthquakes happen, told as the detective story it was.',
+          },
+          {
+            id: 'rBnMMFFKJD4',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=rBnMMFFKJD4',
+            title: 'Every earthquake of the last 10 years: why the Ring of Fire exists',
+            channel: 'Restless Planet',
+            duration: 'variable',
+            why: 'A decade of the USGS catalog, 74,785 earthquakes of magnitude 4.5 and up, mapped at once.',
+          },
+        ],
+        books: [
+          {
+            title: 'The Great Quake',
+            author: 'Henry Fountain',
+            year: 2017,
+            url: '',
+            why: 'The 1964 Alaska earthquake, magnitude 9.2, and the science it forced into being.',
+          },
+          {
+            title: 'Full Rip 9.0',
+            author: 'Sandi Doughton',
+            year: 2013,
+            url: '',
+            why: 'The Cascadia subduction zone off the Pacific Northwest, and the large earthquake its record promises.',
+          },
+          {
+            title: 'Earthquakes',
+            author: 'Bruce A. Bolt',
+            year: 2003,
+            url: '',
+            why: 'The standard primer by a working seismologist, revised across five editions.',
+          },
+        ],
+        articles: [
+          {
+            title: 'The Science of Earthquakes',
+            source: 'U.S. Geological Survey',
+            url: 'https://www.usgs.gov/programs/Earthquake-hazards/science-Earthquakes',
+            why: 'The mechanism, the waves, the locating method, and the honest limits of prediction, from the agency that runs the network.',
+            year: null,
+          },
+          {
+            title: '20 Largest Earthquakes in the World Since 1900',
+            source: 'U.S. Geological Survey',
+            url: 'https://www.usgs.gov/programs/earthquake-hazards/science/20-largest-earthquakes-world-1900',
+            why: 'The ranked list behind this lesson, with dates, places, and the papers each magnitude rests on.',
+            year: null,
+          },
+        ],
+        courses: [
+          {
+            title: 'Physical Geology (open textbook)',
+            provider: 'BCcampus / Steven Earle',
+            url: 'https://opentextbc.ca/physicalgeology2ed/',
+            free: true,
+            why: 'A full free undergraduate text with chapters on plate tectonics and earthquakes. Read those two chapters first.',
+          },
+        ],
+      },
+
+      seeAlso: ['plates', 'volcanoes', 'rocks'],
+      prereqs: ['plates'],
+      leadsTo: ['volcanoes'],
+
+      sources: [
+        'https://www.usgs.gov/programs/Earthquake-hazards/science-Earthquakes',
+        'https://www.usgs.gov/programs/earthquake-hazards/science/20-largest-earthquakes-world-1900',
+        'https://www.youtube.com/watch?v=rBnMMFFKJD4',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    watercycle: {
+      id: 'watercycle',
+      name: 'The Water Cycle',
+      level: 'Beginner',
+      dek: 'Sunlight lifts ocean water, winds move it, gravity returns it: the same water, endlessly rearranged, never new.',
+      readTime: '9 min',
+
+      sections: ['Where the water sits', 'Lifted by the Sun', 'Falling, flowing, soaking', 'The slow stores'],
+      body: [
+        { type: 'lead', text: 'Rain on a window looks new. It is not. It is ocean water that sunlight lifted, wind carried, and gravity dropped, on a trip it has made before and will make again. The water cycle is less a circle drawn in a textbook than an accounting problem: a fixed stock of water, moving among a few stores, at very different speeds.' },
+        { type: 'h2', text: 'Where the water sits' },
+        { type: 'p', text: 'Start with the stock. The USGS estimates the world\'s water supply at about 1,386,000,000 cubic kilometers, and about 1,338,000,000 of it, 96.5 percent of all Earth\'s water, sits in the oceans. It is saline, at about 35,000 parts per million of salt. Everything else, every river, glacier, aquifer, cloud, and glass of drinking water, is the remaining few percent, which is why the cycle is best understood as the ocean lending water out and taking it back.' },
+        { type: 'h2', text: 'Lifted by the Sun' },
+        { type: 'p', text: 'The engine is sunlight, with wind as its courier. Water evaporates from surfaces, and plants add their share by transpiration; together the two are evapotranspiration. The oceans supply about 90 percent of the evaporated water that enters the cycle, in the USGS estimate. Vapor rises, cools, and condenses into cloud droplets or ice crystals. Nothing is created in this step and nothing is lost. The water has only changed state and address, from a store measured in cubic kilometers to one measured in days.' },
+        { type: 'h2', text: 'Falling, flowing, soaking' },
+        { type: 'p', text: 'Precipitation returns the water as rain or snow. From there the paths split. Some runs off the surface into streams, the streamflow that gathers into rivers and lakes. Some infiltrates, soaking down to become groundwater, which moves slowly through rock and soil and can reappear at springs or feed streams from below. Snow adds a delay: snowmelt releases in spring water that fell in winter. The USGS lists these, with condensation, evaporation, and storage in ice, lakes, and the atmosphere, as the working parts of one system, not separate topics.' },
+        { type: 'h2', text: 'The slow stores' },
+        { type: 'p', text: 'Speed is the hidden variable. Of all freshwater, over 68 percent is locked in ice and glaciers, and another 30 percent is in the ground, while rivers and lakes hold only about 93,100 cubic kilometers, roughly a hundred and fiftieth of one percent of all water, yet supply most of the water people use every day. Storage also moves the sea itself. During the last ice age, glaciers covered almost a third of the land and the oceans stood about 122 meters lower than today, because so much of the cycle was parked on land as ice.' },
+        { type: 'p', text: 'The rain on the window is therefore a withdrawal from the largest account on Earth, made by sunlight and repaid by gravity, and the balance has not changed: only the addresses have.' },
+        { type: 'callout', text: 'Rivers and lakes supply most of the water people use, and hold about a hundred and fiftieth of one percent of the water there is.' },
+      ],
+
+      keyTerms: ['evaporation', 'transpiration', 'condensation', 'precipitation', 'infiltration', 'runoff', 'groundwater', 'reservoir'],
+
+      resources: {
+        videos: [
+          {
+            id: '2D7hZpIYlCA',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=2D7hZpIYlCA',
+            title: 'The Hydrologic and Carbon Cycles: Always Recycle! Crash Course Ecology #8',
+            channel: 'Crash Course',
+            duration: 'variable',
+            why: 'The water cycle as a movement on, above, and below the surface, driven by the Sun and wind.',
+          },
+          {
+            id: 'xa6SdvFA3w0',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=xa6SdvFA3w0',
+            title: 'How Do Oceans Circulate? Crash Course Geography #9',
+            channel: 'Crash Course',
+            duration: 'variable',
+            why: 'The largest store is not still: surface and deep currents move ocean water around the planet.',
+          },
+          {
+            id: '68G1ikYRNxg',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=68G1ikYRNxg',
+            title: 'How Can Rain Create Conflict? Precipitation and Water Use: Crash Course Geography #11',
+            channel: 'Crash Course',
+            duration: 'variable',
+            why: 'Where precipitation falls, people gather, and where it does not, the arguments start.',
+          },
+        ],
+        books: [
+          {
+            title: 'Water: A Biography',
+            author: 'Giulio Boccaletti',
+            year: 2021,
+            url: '',
+            why: 'Water management as a force in history, from irrigation states to modern rivers policy.',
+          },
+          {
+            title: 'The Big Thirst',
+            author: 'Charles Fishman',
+            year: 2011,
+            url: '',
+            why: 'Reporting on how water is actually priced, wasted, and fought over in the present day.',
+          },
+          {
+            title: 'Blue Mind',
+            author: 'Wallace J. Nichols',
+            year: 2014,
+            url: '',
+            why: 'On the human pull toward water, a useful companion to the physical account.',
+          },
+        ],
+        articles: [
+          {
+            title: 'Oceans and Seas and the Water Cycle',
+            source: 'U.S. Geological Survey',
+            url: 'https://www.usgs.gov/water-science-school/science/oceans-and-seas-and-water-cycle?page=1',
+            why: 'The numbers behind this lesson, plus tides, currents, and how ocean volume changes over ice ages.',
+            year: null,
+          },
+          {
+            title: 'Physical Geology, 2nd Edition (open textbook)',
+            source: 'BCcampus',
+            url: 'https://opentextbc.ca/physicalgeology2ed/',
+            why: 'The free text\'s chapters on streams and groundwater follow water after it reaches the ground.',
+            year: 2019,
+          },
+        ],
+        courses: [
+          {
+            title: 'Physical Geology (open textbook)',
+            provider: 'BCcampus / Steven Earle',
+            url: 'https://opentextbc.ca/physicalgeology2ed/',
+            free: true,
+            why: 'Free and complete. The hydrological cycle, streams, and groundwater chapters are the course for this topic.',
+          },
+        ],
+      },
+
+      seeAlso: ['plates', 'rocks', 'climate'],
+      prereqs: [],
+      leadsTo: ['rocks'],
+
+      sources: [
+        'https://www.usgs.gov/water-science-school/science/oceans-and-seas-and-water-cycle?page=1',
+        'https://opentextbc.ca/physicalgeology2ed/',
+        'https://www.youtube.com/watch?v=2D7hZpIYlCA',
+      ],
+      verifiedAt: '2026-10-15',
     },
 
   },

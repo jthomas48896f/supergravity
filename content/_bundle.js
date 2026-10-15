@@ -1,6 +1,6 @@
 // content/_bundle.js
 // AUTO-GENERATED — do not edit by hand.
-// Built: 2026-10-15T04:14:22Z
+// Built: 2026-10-15T18:08:31Z
 // To regenerate: ./tools/build-content-bundle.sh
 
 window.CONTENT = window.CONTENT || {};
@@ -1834,14 +1834,14 @@ window.CONTENT.architecture = {
 // ====== art.js ======
 // content/art.js
 // Batch: B04-humanities
-// Last updated: 2026-04-22 by BATCH B04-humanities
+// Last updated: 2026-10-15 by SPRINT W1
 
 window.CONTENT = window.CONTENT || {};
 window.CONTENT.art = {
   subjectId: 'art',
   version: 1,
-  lastUpdated: '2026-04-22',
-  curator: 'BATCH B04-humanities',
+  lastUpdated: '2026-10-15',
+  curator: 'SPRINT W1',
   topics: {
 
     cave_to_cath: {
@@ -2748,6 +2748,122 @@ window.CONTENT.art = {
       verifiedAt: '2026-04-22',
     },
 
+    sculpture: {
+      id: 'sculpture',
+      name: 'Sculpture',
+      level: 'Beginner',
+      dek: 'Art you walk around: carving, modeling, casting, and the long argument between stone and bronze.',
+      readTime: '6 min',
+
+      sections: ['Two ways of making', 'In the round and in relief', 'A short history in objects', 'How to look at sculpture'],
+      body: [
+        { type: 'lead', text: 'The largest sculpture on record is not in a museum. The Statue of Unity in India, completed in 2018, stands 182 meters tall, about 597 feet, a figure you read from kilometers away. At the other end of the scale, a sculptor\'s thumb can finish the curve of a lip. Sculpture is the branch of the visual arts that works in three dimensions, and its whole history is an argument about what three dimensions can be made to say.' },
+        { type: 'h2', text: 'Two ways of making' },
+        { type: 'p', text: 'The durable processes of sculpture divide into two families. Carving removes: the sculptor cuts away stone or wood until the form remains, and every cut is final. Modeling adds: clay or wax is built up, and mistakes can be scraped off and begun again. Casting turns a modeled form into a durable one, pouring molten metal, classically bronze, into a mold taken from it. The classic durable materials of the art are metal, especially bronze, stone, and pottery, and most of what survives from the ancient world survives because it was made of them.' },
+        { type: 'h2', text: 'In the round and in relief' },
+        { type: 'p', text: 'Sculpture also divides by how it meets the viewer. Sculpture in the round stands free and asks to be circled; its back is part of the work. Relief stays attached to a background surface. In low relief, or bas relief, the forms barely rise from the surface, like the figures on a coin. In high relief they project boldly, sometimes undercut until they are nearly free. Public sculpture is the oldest setting of all: the Great Sphinx of Egypt, carved some 4,500 years ago, still guards its plateau in the round.' },
+        { type: 'h2', text: 'A short history in objects' },
+        { type: 'p', text: 'The Western tradition of sculpture began in ancient Greece, whose carvers moved from stiff archaic figures toward bodies that shift their weight and breathe. Rome carried the Greek achievement across an empire. In Renaissance Florence the tradition revived: Donatello cast a bronze David, likely in the 1440s, standing in contrapposto like a Greek hero reborn, and Michelangelo\'s David became the emblem of the age. Verrocchio\'s David of about 1465 is wirier, more real and less ideal. Two centuries after Donatello, Bernini carved Apollo and Daphne in marble: a god\'s hand closing on bark as a nymph turns into a laurel tree, motion frozen mid gesture.' },
+        { type: 'callout', text: 'A painting shows you the view its maker chose. A sculpture keeps every other view in reserve, and charges you a walk for them.' },
+        { type: 'h2', text: 'How to look at sculpture' },
+        { type: 'p', text: 'Look at sculpture the way it was made: in the round, on foot. Walk the full circle and watch the silhouette change. Ask which family of making you are seeing, removal or addition, and what the material allowed and forbade. Stone forbids thin projections; bronze permits a raised arm or a rearing horse. The Statue of Unity and a palm sized bronze are the same art at different scales: form occupying real space, asking your body, and not just your eyes, to do the looking.' },
+      ],
+
+      keyTerms: ['sculpture in the round', 'relief', 'bas-relief', 'carving', 'modeling', 'casting', 'bronze', 'contrapposto'],
+      resources: {
+        videos: [
+          {
+            id: '6kUUJJV_MNA',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=6kUUJJV_MNA',
+            title: 'Donatello, David',
+            channel: 'Smarthistory',
+            duration: 'variable',
+            why: 'Beth Harris and Steven Zucker on the bronze David in the Bargello, its contrapposto, and its lost wax casting.',
+          },
+          {
+            id: '8ydl4I6eJCs',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=8ydl4I6eJCs',
+            title: 'Verrocchio\'s David: more real, less ideal',
+            channel: 'Smarthistory',
+            duration: 'variable',
+            why: 'The next Florentine generation: Verrocchio\'s wiry, confident David of about 1465, in bronze with gilding.',
+          },
+          {
+            id: 'WHrFyEBW_j0',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=WHrFyEBW_j0',
+            title: 'The Beautiful Sculpture That Tells a Horrifying Story',
+            channel: 'YouTube',
+            duration: 'variable',
+            why: 'Bernini\'s Apollo and Daphne in the Galleria Borghese, and how a single block of marble is made to move.',
+          },
+        ],
+        books: [
+          {
+            title: 'The Story of Art',
+            author: 'E. H. Gombrich',
+            year: 1950,
+            url: '',
+            why: 'Still the best single volume entrance to Western art, with sculpture given its full weight in every period.',
+          },
+          {
+            title: 'Modelling and Sculpture',
+            author: 'Edouard Lanteri',
+            year: 1911,
+            url: '',
+            why: 'The great atelier manual of sculptural technique, long used to teach modeling and carving.',
+          },
+          {
+            title: 'The Sculptor\'s Way: A Guide to Modelling and Sculpture',
+            author: 'Brenda Putnam',
+            year: 1939,
+            url: '',
+            why: 'An American sculptor\'s complete handbook of studio practice, from armature to finished cast.',
+          },
+        ],
+        articles: [
+          {
+            title: 'Sculpture',
+            source: 'Wikipedia',
+            url: 'https://en.wikipedia.org/wiki/Sculpture',
+            why: 'The forms, processes, and materials of the art, with its history from the Greeks onward.',
+            year: null,
+          },
+          {
+            title: 'Heilbrunn Timeline of Art History',
+            source: 'The Metropolitan Museum of Art',
+            url: 'https://www.metmuseum.org/toah/',
+            why: 'More than a thousand expert essays from the Met, searchable by period, material, and theme, sculpture included.',
+            year: null,
+          },
+        ],
+        courses: [
+          {
+            title: 'Introduction to Art History',
+            provider: 'MIT OpenCourseWare',
+            url: 'https://ocw.mit.edu/courses/4-601-introduction-to-art-history-fall-2018/',
+            free: true,
+            why: 'MIT\'s survey of Euro American art from the fourteenth century on, objects and images in their social settings.',
+          },
+        ],
+      },
+
+      seeAlso: ['cave_to_cath', 'renart', 'drawing', 'composition'],
+      prereqs: ['cave_to_cath'],
+      leadsTo: ['modern_art'],
+
+      chapterActivity: 'A museum hour spent entirely on foot: choose one sculpture, circle it slowly three times, and sketch the silhouette from two sides.',
+
+      sources: [
+        'https://en.wikipedia.org/wiki/Sculpture',
+        'https://www.youtube.com/watch?v=6kUUJJV_MNA',
+        'https://www.youtube.com/watch?v=8ydl4I6eJCs',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
   },
 };
 
@@ -2755,18 +2871,18 @@ window.CONTENT.art = {
 // ====== astronomy.js ======
 // content/astronomy.js
 // Owned by batch: B02-hard-sciences
-// Last updated: 2026-04-22 by BATCH B02-hard-sciences
+// Last updated: 2026-10-15 by SPRINT W1
 //
 // Topics this subject must cover (from data.js):
-//   Solar & Stellar: solar, stars, galaxies
-//   Cosmos:          bigbang, blackholes
+//   Solar & Stellar: solar, stars, galaxies, moon, telescopes
+//   Cosmos:          bigbang, blackholes, spaceflight
 
 window.CONTENT = window.CONTENT || {};
 window.CONTENT.astronomy = {
   subjectId: 'astronomy',
   version: 1,
-  lastUpdated: '2026-04-22',
-  curator: 'BATCH B02-hard-sciences',
+  lastUpdated: '2026-10-15',
+  curator: 'SPRINT W1',
   topics: {
 
     solar: {
@@ -3527,6 +3643,351 @@ window.CONTENT.astronomy = {
         'https://www.eso.org/public/news/eso1907/',
       ],
       verifiedAt: '2026-04-22',
+    },
+
+    moon: {
+      id: 'moon',
+      name: 'The Moon',
+      level: 'Beginner',
+      dek: 'A quarter as wide as Earth, close enough to raise tides and preserve a record Earth erases.',
+      readTime: '9 min',
+
+      sections: ['A collision, preserved', 'The same face, changing light', 'Highlands, maria, and craters', 'Water at the poles'],
+      body: [
+        { type: 'lead', text: 'On a clear night the Moon looks painted: bright high ground, dark plains, one round face that never turns away. Those dark plains are not seas. They are basins filled with old lava, and the face is not a picture but a record, kept for billions of years because almost nothing up there erases it.' },
+        { type: 'h2', text: 'A collision, preserved' },
+        { type: 'p', text: 'The leading account, in NASA\'s summary, is a collision. About 4.5 billion years ago a Mars sized body struck the young Earth, and debris from both bodies gathered into the Moon. The new Moon was molten. Within about 100 million years most of its global magma ocean had crystallized, with lighter rock floating up to form the crust. The Moon still has the layered plan of that cooling: a core, a mantle, and a crust, proportionally with a smaller core than Earth\'s.' },
+        { type: 'h2', text: 'The same face, changing light' },
+        { type: 'p', text: 'The Moon turns at the same rate that it circles Earth, a match called synchronous rotation, so the same hemisphere always faces us. One full circuit takes 27 Earth days, though from our moving planet the cycle of phases appears to take 29 days. Phases are only changing light. At full moon the side facing us is lit by the Sun; at new moon that side is in its own night, while the far side has the sunlight.' },
+        { type: 'h2', text: 'Highlands, maria, and craters' },
+        { type: 'p', text: 'The light areas are the highlands. The dark maria, Latin for seas, are impact basins that filled with lava between 4.2 and 1.2 billion years ago, so the two tones are rocks of different ages. With almost no atmosphere to stop them, asteroids and comets have left craters everywhere: Tycho alone is more than 85 kilometers wide. Gravity at the surface is one sixth of Earth\'s, which is why Apollo walkers seem to bounce, and noon reaches about 127 degrees Celsius while night falls to about minus 173.' },
+        { type: 'h2', text: 'Water at the poles' },
+        { type: 'p', text: 'The Moon was long treated as dry. Missions including India\'s Chandrayaan 1, which found hydroxyl spread across the surface in 2008, changed that. NASA reports high concentrations of water ice in permanently shadowed polar craters, and in October 2020 its SOFIA observatory confirmed water on a sunlit surface for the first time, in Clavius Crater. The ice matters practically: a future crew could drink it, breathe part of it, or split it into fuel.' },
+        { type: 'p', text: 'So the painted face is an archive with supplies in its cold corners: a collision product, 384,400 kilometers away on average, that kept the receipts Earth weathered away and may yet help people leave again.' },
+        { type: 'callout', text: 'The Moon is an average of 384,400 kilometers away. Thirty Earth sized planets could fit in the gap, and it widens by about an inch a year.' },
+      ],
+
+      keyTerms: ['synchronous rotation', 'maria', 'highlands', 'regolith', 'phase', 'magma ocean', 'crater'],
+
+      resources: {
+        videos: [
+          {
+            id: 'mCzchPx3yF8',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=mCzchPx3yF8',
+            title: 'The Moon: Crash Course Astronomy #12',
+            channel: 'Crash Course',
+            duration: 'variable',
+            why: 'Phil Plait tours the surface, the inside, and the giant impact account of how the Moon formed.',
+          },
+          {
+            id: 'AQ5vty8f9Xc',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=AQ5vty8f9Xc',
+            title: 'Moon Phases: Crash Course Astronomy #4',
+            channel: 'Crash Course',
+            duration: 'variable',
+            why: 'The cause and the names of the phases, plus earthshine, in one short episode.',
+          },
+          {
+            id: 'PRgua7xceDA',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=PRgua7xceDA',
+            title: 'Eclipses: Crash Course Astronomy #5',
+            channel: 'Crash Course',
+            duration: 'variable',
+            why: 'What the Moon\'s shadow and Earth\'s shadow do, and why totality is worth traveling for.',
+          },
+        ],
+        books: [
+          {
+            title: 'A Man on the Moon',
+            author: 'Andrew Chaikin',
+            year: 1994,
+            url: '',
+            why: 'The standard narrative of Apollo, built from interviews with the astronauts themselves.',
+          },
+          {
+            title: 'Of a Fire on the Moon',
+            author: 'Norman Mailer',
+            year: 1970,
+            url: '',
+            why: 'A novelist sent to cover Apollo 11, uneven and vivid, and a period piece in its own right.',
+          },
+          {
+            title: 'The Moon: A History for the Future',
+            author: 'Oliver Morton',
+            year: 2019,
+            url: '',
+            why: 'The modern case for the Moon, scientific, economic, and imaginative, in one short book.',
+          },
+        ],
+        articles: [
+          {
+            title: 'Earth\'s Moon',
+            source: 'NASA Science',
+            url: 'https://science.nasa.gov/moon/',
+            why: 'NASA\'s hub for lunar science, its layers, and the Artemis program.',
+            year: null,
+          },
+          {
+            title: 'In Depth: Earth\'s Moon',
+            source: 'NASA Solar System Exploration',
+            url: 'https://solarsystem.nasa.gov/moons/earths-moon/in-depth.amp',
+            why: 'The fact sheet behind this lesson: size, distance, structure, formation, surface, and water.',
+            year: null,
+          },
+        ],
+        courses: [
+          {
+            title: 'Crash Course Astronomy (full series)',
+            provider: 'Crash Course / PBS',
+            url: 'https://www.youtube.com/playlist?list=PL8dPuuaLjXtPAJr1ysd5yGIyiSFuh0mIL',
+            free: true,
+            why: 'Episodes 4, 5, and 12 cover phases, eclipses, and the Moon itself. Free.',
+          },
+        ],
+      },
+
+      seeAlso: ['solar', 'stars', 'bigbang'],
+      prereqs: ['solar'],
+      leadsTo: ['stars'],
+
+      sources: [
+        'https://science.nasa.gov/moon/',
+        'https://solarsystem.nasa.gov/moons/earths-moon/in-depth.amp',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    spaceflight: {
+      id: 'spaceflight',
+      name: 'Human Spaceflight',
+      level: 'Intermediate',
+      dek: 'From a 108 minute first orbit to a station occupied since 2000, the short history of leaving Earth.',
+      readTime: '10 min',
+
+      sections: ['108 minutes to orbit', 'The Moon in eight years', 'Living off the planet', 'The cost, written plainly'],
+      body: [
+        { type: 'lead', text: 'On October 4, 1957, radios around the world picked up a beep from orbit: Sputnik 1, the first artificial satellite, built by the Soviet Union. No person was aboard. The beep said the hard part, reaching orbit at all, could now be done, and it started a race to put a person where the satellite had been.' },
+        { type: 'h2', text: '108 minutes to orbit' },
+        { type: 'p', text: 'Yuri Gagarin won that race on April 12, 1961, orbiting Earth once in a flight of 108 minutes. Alan Shepard followed on May 5, 1961 with a suborbital flight of 15 minutes and 22 seconds, and John Glenn became the first American to orbit on February 20, 1962, circling three times. In June 1963 Valentina Tereshkova became the first woman in space and completed 48 orbits, a reminder that the early records fell in bunches, within a few years.' },
+        { type: 'h2', text: 'The Moon in eight years' },
+        { type: 'p', text: 'President Kennedy had set the goal in May 1961: a person on the Moon, returned safely, before the decade ended. Apollo 8 orbited the Moon in December 1968. On July 20, 1969, Neil Armstrong and Buzz Aldrin landed, spending about two and a half hours walking on the surface while Michael Collins waited in orbit. The program\'s last and longest stay came with Apollo 17 in December 1972, at 74 hours and 59 minutes on the surface.' },
+        { type: 'h2', text: 'Living off the planet' },
+        { type: 'p', text: 'After Apollo, the work moved closer to home. Skylab, the first American orbiting laboratory, launched in 1973, and in July 1975 American astronauts and Soviet cosmonauts docked together in the Apollo Soyuz mission. The space shuttle Columbia first flew on April 12, 1981, the first winged spaceship to orbit and land like an airplane, and the fleet flew until July 21, 2011. The International Space Station took its first crew on November 2, 2000, and people have lived there continuously since, about 250 miles up, circling at about five miles a second.' },
+        { type: 'h2', text: 'The cost, written plainly' },
+        { type: 'p', text: 'The record includes the losses, and any honest history keeps them in the main text. Three Apollo 1 astronauts died in a fire during a ground test on January 27, 1967. The shuttle Challenger broke apart 73 seconds after launch on January 28, 1986, killing its crew of seven, and Columbia broke apart on return on February 1, 2003, also with seven aboard. Each disaster stopped the program that suffered it, and each investigation changed how the next vehicles were built and flown.' },
+        { type: 'p', text: 'The beep of 1957 now has a permanent address: a station that has not been empty since November 2000, kept by crews who treat living off the planet as a job rather than a stunt.' },
+        { type: 'callout', text: 'The International Space Station took its first crew on November 2, 2000. It has been occupied continuously since that day.' },
+      ],
+
+      keyTerms: ['orbit', 'suborbital', 'cosmonaut', 'astronaut', 'docking', 'space station', 'extravehicular activity', 'reentry'],
+
+      resources: {
+        videos: [
+          {
+            id: 'S9HdPi9Ikhk',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=S9HdPi9Ikhk',
+            title: 'Restored Apollo 11 Moonwalk: Original NASA EVA Mission Video',
+            channel: 'NASA',
+            duration: 'variable',
+            why: 'The original mission video as aired in July 1969, restored. The primary source, not a retelling.',
+          },
+          {
+            id: 'DAOIY_sRNeg',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=DAOIY_sRNeg',
+            title: 'The Evolution of Space Travel: From Sputnik to Mars',
+            channel: 'The Evolution Series',
+            duration: 'variable',
+            why: 'A sourced timeline from Sputnik and Gagarin to the shuttle, the station, and reusable rockets.',
+          },
+          {
+            id: 'c2pvhYQnraY',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=c2pvhYQnraY',
+            title: 'Apollo 11, First Ever Moon Landing (Official NASA Archive, 1969)',
+            channel: 'Global Archive Vault',
+            duration: 'variable',
+            why: 'Public domain NASA archive footage of the landing and the first steps, presented as recorded.',
+          },
+        ],
+        books: [
+          {
+            title: 'Failure Is Not an Option',
+            author: 'Gene Kranz',
+            year: 2000,
+            url: '',
+            why: 'Mission Control\'s own account, by the flight director most associated with Apollo 13.',
+          },
+          {
+            title: 'An Astronaut\'s Guide to Life on Earth',
+            author: 'Chris Hadfield',
+            year: 2013,
+            url: '',
+            why: 'A station commander on the working habits that long missions actually require.',
+          },
+          {
+            title: 'Rocket Men',
+            author: 'Robert Kurson',
+            year: 2018,
+            url: '',
+            why: 'Apollo 8, the first crewed flight around the Moon, told as the gamble it was.',
+          },
+        ],
+        articles: [
+          {
+            title: 'Key dates in history of space exploration',
+            source: 'Phys.org (Associated Press)',
+            url: 'https://phys.org/news/2012-08-key-dates-history-space-exploration.html',
+            why: 'The dated spine of this lesson, from Sputnik in 1957 to the last shuttle flight in 2011.',
+            year: 2012,
+          },
+          {
+            title: 'NASA marks 15 years of space station occupation',
+            source: 'Spaceflight Now',
+            url: 'https://spaceflightnow.com/2015/11/02/nasa-marks-15-years-of-space-station-occupation/',
+            why: 'What continuous occupation since November 2, 2000 took to build and keep supplied.',
+            year: 2015,
+          },
+        ],
+        courses: [
+          {
+            title: 'Crash Course Astronomy (full series)',
+            provider: 'Crash Course / PBS',
+            url: 'https://www.youtube.com/playlist?list=PL8dPuuaLjXtPAJr1ysd5yGIyiSFuh0mIL',
+            free: true,
+            why: 'The astronomy background for the missions, in the same free series. Episodes 9 to 23 cover the worlds the crews visited or passed.',
+          },
+        ],
+      },
+
+      seeAlso: ['solar', 'bigbang', 'blackholes'],
+      prereqs: ['solar'],
+      leadsTo: ['galaxies'],
+
+      sources: [
+        'https://phys.org/news/2012-08-key-dates-history-space-exploration.html',
+        'https://spaceflightnow.com/2015/11/02/nasa-marks-15-years-of-space-station-occupation/',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    telescopes: {
+      id: 'telescopes',
+      name: 'Telescopes',
+      level: 'Beginner',
+      dek: 'Lenses, mirrors, and mirrors in orbit: how a tube for seeing far became astronomy\'s main instrument.',
+      readTime: '9 min',
+
+      sections: ['A patent in 1608', 'Lenses, then mirrors', 'Bigger glass, higher ground', 'Telescopes leave the ground'],
+      body: [
+        { type: 'lead', text: 'The first telescope on record was not built for the sky. In 1608, in the Netherlands, the eyeglass maker Hans Lippershey applied for a patent on an instrument for seeing distant things as if they were nearby. His design magnified only about three times. Within a year the news had crossed Europe, and the instrument had been pointed up.' },
+        { type: 'h2', text: 'A patent in 1608' },
+        { type: 'p', text: 'Galileo heard of the Dutch device in 1609, built his own, and improved it fast, reaching about 23 times magnification with an objective lens under four centimeters across. With it, beginning in late 1609, he saw mountains on the Moon, four satellites circling Jupiter, spots on the Sun, and the phases of Venus. None of these sights needed a large instrument. They needed the instrument aimed at the sky, and an observer willing to publish what it showed.' },
+        { type: 'h2', text: 'Lenses, then mirrors' },
+        { type: 'p', text: 'Early telescopes used lenses, and bent light by refraction. A lens objective collects light the way a wide bucket collects rain: the bigger the objective, the more light, and the finer the detail it can separate. Lenses are hard to make large and can split colors. Isaac Newton answered with a different geometry in 1668, building the first reflector: a curved mirror to gather the light, and a small flat mirror to send it to an eyepiece at the side. Most large telescopes since have been reflectors.' },
+        { type: 'h2', text: 'Bigger glass, higher ground' },
+        { type: 'p', text: 'The refractor reached its practical peak with the one meter telescope at Yerkes Observatory in 1897, and then mirrors took over. The 100 inch Hooker telescope at Mount Wilson followed in 1917 and the 200 inch Hale telescope in 1948. Computer controlled mounts and active optics, which adjust a mirror\'s shape as it moves, opened the next size class: the 10 meter Keck telescopes of 1993 and 1996, and a generation of 8 meter instruments on high, dry sites in Hawaii and Chile.' },
+        { type: 'h2', text: 'Telescopes leave the ground' },
+        { type: 'p', text: 'The twentieth century also widened the meaning of the word. Radio astronomy began with Karl Jansky\'s accidental discovery of an astronomical radio source in 1931, and telescopes were built for wavelengths from radio to gamma rays. Space observatories after 1960 reached bands the air blocks, including X rays and long wavelength infrared. NASA\'s comparison makes the gain concrete: Hubble\'s mirror is 2.4 meters across, while Webb\'s is 6.6 meters, with more than five times the collecting area, so it gathers light faster and sees dimmer, more distant objects in finer detail.' },
+        { type: 'p', text: 'A three power spyglass became, in four centuries, an instrument that had to be folded to fit its rocket: the same idea, a surface shaped to collect light, carried as far as it will go.' },
+        { type: 'callout', text: 'Magnification is the least of a telescope. Its real work is collecting light and separating close details, and both improve with the size of the objective.' },
+      ],
+
+      keyTerms: ['refractor', 'reflector', 'objective', 'resolution', 'aperture', 'active optics', 'radio telescope', 'infrared'],
+
+      resources: {
+        videos: [
+          {
+            id: 'mYhy7eaazIk',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=mYhy7eaazIk',
+            title: 'Telescopes: Crash Course Astronomy #6',
+            channel: 'Crash Course',
+            duration: 'variable',
+            why: 'How telescopes work, refractors against reflectors, and honest buying advice.',
+          },
+          {
+            id: '0rHUDWjR5gg',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=0rHUDWjR5gg',
+            title: 'Introduction to Astronomy: Crash Course Astronomy #1',
+            channel: 'Crash Course',
+            duration: 'variable',
+            why: 'The revolutions in astronomy that instruments made possible, in series order.',
+          },
+          {
+            id: 'L-Wtlev6suc',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=L-Wtlev6suc',
+            title: 'Naked Eye Observations: Crash Course Astronomy #2',
+            channel: 'Crash Course',
+            duration: 'variable',
+            why: 'What the unaided eye can already do, which is the baseline every telescope extends.',
+          },
+        ],
+        books: [
+          {
+            title: 'The Glass Universe',
+            author: 'Dava Sobel',
+            year: 2016,
+            url: '',
+            why: 'The Harvard Observatory computers, the women whose glass plate work built modern stellar astronomy.',
+          },
+          {
+            title: 'Cosmos',
+            author: 'Carl Sagan',
+            year: 1980,
+            url: '',
+            why: 'Still a good first tour of what the instruments of each era revealed.',
+          },
+          {
+            title: 'The Telescope: Its History, Technology, and Future',
+            author: 'Geoff Andersen',
+            year: 2007,
+            url: '',
+            why: 'A working optical physicist on how telescopes are designed, built, and chosen.',
+          },
+        ],
+        articles: [
+          {
+            title: 'History of the telescope',
+            source: 'Wikipedia',
+            url: 'https://en.wikipedia.org/wiki/History_of_the_telescope',
+            why: 'The dated record behind this lesson, from the 1608 patent to Keck and the space observatories.',
+            year: null,
+          },
+          {
+            title: 'Hubble-Webb Mirror Comparison',
+            source: 'NASA Science',
+            url: 'http://science.nasa.gov/asset/webb/hubble-webb-mirror-comparison/',
+            why: 'NASA\'s own side by side: 2.4 meters against 6.6, and why collecting area is the point.',
+            year: null,
+          },
+        ],
+        courses: [
+          {
+            title: 'Crash Course Astronomy (full series)',
+            provider: 'Crash Course / PBS',
+            url: 'https://www.youtube.com/playlist?list=PL8dPuuaLjXtPAJr1ysd5yGIyiSFuh0mIL',
+            free: true,
+            why: 'Episode 6 is the telescope lesson; episodes 1 and 2 set up what there is to observe. Free.',
+          },
+        ],
+      },
+
+      seeAlso: ['solar', 'stars', 'galaxies'],
+      prereqs: [],
+      leadsTo: ['stars', 'galaxies'],
+
+      sources: [
+        'https://en.wikipedia.org/wiki/History_of_the_telescope',
+        'http://science.nasa.gov/asset/webb/hubble-webb-mirror-comparison/',
+      ],
+      verifiedAt: '2026-10-15',
     },
 
   },
@@ -6470,18 +6931,18 @@ window.CONTENT.beekeeping = {
 // ====== biology.js ======
 // content/biology.js
 // Batch: B03-life-sciences
-// Last updated: 2026-04-22 by BATCH B03-life-sciences
+// Last updated: 2026-10-15 by SPRINT W1
 //
 // Topics this subject must cover (from data.js):
-//   Cells & Genes: cell, genetics, evolution
-//   Systems:       ecology, neuro, anatomy
+//   Cells & Genes: cell, genetics, evolution, microbes, kingdoms
+//   Systems:       ecology, neuro, anatomy, plants, extinction
 
 window.CONTENT = window.CONTENT || {};
 window.CONTENT.biology = {
   subjectId: 'biology',
   version: 1,
-  lastUpdated: '2026-04-22',
-  curator: 'BATCH B03-life-sciences',
+  lastUpdated: '2026-10-15',
+  curator: 'SPRINT W1',
   topics: {
 
     // ——— CELL BIOLOGY ———
@@ -7349,6 +7810,471 @@ window.CONTENT.biology = {
         'https://archive.org/details/anatomydescripti1858gray',
       ],
       verifiedAt: '2026-04-22',
+    },
+
+
+    plants: {
+      id: 'plants',
+      name: 'Plants & Photosynthesis',
+      level: 'Beginner',
+      dek: 'A leaf is a kitchen that runs on light, cooking sugar from air and water and exhaling oxygen.',
+      readTime: '9 min',
+
+      sections: ['A leaf at noon', 'Inside the chloroplast', 'The event that changed the air', 'The base of nearly everything'],
+      body: [
+        { type: 'lead', text: 'Hold a leaf up to the light at noon and it is doing the most consequential chemistry on Earth, quietly, without heat or noise. Sunlight falls on a green surface no thicker than paper. Air enters through pores too small to see. Water arrives from roots in the dark soil below. What leaves the leaf is sugar, stored sunlight in chemical form, and oxygen, released as waste. Almost everything alive eats the sugar, breathes the waste, or eats something that did.' },
+        { type: 'h2', text: 'A leaf at noon' },
+        { type: 'p', text: 'Photosynthesis is the process by which green plants and certain other organisms transform light energy into chemical energy. In green plants, light is captured and used to convert water, carbon dioxide, and minerals into oxygen and energy rich organic compounds. The summary equation is famous and worth reading slowly: six molecules of carbon dioxide and six of water become one molecule of glucose and six of oxygen. The sugar is the point. The oxygen, the part the rest of us care about most, is a byproduct, split off from the water. Plants, algae, and a group of bacteria called cyanobacteria are the organisms that can do this. No animal can.' },
+        { type: 'h2', text: 'Inside the chloroplast' },
+        { type: 'p', text: 'In plants, the work happens in a middle layer of the leaf called the mesophyll, inside organelles called chloroplasts. A chloroplast carries stacks of disc shaped membranes, thylakoids, and the stacks are called grana. The green pigment chlorophyll sits in the thylakoid membranes and makes the first capture of light. Gas exchange happens through small regulated openings called stomata, usually on the underside of the leaf, each flanked by guard cells that open and close them. The process runs in two stages. The light dependent reactions use light energy to make the energy carriers ATP and NADPH. The light independent reactions, the Calvin cycle, spend those carriers to build sugar from carbon dioxide in the fluid around the stacks, the stroma.' },
+        { type: 'callout', text: 'Photosynthesis powers about 99 percent of Earth ecosystems. Nearly every food chain begins with a capture of sunlight.' },
+        { type: 'h2', text: 'The event that changed the air' },
+        { type: 'p', text: 'Long before leaves existed, cyanobacteria were photosynthesizing in the oceans, and their waste oxygen slowly remade the planet. The Great Oxidation Event began about 2.4 billion years ago and was largely driven by those photosynthetic cyanobacteria. Over a span of some 600 million years it raised atmospheric oxygen to nearly 1 percent of present levels, paving the way for most forms of multicellular life. The air in your lungs is an inheritance from microbes cooking in ancient seas. Much later, the buried remains of photosynthetic organisms, protected from decay and changed by geology, became the coal, oil, and natural gas that industrial society burns, returning their stored carbon to the air in a few centuries.' },
+        { type: 'h2', text: 'The base of nearly everything' },
+        { type: 'p', text: 'As primary producers, photosynthetic organisms form the base of Earth food webs and are eaten, directly or indirectly, by nearly every higher life form. If photosynthesis ceased, there would soon be little food or other organic matter on Earth, most organisms would disappear, and the atmosphere would in time lose nearly all its gaseous oxygen. That is the quiet transaction the leaf at noon is performing. It is not scenery. It is the first step of your lunch, the origin of the breath you just took, and the oldest solar technology on the planet, still running at full scale on every green surface the light can reach.' },
+      ],
+
+      keyTerms: ['photosynthesis', 'chlorophyll', 'chloroplast', 'thylakoid', 'stomata', 'Calvin cycle', 'photoautotroph', 'glucose'],
+
+      resources: {
+        videos: [
+          {
+            id: 'sQK3Yr4Sc_k',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=sQK3Yr4Sc_k',
+            title: 'Photosynthesis: Crash Course Biology #8',
+            channel: 'CrashCourse',
+            duration: '13:14',
+            why: 'Hank Green works through the light reactions and the Calvin cycle at full speed and full clarity.',
+          },
+          {
+            id: '8IlzKri08kk',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=8IlzKri08kk',
+            title: 'Introduction to Cells: The Grand Cell Tour',
+            channel: 'Amoeba Sisters',
+            duration: '9:04',
+            why: 'The chloroplast in context, on a tour of the cell that compares plant and animal cells directly.',
+          },
+          {
+            id: 'QnQe0xW_JY4',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=QnQe0xW_JY4',
+            title: 'Carbon... SO SIMPLE: Crash Course Biology #1',
+            channel: 'CrashCourse',
+            duration: '13:23',
+            why: 'Why carbon is the backbone of the sugars photosynthesis builds, from the first episode of the series.',
+          },
+        ],
+        books: [
+          {
+            title: 'The Private Life of Plants',
+            author: 'David Attenborough',
+            year: 1995,
+            url: '',
+            why: 'The companion to the television series: how plants feed, grow, compete, and travel, told with patience.',
+          },
+          {
+            title: 'What a Plant Knows',
+            author: 'Daniel Chamovitz',
+            year: 2012,
+            url: '',
+            why: 'A plant biologist on what plants sense: light, touch, and time. Short, rigorous, and surprising.',
+          },
+          {
+            title: 'The Life of a Leaf',
+            author: 'Steven Vogel',
+            year: 2012,
+            url: '',
+            why: 'A biomechanicist reads a leaf as engineering: light capture, water loss, and heat, all in one thin green sheet.',
+          },
+        ],
+        articles: [
+          {
+            title: 'Photosynthesis',
+            source: 'Encyclopaedia Britannica',
+            url: 'https://www.britannica.com/science/photosynthesis',
+            why: 'The definition, the equation, and the Great Oxidation Event, in a careful editorial summary.',
+            year: null,
+          },
+          {
+            title: 'Overview of Photosynthesis (Biology 2e, 8.1)',
+            source: 'OpenStax',
+            url: 'https://openstax.org/books/biology-2e/pages/8-1-overview-of-photosynthesis',
+            why: 'The free textbook chapter: structures, stages, and why photosynthesis feeds the grocery store.',
+            year: null,
+          },
+        ],
+        courses: [
+          {
+            title: 'Fundamentals of Biology (MIT 7.01SC)',
+            provider: 'MIT OpenCourseWare',
+            url: 'https://ocw.mit.edu/courses/7-01sc-fundamentals-of-biology-fall-2011/',
+            free: true,
+            why: 'A full MIT undergraduate biology course, free, with lectures, problem sets, and exams.',
+          },
+        ],
+      },
+
+      seeAlso: ['cell', 'ecology', 'biochem'],
+      prereqs: ['cell'],
+      leadsTo: ['ecology'],
+
+      sources: [
+        'https://www.britannica.com/science/photosynthesis',
+        'https://openstax.org/books/biology-2e/pages/8-1-overview-of-photosynthesis',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    microbes: {
+      id: 'microbes',
+      name: 'Microbes & Disease',
+      level: 'Beginner',
+      dek: 'Most microbes feed us, digest for us, and enrich the soil. A minority make us ill, changing medicine.',
+      readTime: '9 min',
+
+      sections: ['A world too small to see', 'Mostly harmless, often essential', 'When microbes make us ill', 'Clean hands and the resistance problem'],
+      body: [
+        { type: 'lead', text: 'A gram of garden soil, a pinch held between finger and thumb, contains more living things than there are people in a large city, and almost none of them wish you any harm. They are breaking down dead leaves, freeing nutrients, making the soil fertile enough for the garden above them. Microbes are the oldest, smallest, and most numerous form of life on Earth. Disease is a small part of their story, but it is the part that forced us to notice them.' },
+        { type: 'h2', text: 'A world too small to see' },
+        { type: 'p', text: 'Microbes are organisms too small to be seen except through a microscope: bacteria, viruses, fungi, and protozoa among them. Bacteria alone live in enormous numbers in almost every environment on Earth, from deep sea vents to deep below the surface to the digestive tracts of humans. They are prokaryotes, single celled organisms without a membrane bound nucleus, and as a group they have been present for perhaps three quarters of Earth history. Their metabolic range is wider than that of all visible life put together. Some live on sulfur, some on iron, some in boiling springs and some in ice. Wherever a chemist can imagine a living, something microbial is usually already there, living it.' },
+        { type: 'h2', text: 'Mostly harmless, often essential' },
+        { type: 'p', text: 'Most bacteria are harmless, and many are beneficial ecological agents whose work sustains higher life. Bacteria fix nitrogen from the air into forms plants can use. They decompose dead material, without which soil would not be fertile and the dead would not decay at any useful speed. They are symbiotic partners of plants and animals, they ferment our foods, and they are widely used to prepare chemicals and antibiotics. Your own gut is an ecosystem of them, digesting what your enzymes cannot. The popular picture of the microbe as an enemy is a sampling error. We met the dangerous ones first because they announced themselves.' },
+        { type: 'h2', text: 'When microbes make us ill' },
+        { type: 'p', text: 'The minority that cause disease are called pathogens, and the principle that specific microbes cause specific diseases is the germ theory of medicine. In the mid nineteenth century, Louis Pasteur showed that fermentation and putrefaction are caused by organisms in the air, disproving spontaneous generation. In the 1860s, Joseph Lister revolutionized surgery by using carbolic acid to exclude germs from wounds. In the 1880s, Robert Koch identified the organisms that cause tuberculosis and cholera, and set out the postulates, the criteria for proving that a given microbe causes a given disease. Viruses complicate the picture: they are not cells at all, and they can reproduce only inside a living host, which is why antibiotics, aimed at bacterial machinery, do nothing against them.' },
+        { type: 'callout', text: 'Antibiotics treat bacteria, not viruses. Taking one for a cold does nothing to the cold and trains bacteria elsewhere to resist it.' },
+        { type: 'h2', text: 'Clean hands and the resistance problem' },
+        { type: 'p', text: 'Germ theory led to antiseptic surgery, sterilization, sanitation, vaccination, and the humblest effective technology in medicine, hand hygiene. The World Health Organization treats antimicrobial resistance as a major threat to global health and development: microbes evolve, and every use of an antimicrobial drug selects for the ones that survive it. The pinch of soil between finger and thumb is the right place to end. Those microbes are not invaders and not pets. They are the senior inhabitants of the planet, running its chemistry since long before there were hands to hold soil, and our health depends on keeping the peace with most of them while outwitting the few that harm us.' },
+      ],
+
+      keyTerms: ['microbe', 'bacterium', 'virus', 'pathogen', 'germ theory', 'prokaryote', 'antibiotic', 'antimicrobial resistance', 'vaccination'],
+
+      resources: {
+        videos: [
+          {
+            id: 'ORB866QSGv8',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=ORB866QSGv8',
+            title: 'Bacteria (Updated)',
+            channel: 'Amoeba Sisters',
+            duration: 'variable',
+            why: 'Bacterial structure and reproduction, with the useful correction that not all bacteria are bad.',
+          },
+          {
+            id: '8FqlTslU22s',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=8FqlTslU22s',
+            title: 'Viruses (Updated)',
+            channel: 'Amoeba Sisters',
+            duration: 'variable',
+            why: 'What a virus is, why it needs a host, and how the lytic and lysogenic cycles differ.',
+          },
+          {
+            id: 'uVUf_pt7Sh0',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=uVUf_pt7Sh0',
+            title: 'Antibiotics, Antivirals, and Vaccines',
+            channel: 'Amoeba Sisters',
+            duration: 'variable',
+            why: 'How the three great antimicrobial tools work, and why each only works on its own kind of target.',
+          },
+        ],
+        books: [
+          {
+            title: 'Microbe Hunters',
+            author: 'Paul de Kruif',
+            year: 1926,
+            url: '',
+            why: 'The dramatic classic of early microbiology: Leeuwenhoek, Pasteur, Koch, and the race to name the killers.',
+          },
+          {
+            title: 'Spillover',
+            author: 'David Quammen',
+            year: 2012,
+            url: '',
+            why: 'How animal microbes cross into humans. The best reported account of where new diseases come from.',
+          },
+          {
+            title: 'I Contain Multitudes',
+            author: 'Ed Yong',
+            year: 2016,
+            url: '',
+            why: 'The microbiome, taken seriously and written beautifully. The corrective to a century of germ panic.',
+          },
+        ],
+        articles: [
+          {
+            title: 'Bacteria',
+            source: 'Encyclopaedia Britannica',
+            url: 'https://www.britannica.com/science/bacteria',
+            why: 'What bacteria are, where they live, and why most of them are partners rather than enemies.',
+            year: null,
+          },
+          {
+            title: 'Germ theory',
+            source: 'Encyclopaedia Britannica',
+            url: 'https://www.britannica.com/science/germ-theory',
+            why: 'Pasteur, Lister, and Koch, and how a contested idea rebuilt medicine and public health.',
+            year: null,
+          },
+          {
+            title: 'Antimicrobial resistance',
+            source: 'World Health Organization',
+            url: 'https://www.who.int/health-topics/antimicrobial-resistance',
+            why: 'The WHO topic page on resistance, the slow emergency that now shadows every antibiotic.',
+            year: null,
+          },
+        ],
+        courses: [
+          {
+            title: 'Fundamentals of Biology (MIT 7.01SC)',
+            provider: 'MIT OpenCourseWare',
+            url: 'https://ocw.mit.edu/courses/7-01sc-fundamentals-of-biology-fall-2011/',
+            free: true,
+            why: 'A full MIT undergraduate biology course, free, with lectures, problem sets, and exams.',
+          },
+        ],
+      },
+
+      seeAlso: ['cell', 'genetics', 'anatomy'],
+      prereqs: ['cell'],
+      leadsTo: ['genetics'],
+
+      sources: [
+        'https://www.britannica.com/science/bacteria',
+        'https://www.britannica.com/science/germ-theory',
+        'https://www.who.int/health-topics/antimicrobial-resistance',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    kingdoms: {
+      id: 'kingdoms',
+      name: 'The Kingdoms of Life',
+      level: 'Beginner',
+      dek: 'Sorting life into kingdoms looks like tidiness. It is a running argument about how living things are related.',
+      readTime: '9 min',
+
+      sections: ['Why sort the living world', 'Linnaeus and the two part name', 'The five kingdoms', 'Three domains redraw the map'],
+      body: [
+        { type: 'lead', text: 'In a museum basement there are cabinets of beetles, each drawer sorted, each specimen pinned above a small printed label with a two part Latin name. The labels look like tidiness for its own sake. They are not. Every name is a claim: this beetle belongs with these others, shares an ancestor with them, and differs from the drawer above in ways that can be stated and tested. Classification is biology filing its knowledge where it can be found again, and arguing, drawer by drawer, about where things truly belong.' },
+        { type: 'h2', text: 'Why sort the living world' },
+        { type: 'p', text: 'Taxonomy is the science of classification, and a formal system gives biologists a uniform, internationally understood naming scheme, so that a researcher in Brazil and a researcher in Japan can be certain they mean the same organism. The ranks run from the broad to the narrow: domain, kingdom, phylum, class, order, family, genus, and species. A kingdom is the second broadest rank, a great division of life based on fundamental characters such as cell type, body organization, and how an organism feeds. Move down the ranks and the groups get smaller and the resemblance closer, until a species name picks out one interbreeding kind. The hierarchy is a ladder of claims about relatedness, built to be climbed in both directions.' },
+        { type: 'h2', text: 'Linnaeus and the two part name' },
+        { type: 'p', text: 'The system in use was created by the Swedish naturalist Carolus Linnaeus in the 1750s. Its heart is binomial nomenclature: every species gets a two part name, a capitalized genus name and a lowercase species name, both italicized. Homo sapiens is the famous example. Common names could not do this work. The American robin and the English robin are different birds on different continents, and a shellfish is not a fish. One Latin name per species, the same in every language and every century, ended that confusion. Linnaeus worked from visible structure, long before evolution was proposed or DNA imagined, and the remarkable fact is how much of his filing system survived both revolutions.' },
+        { type: 'h2', text: 'The five kingdoms' },
+        { type: 'p', text: 'The classification most schoolrooms inherited recognized five kingdoms. Animalia: multicellular organisms that ingest their food. Plantae: multicellular makers of food by photosynthesis. Fungi: organisms with cell walls that absorb food, from yeasts to mushrooms. Protista: the mostly single celled eukaryotes, amoebas and algae and their kin, gathered partly by exclusion. And Monera: all the prokaryotes, the bacteria, treated as one kingdom of organisms without a nucleus. For a century this map was good enough to teach from, and parts of it still are. Animals, plants, and fungi remain kingdoms in modern systems, recognized by everyone.' },
+        { type: 'callout', text: 'In the traditional scheme there were five kingdoms: Animalia, Plantae, Fungi, Protista, and Monera. The first four are still in use.' },
+        { type: 'h2', text: 'Three domains redraw the map' },
+        { type: 'p', text: 'The map broke at its smallest scale. Genetic evidence showed that the prokaryotes lumped together as Monera were two profoundly different kinds of life. In the late 1970s the American microbiologist Carl Woese placed all organisms into three domains: Eukarya, Bacteria, and Archaea. Bacteria and Archaea look alike under a microscope, both small and nucleus free, but their chemistry and genes are as different from each other as either is from ours. DNA analysis has gone on reshaping the tree since, measuring relatedness directly instead of inferring it from shape. The beetles in the museum drawer keep their Latin labels. What the labels mean has deepened: not a cabinet of kinds, but a family tree, still being redrawn as the evidence arrives.' },
+      ],
+
+      keyTerms: ['kingdom', 'taxonomy', 'domain', 'binomial nomenclature', 'genus', 'species', 'protist', 'fungi', 'archaea'],
+
+      resources: {
+        videos: [
+          {
+            id: 'DVouQRAKxYo',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=DVouQRAKxYo',
+            title: 'Classification',
+            channel: 'Amoeba Sisters',
+            duration: 'variable',
+            why: 'The full hierarchy, domain to species, with domains and kingdoms in their proper places.',
+          },
+          {
+            id: 'P3GagfbA2vo',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=P3GagfbA2vo',
+            title: 'Evolution: It\'s a Thing - Crash Course Biology #20',
+            channel: 'CrashCourse',
+            duration: 'variable',
+            why: 'Why classification is really about common descent, told through fossils and homologous structures.',
+          },
+          {
+            id: '8IlzKri08kk',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=8IlzKri08kk',
+            title: 'Introduction to Cells: The Grand Cell Tour',
+            channel: 'Amoeba Sisters',
+            duration: '9:04',
+            why: 'Prokaryote against eukaryote, the cell level difference on which the domains rest.',
+          },
+        ],
+        books: [
+          {
+            title: 'Systema Naturae',
+            author: 'Carl Linnaeus',
+            year: 1735,
+            url: '',
+            why: 'The founding document of modern classification, expanded through edition after edition in Linnaeus lifetime.',
+          },
+          {
+            title: 'The Diversity of Life',
+            author: 'Edward O. Wilson',
+            year: 1992,
+            url: '',
+            why: 'A great biologist surveys the variety of life and the systems we use to hold it in mind.',
+          },
+          {
+            title: 'Life on a Young Planet',
+            author: 'Andrew H. Knoll',
+            year: 2003,
+            url: '',
+            why: 'The first three billion years of evolution, where the deepest divisions among kingdoms and domains were set.',
+          },
+        ],
+        articles: [
+          {
+            title: 'Taxonomy',
+            source: 'Encyclopaedia Britannica',
+            url: 'https://www.britannica.com/science/taxonomy',
+            why: 'The history and method of biological classification, from Aristotle through Linnaeus to DNA.',
+            year: null,
+          },
+          {
+            title: 'Bacteria',
+            source: 'Encyclopaedia Britannica',
+            url: 'https://www.britannica.com/science/bacteria',
+            why: 'The clearest short account of the three domain system and why Monera was split.',
+            year: null,
+          },
+        ],
+        courses: [
+          {
+            title: 'Fundamentals of Biology (MIT 7.01SC)',
+            provider: 'MIT OpenCourseWare',
+            url: 'https://ocw.mit.edu/courses/7-01sc-fundamentals-of-biology-fall-2011/',
+            free: true,
+            why: 'A full MIT undergraduate biology course, free, with lectures, problem sets, and exams.',
+          },
+        ],
+      },
+
+      seeAlso: ['cell', 'evolution', 'ecology'],
+      prereqs: ['cell'],
+      leadsTo: ['evolution', 'ecology'],
+
+      sources: [
+        'https://www.britannica.com/science/taxonomy',
+        'https://www.britannica.com/science/bacteria',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    extinction: {
+      id: 'extinction',
+      name: 'Extinction & Biodiversity',
+      level: 'Intermediate',
+      dek: 'Species have always died out. What is new is the rate, and a cause that can read warnings.',
+      readTime: '10 min',
+
+      sections: ['The quiet final individual', 'The Permian warning', 'The present rate', 'What a list can do'],
+      body: [
+        { type: 'lead', text: 'Every extinction ends the same way, in a quiet that is easy to miss: a last individual, unaware of its status, eating or sleeping or calling for a mate that will never answer. Then the place goes on without it. A species is a lineage millions of years in the making, and its ending is permanent in a way that almost nothing else in nature is. Death is reversible for a population. Extinction is not.' },
+        { type: 'h2', text: 'The quiet final individual' },
+        { type: 'p', text: 'Extinction is the dying out of a species, and it occurs when a species is diminished by environmental forces, such as habitat fragmentation, global change, natural disaster, or overexploitation, or by changes within its own members, such as inbreeding and poor reproduction. It is also, at a low background rate, a normal part of evolution: species arise, persist for a time, and yield to successors. The vast majority of species that have ever lived are extinct. What the fossil record adds is a warning about scale. Five times, the record shows mass extinctions, events in which vast numbers of species died out across the whole planet within a geologically short span, separated by long stretches of ordinary, background loss.' },
+        { type: 'h2', text: 'The Permian warning' },
+        { type: 'p', text: 'The most dramatic of the five was the Permian extinction, which closed about 251.9 million years ago. It eliminated about half of all families and about 90 percent of all species, including some 95 percent of marine species and about 70 percent of land species. The event that ended the dinosaurs, the Cretaceous Paleogene extinction about 66 million years ago, was smaller: about 80 percent of animal species, gone in the aftermath of an asteroid strike and a violent climate. Recovery from such events took millions of years, and what recovered was different in kind, built from the survivors. Mass extinction does not end life. It ends the world that was, and hands the planet to whoever is left.' },
+        { type: 'callout', text: 'Ecologists estimate the present day extinction rate at 1,000 to 10,000 times the background rate of one to five species per year.' },
+        { type: 'h2', text: 'The present rate' },
+        { type: 'p', text: 'That estimate is why some scientists call the present moment a sixth mass extinction. The causes are not mysterious: hunting and overharvesting, forests and wetlands converted to cropland and cities, pollution, introduced invasive species, and a warming climate, all driven by human numbers and appetites. Habitat loss is the greatest single factor. The pattern differs from the ancient events in one respect that matters. The Permian world had no witness who could read a core sample, count the missing, and choose otherwise. The current event is being measured while it happens, species by species, by the same species that is causing it.' },
+        { type: 'h2', text: 'What a list can do' },
+        { type: 'p', text: 'Measurement has an address. The IUCN Red List of Threatened Species, established in 1964, is the world most comprehensive record of the conservation status of animal, fungi, and plant species. More than 175,900 species have been assessed for it so far, and more than 49,500 of them are listed as threatened with extinction, about 28 percent of all assessed species. A list cannot save anything by itself. What it does is remove excuses: it names the species, states the risk, records the threats, and points to the conservation actions that would help. The last individual of a species dies quietly, in a place going on without it. The work of the list is to make sure the quiet is noticed in time, while there is still a population left to protect and a choice left to make.' },
+      ],
+
+      keyTerms: ['extinction', 'biodiversity', 'mass extinction', 'background rate', 'endangered species', 'habitat loss', 'IUCN Red List', 'invasive species'],
+
+      resources: {
+        videos: [
+          {
+            id: 'izRvPaAWgyw',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=izRvPaAWgyw',
+            title: 'Ecology - Rules for Living on Earth: Crash Course Biology #40',
+            channel: 'CrashCourse',
+            duration: '11:54',
+            why: 'The ecological frame extinction sits in: populations, communities, and what holds them together.',
+          },
+          {
+            id: 'N2DP1I6CnXw',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=N2DP1I6CnXw',
+            title: 'How Humans Are Causing The Sixth Mass Extinction | The Holocene Extinction, Explained | EXPLORE MODE',
+            channel: 'Explore Mode',
+            duration: 'variable',
+            why: 'The human causes, taken one at a time: climate, habitat, hunting, and invasive species.',
+          },
+          {
+            id: 'ysa5OBhXz-Q',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=ysa5OBhXz-Q',
+            title: 'How Wolves Change Rivers',
+            channel: 'Sustainable Human',
+            duration: '4:34',
+            why: 'The reverse of extinction in four minutes: a returned species rebuilding a whole ecosystem.',
+          },
+        ],
+        books: [
+          {
+            title: 'The Sixth Extinction: An Unnatural History',
+            author: 'Elizabeth Kolbert',
+            year: 2014,
+            url: '',
+            why: 'Pulitzer winning reporting on the current crisis, from golden frogs to the Great Auk.',
+          },
+          {
+            title: 'The Song of the Dodo',
+            author: 'David Quammen',
+            year: 1996,
+            url: '',
+            why: 'Island biogeography and extinction, written as an adventure in ideas. The deepest popular book on the subject.',
+          },
+          {
+            title: 'The Diversity of Life',
+            author: 'Edward O. Wilson',
+            year: 1992,
+            url: '',
+            why: 'What biodiversity is, how it arose, and what its loss would mean, by the biologist who named it.',
+          },
+        ],
+        articles: [
+          {
+            title: 'Extinction',
+            source: 'Encyclopaedia Britannica',
+            url: 'https://www.britannica.com/science/extinction-biology',
+            why: 'The five mass extinctions ranked, the background rate, and the human causes, in one editorial account.',
+            year: null,
+          },
+          {
+            title: 'The IUCN Red List of Threatened Species',
+            source: 'IUCN',
+            url: 'https://www.iucnredlist.org/',
+            why: 'The working list itself: categories, counts of threatened species, and the evidence behind each listing.',
+            year: null,
+          },
+        ],
+        courses: [
+          {
+            title: 'Fundamentals of Biology (MIT 7.01SC)',
+            provider: 'MIT OpenCourseWare',
+            url: 'https://ocw.mit.edu/courses/7-01sc-fundamentals-of-biology-fall-2011/',
+            free: true,
+            why: 'A full MIT undergraduate biology course, free, with lectures, problem sets, and exams.',
+          },
+        ],
+      },
+
+      seeAlso: ['evolution', 'ecology', 'genetics'],
+      prereqs: ['evolution', 'ecology'],
+      leadsTo: [],
+
+      sources: [
+        'https://www.britannica.com/science/extinction-biology',
+        'https://www.iucnredlist.org/',
+      ],
+      verifiedAt: '2026-10-15',
     },
 
   },
@@ -9329,18 +10255,18 @@ window.CONTENT.cheesemaking = {
 // ====== chemistry.js ======
 // content/chemistry.js
 // Owned by batch: B02-hard-sciences
-// Last updated: 2026-04-22 by BATCH B02-hard-sciences
+// Last updated: 2026-10-15 by SPRINT W1
 //
 // Topics this subject must cover (from data.js):
-//   General:  atoms, bonds, reactions, acidbase
+//   General:  atoms, bonds, reactions, acidbase, periodic, states, solutions, mole
 //   Advanced: organic, biochem
 
 window.CONTENT = window.CONTENT || {};
 window.CONTENT.chemistry = {
   subjectId: 'chemistry',
   version: 1,
-  lastUpdated: '2026-04-22',
-  curator: 'BATCH B02-hard-sciences',
+  lastUpdated: '2026-10-15',
+  curator: 'SPRINT W1',
   topics: {
 
     atoms: {
@@ -10248,6 +11174,465 @@ window.CONTENT.chemistry = {
         'https://ocw.mit.edu/courses/5-07sc-biological-chemistry-i-fall-2013/',
       ],
       verifiedAt: '2026-04-22',
+    },
+
+
+    periodic: {
+      id: 'periodic',
+      name: 'The Periodic Table',
+      level: 'Beginner',
+      dek: 'One page of boxes that predicts how every element will behave, including elements nobody had yet found.',
+      readTime: '9 min',
+
+      sections: ['A table with gaps', 'Rows, columns, and shells', 'Groups that behave alike', 'Trends and the unfinished edges'],
+      body: [
+        { type: 'lead', text: 'On March 6, 1869, Dmitri Mendeleev presented a table that did something no list of elements had done before. It left holes. Where an element ought to sit but none was known, he left an empty square and described the missing substance anyway: its weight, its density, how it should behave. The table was a bet that matter has an order, and that the order is strong enough to predict what has not yet been seen.' },
+        { type: 'h2', text: 'A table with gaps' },
+        { type: 'p', text: 'Mendeleev was not the first chemist to notice patterns among the elements, but he trusted the pattern further than anyone else. Arranged by atomic weight, the elements fell into a rhythm: properties repeated at regular intervals, like notes returning at the octave. When the rhythm and the measured weights disagreed, he sided with the rhythm. Britannica records that his revised table of 1871 predicted three elements that had not yet been discovered: scandium, gallium, and germanium. All three were found, with properties close to his forecasts. A classification had become a prediction machine.' },
+        { type: 'h2', text: 'Rows, columns, and shells' },
+        { type: 'p', text: 'The modern table arranges elements by atomic number, the count of protons in the nucleus, rather than by weight. Hydrogen, with one proton, sits first. Oganesson, with 118, sits last among the known elements. A new row, called a period, begins when a new electron shell starts to fill, and a column, called a group, collects elements whose outer electrons are arranged alike. The groups are numbered from 1 to 18. That is why the table has its odd shape, with two long rows set below the main body: the shape is a picture of how electrons fill a space.' },
+        { type: 'h2', text: 'Groups that behave alike' },
+        { type: 'p', text: 'Read down a column and you meet a family. The alkali metals in group 1 are soft, reactive metals with one outer electron to give away. The halogens in group 17 are reactive nonmetals, one electron short of a full shell. The noble gases in group 18 have full outer shells and mostly keep to themselves. Similar outer arrangements mean similar chemistry, so the position of an unfamiliar element tells a chemist a surprising amount about how it will react, what compounds it will form, and what it will refuse to do.' },
+        { type: 'callout', text: 'Today, 118 elements are known. The first 94 occur naturally on Earth, and the remaining 24 are made in laboratories.' },
+        { type: 'h2', text: 'Trends and the unfinished edges' },
+        { type: 'p', text: 'Across a period, metallic character fades as you move from left to right, while nonmetallic character grows toward the upper right of the table. Down a group, atoms get larger and their outer electrons sit farther from the nucleus, easier to lose. These trends let chemists reason from neighbours: an element is guessed at from the company it keeps. At the far edge, the heaviest elements live briefly in accelerators before decaying, and researchers still test whether the pattern holds there. Mendeleev left holes in a table and trusted strangers to fill them. The strangers are still at work, one new square at a time, and the table on the classroom wall is still the same bet he made: that the order is real, and that it can be read.' },
+      ],
+
+      keyTerms: ['element', 'atomic number', 'periodic law', 'group', 'period', 'valence electron', 'alkali metal', 'noble gas'],
+
+      resources: {
+        videos: [
+          {
+            id: '0RRVV4Diomg',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=0RRVV4Diomg',
+            title: 'The Periodic Table: Crash Course Chemistry #4',
+            channel: 'Crash Course',
+            duration: '11:23',
+            why: 'Hank Green tours the table and tells the Mendeleev story with the right sense of obsession.',
+          },
+          {
+            id: '3NhBzKP03gY',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=3NhBzKP03gY',
+            title: 'What is the Periodic Table? How are Elements Organized?',
+            channel: 'Math and Science',
+            duration: 'variable',
+            why: 'A patient walk through groups, periods, and how position predicts behaviour.',
+          },
+          {
+            id: 'FSyAehMdpyI',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=FSyAehMdpyI',
+            title: 'The Nucleus: Crash Course Chemistry #1',
+            channel: 'Crash Course',
+            duration: '11:22',
+            why: 'Atomic number starts here, with protons, neutrons, and why the nucleus defines the element.',
+          },
+        ],
+        books: [
+          {
+            title: 'The Periodic Table',
+            author: 'Primo Levi',
+            year: 1975,
+            url: '',
+            why: 'A chemist and writer remembers a life through twenty one chapters, each named for an element.',
+          },
+          {
+            title: 'Uncle Tungsten',
+            author: 'Oliver Sacks',
+            year: 2001,
+            url: '',
+            why: 'A boyhood among metals and chemical sets, and the best invitation to the table ever written for a general reader.',
+          },
+          {
+            title: 'The Periodic Table: A Very Short Introduction',
+            author: 'Eric Scerri',
+            year: 2011,
+            url: '',
+            why: 'A short, serious account of what the table means and why philosophers of chemistry still argue about it.',
+          },
+        ],
+        articles: [
+          {
+            title: 'Periodic table',
+            source: 'Wikipedia',
+            url: 'https://en.wikipedia.org/wiki/Periodic_table',
+            why: 'The full reference: structure, trends, history, and the state of the heaviest elements.',
+            year: null,
+          },
+          {
+            title: 'Periodic table',
+            source: 'Encyclopaedia Britannica',
+            url: 'https://www.britannica.com/science/periodic-table',
+            why: 'A concise editorial account, with the 1869 presentation and the predicted elements set out clearly.',
+            year: null,
+          },
+        ],
+        courses: [
+          {
+            title: '5.111 Principles of Chemical Science',
+            provider: 'MIT OpenCourseWare',
+            url: 'https://ocw.mit.edu/courses/5-111sc-principles-of-chemical-science-fall-2014/',
+            free: true,
+            why: 'The full MIT first year chemistry course, free, with lectures, notes, and problem sets.',
+          },
+        ],
+      },
+
+      seeAlso: ['atoms', 'bonds', 'reactions'],
+      prereqs: [],
+      leadsTo: ['bonds', 'reactions'],
+
+      sources: [
+        'https://en.wikipedia.org/wiki/Periodic_table',
+        'https://www.britannica.com/science/periodic-table',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    states: {
+      id: 'states',
+      name: 'States of Matter',
+      level: 'Beginner',
+      dek: 'The same water can be ice, rain, or steam. Only the spacing and the energy of particles change.',
+      readTime: '9 min',
+
+      sections: ['Packed, flowing, and free', 'Changing state', 'Plasma, the common state', 'Stranger states at the edges'],
+      body: [
+        { type: 'lead', text: 'An ice cube in a glass does its slow work on a warm afternoon. It holds its shape, then gives it up, rounding at the corners, sliding into water that takes the shape of the glass instead. Warm that water and it escapes upward as steam, filling the kitchen and vanishing into the air. Nothing has been added and nothing taken away. The water is the same water in three different arrangements, and the difference between them is energy.' },
+        { type: 'h2', text: 'Packed, flowing, and free' },
+        { type: 'p', text: 'Four states of matter are observable in everyday life: solid, liquid, gas, and plasma. In a solid, the particles are tightly packed and held near fixed positions, able only to vibrate, so a solid keeps both its shape and its volume. In a liquid, the particles stay close but can move past one another, so a liquid keeps its volume while taking the shape of its container. In a gas, the particles are far apart and move freely, expanding to fill both the shape and the volume of whatever holds them. The states are not kinds of stuff. They are kinds of behaviour, set by how much energy the particles have and how strongly they hold on to each other.' },
+        { type: 'h2', text: 'Changing state' },
+        { type: 'p', text: 'Heat a solid and, at its melting point, it becomes a liquid. Heat the liquid and it boils into a gas. Cool a gas and it condenses; cool a liquid and it freezes. Solids can also pass directly into gas by sublimation, the way dry ice smokes on a stage without ever puddling. Each change has a name and each takes or releases energy, which is why steam burns worse than hot water and why sweat cools skin. Even a single state can hide variety: ice alone has fifteen known crystal structures, each stable at different temperatures and pressures.' },
+        { type: 'callout', text: 'Plasma is by far the most abundant of the four states. About 99 percent of all ordinary matter in the universe is plasma, because plasma is what stars are made of.' },
+        { type: 'h2', text: 'Plasma, the common state' },
+        { type: 'p', text: 'Heat a gas far enough, or pass a strong voltage through it, and electrons tear free of their atoms. The result is plasma: a gas like mixture of charged particles, ions and free electrons, that responds to electric and magnetic fields. Plasma is rare in a kitchen and everywhere in the sky. Lightning is plasma. A neon sign is plasma. The Sun, its corona, and every star you can see are plasma. The state that feels most exotic on Earth turns out to be the ordinary condition of matter in the universe at large.' },
+        { type: 'h2', text: 'Stranger states at the edges' },
+        { type: 'p', text: 'Push conditions to extremes and other states appear. Near absolute zero, atoms can settle into a Bose Einstein condensate, behaving as one quantum whole rather than as separate particles. Above the critical point of water, around 647 kelvin, liquid and gas stop being distinguishable and become a single supercritical fluid. Between solid and liquid sit liquid crystals, which flow like a liquid while keeping some of the order of a crystal, and which run the display you may be reading this on. The ice cube in the glass, meanwhile, finishes melting into the arrangement the afternoon allows. Give it heat and it will climb the same ladder again, state by state, the same water all the way up.' },
+      ],
+
+      keyTerms: ['solid', 'liquid', 'gas', 'plasma', 'phase transition', 'melting point', 'sublimation', 'critical point'],
+
+      resources: {
+        videos: [
+          {
+            id: '9TVOlTolKFA',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=9TVOlTolKFA',
+            title: 'States of Matter - Solids, Liquids, Gases & Plasma - Chemistry',
+            channel: 'The Organic Chemistry Tutor',
+            duration: 'variable',
+            why: 'A clear basic introduction to the four states and what separates them.',
+          },
+          {
+            id: 'hkBrw2fG75U',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=hkBrw2fG75U',
+            title: 'GCSE Chemistry - States of Matter & Changing State',
+            channel: 'Cognito',
+            duration: 'variable',
+            why: 'Particle theory used well: the three everyday states and the changes between them.',
+          },
+          {
+            id: 'a-X0lLGVL2o',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=a-X0lLGVL2o',
+            title: 'Every State of Matter Explained',
+            channel: 'YouTube science explainer',
+            duration: 'variable',
+            why: 'From solids to superfluids and quark gluon plasma, a tour of the states beyond the familiar four.',
+          },
+        ],
+        books: [
+          {
+            title: 'The Laws of Thermodynamics: A Very Short Introduction',
+            author: 'Peter Atkins',
+            year: 2010,
+            url: '',
+            why: 'The rules that govern energy and change of state, in a hundred lucid pages.',
+          },
+          {
+            title: 'Ice: The Nature, the History, and the Uses of an Astonishing Substance',
+            author: 'Mariana Gosnell',
+            year: 2005,
+            url: '',
+            why: 'One solid, taken seriously: its physics, its history, and its strange variety of forms.',
+          },
+          {
+            title: 'The Feynman Lectures on Physics, Vol. I',
+            author: 'Richard P. Feynman, Robert B. Leighton, and Matthew Sands',
+            year: 1964,
+            url: '',
+            why: 'The opening chapters remain the finest plain account of atoms in motion and what temperature means.',
+          },
+        ],
+        articles: [
+          {
+            title: 'State of matter',
+            source: 'Wikipedia',
+            url: 'https://en.wikipedia.org/wiki/State_of_matter',
+            why: 'The reference account of the classical states, phase transitions, and the nonclassical states beyond them.',
+            year: null,
+          },
+          {
+            title: 'Phase (matter)',
+            source: 'Wikipedia',
+            url: 'https://en.wikipedia.org/wiki/Phase_(matter)',
+            why: 'On phases, phase diagrams, the triple point, and the critical point, with water as the running example.',
+            year: null,
+          },
+        ],
+        courses: [
+          {
+            title: '5.111 Principles of Chemical Science',
+            provider: 'MIT OpenCourseWare',
+            url: 'https://ocw.mit.edu/courses/5-111sc-principles-of-chemical-science-fall-2014/',
+            free: true,
+            why: 'The full MIT first year chemistry course, free, with lectures, notes, and problem sets.',
+          },
+        ],
+      },
+
+      seeAlso: ['atoms', 'bonds', 'reactions'],
+      prereqs: ['atoms'],
+      leadsTo: ['reactions'],
+
+      sources: [
+        'https://en.wikipedia.org/wiki/State_of_matter',
+        'https://en.wikipedia.org/wiki/Phase_(matter)',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    solutions: {
+      id: 'solutions',
+      name: 'Solutions & Mixtures',
+      level: 'Intermediate',
+      dek: 'Salt vanishes into water and is still there. Dissolving, saturation, and concentration explain where it went.',
+      readTime: '9 min',
+
+      sections: ['What dissolving really is', 'Solvent, solute, and the odd cases', 'How much is in there', 'When no more will dissolve'],
+      body: [
+        { type: 'lead', text: 'Stir salt into a pan of water and it disappears. The water stays clear, tastes of the sea, and weighs exactly what the water and the salt weighed together. Nothing has vanished. The salt has come apart, ion by ion, and spread evenly through the water, too finely divided to see and too evenly mixed to settle. That evenness is the whole idea of a solution, and learning to measure it is most of practical chemistry.' },
+        { type: 'h2', text: 'What dissolving really is' },
+        { type: 'p', text: 'A solution is a homogeneous mixture: its components form a single phase, and its properties, such as concentration and density, are uniform throughout once mixing is complete. The substance present in the greatest amount is called the solvent, and the others are solutes. When salt dissolves in water, the solvent molecules surround the charged sodium and chloride ions and pull them away from the crystal, a process called hydration when the solvent is water. Such a solution conducts electricity, and the dissolved salt is an electrolyte. Sugar dissolves differently, as whole molecules, and its solution does not conduct. Same clear glass, two different microscopic stories.' },
+        { type: 'h2', text: 'Solvent, solute, and the odd cases' },
+        { type: 'p', text: 'Solutions are not only liquids. Air is a gaseous solution, gases dissolved in nitrogen. Brass is a solid solution of copper and zinc, and steel is a solution of carbon atoms in a crystalline matrix of iron atoms. The solution takes the physical state of its solvent, which is why a solid can be a solution at all. Two liquids that mix in all proportions, like ethanol and water, are called miscible. Two that refuse, like oil and water, are immiscible, and no amount of stirring persuades them for long. The working rule is old and reliable: like dissolves like. Polar solvents dissolve polar and charged solutes; nonpolar solvents dissolve nonpolar ones.' },
+        { type: 'h2', text: 'How much is in there' },
+        { type: 'p', text: 'Concentration is the measure of how much solute a given amount of solution holds, and chemistry has several ways to state it: molarity, volume fraction, mole fraction, and percent by mass among them. Molarity, the laboratory standard, counts moles of solute per litre of solution. Air shows the same bookkeeping in gas form: by volume it is about 78 percent nitrogen and about 21 percent oxygen, with argon near 1 percent. A dilute solution has little solute for its solvent; a concentrated one has much. The words are vague until a unit is attached, which is why recipes in a laboratory are written in molarity and not in pinches.' },
+        { type: 'callout', text: 'A solution can be solid. Brass and steel are both solid solutions, mixtures mixed at the level of atoms and frozen in place.' },
+        { type: 'h2', text: 'When no more will dissolve' },
+        { type: 'p', text: 'Every solution has a limit. Add solute past it and the excess stays solid at the bottom of the glass: the solution is saturated. The limit moves with conditions. Usually, the warmer the solvent, the more of a solid solute it can hold, while most gases dissolve less as temperature rises, which is why a warm soda goes flat and why fish struggle in warm, still water. Trick the limit by dissolving at high temperature and cooling slowly, and you get a supersaturated solution, holding more than it should until one seed crystal sets off a sudden snowfall of solid. The salt in the pan, though, asks for none of this drama. It is simply there, evenly, invisibly, exactly as much of it as you put in.' },
+      ],
+
+      keyTerms: ['solution', 'solute', 'solvent', 'concentration', 'molarity', 'solubility', 'saturated', 'miscible', 'electrolyte'],
+
+      resources: {
+        videos: [
+          {
+            id: 'MDHlaTHbEgM',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=MDHlaTHbEgM',
+            title: 'Solute, Solvent, & Solution - Solubility Chemistry',
+            channel: 'The Organic Chemistry Tutor',
+            duration: 'variable',
+            why: 'How water takes a salt crystal apart, and what solute, solvent, and electrolyte each mean.',
+          },
+          {
+            id: 'O_nyEj_hZzg',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=O_nyEj_hZzg',
+            title: 'Molarity, Molality, Volume & Mass Percent, Mole Fraction & Density - Solution Concentration Problems',
+            channel: 'The Organic Chemistry Tutor',
+            duration: '31:24',
+            why: 'Concentration in all its standard units, worked through real problems at a steady pace.',
+          },
+          {
+            id: 'RjXYvOiLh2w',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=RjXYvOiLh2w',
+            title: 'Concentration - ways to report it (molarity, molality, mole fraction, percentages, etc.)',
+            channel: 'The Bumbling Biochemist',
+            duration: 'variable',
+            why: 'A biochemist on which concentration unit to use when, and why the choice matters at the bench.',
+          },
+        ],
+        books: [
+          {
+            title: 'Napoleon\'s Buttons',
+            author: 'Penny Le Couteur and Jay Burreson',
+            year: 2003,
+            url: '',
+            why: 'Seventeen molecules that changed history, most of them met in solution. A friendly way into applied chemistry.',
+          },
+          {
+            title: 'Atkins\' Physical Chemistry',
+            author: 'Peter Atkins and Julio de Paula',
+            year: 1978,
+            url: '',
+            why: 'The standard text. Its treatment of mixtures and colligative properties is the reference other books follow.',
+          },
+          {
+            title: 'Chemistry: The Central Science',
+            author: 'Brown, LeMay, Bursten, et al.',
+            year: 1977,
+            url: '',
+            why: 'The general chemistry textbook of record in American universities, strong on solutions and their properties.',
+          },
+        ],
+        articles: [
+          {
+            title: 'Solution (chemistry)',
+            source: 'Wikipedia',
+            url: 'https://en.wikipedia.org/wiki/Solution_(chemistry)',
+            why: 'The IUPAC definition, the types of solution, solubility, and colligative properties in one reference.',
+            year: null,
+          },
+          {
+            title: 'Solution',
+            source: 'Encyclopaedia Britannica',
+            url: 'https://www.britannica.com/science/solution-chemistry',
+            why: 'A short editorial treatment, good on electrolytes and on why life processes run in solution.',
+            year: null,
+          },
+        ],
+        courses: [
+          {
+            title: '5.111 Principles of Chemical Science',
+            provider: 'MIT OpenCourseWare',
+            url: 'https://ocw.mit.edu/courses/5-111sc-principles-of-chemical-science-fall-2014/',
+            free: true,
+            why: 'The full MIT first year chemistry course, free, with lectures, notes, and problem sets.',
+          },
+        ],
+      },
+
+      seeAlso: ['reactions', 'acidbase', 'bonds'],
+      prereqs: ['atoms', 'bonds'],
+      leadsTo: ['acidbase', 'biochem'],
+
+      sources: [
+        'https://en.wikipedia.org/wiki/Solution_(chemistry)',
+        'https://www.britannica.com/science/solution-chemistry',
+        'https://www.youtube.com/watch?v=RjXYvOiLh2w',
+        'https://en.wikipedia.org/wiki/Atmosphere_of_Earth',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    mole: {
+      id: 'mole',
+      name: 'The Mole',
+      level: 'Intermediate',
+      dek: 'Chemists count atoms by weighing them. The mole is the exchange rate between the scale and the atom.',
+      readTime: '9 min',
+
+      sections: ['A dozen, scaled up', 'Avogadro and the long road', 'Molar mass, the bridge', 'The 2019 settlement'],
+      body: [
+        { type: 'lead', text: 'No one can count the atoms in a spoonful of sugar. There are too many, by a factor that defeats every metaphor built for human hands. So chemists do what merchants have always done with things too numerous to count one by one: they count by weight, using a fixed bundle. A dozen is a bundle of 12. A mole is a bundle so large that a bundle of atoms becomes something you can hold, pour, and put on a scale.' },
+        { type: 'h2', text: 'A dozen, scaled up' },
+        { type: 'p', text: 'One mole contains exactly 6.02214076 x 10^23 elementary entities. The entities can be atoms, molecules, ions, or other specified particles, but the count is always the same. That count is the Avogadro number. Written out, it runs to 602 sextillion, a number with no everyday comparison that survives contact with it. The point of the bundle is not the spectacle. It is that one mole of carbon 12 atoms has a mass of 12 grams, and one mole of oxygen atoms, the same count of atoms, has a mass of 15.999 grams. Equal counts, different weights, and the weights are printed on the periodic table for anyone to use.' },
+        { type: 'h2', text: 'Avogadro and the long road' },
+        { type: 'p', text: 'The idea descends from Amedeo Avogadro, the Italian physicist who proposed that equal volumes of gases, under the same conditions, contain the same number of molecules. The hypothesis helped fix atomic and molecular weights through the nineteenth century, while the bundle itself acquired a name late: the word mole is an 1897 translation of the German Mol, coined by Wilhelm Ostwald in 1894 from Molekul, the German for molecule. In 1971 the mole became the seventh base unit of the International System of Units, the unit of amount of substance. Counting, formally, had become a physical quantity.' },
+        { type: 'h2', text: 'Molar mass, the bridge' },
+        { type: 'p', text: 'The mass of one mole of a substance, in grams, is its molar mass, and it is read off the atomic weights. Water is two hydrogen atoms at 1.008 each and one oxygen at 15.999, so one mole of water has a mass of 18.015 grams. Divide the mass you have by the molar mass and you have the amount in moles; multiply back and you have the mass. With that bridge, equations become recipes. The reaction of hydrogen and oxygen reads, in moles: two moles of hydrogen and one mole of oxygen make two moles of water. A factory, a pharmacy, and a school laboratory all run on that translation between the balance and the atom.' },
+        { type: 'callout', text: 'To find how many moles of a material you have, divide its mass by its molar mass. That one division is most of stoichiometry.' },
+        { type: 'h2', text: 'The 2019 settlement' },
+        { type: 'p', text: 'For decades the mole was defined by a lump of stuff: the number of atoms in 12 grams of carbon 12. That made the Avogadro constant a measured quantity, known only as precisely as experiments could manage. The General Conference on Weights and Measures settled it the other way round. Effective May 20, 2019, the mole is defined as exactly 6.02214076 x 10^23 entities, and the lump now answers to the number rather than the number to the lump. The spoonful of sugar has not changed. What changed is that its count now rests on a definition no laboratory accident can disturb, a bundle fixed by agreement, exact by law, and large enough to hold a science.' },
+      ],
+
+      keyTerms: ['mole', 'Avogadro constant', 'amount of substance', 'molar mass', 'carbon 12', 'stoichiometry', 'elementary entity'],
+
+      resources: {
+        videos: [
+          {
+            id: 'TEl4jeETVmg',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=TEl4jeETVmg',
+            title: 'How big is a mole? (Not the animal, the other one.) - Daniel Dulek',
+            channel: 'TED-Ed',
+            duration: 'variable',
+            why: 'The classic attempt to feel the size of the Avogadro number, with mole sized piles of everyday things.',
+          },
+          {
+            id: 'wI56mHUDJgQ',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=wI56mHUDJgQ',
+            title: 'Introduction to Moles',
+            channel: 'Khan Academy',
+            duration: 'variable',
+            why: 'The mole as a name for a number, and how to abbreviate a count with 23 zeros.',
+          },
+          {
+            id: 'O_nyEj_hZzg',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=O_nyEj_hZzg',
+            title: 'Molarity, Molality, Volume & Mass Percent, Mole Fraction & Density - Solution Concentration Problems',
+            channel: 'The Organic Chemistry Tutor',
+            duration: '31:24',
+            why: 'Moles at work: the concentration calculations that turn the definition into bench skill.',
+          },
+        ],
+        books: [
+          {
+            title: 'The Measure of All Things',
+            author: 'Ken Alder',
+            year: 2002,
+            url: '',
+            why: 'The story of the metric system and the surveyors who built it. The mole is a late child of the same project.',
+          },
+          {
+            title: 'The Disappearing Spoon',
+            author: 'Sam Kean',
+            year: 2010,
+            url: '',
+            why: 'A popular tour of the elements that makes counting, weighing, and atomic mass feel like narrative.',
+          },
+          {
+            title: 'Chemistry: The Central Science',
+            author: 'Brown, LeMay, Bursten, et al.',
+            year: 1977,
+            url: '',
+            why: 'The standard general chemistry text, with the clearest worked treatment of moles and stoichiometry.',
+          },
+        ],
+        articles: [
+          {
+            title: 'Mole (unit)',
+            source: 'Wikipedia',
+            url: 'https://en.wikipedia.org/wiki/Mole_(unit)',
+            why: 'The definition, the history from Dalton to the 2019 revision, and the derived units.',
+            year: null,
+          },
+          {
+            title: 'Mole',
+            source: 'Encyclopaedia Britannica',
+            url: 'https://www.britannica.com/science/mole-chemistry',
+            why: 'A compact account of the definition, the 2019 change, and how molar mass is calculated.',
+            year: null,
+          },
+        ],
+        courses: [
+          {
+            title: '5.111 Principles of Chemical Science',
+            provider: 'MIT OpenCourseWare',
+            url: 'https://ocw.mit.edu/courses/5-111sc-principles-of-chemical-science-fall-2014/',
+            free: true,
+            why: 'The full MIT first year chemistry course, free, with lectures, notes, and problem sets.',
+          },
+        ],
+      },
+
+      seeAlso: ['atoms', 'reactions', 'acidbase'],
+      prereqs: ['atoms'],
+      leadsTo: ['reactions', 'acidbase'],
+
+      sources: [
+        'https://en.wikipedia.org/wiki/Mole_(unit)',
+        'https://www.britannica.com/science/mole-chemistry',
+      ],
+      verifiedAt: '2026-10-15',
     },
 
   },
@@ -22091,18 +23476,18 @@ window.CONTENT.gardening = {
 // ====== geography.js ======
 // content/geography.js
 // Owned by batch: B05-social-world
-// Last updated: 2026-04-23 by BATCH B05-social-world
+// Last updated: 2026-10-15 by SPRINT W1
 //
 // Topics this subject must cover (from data.js):
-//   Physical: climate, biomes
-//   Human:    cities, cartography, geopolitics
+//   Physical: climate, biomes, continents, landforms
+//   Human:    cities, cartography, geopolitics, population
 
 window.CONTENT = window.CONTENT || {};
 window.CONTENT.geography = {
   subjectId: 'geography',
   version: 2,
-  lastUpdated: '2026-04-23',
-  curator: 'BATCH B05-social-world',
+  lastUpdated: '2026-10-15',
+  curator: 'SPRINT W1',
   topics: {
 
     // ——— CLIMATE ———
@@ -23613,6 +24998,352 @@ window.CONTENT.geography = {
       verifiedAt: '2026-04-23',
     },
 
+    continents: {
+      id: 'continents',
+      name: 'Continents & Oceans',
+      level: 'Beginner',
+      dek: 'Seven large landmasses by convention, five oceans around them, and borders that geology and history draw differently.',
+      readTime: '9 min',
+
+      sections: ['Seven by convention', 'The ocean between them', 'Joined, split, and joined again', 'Borders that are not lines in rock'],
+      body: [
+        { type: 'lead', text: 'A classroom globe makes the world look settled: blue water, colored land, seven continents with names in confident type. Spin it slowly and the confidence thins. Where exactly does Europe end and Asia begin? Why is Greenland, bigger than most countries, an island, while Australia, not much larger, is a continent? The globe hides the arguments. This lesson opens them.' },
+        { type: 'h2', text: 'Seven by convention' },
+        { type: 'p', text: 'Most English speaking countries are taught seven continents: Asia, Africa, North America, South America, Antarctica, Europe, and Australia with Oceania. It is a convention, not a law of nature, and other traditions count differently. By the figures in the standard reference table, Asia is the largest at 44,614,000 square kilometers, about 29.8 percent of the world\'s land, and Europe the second smallest at 10,000,000. The island question is settled by size alone: Greenland covers 2,166,086 square kilometers and is called the world\'s largest island, while Australia at 7,617,930 is deemed the smallest continent.' },
+        { type: 'h2', text: 'The ocean between them' },
+        { type: 'p', text: 'The water is one body. All the landmasses border a single continuous ocean, divided by the continents into named oceans, much as the continents divide the land. The naming runs the other way from the drawing: we speak of five oceans as if they were separate seas, but a ship can sail among them without crossing land, and the water itself does not respect the labels. Only two continents are completely cut off by that water, Antarctica and Australia. Every other landmass is joined to a neighbor somewhere.' },
+        { type: 'h2', text: 'Joined, split, and joined again' },
+        { type: 'p', text: 'The joins are narrow and famous. Africa meets Asia at the Isthmus of Suez, and North America meets South America at the Isthmus of Panama, which is why canals were dug at exactly those two seams. Underneath the conventions sits the geology: continents are not fixed rafts but fragments of crust that have moved, and the standard account has them once joined in a single supercontinent, Pangaea, then broken apart by continental drift into the arrangement the globe now shows. The borders children memorize are a snapshot of a process still running.' },
+        { type: 'h2', text: 'Borders that are not lines in rock' },
+        { type: 'p', text: 'So a continent is a large landmass, partly a fact of geology and partly a decision of culture. Europe and Asia share one continuous landmass, and the line between them follows mountains, rivers, and history rather than any break in the crust. Geographers keep the seven continent model because it is useful and widely shared, not because the planet insists on it. Knowing which parts of the map are rock and which are agreements is the beginning of reading any map critically.' },
+        { type: 'p', text: 'Spin the globe again. The colors and names are still there, but now they read as what they are: geology underneath, convention on top, and water, one world ocean, holding the whole arrangement together.' },
+        { type: 'callout', text: 'By size alone: Greenland at 2,166,086 square kilometers is an island. Australia at 7,617,930 is a continent. The category follows the convention, not the coastline.' },
+      ],
+
+      keyTerms: ['continent', 'world ocean', 'isthmus', 'continental drift', 'Pangaea', 'landmass', 'Oceania'],
+
+      resources: {
+        videos: [
+          {
+            id: '93LLwiMjDko',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=93LLwiMjDko',
+            title: 'What is Geography? Crash Course Geography #1',
+            channel: 'CrashCourse',
+            duration: 'variable',
+            why: 'The opening of the series: how maps, borders, and categories get made, banana for scale.',
+          },
+          {
+            id: 'vlVVaZhRAEA',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=vlVVaZhRAEA',
+            title: 'What is Physical Geography? Crash Course Geography #4',
+            channel: 'CrashCourse',
+            duration: 'variable',
+            why: 'The physical half of the discipline: landforms, climate, water, and plate tectonics as one system.',
+          },
+          {
+            id: 'xa6SdvFA3w0',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=xa6SdvFA3w0',
+            title: 'How Do Oceans Circulate? Crash Course Geography #9',
+            channel: 'CrashCourse',
+            duration: 'variable',
+            why: 'The single world ocean in motion: currents, gyres, and why the water connects more than it divides.',
+          },
+        ],
+        books: [
+          {
+            title: 'Prisoners of Geography',
+            author: 'Tim Marshall',
+            year: 2015,
+            url: '',
+            why: 'Ten maps and the landforms, seas, and borders that still constrain what states can do.',
+          },
+          {
+            title: 'The Revenge of Geography',
+            author: 'Robert D. Kaplan',
+            year: 2012,
+            url: '',
+            why: 'The argument that geography, long declared dead, still shapes the fate of nations.',
+          },
+          {
+            title: 'Maps: Finding Our Place in the World',
+            author: 'James R. Akerman and Robert W. Karrow (editors)',
+            year: 2007,
+            url: '',
+            why: 'Essays on what maps are for, from a major exhibition at the Field Museum and the Newberry Library.',
+          },
+        ],
+        articles: [
+          {
+            title: 'Continent',
+            source: 'Wikipedia',
+            url: 'https://en.wikipedia.org/wiki/Continent',
+            why: 'The models compared, the areas ranked, and the history of how the word picked up its meanings.',
+            year: null,
+          },
+          {
+            title: 'Oceans and Seas and the Water Cycle',
+            source: 'U.S. Geological Survey',
+            url: 'https://www.usgs.gov/water-science-school/science/oceans-and-seas-and-water-cycle?page=1',
+            why: 'The ocean side of the topic from the USGS: how much water the oceans hold and how it moves.',
+            year: null,
+          },
+        ],
+        courses: [
+          {
+            title: 'National Geographic Education',
+            provider: 'National Geographic Society',
+            url: 'https://education.nationalgeographic.org/',
+            free: true,
+            why: 'Free maps, videos, and classroom resources organized by subject. Start with the geography and mapping collections.',
+          },
+        ],
+      },
+
+      seeAlso: ['climate', 'biomes', 'cartography'],
+      prereqs: [],
+      leadsTo: ['climate', 'cartography'],
+
+      sources: [
+        'https://en.wikipedia.org/wiki/Continent',
+        'https://www.usgs.gov/water-science-school/science/oceans-and-seas-and-water-cycle?page=1',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    landforms: {
+      id: 'landforms',
+      name: 'Landforms',
+      level: 'Beginner',
+      dek: 'Mountains, plains, plateaus, and valleys: the surface shapes that tectonics builds and water, wind, and ice revise.',
+      readTime: '8 min',
+
+      sections: ['Four major kinds', 'Built from below', 'Carved from above', 'Reading a landscape'],
+      body: [
+        { type: 'lead', text: 'Stand on a ridge at dusk and the land reads like a sentence half finished: a slope, a flat, a cut where the river runs. Every shape in that view was made by a process, and most are being remade now, slowly. Landforms are the vocabulary of that sentence, and there are only a few main words.' },
+        { type: 'h2', text: 'Four major kinds' },
+        { type: 'p', text: 'Geographers sort the surface first by scale and shape. The four major types of landforms are hills, mountains, plains, and plateaus: raised ground of two heights, flat ground at low elevation, and flat ground held high. Around them cluster the minor forms, buttes, canyons, valleys, and basins, and the small features, peaks, dunes, and waterfalls. The sorting scales up as well as down. Continents and ocean basins are landforms of the first order, the largest there are; mountains, plains, and plateaus sit at the second order; a single dune or valley is third order, the scale a person can walk in an hour.' },
+        { type: 'h2', text: 'Built from below' },
+        { type: 'p', text: 'The big shapes are built by the planet\'s interior. Landforms take shape from the movements of the tectonic plates, which can push up hills and mountains where plates collide, and from volcanic activity, which adds new land outright. Elevation, slope, and the layering and exposure of rock are the properties scientists use to classify what the building produced. A mountain range is therefore not scenery. It is evidence, readable at a glance, of forces acting on crust over millions of years.' },
+        { type: 'h2', text: 'Carved from above' },
+        { type: 'p', text: 'What tectonics raises, weather revises. The factors that shape landforms run from plate tectonics to erosion and deposition: water cutting valleys and laying down plains of sediment, wind moving sand into dunes, ice grinding whole regions flat and leaving the debris in ridges. Even biology edits the surface, with vegetation holding dunes in place and coral animals building reefs. Most real landscapes are an argument between the two directions, uplift against erosion, and the shape at any moment says which side is currently winning.' },
+        { type: 'h2', text: 'Reading a landscape' },
+        { type: 'p', text: 'The study of all this has a name, geomorphology, and its habit is the useful part: treat every slope and flat as a record. A plateau edge records uplift and then incision by rivers. A broad plain records deposition winning for a long time. A canyon records the opposite. Once the four major kinds and the two directions of change are in mind, unfamiliar country stops being a blur from a train window and becomes a sequence of events that can be read in order.' },
+        { type: 'p', text: 'Back on the ridge, the sentence completes itself. Slope, flat, and river cut are not three views but one story, written from below and edited from above, still being revised under the reader\'s feet.' },
+        { type: 'callout', text: 'Continents and ocean basins are the largest landforms of all, the first order. A dune you can cross in a minute is third order. The same processes explain both.' },
+      ],
+
+      keyTerms: ['landform', 'plateau', 'plain', 'erosion', 'deposition', 'geomorphology', 'tectonic uplift'],
+
+      resources: {
+        videos: [
+          {
+            id: '1gMU7zfDqfg',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=1gMU7zfDqfg',
+            title: 'How Does the Earth Create Different Landforms? Crash Course Geography #20',
+            channel: 'CrashCourse',
+            duration: 'variable',
+            why: 'Uplift and erosion at work on real terrain, from the Grand Canyon to karst country.',
+          },
+          {
+            id: '7Bxw4kkeHJ8',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=7Bxw4kkeHJ8',
+            title: 'What Are Rocks and How Do They Form? Crash Course Geography #18',
+            channel: 'CrashCourse',
+            duration: 'variable',
+            why: 'The material landforms are built from, and why rock type decides how a landscape weathers.',
+          },
+          {
+            id: 'vlVVaZhRAEA',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=vlVVaZhRAEA',
+            title: 'What is Physical Geography? Crash Course Geography #4',
+            channel: 'CrashCourse',
+            duration: 'variable',
+            why: 'Landforms in their system: how surface shapes interact with climate, water, and ecosystems.',
+          },
+        ],
+        books: [
+          {
+            title: 'Annals of the Former World',
+            author: 'John McPhee',
+            year: 1998,
+            url: '',
+            why: 'The classic survey of North American geology and terrain, five books in one volume.',
+          },
+          {
+            title: 'The Control of Nature',
+            author: 'John McPhee',
+            year: 1989,
+            url: '',
+            why: 'People against rivers, lava, and sliding hillsides: landform processes at human scale.',
+          },
+          {
+            title: 'Landforms of the World with Google Earth',
+            author: 'Anja M. Scheffers, Simon M. May, and Dieter H. Kelletat',
+            year: 2015,
+            url: '',
+            why: 'A photographic atlas of landform types, keyed to satellite views the reader can revisit.',
+          },
+        ],
+        articles: [
+          {
+            title: 'Landform',
+            source: 'Wikipedia',
+            url: 'https://en.wikipedia.org/wiki/Landform',
+            why: 'The classification used in this lesson, from first order continents down to single dunes and falls.',
+            year: null,
+          },
+          {
+            title: 'Continent',
+            source: 'Wikipedia',
+            url: 'https://en.wikipedia.org/wiki/Continent',
+            why: 'The first order case in full: how the largest landforms are defined and bounded.',
+            year: null,
+          },
+        ],
+        courses: [
+          {
+            title: 'National Geographic Education',
+            provider: 'National Geographic Society',
+            url: 'https://education.nationalgeographic.org/',
+            free: true,
+            why: 'Free encyclopedic entries, maps, and media on landforms and earth science for self study.',
+          },
+        ],
+      },
+
+      seeAlso: ['climate', 'biomes', 'cartography'],
+      prereqs: ['climate'],
+      leadsTo: ['biomes'],
+
+      sources: [
+        'https://en.wikipedia.org/wiki/Landform',
+        'https://www.youtube.com/watch?v=1gMU7zfDqfg',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    population: {
+      id: 'population',
+      name: 'Population & Migration',
+      level: 'Intermediate',
+      dek: 'Eight billion people, unevenly placed: how births, deaths, and migration redraw the map of where humans live.',
+      readTime: '10 min',
+
+      sections: ['From one billion to eight', 'Where people cluster', 'Why people move', 'Aging, cities, and what comes next'],
+      body: [
+        { type: 'lead', text: 'Somewhere in November 2022, a child was born who tipped the human count past eight billion. No bell rang and no one knows the child\'s name, but the milestone closed an astonishing run: a species that took hundreds of thousands of years to reach one billion needed only about two centuries to add seven billion more.' },
+        { type: 'h2', text: 'From one billion to eight' },
+        { type: 'p', text: 'The dates mark the acceleration. The United Nations estimates that world population exceeded 8 billion on November 15, 2022. The road there, from the reference chronology, runs 1 billion in 1804, 2 billion in 1927 after 123 years, then 3 billion in 1960 after only 33. Growth itself peaked at 2.1 percent a year between 1965 and 1970 and has since declined, to 1.1 percent between 2015 and 2020. The population is still rising, but the rate that made the twentieth century explosive is behind us.' },
+        { type: 'h2', text: 'Where people cluster' },
+        { type: 'p', text: 'Eight billion people are not spread evenly. They cluster where water, farmland, and work coincide, and increasingly in cities: the urban share of world population was 3 percent in 1800, 47 percent by 2000, and 56 percent by 2020. Human geography studies this distribution the way physical geography studies landforms, as a pattern with causes: climate, terrain, trade, and history deciding where the dense patches and the near empty ones fall.' },
+        { type: 'h2', text: 'Why people move' },
+        { type: 'p', text: 'Migration moves the pattern without changing the total. The reference typology separates push factors, the conditions that drive people away from a place, from pull factors, the conditions that attract them to another. Most movement is internal, within a country, and it is the dominant form of migration globally. International migrants numbered 280,598,105 in 2020, about 3.6 percent of world population, a small share with outsized effects. The largest single diaspora is India\'s, over 18 million people of Indian descent living outside the country of their birth. The words matter here: migrants move by choice, refugees are forced from their homes, and asylum seekers are asking for that protection in law.' },
+        { type: 'h2', text: 'Aging, cities, and what comes next' },
+        { type: 'p', text: 'The next map will differ from this one less by totals than by ages and addresses. Urban residents already outnumber rural ones worldwide, in the United Nations figures cited in the course videos, and city growth is now driven more by reclassification and natural increase than by arrivals. The global median age stands at 31.1 years in 2026 by the reference estimate, and it is rising, which shifts demand from schools toward pensions and care. Whether the total peaks this century, and where, is the open question the counts cannot yet answer.' },
+        { type: 'p', text: 'The unnamed child of November 2022 will grow up in that older, more urban world. The milestone was never really about the number. It was a marker on the road from the first billion to whatever distribution comes next.' },
+        { type: 'callout', text: 'International migrants were 3.6 percent of world population in 2020. The other 96.4 percent lived in their country of birth, and most who moved, moved within it.' },
+      ],
+
+      keyTerms: ['demography', 'fertility rate', 'migration', 'push factor', 'pull factor', 'diaspora', 'urbanization', 'median age', 'refugee'],
+
+      resources: {
+        videos: [
+          {
+            id: 'JpAiBg0hrfQ',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=JpAiBg0hrfQ',
+            title: 'How Populations Grow and Change: Crash Course Geography #33',
+            channel: 'CrashCourse',
+            duration: 'variable',
+            why: 'Malthus, Boserup, and the Demographic Transition Model: the three classic frames for growth.',
+          },
+          {
+            id: '5Z55k7CqZ0c',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=5Z55k7CqZ0c',
+            title: 'Where and Why Do People Move? Crash Course Geography #32',
+            channel: 'CrashCourse',
+            duration: 'variable',
+            why: 'Intervening obstacles, Ravenstein\'s laws, and the largest diaspora on Earth.',
+          },
+          {
+            id: 'ON4oIKza7bw',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=ON4oIKza7bw',
+            title: 'Why are People Moving to Cities? Crash Course Geography #45',
+            channel: 'CrashCourse',
+            duration: 'variable',
+            why: 'Urbanization through history, and why city growth now comes from within cities themselves.',
+          },
+        ],
+        books: [
+          {
+            title: 'Factfulness',
+            author: 'Hans Rosling',
+            year: 2018,
+            url: '',
+            why: 'Population data against instinct: why the world is less poor, less crowded in the ways feared, and better counted than assumed.',
+          },
+          {
+            title: 'The Population Bomb',
+            author: 'Paul R. Ehrlich',
+            year: 1968,
+            url: '',
+            why: 'The famous warning that framed a half century of population debate, read now as a historical document.',
+          },
+          {
+            title: 'Empty Planet',
+            author: 'Darrell Bricker and John Ibbitson',
+            year: 2019,
+            url: '',
+            why: 'The counter argument: fertility falling faster than the models, and a peak followed by decline.',
+          },
+        ],
+        articles: [
+          {
+            title: 'World population',
+            source: 'Wikipedia',
+            url: 'https://en.wikipedia.org/wiki/World_population',
+            why: 'The milestone dates, growth rates, and density figures used in this lesson, with UN sources behind them.',
+            year: null,
+          },
+          {
+            title: 'Human migration',
+            source: 'Wikipedia',
+            url: 'https://en.wikipedia.org/wiki/Human_migration',
+            why: 'Push and pull factors, migrant categories, and the international migrant counts by year.',
+            year: null,
+          },
+        ],
+        courses: [
+          {
+            title: 'National Geographic Education',
+            provider: 'National Geographic Society',
+            url: 'https://education.nationalgeographic.org/',
+            free: true,
+            why: 'Free resources on human geography, population, and migration, organized for self study.',
+          },
+        ],
+      },
+
+      seeAlso: ['cities', 'geopolitics', 'cartography'],
+      prereqs: ['cities'],
+      leadsTo: ['geopolitics'],
+
+      sources: [
+        'https://en.wikipedia.org/wiki/World_population',
+        'https://en.wikipedia.org/wiki/Human_migration',
+        'https://www.youtube.com/watch?v=5Z55k7CqZ0c',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
   },
 };
 
@@ -23620,18 +25351,18 @@ window.CONTENT.geography = {
 // ====== geology.js ======
 // content/geology.js
 // Owned by batch: B02-hard-sciences
-// Last updated: 2026-04-22 by BATCH B02-hard-sciences
+// Last updated: 2026-10-15 by SPRINT W1
 //
 // Topics this subject must cover (from data.js):
-//   Structure: plates, rocks, volcanoes
+//   Structure: plates, rocks, volcanoes, earthquakes, watercycle
 //   History:   deeptime, fossils
 
 window.CONTENT = window.CONTENT || {};
 window.CONTENT.geology = {
   subjectId: 'geology',
   version: 1,
-  lastUpdated: '2026-04-22',
-  curator: 'BATCH B02-hard-sciences',
+  lastUpdated: '2026-10-15',
+  curator: 'SPRINT W1',
   topics: {
 
     plates: {
@@ -24399,6 +26130,238 @@ window.CONTENT.geology = {
       verifiedAt: '2026-04-22',
     },
 
+    earthquakes: {
+      id: 'earthquakes',
+      name: 'Earthquakes',
+      level: 'Beginner',
+      dek: 'Locked faults store energy slowly, then release it in seconds: what seismographs record and cities must withstand.',
+      readTime: '9 min',
+
+      sections: ['Stuck edges', 'Waves that locate', 'Magnitude is not the whole story', 'The largest on record'],
+      body: [
+        { type: 'lead', text: 'A seismograph at rest draws a nearly flat line. Then the line jumps, swings wide, and slowly settles, and somewhere a town has had the worst minute of its century. The jump is not random. It is the sound, written down, of rock that was stuck for years letting go all at once.' },
+        { type: 'h2', text: 'Stuck edges' },
+        { type: 'p', text: 'The U.S. Geological Survey puts the mechanism plainly. The crust and the top of the mantle form plates that keep moving, sliding past and into each other, and their edges are made of faults. The edges are rough, so they stick while the rest of the plate keeps moving, and energy builds in the stuck place. When the force overcomes the friction, the fault slips, and that slip is an earthquake. The point where it starts underground is the hypocenter; the point on the surface directly above it is the epicenter. Smaller shocks can come first, as foreshocks, and always follow, as aftershocks, sometimes for months or years.' },
+        { type: 'h2', text: 'Waves that locate' },
+        { type: 'p', text: 'The released energy travels as seismic waves, and instruments called seismographs record them as seismograms. Two wave kinds do the locating. P waves arrive first because they travel faster; S waves follow, and the gap between them grows with distance, the way thunder lags further behind lightning the farther away the storm is. One station gives a distance and so a circle on the map. Three stations give three circles, and where they cross is the epicenter. That method, triangulation, is how a flat line jumping in three quiet rooms becomes a place and a time.' },
+        { type: 'h2', text: 'Magnitude is not the whole story' },
+        { type: 'p', text: 'An earthquake has one magnitude, set by the size of the fault and how far it slipped, read from seismograms around the world. It has many intensities, because the shaking people feel depends on distance, depth, and the ground under their feet. Most earthquakes happen on plate boundaries, and the pattern is lopsided: the USGS figure, tested in a recent mapping of a decade of its catalog, puts about 81 percent of the planet\'s largest earthquakes on the Ring of Fire, the subduction zone rim of the Pacific. Scientists can say where large earthquakes are likely over decades. The Survey is blunt about the rest: no one can predict the day.' },
+        { type: 'h2', text: 'The largest on record' },
+        { type: 'p', text: 'The largest earthquake in the USGS list since 1900 is the Valdivia earthquake in Chile, magnitude 9.5, on May 22, 1960. Behind it come southern Alaska at magnitude 9.2 on March 28, 1964, and two at magnitude 9.1: northern Sumatra on December 26, 2004, and the Tohoku earthquake in Japan on March 11, 2011. All four were megathrust events at subduction zones, where one plate dives under another, which is why the map of the largest earthquakes is mostly a map of plate edges meeting the sea.' },
+        { type: 'p', text: 'The flat line, then, is not peace. It is a fault either sliding gently or storing the next jump, and the seismograph is how we learned to tell the difference after the fact and prepare before it.' },
+        { type: 'callout', text: 'An earthquake cannot be predicted to a day or a place. What science offers instead is a map of likely ground, and buildings designed for the shaking that map implies.' },
+      ],
+
+      keyTerms: ['fault', 'hypocenter', 'epicenter', 'seismograph', 'P wave', 'S wave', 'magnitude', 'intensity', 'aftershock', 'Ring of Fire'],
+
+      resources: {
+        videos: [
+          {
+            id: '-FBq5lE1Kz0',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=-FBq5lE1Kz0',
+            title: 'Natural Hazards: Crash Course Geography #27',
+            channel: 'Crash Course',
+            duration: 'variable',
+            why: 'Earthquakes and eruptions as hazards, and the line between a natural event and a disaster.',
+          },
+          {
+            id: '7CPv0NSIG2M',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=7CPv0NSIG2M',
+            title: 'The Plate Tectonics Revolution: Crash Course Geography #19',
+            channel: 'Crash Course',
+            duration: 'variable',
+            why: 'The plate framework that explains where earthquakes happen, told as the detective story it was.',
+          },
+          {
+            id: 'rBnMMFFKJD4',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=rBnMMFFKJD4',
+            title: 'Every earthquake of the last 10 years: why the Ring of Fire exists',
+            channel: 'Restless Planet',
+            duration: 'variable',
+            why: 'A decade of the USGS catalog, 74,785 earthquakes of magnitude 4.5 and up, mapped at once.',
+          },
+        ],
+        books: [
+          {
+            title: 'The Great Quake',
+            author: 'Henry Fountain',
+            year: 2017,
+            url: '',
+            why: 'The 1964 Alaska earthquake, magnitude 9.2, and the science it forced into being.',
+          },
+          {
+            title: 'Full Rip 9.0',
+            author: 'Sandi Doughton',
+            year: 2013,
+            url: '',
+            why: 'The Cascadia subduction zone off the Pacific Northwest, and the large earthquake its record promises.',
+          },
+          {
+            title: 'Earthquakes',
+            author: 'Bruce A. Bolt',
+            year: 2003,
+            url: '',
+            why: 'The standard primer by a working seismologist, revised across five editions.',
+          },
+        ],
+        articles: [
+          {
+            title: 'The Science of Earthquakes',
+            source: 'U.S. Geological Survey',
+            url: 'https://www.usgs.gov/programs/Earthquake-hazards/science-Earthquakes',
+            why: 'The mechanism, the waves, the locating method, and the honest limits of prediction, from the agency that runs the network.',
+            year: null,
+          },
+          {
+            title: '20 Largest Earthquakes in the World Since 1900',
+            source: 'U.S. Geological Survey',
+            url: 'https://www.usgs.gov/programs/earthquake-hazards/science/20-largest-earthquakes-world-1900',
+            why: 'The ranked list behind this lesson, with dates, places, and the papers each magnitude rests on.',
+            year: null,
+          },
+        ],
+        courses: [
+          {
+            title: 'Physical Geology (open textbook)',
+            provider: 'BCcampus / Steven Earle',
+            url: 'https://opentextbc.ca/physicalgeology2ed/',
+            free: true,
+            why: 'A full free undergraduate text with chapters on plate tectonics and earthquakes. Read those two chapters first.',
+          },
+        ],
+      },
+
+      seeAlso: ['plates', 'volcanoes', 'rocks'],
+      prereqs: ['plates'],
+      leadsTo: ['volcanoes'],
+
+      sources: [
+        'https://www.usgs.gov/programs/Earthquake-hazards/science-Earthquakes',
+        'https://www.usgs.gov/programs/earthquake-hazards/science/20-largest-earthquakes-world-1900',
+        'https://www.youtube.com/watch?v=rBnMMFFKJD4',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    watercycle: {
+      id: 'watercycle',
+      name: 'The Water Cycle',
+      level: 'Beginner',
+      dek: 'Sunlight lifts ocean water, winds move it, gravity returns it: the same water, endlessly rearranged, never new.',
+      readTime: '9 min',
+
+      sections: ['Where the water sits', 'Lifted by the Sun', 'Falling, flowing, soaking', 'The slow stores'],
+      body: [
+        { type: 'lead', text: 'Rain on a window looks new. It is not. It is ocean water that sunlight lifted, wind carried, and gravity dropped, on a trip it has made before and will make again. The water cycle is less a circle drawn in a textbook than an accounting problem: a fixed stock of water, moving among a few stores, at very different speeds.' },
+        { type: 'h2', text: 'Where the water sits' },
+        { type: 'p', text: 'Start with the stock. The USGS estimates the world\'s water supply at about 1,386,000,000 cubic kilometers, and about 1,338,000,000 of it, 96.5 percent of all Earth\'s water, sits in the oceans. It is saline, at about 35,000 parts per million of salt. Everything else, every river, glacier, aquifer, cloud, and glass of drinking water, is the remaining few percent, which is why the cycle is best understood as the ocean lending water out and taking it back.' },
+        { type: 'h2', text: 'Lifted by the Sun' },
+        { type: 'p', text: 'The engine is sunlight, with wind as its courier. Water evaporates from surfaces, and plants add their share by transpiration; together the two are evapotranspiration. The oceans supply about 90 percent of the evaporated water that enters the cycle, in the USGS estimate. Vapor rises, cools, and condenses into cloud droplets or ice crystals. Nothing is created in this step and nothing is lost. The water has only changed state and address, from a store measured in cubic kilometers to one measured in days.' },
+        { type: 'h2', text: 'Falling, flowing, soaking' },
+        { type: 'p', text: 'Precipitation returns the water as rain or snow. From there the paths split. Some runs off the surface into streams, the streamflow that gathers into rivers and lakes. Some infiltrates, soaking down to become groundwater, which moves slowly through rock and soil and can reappear at springs or feed streams from below. Snow adds a delay: snowmelt releases in spring water that fell in winter. The USGS lists these, with condensation, evaporation, and storage in ice, lakes, and the atmosphere, as the working parts of one system, not separate topics.' },
+        { type: 'h2', text: 'The slow stores' },
+        { type: 'p', text: 'Speed is the hidden variable. Of all freshwater, over 68 percent is locked in ice and glaciers, and another 30 percent is in the ground, while rivers and lakes hold only about 93,100 cubic kilometers, roughly a hundred and fiftieth of one percent of all water, yet supply most of the water people use every day. Storage also moves the sea itself. During the last ice age, glaciers covered almost a third of the land and the oceans stood about 122 meters lower than today, because so much of the cycle was parked on land as ice.' },
+        { type: 'p', text: 'The rain on the window is therefore a withdrawal from the largest account on Earth, made by sunlight and repaid by gravity, and the balance has not changed: only the addresses have.' },
+        { type: 'callout', text: 'Rivers and lakes supply most of the water people use, and hold about a hundred and fiftieth of one percent of the water there is.' },
+      ],
+
+      keyTerms: ['evaporation', 'transpiration', 'condensation', 'precipitation', 'infiltration', 'runoff', 'groundwater', 'reservoir'],
+
+      resources: {
+        videos: [
+          {
+            id: '2D7hZpIYlCA',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=2D7hZpIYlCA',
+            title: 'The Hydrologic and Carbon Cycles: Always Recycle! Crash Course Ecology #8',
+            channel: 'Crash Course',
+            duration: 'variable',
+            why: 'The water cycle as a movement on, above, and below the surface, driven by the Sun and wind.',
+          },
+          {
+            id: 'xa6SdvFA3w0',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=xa6SdvFA3w0',
+            title: 'How Do Oceans Circulate? Crash Course Geography #9',
+            channel: 'Crash Course',
+            duration: 'variable',
+            why: 'The largest store is not still: surface and deep currents move ocean water around the planet.',
+          },
+          {
+            id: '68G1ikYRNxg',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=68G1ikYRNxg',
+            title: 'How Can Rain Create Conflict? Precipitation and Water Use: Crash Course Geography #11',
+            channel: 'Crash Course',
+            duration: 'variable',
+            why: 'Where precipitation falls, people gather, and where it does not, the arguments start.',
+          },
+        ],
+        books: [
+          {
+            title: 'Water: A Biography',
+            author: 'Giulio Boccaletti',
+            year: 2021,
+            url: '',
+            why: 'Water management as a force in history, from irrigation states to modern rivers policy.',
+          },
+          {
+            title: 'The Big Thirst',
+            author: 'Charles Fishman',
+            year: 2011,
+            url: '',
+            why: 'Reporting on how water is actually priced, wasted, and fought over in the present day.',
+          },
+          {
+            title: 'Blue Mind',
+            author: 'Wallace J. Nichols',
+            year: 2014,
+            url: '',
+            why: 'On the human pull toward water, a useful companion to the physical account.',
+          },
+        ],
+        articles: [
+          {
+            title: 'Oceans and Seas and the Water Cycle',
+            source: 'U.S. Geological Survey',
+            url: 'https://www.usgs.gov/water-science-school/science/oceans-and-seas-and-water-cycle?page=1',
+            why: 'The numbers behind this lesson, plus tides, currents, and how ocean volume changes over ice ages.',
+            year: null,
+          },
+          {
+            title: 'Physical Geology, 2nd Edition (open textbook)',
+            source: 'BCcampus',
+            url: 'https://opentextbc.ca/physicalgeology2ed/',
+            why: 'The free text\'s chapters on streams and groundwater follow water after it reaches the ground.',
+            year: 2019,
+          },
+        ],
+        courses: [
+          {
+            title: 'Physical Geology (open textbook)',
+            provider: 'BCcampus / Steven Earle',
+            url: 'https://opentextbc.ca/physicalgeology2ed/',
+            free: true,
+            why: 'Free and complete. The hydrological cycle, streams, and groundwater chapters are the course for this topic.',
+          },
+        ],
+      },
+
+      seeAlso: ['plates', 'rocks', 'climate'],
+      prereqs: [],
+      leadsTo: ['rocks'],
+
+      sources: [
+        'https://www.usgs.gov/water-science-school/science/oceans-and-seas-and-water-cycle?page=1',
+        'https://opentextbc.ca/physicalgeology2ed/',
+        'https://www.youtube.com/watch?v=2D7hZpIYlCA',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
   },
 };
 
@@ -24700,14 +26663,14 @@ window.CONTENT.glazier = {
 // ====== history.js ======
 // content/history.js
 // Batch: B04-humanities
-// Last updated: 2026-04-22 by BATCH B04-humanities
+// Last updated: 2026-10-15 by SPRINT W1
 
 window.CONTENT = window.CONTENT || {};
 window.CONTENT.history = {
   subjectId: 'history',
   version: 1,
-  lastUpdated: '2026-04-22',
-  curator: 'BATCH B04-humanities',
+  lastUpdated: '2026-10-15',
+  curator: 'SPRINT W1',
   topics: {
 
     prehistory: {
@@ -26446,6 +28409,567 @@ window.CONTENT.history = {
       verifiedAt: '2026-04-22',
     },
 
+    writing: {
+      id: 'writing',
+      name: 'The Invention of Writing',
+      level: 'Beginner',
+      dek: 'How a tally of barley on wet clay became law, poetry, and memory that outlived its makers.',
+      readTime: '9 min',
+
+      sections: ['Marks before words', 'Four separate births', 'From accounts to literature', 'The alphabet shortcut'],
+      body: [
+        { type: 'lead', text: 'The first writing we know of was not a poem or a prayer. It was bookkeeping. In southern Mesopotamia, more than five thousand years ago, someone pressed a reed into wet clay to record goods, and a mark that began as a tally became, in time, a way to keep a sentence alive after the speaker was gone.' },
+        { type: 'h2', text: 'Marks before words' },
+        { type: 'p', text: 'Writing grew out of counting. Clay tokens used in agriculture and accounting are attested as early as 8000 BCE, small shapes that stood for sheep, grain, and jars of oil. Marks like these are called proto-writing: they carry information, but they cannot yet record the grammar of a spoken sentence. The step from symbol to true writing, where a later reader can rebuild the words themselves, is the step that matters.' },
+        { type: 'h2', text: 'Four separate births' },
+        { type: 'p', text: 'Writing was not invented once and handed around. Four independent inventions are most commonly recognised: in Mesopotamia between 3400 and 3100 BCE, in Egypt around 3250 BCE, in China before 1250 BCE, and in Mesoamerica before 1 CE. Sumerian cuneiform and Egyptian hieroglyphs both grew slowly out of proto-writing, and the earliest coherent texts appear around 2600 BCE. Each birth happened where farming, cities, and administration had made memory alone too small for the job.' },
+        { type: 'callout', text: 'The Indus script, used between about 2600 and 2000 BCE, is still undeciphered. Whether it records full language at all remains an open question.' },
+        { type: 'h2', text: 'From accounts to literature' },
+        { type: 'p', text: 'The first uses of writing were practical: documenting agricultural transactions and contracts. Finance, religion, government, and law followed quickly, because a written record can travel, can be checked, and can bind people who have never met. Only later did scribes turn the same marks to hymns, letters, and stories. The order is worth noticing. Literature was not the cause of writing. It was one of its later, happier accidents.' },
+        { type: 'h2', text: 'The alphabet shortcut' },
+        { type: 'p', text: 'Most early scripts needed hundreds of signs, and learning them was a profession. The first alphabetic writing appeared around 1800 BCE, developed by workers in the Sinai Peninsula who adapted ideas and letterforms from Egyptian hieroglyphs to write a West Semitic language. A short list of signs that stand for sounds, rather than whole words, made literacy cheaper to acquire. The clay tally had become, at last, a tool a child could learn, and it has never stopped travelling since.' },
+      ],
+
+      keyTerms: ['cuneiform', 'hieroglyphs', 'proto-writing', 'scribe', 'alphabet', 'literacy', 'clay tablet'],
+
+      resources: {
+        videos: [
+          {
+            id: 'PfYYraMgiBA',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=PfYYraMgiBA',
+            title: 'Cracking Ancient Codes: Cuneiform Writing, with Irving Finkel',
+            channel: 'The Royal Institution',
+            duration: 'variable',
+            why: 'Irving Finkel, the British Museum curator in charge of cuneiform tablets, on how wedge shaped marks in clay became the first writing we can read.',
+          },
+          {
+            id: 'zOwP0KUlnZg',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=zOwP0KUlnZg',
+            title: 'Irving Finkel Teaches Us Cuneiform',
+            channel: 'Matt and Tom',
+            duration: 'variable',
+            why: 'A hands on demonstration: a reed stylus, wet clay, and your first cuneiform signs in minutes.',
+          },
+          {
+            id: 'IAuuF7XQeFM',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=IAuuF7XQeFM',
+            title: 'Writing Didn\'t Start With Words: It Started With Numbers',
+            channel: 'How We Got Here',
+            duration: 'variable',
+            why: 'The full arc in one sitting, from accounting marks to the alphabet, arguing that the first thing ever written down was a receipt.',
+          },
+        ],
+        books: [
+          {
+            title: 'The Story of Writing',
+            author: 'Andrew Robinson',
+            year: 1995,
+            url: '',
+            why: 'The standard illustrated survey of scripts worldwide, from cuneiform to the alphabet, by a science writer who knows the decipherment stories cold.',
+          },
+          {
+            title: 'Cuneiform',
+            author: 'Irving Finkel and Jonathan Taylor',
+            year: 2015,
+            url: '',
+            why: 'A short British Museum introduction by two curators who read the tablets for a living. The best first book on the first script.',
+          },
+          {
+            title: 'Empires of the Word: A Language History of the World',
+            author: 'Nicholas Ostler',
+            year: 2005,
+            url: '',
+            why: 'How written languages spread, ruled, and died. The long view of what writing does to the tongues that adopt it.',
+          },
+        ],
+        articles: [
+          {
+            title: 'History of writing',
+            source: 'Wikipedia',
+            url: 'https://en.wikipedia.org/wiki/History_of_writing',
+            why: 'Careful survey of the four independent inventions, with the dating debates laid out honestly.',
+            year: null,
+          },
+          {
+            title: 'Cuneiform',
+            source: 'Wikipedia',
+            url: 'https://en.wikipedia.org/wiki/Cuneiform',
+            why: 'The script itself: how it worked, how it changed, and how it was read again.',
+            year: null,
+          },
+        ],
+        courses: [
+          {
+            title: 'World History',
+            provider: 'Khan Academy',
+            url: 'https://www.khanacademy.org/humanities/world-history/world-history-beginnings',
+            free: true,
+            why: 'The free opening units place the first scripts inside the first farming cities, which is where they belong.',
+          },
+        ],
+      },
+
+      seeAlso: ['mesopotamia', 'egypt', 'prehistory'],
+      prereqs: ['prehistory'],
+      leadsTo: ['mesopotamia', 'egypt'],
+
+      sources: [
+        'https://en.wikipedia.org/wiki/History_of_writing',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    democracy: {
+      id: 'democracy',
+      name: 'The Birth of Democracy',
+      level: 'Intermediate',
+      dek: 'In one small city, ordinary citizens took power from kings and nobles, and kept it, mostly, for themselves.',
+      readTime: '10 min',
+
+      sections: ['Before the people ruled', 'Solon opens the door', 'Cleisthenes redraws the map', 'Who was left out'],
+      body: [
+        { type: 'lead', text: 'In 508 BCE the people of Athens did something with no real precedent: they besieged a Spartan backed ruler on their own acropolis and took the city back for themselves. The reforms that followed, drawn up by an aristocrat named Cleisthenes, turned that street victory into a system. The word for it, demokratia, means the power of the people.' },
+        { type: 'h2', text: 'Before the people ruled' },
+        { type: 'p', text: 'Athens began as other Greek cities did, ruled by archons and a council of former archons drawn from noble families. A first crack came in 621 BCE, when Draco replaced oral custom with a written law code enforced by a court. The code was harsh, and later ages repealed most of it, but the principle survived: law written down belongs, in some sense, to everyone who can read it or hear it read.' },
+        { type: 'h2', text: 'Solon opens the door' },
+        { type: 'p', text: 'In 594 BCE, facing a crisis of debt and dispossession, Athens made Solon its chief archon and let him rewrite the rules. He cancelled existing debts, freed debtors, and ended borrowing on the security of a person\'s own body. He sorted citizens into four property classes and gave every free resident of Attica a political function, with a council of 400, one hundred from each of the four tribes, to run daily affairs and set the agenda for an assembly open to all male citizens.' },
+        { type: 'h2', text: 'Cleisthenes redraws the map' },
+        { type: 'p', text: 'Solon\'s settlement did not hold; tyranny followed, then expulsion. Cleisthenes, in 508 and 507 BCE, broke the power of the noble families at its root. He made the old kinship tribes politically irrelevant and built ten new tribes out of neighbourhood districts called demes, mixed across the city, the coast, and the inland farms. Every male citizen over 18 registered in his deme. Loyalty now ran to a district and a city, not to a clan. It is the most consequential piece of political engineering in the ancient world.' },
+        { type: 'h2', text: 'Who was left out' },
+        { type: 'p', text: 'The achievement was real, and so were its limits. Participation was open only to free adult male citizens, who probably made up no more than 30 percent of the total adult population; in the fourth century BCE perhaps 30,000 men held the vote in a territory of a quarter of a million people. Women, resident foreigners, and enslaved people were outside the system that their labour sustained. Later ages took the Athenian invention and widened the circle Athens had drawn too small. The invention came first. The widening took another two thousand years, and the argument over who counts as the people has never really closed.' },
+      ],
+
+      keyTerms: ['demokratia', 'polis', 'Cleisthenes', 'Solon', 'deme', 'assembly', 'citizen', 'ostracism'],
+
+      resources: {
+        videos: [
+          {
+            id: 'UHiyFEE10S8',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=UHiyFEE10S8',
+            title: 'Athens: When Humans First Governed Themselves',
+            channel: 'YouTube documentary',
+            duration: 'variable',
+            why: 'A long narrative of the birth of democracy, from Solon\'s debt reforms in 594 BCE to the trial of Socrates, honest about who was excluded.',
+          },
+          {
+            id: 'tCjAPLwHi9E',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=tCjAPLwHi9E',
+            title: 'The Civic Flame: A Day in the Life of Ancient Athenian Democracy',
+            channel: 'History recaps',
+            duration: 'variable',
+            why: 'Assembly day on the Pnyx in 433 BCE, reconstructed: lotteries, water clocks, and 6,000 citizens voting directly on war and peace.',
+          },
+          {
+            id: 'PJJ2lSv21aE',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=PJJ2lSv21aE',
+            title: 'Athens: How Ordinary Citizens Invented the World\'s First Democracy',
+            channel: 'Speed Study',
+            duration: 'variable',
+            why: 'A compact account of the institutions: the Assembly, the Council of 500, sortition, and the flaws built into the design.',
+          },
+        ],
+        books: [
+          {
+            title: 'Democracy and Knowledge: Innovation and Learning in Classical Athens',
+            author: 'Josiah Ober',
+            year: 2008,
+            url: '',
+            why: 'Ober argues that Athens succeeded because its institutions pooled what ordinary citizens knew. The strongest modern case for taking Athenian democracy seriously as a system, not a slogan.',
+          },
+          {
+            title: 'The Athenian Democracy in the Age of Demosthenes',
+            author: 'Mogens Herman Hansen',
+            year: 1991,
+            url: '',
+            why: 'The standard scholarly account of how the institutions actually worked, by the Danish historian who rebuilt the field.',
+          },
+          {
+            title: 'Democracy: A Life',
+            author: 'Paul Cartledge',
+            year: 2016,
+            url: '',
+            why: 'A Cambridge classicist traces the word and the practice from Athens to the present. Readable, sceptical, and fair to both.',
+          },
+        ],
+        articles: [
+          {
+            title: 'Athenian democracy',
+            source: 'Wikipedia',
+            url: 'https://en.wikipedia.org/wiki/Athenian_democracy',
+            why: 'Detailed, well cited account of the reforms of Solon, Cleisthenes, and Ephialtes, and of who could take part.',
+            year: null,
+          },
+          {
+            title: 'Athens',
+            source: 'World History Encyclopedia',
+            url: 'https://www.worldhistory.org/Athens/',
+            why: 'A concise entry on the institutions, the Council of 500, the Areopagus, and the Assembly, that made the system run.',
+            year: null,
+          },
+        ],
+        courses: [
+          {
+            title: 'Introduction to Ancient Greek History (CLCV 205)',
+            provider: 'Open Yale Courses',
+            url: 'https://oyc.yale.edu/classics/clcv-205',
+            free: true,
+            why: 'Donald Kagan\'s free Yale lectures give the democratic experiment its full political and military context.',
+          },
+        ],
+      },
+
+      seeAlso: ['greece', 'rome', 'enlightenment'],
+      prereqs: ['greece'],
+      leadsTo: ['rome', 'enlightenment'],
+
+      sources: [
+        'https://en.wikipedia.org/wiki/Athenian_democracy',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    printing: {
+      id: 'printing',
+      name: 'The Printing Revolution',
+      level: 'Intermediate',
+      dek: 'A goldsmith in Mainz made books cheap enough to argue with, and Europe was never quiet again.',
+      readTime: '10 min',
+
+      sections: ['Printing before Gutenberg', 'A goldsmith builds a system', 'Books by the million', 'What print changed'],
+      body: [
+        { type: 'lead', text: 'Around 1440, in a workshop in Mainz, a goldsmith who had once made mirrors for pilgrims finished assembling a machine out of parts that already existed: a screw press, metal type, oil based ink, and cheap paper. No single part was new. Put together, they made the book, for five thousand years a luxury object, into something a town could produce by the thousand.' },
+        { type: 'h2', text: 'Printing before Gutenberg' },
+        { type: 'p', text: 'Printing itself was old. The Chinese artisan Bi Sheng made the first movable type in the eleventh century, from baked clay. Around 1300 Wang Zhen built movable wooden type on revolving tables, and the oldest surviving book printed with metal movable type, the Jikji, was produced in Korea in 1377. These systems worked, but a logographic script needs thousands of distinct characters, and the cost of a full set of type kept East Asian printing wedded to the carved woodblock.' },
+        { type: 'h2', text: 'A goldsmith builds a system' },
+        { type: 'p', text: 'Johannes Gutenberg\'s contribution was integration, plus a few inventions of his own. He was the first to cast type from an alloy of lead, tin, and antimony, durable enough for long print runs, and he used a hand mould that let one worker cast letter after identical letter quickly and precisely. He added an oil based ink that would stick to metal, and adapted the screw press, long used for wine and paper, to press a sheet evenly against the inked type. Two men working such a press could produce about 3,600 impressions in a day.' },
+        { type: 'h2', text: 'Books by the million' },
+        { type: 'p', text: 'The spread was fast because the equipment was portable and the demand was real. Gutenberg\'s shop in Mainz was at first the only one in Europe; by the end of the fifteenth century around 270 European cities had printing, and presses across Western Europe had produced over 20 million copies by 1500. Output climbed to an estimated 150 to 200 million copies by 1600. A hand copied book had been the work of months. Now it was the work of a print run.' },
+        { type: 'h2', text: 'What print changed' },
+        { type: 'p', text: 'Cheap copies changed what an argument could be. Printers across Germany reprinted Martin Luther\'s works at a pace that surprised both the Pope and secular rulers, distributing 300,000 printed copies between 1518 and 1520 alone, and the Reformation became the first European movement carried by mass media. The same machinery standardised national languages, spread scientific results in identical copies that readers in different countries could check line by line, and slowly raised literacy. The press did not decide what Europe would think. It decided that Europe would think it in public, in numbers no authority could fully police, and that decision is still working itself out.' },
+      ],
+
+      keyTerms: ['movable type', 'Gutenberg', 'incunabula', 'hand mould', 'type alloy', 'print run', 'vernacular'],
+
+      resources: {
+        videos: [
+          {
+            id: 'IByctuC1OAw',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=IByctuC1OAw',
+            title: 'Gutenberg\'s Printing Press',
+            channel: 'Daily Dose Documentary',
+            duration: 'variable',
+            why: 'A short documentary history of the press, from Bi Sheng\'s clay type in 1040s China to Gutenberg\'s workshop.',
+          },
+          {
+            id: 'loOoexuJEV8',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=loOoexuJEV8',
+            title: 'Johannes Gutenberg: The Forgotten Genius Who Lost His Own Invention',
+            channel: 'The Long Shadow',
+            duration: 'variable',
+            why: 'The full life: the secret experiments, the hand mould, the 42 line Bible, and the lawsuit that took the workshop from its inventor.',
+          },
+          {
+            id: 'sDgx2Em1T3s',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=sDgx2Em1T3s',
+            title: 'Why the Printing Press Changed Everything (It\'s Not What You Think)',
+            channel: 'Sphota Origins',
+            duration: 'variable',
+            why: 'Argues the breakthrough was the reusable metal letter and a 26 letter alphabet, not the press itself. A sharp, short counterpoint.',
+          },
+        ],
+        books: [
+          {
+            title: 'The Printing Press as an Agent of Change',
+            author: 'Elizabeth L. Eisenstein',
+            year: 1979,
+            url: '',
+            why: 'The landmark study of what print did to scholarship, religion, and science. Long, argued, and still the book every later account answers.',
+          },
+          {
+            title: 'The Gutenberg Revolution',
+            author: 'John Man',
+            year: 2002,
+            url: '',
+            why: 'A readable life of Gutenberg and a clear account of the technology, written for the general reader.',
+          },
+          {
+            title: 'Printing, Propaganda, and Martin Luther',
+            author: 'Mark U. Edwards Jr.',
+            year: 1994,
+            url: '',
+            why: 'Counts what the presses actually produced in the Reformation\'s first decade, and shows how print shaped the argument itself.',
+          },
+        ],
+        articles: [
+          {
+            title: 'Printing press',
+            source: 'Wikipedia',
+            url: 'https://en.wikipedia.org/wiki/Printing_press',
+            why: 'The technology and its spread, with production figures for the fifteenth and sixteenth centuries.',
+            year: null,
+          },
+          {
+            title: 'Printing press',
+            source: 'Encyclopaedia Britannica',
+            url: 'https://www.britannica.com/technology/printing-press',
+            why: 'A concise editorial history, useful as a check on the longer Wikipedia account.',
+            year: null,
+          },
+        ],
+        courses: [
+          {
+            title: 'World History',
+            provider: 'Khan Academy',
+            url: 'https://www.khanacademy.org/humanities/world-history/world-history-beginnings',
+            free: true,
+            why: 'Khan\'s free world history sequence covers the centuries on both sides of Gutenberg, so the press lands in context.',
+          },
+        ],
+      },
+
+      seeAlso: ['renaissance', 'enlightenment', 'exploration'],
+      prereqs: ['medieval'],
+      leadsTo: ['renaissance', 'enlightenment'],
+
+      sources: [
+        'https://en.wikipedia.org/wiki/Printing_press',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    silkroad: {
+      id: 'silkroad',
+      name: 'The Silk Road',
+      level: 'Intermediate',
+      dek: 'Not one road but a web of relays across Eurasia, carrying silk, faiths, inventions, and disease.',
+      readTime: '10 min',
+
+      sections: ['A network, not a road', 'Zhang Qian and the Han opening', 'What actually travelled', 'Relays, risks, and the long decline'],
+      body: [
+        { type: 'lead', text: 'No traveller in the year 800 would have recognised the name. There was no signposted highway from China to the Mediterranean, no single road at all, only a shifting web of caravan tracks, oasis towns, mountain passes, and sea lanes, more than 6,400 kilometres across on land, along which a bolt of silk might change hands a dozen times before it reached a buyer who had never heard of the worm.' },
+        { type: 'h2', text: 'A network, not a road' },
+        { type: 'p', text: 'The name itself is modern. It comes from the German word Seidenstrasse, popularised in 1877 by Ferdinand von Richthofen, and it misleads in two ways: there were many routes, not one, and silk was only the most famous cargo. Historians who prefer the plural, Silk Routes, have a point. The network ran from the ancient capitals of China through Central Asia to the Levant and the Mediterranean, with branches to India, Persia, and the steppe, and a maritime twin across the Indian Ocean.' },
+        { type: 'h2', text: 'Zhang Qian and the Han opening' },
+        { type: 'p', text: 'The network took shape when the Han dynasty expanded into Central Asia around 114 BCE, following the missions and explorations of the imperial envoy Zhang Qian. China wanted secure trade and allies against steppe nomads, and extended the Great Wall to protect the routes. The Parthian Empire formed a bridge toward the Mediterranean, and by the first century CE Chinese silk was widely sought after in Rome, Egypt, and Greece, most of it carried by middlemen who never saw either end of the journey.' },
+        { type: 'h2', text: 'What actually travelled' },
+        { type: 'p', text: 'Westbound went silk, tea, dyes, perfumes, and porcelain. Eastbound came horses, camels, honey, wine, and gold. The cargo that changed history most was not for sale at all: paper and gunpowder moved west along these routes and altered politics across Eurasia, while religions, above all Buddhism, travelled with the merchants and monks, along with philosophy, astronomy, and mathematics. Disease travelled too. Plague spread along the same roads, possibly contributing to the Black Death that reached Europe in the fourteenth century.' },
+        { type: 'h2', text: 'Relays, risks, and the long decline' },
+        { type: 'p', text: 'Almost nobody walked the whole way. Trade was relay trade: goods changed hands many times at stopping points along the route, and travellers faced bandits, nomadic raiders, deserts, and high passes with little organised security. The network flourished and faded with the empires that guarded its stretches, and from the mid fifteenth century sea routes took over much of its traffic. UNESCO listed the Chang\'an to Tianshan corridor as a World Heritage Site in 2014, a late official honour for a road that never existed as one road, and connected the world anyway.' },
+      ],
+
+      keyTerms: ['Silk Road', 'Zhang Qian', 'caravan', 'relay trade', 'oasis', 'Han dynasty', 'Samarkand', 'Buddhism'],
+
+      resources: {
+        videos: [
+          {
+            id: 'vfe-eNq-Qyg',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=vfe-eNq-Qyg',
+            title: 'The Silk Road and Ancient Trade: Crash Course World History #9',
+            channel: 'CrashCourse',
+            duration: '10:31',
+            why: 'John Green on the network as a whole: goods, nomads, Buddhism, and disease, in ten brisk minutes.',
+          },
+          {
+            id: 'j4Wi4_oWo_U',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=j4Wi4_oWo_U',
+            title: 'The Silk Road in Late Antiquity, by Peter Brown',
+            channel: 'Penn Museum',
+            duration: '38:35',
+            why: 'Princeton\'s Peter Brown lecturing at the Penn Museum on communication between Rome and China between 300 and 700 CE. The scholarly version.',
+          },
+          {
+            id: '2lwbsep-U5g',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=2lwbsep-U5g',
+            title: 'History of Silk Road through Legendary Emperors',
+            channel: 'Dr Mao Ming (lecture)',
+            duration: 'variable',
+            why: 'A two thousand year survey through Alexander, Han Wudi, and Tang Taizong, by a journal editor who taught Silk Road courses at the British Museum.',
+          },
+        ],
+        books: [
+          {
+            title: 'The Silk Road: A New History',
+            author: 'Valerie Hansen',
+            year: 2012,
+            url: '',
+            why: 'Built from documents found along the routes themselves. Hansen shows a trade smaller, stranger, and more local than the legend, which makes it more believable.',
+          },
+          {
+            title: 'Life Along the Silk Road',
+            author: 'Susan Whitfield',
+            year: 1999,
+            url: '',
+            why: 'Ten lives reconstructed from the Dunhuang manuscripts and the collections of the British Library. The human scale of the network.',
+          },
+          {
+            title: 'The Silk Roads: A New History of the World',
+            author: 'Peter Frankopan',
+            year: 2015,
+            url: '',
+            why: 'The bestselling argument that the centre of world history sat in Persia and Central Asia, not in Europe. Read it against Hansen.',
+          },
+        ],
+        articles: [
+          {
+            title: 'Silk Road',
+            source: 'Wikipedia',
+            url: 'https://en.wikipedia.org/wiki/Silk_Road',
+            why: 'The routes, the goods, and the historiographical argument about the name itself, with a strong bibliography.',
+            year: null,
+          },
+          {
+            title: 'Silk Road',
+            source: 'World History Encyclopedia',
+            url: 'https://www.worldhistory.org/Silk_Road/',
+            why: 'A concise overview with maps, good as a second pass after the longer Wikipedia entry.',
+            year: null,
+          },
+        ],
+        courses: [
+          {
+            title: 'Introduction to Ancient Empires',
+            provider: 'Khan Academy',
+            url: 'https://www.khanacademy.org/humanities/world-history/world-history-beginnings',
+            free: true,
+            why: 'Khan\'s free opening world history units cover the Han and Roman worlds whose trade the routes connected.',
+          },
+        ],
+      },
+
+      seeAlso: ['islam', 'medieval', 'exploration'],
+      prereqs: ['rome'],
+      leadsTo: ['islam', 'exploration'],
+
+      sources: [
+        'https://en.wikipedia.org/wiki/Silk_Road',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    ancient_americas: {
+      id: 'ancient_americas',
+      name: 'The Ancient Americas',
+      level: 'Intermediate',
+      dek: 'Cities, calendars, and empires rose across two continents for millennia before any European ship arrived.',
+      readTime: '10 min',
+
+      sections: ['A hemisphere of builders', 'Mounds and cities in the north', 'Mesoamerica: writing and time', 'What the meeting of worlds broke'],
+      body: [
+        { type: 'lead', text: 'On the floodplain of the Mississippi, around the year 1200, a city of earthen pyramids and grand plazas held more people than most cities on Earth at that moment, and no one in Europe, Africa, or Asia knew it existed. Cahokia was not an exception. It was one chapter in a hemisphere long history of building, farming, and statecraft that ran for thousands of years in near total separation from the rest of the world.' },
+        { type: 'h2', text: 'A hemisphere of builders' },
+        { type: 'p', text: 'People spread through the Americas over thousands of years and diversified into hundreds of distinct cultures, adapting to Arctic coast, desert, jungle, and high mountain valley. Over millennia they domesticated, bred, and cultivated so many plant species that crops first raised in the Americas now make up an estimated 50 to 60 percent of worldwide agriculture. Maize, potatoes, tomatoes, and beans are the famous names on a much longer list, and every one of them is the product of patient selection by farmers whose names we do not know.' },
+        { type: 'h2', text: 'Mounds and cities in the north' },
+        { type: 'p', text: 'Monumental building in North America is older than farming there. At Watson Brake in present day Louisiana, hunter gatherers began a complex of eleven platform mounds in 3400 BCE and added to it over five centuries. The Mississippian culture, which appeared around 1000 CE, raised the tradition to city scale. Cahokia, near modern East St. Louis, may have reached a population of over 20,000, and at its peak between the twelfth and thirteenth centuries it was the most populous city in North America. Its Monks Mound remains the largest earthen construction of the prehistoric Americas.' },
+        { type: 'h2', text: 'Mesoamerica: writing and time' },
+        { type: 'p', text: 'Further south, the civilisations of Mesoamerica and the Andes built permanent settlements, cities, civic and monumental architecture, and complex social hierarchies. The Maya kept written records, maintained by a literate culture with its own script and calendar traditions. Most of those records were later destroyed by Christian Europeans who viewed them as pagan, among them Diego de Landa; a few original documents survived, and others were transcribed into Spanish, which is why the Maya can still speak to us partly in their own words.' },
+        { type: 'h2', text: 'What the meeting of worlds broke' },
+        { type: 'p', text: 'The pre-Columbian era is usually dated to the onset of European colonisation, which began with the voyage of Christopher Columbus in 1492. What followed was not a simple encounter. Some civilisations had already declined before Europeans arrived; others were at their height and were documented in European accounts of the time, even as disease and conquest dismantled them. The honest way to read this history is the way archaeology now reads it: as a full human story, thousands of years long, of which the catastrophe of contact is the last chapter, not the first. The hemisphere that Columbus reached was not waiting to be discovered. It was busy.' },
+      ],
+
+      keyTerms: ['pre-Columbian', 'Cahokia', 'Mississippian', 'Mesoamerica', 'Maya', 'chinampa', 'Monks Mound', 'domestication'],
+
+      resources: {
+        videos: [
+          {
+            id: '1YeKidGZLTA',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=1YeKidGZLTA',
+            title: 'New World Archeology (Mesoamerica)',
+            channel: 'Professor Dave Explains',
+            duration: 'variable',
+            why: 'A brisk survey of the Olmec, Maya, and Aztec worlds, then the Inca and the Mississippians, with the archaeology kept in front.',
+          },
+          {
+            id: '282FwLqPsg0',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=282FwLqPsg0',
+            title: 'History of the Olmec, Maya, Aztec, Inca and Amazon Civilization: Ed Barnhart',
+            channel: 'Ed Barnhart (lecture)',
+            duration: 'variable',
+            why: 'A working Maya archaeologist on three thousand years of civilisation in the Americas, including his own field discoveries.',
+          },
+          {
+            id: 'envqZGr3SHY',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=envqZGr3SHY',
+            title: 'Mesoamerican Civilizations: A Historical Overview',
+            channel: 'YouTube documentary',
+            duration: 'variable',
+            why: 'From the Olmec around 1200 BCE to the Aztec capital on Lake Texcoco, a single arc through the region\'s major cultures.',
+          },
+        ],
+        books: [
+          {
+            title: '1491: New Revelations of the Americas Before Columbus',
+            author: 'Charles C. Mann',
+            year: 2005,
+            url: '',
+            why: 'The book that reset the public picture of the pre-Columbian Americas: populous, engineered, and ecologically managed. Start here.',
+          },
+          {
+            title: 'The Maya',
+            author: 'Michael D. Coe',
+            year: 1966,
+            url: '',
+            why: 'The classic introduction to Maya civilisation, kept in print and revised across six decades. Still the one volume to own.',
+          },
+          {
+            title: 'The Incas',
+            author: 'Terence N. D\'Altroy',
+            year: 2002,
+            url: '',
+            why: 'The standard scholarly account of the largest empire in the pre-Columbian Americas, by a Columbia anthropologist who works in the Andes.',
+          },
+        ],
+        articles: [
+          {
+            title: 'Pre-Columbian era',
+            source: 'Wikipedia',
+            url: 'https://en.wikipedia.org/wiki/Pre-Columbian_era',
+            why: 'Region by region survey, from the first settlement of the hemisphere to Cahokia, the Puebloans, and Mesoamerica.',
+            year: null,
+          },
+          {
+            title: 'Columbian exchange',
+            source: 'Encyclopaedia Britannica',
+            url: 'https://www.britannica.com/event/Columbian-exchange',
+            why: 'What crossed the Atlantic in both directions after 1492, and what it did to both hemispheres.',
+            year: null,
+          },
+        ],
+        courses: [
+          {
+            title: 'Introduction to Ancient Empires',
+            provider: 'Khan Academy',
+            url: 'https://www.khanacademy.org/humanities/world-history/world-history-beginnings',
+            free: true,
+            why: 'Khan\'s free world history opening units give the global frame into which the American civilisations fit.',
+          },
+        ],
+      },
+
+      seeAlso: ['exploration', 'prehistory', 'mesopotamia'],
+      prereqs: ['prehistory'],
+      leadsTo: ['exploration'],
+
+      sources: [
+        'https://en.wikipedia.org/wiki/Pre-Columbian_era',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
   },
 };
 
@@ -27294,17 +29818,17 @@ window.CONTENT.knots = {
 // ====== law.js ======
 // content/law.js
 // Owned by batch: B05-social-world
-// Last updated: 2026-04-23 by BATCH B05-social-world
+// Last updated: 2026-10-15 by SPRINT W1
 //
 // Topics this subject must cover (from data.js):
-//   Core: contract_law, criminal, constitutional
+//   Core: contract_law, criminal, constitutional, courts
 
 window.CONTENT = window.CONTENT || {};
 window.CONTENT.law = {
   subjectId: 'law',
   version: 2,
-  lastUpdated: '2026-04-23',
-  curator: 'BATCH B05-social-world',
+  lastUpdated: '2026-10-15',
+  curator: 'SPRINT W1',
   topics: {
 
     // ——— CONTRACT LAW ———
@@ -28228,6 +30752,119 @@ window.CONTENT.law = {
         'https://www.law.cornell.edu/wex/constitutional_law',
       ],
       verifiedAt: '2026-04-23',
+    },
+
+    courts: {
+      id: 'courts',
+      name: 'Courts & Trials',
+      level: 'Beginner',
+      dek: 'Where disputes end without violence: judges, juries, evidence, and rules that bind the powerful as well.',
+      readTime: '9 min',
+
+      sections: ['What a court is for', 'Facts first, then appeals', 'Judge, jury, and the bench', 'The American pyramid'],
+      body: [
+        { type: 'lead', text: 'Strip a court down to its minimum and, as William Blackstone counted it in the eighteenth century, you need three parties: a plaintiff who complains of an injury, a defendant who is called to answer for it, and a judge to examine the truth of the facts, declare the law that arises from them, and apply a remedy. Everything else in the building, the robes, the jury box, the appeals, is machinery built around that triangle.' },
+        { type: 'h2', text: 'What a court is for' },
+        { type: 'p', text: 'A court is an institution, usually created by a constitution or by legislation, with authority to decide legal disputes and administer justice in civil, criminal, and administrative matters under the rule of law. That authority has a name, jurisdiction, and it has three basic parts: power over the persons before the court, power over the subject matter of the case, and power within a territory. A court acting outside its jurisdiction is not being bold. It is acting without authority, and its decisions do not stand.' },
+        { type: 'h2', text: 'Facts first, then appeals' },
+        { type: 'p', text: 'Courts are arranged in a ladder because two different jobs need doing. Trial courts, the courts of first instance, hear evidence, question witnesses, and decide what actually happened. Appellate courts hear appeals from below and ask a narrower question: was the law applied correctly? Some courts, like the Crown Court in England and Wales, do both jobs. The ladder means a losing party gets a second look from fresh eyes, and it means the system can correct a legal error without pretending the facts were different.' },
+        { type: 'h2', text: 'Judge, jury, and the bench' },
+        { type: 'p', text: 'Who finds the facts depends on the kind of trial. In a jury trial, citizens act as the finders of fact, weighing evidence and delivering a verdict, while the judge declares the law and runs the proceeding. In a bench trial the judge does both jobs. Juries are a hallmark of the common law world, the tradition built up by English royal judges after the Norman invasion of 1066, who combined local customs gathered on their travels into one common standard. Civil law systems, descended from Roman law, use juries far less and give professional judges a more active hand in questioning.' },
+        { type: 'h2', text: 'The American pyramid' },
+        { type: 'p', text: 'The federal system in the United States shows the ladder at full scale. At its base sit 94 district courts, the trial courts, which resolve disputes by determining the facts and applying the law to them. Above them are 13 courts of appeals, whose task is to decide whether the law was applied correctly below. At the top is the Supreme Court, created by Article III of the Constitution, which also authorised Congress to build the lower courts beneath it. Most cases end at the first rung, by settlement, plea, or judgment, and that is by design: a court system that had to try everything twice would try nothing well. The triangle Blackstone described, plaintiff, defendant, judge, now runs at continental scale, and it still does the same quiet work of ending arguments without bloodshed.' },
+      ],
+
+      keyTerms: ['jurisdiction', 'trial court', 'appellate court', 'jury', 'bench trial', 'plaintiff', 'defendant', 'common law'],
+
+      resources: {
+        videos: [
+          {
+            id: 'IGyx5UEwgtA',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=IGyx5UEwgtA',
+            title: 'Structure of the Court System: Crash Course Government and Politics #19',
+            channel: 'CrashCourse',
+            duration: 'variable',
+            why: 'Craig Benzine on trial courts, district courts, appeals courts, and the Supreme Court, and on why most cases never reach a courtroom at all.',
+          },
+          {
+            id: '7sualy8OiKk',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=7sualy8OiKk',
+            title: 'Supreme Court Procedures: Crash Course Government and Politics #20',
+            channel: 'CrashCourse',
+            duration: 'variable',
+            why: 'What happens when a case reaches the top: petitions, briefs, oral argument, and how opinions are issued.',
+          },
+          {
+            id: '8fwQuPQOwH4',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=8fwQuPQOwH4',
+            title: 'How do jury trials work?',
+            channel: 'Khan Academy and National Constitution Center',
+            duration: 'variable',
+            why: 'Judge Stephanos Bibas explains jury trials from the bench, made for the Constitution 101 course.',
+          },
+        ],
+        books: [
+          {
+            title: 'The Nine: Inside the Secret World of the Supreme Court',
+            author: 'Jeffrey Toobin',
+            year: 2007,
+            url: '',
+            why: 'A readable account of the American Supreme Court as a working institution of nine people. The friendliest entry to life at the top of the pyramid.',
+          },
+          {
+            title: 'Making Our Democracy Work: A Judge\'s View',
+            author: 'Stephen Breyer',
+            year: 2010,
+            url: '',
+            why: 'A sitting justice explains, in plain language, what courts are for and why the public\'s trust is their only real enforcement power.',
+          },
+          {
+            title: 'The Court and the World: American Law and the New Global Realities',
+            author: 'Stephen Breyer',
+            year: 2015,
+            url: '',
+            why: 'Breyer on how national courts now read each other\'s decisions. A clear window on courts as a worldwide conversation.',
+          },
+        ],
+        articles: [
+          {
+            title: 'Court',
+            source: 'Wikipedia',
+            url: 'https://en.wikipedia.org/wiki/Court',
+            why: 'Jurisdiction, trial and appellate courts, and the common law and civil law traditions compared in one entry.',
+            year: null,
+          },
+          {
+            title: 'Court Role and Structure',
+            source: 'United States Courts',
+            url: 'https://www.uscourts.gov/about-federal-courts/court-role-and-structure',
+            why: 'The federal courts\' own account of their structure: 94 district courts, 13 courts of appeals, and the Supreme Court above them.',
+            year: null,
+          },
+        ],
+        courses: [
+          {
+            title: 'Constitutional Interpretation: The Constitution Annotated',
+            provider: 'Cornell Law School',
+            url: 'https://www.law.cornell.edu/constitution-conan',
+            free: true,
+            why: 'Cornell\'s free clause by clause commentary on the Constitution, including Article III and the judiciary it creates.',
+          },
+        ],
+      },
+
+      seeAlso: ['criminal', 'contract_law', 'constitutional'],
+      prereqs: [],
+      leadsTo: ['criminal', 'constitutional'],
+
+      sources: [
+        'https://en.wikipedia.org/wiki/Court',
+        'https://www.uscourts.gov/about-federal-courts/court-role-and-structure',
+      ],
+      verifiedAt: '2026-10-15',
     },
 
   },
@@ -32464,7 +35101,7 @@ window.CONTENT.masonry = {
 // ====== math.js ======
 // content/math.js
 // Batch: B01-mathematics
-// Last updated: 2026-04-22 by Session 00 (scaffold)
+// Last updated: 2026-10-15 by SPRINT W1
 //
 // EXEMPLAR FILE. This file is partially filled to demonstrate the schema.
 // A batch session is expected to complete the remaining topics using the
@@ -32474,13 +35111,14 @@ window.CONTENT.masonry = {
 //   Foundations: arith, algebra, geom, trig
 //   Analysis:    precalc, calc1, calc2, diffeq
 //   Discrete:    stats, linalg, discrete, numtheory
+//   Sprint W1:   fractions, percents, exponents, measurement, probability
 
 window.CONTENT = window.CONTENT || {};
 window.CONTENT.math = {
   subjectId: 'math',
   version: 1,
-  lastUpdated: '2026-04-22',
-  curator: 'Session 00 — scaffold',
+  lastUpdated: '2026-10-15',
+  curator: 'SPRINT W1',
   topics: {
 
     // ——— FULLY POPULATED EXEMPLAR: Beginner ———
@@ -35411,6 +38049,606 @@ window.CONTENT.math = {
       verifiedAt: '2026-04-22',
     },
 
+    fractions: {
+      id: 'fractions',
+      name: 'Fractions & Decimals',
+      level: 'Beginner',
+      dek: 'Cutting a whole into equal parts, and learning to name the pieces exactly.',
+      readTime: '9 min',
+
+      sections: ['Equal parts', 'Adding unlike pieces', 'Decimals are fractions too', 'When the decimal never ends'],
+      body: [
+        { type: 'lead', text: 'A cake leaves the table with one quarter gone, and the rest is still described by what is missing. A fraction names a whole by its parts: in 3/4, the numerator 3 counts the parts and the denominator 4 says how many equal parts make the whole.' },
+        { type: 'h2', text: 'Equal parts' },
+        { type: 'p', text: 'That small definition does real work. A fraction is a part of a whole, or more generally any number of equal parts, and it can also stand for a ratio or a division: 3/4 is three to four, and three divided by four. Once a whole is cut fairly, the pieces become a new unit. One fourth is a thing you can count, stack, and compare, just as one apple is. Two fourths and three fourths differ by exactly one of those units.' },
+        { type: 'p', text: 'Fractions also refuse to stay below one. A proper fraction has absolute value less than one, while an improper fraction is greater than or equal to one, so 9/4 is a respectable number, not a mistake. Its reciprocal, made by exchanging numerator and denominator, is 4/9, and a fraction times its reciprocal is 1. Every integer joins the system too: 17 can be written as 17/1, with what the old books call an invisible denominator.' },
+        { type: 'h2', text: 'Adding unlike pieces' },
+        { type: 'p', text: 'Addition is where the discipline shows. Fourths and thirds are different units, so they cannot be counted together until both are rewritten in a shared unit, a common denominator. In twelfths, 2/3 becomes 8/12 and 1/4 becomes 3/12, and the sum is 11/12. Multiplication asks for no such negotiation: multiply across, top and bottom. Division turns into multiplication by the reciprocal, which is why dividing by a half doubles a quantity instead of halving it.' },
+        { type: 'callout', text: 'The word fraction comes from the Latin fractus, meaning broken. The mathematics is what you can build, exactly, from the broken pieces.' },
+        { type: 'h2', text: 'Decimals are fractions too' },
+        { type: 'p', text: 'A decimal fraction hides its denominator in plain sight. In 0.75 the numerator is 75 and the implied denominator is 100, because two digits sit to the right of the separator. Money makes this familiar: 3.75 dollars is 375/100, or three wholes and seventy five hundredths. Decimals are fractions dressed for calculation, quick to compare and easy to line up by place.' },
+        { type: 'h2', text: 'When the decimal never ends' },
+        { type: 'p', text: 'Some fractions settle into a short decimal and some do not. Written as a decimal, 1/3 = 0.333..., the threes repeating without end, because 3 is not a power of ten. The fraction is exact and the decimal is an endless approximation of it, a useful warning about which form to trust. The cake from the first paragraph makes the point quietly: three quarters of it can be written in a breath, as 3/4, 0.75, or a picture, and each form keeps a different part of the truth visible.' },
+      ],
+
+      keyTerms: ['numerator', 'denominator', 'proper fraction', 'improper fraction', 'reciprocal', 'common denominator', 'decimal fraction'],
+
+      resources: {
+        videos: [
+          {
+            id: 'DpwUVExX27E',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=DpwUVExX27E',
+            title: 'Infinite Fractions',
+            channel: 'Numberphile',
+            duration: 'variable',
+            featured: true,
+            why: 'Matt Parker on Stern Babcot numbers, fractions, and rational numbers, in depth.',
+          },
+          {
+            id: '0hlvhQZIOQw',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=0hlvhQZIOQw',
+            title: 'Funny Fractions and Ford Circles',
+            channel: 'Numberphile',
+            duration: 'variable',
+            featured: true,
+            why: 'Farey sequences and Ford circles show how fractions sit in a hidden order.',
+          },
+          {
+            id: 'aVUUbNbQkbQ',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=aVUUbNbQkbQ',
+            title: 'Egyptian Fractions and the Greedy Algorithm',
+            channel: 'Numberphile',
+            duration: 'variable',
+            featured: true,
+            why: 'How the Egyptians wrote fractions as sums of unit fractions, and the greedy method that rebuilds them.',
+          },
+        ],
+        books: [
+          {
+            title: 'Number: The Language of Science',
+            author: 'Tobias Dantzig',
+            year: 1930,
+            url: '',
+            why: 'The classic history of number, strong on how fractions and rationals widened the number line.',
+          },
+          {
+            title: 'The Man Who Counted',
+            author: 'Malba Tahan',
+            year: 1938,
+            url: '',
+            why: 'Fables of elementary arithmetic, with fraction puzzles woven through a journey.',
+          },
+          {
+            title: 'What Is Mathematics?',
+            author: 'Richard Courant and Herbert Robbins',
+            year: 1941,
+            url: '',
+            why: 'A durable survey that treats rational numbers with the respect they deserve.',
+          },
+        ],
+        articles: [
+          {
+            title: 'Fraction',
+            source: 'Wikipedia',
+            url: 'https://en.wikipedia.org/wiki/Fraction',
+            why: 'Definitions, forms of fractions, and decimal fractions, well cited.',
+            year: null,
+          },
+          {
+            title: 'Decimal',
+            source: 'Wikipedia',
+            url: 'https://en.wikipedia.org/wiki/Decimal',
+            why: 'How decimal fractions work and why some expansions repeat.',
+            year: null,
+          },
+        ],
+        courses: [
+          {
+            title: 'Prealgebra 2e',
+            provider: 'OpenStax',
+            url: 'https://openstax.org/details/books/prealgebra-2e',
+            free: true,
+            why: 'Free online prealgebra text covering fractions, percents, exponents, and measurement, with exercises throughout.',
+          },
+        ],
+      },
+
+      seeAlso: ['arith', 'algebra', 'stats'],
+      prereqs: ['arith'],
+      leadsTo: ['algebra', 'stats'],
+
+      sources: [
+        'https://en.wikipedia.org/wiki/Fraction',
+        'https://en.wikipedia.org/wiki/Decimal',
+        'https://openstax.org/details/books/prealgebra-2e',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    percents: {
+      id: 'percents',
+      name: 'Percents & Ratios',
+      level: 'Beginner',
+      dek: 'Per hundred: one shared scale for comparing parts, prices, votes, and change.',
+      readTime: '9 min',
+
+      sections: ['Per hundred', 'Ratios underneath', 'Change is relative', 'Percentage points'],
+      body: [
+        { type: 'lead', text: 'In ancient Rome, long before the decimal system, Augustus levied a tax of 1/100 on goods sold at auction. The clerks who reckoned in hundredths were, in effect, computing percentages, and the habit has never left the counting house since.' },
+        { type: 'h2', text: 'Per hundred' },
+        { type: 'p', text: 'A percentage is a number or ratio expressed as a fraction of 100, from the Latin per centum, by the hundred. So 45% is 45/100, or 0.45, and the percent sign itself evolved by contraction from the Italian per cento. The trick is standardization. Test scores, harvests, and crowds come in different sizes, but rescaled to a hundred they can be compared at a glance. If 50% of the students in a class are male and there are 500 students, then 250 of them are male.' },
+        { type: 'h2', text: 'Ratios underneath' },
+        { type: 'p', text: 'Under every percent sits a ratio, a comparison of how many times one number contains another. Eight oranges to six lemons is the ratio 8:6, which reduces to 4:3, and oranges are 8 of 14 pieces of fruit in the bowl. A proportion states that two ratios are equal, and most percent problems are proportions in disguise: find the part, find the whole, or find the rate per hundred. Keeping track of which quantity is the whole is most of the skill.' },
+        { type: 'callout', text: 'Percentages can exceed one hundred. A price that doubles has risen by 100% and now stands at 200% of its starting value.' },
+        { type: 'h2', text: 'Change is relative' },
+        { type: 'p', text: 'Percent change is measured against the starting value, and that choice of base explains its famous traps. An increase of $0.15 on a price of $2.50 is 0.15 divided by 2.50, a 6% increase. But a 10% rise followed by a 10% fall does not cancel: $200 rises to $220, then falls by $22 to $198. The two changes were taken from different bases, so a careful reader always asks, percent of what.' },
+        { type: 'h2', text: 'Percentage points' },
+        { type: 'p', text: 'When a rate itself changes, plain language needs one more tool. If an interest rate rises from 10% per annum to 15% per annum, saying it rose by 5% invites the wrong reading, 10.5%. The clear statement is that it rose by 5 percentage points. Augustus and his auction tax have come a long way: the hundredth is now the common scale of elections, interest, and statistics, and it rewards exactly the habit his clerks practiced, naming the whole before quoting the part.' },
+      ],
+
+      keyTerms: ['percent', 'ratio', 'proportion', 'percent change', 'percentage point', 'rate', 'per mille'],
+
+      resources: {
+        videos: [
+          {
+            id: 'JeVSmq1Nrpw',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=JeVSmq1Nrpw',
+            title: 'What Are Percentages?',
+            channel: 'Math Antics',
+            duration: 'variable',
+            featured: true,
+            why: 'A patient introduction that treats a percent as a fraction with denominator one hundred.',
+          },
+          {
+            id: 'rR95Cbcjzus',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=rR95Cbcjzus',
+            title: 'Finding a Percent of a Number',
+            channel: 'Math Antics',
+            duration: 'variable',
+            featured: true,
+            why: 'Worked examples of taking a percent of a quantity, in fraction and decimal form.',
+          },
+          {
+            id: 'USmit5zUGas',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=USmit5zUGas',
+            title: 'Proportions',
+            channel: 'Math Antics',
+            duration: 'variable',
+            featured: true,
+            why: 'Proportions and cross multiplication, the machinery underneath most percent problems.',
+          },
+        ],
+        books: [
+          {
+            title: 'How to Lie with Statistics',
+            author: 'Darrell Huff',
+            year: 1954,
+            url: '',
+            why: 'The short classic on how percentages and charts mislead, and how to read them awake.',
+          },
+          {
+            title: 'Innumeracy',
+            author: 'John Allen Paulos',
+            year: 1988,
+            url: '',
+            why: 'A mathematician on the everyday cost of shaky number sense, percents included.',
+          },
+          {
+            title: 'What Is Mathematics?',
+            author: 'Richard Courant and Herbert Robbins',
+            year: 1941,
+            url: '',
+            why: 'Ratio and proportion treated as serious mathematics, not school routine.',
+          },
+        ],
+        articles: [
+          {
+            title: 'Percentage',
+            source: 'Wikipedia',
+            url: 'https://en.wikipedia.org/wiki/Percentage',
+            why: 'History, calculations, and the percentage point distinction.',
+            year: null,
+          },
+          {
+            title: 'Ratio',
+            source: 'Wikipedia',
+            url: 'https://en.wikipedia.org/wiki/Ratio',
+            why: 'Ratios, proportions, and reduction, from Euclid onward.',
+            year: null,
+          },
+        ],
+        courses: [
+          {
+            title: 'Prealgebra 2e',
+            provider: 'OpenStax',
+            url: 'https://openstax.org/details/books/prealgebra-2e',
+            free: true,
+            why: 'Free online prealgebra text covering fractions, percents, exponents, and measurement, with exercises throughout.',
+          },
+        ],
+      },
+
+      seeAlso: ['arith', 'algebra', 'stats'],
+      prereqs: ['arith'],
+      leadsTo: ['stats', 'algebra'],
+
+      sources: [
+        'https://en.wikipedia.org/wiki/Percentage',
+        'https://en.wikipedia.org/wiki/Ratio',
+        'https://openstax.org/details/books/prealgebra-2e',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    exponents: {
+      id: 'exponents',
+      name: 'Exponents & Powers',
+      level: 'Beginner',
+      dek: 'Repeated multiplication, compressed into a small raised number with outsized reach.',
+      readTime: '9 min',
+
+      sections: ['Repeated multiplication', 'The rules', 'Zero and the negatives', 'Powers of ten'],
+      body: [
+        { type: 'lead', text: 'A chessboard, a grain of rice doubled on every square, is the oldest warning about exponents. The notation is modest, a base and a small raised number, but the growth it describes outruns intuition within a few steps.' },
+        { type: 'h2', text: 'Repeated multiplication' },
+        { type: 'p', text: 'When the exponent is a positive integer, exponentiation is repeated multiplication: the base multiplied by itself that many times. The expression with base 2 and exponent 3 is 2 times 2 times 2, which is 8, while reversing the operands gives a different value, 3 to the second power is 9. Exponentiation is not commutative, and it is not associative either, so the small raised number deserves respect. The language remembers geometry: a number times itself is its square, because it measures a square, and three times is its cube.' },
+        { type: 'h2', text: 'The rules' },
+        { type: 'p', text: 'Three identities do most of the work. Multiplying powers of the same base adds the exponents. Raising a power to a power multiplies them. Raising a product to a power applies the power to each factor. These are not decrees: each one is just the repeated multiplication, counted carefully. A byte shows the scale quietly: a byte may take 256 different values, because 2 to the 8th power is 256, one doubling for each of its eight bits.' },
+        { type: 'callout', text: 'Any nonzero number raised to the power of 0 is 1. The rule is not a curiosity: it is the only choice that keeps the addition rule for exponents working.' },
+        { type: 'h2', text: 'Zero and the negatives' },
+        { type: 'p', text: 'The definition extends by keeping the rules true. A number raised to the 0 power is generally defined to be 1, and a negative exponent means a reciprocal: a base to the power of negative n is 1 over the base to the power of n. So the first negative powers of 2 have familiar names: 2 to the power of negative 1 is a half, and 2 to the power of negative 2 is a quarter. Nothing new was invented, only the pattern followed honestly past zero.' },
+        { type: 'h2', text: 'Powers of ten' },
+        { type: 'p', text: 'Powers of ten run the decimal world. Ten to the third power is 1000, ten to the power of negative 4 is 0.0001, and the prefix kilo means 10 to the third power, so a kilometre is 1000 metres. Scientific notation is this idea put to work for the very large and very small: the speed of light, 299,792,458 metres per second, is written compactly with a power of ten. The chessboard grain, counted honestly, is the same notation at play: small exponent, enormous consequence.' },
+      ],
+
+      keyTerms: ['base', 'exponent', 'power', 'square', 'cube', 'scientific notation', 'reciprocal'],
+
+      resources: {
+        videos: [
+          {
+            id: 'bXkewQ7WEdI',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=bXkewQ7WEdI',
+            title: 'Scientific Notation',
+            channel: 'Math Antics',
+            duration: 'variable',
+            featured: true,
+            why: 'How powers of ten tame very large and very small numbers.',
+          },
+          {
+            id: 'fDek6cYijxI',
+            source: 'youtube',
+            url: '10:59',
+            title: 'The most beautiful equation in math',
+            channel: 'Numberphile',
+            duration: 'variable',
+            featured: true,
+            why: 'The exponential constant e and the identity that links five famous numbers.',
+          },
+          {
+            id: '_YjNEfZ0VqU',
+            source: 'youtube',
+            url: '29:50',
+            title: 'This equation will change how you see the world',
+            channel: 'Veritasium',
+            duration: 'variable',
+            featured: true,
+            why: 'Exponential and logistic growth, and why repeated doubling deceives intuition.',
+          },
+        ],
+        books: [
+          {
+            title: 'e: The Story of a Number',
+            author: 'Eli Maor',
+            year: 1994,
+            url: '',
+            why: 'The history of e and the exponential function, told through the people who found them.',
+          },
+          {
+            title: 'What Is Mathematics?',
+            author: 'Richard Courant and Herbert Robbins',
+            year: 1941,
+            url: '',
+            why: 'Powers, roots, and logarithms in a classic, careful survey.',
+          },
+          {
+            title: 'Mathematics for the Nonmathematician',
+            author: 'Morris Kline',
+            year: 1967,
+            url: '',
+            why: 'A humane route into the ideas behind school mathematics, exponents included.',
+          },
+        ],
+        articles: [
+          {
+            title: 'Exponentiation',
+            source: 'Wikipedia',
+            url: 'https://en.wikipedia.org/wiki/Exponentiation',
+            why: 'Integer, zero, and negative exponents, with the standard identities.',
+            year: null,
+          },
+          {
+            title: 'Scientific notation',
+            source: 'Wikipedia',
+            url: 'https://en.wikipedia.org/wiki/Scientific_notation',
+            why: 'Normalized notation and how powers of ten compare magnitudes.',
+            year: null,
+          },
+        ],
+        courses: [
+          {
+            title: 'Prealgebra 2e',
+            provider: 'OpenStax',
+            url: 'https://openstax.org/details/books/prealgebra-2e',
+            free: true,
+            why: 'Free online prealgebra text covering fractions, percents, exponents, and measurement, with exercises throughout.',
+          },
+        ],
+      },
+
+      seeAlso: ['arith', 'algebra', 'numtheory'],
+      prereqs: ['arith'],
+      leadsTo: ['algebra'],
+
+      sources: [
+        'https://en.wikipedia.org/wiki/Exponentiation',
+        'https://en.wikipedia.org/wiki/Scientific_notation',
+        'https://openstax.org/details/books/prealgebra-2e',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    measurement: {
+      id: 'measurement',
+      name: 'Measurement & Units',
+      level: 'Beginner',
+      dek: 'Comparing an unknown quantity with a standard the whole world has agreed to share.',
+      readTime: '9 min',
+
+      sections: ['Comparison with a standard', 'Seven base units', 'Prefixes and conversion', 'Uncertainty is part of the answer'],
+      body: [
+        { type: 'lead', text: 'A platinum iridium bar once sat near Paris with two marks scratched on it, and the distance between those marks was, by definition, one metre. The world measured itself against a metal bar, and the bar has since been retired in favor of light itself.' },
+        { type: 'h2', text: 'Comparison with a standard' },
+        { type: 'p', text: 'Measurement is the quantification of attributes of an object or event, a process of determining how large or small a quantity is compared with a basic reference quantity of the same kind. The earliest recorded systems of weights and measures originate in the 3rd or 4th millennium BC, built from local agreements between trading partners. Every measurement since has kept that shape: an unknown, a standard, and a number that relates them.' },
+        { type: 'h2', text: 'Seven base units' },
+        { type: 'p', text: 'The modern International System of Units, the SI, reduces physical measurements to a combination of seven base units: kilogram, metre, candela, second, ampere, kelvin, and mole. These units are now defined without reference to a particular physical object. The metre is defined by taking the fixed numerical value of the speed of light in vacuum to be 299,792,458 when expressed in metres per second. The standard is no longer a bar that can scratch or shrink, but a constant of nature, the same in every laboratory.' },
+        { type: 'callout', text: 'The international yard was defined in 1960 as exactly 0.9144 metres, and the inch as exactly 25.4 millimetres. Imperial measures now stand on metric ground.' },
+        { type: 'h2', text: 'Prefixes and conversion' },
+        { type: 'p', text: 'The metric system is decimal, so conversion is mostly a matter of moving with the prefixes. There are 100 centimetres in a metre and 1000 metres in a kilometre, and to convert from metres to centimetres you multiply by 100. Derived units are built from the base ones: the watt, the unit for power, is defined from the base units as metres squared times kilograms per second cubed. One system, honestly defined, covers a tape measure and a power station.' },
+        { type: 'h2', text: 'Uncertainty is part of the answer' },
+        { type: 'p', text: 'No measurement is exact, and the honest statement of one includes its uncertainty, an indication of the confidence level in the result. Even a simple timing, an object falling one metre in about 0.45 second, carries errors from the instrument, the release, and the varying field of the Earth. That is the mature form of the bar in Paris: not a perfect object, but a shared standard, stated precisely, with its limits named, so that a metre here is the metre the lead promised, anywhere on Earth.' },
+      ],
+
+      keyTerms: ['unit', 'SI', 'metre', 'kilogram', 'prefix', 'conversion', 'uncertainty'],
+
+      resources: {
+        videos: [
+          {
+            id: '-A9luUC5LwA',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=-A9luUC5LwA',
+            title: 'Metric system part 2',
+            channel: 'Khan Academy',
+            duration: 'variable',
+            featured: true,
+            why: 'How the metre, litre, and kilogram connect length, volume, and mass.',
+          },
+          {
+            id: '6fZSr6lDm9k',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=6fZSr6lDm9k',
+            title: 'Unit conversions part 1',
+            channel: 'Khan Academy',
+            duration: 'variable',
+            featured: true,
+            why: 'Dimensional analysis: setting up conversion factors so unwanted units cancel.',
+          },
+          {
+            id: 'TeOESA4r2TQ',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=TeOESA4r2TQ',
+            title: 'Converting between measurement systems',
+            channel: 'Khan Academy',
+            duration: 'variable',
+            featured: true,
+            why: 'Using a proportion to convert a measurement from US units to metric units.',
+          },
+        ],
+        books: [
+          {
+            title: 'The Measure of All Things',
+            author: 'Ken Alder',
+            year: 2002,
+            url: '',
+            why: 'The story of the French survey that defined the metre, and the error hidden inside it.',
+          },
+          {
+            title: 'From Sundials to Atomic Clocks',
+            author: 'James Jespersen and Jane Fitz-Randolph',
+            year: 1982,
+            url: '',
+            why: 'A NIST history of time and frequency measurement, clear and authoritative.',
+          },
+          {
+            title: 'The Story of Measurement',
+            author: 'Andrew Robinson',
+            year: 2007,
+            url: '',
+            why: 'An illustrated survey of how humans have measured length, weight, time, and more.',
+          },
+        ],
+        articles: [
+          {
+            title: 'Measurement',
+            source: 'Wikipedia',
+            url: 'https://en.wikipedia.org/wiki/Measurement',
+            why: 'History, standardization, and the seven SI base units.',
+            year: null,
+          },
+          {
+            title: 'SI Units: Length',
+            source: 'NIST',
+            url: 'https://www.nist.gov/pml/owm/si-units-length',
+            why: 'The official definition of the metre and the table of length units.',
+            year: null,
+          },
+        ],
+        courses: [
+          {
+            title: 'Prealgebra 2e',
+            provider: 'OpenStax',
+            url: 'https://openstax.org/details/books/prealgebra-2e',
+            free: true,
+            why: 'Free online prealgebra text covering fractions, percents, exponents, and measurement, with exercises throughout.',
+          },
+        ],
+      },
+
+      seeAlso: ['arith', 'geom', 'algebra'],
+      prereqs: ['arith'],
+      leadsTo: ['geom'],
+
+      sources: [
+        'https://en.wikipedia.org/wiki/Measurement',
+        'https://www.nist.gov/pml/owm/si-units-length',
+        'https://openstax.org/details/books/prealgebra-2e',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    probability: {
+      id: 'probability',
+      name: 'Probability',
+      level: 'Intermediate',
+      dek: 'A number between zero and one for how likely an event is to happen.',
+      readTime: '10 min',
+
+      sections: ['Letters about a game', 'Between zero and one', 'Adding and multiplying', 'Updating with evidence'],
+      body: [
+        { type: 'lead', text: 'Two mathematicians wrote letters about a gambling problem and founded a science. The doctrine of probabilities dates to the correspondence of Pierre de Fermat and Blaise Pascal in 1654, an exchange about fairly dividing the stakes of an unfinished game.' },
+        { type: 'h2', text: 'Letters about a game' },
+        { type: 'p', text: 'The problem was practical: if a game of chance stops early, how should the pot be split. The answer required counting futures that had not happened, weighing each possible continuation. Gerolamo Cardano, a century earlier, had already shown the force of defining odds as the ratio of favourable to unfavourable outcomes. Huygens gave the subject its earliest known scientific treatment in 1657, and Jakob Bernoulli and Abraham de Moivre later treated it as a branch of mathematics in its own right.' },
+        { type: 'h2', text: 'Between zero and one' },
+        { type: 'p', text: 'The probability of an event is a number between 0 and 1, and the larger the number, the more likely the event is to occur. For a fair coin, heads and tails are equally probable, so the probability of heads is 1/2, also written 0.5 or 50%. Tossing a coin twice gives four outcomes, and the probability of head, head is 1 out of 4, or 25%, while the probability of at least one head is 3 out of 4. The complement rule does quiet work everywhere: the chance of not rolling a six on a six sided die is 1 minus 1/6, which is 5/6.' },
+        { type: 'callout', text: 'Probability theory is used to design games of chance so that casinos can make a guaranteed profit, yet provide payouts frequent enough to encourage play.' },
+        { type: 'h2', text: 'Adding and multiplying' },
+        { type: 'p', text: 'Two rules organize most calculations. For mutually exclusive events, the probability that at least one occurs is the sum of their separate probabilities. For independent events, the probability that both occur is the product. Sample spaces keep the counting honest: rolling a die can produce six possible results, and the event of an odd number is the collection 1, 3, 5. Most errors in probability are errors in the sample space, made before any arithmetic begins.' },
+        { type: 'h2', text: 'Updating with evidence' },
+        { type: 'p', text: 'Evidence should change a probability, and Bayes theorem is the rule for changing it correctly: it inverts conditional probabilities, allowing the probability of a cause to be found given its effect. Thomas Bayes developed the theorem in the 18th century, and Laplace independently reproduced and extended the results in 1774. A test result, a symptom, a witness: each is an effect from which a cause must be inferred, carefully. Pascal and Fermat, dividing a pot in 1654, could not have known they were drafting the logic by which medicine, finance, and machines would later reason under uncertainty.' },
+      ],
+
+      keyTerms: ['sample space', 'event', 'complement', 'independent events', 'conditional probability', 'Bayes theorem', 'expected value'],
+
+      resources: {
+        videos: [
+          {
+            id: 'HZGCoVF3YvM',
+            source: 'youtube',
+            url: '15:11',
+            title: 'Bayes theorem, the geometry of changing beliefs',
+            channel: '3Blue1Brown',
+            duration: 'variable',
+            featured: true,
+            why: 'A visual account of how evidence should update a probability.',
+          },
+          {
+            id: 'R13BD8qKeTg',
+            source: 'youtube',
+            url: '10:37',
+            title: 'The Bayesian Trap',
+            channel: 'Veritasium',
+            duration: 'variable',
+            featured: true,
+            why: 'Medical testing, prior probabilities, and how Bayesian updates go wrong in practice.',
+          },
+          {
+            id: 'KzfWUEJjG18',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=KzfWUEJjG18',
+            title: 'Basic Probability',
+            channel: 'Math Antics',
+            duration: 'variable',
+            featured: true,
+            why: 'Coins, dice, and the probability line from impossible to certain.',
+          },
+          {
+            id: '3m4bxse2JEQ',
+            source: 'youtube',
+            url: '8:28',
+            title: 'The Galton Board',
+            channel: 'Numberphile',
+            duration: 'variable',
+            featured: true,
+            why: 'Beads, chance, and the bell curve that emerges from many small random choices.',
+          },
+        ],
+        books: [
+          {
+            title: 'The Doctrine of Chances',
+            author: 'Abraham de Moivre',
+            year: 1718,
+            url: '',
+            why: 'The early treatise that treated probability as a branch of mathematics.',
+          },
+          {
+            title: 'Against the Gods: The Remarkable Story of Risk',
+            author: 'Peter L. Bernstein',
+            year: 1996,
+            url: '',
+            why: 'The history of probability and risk, from Pascal and Fermat to modern finance.',
+          },
+          {
+            title: 'The Signal and the Noise',
+            author: 'Nate Silver',
+            year: 2012,
+            url: '',
+            why: 'Forecasting in practice: why some predictions fail and others hold up.',
+          },
+        ],
+        articles: [
+          {
+            title: 'Probability',
+            source: 'Wikipedia',
+            url: 'https://en.wikipedia.org/wiki/Probability',
+            why: 'Definitions, interpretations, and the history from Cardano to Kolmogorov.',
+            year: null,
+          },
+          {
+            title: 'Bayes\' theorem',
+            source: 'Wikipedia',
+            url: 'https://en.wikipedia.org/wiki/Bayes%27_theorem',
+            why: 'The statement of the theorem, with medical and testing examples.',
+            year: null,
+          },
+        ],
+        courses: [
+          {
+            title: 'Introduction to Probability and Statistics',
+            provider: 'MIT OpenCourseWare',
+            url: 'https://ocw.mit.edu/courses/18-05-introduction-to-probability-and-statistics-spring-2022/',
+            free: true,
+            why: 'Free MIT course on combinatorics, random variables, distributions, and Bayesian inference.',
+          },
+        ],
+      },
+
+      seeAlso: ['stats', 'discrete', 'arith'],
+      prereqs: ['arith'],
+      leadsTo: ['stats'],
+
+      sources: [
+        'https://en.wikipedia.org/wiki/Probability',
+        'https://en.wikipedia.org/wiki/Bayes%27_theorem',
+        'https://ocw.mit.edu/courses/18-05-introduction-to-probability-and-statistics-spring-2022/',
+      ],
+      verifiedAt: '2026-10-15',
+    },
   },
 };
 
@@ -35418,10 +38656,10 @@ window.CONTENT.math = {
 // ====== medicine.js ======
 // content/medicine.js
 // Batch: B03-life-sciences
-// Last updated: 2026-04-22 by BATCH B03-life-sciences
+// Last updated: 2026-10-15 by SPRINT W1
 //
 // Topics this subject must cover (from data.js):
-//   Core: physiology, pharmacology, public_health
+//   Core: physiology, pharmacology, public_health, vaccines, antibiotics, epidemics
 //
 // Editorial note: medicine lessons are educational, not clinical advice.
 // The prose stays at the level of history and mechanism; no dosing,
@@ -35431,8 +38669,8 @@ window.CONTENT = window.CONTENT || {};
 window.CONTENT.medicine = {
   subjectId: 'medicine',
   version: 1,
-  lastUpdated: '2026-04-22',
-  curator: 'BATCH B03-life-sciences',
+  lastUpdated: '2026-10-15',
+  curator: 'SPRINT W1',
   topics: {
 
     // ——— PHYSIOLOGY ———
@@ -35878,6 +39116,363 @@ window.CONTENT.medicine = {
       verifiedAt: '2026-04-22',
     },
 
+    // --- VACCINES ---
+    vaccines: {
+      id: 'vaccines',
+      name: 'Vaccines & Immunity',
+      level: 'Beginner',
+      dek: 'How a harmless rehearsal teaches the immune system to defeat a disease it has never met.',
+      readTime: '6 min',
+
+      sections: ['How vaccines train the immune system', 'The main kinds of vaccine', 'Herd immunity', 'The record so far'],
+      body: [
+        { type: 'lead', text: 'In 1798 the English physician Edward Jenner published a short work with a strange title, Inquiry into the Variolae vaccinae, his name for cowpox. In it he reported that material from cowpox could protect a person against smallpox, one of the deadliest diseases of his century, and he gave the procedure a name taken from the cow: vaccination. The idea inside that pamphlet still runs the world. Give the immune system a safe rehearsal, and it will remember the real performance.' },
+        { type: 'h2', text: 'How vaccines train the immune system' },
+        { type: 'p', text: 'A vaccine is a biological preparation that provides active acquired immunity to a particular infectious disease. Most vaccines contain an agent that resembles the microorganism that causes the disease, made from weakened or killed forms of the microbe, from its toxins, or from one of its surface proteins. The immune system treats that agent as an invader and builds a defense against it, including antibodies and memory cells, without the risks of the full illness. The Centers for Disease Control and Prevention describes the process as imitating an infection. The imitation is far less dangerous than the real infection, and the adaptive response it trains takes about one to two weeks to develop fully. If the real microbe arrives months or years later, the body answers from memory, faster and in greater strength.' },
+        { type: 'h2', text: 'The main kinds of vaccine' },
+        { type: 'p', text: 'Vaccine makers stage the same rehearsal by several routes. Attenuated vaccines use a living microbe weakened in the laboratory. Inactivated vaccines use microbes that have been killed. Toxoid vaccines train the body against a toxin the microbe produces, rendered harmless in advance. Subunit and conjugate vaccines use only selected pieces of the microbe, such as a surface protein. The newest genetic vaccines deliver instructions rather than the agent itself: viral vector, RNA, and DNA vaccines carry code for a microbial protein and let the body build the rehearsal prop. A finished vaccine also contains small amounts of practical ingredients: stabilizers that protect its potency, adjuvants such as aluminum salts that strengthen the immune response, and preservatives in vials that hold more than one dose.' },
+        { type: 'h2', text: 'Herd immunity' },
+        { type: 'p', text: 'The protection does not stop with the person vaccinated. When enough of a population is immune, whether through vaccination or through surviving the disease, a microbe struggles to find new hosts, and its spread slows and can stop altogether. This indirect shield is called herd immunity, and it guards exactly the people vaccination cannot reach: newborns, people in treatment that suppresses the immune system, and the minority in whom a vaccine does not take. That minority is real. Depending on the vaccine and the person, an estimated 2 to 10 percent of recipients do not respond fully. Herd immunity is the community level answer to that gap.' },
+        { type: 'callout', text: 'The word vaccine comes from Jenner\'s variolae vaccinae, his term for cowpox. In 1881 Louis Pasteur proposed that the words vaccine and vaccination be extended to every protective inoculation, in Jenner\'s honor.' },
+        { type: 'h2', text: 'The record so far' },
+        { type: 'p', text: 'The first entry in the record is smallpox itself, the disease Jenner worked on: vaccination campaigns eventually eradicated it, the first human disease wiped out worldwide. The World Health Organization describes the present scale of the tool. Immunization currently prevents 3.5 million to 5 million deaths every year, and vaccines now exist to prevent more than 30 life-threatening diseases. Jenner promised that a mild encounter could stand between a person and a deadly one. The pamphlet of 1798 has become a routine appointment in clinics on every continent, and the memory it leaves in the immune system remains one of the most reliable protections medicine has.' },
+      ],
+
+      keyTerms: ['vaccine', 'immunity', 'antigen', 'antibody', 'herd immunity', 'attenuated vaccine', 'inactivated vaccine', 'adjuvant'],
+      resources: {
+        videos: [
+          {
+            id: 'rb7TVW77ZCs',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=rb7TVW77ZCs',
+            title: 'How do vaccines work?',
+            channel: 'TED-Ed',
+            duration: 'variable',
+            why: 'Kelwalin Dhanasarnsombut explains, in one short animation, how a vaccine trains the immune system before the real microbe arrives.',
+          },
+          {
+            id: '34UWTlxK6Ks',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=34UWTlxK6Ks',
+            title: 'How Vaccines Work, Herd Immunity, Types of Vaccines, Animation',
+            channel: 'Alila Medical Media',
+            duration: 'variable',
+            why: 'An animated tour of the main vaccine types and of the herd immunity that protects people who cannot be vaccinated.',
+          },
+          {
+            id: 'uVUf_pt7Sh0',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=uVUf_pt7Sh0',
+            title: 'Antibiotics, Antivirals, and Vaccines',
+            channel: 'Amoeba Sisters',
+            duration: 'variable',
+            why: 'Places vaccines beside antibiotics and antivirals and shows what each tool can and cannot do.',
+          },
+        ],
+        books: [
+          {
+            title: 'Vaccinated: One Man\'s Quest to Defeat the World\'s Deadliest Diseases',
+            author: 'Paul A. Offit',
+            year: 2007,
+            url: '',
+            why: 'A biography of Maurice Hilleman, the scientist behind more vaccines than any other, and a clear history of how they are made.',
+          },
+          {
+            title: 'On Immunity: An Inoculation',
+            author: 'Eula Biss',
+            year: 2014,
+            url: '',
+            why: 'A short, searching essay on vaccination, fear, and the shared body of a community.',
+          },
+          {
+            title: 'Vaccines: What Everyone Needs to Know',
+            author: 'Kristen A. Feemster',
+            year: 2017,
+            url: '',
+            why: 'A pediatrician answers the standard questions about how vaccines work and how they are tested, in plain language.',
+          },
+        ],
+        articles: [
+          {
+            title: 'Vaccine Basics',
+            source: 'CDC',
+            url: 'https://www.cdc.gov/vaccines/basics/',
+            why: 'The CDC account of how vaccines imitate an infection and what each of their ingredients does.',
+            year: null,
+          },
+          {
+            title: 'Vaccines and Immunization',
+            source: 'World Health Organization',
+            url: 'https://www.who.int/health-topics/vaccines-and-immunization',
+            why: 'The WHO topic page: what vaccines are, what they prevent, and the global numbers behind immunization.',
+            year: null,
+          },
+          {
+            title: 'Vaccine',
+            source: 'Wikipedia',
+            url: 'https://en.wikipedia.org/wiki/Vaccine',
+            why: 'A broad, well cited survey of vaccine types, history, and development.',
+            year: null,
+          },
+        ],
+        courses: [
+          {
+            title: 'How Vaccines Work',
+            provider: 'Imperial College London (Coursera)',
+            url: 'https://www.coursera.org/learn/how-vaccines-work',
+            free: true,
+            why: 'A short Imperial College course on immune responses to vaccines and how the different vaccine types are built.',
+          },
+        ],
+      },
+
+      seeAlso: ['physiology', 'pharmacology', 'public_health'],
+      prereqs: ['physiology'],
+      leadsTo: ['public_health'],
+
+      chapterActivity: 'A visit to a local pharmacy during flu season: read a vaccine information sheet end to end and note every ingredient and its job.',
+
+      sources: [
+        'https://en.wikipedia.org/wiki/Vaccine',
+        'https://www.who.int/health-topics/vaccines-and-immunization',
+        'https://www.cdc.gov/vaccines/basics/',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    // --- ANTIBIOTICS ---
+    antibiotics: {
+      id: 'antibiotics',
+      name: 'Antibiotics & Resistance',
+      level: 'Intermediate',
+      dek: 'How mold juice became medicine, and how bacteria are learning to defeat it gene by gene.',
+      readTime: '6 min',
+
+      sections: ['From mold to medicine', 'How antibiotics work', 'How resistance spreads', 'The stakes'],
+      body: [
+        { type: 'lead', text: 'In 1928 Alexander Fleming discovered modern day penicillin from the mold Penicillium, and medicine quietly changed direction. Substances that kill bacteria, or stop them growing, had existed in nature for ages, made by microbes warring with each other. Fleming\'s discovery turned one of them into a tool. Within a generation, infections that had routinely killed became routinely survivable, and the antibiotic era had begun.' },
+        { type: 'h2', text: 'From mold to medicine' },
+        { type: 'p', text: 'Fleming\'s penicillin was a discovery before it was a drug. The first sulfonamide, Prontosil, was developed by the team of Gerhard Domagk in 1932 or 1933, and the decades after brought a pipeline of new classes, each aimed at a different part of the bacterial machinery. Antibiotics became the quiet infrastructure of modern medicine: surgery, cancer chemotherapy, and organ transplantation all lean on the assumption that bacterial infection can be controlled.' },
+        { type: 'h2', text: 'How antibiotics work' },
+        { type: 'p', text: 'Antibiotics are medicines that kill bacteria or inhibit their growth. Different classes attack different targets. Some break the construction of the bacterial cell wall, others jam the machinery that builds proteins, and others interfere with the copying of DNA or with essential chemistry such as folate synthesis. Because those targets belong to bacteria, antibiotics are not effective against viruses, which have none of these structures. A cold or the flu will not answer to an antibiotic, no matter how miserable it feels.' },
+        { type: 'h2', text: 'How resistance spreads' },
+        { type: 'p', text: 'Resistance is evolution at high speed. Within a bacterial population, a few cells may carry a trait that lets them survive an antibiotic, through a spontaneous mutation or through a gene picked up from another bacterium. Horizontal gene transfer passes such genes between bacteria, sometimes across species. When antibiotics are used, in medicine or in agriculture, they create selective pressure: susceptible bacteria die, resistant ones multiply. Microbes that resist several drugs at once are called multidrug resistant, and in the headlines, superbugs.' },
+        { type: 'callout', text: 'Resistance is not the patient becoming immune to the drug. It is the bacteria becoming immune to the drug, and passing that immunity to their descendants and their neighbors.' },
+        { type: 'h2', text: 'The stakes' },
+        { type: 'p', text: 'The accounting has begun. Bacterial antimicrobial resistance was directly responsible for 1.27 million deaths in 2019, and it was associated with nearly 5 million deaths in the same year. The mold Fleming found in 1928 opened an era. Whether the era continues depends on how carefully its medicines are used, and on whether science keeps finding new ones before the old ones fail.' },
+      ],
+
+      keyTerms: ['antibiotic', 'penicillin', 'antimicrobial resistance', 'horizontal gene transfer', 'selective pressure', 'superbug', 'bactericidal', 'bacteriostatic'],
+      resources: {
+        videos: [
+          {
+            id: 'znnp-Ivj2ek',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=znnp-Ivj2ek',
+            title: 'What causes antibiotic resistance?',
+            channel: 'TED-Ed',
+            duration: 'variable',
+            why: 'Kevin Wu explains how use and overuse turn ordinary bacteria into resistant strains.',
+          },
+          {
+            id: 'uVUf_pt7Sh0',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=uVUf_pt7Sh0',
+            title: 'Antibiotics, Antivirals, and Vaccines',
+            channel: 'Amoeba Sisters',
+            duration: 'variable',
+            why: 'Sorts out which tool works on bacteria, which on viruses, and why the distinction matters.',
+          },
+          {
+            id: 'FE0nEupH7dY',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=FE0nEupH7dY',
+            title: 'How Do Antibiotics Work? How They\'re Made and How They Were Discovered',
+            channel: 'YouTube',
+            duration: 'variable',
+            why: 'A documentary history from Fleming\'s penicillin to industrial fermentation, ending with the rise of resistance.',
+          },
+        ],
+        books: [
+          {
+            title: 'Superbug: The Fatal Menace of MRSA',
+            author: 'Maryn McKenna',
+            year: 2010,
+            url: '',
+            why: 'The story of one resistant bacterium and the hospitals, farms, and communities it moved through.',
+          },
+          {
+            title: 'Missing Microbes: How the Overuse of Antibiotics Is Fueling Our Modern Plagues',
+            author: 'Martin J. Blaser',
+            year: 2014,
+            url: '',
+            why: 'A microbiologist argues that antibiotics reshape the human microbiome, with costs beyond resistance.',
+          },
+          {
+            title: 'I Contain Multitudes: The Microbes Within Us and a Grander View of Life',
+            author: 'Ed Yong',
+            year: 2016,
+            url: '',
+            why: 'The bacterial world antibiotics act on, described with wonder: symbiosis, warfare, and constant gene trading.',
+          },
+        ],
+        articles: [
+          {
+            title: 'Antibiotic',
+            source: 'Wikipedia',
+            url: 'https://en.wikipedia.org/wiki/Antibiotic',
+            why: 'History, mechanisms, and classes of antibiotics, from Fleming and Prontosil onward.',
+            year: null,
+          },
+          {
+            title: 'Antimicrobial resistance',
+            source: 'Wikipedia',
+            url: 'https://en.wikipedia.org/wiki/Antimicrobial_resistance',
+            why: 'How resistance arises and spreads, and the global mortality estimates behind the headlines.',
+            year: null,
+          },
+        ],
+        courses: [
+          {
+            title: 'Antimicrobial Resistance (Part 1)',
+            provider: 'Global Health Learning Center',
+            url: 'https://www.globalhealthlearning.org/course/antimicrobialresistancepart-1-0',
+            free: true,
+            why: 'A free introductory course on what drives resistance and how health programs respond to it.',
+          },
+        ],
+      },
+
+      seeAlso: ['pharmacology', 'physiology', 'public_health'],
+      prereqs: ['pharmacology'],
+      leadsTo: ['public_health'],
+
+      chapterActivity: 'A slow read of a hospital\'s published antibiogram, the chart showing which local bacteria still answer to which drugs.',
+
+      sources: [
+        'https://en.wikipedia.org/wiki/Antibiotic',
+        'https://en.wikipedia.org/wiki/Antimicrobial_resistance',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    // --- EPIDEMICS ---
+    epidemics: {
+      id: 'epidemics',
+      name: 'Epidemics & Pandemics',
+      level: 'Intermediate',
+      dek: 'When disease outruns its neighborhood: the mathematics, history, and human habits behind epidemics and pandemics.',
+      readTime: '6 min',
+
+      sections: ['Outbreak, epidemic, pandemic', 'How epidemics travel', 'A founding scene: London cholera', 'How epidemics end'],
+      body: [
+        { type: 'lead', text: 'In the middle of the 14th century, the Black Death swept across Europe and killed up to half of its population. No one alive then had a word for an event at that scale. We do now, several words in fact, and the words matter, because each one describes a different size of fire, and a different response.' },
+        { type: 'h2', text: 'Outbreak, epidemic, pandemic' },
+        { type: 'p', text: 'The vocabulary is a ladder of scale. An epidemic, in the definition used by the Centers for Disease Control and Prevention, is an increase, often sudden, in the number of cases of a disease above what is normally expected in that population in that area. Grow the map and the epidemic becomes a pandemic: an epidemic that has spread across a large region, sometimes worldwide, affecting a substantial portion of the population. The rungs are practical, not poetic. For meningococcal disease, specialists treat an attack rate above 15 cases per 100,000 people for two consecutive weeks as an epidemic signal.' },
+        { type: 'h2', text: 'How epidemics travel' },
+        { type: 'p', text: 'A disease can only become an epidemic if it can move. The main roads are well mapped: through the air, through water and food by the fecal oral route, through insect and animal vectors, and through sexual contact. Each road shapes the response. A waterborne disease yields to clean water and sanitation. An airborne one yields, slowly, to distance, ventilation, and immunity. Epidemics also ride human networks: trade routes carried plague across continents, and a single infected traveler can now board a plane and carry a virus across an ocean.' },
+        { type: 'h2', text: 'A founding scene: London cholera' },
+        { type: 'p', text: 'In 1854 a cholera outbreak struck the Broad Street neighborhood of London. The physician John Snow mapped the cases and traced them to a contaminated water supply, and removing that supply helped mitigate the outbreak. The episode is now regarded as the founding event of epidemiology, the study of how diseases spread through populations and how that spread can be interrupted. Snow had no microscope evidence and no germ theory to lean on. He had a map, a count, and a pattern that pointed at water.' },
+        { type: 'callout', text: 'An epidemic is not defined by how deadly a disease is, but by how far its numbers rise above what is normally expected in that place.' },
+        { type: 'h2', text: 'How epidemics end' },
+        { type: 'p', text: 'Epidemics end when a disease runs out of reachable hosts: when enough people are immune, when behavior cuts its roads, or when the conditions that fed it are removed. The 1918 influenza pandemic, an H1N1 outbreak described as the deadliest pandemic in history, burned through a world with no vaccine against it. In May 2025 the World Health Assembly adopted a Pandemic Agreement, an attempt to write the lessons of past pandemics into shared rules before the next one. The Black Death killed up to half of Europe in a world where nothing stood ready. The long work of epidemiology, from Snow\'s map to that agreement, is the work of making sure something does.' },
+      ],
+
+      keyTerms: ['epidemic', 'pandemic', 'outbreak', 'epidemiology', 'attack rate', 'transmission', 'vector', 'endemic'],
+      resources: {
+        videos: [
+          {
+            id: 'UG8YbNbdaco',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=UG8YbNbdaco',
+            title: 'How pandemics spread',
+            channel: 'TED-Ed',
+            duration: 'variable',
+            why: 'Mark Honigsbaum traces how pandemics have moved through history and what has stopped them.',
+          },
+          {
+            id: 'rjT3arJJ9Kc',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=rjT3arJJ9Kc',
+            title: 'The Complete Story Of The Deadliest Pandemic In History',
+            channel: 'The World History Channel',
+            duration: 'variable',
+            why: 'A documentary account of the 1918 influenza pandemic, drawn from the BBC programme The Flu That Killed 50 Million.',
+          },
+          {
+            id: 'EeBdKTlIEvQ',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=EeBdKTlIEvQ',
+            title: 'The Pandemic Worse Than COVID-19 That Killed 50 Million',
+            channel: 'YouTube',
+            duration: 'variable',
+            why: 'The 1918 pandemic in the United States, including the very different fates of Philadelphia and St. Louis.',
+          },
+        ],
+        books: [
+          {
+            title: 'The Great Influenza',
+            author: 'John M. Barry',
+            year: 2004,
+            url: '',
+            why: 'The standard narrative history of the 1918 pandemic and of the medical science it forced into being.',
+          },
+          {
+            title: 'Pale Rider: The Spanish Flu of 1918 and How It Changed the World',
+            author: 'Laura Spinney',
+            year: 2017,
+            url: '',
+            why: 'A global telling of 1918, strong on the pandemic\'s long shadow over politics, art, and public health.',
+          },
+          {
+            title: 'Pandemics: A Very Short Introduction',
+            author: 'Christian W. McMillen',
+            year: 2016,
+            url: '',
+            why: 'Oxford\'s pocket survey of pandemics from plague to HIV, compact enough to read in a weekend.',
+          },
+        ],
+        articles: [
+          {
+            title: 'Pandemic',
+            source: 'Wikipedia',
+            url: 'https://en.wikipedia.org/wiki/Pandemic',
+            why: 'Definitions, the major pandemics of history, and current preparedness, including the 2025 Pandemic Agreement.',
+            year: null,
+          },
+          {
+            title: 'Epidemic',
+            source: 'Wikipedia',
+            url: 'https://en.wikipedia.org/wiki/Epidemic',
+            why: 'The CDC definition, attack rates, transmission routes, and the Broad Street cholera outbreak.',
+            year: null,
+          },
+        ],
+        courses: [
+          {
+            title: 'Outbreaks and Epidemics',
+            provider: 'Johns Hopkins University (Coursera)',
+            url: 'https://www.coursera.org/learn/outbreaks-epidemics',
+            free: true,
+            why: 'A beginner level Johns Hopkins course on how outbreaks are detected, investigated, and answered.',
+          },
+        ],
+      },
+
+      seeAlso: ['public_health', 'physiology', 'pharmacology'],
+      prereqs: ['public_health'],
+      leadsTo: [],
+
+      chapterActivity: 'A walk to a 1918 influenza memorial, a pandemic era plaque, or a closed cholera era cemetery in your own city, its dates read aloud with the group.',
+
+      sources: [
+        'https://en.wikipedia.org/wiki/Pandemic',
+        'https://en.wikipedia.org/wiki/Epidemic',
+        'https://www.youtube.com/watch?v=UG8YbNbdaco',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
   },
 };
 
@@ -36172,14 +39767,14 @@ window.CONTENT.meteorology = {
 // ====== music.js ======
 // content/music.js
 // Batch: B04-humanities
-// Last updated: 2026-04-22 by BATCH B04-humanities
+// Last updated: 2026-10-15 by SPRINT W1
 
 window.CONTENT = window.CONTENT || {};
 window.CONTENT.music = {
   subjectId: 'music',
   version: 1,
-  lastUpdated: '2026-04-22',
-  curator: 'BATCH B04-humanities',
+  lastUpdated: '2026-10-15',
+  curator: 'SPRINT W1',
   topics: {
 
     notation: {
@@ -36999,6 +40594,237 @@ window.CONTENT.music = {
       verifiedAt: '2026-04-22',
     },
 
+    rhythm: {
+      id: 'rhythm',
+      name: 'Rhythm & Meter',
+      level: 'Beginner',
+      dek: 'Pulse, meter, and the patterns between: how music organizes time into something the body can keep.',
+      readTime: '6 min',
+
+      sections: ['First, the beat', 'Meter: grouping the beats', 'Tempo and syncopation', 'Feeling time'],
+      body: [
+        { type: 'lead', text: 'Clap along to any song and your hands will find it: a pulse that recurs at regular intervals, the beat. Everything in rhythm is built on that pulse, and on what musicians do to group it, stretch it, and play against it. A metronome set to 60 beats per minute ticks exactly once per second, one beat for every swing of the second hand, and from that plain fact grows the whole architecture of musical time.' },
+        { type: 'h2', text: 'First, the beat' },
+        { type: 'p', text: 'Rhythm, pulse, meter, and beat are often used as if they were one idea, but they are four. The beat is the regularly recurring pulse you tap your foot to, most often counted as a quarter note in Western notation. Pulse is the underlying stream of equal ticks, whether or not anyone accents them. Meter is the pattern that groups beats into measures. Rhythm proper is the pattern of durations actually played against that grid: long and short, expected and surprising. Keeping the four apart makes the rest of the subject simple.' },
+        { type: 'h2', text: 'Meter: grouping the beats' },
+        { type: 'p', text: 'Meters group beats into twos, threes, and fours: duple, triple, and quadruple. In a simple meter each beat divides into two. In a compound meter each beat divides into three, which is why 6/8 feels like a rocking two rather than a march. A time signature reports the grouping: the top number counts the beats in the measure, and the bottom number names the note value that gets the beat. Conductors draw the meter in the air, downbeat first, and ensembles breathe by it.' },
+        { type: 'callout', text: 'A time signature is not a fraction. The top number counts beats per measure; the bottom number tells you which note value carries the beat.' },
+        { type: 'h2', text: 'Tempo and syncopation' },
+        { type: 'p', text: 'Tempo is the speed of the beat, measured in beats per minute and generally specified between 40 and 240. Within that range the same rhythm can feel funereal or frantic. Syncopation is rhythm\'s favorite surprise: an accent lands where the meter taught you to expect a weak beat, and de-emphasises the downbeat, so the music seems to lean forward or step sideways. Complex meters break the even pattern entirely, grouping eighth notes as 2 plus 3 in 5/8, or as 2 plus 2 plus 3 in 7/8.' },
+        { type: 'h2', text: 'Feeling time' },
+        { type: 'p', text: 'None of this stays on paper. Dancers, marching bands, and rowing crews all live inside meter, and listeners feel syncopation in the body before they can name it. Start with the pulse your hands found on their own: count it, group it, notice where the accents fall and where they dodge. That is the whole subject in miniature, one beat per second at 60, and every tempo, meter, and rhythm you will ever meet is a way of organizing it.' },
+      ],
+
+      keyTerms: ['beat', 'pulse', 'meter', 'tempo', 'time signature', 'syncopation', 'downbeat', 'compound meter'],
+      resources: {
+        videos: [
+          {
+            id: 'qi6uuhU1unk',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=qi6uuhU1unk',
+            title: 'Grade 3 Music Theory: Simple and Compound Time Signatures',
+            channel: 'Music Matters',
+            duration: 'variable',
+            why: 'The clearest single lesson on duple, triple, and quadruple time, and on how to group beats in each.',
+          },
+          {
+            id: 'NlBcIkUyop4',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=NlBcIkUyop4',
+            title: 'Music Reading Basics: Compound Meters',
+            channel: 'MusePrep',
+            duration: 'variable',
+            why: 'Compound meters 6/8, 9/8, and 12/8 explained step by step, with examples such as Greensleeves.',
+          },
+          {
+            id: '-LWHomi16rs',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=-LWHomi16rs',
+            title: 'Time and Rhythm: Notating and Interpreting Music in Complex Meters',
+            channel: 'Berklee Online',
+            duration: 'variable',
+            why: 'Berklee instructor Matt Sharrock shows how beaming reveals the beat groups inside 5/8 and 7/8.',
+          },
+        ],
+        books: [
+          {
+            title: 'Music: A Mathematical Offering',
+            author: 'Dave Benson',
+            year: 2007,
+            url: '',
+            why: 'Rhythm and meter treated as patterns in time, by a mathematician who is also a working musician.',
+          },
+          {
+            title: 'This Is Your Brain on Music',
+            author: 'Daniel J. Levitin',
+            year: 2006,
+            url: '',
+            why: 'How the brain finds the beat, and why rhythm may be the oldest layer of musical perception.',
+          },
+          {
+            title: 'Musicophilia: Tales of Music and the Brain',
+            author: 'Oliver Sacks',
+            year: 2007,
+            url: '',
+            why: 'Case studies of rhythm, memory, and movement, including patients who keep time when little else remains.',
+          },
+        ],
+        articles: [
+          {
+            title: 'Rhythm',
+            source: 'Wikipedia',
+            url: 'https://en.wikipedia.org/wiki/Rhythm',
+            why: 'Definitions of rhythm, meter, and tempo, and how the terms differ in music theory.',
+            year: null,
+          },
+          {
+            title: 'Simple Meter and Time Signatures',
+            source: 'Open Music Theory',
+            url: 'https://viva.pressbooks.pub/openmusictheory/chapter/simple-meter-and-time-signatures/',
+            why: 'A free textbook chapter with listening examples, conducting patterns, and counting practice.',
+            year: null,
+          },
+        ],
+        courses: [
+          {
+            title: 'Fundamentals of Music Theory',
+            provider: 'The University of Edinburgh (Coursera)',
+            url: 'https://www.coursera.org/learn/edinburgh-music-theory',
+            free: true,
+            why: 'Edinburgh\'s beginner course covers rhythm and meter alongside notation, scales, and basic harmony.',
+          },
+        ],
+      },
+
+      seeAlso: ['notation', 'harmony', 'counterpoint'],
+      prereqs: ['notation'],
+      leadsTo: ['harmony'],
+
+      chapterActivity: 'A listening log for one week: for every song you hear, write down the meter, the tempo in beats per minute, and one syncopation you can clap.',
+
+      sources: [
+        'https://en.wikipedia.org/wiki/Rhythm',
+        'https://viva.pressbooks.pub/openmusictheory/chapter/simple-meter-and-time-signatures/',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    instruments: {
+      id: 'instruments',
+      name: 'Instruments & Ensembles',
+      level: 'Beginner',
+      dek: 'From bone flutes to the modern orchestra: how instruments are classified, grouped, and made to sing together.',
+      readTime: '6 min',
+
+      sections: ['The oldest instruments', 'Sorting by sound: Hornbostel-Sachs', 'The families of the orchestra', 'Ensembles: putting instruments together'],
+      body: [
+        { type: 'lead', text: 'The oldest musical instruments we know are flutes made of bone. Flutes from the caves of the Swabian Alps, carved from bone and ivory, are dated to between 30,000 and 37,000 years ago, and bone flutes from Jiahu in China are 7,000 to 9,000 years old. Before writing, before farming had spread far, people were already hollowing out sound. Every orchestra since is a footnote to that impulse.' },
+        { type: 'h2', text: 'The oldest instruments' },
+        { type: 'p', text: 'What survives of early instruments is what was made of durable stuff: bone, ivory, clay, bronze, stone. Drums and rattles are surely older than any flute, but skin and wood rot away, so the record begins with the flutes. The academic study of musical instruments is called organology, and its first problem is the one the cave flutes pose: how do you file thousands of sound makers, from every culture on earth, in a single system that a museum, a scholar, or a curious listener can use?' },
+        { type: 'h2', text: 'Sorting by sound: Hornbostel-Sachs' },
+        { type: 'p', text: 'The standard answer is the Hornbostel-Sachs system, devised by Erich Moritz von Hornbostel and Curt Sachs and first published in the Zeitschrift für Ethnologie in 1914. It sorts not by material or by culture but by the means by which an instrument produces sound. Its five top level classes begin with idiophones, whose own solid body vibrates, and membranophones, which sound through a stretched membrane, and the full system runs to more than 300 basic categories. A scheme built on an earlier four category system by Victor Mahillon now organizes everything from hand drums to synthesizers.' },
+        { type: 'h2', text: 'The families of the orchestra' },
+        { type: 'p', text: 'Working musicians use a homelier sorting: the four families of the orchestra. Strings (violin, viola, cello, double bass, and often the harp) sing with bowed or plucked strings and form the foundation. Woodwinds (flute, oboe, clarinet, bassoon) speak through reeds or an edge of air. Brass (trumpet, horn, trombone, tuba) sound through the player\'s vibrating lips in metal tubing. Percussion is struck, shaken, or scraped, pitched like the timpani or unpitched like the cymbals. The families agree with Hornbostel-Sachs more often than not: the orchestra is a sound sorted crowd.' },
+        { type: 'callout', text: 'Classify a piano and the systems argue politely. Hornbostel-Sachs files it among the chordophones, a struck string instrument, while the orchestra seats it wherever it was invited: soloist, guest, or one player orchestra.' },
+        { type: 'h2', text: 'Ensembles: putting instruments together' },
+        { type: 'p', text: 'An ensemble is instruments in conversation. A string quartet sets two violins, a viola, and a cello in balance, four voices of one family running soprano to bass. A choir offers the same ladder in human voices, and the orchestral families mirror it, each stacking its members from high to low like the voices of a choir. The bone flutes of the Swabian Alps were solo instruments, one breath at a time. The history since is accumulation: more materials, more mechanisms, more players in the room, until a hundred musicians can be filed, sorted, and seated as a single instrument with a hundred voices. The impulse never changed. It is still a person, a hollowed thing, and a sound worth sharing.' },
+      ],
+
+      keyTerms: ['organology', 'Hornbostel-Sachs', 'idiophone', 'membranophone', 'chordophone', 'aerophone', 'ensemble', 'string quartet'],
+      resources: {
+        videos: [
+          {
+            id: 'jxKBBoX8Dmo',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=jxKBBoX8Dmo',
+            title: 'Meet the Orchestra! 21 Instruments and Their Sounds',
+            channel: 'Felt & Fable Studio',
+            duration: 'variable',
+            why: 'All four families introduced with short sound examples, strings to percussion, in a felt animated world.',
+          },
+          {
+            id: 'd-BZ2j22bjk',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=d-BZ2j22bjk',
+            title: 'Meet the String Family: The Heart of the Orchestra',
+            channel: 'Rick Steves',
+            duration: 'variable',
+            why: 'Rick Steves and the Cincinnati Symphony Youth Orchestra introduce the violin, viola, cello, and bass up close.',
+          },
+          {
+            id: 'spU5vwuqypM',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=spU5vwuqypM',
+            title: 'Grade 4 Music Theory: Orchestral Instruments and Families',
+            channel: 'YouTube',
+            duration: 'variable',
+            why: 'A systematic tour of the standard orchestral instruments, their ranges, clefs, and transpositions.',
+          },
+        ],
+        books: [
+          {
+            title: 'The History of Musical Instruments',
+            author: 'Curt Sachs',
+            year: 1940,
+            url: '',
+            why: 'Curt Sachs, one of the two scholars behind this lesson\'s classification, surveys instruments from prehistory to the modern orchestra.',
+          },
+          {
+            title: 'Musical Instruments: A Comprehensive Dictionary',
+            author: 'Sibyl Marcuse',
+            year: 1964,
+            url: '',
+            why: 'The standard English language dictionary of instruments: names, histories, and construction.',
+          },
+          {
+            title: 'Origins and Development of Musical Instruments',
+            author: 'Jeremy Montagu',
+            year: 2007,
+            url: '',
+            why: 'A concise, expert account of how the instrument families emerged and spread around the world.',
+          },
+        ],
+        articles: [
+          {
+            title: 'Musical instrument',
+            source: 'Wikipedia',
+            url: 'https://en.wikipedia.org/wiki/Musical_instrument',
+            why: 'History and classification of instruments, from the Swabian bone flutes onward.',
+            year: null,
+          },
+          {
+            title: 'Hornbostel-Sachs',
+            source: 'Wikipedia',
+            url: 'https://en.wikipedia.org/wiki/Hornbostel%E2%80%93Sachs',
+            why: 'The classification system in full: its five top level classes, its 300 plus categories, and its history since 1914.',
+            year: null,
+          },
+        ],
+        courses: [
+          {
+            title: 'Fundamentals of Music Theory',
+            provider: 'The University of Edinburgh (Coursera)',
+            url: 'https://www.coursera.org/learn/edinburgh-music-theory',
+            free: true,
+            why: 'Edinburgh\'s beginner course grounds the listening: notation, rhythm, and harmony for the instruments you are learning to hear.',
+          },
+        ],
+      },
+
+      seeAlso: ['notation', 'classical', 'harmony'],
+      prereqs: ['notation'],
+      leadsTo: ['classical'],
+
+      chapterActivity: 'A concert exercise: at any orchestral performance, for each movement, name the family carrying the melody before you look at the stage.',
+
+      sources: [
+        'https://en.wikipedia.org/wiki/Musical_instrument',
+        'https://en.wikipedia.org/wiki/Hornbostel%E2%80%93Sachs',
+        'https://www.youtube.com/watch?v=jxKBBoX8Dmo',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
   },
 };
 
@@ -37261,16 +41087,16 @@ window.CONTENT.negotiation = {
 // ====== nutrition.js ======
 // content/nutrition.js
 // Batch: B11-life-skills-I
-// Last updated: 2026-04-23 by BATCH B11-life-skills-I
+// Last updated: 2026-10-15 by SPRINT W1
 //
-// Topics from data.js: macros, micronutrients
+// Topics from data.js: macros, micronutrients, balanced_diet, hydration
 
 window.CONTENT = window.CONTENT || {};
 window.CONTENT.nutrition = {
   subjectId: 'nutrition',
   version: 1,
-  lastUpdated: '2026-04-23',
-  curator: 'BATCH B11-life-skills-I',
+  lastUpdated: '2026-10-15',
+  curator: 'SPRINT W1',
   topics: {
 
     macros: {
@@ -37545,6 +41371,238 @@ window.CONTENT.nutrition = {
         'https://ods.od.nih.gov/factsheets/list-all/',
       ],
       verifiedAt: '2026-04-23',
+    },
+
+    balanced_diet: {
+      id: 'balanced_diet',
+      name: 'Eating a Balanced Diet',
+      level: 'Beginner',
+      dek: 'Half the plate in vegetables and fruit, the rest in grains and protein: balance you can see.',
+      readTime: '6 min',
+
+      sections: ['What balanced means', 'Building the plate', 'Variety and moderation', 'Balance over a week'],
+      body: [
+        { type: 'lead', text: 'A dinner plate is a pie chart you can eat. The Healthy Eating Plate, drawn by nutrition experts at Harvard, divides it into three regions: vegetables and fruits fill half the plate, whole grains fill one quarter, and protein fills the last quarter. No counting, no weighing. The plate itself does the arithmetic, at every meal, in any kitchen.' },
+        { type: 'h2', text: 'What balanced means' },
+        { type: 'p', text: 'A balanced diet is not a list of forbidden foods. International guidance describes a healthy diet with four principles: adequate, diverse, balanced, and moderate. Adequate means enough of the nutrients the body needs. Diverse means many different foods, since no single food carries everything. Balanced means the proportions among food groups stay roughly right. Moderate means not too much of the things that crowd out the rest. Reference summaries of World Health Organization guidance suggest at least 400 grams of fruit and vegetables a day, free sugars under 10 percent of energy intake, salt under 5 grams a day, and fat at no more than 30 percent of total energy.' },
+        { type: 'h2', text: 'Building the plate' },
+        { type: 'p', text: 'The Harvard plate adds quality rules to the proportions. Vegetables and fruits should be varied and colorful, and potatoes pointedly do not count as a vegetable on this plate, because of their effect on blood sugar. The grain quarter should be whole grains, such as whole wheat bread, brown rice, oats, and quinoa, which keep their fiber and nutrients. The protein quarter favors fish, poultry, beans, and nuts, with red meat limited and processed meats largely avoided. Healthy plant oils, such as olive oil, belong in the cooking and on the salad, in moderation. To drink, the plate says water, coffee, or tea, and it tells you to skip sugary drinks.' },
+        { type: 'h2', text: 'Variety and moderation' },
+        { type: 'p', text: 'Why does variety matter so much? Because nutrients are distributed unevenly across foods, and a rotating cast covers gaps that any single menu leaves open. A dietitian\'s version of the same idea sorts food into groups: fruits and vegetables; grains and cereals for energy; protein rich foods for growth and repair; and milk and dairy, nuts, and seeds. Eat across the groups, in proportions suited to your own needs, and balance takes care of itself most days.' },
+        { type: 'callout', text: 'Balance is a property of the whole diet, not of any single meal. One celebratory dinner does not unbalance a diet, and one virtuous salad does not balance it.' },
+        { type: 'h2', text: 'Balance over a week' },
+        { type: 'p', text: 'Judged across a week rather than a meal, balance becomes forgiving. A day heavy on grains can lean on vegetables the next. A feast day can sit inside an ordinary week without breaking anything, because the proportions the plate teaches are averages, not commandments. That is the quiet genius of the plate as a teacher: it turns an abstract science into a picture you can hold in your head at the market and at the stove. Half vegetables and fruit, a quarter of grains, a quarter of protein, and water in the glass.' },
+      ],
+
+      keyTerms: ['balanced diet', 'food groups', 'whole grains', 'portion', 'nutrient density', 'free sugars', 'variety', 'moderation'],
+      resources: {
+        videos: [
+          {
+            id: 'IL7ZH9baqyE',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=IL7ZH9baqyE',
+            title: 'Healthy Plate, illustrating balanced portions of veggies, fruits, grains, proteins, and healthy oils',
+            channel: 'YouTube',
+            duration: 'variable',
+            why: 'A walk through the Healthy Eating Plate section by section, with the reasoning behind each proportion.',
+          },
+          {
+            id: 'iqIvFFu4GiY',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=iqIvFFu4GiY',
+            title: '5 Food Groups for a Healthy Life',
+            channel: 'Aakash Healthcare',
+            duration: 'variable',
+            why: 'Dietitian Ginni Kalra explains the five food groups and how to build everyday meals from them.',
+          },
+          {
+            id: 'yrBQDvAmIvU',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=yrBQDvAmIvU',
+            title: 'Balanced Diet is the Foundation of Good Health',
+            channel: 'YouTube',
+            duration: 'variable',
+            why: 'An Eatwell style tour of the food groups, from fruit and vegetables to oils and spreads.',
+          },
+        ],
+        books: [
+          {
+            title: 'In Defense of Food: An Eater\'s Manifesto',
+            author: 'Michael Pollan',
+            year: 2008,
+            url: '',
+            why: 'The case for eating food, not too much, mostly plants, and for judging diets by whole foods rather than nutrients.',
+          },
+          {
+            title: 'Food Rules: An Eater\'s Manual',
+            author: 'Michael Pollan',
+            year: 2009,
+            url: '',
+            why: 'Sixty four short rules for eating well, gathered from doctors, dietitians, and grandmothers. A pocket companion to this lesson.',
+          },
+          {
+            title: 'How Not to Die',
+            author: 'Michael Greger',
+            year: 2015,
+            url: '',
+            why: 'A physician\'s tour of the evidence on diet and the leading causes of death, with the studies cited chapter by chapter.',
+          },
+        ],
+        articles: [
+          {
+            title: 'Healthy Eating Plate',
+            source: 'Harvard T.H. Chan School of Public Health',
+            url: 'https://nutritionsource.hsph.harvard.edu/healthy-eating-plate/',
+            why: 'The plate itself, with Harvard\'s guidance on each section, on drinks, and on healthy oils.',
+            year: null,
+          },
+          {
+            title: 'Healthy diet',
+            source: 'Wikipedia',
+            url: 'https://en.wikipedia.org/wiki/Healthy_diet',
+            why: 'A survey of international dietary guidance: the FAO and WHO principles and the headline numbers.',
+            year: null,
+          },
+        ],
+        courses: [
+          {
+            title: 'Stanford Introduction to Food and Health',
+            provider: 'Stanford Online (Coursera)',
+            url: 'https://www.coursera.org/learn/food-and-health',
+            free: true,
+            why: 'Maya Adam\'s beginner friendly course on making sensible food choices amid modern food culture.',
+          },
+        ],
+      },
+
+      seeAlso: ['macros', 'micronutrients', 'public_health'],
+      prereqs: ['macros'],
+      leadsTo: [],
+
+      chapterActivity: 'A market exercise: fill a basket that matches the plate, half produce, a quarter grains, a quarter protein, then cook it together.',
+
+      sources: [
+        'https://nutritionsource.hsph.harvard.edu/healthy-eating-plate/',
+        'https://en.wikipedia.org/wiki/Healthy_diet',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    hydration: {
+      id: 'hydration',
+      name: 'Water & Hydration',
+      level: 'Beginner',
+      dek: 'The body runs on water: what it does, how much you need, and how thirst keeps accounts.',
+      readTime: '6 min',
+
+      sections: ['The body\'s water', 'How much is enough', 'Losing water: dehydration', 'Plain water, safe water'],
+      body: [
+        { type: 'lead', text: 'Set a glass of water on the table and consider that the person reaching for it is, by weight, between 55 and 60 percent water. It is the medium every cell lives in, the solvent of the blood, the coolant of the skin. The body keeps no reservoir of it. What leaves in breath, sweat, and urine must be replaced, day after day, which is why the oldest dietary advice in the world is also the simplest: drink.' },
+        { type: 'h2', text: 'The body\'s water' },
+        { type: 'p', text: 'Water has two great jobs. The first is transport and chemistry: nutrients, gases, and wastes move dissolved in it, and the reactions of metabolism happen in it. The second is temperature: sweating spends water to carry heat away. The kidneys regulate the total with help from a hormone called ADH. When water runs low, ADH rises and aquaporin channels in the kidney pull water back into the body instead of letting it leave as urine. Food quietly helps. Roughly 22 percent of the water Americans take in comes from food rather than drink, one reason fruit, vegetables, and soups all count toward the day\'s total.' },
+        { type: 'h2', text: 'How much is enough' },
+        { type: 'p', text: 'Britain\'s Eatwell Guide gives the most usable answer in ordinary language: aim to drink 6 to 8 cups or glasses of fluid a day. Water is the first choice, but the guide counts lower fat milk and lower sugar drinks, including tea and coffee, toward the total. The simplest gauge is built in. Urine should be a clear pale yellow. Darker urine, thirst, and a dry mouth are the body\'s early notices that the account is running low.' },
+        { type: 'callout', text: 'Coffee and tea count. The Eatwell Guide counts tea and coffee toward the daily 6 to 8 cups, along with water and lower fat milk.' },
+        { type: 'h2', text: 'Losing water: dehydration' },
+        { type: 'p', text: 'Dehydration is a lack of total body water severe enough to disrupt the metabolic processes that depend on it. Most people tolerate a decrease of 3 to 4 percent of total body water without difficulty or noticeable harm. A decrease of 5 to 8 percent can cause fatigue and dizziness. Beyond that the stakes climb quickly, because blood volume, temperature control, and the kidneys are all drawing on the same shrinking supply. The lesson of the numbers is not to fear water loss but to respect its slope: the body forgives the first few percent, and protests the next few.' },
+        { type: 'h2', text: 'Plain water, safe water' },
+        { type: 'p', text: 'For most of human history the harder problem was not drinking enough but drinking safely. Nearly 800 million people still do not have regular access to clean water, and telling safe water from contaminated water is a matter of treatment and testing, not of taste. The glass on the table closes the loop this lesson opened with: a body more than half water, refilled a few cups at a time, 6 to 8 glasses across an ordinary day.' },
+      ],
+
+      keyTerms: ['hydration', 'dehydration', 'total body water', 'ADH', 'aquaporin', 'electrolyte', 'fluid balance', 'thirst'],
+      resources: {
+        videos: [
+          {
+            id: '9iMGFqMmUFs',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=9iMGFqMmUFs',
+            title: 'What would happen if you didn\'t drink water?',
+            channel: 'TED-Ed',
+            duration: 'variable',
+            why: 'Mia Nacamulli follows water through the body and shows what falters, in order, when it runs out.',
+          },
+          {
+            id: 'G244Q4AGJ7U',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=G244Q4AGJ7U',
+            title: 'When is water safe to drink?',
+            channel: 'TED-Ed',
+            duration: 'variable',
+            why: 'Mia Nacamulli on contamination and treatment, and why clean water remains out of reach for nearly 800 million people.',
+          },
+          {
+            id: 'oGtnphj69UA',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=oGtnphj69UA',
+            title: 'HYDRATION',
+            channel: 'YouTube',
+            duration: 'variable',
+            why: 'A short primer on how the body loses and replaces water, and which everyday foods carry water with them.',
+          },
+        ],
+        books: [
+          {
+            title: 'Waterlogged: The Serious Problem of Overhydration in Endurance Sports',
+            author: 'Timothy Noakes',
+            year: 2012,
+            url: '',
+            why: 'A sports scientist argues that drinking too much can be as dangerous as too little, and traces how the advice changed.',
+          },
+          {
+            title: 'Quench',
+            author: 'Dana Cohen and Gina Bria',
+            year: 2018,
+            url: '',
+            why: 'A physician and an anthropologist on the water hidden in food, and what traditional cultures know about staying hydrated.',
+          },
+          {
+            title: 'The Big Thirst: The Secret Life and Turbulent Future of Water',
+            author: 'Charles Fishman',
+            year: 2011,
+            url: '',
+            why: 'How cities, farms, and industries get their water, and why the era of cheap, invisible water is ending.',
+          },
+        ],
+        articles: [
+          {
+            title: 'Water, drinks and hydration',
+            source: 'NHS',
+            url: 'https://www.nhs.uk/live-well/eat-well/food-guidelines-and-food-labels/water-drinks-nutrition/',
+            why: 'The Eatwell Guide page on fluids: 6 to 8 cups a day, what counts toward it, and the pale yellow test.',
+            year: null,
+          },
+          {
+            title: 'Dehydration',
+            source: 'Wikipedia',
+            url: 'https://en.wikipedia.org/wiki/Dehydration',
+            why: 'The physiology of water loss, from ADH and aquaporins to the percentages at which symptoms begin.',
+            year: null,
+          },
+        ],
+        courses: [
+          {
+            title: 'Stanford Introduction to Food and Health',
+            provider: 'Stanford Online (Coursera)',
+            url: 'https://www.coursera.org/learn/food-and-health',
+            free: true,
+            why: 'For the food half of hydration: how whole foods, many of them mostly water, fit a healthy pattern of eating and drinking.',
+          },
+        ],
+      },
+
+      seeAlso: ['macros', 'micronutrients', 'physiology'],
+      prereqs: ['macros'],
+      leadsTo: [],
+
+      chapterActivity: 'A one day fluid log: tally every cup and glass, note your urine color at midday, and compare the total with the Eatwell 6 to 8.',
+
+      sources: [
+        'https://www.nhs.uk/live-well/eat-well/food-guidelines-and-food-labels/water-drinks-nutrition/',
+        'https://en.wikipedia.org/wiki/Dehydration',
+        'https://www.youtube.com/watch?v=9iMGFqMmUFs',
+        'https://www.youtube.com/watch?v=G244Q4AGJ7U',
+      ],
+      verifiedAt: '2026-10-15',
     },
 
   },
@@ -40120,18 +44178,19 @@ window.CONTENT.photography = {
 // ====== physics.js ======
 // content/physics.js
 // Owned by batch: B02-hard-sciences
-// Last updated: 2026-04-22 by BATCH B02-hard-sciences
+// Last updated: 2026-10-15 by SPRINT W1
 //
 // Topics this subject must cover (from data.js):
 //   Classical: mechanics, em, thermo, waves
 //   Modern:    quantum, relativity, particle, cosmology
+//   Sprint W1:   energy, circuits, gravity
 
 window.CONTENT = window.CONTENT || {};
 window.CONTENT.physics = {
   subjectId: 'physics',
   version: 1,
-  lastUpdated: '2026-04-22',
-  curator: 'BATCH B02-hard-sciences',
+  lastUpdated: '2026-10-15',
+  curator: 'SPRINT W1',
   topics: {
 
     mechanics: {
@@ -41387,6 +45446,359 @@ window.CONTENT.physics = {
       verifiedAt: '2026-04-22',
     },
 
+    energy: {
+      id: 'energy',
+      name: 'Energy & Work',
+      level: 'Intermediate',
+      dek: 'Energy changes form and does work, but the total in isolation never changes.',
+      readTime: '10 min',
+
+      sections: ['A lightning account', 'Kinetic and potential', 'Work is a transfer', 'Power and the watt'],
+      body: [
+        { type: 'lead', text: 'In a typical lightning strike, 500 megajoules of electric potential energy is converted into the same amount of energy in other forms, mostly light, sound, and heat. Nothing vanishes in the flash. The books balance, and that balancing is the subject.' },
+        { type: 'h2', text: 'A lightning account' },
+        { type: 'p', text: 'Energy is the quantitative property that is transferred to a body or a physical system, recognizable in the capacity to do work and in the form of heat and light. It is a conserved quantity: the law of conservation of energy states that the total energy of an isolated system remains constant, although it can be converted in form. The unit of measurement in the International System of Units is the joule. Thomas Young was possibly the first to use the term energy in its modern sense, in 1807, replacing the older living force of Leibniz.' },
+        { type: 'h2', text: 'Kinetic and potential' },
+        { type: 'p', text: 'The total energy of a system can be divided into potential energy, kinetic energy, or combinations of the two. Kinetic energy is determined by the movement of an object, while potential energy reflects the potential of an object to have motion, based on its position within a field. Gustave Gaspard Coriolis described kinetic energy in 1829 in its modern sense, and in 1853 William Rankine coined the term potential energy. A raised stone holds the second kind; let it fall and the ledger moves, line by line, into the first.' },
+        { type: 'callout', text: 'In 1845 James Prescott Joule discovered the link between mechanical work and the generation of heat, the experiment that helped close the case for conservation.' },
+        { type: 'h2', text: 'Work is a transfer' },
+        { type: 'p', text: 'Work is the energy transferred to or from an object through the application of force along a displacement. For a constant force aligned with the motion, work equals the product of the force strength and the distance traveled. The numbers are plain: a force of 10 newtons acting along a point that travels 2 metres does 20 joules of work, about the work of lifting a 1 kilogram object from ground level to over a person\'s head. The work energy principle ties it together: an increase in kinetic energy is caused by an equal amount of positive work.' },
+        { type: 'h2', text: 'Power and the watt' },
+        { type: 'p', text: 'Power is energy per unit of time, and its SI unit, the watt, is one joule per second. A kilowatt hour, the unit on an electricity bill, is the energy delivered by one kilowatt of power for an hour, equal to 3.6 million joules. According to Noether theorem, conservation of energy follows from the fact that the laws of physics do not change over time, a symmetry noticed in 1918. The lightning strike ends the account where it began: 500 megajoules arrived, 500 megajoules left in other forms, and the difference is exactly zero.' },
+      ],
+
+      keyTerms: ['joule', 'kinetic energy', 'potential energy', 'conservation of energy', 'work', 'power', 'watt'],
+
+      resources: {
+        videos: [
+          {
+            id: 'ZM8ECpBuQYE',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=ZM8ECpBuQYE',
+            title: 'Work, Energy, and Power: Crash Course Physics #9',
+            channel: 'CrashCourse',
+            duration: 'variable',
+            featured: true,
+            why: 'Work, kinetic and potential energy, and power, in one brisk course episode.',
+          },
+          {
+            id: 'ZsY4WcQOrfk',
+            source: 'youtube',
+            url: '11:58',
+            title: 'Entropy: Embrace the Chaos!',
+            channel: 'Crash Course',
+            duration: 'variable',
+            featured: true,
+            why: 'Where energy spreads out: entropy as the sequel to conservation.',
+          },
+          {
+            id: '_MR1Dp8-F8w',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=_MR1Dp8-F8w',
+            title: 'Work, Energy, and Power: Basic Introduction',
+            channel: 'The Organic Chemistry Tutor',
+            duration: 'variable',
+            featured: true,
+            why: 'A worked introduction to the work energy principle, force, and displacement.',
+          },
+        ],
+        books: [
+          {
+            title: 'Energy: A Human History',
+            author: 'Richard Rhodes',
+            year: 2018,
+            url: '',
+            why: 'Four centuries of energy transitions, from wood and water to fission.',
+          },
+          {
+            title: 'The Feynman Lectures on Physics, Vol. I',
+            author: 'Richard Feynman',
+            year: 1963,
+            url: '',
+            why: 'Chapter 4 states conservation of energy as clearly as it has ever been stated.',
+          },
+          {
+            title: 'The Character of Physical Law',
+            author: 'Richard Feynman',
+            year: 1965,
+            url: '',
+            why: 'The Messenger lectures, with a famous chapter on the great conservation principles.',
+          },
+        ],
+        articles: [
+          {
+            title: 'Energy',
+            source: 'Wikipedia',
+            url: 'https://en.wikipedia.org/wiki/Energy',
+            why: 'Forms of energy, history, and units, including the joule and the kilowatt hour.',
+            year: null,
+          },
+          {
+            title: 'Work (physics)',
+            source: 'Wikipedia',
+            url: 'https://en.wikipedia.org/wiki/Work_(physics)',
+            why: 'Work as force along a displacement, and the work energy principle.',
+            year: null,
+          },
+        ],
+        courses: [
+          {
+            title: '8.01 Classical Mechanics',
+            provider: 'MIT OpenCourseWare',
+            url: 'https://ocw.mit.edu/courses/8-01sc-classical-mechanics-fall-2016/',
+            free: true,
+            why: 'Free MIT course that treats force and conservation laws, energy included, side by side.',
+          },
+        ],
+      },
+
+      seeAlso: ['mechanics', 'thermo', 'waves'],
+      prereqs: ['mechanics'],
+      leadsTo: ['thermo'],
+
+      sources: [
+        'https://en.wikipedia.org/wiki/Energy',
+        'https://en.wikipedia.org/wiki/Work_(physics)',
+        'https://ocw.mit.edu/courses/8-01sc-classical-mechanics-fall-2016/',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    circuits: {
+      id: 'circuits',
+      name: 'Electric Circuits',
+      level: 'Intermediate',
+      dek: 'A closed loop for current, governed by Ohm and Kirchhoff, powering nearly everything indoors.',
+      readTime: '10 min',
+
+      sections: ['A closed loop', 'Ohm law', 'Kirchhoff bookkeeping', 'Series and parallel'],
+      body: [
+        { type: 'lead', text: 'A torch in a dark drawer is a complete electrical theory in miniature: a battery, a bulb, and wire joined in a closed loop. Break the loop anywhere and the light dies, because a circuit is a network with a return path for the current.' },
+        { type: 'h2', text: 'A closed loop' },
+        { type: 'p', text: 'An electrical network is an interconnection of electrical components such as batteries, resistors, and switches, or a model of such an interconnection. An electrical circuit is a network consisting of a closed loop, giving a return path for the current, so all circuits are networks, but not all networks are circuits. An active network contains at least one voltage source or current source that can supply energy indefinitely, while a passive network contains none. The torch is active in miniature: its battery injects power, and the bulb spends it as light and heat.' },
+        { type: 'h2', text: 'Ohm law' },
+        { type: 'p', text: 'Ohm law states that the current through a conductor between two points is directly proportional to the voltage across the two points, with resistance as the constant of proportionality: V equals I times R. Georg Ohm published his results in 1827, in a treatise describing measurements of voltage and current through simple circuits containing various lengths of wire. The law is empirical, and it describes most conductive materials over many orders of magnitude of current, though some materials, called non ohmic, do not obey it. Critics first called Ohm work a web of naked fancies, and it was not widely accepted until the 1840s.' },
+        { type: 'callout', text: 'Energy in a circuit travels through the electric and magnetic fields around the wires, not inside the electrons, a picture the linked Veritasium video makes vivid.' },
+        { type: 'h2', text: 'Kirchhoff bookkeeping' },
+        { type: 'p', text: 'Two accounting rules analyze almost any resistive network. Kirchhoff current law says the sum of all currents entering a node equals the sum of all currents leaving it. Kirchhoff voltage law says the directed sum of the electrical potential differences around a loop must be zero. Apply Ohm law at each resistor and these two rules at each node and loop, and the result is a set of simultaneous equations that can be solved for every current and voltage in the network.' },
+        { type: 'h2', text: 'Series and parallel' },
+        { type: 'p', text: 'Resistors in series share one current and their resistances add; resistors in parallel share one voltage and conductances add. Thevenin theorem adds a powerful shortcut: any network of voltage or current sources and resistors is electrically equivalent to a single voltage source in series with a single resistor. The drawer torch obeys all of it, battery, resistance, loop, and laws, and so does the grid behind the wall socket: same bookkeeping, larger numbers.' },
+      ],
+
+      keyTerms: ['circuit', 'voltage', 'current', 'resistance', 'Ohm law', 'Kirchhoff current law', 'Kirchhoff voltage law'],
+
+      resources: {
+        videos: [
+          {
+            id: 'F_vLWkkOETI',
+            source: 'youtube',
+            url: '12:22',
+            title: 'Introduction to circuits and Ohm law',
+            channel: 'Khan Academy',
+            duration: 'variable',
+            featured: true,
+            why: 'Sal Khan on charge, current, voltage, and resistance in a first circuit.',
+          },
+          {
+            id: 'bHIhgxav9LY',
+            source: 'youtube',
+            url: '14:48',
+            title: 'The Big Misconception About Electricity',
+            channel: 'Veritasium',
+            duration: 'variable',
+            featured: true,
+            why: 'How energy in a circuit actually flows, through the fields around the wires.',
+          },
+          {
+            id: null,
+            source: 'other',
+            url: 'https://ocw.mit.edu/courses/6-002-circuits-and-electronics-spring-2007/',
+            title: '6.002 Circuits and Electronics: lecture collection',
+            channel: 'MIT OpenCourseWare',
+            duration: 'variable',
+            featured: true,
+            why: 'The full MIT first course in circuits, free, with the lumped circuit abstraction built from the ground up.',
+          },
+        ],
+        books: [
+          {
+            title: 'The Art of Electronics',
+            author: 'Paul Horowitz and Winfield Hill',
+            year: 1980,
+            url: '',
+            why: 'The practical classic: circuits explained by people who build them.',
+          },
+          {
+            title: 'Foundations of Analog and Digital Electronic Circuits',
+            author: 'Anant Agarwal and Jeffrey H. Lang',
+            year: 2005,
+            url: '',
+            why: 'The MIT 6.002 text, cited by the course itself, rigorous and modern.',
+          },
+          {
+            title: 'Introduction to Electrodynamics',
+            author: 'David J. Griffiths',
+            year: 1981,
+            url: '',
+            why: 'The field theory underneath circuit laws, in the standard undergraduate text.',
+          },
+        ],
+        articles: [
+          {
+            title: 'Electrical network',
+            source: 'Wikipedia',
+            url: 'https://en.wikipedia.org/wiki/Electrical_network',
+            why: 'Networks, circuits, and the electrical laws that apply to all linear resistive networks.',
+            year: null,
+          },
+          {
+            title: 'Ohm\'s law',
+            source: 'Wikipedia',
+            url: 'https://en.wikipedia.org/wiki/Ohm%27s_law',
+            why: 'The law, its history in 1827, and its microscopic origins.',
+            year: null,
+          },
+        ],
+        courses: [
+          {
+            title: '6.002 Circuits and Electronics',
+            provider: 'MIT OpenCourseWare',
+            url: 'https://ocw.mit.edu/courses/6-002-circuits-and-electronics-spring-2007/',
+            free: true,
+            why: 'Free MIT first course in circuits: resistive networks, sources, and energy storage elements.',
+          },
+        ],
+      },
+
+      seeAlso: ['em', 'mechanics', 'waves'],
+      prereqs: ['mechanics'],
+      leadsTo: ['em'],
+
+      sources: [
+        'https://en.wikipedia.org/wiki/Electrical_network',
+        'https://en.wikipedia.org/wiki/Ohm%27s_law',
+        'https://ocw.mit.edu/courses/6-002-circuits-and-electronics-spring-2007/',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    gravity: {
+      id: 'gravity',
+      name: 'Gravity & Orbits',
+      level: 'Intermediate',
+      dek: 'One attraction holds the Moon, drops the apple, and shapes galaxies across the universe.',
+      readTime: '10 min',
+
+      sections: ['The same force everywhere', 'Inverse square', 'Falling around a planet', 'Neptune by arithmetic'],
+      body: [
+        { type: 'lead', text: 'A cannon on a high mountain fires its ball faster and faster, and each shot lands farther away, until at one speed the ball never lands at all. Newton drew that picture to explain an orbit: a fall that keeps missing the ground.' },
+        { type: 'h2', text: 'The same force everywhere' },
+        { type: 'p', text: 'Gravity is a fundamental interaction, described as the force that draws material objects toward each other, and it has an infinite range, although its effects become weaker as objects get farther away. Its boldest claim is universality. The gravitational attraction between clouds of primordial hydrogen caused the gas to coalesce and form stars, and at larger scales it built galaxies and clusters, so gravity is a primary driver of the large scale structures in the universe. The apple and the galaxy obey one law.' },
+        { type: 'h2', text: 'Inverse square' },
+        { type: 'p', text: 'For most applications, gravity is well approximated by Newton law of universal gravitation: an attractive force between any two bodies, proportional to the product of their masses and inversely proportional to the square of the distance between them. In symbols, F equals G times the two masses divided by r squared, where G is the gravitational constant 6.674 x 10 to the power of negative 11 in SI units. Double the distance and the force falls to a quarter. Einstein general theory of relativity, proposed in 1915, redescribes gravity as the curvature of spacetime caused by the uneven distribution of mass, and it is the deeper account.' },
+        { type: 'callout', text: 'Gravity between two electrons is vanishing beside their electric repulsion: the ratio of gravitational attraction to electrical repulsion is 1 to 4.17 x 10 to the 42nd power.' },
+        { type: 'h2', text: 'Falling around a planet' },
+        { type: 'p', text: 'To a close approximation, planets and satellites follow elliptic orbits, with the center of mass being orbited at a focal point of the ellipse, as Kepler laws describe. At any point along its orbit, a satellite has kinetic and potential energy, and the sum of the two is constant at every point: approaching its closest point it speeds up as potential energy decreases, and slows as it recedes. An orbit is that exchange, repeated without loss, which is why Newton cannonball, given enough speed, circles forever in the ideal picture.' },
+        { type: 'h2', text: 'Neptune by arithmetic' },
+        { type: 'p', text: 'The law once found a planet before any telescope did. In 1846, astronomers John Couch Adams and Urbain Le Verrier independently used Newton law to predict Neptune location in the night sky, from the unexplained wobble in the orbit of Uranus, and the planet was discovered there within a day. A force too weak to notice between two electrons had, at planetary scale, pointed a telescope at an unseen world. The cannonball is still falling around the Earth, and so, in Newton picture, is everything that orbits.' },
+      ],
+
+      keyTerms: ['gravitation', 'inverse square law', 'gravitational constant', 'orbit', 'ellipse', 'Kepler laws', 'escape velocity'],
+
+      resources: {
+        videos: [
+          {
+            id: 'AwhKZ3fd9JA',
+            source: 'youtube',
+            url: '9:42',
+            title: 'General Relativity and Curved Spacetime Explained',
+            channel: 'PBS Space Time',
+            duration: 'variable',
+            featured: true,
+            why: 'Einstein account of gravity as curved spacetime, clearly visualized.',
+          },
+          {
+            id: 'mXGc678D2N8',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=mXGc678D2N8',
+            title: 'The Physics of Orbital Mechanics',
+            channel: 'YouTube',
+            duration: 'variable',
+            featured: true,
+            why: 'Newton cannonball, Kepler laws, and how falling becomes orbiting.',
+          },
+          {
+            id: 'TKM0P3XlMNA',
+            source: 'youtube',
+            url: '12:16',
+            title: 'Introduction to the Solar System (Crash Course Astronomy #9)',
+            channel: 'Crash Course',
+            duration: 'variable',
+            featured: true,
+            why: 'The planetary system that gravity assembled, surveyed in one episode.',
+          },
+        ],
+        books: [
+          {
+            title: 'Principia: Mathematical Principles of Natural Philosophy',
+            author: 'Isaac Newton',
+            year: 1687,
+            url: '',
+            why: 'The book that stated universal gravitation and derived the orbits from it.',
+          },
+          {
+            title: 'Relativity: The Special and the General Theory',
+            author: 'Albert Einstein',
+            year: 1916,
+            url: '',
+            why: 'Einstein own popular account of gravity as geometry.',
+          },
+          {
+            title: 'A Brief History of Time',
+            author: 'Stephen Hawking',
+            year: 1988,
+            url: '',
+            why: 'Gravity, black holes, and cosmology for the general reader, a modern classic.',
+          },
+        ],
+        articles: [
+          {
+            title: 'Gravity',
+            source: 'Wikipedia',
+            url: 'https://en.wikipedia.org/wiki/Gravity',
+            why: 'The interaction, its history, and the inverse square law with the value of G.',
+            year: null,
+          },
+          {
+            title: 'Orbit',
+            source: 'Wikipedia',
+            url: 'https://en.wikipedia.org/wiki/Orbit',
+            why: 'Elliptic orbits, Kepler laws, and the energy exchange along an orbit.',
+            year: null,
+          },
+        ],
+        courses: [
+          {
+            title: '8.01 Classical Mechanics',
+            provider: 'MIT OpenCourseWare',
+            url: 'https://ocw.mit.edu/courses/8-01sc-classical-mechanics-fall-2016/',
+            free: true,
+            why: 'Free MIT mechanics course, built around motion, force, and the motion of the planets.',
+          },
+        ],
+      },
+
+      seeAlso: ['mechanics', 'relativity', 'waves'],
+      prereqs: ['mechanics'],
+      leadsTo: ['relativity'],
+
+      sources: [
+        'https://en.wikipedia.org/wiki/Gravity',
+        'https://en.wikipedia.org/wiki/Orbit',
+        'https://ocw.mit.edu/courses/8-01sc-classical-mechanics-fall-2016/',
+      ],
+      verifiedAt: '2026-10-15',
+    },
   },
 };
 
@@ -41725,17 +46137,17 @@ window.CONTENT.plumbing = {
 // ====== politics.js ======
 // content/politics.js
 // Owned by batch: B05-social-world
-// Last updated: 2026-04-23 by BATCH B05-social-world
+// Last updated: 2026-10-15 by SPRINT W1
 //
 // Topics this subject must cover (from data.js):
-//   Core: governments, constitutions, ir
+//   Core: governments, constitutions, ir, voting, humanrights
 
 window.CONTENT = window.CONTENT || {};
 window.CONTENT.politics = {
   subjectId: 'politics',
   version: 2,
-  lastUpdated: '2026-04-23',
-  curator: 'BATCH B05-social-world',
+  lastUpdated: '2026-10-15',
+  curator: 'SPRINT W1',
   topics: {
 
     // ——— GOVERNMENTS ———
@@ -42648,6 +47060,239 @@ window.CONTENT.politics = {
         'https://www.britannica.com/topic/international-relations',
       ],
       verifiedAt: '2026-04-23',
+    },
+
+    voting: {
+      id: 'voting',
+      name: 'Voting & Elections',
+      level: 'Beginner',
+      dek: 'The ballot looks simple; who gets one, and how it is counted, has been fought over for centuries.',
+      readTime: '9 min',
+
+      sections: ['What a vote does', 'The secret ballot', 'Who was shut out', 'Counting and being counted'],
+      body: [
+        { type: 'lead', text: 'In Gambia, a voter walks into a polling station carrying a marble. Behind a screen stand metal drums painted in party colours, each with a candidate\'s photograph attached. The voter drops the marble into one drum, a bell rings to register the vote, and bicycles are banned near the station so nobody mistakes a bicycle bell for a count. The system, introduced in 1965 to serve voters who could not read, is a reminder that a ballot is a technology, and technologies get designed.' },
+        { type: 'h2', text: 'What a vote does' },
+        { type: 'p', text: 'Voting is how a group turns many individual choices into one collective decision. The object can be a person, a law, or a yes or no question put to the whole electorate in a referendum. Electoral systems, the rules that convert votes cast into winners, vary by country and by office, and the rules matter as much as the votes: the same ballots counted by different rules can seat different governments. Debates about electoral reform are usually debates about which conversion a country thinks is fair.' },
+        { type: 'h2', text: 'The secret ballot' },
+        { type: 'p', text: 'All modern liberal democracies vote by secret ballot, so that no employer, landlord, party worker, or family member can verify how a person voted and punish or reward it. Secrecy is what makes the stated preference plausibly the real one. The alternatives still exist at the edges: open votes by show of hands survive in some Swiss cantons, voice votes settle routine business in legislatures, and voting itself can be a legal duty rather than a choice, as in Australia, or done from home by post, or online, as Estonia first allowed in its local elections in 2005.' },
+        { type: 'h2', text: 'Who was shut out' },
+        { type: 'p', text: 'For most of democratic history the electorate was a minority of the governed. The long expansion of the suffrage ran by class, by race, and by sex, and the last of these came latest. The first national granting of women\'s suffrage was in 1893, in the self governing British colony of New Zealand, after a campaign led by Kate Sheppard. The United States followed in 1920, the United Kingdom completed equal voting rights in 1928, France waited until 1944, and Swiss women could not vote in federal elections until 1971. Each date was the end of a long organised campaign, not a gift that arrived on its own.' },
+        { type: 'h2', text: 'Counting and being counted' },
+        { type: 'p', text: 'An election is also an act of trust in arithmetic performed by strangers. Ballots may be paper, machine read, or cast on electronic machines; some allow one mark, some allow ranking candidates in order of preference, and ranked ballots are then redistributed until a winner emerges. More than five hundred national referendums have been held since the end of the eighteenth century, more than three hundred of them in Switzerland alone. The machinery differs, the question underneath does not: a vote only settles an argument if the losers believe the count. Where that belief holds, power changes hands without violence. Where it fails, the marble, the paper, and the bell are just objects in a room.' },
+      ],
+
+      keyTerms: ['suffrage', 'secret ballot', 'electoral system', 'referendum', 'turnout', 'franchise', 'ranked ballot'],
+
+      resources: {
+        videos: [
+          {
+            id: 'eauMLjugC8o',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=eauMLjugC8o',
+            title: 'Voting Rights | Constitution 101',
+            channel: 'National Constitution Center',
+            duration: 'variable',
+            why: 'Jeffrey Rosen on the Fifteenth, Nineteenth, Twenty-fourth, and Twenty-sixth Amendments, and the long American fight over who may vote. Part of the Constitution 101 course made with Khan Academy.',
+          },
+          {
+            id: 'You0q4JJzS4',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=You0q4JJzS4',
+            title: 'Voter turnout: Political participation',
+            channel: 'Khan Academy',
+            duration: 'variable',
+            why: 'Why some elections draw most of the electorate and others do not: efficacy, engagement, and the state laws that make voting easier or harder.',
+          },
+          {
+            id: 'p-n_YOtUnqU',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=p-n_YOtUnqU',
+            title: 'Sal teaches Grover about the Electoral College',
+            channel: 'Khan Academy',
+            duration: 'variable',
+            why: 'The gentlest possible introduction to the strangest part of American elections, taught to a Muppet and entirely clear to adults too.',
+          },
+        ],
+        books: [
+          {
+            title: 'The Right to Vote: The Contested History of Democracy in the United States',
+            author: 'Alexander Keyssar',
+            year: 2000,
+            url: '',
+            why: 'The standard history of the American franchise, expansion and contraction alike. The book to read on who was let in, who was pushed out, and how.',
+          },
+          {
+            title: 'The Turnout Gap: Race, Ethnicity, and Political Inequality in a Diversifying America',
+            author: 'Bernard L. Fraga',
+            year: 2018,
+            url: '',
+            why: 'A political scientist tests the common stories about who does not vote and why, with data. Bracing and unsentimental.',
+          },
+          {
+            title: 'Election Meltdown: Dirty Tricks, Distrust, and the Threat to American Democracy',
+            author: 'Richard L. Hasen',
+            year: 2020,
+            url: '',
+            why: 'A leading election law scholar on the machinery of counting and the fragility of trust in the count itself.',
+          },
+        ],
+        articles: [
+          {
+            title: 'Voting',
+            source: 'Wikipedia',
+            url: 'https://en.wikipedia.org/wiki/Voting',
+            why: 'Ballot types, voting methods, and electoral systems compared, from paper ballots to Gambian marbles.',
+            year: null,
+          },
+          {
+            title: 'Women\'s suffrage',
+            source: 'Wikipedia',
+            url: 'https://en.wikipedia.org/wiki/Women%27s_suffrage',
+            why: 'The country by country chronology of the last great expansion of the electorate, from New Zealand in 1893 onward.',
+            year: null,
+          },
+        ],
+        courses: [
+          {
+            title: 'Elections and Voting Rights: Constitution 101, Unit 9',
+            provider: 'National Constitution Center with Khan Academy',
+            url: 'https://ConstitutionCenter.org/education/constitution-101-curriculum/constitution-101-with-khan-academy/unit-9-elections-and-voting-rights-from-the-founding-through-the-civil-rights-movement',
+            free: true,
+            why: 'Eighteen videos on elections and voting rights from the founding through the civil rights movement, free with the full curriculum.',
+          },
+        ],
+      },
+
+      seeAlso: ['governments', 'constitutions', 'ir'],
+      prereqs: ['governments'],
+      leadsTo: ['constitutions'],
+
+      sources: [
+        'https://en.wikipedia.org/wiki/Voting',
+        'https://en.wikipedia.org/wiki/Women%27s_suffrage',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    humanrights: {
+      id: 'humanrights',
+      name: 'Human Rights',
+      level: 'Intermediate',
+      dek: 'After a world war, nations agreed that every person holds rights no government grants and none may take.',
+      readTime: '10 min',
+
+      sections: ['Paris, December 1948', 'Thirty articles, one claim', 'From declaration to treaties', 'Rights on paper, rights in practice'],
+      body: [
+        { type: 'lead', text: 'On 10 December 1948, in Paris, the General Assembly of the new United Nations proclaimed a document of thirty articles that began with a sentence no government had ever quite signed before: all human beings are born free and equal in dignity and rights. The drafters came from different legal and cultural backgrounds and every region of the world, and they had written it in the shadow of a war that had shown, in detail, what happens when a state decides some people have no rights at all.' },
+        { type: 'h2', text: 'Paris, December 1948' },
+        { type: 'p', text: 'The Universal Declaration of Human Rights was a proclamation, not a treaty. It bound no state in law, and its authors knew it. What it did was set a common standard of achievement for all peoples and all nations, in the Declaration\'s own phrase, and give reformers, judges, and prisoners of conscience everywhere the same text to point to. It has since been translated into over 500 languages.' },
+        { type: 'h2', text: 'Thirty articles, one claim' },
+        { type: 'p', text: 'The articles run in a deliberate order. First come the civil and political rights: life, liberty, and security of person; no slavery; no torture; equality before the law; a fair and public hearing; freedom of thought, conscience, and religion; freedom of opinion and expression; and the right to take part in government through periodic and genuine elections by universal and equal suffrage. Then come the economic and social rights: social security, work and equal pay, rest and leisure, an adequate standard of living, and education, which the Declaration says shall be free at least in the elementary stages. The claim holding the list together is that these belong to everyone, without distinction of any kind.' },
+        { type: 'callout', text: 'Article 1 is the load bearing sentence: human beings are born free and equal in dignity and rights, and are endowed with reason and conscience. Everything after it is commentary.' },
+        { type: 'h2', text: 'From declaration to treaties' },
+        { type: 'p', text: 'A declaration that binds nobody could have faded into ceremony. Instead it became a template. The United Nations records that the Declaration inspired, and paved the way for, the adoption of more than seventy human rights treaties, applied today at global and regional levels, and its language was written into constitutions across the world, often by states founded after 1948 whose drafters needed a bill of rights in a hurry and reached for the one already agreed. Rights that begin as standards have a habit of hardening into law.' },
+        { type: 'h2', text: 'Rights on paper, rights in practice' },
+        { type: 'p', text: 'None of this enforces itself. The Declaration closes by saying that nothing in it may be read as giving any state, group, or person a right to destroy the rights it lists, which is an admission that its enemies would try. The distance between the text and the world remains the central fact of human rights politics: the standard is nearly universal, the compliance is not. But a standard is not nothing. It is the thing a violation can be measured against, in a court, in a newspaper, or in a prison letter, and on 10 December 1948 the world\'s governments agreed, in public and in writing, to be measured.' },
+      ],
+
+      keyTerms: ['Universal Declaration', 'dignity', 'inalienable rights', 'treaty', 'civil rights', 'social rights', 'United Nations'],
+
+      resources: {
+        videos: [
+          {
+            id: '3KylsKUSgVc',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=3KylsKUSgVc',
+            title: '10th December 1948: Universal Declaration of Human Rights adopted by the UN General Assembly',
+            channel: 'YouTube documentary',
+            duration: 'variable',
+            why: 'The adoption itself: two years of drafting, the objections raised, and the vote of forty eight in favour, none against, eight abstentions.',
+          },
+          {
+            id: 'w0OtpaKfONM',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=w0OtpaKfONM',
+            title: 'Universal Declaration of Human Rights Animation',
+            channel: 'Amnesty International (1988 film)',
+            duration: 'variable',
+            why: 'The celebrated 1988 animated film made for the Declaration\'s fortieth anniversary, bringing all thirty articles to life. A fine way to meet the whole text.',
+          },
+          {
+            id: '83zo2yuUn9E',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=83zo2yuUn9E',
+            title: 'Human Rights: The UN Declaration 1948',
+            channel: 'YouTube documentary',
+            duration: 'variable',
+            why: 'A plain spoken walk through the Declaration article by article, organised around dignity, equality, and the right to life and liberty.',
+          },
+        ],
+        books: [
+          {
+            title: 'The Universal Declaration of Human Rights: Origins, Drafting, and Intent',
+            author: 'Johannes Morsink',
+            year: 1999,
+            url: '',
+            why: 'The definitive history of the drafting, clause by clause, by a scholar who worked through the full archive of the negotiations.',
+          },
+          {
+            title: 'A World Made New: Eleanor Roosevelt and the Universal Declaration of Human Rights',
+            author: 'Mary Ann Glendon',
+            year: 2001,
+            url: '',
+            why: 'The readable narrative version: the small committee, the arguments, and how a text acceptable to rival systems got written at all.',
+          },
+          {
+            title: 'Human Rights: A Very Short Introduction',
+            author: 'Andrew Clapham',
+            year: 2007,
+            url: '',
+            why: 'A compact, clear map of the modern human rights system by a Geneva international lawyer. The best short entry.',
+          },
+        ],
+        articles: [
+          {
+            title: 'Universal Declaration of Human Rights',
+            source: 'United Nations',
+            url: 'https://www.un.org/en/about-us/universal-declaration-of-human-rights',
+            why: 'The full text of all thirty articles on the UN site, with the history of the proclamation. Read the primary source itself.',
+            year: null,
+          },
+          {
+            title: 'Human rights',
+            source: 'Wikipedia',
+            url: 'https://en.wikipedia.org/wiki/Human_rights',
+            why: 'The wider history and philosophy, and the treaty system that grew out of the Declaration.',
+            year: null,
+          },
+        ],
+        courses: [
+          {
+            title: 'The Moral Foundations of Politics (PLSC 118)',
+            provider: 'Yale Open Courses',
+            url: 'https://oyc.yale.edu/political-science/plsc-118',
+            free: true,
+            why: 'Ian Shapiro\'s free Yale course works through the traditions, utilitarian, Marxist, and social contract, that argue about whether rights exist and where they come from.',
+          },
+        ],
+        primarySources: [
+          {
+            title: 'The Universal Declaration of Human Rights (full text)',
+            url: 'https://www.un.org/en/about-us/universal-declaration-of-human-rights',
+            why: 'Thirty short articles. Twenty minutes to read, and the source every other item here is about.',
+          },
+        ],
+      },
+
+      seeAlso: ['constitutions', 'governments', 'ir'],
+      prereqs: ['constitutions'],
+      leadsTo: ['ir'],
+
+      sources: [
+        'https://www.un.org/en/about-us/universal-declaration-of-human-rights',
+      ],
+      verifiedAt: '2026-10-15',
     },
 
   },

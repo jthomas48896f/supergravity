@@ -1,9 +1,9 @@
 // content/medicine.js
 // Batch: B03-life-sciences
-// Last updated: 2026-04-22 by BATCH B03-life-sciences
+// Last updated: 2026-10-15 by SPRINT W1
 //
 // Topics this subject must cover (from data.js):
-//   Core: physiology, pharmacology, public_health
+//   Core: physiology, pharmacology, public_health, vaccines, antibiotics, epidemics
 //
 // Editorial note: medicine lessons are educational, not clinical advice.
 // The prose stays at the level of history and mechanism; no dosing,
@@ -13,8 +13,8 @@ window.CONTENT = window.CONTENT || {};
 window.CONTENT.medicine = {
   subjectId: 'medicine',
   version: 1,
-  lastUpdated: '2026-04-22',
-  curator: 'BATCH B03-life-sciences',
+  lastUpdated: '2026-10-15',
+  curator: 'SPRINT W1',
   topics: {
 
     // ——— PHYSIOLOGY ———
@@ -458,6 +458,363 @@ window.CONTENT.medicine = {
         'https://www.coursera.org/specializations/professional-epidemiology',
       ],
       verifiedAt: '2026-04-22',
+    },
+
+    // --- VACCINES ---
+    vaccines: {
+      id: 'vaccines',
+      name: 'Vaccines & Immunity',
+      level: 'Beginner',
+      dek: 'How a harmless rehearsal teaches the immune system to defeat a disease it has never met.',
+      readTime: '6 min',
+
+      sections: ['How vaccines train the immune system', 'The main kinds of vaccine', 'Herd immunity', 'The record so far'],
+      body: [
+        { type: 'lead', text: 'In 1798 the English physician Edward Jenner published a short work with a strange title, Inquiry into the Variolae vaccinae, his name for cowpox. In it he reported that material from cowpox could protect a person against smallpox, one of the deadliest diseases of his century, and he gave the procedure a name taken from the cow: vaccination. The idea inside that pamphlet still runs the world. Give the immune system a safe rehearsal, and it will remember the real performance.' },
+        { type: 'h2', text: 'How vaccines train the immune system' },
+        { type: 'p', text: 'A vaccine is a biological preparation that provides active acquired immunity to a particular infectious disease. Most vaccines contain an agent that resembles the microorganism that causes the disease, made from weakened or killed forms of the microbe, from its toxins, or from one of its surface proteins. The immune system treats that agent as an invader and builds a defense against it, including antibodies and memory cells, without the risks of the full illness. The Centers for Disease Control and Prevention describes the process as imitating an infection. The imitation is far less dangerous than the real infection, and the adaptive response it trains takes about one to two weeks to develop fully. If the real microbe arrives months or years later, the body answers from memory, faster and in greater strength.' },
+        { type: 'h2', text: 'The main kinds of vaccine' },
+        { type: 'p', text: 'Vaccine makers stage the same rehearsal by several routes. Attenuated vaccines use a living microbe weakened in the laboratory. Inactivated vaccines use microbes that have been killed. Toxoid vaccines train the body against a toxin the microbe produces, rendered harmless in advance. Subunit and conjugate vaccines use only selected pieces of the microbe, such as a surface protein. The newest genetic vaccines deliver instructions rather than the agent itself: viral vector, RNA, and DNA vaccines carry code for a microbial protein and let the body build the rehearsal prop. A finished vaccine also contains small amounts of practical ingredients: stabilizers that protect its potency, adjuvants such as aluminum salts that strengthen the immune response, and preservatives in vials that hold more than one dose.' },
+        { type: 'h2', text: 'Herd immunity' },
+        { type: 'p', text: 'The protection does not stop with the person vaccinated. When enough of a population is immune, whether through vaccination or through surviving the disease, a microbe struggles to find new hosts, and its spread slows and can stop altogether. This indirect shield is called herd immunity, and it guards exactly the people vaccination cannot reach: newborns, people in treatment that suppresses the immune system, and the minority in whom a vaccine does not take. That minority is real. Depending on the vaccine and the person, an estimated 2 to 10 percent of recipients do not respond fully. Herd immunity is the community level answer to that gap.' },
+        { type: 'callout', text: 'The word vaccine comes from Jenner\'s variolae vaccinae, his term for cowpox. In 1881 Louis Pasteur proposed that the words vaccine and vaccination be extended to every protective inoculation, in Jenner\'s honor.' },
+        { type: 'h2', text: 'The record so far' },
+        { type: 'p', text: 'The first entry in the record is smallpox itself, the disease Jenner worked on: vaccination campaigns eventually eradicated it, the first human disease wiped out worldwide. The World Health Organization describes the present scale of the tool. Immunization currently prevents 3.5 million to 5 million deaths every year, and vaccines now exist to prevent more than 30 life-threatening diseases. Jenner promised that a mild encounter could stand between a person and a deadly one. The pamphlet of 1798 has become a routine appointment in clinics on every continent, and the memory it leaves in the immune system remains one of the most reliable protections medicine has.' },
+      ],
+
+      keyTerms: ['vaccine', 'immunity', 'antigen', 'antibody', 'herd immunity', 'attenuated vaccine', 'inactivated vaccine', 'adjuvant'],
+      resources: {
+        videos: [
+          {
+            id: 'rb7TVW77ZCs',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=rb7TVW77ZCs',
+            title: 'How do vaccines work?',
+            channel: 'TED-Ed',
+            duration: 'variable',
+            why: 'Kelwalin Dhanasarnsombut explains, in one short animation, how a vaccine trains the immune system before the real microbe arrives.',
+          },
+          {
+            id: '34UWTlxK6Ks',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=34UWTlxK6Ks',
+            title: 'How Vaccines Work, Herd Immunity, Types of Vaccines, Animation',
+            channel: 'Alila Medical Media',
+            duration: 'variable',
+            why: 'An animated tour of the main vaccine types and of the herd immunity that protects people who cannot be vaccinated.',
+          },
+          {
+            id: 'uVUf_pt7Sh0',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=uVUf_pt7Sh0',
+            title: 'Antibiotics, Antivirals, and Vaccines',
+            channel: 'Amoeba Sisters',
+            duration: 'variable',
+            why: 'Places vaccines beside antibiotics and antivirals and shows what each tool can and cannot do.',
+          },
+        ],
+        books: [
+          {
+            title: 'Vaccinated: One Man\'s Quest to Defeat the World\'s Deadliest Diseases',
+            author: 'Paul A. Offit',
+            year: 2007,
+            url: '',
+            why: 'A biography of Maurice Hilleman, the scientist behind more vaccines than any other, and a clear history of how they are made.',
+          },
+          {
+            title: 'On Immunity: An Inoculation',
+            author: 'Eula Biss',
+            year: 2014,
+            url: '',
+            why: 'A short, searching essay on vaccination, fear, and the shared body of a community.',
+          },
+          {
+            title: 'Vaccines: What Everyone Needs to Know',
+            author: 'Kristen A. Feemster',
+            year: 2017,
+            url: '',
+            why: 'A pediatrician answers the standard questions about how vaccines work and how they are tested, in plain language.',
+          },
+        ],
+        articles: [
+          {
+            title: 'Vaccine Basics',
+            source: 'CDC',
+            url: 'https://www.cdc.gov/vaccines/basics/',
+            why: 'The CDC account of how vaccines imitate an infection and what each of their ingredients does.',
+            year: null,
+          },
+          {
+            title: 'Vaccines and Immunization',
+            source: 'World Health Organization',
+            url: 'https://www.who.int/health-topics/vaccines-and-immunization',
+            why: 'The WHO topic page: what vaccines are, what they prevent, and the global numbers behind immunization.',
+            year: null,
+          },
+          {
+            title: 'Vaccine',
+            source: 'Wikipedia',
+            url: 'https://en.wikipedia.org/wiki/Vaccine',
+            why: 'A broad, well cited survey of vaccine types, history, and development.',
+            year: null,
+          },
+        ],
+        courses: [
+          {
+            title: 'How Vaccines Work',
+            provider: 'Imperial College London (Coursera)',
+            url: 'https://www.coursera.org/learn/how-vaccines-work',
+            free: true,
+            why: 'A short Imperial College course on immune responses to vaccines and how the different vaccine types are built.',
+          },
+        ],
+      },
+
+      seeAlso: ['physiology', 'pharmacology', 'public_health'],
+      prereqs: ['physiology'],
+      leadsTo: ['public_health'],
+
+      chapterActivity: 'A visit to a local pharmacy during flu season: read a vaccine information sheet end to end and note every ingredient and its job.',
+
+      sources: [
+        'https://en.wikipedia.org/wiki/Vaccine',
+        'https://www.who.int/health-topics/vaccines-and-immunization',
+        'https://www.cdc.gov/vaccines/basics/',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    // --- ANTIBIOTICS ---
+    antibiotics: {
+      id: 'antibiotics',
+      name: 'Antibiotics & Resistance',
+      level: 'Intermediate',
+      dek: 'How mold juice became medicine, and how bacteria are learning to defeat it gene by gene.',
+      readTime: '6 min',
+
+      sections: ['From mold to medicine', 'How antibiotics work', 'How resistance spreads', 'The stakes'],
+      body: [
+        { type: 'lead', text: 'In 1928 Alexander Fleming discovered modern day penicillin from the mold Penicillium, and medicine quietly changed direction. Substances that kill bacteria, or stop them growing, had existed in nature for ages, made by microbes warring with each other. Fleming\'s discovery turned one of them into a tool. Within a generation, infections that had routinely killed became routinely survivable, and the antibiotic era had begun.' },
+        { type: 'h2', text: 'From mold to medicine' },
+        { type: 'p', text: 'Fleming\'s penicillin was a discovery before it was a drug. The first sulfonamide, Prontosil, was developed by the team of Gerhard Domagk in 1932 or 1933, and the decades after brought a pipeline of new classes, each aimed at a different part of the bacterial machinery. Antibiotics became the quiet infrastructure of modern medicine: surgery, cancer chemotherapy, and organ transplantation all lean on the assumption that bacterial infection can be controlled.' },
+        { type: 'h2', text: 'How antibiotics work' },
+        { type: 'p', text: 'Antibiotics are medicines that kill bacteria or inhibit their growth. Different classes attack different targets. Some break the construction of the bacterial cell wall, others jam the machinery that builds proteins, and others interfere with the copying of DNA or with essential chemistry such as folate synthesis. Because those targets belong to bacteria, antibiotics are not effective against viruses, which have none of these structures. A cold or the flu will not answer to an antibiotic, no matter how miserable it feels.' },
+        { type: 'h2', text: 'How resistance spreads' },
+        { type: 'p', text: 'Resistance is evolution at high speed. Within a bacterial population, a few cells may carry a trait that lets them survive an antibiotic, through a spontaneous mutation or through a gene picked up from another bacterium. Horizontal gene transfer passes such genes between bacteria, sometimes across species. When antibiotics are used, in medicine or in agriculture, they create selective pressure: susceptible bacteria die, resistant ones multiply. Microbes that resist several drugs at once are called multidrug resistant, and in the headlines, superbugs.' },
+        { type: 'callout', text: 'Resistance is not the patient becoming immune to the drug. It is the bacteria becoming immune to the drug, and passing that immunity to their descendants and their neighbors.' },
+        { type: 'h2', text: 'The stakes' },
+        { type: 'p', text: 'The accounting has begun. Bacterial antimicrobial resistance was directly responsible for 1.27 million deaths in 2019, and it was associated with nearly 5 million deaths in the same year. The mold Fleming found in 1928 opened an era. Whether the era continues depends on how carefully its medicines are used, and on whether science keeps finding new ones before the old ones fail.' },
+      ],
+
+      keyTerms: ['antibiotic', 'penicillin', 'antimicrobial resistance', 'horizontal gene transfer', 'selective pressure', 'superbug', 'bactericidal', 'bacteriostatic'],
+      resources: {
+        videos: [
+          {
+            id: 'znnp-Ivj2ek',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=znnp-Ivj2ek',
+            title: 'What causes antibiotic resistance?',
+            channel: 'TED-Ed',
+            duration: 'variable',
+            why: 'Kevin Wu explains how use and overuse turn ordinary bacteria into resistant strains.',
+          },
+          {
+            id: 'uVUf_pt7Sh0',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=uVUf_pt7Sh0',
+            title: 'Antibiotics, Antivirals, and Vaccines',
+            channel: 'Amoeba Sisters',
+            duration: 'variable',
+            why: 'Sorts out which tool works on bacteria, which on viruses, and why the distinction matters.',
+          },
+          {
+            id: 'FE0nEupH7dY',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=FE0nEupH7dY',
+            title: 'How Do Antibiotics Work? How They\'re Made and How They Were Discovered',
+            channel: 'YouTube',
+            duration: 'variable',
+            why: 'A documentary history from Fleming\'s penicillin to industrial fermentation, ending with the rise of resistance.',
+          },
+        ],
+        books: [
+          {
+            title: 'Superbug: The Fatal Menace of MRSA',
+            author: 'Maryn McKenna',
+            year: 2010,
+            url: '',
+            why: 'The story of one resistant bacterium and the hospitals, farms, and communities it moved through.',
+          },
+          {
+            title: 'Missing Microbes: How the Overuse of Antibiotics Is Fueling Our Modern Plagues',
+            author: 'Martin J. Blaser',
+            year: 2014,
+            url: '',
+            why: 'A microbiologist argues that antibiotics reshape the human microbiome, with costs beyond resistance.',
+          },
+          {
+            title: 'I Contain Multitudes: The Microbes Within Us and a Grander View of Life',
+            author: 'Ed Yong',
+            year: 2016,
+            url: '',
+            why: 'The bacterial world antibiotics act on, described with wonder: symbiosis, warfare, and constant gene trading.',
+          },
+        ],
+        articles: [
+          {
+            title: 'Antibiotic',
+            source: 'Wikipedia',
+            url: 'https://en.wikipedia.org/wiki/Antibiotic',
+            why: 'History, mechanisms, and classes of antibiotics, from Fleming and Prontosil onward.',
+            year: null,
+          },
+          {
+            title: 'Antimicrobial resistance',
+            source: 'Wikipedia',
+            url: 'https://en.wikipedia.org/wiki/Antimicrobial_resistance',
+            why: 'How resistance arises and spreads, and the global mortality estimates behind the headlines.',
+            year: null,
+          },
+        ],
+        courses: [
+          {
+            title: 'Antimicrobial Resistance (Part 1)',
+            provider: 'Global Health Learning Center',
+            url: 'https://www.globalhealthlearning.org/course/antimicrobialresistancepart-1-0',
+            free: true,
+            why: 'A free introductory course on what drives resistance and how health programs respond to it.',
+          },
+        ],
+      },
+
+      seeAlso: ['pharmacology', 'physiology', 'public_health'],
+      prereqs: ['pharmacology'],
+      leadsTo: ['public_health'],
+
+      chapterActivity: 'A slow read of a hospital\'s published antibiogram, the chart showing which local bacteria still answer to which drugs.',
+
+      sources: [
+        'https://en.wikipedia.org/wiki/Antibiotic',
+        'https://en.wikipedia.org/wiki/Antimicrobial_resistance',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    // --- EPIDEMICS ---
+    epidemics: {
+      id: 'epidemics',
+      name: 'Epidemics & Pandemics',
+      level: 'Intermediate',
+      dek: 'When disease outruns its neighborhood: the mathematics, history, and human habits behind epidemics and pandemics.',
+      readTime: '6 min',
+
+      sections: ['Outbreak, epidemic, pandemic', 'How epidemics travel', 'A founding scene: London cholera', 'How epidemics end'],
+      body: [
+        { type: 'lead', text: 'In the middle of the 14th century, the Black Death swept across Europe and killed up to half of its population. No one alive then had a word for an event at that scale. We do now, several words in fact, and the words matter, because each one describes a different size of fire, and a different response.' },
+        { type: 'h2', text: 'Outbreak, epidemic, pandemic' },
+        { type: 'p', text: 'The vocabulary is a ladder of scale. An epidemic, in the definition used by the Centers for Disease Control and Prevention, is an increase, often sudden, in the number of cases of a disease above what is normally expected in that population in that area. Grow the map and the epidemic becomes a pandemic: an epidemic that has spread across a large region, sometimes worldwide, affecting a substantial portion of the population. The rungs are practical, not poetic. For meningococcal disease, specialists treat an attack rate above 15 cases per 100,000 people for two consecutive weeks as an epidemic signal.' },
+        { type: 'h2', text: 'How epidemics travel' },
+        { type: 'p', text: 'A disease can only become an epidemic if it can move. The main roads are well mapped: through the air, through water and food by the fecal oral route, through insect and animal vectors, and through sexual contact. Each road shapes the response. A waterborne disease yields to clean water and sanitation. An airborne one yields, slowly, to distance, ventilation, and immunity. Epidemics also ride human networks: trade routes carried plague across continents, and a single infected traveler can now board a plane and carry a virus across an ocean.' },
+        { type: 'h2', text: 'A founding scene: London cholera' },
+        { type: 'p', text: 'In 1854 a cholera outbreak struck the Broad Street neighborhood of London. The physician John Snow mapped the cases and traced them to a contaminated water supply, and removing that supply helped mitigate the outbreak. The episode is now regarded as the founding event of epidemiology, the study of how diseases spread through populations and how that spread can be interrupted. Snow had no microscope evidence and no germ theory to lean on. He had a map, a count, and a pattern that pointed at water.' },
+        { type: 'callout', text: 'An epidemic is not defined by how deadly a disease is, but by how far its numbers rise above what is normally expected in that place.' },
+        { type: 'h2', text: 'How epidemics end' },
+        { type: 'p', text: 'Epidemics end when a disease runs out of reachable hosts: when enough people are immune, when behavior cuts its roads, or when the conditions that fed it are removed. The 1918 influenza pandemic, an H1N1 outbreak described as the deadliest pandemic in history, burned through a world with no vaccine against it. In May 2025 the World Health Assembly adopted a Pandemic Agreement, an attempt to write the lessons of past pandemics into shared rules before the next one. The Black Death killed up to half of Europe in a world where nothing stood ready. The long work of epidemiology, from Snow\'s map to that agreement, is the work of making sure something does.' },
+      ],
+
+      keyTerms: ['epidemic', 'pandemic', 'outbreak', 'epidemiology', 'attack rate', 'transmission', 'vector', 'endemic'],
+      resources: {
+        videos: [
+          {
+            id: 'UG8YbNbdaco',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=UG8YbNbdaco',
+            title: 'How pandemics spread',
+            channel: 'TED-Ed',
+            duration: 'variable',
+            why: 'Mark Honigsbaum traces how pandemics have moved through history and what has stopped them.',
+          },
+          {
+            id: 'rjT3arJJ9Kc',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=rjT3arJJ9Kc',
+            title: 'The Complete Story Of The Deadliest Pandemic In History',
+            channel: 'The World History Channel',
+            duration: 'variable',
+            why: 'A documentary account of the 1918 influenza pandemic, drawn from the BBC programme The Flu That Killed 50 Million.',
+          },
+          {
+            id: 'EeBdKTlIEvQ',
+            source: 'youtube',
+            url: 'https://www.youtube.com/watch?v=EeBdKTlIEvQ',
+            title: 'The Pandemic Worse Than COVID-19 That Killed 50 Million',
+            channel: 'YouTube',
+            duration: 'variable',
+            why: 'The 1918 pandemic in the United States, including the very different fates of Philadelphia and St. Louis.',
+          },
+        ],
+        books: [
+          {
+            title: 'The Great Influenza',
+            author: 'John M. Barry',
+            year: 2004,
+            url: '',
+            why: 'The standard narrative history of the 1918 pandemic and of the medical science it forced into being.',
+          },
+          {
+            title: 'Pale Rider: The Spanish Flu of 1918 and How It Changed the World',
+            author: 'Laura Spinney',
+            year: 2017,
+            url: '',
+            why: 'A global telling of 1918, strong on the pandemic\'s long shadow over politics, art, and public health.',
+          },
+          {
+            title: 'Pandemics: A Very Short Introduction',
+            author: 'Christian W. McMillen',
+            year: 2016,
+            url: '',
+            why: 'Oxford\'s pocket survey of pandemics from plague to HIV, compact enough to read in a weekend.',
+          },
+        ],
+        articles: [
+          {
+            title: 'Pandemic',
+            source: 'Wikipedia',
+            url: 'https://en.wikipedia.org/wiki/Pandemic',
+            why: 'Definitions, the major pandemics of history, and current preparedness, including the 2025 Pandemic Agreement.',
+            year: null,
+          },
+          {
+            title: 'Epidemic',
+            source: 'Wikipedia',
+            url: 'https://en.wikipedia.org/wiki/Epidemic',
+            why: 'The CDC definition, attack rates, transmission routes, and the Broad Street cholera outbreak.',
+            year: null,
+          },
+        ],
+        courses: [
+          {
+            title: 'Outbreaks and Epidemics',
+            provider: 'Johns Hopkins University (Coursera)',
+            url: 'https://www.coursera.org/learn/outbreaks-epidemics',
+            free: true,
+            why: 'A beginner level Johns Hopkins course on how outbreaks are detected, investigated, and answered.',
+          },
+        ],
+      },
+
+      seeAlso: ['public_health', 'physiology', 'pharmacology'],
+      prereqs: ['public_health'],
+      leadsTo: [],
+
+      chapterActivity: 'A walk to a 1918 influenza memorial, a pandemic era plaque, or a closed cholera era cemetery in your own city, its dates read aloud with the group.',
+
+      sources: [
+        'https://en.wikipedia.org/wiki/Pandemic',
+        'https://en.wikipedia.org/wiki/Epidemic',
+        'https://www.youtube.com/watch?v=UG8YbNbdaco',
+      ],
+      verifiedAt: '2026-10-15',
     },
 
   },
