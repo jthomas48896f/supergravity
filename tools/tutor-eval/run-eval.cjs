@@ -1,0 +1,231 @@
+#!/usr/bin/env node
+// Tutor eval harness for Supergravity.
+//
+// What this measures: whether answers produced over the atlas content are
+// grounded (they contain the facts the atlas itself states) and cited (they
+// name their source file). It is a regression gate, not a one-off report:
+// `npm run eval:tutor` exits non-zero when the baseline drops below the
+// thresholds in THRESHOLDS, so CI can fail a change that quietly breaks
+// grounding.
+//
+// Modes:
+//   baseline  An extractive answerer that answers only from retrieved atlas
+//             passages. Runs anywhere, no API key. This is the floor the
+//             real tutor must beat, and the mode CI runs.
+//   llm       Sends the same retrieved passages to an OpenAI compatible
+//             chat endpoint (the same shape api/chat.js proxies to) with a
+//             system prompt that requires grounded, cited answers. Needs
+//             OPENAI_API_KEY or TUTOR_EVAL_API_KEY. Without a key it is
+//             recorded as skipped, never faked.
+//
+// Every expected fact is self-checked against the atlas source file it was
+// drawn from before scoring. A fact that is not in the atlas fails the run:
+// the eval refuses to grade against invented ground truth.
+
+'use strict';
+
+const fs = require('fs');
+const path = require('path');
+
+const ROOT = path.resolve(__dirname, '..', '..');
+const CONTENT_DIR = path.join(ROOT, 'content');
+const QUESTIONS = JSON.parse(fs.readFileSync(path.join(__dirname, 'questions.json'), 'utf8'));
+const OUT_DIR = path.join(__dirname, 'results');
+
+const THRESHOLDS = { groundedness: 0.75, citationRate: 1.0, correctSourceRate: 0.75 };
+
+const STOPWORDS = new Set(('a an the and or of to in on for with is are was were be been being what which who how why when where does do did can could should would from into at by as it its this that these those you your we our they their he she his her them then than so such no not only also just').split(' '));
+
+function keywords(text) {
+  return [...new Set(text.toLowerCase().replace(/[^a-z0-9\s]/g, ' ').split(/\s+/).filter(w => w.length > 2 && !STOPWORDS.has(w)))];
+}
+
+function loadCorpus() {
+  const files = fs.readdirSync(CONTENT_DIR).filter(f => f.endsWith('.js') && !f.startsWith('_'));
+  const byFile = new Map();
+  const chunks = [];
+  for (const file of files) {
+    const raw = fs.readFileSync(path.join(CONTENT_DIR, file), 'utf8');
+    byFile.set(file, raw.toLowerCase());
+    // Extract lesson prose: the long string literals inside the content
+    // modules. Retrieving over raw JS source buries the prose in syntax.
+    const literals = raw.match(/'(?:[^'\\]|\\.){80,}'|"(?:[^"\\]|\\.){80,}"/g) || [];
+    const prose = literals.map(s => s.slice(1, -1).replace(/\\'/g, "'").replace(/\\"/g, '"').replace(/\s+/g, ' ').trim());
+    for (const part of prose) {
+      // Split long prose blocks into paragraph sized chunks.
+      const paras = part.split(/(?<=[.!?])\s+/);
+      let buf = '';
+      for (const p of paras) {
+        if ((buf + ' ' + p).length > 700 && buf) { chunks.push({ file, text: buf }); buf = p; }
+        else buf = buf ? buf + ' ' + p : p;
+      }
+      if (buf.length > 80) chunks.push({ file, text: buf });
+    }
+  }
+  return { byFile, chunks };
+}
+
+function retrieve(chunks, question, k = 4) {
+  const kw = keywords(question);
+  // Stage 1: rank files by distinct keyword coverage, with occurrence
+  // density as a tiebreak. Raw occurrence counts favor the biggest files
+  // in the atlas regardless of subject, which is how a chess question ends
+  // up answered from a computer science file.
+  const perFile = new Map();
+  for (const c of chunks) {
+    if (!perFile.has(c.file)) perFile.set(c.file, { distinct: new Set(), hits: 0, chars: 0 });
+    const rec = perFile.get(c.file);
+    const t = c.text.toLowerCase();
+    rec.chars += c.text.length;
+    for (const w of kw) {
+      const n = t.split(w).length - 1;
+      if (n) { rec.distinct.add(w); rec.hits += n; }
+    }
+  }
+  const topFiles = [...perFile.entries()]
+    .map(([f, r]) => ({ f, score: r.distinct.size * 1000 + (r.hits / Math.max(1, r.chars)) * 1000 }))
+    .sort((a, b) => b.score - a.score).slice(0, 2).map(x => x.f);
+  // Stage 2: rank chunks inside those files by distinct keyword coverage.
+  const scored = chunks.filter(c => topFiles.includes(c.file)).map(c => {
+    const t = c.text.toLowerCase();
+    let score = 0;
+    for (const w of kw) if (t.includes(w)) score += 1;
+    return { ...c, score };
+  }).filter(c => c.score > 0);
+  scored.sort((a, b) => b.score - a.score);
+  return scored.slice(0, k);
+}
+
+function baselineAnswer(hits) {
+  if (!hits.length) return 'The atlas does not cover that yet.';
+  const body = hits.map(h => h.text).join(' ').slice(0, 4000);
+  const sources = [...new Set(hits.map(h => h.file))];
+  return body + '\n\nSources: ' + sources.map(f => `[source: ${f}]`).join(' ');
+}
+
+async function llmAnswer(hits, question) {
+  const key = process.env.TUTOR_EVAL_API_KEY || process.env.OPENAI_API_KEY;
+  const base = process.env.TUTOR_EVAL_BASE_URL || 'https://api.openai.com/v1';
+  const model = process.env.TUTOR_EVAL_MODEL || 'gpt-4o-mini';
+  const context = hits.map(h => `From ${h.file}:\n${h.text}`).join('\n\n');
+  const res = await fetch(`${base}/chat/completions`, {
+    method: 'POST',
+    headers: { Authorization: `Bearer ${key}`, 'content-type': 'application/json' },
+    body: JSON.stringify({
+      model,
+      max_tokens: 400,
+      messages: [
+        { role: 'system', content: 'You are the Supergravity tutor. Answer using only the provided atlas passages. Do not add facts that are not in the passages. End your answer with citations in the form [source: filename.js] for every passage you used.' },
+        { role: 'user', content: `Atlas passages:\n\n${context}\n\nQuestion: ${question}` },
+      ],
+    }),
+  });
+  if (!res.ok) throw new Error(`LLM endpoint ${res.status}: ${(await res.text()).slice(0, 200)}`);
+  const data = await res.json();
+  return data.choices?.[0]?.message?.content ?? '';
+}
+
+function scoreAnswer(answer, q) {
+  const a = answer.toLowerCase();
+  const factsFound = q.facts.filter(f => a.includes(f.toLowerCase()));
+  const citations = [...answer.matchAll(/\[source:\s*([^\]]+)\]/gi)].map(m => m[1].trim());
+  return {
+    factsExpected: q.facts.length,
+    factsFound: factsFound.length,
+    groundedness: factsFound.length / q.facts.length,
+    cited: citations.length > 0,
+    correctSource: citations.includes(`${q.subject}.js`),
+    citations,
+  };
+}
+
+async function main() {
+  const mode = (process.argv.find(a => a.startsWith('--mode=')) || '--mode=baseline').split('=')[1];
+  const { byFile, chunks } = loadCorpus();
+
+  // Self-check: every expected fact must literally appear in its atlas file.
+  for (const q of QUESTIONS) {
+    const src = byFile.get(`${q.subject}.js`);
+    if (!src) throw new Error(`No content file for subject ${q.subject}`);
+    for (const fact of q.facts) {
+      if (!src.includes(fact.toLowerCase())) {
+        throw new Error(`Fact "${fact}" for ${q.id} is not in content/${q.subject}.js. The eval set must be drawn from atlas content.`);
+      }
+    }
+  }
+
+  const hasKey = Boolean(process.env.TUTOR_EVAL_API_KEY || process.env.OPENAI_API_KEY);
+  if (mode === 'llm' && !hasKey) {
+    fs.mkdirSync(OUT_DIR, { recursive: true });
+    fs.writeFileSync(path.join(OUT_DIR, 'llm-results.json'), JSON.stringify({ mode: 'llm', status: 'skipped', reason: 'No API key in environment (OPENAI_API_KEY / TUTOR_EVAL_API_KEY). Not run; no numbers claimed.', date: new Date().toISOString() }, null, 2));
+    console.log('llm mode skipped: no API key in environment. Recorded in results/llm-results.json');
+    return;
+  }
+
+  const rows = [];
+  for (const q of QUESTIONS) {
+    const hits = retrieve(chunks, q.question);
+    const answer = mode === 'llm' ? await llmAnswer(hits, q.question) : baselineAnswer(hits);
+    rows.push({ id: q.id, subject: q.subject, retrievedFrom: [...new Set(hits.map(h => h.file))], ...scoreAnswer(answer, q) });
+  }
+
+  const n = rows.length;
+  const sum = rows.reduce((acc, r) => ({
+    groundedness: acc.groundedness + r.groundedness,
+    citationRate: acc.citationRate + (r.cited ? 1 : 0),
+    correctSourceRate: acc.correctSourceRate + (r.correctSource ? 1 : 0),
+  }), { groundedness: 0, citationRate: 0, correctSourceRate: 0 });
+  const summary = {
+    groundedness: +(sum.groundedness / n).toFixed(3),
+    citationRate: +(sum.citationRate / n).toFixed(3),
+    correctSourceRate: +(sum.correctSourceRate / n).toFixed(3),
+  };
+
+  const results = { mode, date: new Date().toISOString(), questions: n, thresholds: THRESHOLDS, summary, rows };
+  fs.mkdirSync(OUT_DIR, { recursive: true });
+  fs.writeFileSync(path.join(OUT_DIR, `${mode}-results.json`), JSON.stringify(results, null, 2));
+
+  const lines = [
+    `# Tutor eval results (${mode})`,
+    '',
+    `Run: ${results.date}. Questions: ${n}. Mode: ${mode}.`,
+    '',
+    `- Groundedness (expected atlas facts present in the answer): **${summary.groundedness}** (gate: ${THRESHOLDS.groundedness})`,
+    `- Citation rate (answers naming at least one source): **${summary.citationRate}** (gate: ${THRESHOLDS.citationRate})`,
+    `- Correct source rate (cited the subject file the question targets): **${summary.correctSourceRate}** (gate: ${THRESHOLDS.correctSourceRate})`,
+    '',
+    '| Question | Subject | Facts found | Cited | Correct source | Retrieved from |',
+    '|---|---|---|---|---|---|',
+    ...rows.map(r => `| ${r.id} | ${r.subject} | ${r.factsFound}/${r.factsExpected} | ${r.cited ? 'yes' : 'no'} | ${r.correctSource ? 'yes' : 'no'} | ${r.retrievedFrom.join(', ')} |`),
+    '',
+    mode === 'baseline'
+      ? 'Baseline mode is an extractive answerer over retrieved atlas passages. It is the floor: any real tutor configuration should beat it, and a drop here means retrieval or content changed for the worse.'
+      : 'LLM mode answers from the same retrieved passages under a grounded, cite-your-source system prompt, against the same facts and gates.',
+  ];
+  fs.writeFileSync(path.join(OUT_DIR, `${mode}-report.md`), lines.join('\n') + '\n');
+
+  console.log(`${mode}: groundedness ${summary.groundedness}, citation rate ${summary.citationRate}, correct source rate ${summary.correctSourceRate}`);
+  const failed = Object.entries(THRESHOLDS).filter(([k, v]) => summary[k] < v);
+  if (failed.length) {
+    console.error(`GATE FAILED: ${failed.map(([k, v]) => `${k} ${summary[k]} < ${v}`).join('; ')}`);
+    process.exit(1);
+  }
+
+  // Regression comparison against the committed baseline. Absolute gates
+  // catch a bad system; a baseline diff catches a quietly worsening one.
+  const baselinePath = path.join(OUT_DIR, 'baseline.json');
+  if (mode === 'baseline' && fs.existsSync(baselinePath)) {
+    const baseline = JSON.parse(fs.readFileSync(baselinePath, 'utf8'));
+    const drops = Object.keys(THRESHOLDS)
+      .map(k => ({ axis: k, drop: +(baseline.summary[k] - summary[k]).toFixed(3) }))
+      .filter(x => x.drop > 0.05);
+    if (drops.length) {
+      console.error(`REGRESSION vs baseline: ${drops.map(x => `${x.axis} dropped ${x.drop}`).join('; ')}`);
+      process.exit(1);
+    }
+    console.log(`No regression vs committed baseline (${baseline.date}).`);
+  }
+  console.log('Gate passed.');
+}
+
+main().catch(err => { console.error(err.message); process.exit(2); });
