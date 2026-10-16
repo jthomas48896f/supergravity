@@ -1,1 +1,171 @@
-[{"facts":["development","the center","king safety"],"id":"chess-openings","question":"What are the three principles behind good chess openings?","subject":"chess"},{"facts":["3 inches","trap arm","vent"],"id":"plumbing-drain-slope","question":"How much total drop does a 12 foot bathroom drain run need at a quarter inch per foot, and what limits how far a trap arm can run before it must reach a vent?","subject":"plumbing"},{"facts":["distance","radial velocity","extra-galactic"],"id":"astronomy-hubble","question":"What relationship between distance and motion in extra-galactic nebulae did Hubble describe?","subject":"astronomy"},{"facts":["varroa","frames","queen"],"id":"beekeeping-varroa","question":"Which mite is a major threat to a honey bee hive, and what does a beekeeper inspect inside the hive?","subject":"beekeeping"},{"facts":["jibe","sheet"],"id":"sailing-jibe","question":"When a sailboat turns its stern through the wind going downwind, what is the maneuver called and what does the crew handle during it?","subject":"sailing"},{"facts":["bowline","hitch","bend"],"id":"knots-three-kinds","question":"Which knot forms a fixed loop at the end of a rope, what do you call a knot that attaches a rope to a post, and what do you call a knot that joins two ropes?","subject":"knots"},{"facts":["mig","tig","electrode"],"id":"welding-mig-tig","question":"How do MIG and TIG welding differ in what happens to the electrode?","subject":"welding"},{"facts":["ph","compost","soil"],"id":"gardening-soil","question":"Why does soil pH matter to a gardener, and what organic material can be added to enrich the soil?","subject":"gardening"},{"facts":["brisket","smoke","temperature"],"id":"bbq-brisket","question":"Which cut of beef is the classic choice for low and slow barbecue, and what two things must the cook manage through the cook?","subject":"bbq"},{"facts":["shelter","water","fire"],"id":"survival-priorities","question":"In a survival situation, what are the first needs the atlas tells you to secure?","subject":"survival"},{"facts":["newton","relativity","quantum"],"id":"physics-frameworks","question":"How do Newton's mechanics, relativity, and quantum physics each fit into the atlas's account of how the physical world works?","subject":"physics"},{"facts":["plate","mineral","rock"],"id":"geology-basics","question":"What do moving plates, minerals, and rock layers each tell us about the Earth?","subject":"geology"}]
+[
+  {
+    "facts": [
+      "development",
+      "the center",
+      "king safety"
+    ],
+    "id": "chess-openings",
+    "question": "What are the three principles behind good chess openings?",
+    "subject": "chess"
+  },
+  {
+    "facts": [
+      "3 inches",
+      "trap arm",
+      "vent"
+    ],
+    "id": "plumbing-drain-slope",
+    "question": "How much total drop does a 12 foot bathroom drain run need at a quarter inch per foot, and what limits how far a trap arm can run before it must reach a vent?",
+    "subject": "plumbing"
+  },
+  {
+    "facts": [
+      "distance",
+      "radial velocity",
+      "extra-galactic"
+    ],
+    "id": "astronomy-hubble",
+    "question": "What relationship between distance and motion in extra-galactic nebulae did Hubble describe?",
+    "subject": "astronomy"
+  },
+  {
+    "facts": [
+      "varroa",
+      "frames",
+      "queen"
+    ],
+    "id": "beekeeping-varroa",
+    "question": "Which mite is a major threat to a honey bee hive, and what does a beekeeper inspect inside the hive?",
+    "subject": "beekeeping"
+  },
+  {
+    "facts": [
+      "jibe",
+      "sheet"
+    ],
+    "id": "sailing-jibe",
+    "question": "When a sailboat turns its stern through the wind going downwind, what is the maneuver called and what does the crew handle during it?",
+    "subject": "sailing"
+  },
+  {
+    "facts": [
+      "bowline",
+      "hitch",
+      "bend"
+    ],
+    "id": "knots-three-kinds",
+    "question": "Which knot forms a fixed loop at the end of a rope, what do you call a knot that attaches a rope to a post, and what do you call a knot that joins two ropes?",
+    "subject": "knots"
+  },
+  {
+    "facts": [
+      "mig",
+      "tig",
+      "electrode"
+    ],
+    "id": "welding-mig-tig",
+    "question": "How do MIG and TIG welding differ in what happens to the electrode?",
+    "subject": "welding"
+  },
+  {
+    "facts": [
+      "ph",
+      "compost",
+      "soil"
+    ],
+    "id": "gardening-soil",
+    "question": "Why does soil pH matter to a gardener, and what organic material can be added to enrich the soil?",
+    "subject": "gardening"
+  },
+  {
+    "facts": [
+      "brisket",
+      "smoke",
+      "temperature"
+    ],
+    "id": "bbq-brisket",
+    "question": "Which cut of beef is the classic choice for low and slow barbecue, and what two things must the cook manage through the cook?",
+    "subject": "bbq"
+  },
+  {
+    "facts": [
+      "shelter",
+      "water",
+      "fire"
+    ],
+    "id": "survival-priorities",
+    "question": "In a survival situation, what are the first needs the atlas tells you to secure?",
+    "subject": "survival"
+  },
+  {
+    "facts": [
+      "newton",
+      "relativity",
+      "quantum"
+    ],
+    "id": "physics-frameworks",
+    "question": "How do Newton's mechanics, relativity, and quantum physics each fit into the atlas's account of how the physical world works?",
+    "subject": "physics"
+  },
+  {
+    "facts": [
+      "plate",
+      "mineral",
+      "rock"
+    ],
+    "id": "geology-basics",
+    "question": "What do moving plates, minerals, and rock layers each tell us about the Earth?",
+    "subject": "geology"
+  },
+  {
+    "id": "firstaid-cpr",
+    "question": "For an unresponsive adult who is not breathing normally, what does hands-only CPR involve?",
+    "subject": "firstaid",
+    "facts": [
+      "call 911",
+      "center of the chest",
+      "two inches deep"
+    ]
+  },
+  {
+    "id": "finance-budget",
+    "question": "What do the finance lessons say about the first written budgets?",
+    "subject": "finance",
+    "facts": [
+      "clay tablets",
+      "barley in, barley out",
+      "where the money goes"
+    ]
+  },
+  {
+    "id": "nutrition-prout",
+    "question": "Who classified food into three classes of substance in 1827, and what were the classes called?",
+    "subject": "nutrition",
+    "facts": [
+      "william prout",
+      "saccharinous",
+      "albuminous"
+    ]
+  },
+  {
+    "id": "law-contracts",
+    "question": "What is the Code of Hammurabi, and where is it now?",
+    "subject": "law",
+    "facts": [
+      "code of hammurabi",
+      "282 laws",
+      "louvre"
+    ]
+  },
+  {
+    "id": "medicine-harvey",
+    "question": "Who published De Motu Cordis in 1628, and what did it show about blood?",
+    "subject": "medicine",
+    "facts": [
+      "william harvey",
+      "de motu cordis",
+      "blood circulates"
+    ]
+  }
+]

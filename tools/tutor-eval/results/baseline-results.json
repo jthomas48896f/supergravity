@@ -1,16 +1,16 @@
 {
   "mode": "baseline",
-  "date": "2026-10-15T18:10:30.441Z",
-  "questions": 12,
+  "date": "2026-10-16T13:18:47.282Z",
+  "questions": 17,
   "thresholds": {
     "groundedness": 0.75,
     "citationRate": 1,
     "correctSourceRate": 0.75
   },
   "summary": {
-    "groundedness": 0.833,
+    "groundedness": 0.804,
     "citationRate": 1,
-    "correctSourceRate": 0.75
+    "correctSourceRate": 0.765
   },
   "rows": [
     {
@@ -142,7 +142,7 @@
       "subject": "bbq",
       "retrievedFrom": [
         "cooking.js",
-        "sociology.js"
+        "economics.js"
       ],
       "factsExpected": 3,
       "factsFound": 1,
@@ -151,7 +151,7 @@
       "correctSource": false,
       "citations": [
         "cooking.js",
-        "sociology.js"
+        "economics.js"
       ]
     },
     {
@@ -203,6 +203,87 @@
       "citations": [
         "astronomy.js",
         "geology.js"
+      ]
+    },
+    {
+      "id": "firstaid-cpr",
+      "subject": "firstaid",
+      "retrievedFrom": [
+        "firstaid.js"
+      ],
+      "factsExpected": 3,
+      "factsFound": 3,
+      "groundedness": 1,
+      "cited": true,
+      "correctSource": true,
+      "citations": [
+        "firstaid.js"
+      ]
+    },
+    {
+      "id": "finance-budget",
+      "subject": "finance",
+      "retrievedFrom": [
+        "economics.js"
+      ],
+      "factsExpected": 3,
+      "factsFound": 0,
+      "groundedness": 0,
+      "cited": true,
+      "correctSource": false,
+      "citations": [
+        "economics.js"
+      ]
+    },
+    {
+      "id": "nutrition-prout",
+      "subject": "nutrition",
+      "retrievedFrom": [
+        "nutrition.js",
+        "chemistry.js"
+      ],
+      "factsExpected": 3,
+      "factsFound": 3,
+      "groundedness": 1,
+      "cited": true,
+      "correctSource": true,
+      "citations": [
+        "nutrition.js",
+        "chemistry.js"
+      ]
+    },
+    {
+      "id": "law-contracts",
+      "subject": "law",
+      "retrievedFrom": [
+        "history.js",
+        "law.js"
+      ],
+      "factsExpected": 3,
+      "factsFound": 3,
+      "groundedness": 1,
+      "cited": true,
+      "correctSource": true,
+      "citations": [
+        "history.js",
+        "law.js"
+      ]
+    },
+    {
+      "id": "medicine-harvey",
+      "subject": "medicine",
+      "retrievedFrom": [
+        "medicine.js",
+        "biology.js"
+      ],
+      "factsExpected": 3,
+      "factsFound": 2,
+      "groundedness": 0.6666666666666666,
+      "cited": true,
+      "correctSource": true,
+      "citations": [
+        "medicine.js",
+        "biology.js"
       ]
     }
   ]
