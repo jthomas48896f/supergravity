@@ -1621,5 +1621,85 @@ window.CONTENT.physics = {
       ],
       verifiedAt: '2026-10-15',
     },
+
+    speed_of_light: {
+      id: 'speed_of_light',
+      name: 'The Speed of Light: An Exact Number',
+      level: 'Beginner',
+      dek: 'Light in vacuum travels at exactly 299,792,458 meters per second, because the meter is defined by it.',
+      readTime: '4 min',
+
+      sections: ['Measured, then defined', 'Why it cannot be beaten', 'A human scale for it'],
+      body: [
+        { type: 'lead', text: 'The speed of light in vacuum is exactly 299,792,458 meters per second. The word exactly is doing real work: since 1983, the meter itself has been defined as the distance light travels in vacuum in 1/299,792,458 of a second, so the number is fixed by definition, not by measurement. Every later measurement refines our clocks and rulers, never the constant.' },
+        { type: 'h2', text: 'Why it matters' },
+        { type: 'p', text: 'This speed, called c, is the universe\'s speed limit for information and matter, and it sits inside the most famous equation in physics, E = mc squared, linking mass and energy. It is also why astronomy is time travel in one direction: light from the Sun left about 8 minutes ago, from the nearest stars years ago, from distant galaxies billions of years ago. Telescopes see the past because the messenger travels at finite speed.' },
+        { type: 'p', text: 'Light slows in material: in water to about three quarters of c, in glass to about two thirds. The vacuum figure is the constant of nature; the slower figures are properties of the stuff it passes through.' },
+        { type: 'h2', text: 'A human scale for it' },
+        { type: 'p', text: 'At 299,792,458 meters per second, light circles the Earth about seven and a half times in one second. A signal to the Moon and back takes about 2.6 seconds, which laser ranging uses to measure the Earth and Moon drifting apart. Nothing you will ever ride comes meaningfully close, and that is the point of learning the number: it marks the edge of fast.' },
+        { type: 'callout', text: 'The figure carries NIST\'s authority: the CODATA value of c is exact, 299,792,458 meters per second, the anchor of the modern system of units.' },
+      ],
+
+      keyTerms: ['speed of light', 'vacuum', 'meter definition', 'constant', 'relativity', 'CODATA'],
+
+      resources: {
+        articles: [
+          {
+            title: 'Speed of light in vacuum',
+            source: 'Wikipedia (citing NIST CODATA)',
+            url: 'https://en.wikipedia.org/wiki/Speed_of_light_in_vacuum',
+            why: 'The reference article on c: the exact value 299,792,458 meters per second, its definitional status since 1983, and the NIST CODATA basis.',
+            year: null,
+          },
+        ],
+      },
+
+      seeAlso: ['speed_of_sound', 'moon_recession', 'marie_curie'],
+
+      sources: [
+        'https://en.wikipedia.org/wiki/Speed_of_light_in_vacuum',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    speed_of_sound: {
+      id: 'speed_of_sound',
+      name: 'The Speed of Sound: It Depends on the Air',
+      level: 'Beginner',
+      dek: 'Sound moves at about 343 meters per second in dry air at twenty degrees, faster when warmer.',
+      readTime: '4 min',
+
+      sections: ['A speed with conditions', 'Temperature is the lever', 'Faster in water and steel'],
+      body: [
+        { type: 'lead', text: 'Unlike light, sound has no single speed. Sound is a vibration traveling through a material, so its speed belongs to the material and its state. The standard reference figure: in dry air at 20 degrees Celsius, sound travels at about 343 meters per second, roughly 1,235 kilometers per hour.' },
+        { type: 'h2', text: 'Temperature is the lever' },
+        { type: 'p', text: 'Warm air carries sound faster because its molecules move faster and hand the vibration along sooner. At 0 degrees Celsius the speed falls to about 331 meters per second, and it rises by roughly 0.6 meters per second for each degree of warming. Air pressure, by contrast, barely matters at a given temperature, a common surprise: it is the thermometer, not the barometer, that sets the speed of sound outdoors.' },
+        { type: 'p', text: 'This is why thunder counting works as a rough rangefinder. Light arrives instantly for human purposes, sound takes about 3 seconds per kilometer: count the gap between flash and thunder, divide by three, and you have the storm\'s distance in kilometers.' },
+        { type: 'h2', text: 'Faster in water and steel' },
+        { type: 'p', text: 'Denser, stiffer materials pass vibrations faster. Sound moves at about 1,480 meters per second in water, over four times its speed in air, which is why whales and sonar work at ocean distances. In steel it reaches roughly 5,900 meters per second. The old trick of putting an ear to a rail to hear a distant train is this table, learned by hand.' },
+        { type: 'callout', text: 'One figure, with its conditions stated, in the standard form: dry air, 20 degrees Celsius, 343 meters per second. Change the temperature and the figure changes with it.' },
+      ],
+
+      keyTerms: ['speed of sound', 'medium', 'temperature', 'Mach', 'vibration', 'acoustics'],
+
+      resources: {
+        articles: [
+          {
+            title: 'Speed of Sound in Air: Calculator and Tables',
+            source: 'SengpielAudio',
+            url: 'http://sengpielaudio.com/calculator-speedsound.htm',
+            why: 'The standard acoustics reference: 343 meters per second in dry air at 20 degrees Celsius, and the demonstration that temperature, not pressure, is the controlling variable.',
+            year: null,
+          },
+        ],
+      },
+
+      seeAlso: ['speed_of_light', 'atmosphere_water', 'the_world_ocean'],
+
+      sources: [
+        'http://sengpielaudio.com/calculator-speedsound.htm',
+      ],
+      verifiedAt: '2026-10-15',
+    },
   },
 };

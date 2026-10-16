@@ -369,5 +369,173 @@ window.CONTENT.firstaid = {
       verifiedAt: '2026-04-23',
     },
 
+
+    cpr_basics: {
+      id: 'cpr_basics',
+      name: 'CPR Basics: The First Minutes',
+      level: 'Beginner',
+      dek: 'Immediate CPR can double or triple survival after cardiac arrest, with compressions at 100 to 120 a minute.',
+      readTime: '4 min',
+
+      sections: ['Why minutes decide', 'Hands-only CPR', 'The pace and the depth'],
+      body: [
+        { type: 'lead', text: 'When a heart stops, survival is decided in minutes, usually before an ambulance can arrive. The American Heart Association\'s figures are stark: about 9 out of 10 people who suffer an out of hospital cardiac arrest die, but immediate CPR can double or triple a person\'s chance of survival. Every minute of delay reduces the odds by roughly 10 percent.' },
+        { type: 'h2', text: 'Hands-only CPR' },
+        { type: 'p', text: 'For an adult who suddenly collapses, the AHA teaches two steps for bystanders: call 911, then push hard and fast in the center of the chest. No training in rescue breaths is required for this hands only version, and doing something is far better than doing nothing. If an automated external defibrillator, an AED, is available, use it: it talks the user through each step aloud.' },
+        { type: 'p', text: 'Push with the heel of one hand in the center of the chest, the other hand on top, arms straight, using your body weight. Let the chest come fully back up between pushes. Trade off with another person every couple of minutes if one is there, because depth fades as arms tire.' },
+        { type: 'h2', text: 'The pace and the depth' },
+        { type: 'p', text: 'The target pace is 100 to 120 compressions per minute, the beat of the song "Stayin\' Alive," which the AHA itself uses as the memory aid. Compressions should be at least 2 inches deep on an adult. A short certified course, often a few hours, covers CPR for children and infants, rescue breaths, and AED practice, and it is the right way to make this page unnecessary to remember under stress.' },
+        { type: 'callout', text: 'General information only, from the American Heart Association: call 911, push hard and fast at 100 to 120 per minute, use an AED if one is near. Training turns this into a skill.' },
+      ],
+
+      keyTerms: ['cardiac arrest', 'CPR', 'compression rate', 'AED', 'hands-only CPR', 'bystander'],
+
+      resources: {
+        articles: [
+          {
+            title: '11 things to know to save a life with CPR',
+            source: 'American Heart Association News',
+            url: 'https://www.heart.org/en/news/2023/02/01/11-things-to-know-to-save-a-life-with-cpr',
+            why: 'The AHA\'s own explainer: 9 of 10 out of hospital victims die, immediate CPR can double or triple survival, compressions at 100 to 120 per minute, about 10 percent lost per minute of delay.',
+            year: 2023,
+          },
+        ],
+      },
+
+      seeAlso: ['stroke_fast', 'choking_first_aid', 'hand_hygiene'],
+
+      sources: [
+        'https://www.heart.org/en/news/2023/02/01/11-things-to-know-to-save-a-life-with-cpr',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    hand_hygiene: {
+      id: 'hand_hygiene',
+      name: 'Handwashing: The Cheapest Medicine',
+      level: 'Beginner',
+      dek: 'Handwashing education cuts diarrhea by up to forty percent and respiratory illness by about a fifth, says CDC.',
+      readTime: '4 min',
+
+      sections: ['The measured effect', 'When and how', 'The global gap'],
+      body: [
+        { type: 'lead', text: 'Handwashing with soap is among the most measured interventions in public health. The Centers for Disease Control and Prevention reports that handwashing education reduces diarrheal illness by 23 to 40 percent, respiratory illnesses like colds by 16 to 21 percent, and absenteeism from gastrointestinal illness among schoolchildren by 29 to 57 percent.' },
+        { type: 'h2', text: 'When and how' },
+        { type: 'p', text: 'The moments that matter are the transfer points: after using the toilet, before preparing or eating food, after coughing, sneezing, or caring for someone sick, and after handling animals or garbage. The method is friction plus time: wet, lather, scrub all surfaces including backs of hands and under nails for 20 seconds, rinse, and dry. Sanitizer with at least 60 percent alcohol is the backup when soap and water are not available, and it does not replace washing when hands are visibly dirty.' },
+        { type: 'p', text: 'The stakes concentrate in young children. The CDC notes that diarrhea and pneumonia together kill about 1.8 million children under five worldwide each year, and handwashing interrupts the route both diseases travel, from surfaces and hands to mouths.' },
+        { type: 'h2', text: 'The global gap' },
+        { type: 'p', text: 'The CDC\'s estimate for the world is humbling: only about 19 percent of people wash their hands after using the toilet. The barrier is rarely knowledge. It is water, soap, and facilities, which is why hand hygiene sits inside water and sanitation policy and not only inside health advice.' },
+        { type: 'callout', text: 'Florence Nightingale\'s lesson, kept: the cheapest interventions, done consistently, move the largest numbers. The CDC rates handwashing education among the most effective public health measures known.' },
+      ],
+
+      keyTerms: ['hand hygiene', 'soap', 'diarrheal disease', 'respiratory illness', 'CDC', 'sanitation'],
+
+      resources: {
+        articles: [
+          {
+            title: 'Handwashing Facts and Stats',
+            source: 'Centers for Disease Control and Prevention',
+            url: 'https://www.cdc.gov/clean-hands/data-research/facts-stats/',
+            why: 'The CDC\'s data page: diarrhea reduced 23 to 40 percent, respiratory illness 16 to 21 percent, school absenteeism 29 to 57 percent, and the global estimate of 19 percent washing after toilet use.',
+            year: null,
+          },
+        ],
+      },
+
+      seeAlso: ['germ_theory', 'nightingale', 'how_vaccines_work'],
+
+      sources: [
+        'https://www.cdc.gov/clean-hands/data-research/facts-stats/',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    stroke_fast: {
+      id: 'stroke_fast',
+      name: 'Recognizing a Stroke: B.E. F.A.S.T.',
+      level: 'Beginner',
+      dek: 'Balance, eyes, face, arms, speech, time: the CDC checklist that gets stroke treatment started fast enough.',
+      readTime: '4 min',
+
+      sections: ['The six letters', 'Why time is the treatment', 'What to do, in order'],
+      body: [
+        { type: 'lead', text: 'A stroke cuts blood flow to part of the brain, and brain cells begin dying within minutes. The CDC teaches the public to spot one with six letters: B.E. F.A.S.T. Balance lost suddenly. Eyes, vision blurred or lost. Face drooping on one side. Arm weakness, one arm drifting down. Speech slurred or strange. Time, to call 911 at the first sign.' },
+        { type: 'h2', text: 'Why time is the treatment' },
+        { type: 'p', text: 'The most effective stroke treatments, clot busting medicine and clot removal procedures, work only in a short window, and the CDC\'s guidance is that patients who arrive at the emergency room within 3 hours of their first symptoms often have less disability than those who delay. The clock starts at the first symptom, not at the hospital door, which is why noting the time symptoms began is part of the checklist bystanders are asked to perform.' },
+        { type: 'p', text: 'Do not drive the person yourself, and do not let them drive: an ambulance crew begins assessment and treatment on the way and takes the patient to a hospital equipped for stroke care. Do not give food, drink, or aspirin while waiting, because swallowing may be impaired and the stroke type is not yet known.' },
+        { type: 'h2', text: 'What to do, in order' },
+        { type: 'p', text: 'Run the letters. If any one is positive, call 911 and say you suspect a stroke. Write down or remember the time the symptoms started. Keep the person safe and still, and unlock the door for the crew if you can. That is the whole job, and it is worth practicing before it is needed: the CDC designed B.E. F.A.S.T. so a frightened bystander can still do it in order.' },
+        { type: 'callout', text: 'General information from the CDC, not medical advice: any single B.E. F.A.S.T. sign is enough to call 911. Treatment within 3 hours of first symptoms gives the best chance of less disability.' },
+      ],
+
+      keyTerms: ['stroke', 'B.E. F.A.S.T.', 'symptoms', '911', 'clot', 'time window'],
+
+      resources: {
+        articles: [
+          {
+            title: 'Stroke Signs and Symptoms',
+            source: 'Centers for Disease Control and Prevention',
+            url: 'https://www.cdc.gov/stroke/signs-symptoms/',
+            why: 'The CDC\'s page teaching B.E. F.A.S.T., the 3 hour treatment window, and the instructions: call 911, note the time symptoms began, do not drive.',
+            year: null,
+          },
+        ],
+      },
+
+      seeAlso: ['cpr_basics', 'choking_first_aid', 'sleep_needs'],
+
+      sources: [
+        'https://www.cdc.gov/stroke/signs-symptoms/',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    choking_first_aid: {
+      id: 'choking_first_aid',
+      name: 'Helping a Choking Adult',
+      level: 'Beginner',
+      dek: 'The Red Cross sequence: five back blows, five abdominal thrusts, repeat until the airway clears.',
+      readTime: '4 min',
+
+      sections: ['First, ask', 'Back blows, then thrusts', 'If the person goes down'],
+      body: [
+        { type: 'lead', text: 'Choking is an airway blocked by an object, most often food. The Canadian Red Cross sequence for a conscious adult who cannot speak, cough, or breathe is cycles of 5 firm back blows between the shoulder blades, then 5 abdominal thrusts, repeated until the object comes out or the person becomes unconscious.' },
+        { type: 'h2', text: 'First, ask' },
+        { type: 'p', text: 'Ask: are you choking? If the person can speak or cough forcefully, the airway is partly open and coughing is the best tool: encourage it and stay with them. The back blow and thrust sequence is for the person who cannot speak, cough effectively, or breathe, or whose cough is silent. That person needs hands on help immediately, and someone should call 911 or send a specific person to call.' },
+        { type: 'p', text: 'For back blows, support the person leaning forward and strike firmly between the shoulder blades with the heel of your hand, checking after each blow whether the object has cleared. For abdominal thrusts, stand behind, make a fist just above the navel, grasp it with the other hand, and pull sharply inward and upward.' },
+        { type: 'h2', text: 'If the person goes down' },
+        { type: 'p', text: 'If the person becomes unconscious, lower them to the ground, make sure emergency services are called, and begin CPR, checking the mouth for the object before giving breaths. Do not do blind finger sweeps, which can push an object deeper. Children and infants use different techniques, with no abdominal thrusts for infants, which is one more reason a certified course is the real teacher and this page is only its reminder.' },
+        { type: 'callout', text: 'General information from Red Cross guidance: 5 back blows, then 5 abdominal thrusts, in cycles, for a conscious adult who cannot speak, cough, or breathe. Call 911 early; if they collapse, start CPR.' },
+      ],
+
+      keyTerms: ['choking', 'back blows', 'abdominal thrusts', 'airway', 'Red Cross', 'CPR'],
+
+      resources: {
+        articles: [
+          {
+            title: 'Choking: Adult (first aid poster)',
+            source: 'Canadian Red Cross',
+            url: 'https://cdn.redcross.ca/prodmedia/crc/documents/fa_poster_chokingadult_web.pdf',
+            why: 'The Red Cross poster stating the adult sequence: cycles of 5 back blows and 5 abdominal thrusts until the object clears or the person becomes unconscious.',
+            year: null,
+          },
+          {
+            title: 'What to do if an adult is choking',
+            source: 'Canadian Red Cross',
+            url: 'https://www.redcross.ca/blog/2021/9/what-to-do-if-an-adult-is-choking',
+            why: 'The Red Cross explainer behind the poster, including when to call EMS and when to move to CPR.',
+            year: 2021,
+          },
+        ],
+      },
+
+      seeAlso: ['cpr_basics', 'stroke_fast', 'safe_cooking_temperatures'],
+
+      sources: [
+        'https://cdn.redcross.ca/prodmedia/crc/documents/fa_poster_chokingadult_web.pdf',
+        'https://www.redcross.ca/blog/2021/9/what-to-do-if-an-adult-is-choking',
+      ],
+      verifiedAt: '2026-10-15',
+    },
   },
 };

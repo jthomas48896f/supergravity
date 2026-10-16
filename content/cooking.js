@@ -716,5 +716,45 @@ window.CONTENT.cooking = {
       verifiedAt: '2026-04-23',
     },
 
+
+    safe_cooking_temperatures: {
+      id: 'safe_cooking_temperatures',
+      name: 'Safe Cooking Temperatures: Use the Thermometer',
+      level: 'Beginner',
+      dek: 'USDA temperatures worth memorizing: poultry 165, ground meats 160, whole cuts 145 with a rest.',
+      readTime: '4 min',
+
+      sections: ['Three numbers', 'Why ground meat is different', 'The thermometer, not the color'],
+      body: [
+        { type: 'lead', text: 'The USDA\'s Food Safety and Inspection Service publishes the internal temperatures that make meat safe, and three cover most home cooking. Poultry: 165 degrees Fahrenheit. Ground meats: 160 degrees. Whole cuts of beef, pork, lamb, and veal: 145 degrees, followed by a rest of at least 3 minutes before carving.' },
+        { type: 'h2', text: 'Why ground meat is different' },
+        { type: 'p', text: 'On a whole cut, harmful bacteria live on the surface, and searing the surface deals with them, so the center can safely stay at 145 with its rest. Grinding mixes the surface through the whole piece, which is why ground meat needs the higher 160 throughout. Poultry carries its own risks through the whole bird or piece, so 165 applies to the thickest part, every time.' },
+        { type: 'p', text: 'The rest matters and is part of the instruction, not a serving nicety: during the 3 minutes off the heat, the temperature holds or rises slightly and finishes the job while the juices settle back into the meat.' },
+        { type: 'h2', text: 'The thermometer, not the color' },
+        { type: 'p', text: 'The FSIS campaign phrase is the whole lesson: you cannot tell by looking. Meat can brown long before it reaches a safe temperature, and it can stay pink after it is safe. A food thermometer, inserted into the thickest part away from bone, is the only reliable test, and it costs less than one spoiled dinner for a family. Check every piece, wash the probe between uses, and let the numbers, not habit, call done.' },
+        { type: 'callout', text: 'The USDA\'s three numbers, complete: 165 for poultry, 160 for ground meats, 145 plus a 3 minute rest for whole cuts. Measure, do not judge by color.' },
+      ],
+
+      keyTerms: ['internal temperature', 'food thermometer', 'USDA FSIS', 'rest time', 'foodborne illness', 'ground meat'],
+
+      resources: {
+        articles: [
+          {
+            title: 'Cooking Meat? It Is Done Yet?',
+            source: 'U.S. Department of Agriculture',
+            url: 'https://www.usda.gov/about-usda/news/blog/cooking-meat-it-done-yet',
+            why: 'The USDA\'s own statement of the chart: poultry 165, ground meats 160, whole cuts 145 degrees with a 3 minute rest, and why a thermometer beats judging by color.',
+            year: null,
+          },
+        ],
+      },
+
+      seeAlso: ['hand_hygiene', 'reading_food_labels', 'choking_first_aid'],
+
+      sources: [
+        'https://www.usda.gov/about-usda/news/blog/cooking-meat-it-done-yet',
+      ],
+      verifiedAt: '2026-10-15',
+    },
   },
 };

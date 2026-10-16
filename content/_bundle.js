@@ -1,6 +1,6 @@
 // content/_bundle.js
 // AUTO-GENERATED — do not edit by hand.
-// Built: 2026-10-15T18:10:17Z
+// Built: 2026-10-16T05:17:08Z
 // To regenerate: ./tools/build-content-bundle.sh
 
 window.CONTENT = window.CONTENT || {};
@@ -3990,6 +3990,192 @@ window.CONTENT.astronomy = {
       verifiedAt: '2026-10-15',
     },
 
+
+    katherine_johnson: {
+      id: 'katherine_johnson',
+      name: 'Katherine Johnson: The Human Computer',
+      level: 'Beginner',
+      dek: 'Johnson calculated the path for the first American in space, then checked the computer for orbital flight.',
+      readTime: '4 min',
+
+      sections: ['Langley, 1953', '"Get the girl"', 'Recognition'],
+      body: [
+        { type: 'lead', text: 'Katherine Johnson was a mathematician at NASA\'s Langley Research Center whose hand calculations helped open American spaceflight. She calculated the trajectory for Alan Shepard\'s 1961 flight, the first for an American in space. A year later, astronaut John Glenn asked for her by role before his orbital flight: get the girl to check the computer\'s numbers. She did, and he flew.' },
+        { type: 'h2', text: '"Get the girl"' },
+        { type: 'p', text: 'For Glenn\'s Friendship 7 mission in February 1962, NASA used a new electronic computer to work out the orbital equations. Glenn trusted the machine less than he trusted Johnson. He asked engineers to have her run the same equations by hand, and said he would not fly until she confirmed them. The check took her about a day and a half, working through the numbers on paper, and the figures matched.' },
+        { type: 'p', text: 'Johnson worked at Langley from 1953, first in a segregated computing pool of Black women mathematicians whose work the agency depended on, then directly with the flight research teams. Her trajectory analysis reports were among the first from her division to carry a woman\'s name as author.' },
+        { type: 'h2', text: 'Recognition' },
+        { type: 'p', text: 'In 2015, President Barack Obama awarded Johnson the Presidential Medal of Freedom, the highest civilian honor in the United States. Her story reached a wide public with the book and film Hidden Figures, named for the computers, human ones, whom history had left out of the frame.' },
+        { type: 'callout', text: 'NASA\'s own phrasing for the 1962 check: Glenn asked, in effect, if Katherine said the numbers were good, he was ready to go.' },
+      ],
+
+      keyTerms: ['trajectory', 'orbital mechanics', 'Langley', 'Friendship 7', 'Presidential Medal of Freedom', 'human computer'],
+
+      resources: {
+        books: [
+          {
+            title: 'Hidden Figures',
+            author: 'Margot Lee Shetterly',
+            year: 2016,
+            url: '',
+            why: 'The book that brought Johnson and the Langley computers to a wide public, researched from NASA records and interviews.',
+          },
+        ],
+        articles: [
+          {
+            title: 'Human Computer, Hidden No More',
+            source: 'NASA',
+            url: 'https://nasa.gov/image-article/human-computer-hidden-no-more/',
+            why: 'NASA\'s own article on Johnson: the Shepard trajectory, the Glenn check, and the 2015 Medal of Freedom.',
+            year: null,
+          },
+          {
+            title: 'Glenn, Johnson, and "Hidden Figures"',
+            source: 'Smithsonian National Air and Space Museum',
+            url: 'https://airandspace.si.edu/stories/editorial/glenn-johnson-hidden-figures',
+            why: 'The museum on the 1962 verification: Glenn\'s request, Johnson\'s day and a half of hand calculation, and the matching numbers.',
+            year: null,
+          },
+        ],
+      },
+
+      seeAlso: ['women_in_space', 'vera_rubin', 'ada_lovelace'],
+
+      sources: [
+        'https://nasa.gov/image-article/human-computer-hidden-no-more/',
+        'https://airandspace.si.edu/stories/editorial/glenn-johnson-hidden-figures',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    vera_rubin: {
+      id: 'vera_rubin',
+      name: 'Vera Rubin and the Case for Dark Matter',
+      level: 'Intermediate',
+      dek: 'Rubin found galaxy edges spinning too fast, evidence that most of a galaxy\'s mass is invisible.',
+      readTime: '4 min',
+
+      sections: ['The measurement', 'Five to ten times more', 'Why it convinced people'],
+      body: [
+        { type: 'lead', text: 'Vera Rubin measured how fast stars orbit in spiral galaxies and found something gravity, as then understood, could not explain. Stars at the outer edges moved about as fast as stars near the center. The rotation curves were flat. For the galaxies to hold together, they had to contain far more mass than their light showed: five to ten times more, in halos of matter that does not shine.' },
+        { type: 'h2', text: 'The measurement' },
+        { type: 'p', text: 'Working with astronomer Kent Ford and his unusually sensitive image tube spectrograph, Rubin measured the Andromeda galaxy in 1970 and found its outer stars refusing to slow down. Planets behave the opposite way: the farther from the Sun, the slower the orbit. Galaxies, Rubin showed, do not follow the visible mass.' },
+        { type: 'p', text: 'A wider survey settled it. By 1980, Rubin, Ford, and their colleagues had measured 21 spiral galaxies, and the flat curves held across the sample. It was not one strange galaxy. It was a general property of galaxies.' },
+        { type: 'h2', text: 'Why it convinced people' },
+        { type: 'p', text: 'Earlier hints of missing mass existed, including Fritz Zwicky\'s work in the 1930s, but Rubin\'s curves were precise, repeatable, and hard to explain away. They became the first persuasive evidence that dark matter halos surround galaxies, and they redrew the universe\'s budget: the visible matter is the minority.' },
+        { type: 'callout', text: 'Rubin was careful about the inference. The flat curves are the observation; dark matter is the explanation they point to, and she kept both in view throughout her career.' },
+      ],
+
+      keyTerms: ['rotation curve', 'dark matter', 'galaxy', 'Andromeda', 'Kent Ford', 'spectrograph'],
+
+      resources: {
+        articles: [
+          {
+            title: 'Vera Rubin: Opening Doors to Dark Matter and Women in STEM',
+            source: 'Carnegie Science',
+            url: 'https://carnegiescience.edu/vera-rubin-opening-doors-dark-matter-and-women-stem',
+            why: 'Her own institution on the Rubin and Ford measurements: the flat curve found on the first nights, and what it implied.',
+            year: null,
+          },
+          {
+            title: 'New Quarter Honors Vera Rubin, Astronomer Who Revealed the Universe\'s Hidden Mass',
+            source: 'Smithsonian American Women\'s History Museum',
+            url: 'http://womenshistory.si.edu/blog/new-quarter-honors-vera-rubin-astronomer-who-revealed-universes-hidden-mass',
+            why: 'The Smithsonian on her studies of more than 75 galaxies and the estimate that most of a galaxy\'s mass could be dark.',
+            year: 2025,
+          },
+        ],
+      },
+
+      seeAlso: ['katherine_johnson', 'women_in_space', 'solar'],
+
+      sources: [
+        'https://carnegiescience.edu/vera-rubin-opening-doors-dark-matter-and-women-stem',
+        'http://womenshistory.si.edu/blog/new-quarter-honors-vera-rubin-astronomer-who-revealed-universes-hidden-mass',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    women_in_space: {
+      id: 'women_in_space',
+      name: 'Women in Space: Tereshkova and Ride',
+      level: 'Beginner',
+      dek: 'Tereshkova orbited Earth in 1963 aged twenty six; Ride followed as first American woman twenty years later.',
+      readTime: '4 min',
+
+      sections: ['1963: Vostok 6', '1983: STS-7', 'The gap between them'],
+      body: [
+        { type: 'lead', text: 'The first woman to orbit the Earth was a 26 year old Soviet cosmonaut, Valentina Tereshkova, who flew alone aboard Vostok 6 on June 16, 1963. The first American woman in space, Sally Ride, flew twenty years later, aboard the shuttle Challenger on mission STS-7, launched June 18, 1983.' },
+        { type: 'h2', text: '1963: Vostok 6' },
+        { type: 'p', text: 'Tereshkova, a textile worker and amateur parachutist, was chosen from hundreds of applicants for the Soviet program. Her solo flight circled the Earth 48 times over almost three days, still the only solo spaceflight ever made by a woman. The Soviet Union did not fly another woman until 1982.' },
+        { type: 'h2', text: '1983: STS-7' },
+        { type: 'p', text: 'Ride was a physicist finishing her doctorate at Stanford when she answered a NASA newspaper advertisement. From over 8,000 applicants, she was one of 35 people selected for the astronaut class of 1978, the first NASA class to include women. At 32 she was the youngest astronaut aboard STS-7, where she operated the shuttle\'s robot arm, a system she had helped develop, to deploy communications satellites.' },
+        { type: 'h2', text: 'The gap between them' },
+        { type: 'p', text: 'Between 1963 and 1983, spaceflight was almost entirely closed to women in both programs. The two flights bookend the closure: a Soviet first, achieved for prestige, and an American first that came only after NASA opened its astronaut corps in law and in practice. The ordinary presence of women in spaceflight since then was built in the second opening, not the first.' },
+        { type: 'callout', text: 'Ride recalled the press asking about makeup for the flight. Her answer, in substance: they did not care how well prepared she was to operate the arm.' },
+      ],
+
+      keyTerms: ['Vostok 6', 'STS-7', 'cosmonaut', 'astronaut corps', 'robot arm', 'Valentina Tereshkova', 'Sally Ride'],
+
+      resources: {
+        articles: [
+          {
+            title: '40 years ago, Sally Ride became the first American woman in space',
+            source: 'NPR (via WAMC)',
+            url: 'https://www.wamc.org/2023-06-16/40-years-ago-sally-ride-became-the-first-american-woman-in-space',
+            why: 'The NPR report on the STS-7 anniversary: Tereshkova at 26 in 1963, Ride at 32 in 1983, chosen from over 8,000 applicants among 35 selected.',
+            year: 2023,
+          },
+        ],
+      },
+
+      seeAlso: ['katherine_johnson', 'vera_rubin', 'moon_recession'],
+
+      sources: [
+        'https://www.wamc.org/2023-06-16/40-years-ago-sally-ride-became-the-first-american-woman-in-space',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    moon_recession: {
+      id: 'moon_recession',
+      name: 'The Moon Is Drifting Away',
+      level: 'Beginner',
+      dek: 'Laser measurements show Earth and Moon separating by about 1.5 inches every year, driven by tides.',
+      readTime: '4 min',
+
+      sections: ['Measuring with mirrors', 'Why it happens', 'What it changes'],
+      body: [
+        { type: 'lead', text: 'The Moon is moving away from Earth at about 1.5 inches, roughly 3.8 centimeters, per year. We know this precisely because Apollo astronauts left reflectors on the lunar surface, and observatories still bounce laser beams off them and time the return, a measurement called laser ranging.' },
+        { type: 'h2', text: 'Why it happens' },
+        { type: 'p', text: 'The cause is the tides. The Moon\'s gravity raises bulges in Earth\'s oceans, and Earth\'s rotation drags those bulges slightly ahead of the Moon\'s position. The bulges pull the Moon forward in its orbit, which lifts it into a slightly higher, slower orbit. The energy comes from Earth\'s spin: as the Moon gains distance, Earth\'s day very slowly lengthens.' },
+        { type: 'p', text: 'The rate was not always what it is now. It depends on the shape of the oceans and continents the tides move through, so it has varied across Earth\'s history, and fossils and tidal deposits let geologists read older rates from rock.' },
+        { type: 'h2', text: 'What it changes' },
+        { type: 'p', text: 'In the far future, total solar eclipses will end, because the Moon will appear too small to cover the Sun. That is hundreds of millions of years away. The measured drift matters now for a nearer reason: it is the cleanest demonstration that the Earth and Moon are one evolving system, still exchanging energy four centuries after the telescope found them.' },
+        { type: 'callout', text: 'NASA describes the drift directly: Earth and the Moon are drifting apart at about 1.5 inches a year, measured by laser beams reflected between them.' },
+      ],
+
+      keyTerms: ['laser ranging', 'retroreflector', 'tides', 'orbit', 'Apollo', 'angular momentum'],
+
+      resources: {
+        articles: [
+          {
+            title: 'Laser Beams Reflected Between Earth and Moon Boost Science',
+            source: 'NASA',
+            url: 'https://www.nasa.gov/feature/goddard/2020/laser-beams-reflected-between-earth-and-moon-boost-science/',
+            why: 'NASA on the reflector experiments: the 1.5 inches per year drift, the Apollo era mirrors, and the tidal interaction behind it.',
+            year: 2020,
+          },
+        ],
+      },
+
+      seeAlso: ['women_in_space', 'solar', 'the_world_ocean'],
+
+      sources: [
+        'https://www.nasa.gov/feature/goddard/2020/laser-beams-reflected-between-earth-and-moon-boost-science/',
+      ],
+      verifiedAt: '2026-10-15',
+    },
   },
 };
 
@@ -8277,6 +8463,330 @@ window.CONTENT.biology = {
       verifiedAt: '2026-10-15',
     },
 
+
+    rosalind_franklin: {
+      id: 'rosalind_franklin',
+      name: 'Rosalind Franklin and Photo 51',
+      level: 'Beginner',
+      dek: 'Franklin\'s X-ray photograph showed DNA\'s helical shape and gave the double helix its key measurements.',
+      readTime: '4 min',
+
+      sections: ['King\'s College, 1952', 'How the photograph traveled', 'The credit question'],
+      body: [
+        { type: 'lead', text: 'Photo 51 is an X-ray diffraction image of the B form of DNA, made by Rosalind Franklin and Raymond Gosling at King\'s College London. The exposure began on 2 May 1952 and ran for about 62 hours. The clear X shape at its center showed that DNA is a helix, and measurements taken from the image supplied key dimensions for the double helix model.' },
+        { type: 'h2', text: 'How the photograph traveled' },
+        { type: 'p', text: 'In January 1953, Maurice Wilkins showed Photo 51 to James Watson, without Franklin\'s knowledge. Watson recognized what the pattern meant. Weeks later, Watson and Francis Crick published their double helix model, built with Franklin\'s data among its foundations. Franklin\'s own papers on the A and B forms appeared in the same journal issue, presented as supporting work.' },
+        { type: 'p', text: 'Franklin moved to Birkbeck College and did respected work on the structure of viruses. She died of ovarian cancer in 1958, aged 37. In 1962 the Nobel Prize for the DNA structure went to Watson, Crick, and Wilkins. Nobel Prizes are not awarded after death, and her part in the discovery was widely underplayed in the first accounts of it.' },
+        { type: 'h2', text: 'The credit question' },
+        { type: 'p', text: 'The record is now plain in the sources themselves: the photograph, the measurements, and the timing are documented, and King\'s College and the Science History Institute both tell the story with her at the center of the experimental work. Photo 51 is remembered as her image, and the gap between the work and the credit is the lesson that travels with it.' },
+        { type: 'callout', text: 'The image took about 62 hours of exposure to make. It is catalogued today as a work of Franklin and Gosling, held in the Science History Institute\'s digital collections.' },
+      ],
+
+      keyTerms: ['X-ray diffraction', 'DNA', 'double helix', 'B form', 'Photo 51', 'King\'s College'],
+
+      resources: {
+        books: [
+          {
+            title: 'Rosalind Franklin: The Dark Lady of DNA',
+            author: 'Brenda Maddox',
+            year: 2002,
+            url: '',
+            why: 'The standard biography, careful with the King\'s College record and the timing of the photograph\'s use.',
+          },
+        ],
+        articles: [
+          {
+            title: 'Photo 51 (Franklin and Gosling)',
+            source: 'Science History Institute, Digital Collections',
+            url: 'https://digital.sciencehistory.org/works/skau3rn',
+            why: 'The image itself, catalogued by the institute: made at King\'s in May 1952, B form DNA, the X pattern of a helix.',
+            year: null,
+          },
+        ],
+      },
+
+      seeAlso: ['marie_curie', 'origin_of_species', 'ada_lovelace'],
+
+      sources: [
+        'https://digital.sciencehistory.org/works/skau3rn',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    jane_goodall: {
+      id: 'jane_goodall',
+      name: 'Jane Goodall and the Chimpanzees of Gombe',
+      level: 'Beginner',
+      dek: 'In 1960 Goodall watched a chimpanzee make a tool, and the definition of being human moved.',
+      readTime: '4 min',
+
+      sections: ['November 4, 1960', 'Redefine tool, redefine man', 'The long watch'],
+      body: [
+        { type: 'lead', text: 'On November 4, 1960, at Gombe Stream in Tanzania, Jane Goodall watched a chimpanzee she had named David Greybeard strip the leaves from a twig and use it to fish termites from a mound. It was the first recorded observation of a non human animal making and using a tool in the wild.' },
+        { type: 'h2', text: 'Redefine tool, redefine man' },
+        { type: 'p', text: 'Goodall reported the observation to her mentor, the paleoanthropologist Louis Leakey. His reply became famous: now we must redefine tool, redefine man, or accept chimpanzees as human. Tool making had been treated as the line between humans and other animals. A chimpanzee preparing a twig, choosing it, stripping it, and using it for a purpose, stood on the human side of that line.' },
+        { type: 'p', text: 'The same early months broke another assumption. Chimpanzees were thought to be vegetarian. Goodall observed them eating meat, a freshly killed bush pig, and later hunting. Diet, tools, and social life all turned out richer than the science of the day allowed.' },
+        { type: 'h2', text: 'The long watch' },
+        { type: 'p', text: 'Goodall began at Gombe in 1960, aged 26, without a university degree, naming her subjects instead of numbering them, against the custom of the field. The study she started is now the longest running continuous study of wild animals in their natural habitat, carried on by the Jane Goodall Institute\'s research center at Gombe, and her methods, patience, and named individuals reshaped how field biology is done.' },
+        { type: 'callout', text: 'History.com keeps the day on its calendar: November 4, 1960, the day a chimpanzee\'s stripped twig changed what counts as a tool, and who counts as a maker.' },
+      ],
+
+      keyTerms: ['primatology', 'tool use', 'Gombe', 'David Greybeard', 'Louis Leakey', 'field study'],
+
+      resources: {
+        books: [
+          {
+            title: 'In the Shadow of Man',
+            author: 'Jane Goodall',
+            year: 1971,
+            url: '',
+            why: 'Her own account of the Gombe years: the naming, the patience, and the observations as she recorded them.',
+          },
+        ],
+        articles: [
+          {
+            title: 'Jane Goodall observes a chimpanzee making and using tools',
+            source: 'History.com',
+            url: 'http://www.history.com/this-day-in-history/november-4/jane-goodall-observes-a-chimpanzee-making-and-using-tools',
+            why: 'The dated record of the observation: November 4, 1960, David Greybeard, and Leakey\'s telegram in reply.',
+            year: null,
+          },
+          {
+            title: '50 Years of Chimpanzee Discoveries at Gombe',
+            source: 'Smithsonian Magazine',
+            url: 'https://www.smithsonianmag.com/science-nature/50-years-of-chimpanzee-discoveries-at-gombe-31517394/',
+            why: 'The Smithsonian\'s summary of the Gombe findings, tools among them, across fifty years of the study.',
+            year: null,
+          },
+        ],
+      },
+
+      seeAlso: ['origin_of_species', 'rachel_carson', 'pollinators'],
+
+      sources: [
+        'http://www.history.com/this-day-in-history/november-4/jane-goodall-observes-a-chimpanzee-making-and-using-tools',
+        'https://www.smithsonianmag.com/science-nature/50-years-of-chimpanzee-discoveries-at-gombe-31517394/',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    rachel_carson: {
+      id: 'rachel_carson',
+      name: 'Rachel Carson and Silent Spring',
+      level: 'Beginner',
+      dek: 'Carson\'s Silent Spring documented what pesticides were doing, and national policy turned within a decade.',
+      readTime: '4 min',
+
+      sections: ['A marine biologist turns inland', 'The book', 'What changed'],
+      body: [
+        { type: 'lead', text: 'Rachel Carson was an American marine biologist and writer whose 1962 book Silent Spring documented the damage done by the indiscriminate use of synthetic pesticides, above all DDT. The book spurred a reversal in national pesticide policy, led to a nationwide ban on DDT, and inspired the grassroots environmental movement that led to the creation of the U.S. Environmental Protection Agency.' },
+        { type: 'h2', text: 'A marine biologist turns inland' },
+        { type: 'p', text: 'Carson worked for the U.S. Bureau of Fisheries, later the Fish and Wildlife Service, from 1936 to 1952, ending as editor in chief of its publications. Her sea books, The Sea Around Us above all, made her famous as a writer who combined scientific accuracy with lyrical prose. In the late 1950s she turned to conservation and spent four years gathering the evidence for Silent Spring.' },
+        { type: 'p', text: 'The title imagines a spring without birdsong. The argument was documented, not poetic license: pesticides sprayed for insects were moving through food chains, thinning the eggs of birds of prey and accumulating in living tissue, while the chemical industry disputed her at every step.' },
+        { type: 'h2', text: 'What changed' },
+        { type: 'p', text: 'The book was a bestseller, survived fierce industry opposition, and was upheld by the President\'s Science Advisory Committee. The environmental movement it galvanized produced the EPA in 1970, and the United States banned DDT for agricultural use in 1972. Carson died in 1964, before either happened. Britannica\'s judgment: Silent Spring became one of the most influential books in the modern environmental movement and gave the impetus for tighter control of pesticides, including DDT.' },
+        { type: 'callout', text: 'Carson was posthumously awarded the Presidential Medal of Freedom in 1980. The sea trilogy and Silent Spring are all still in print.' },
+      ],
+
+      keyTerms: ['Silent Spring', 'DDT', 'pesticide', 'environmental movement', 'EPA', 'food chain'],
+
+      resources: {
+        books: [
+          {
+            title: 'Silent Spring',
+            author: 'Rachel Carson',
+            year: 1962,
+            url: '',
+            why: 'The book itself: the documented case against indiscriminate pesticide use that changed national policy.',
+          },
+        ],
+        articles: [
+          {
+            title: 'Rachel Carson',
+            source: 'Encyclopaedia Britannica',
+            url: 'https://www.britannica.com/biography/Rachel-Carson',
+            why: 'Britannica\'s biography: the Fish and Wildlife Service career, the sea trilogy, and Silent Spring\'s impetus for tighter pesticide control.',
+            year: null,
+          },
+        ],
+      },
+
+      seeAlso: ['pollinators', 'jane_goodall', 'coral_reefs'],
+
+      sources: [
+        'https://www.britannica.com/biography/Rachel-Carson',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    coral_reefs: {
+      id: 'coral_reefs',
+      name: 'Coral Reefs: A Quarter of Ocean Life',
+      level: 'Beginner',
+      dek: 'Reefs cover under a tenth of one percent of ocean floor, yet shelter a quarter of marine life.',
+      readTime: '4 min',
+
+      sections: ['Small floor, crowded house', 'How a reef is built', 'Why reefs are at risk'],
+      body: [
+        { type: 'lead', text: 'Coral reefs are home to about 25 percent of all marine life, while covering less than 0.1 percent of the world\'s ocean floor. That crowding, a quarter of the ocean\'s species on a sliver of its area, is the basic fact of reef biology, and the reason reef loss counts so heavily.' },
+        { type: 'h2', text: 'How a reef is built' },
+        { type: 'p', text: 'A reef is built by animals. Coral polyps, small relatives of jellyfish, secrete limestone skeletons, and colonies grow over centuries into structures that shelter fish, crustaceans, mollusks, and thousands of other species. Most reef corals host algae inside their tissues that photosynthesize and share the food, which is why reefs thrive in clear, sunlit, nutrient poor water, a paradox of richness in a near desert.' },
+        { type: 'p', text: 'The structure is the service. Crevices and overhangs give young fish somewhere to hide, so reefs act as nurseries for species that later live in open water, including many that people catch and eat far from any reef.' },
+        { type: 'h2', text: 'Why reefs are at risk' },
+        { type: 'p', text: 'Warming water drives bleaching, when stressed corals expel their algae and starve if the heat lasts. Ocean acidification slows the limestone building itself. NOAA\'s educational materials put the two headline numbers side by side, 25 percent of marine life, under 0.1 percent of the floor, as the measure of what is concentrated in one threatened habitat.' },
+        { type: 'callout', text: 'The comparison in one line, from NOAA: about a quarter of all marine species live on reefs that cover less than one tenth of one percent of the ocean floor.' },
+      ],
+
+      keyTerms: ['coral polyp', 'reef', 'biodiversity', 'bleaching', 'symbiosis', 'nursery habitat'],
+
+      resources: {
+        articles: [
+          {
+            title: 'Coral Reefs and Climate Change (teacher background)',
+            source: 'NOAA Global Monitoring Laboratory, Education',
+            url: 'https://gml.noaa.gov/education/info_activities/pdfs/TBI_coral_reefs_and_climate_change.pdf',
+            why: 'NOAA\'s teacher background sheet carrying both figures: roughly 25 percent of marine life, less than 0.1 percent of the ocean floor.',
+            year: null,
+          },
+        ],
+      },
+
+      seeAlso: ['ocean_acidification', 'pollinators', 'the_world_ocean'],
+
+      sources: [
+        'https://gml.noaa.gov/education/info_activities/pdfs/TBI_coral_reefs_and_climate_change.pdf',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    pollinators: {
+      id: 'pollinators',
+      name: 'Pollinators and the Food Supply',
+      level: 'Beginner',
+      dek: 'Three fourths of flowering plants and a third of food crops depend on animal pollinators, says USDA.',
+      readTime: '4 min',
+
+      sections: ['One bite in three', 'Who does the work', 'What is happening to them'],
+      body: [
+        { type: 'lead', text: 'Three fourths of the world\'s flowering plants and about 35 percent of the world\'s food crops depend on animal pollinators to reproduce, according to the U.S. Department of Agriculture. Put on a plate, the USDA\'s figure is famous: one out of every three bites of food you eat is there because of pollinators.' },
+        { type: 'h2', text: 'Who does the work' },
+        { type: 'p', text: 'Bees do much of it, managed honey bees and thousands of wild bee species, but not all. Butterflies, moths, beetles, flies, hummingbirds, and bats all carry pollen between flowers. Many crops lean on particular partners: almonds on honey bees trucked in by the millions, cacao on tiny midges, squash on native squash bees that rise before dawn.' },
+        { type: 'p', text: 'Pollination is a byproduct. The animal comes for nectar or pollen as food, and grains stick and travel. The plant\'s reproduction rides on the animal\'s appetite, which is why the system is both robust, many species overlap, and fragile, each partnership tuned over long time.' },
+        { type: 'h2', text: 'What is happening to them' },
+        { type: 'p', text: 'Pollinator numbers are under pressure from habitat loss, pesticides, disease, and a shifting climate that can move flowering and emergence out of step. The USDA\'s advice is correspondingly ordinary: plant flowers, including native ones, reduce pesticide use, and leave nesting ground undisturbed. A third of the menu is a large thing to protect with such small tools, which is the point of listing them.' },
+        { type: 'callout', text: 'The USDA figures, stated whole: three fourths of flowering plants, about 35 percent of food crops, one bite in three.' },
+      ],
+
+      keyTerms: ['pollination', 'pollen', 'honey bee', 'food crops', 'habitat', 'USDA'],
+
+      resources: {
+        articles: [
+          {
+            title: 'The Importance of Pollinators',
+            source: 'U.S. Department of Agriculture',
+            url: 'https://www.usda.gov/about-usda/general-information/initiatives-and-highlighted-programs/peoples-garden/importance-pollinators',
+            why: 'The USDA\'s own page: three fourths of flowering plants, about 35 percent of world food crops, one of every three bites.',
+            year: null,
+          },
+        ],
+      },
+
+      seeAlso: ['rachel_carson', 'plants', 'how_photosynthesis_works'],
+
+      sources: [
+        'https://www.usda.gov/about-usda/general-information/initiatives-and-highlighted-programs/peoples-garden/importance-pollinators',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    origin_of_species: {
+      id: 'origin_of_species',
+      name: 'Darwin and Natural Selection',
+      level: 'Beginner',
+      dek: 'In 1859 Darwin published the mechanism of evolution: variation, inheritance, and struggle favoring the fit.',
+      readTime: '4 min',
+
+      sections: ['24 November 1859', 'The mechanism in three parts', 'Why it holds'],
+      body: [
+        { type: 'lead', text: 'Charles Darwin\'s On the Origin of Species was published on November 24, 1859. It proposed the mechanism that explains how species change over time: natural selection. Individuals vary, offspring inherit variations, and more are born than can survive, so the variations that help their bearers survive and reproduce become more common, generation by generation.' },
+        { type: 'h2', text: 'The mechanism in three parts' },
+        { type: 'p', text: 'Variation: members of a species differ, in size, color, speed, resistance, and a thousand other traits. Inheritance: offspring resemble their parents, so differences pass down. Struggle: every species produces more young than the environment can support, so only some survive to reproduce. From those three plain observations, selection follows without any designer: the traits that remain are the ones that worked.' },
+        { type: 'p', text: 'Darwin built the case from twenty years of evidence, breeding pigeons, barnacles, fossils, and the distribution of species he had recorded as naturalist aboard HMS Beagle. Alfred Russel Wallace arrived at the same mechanism independently, and their ideas were presented together in 1858, before Darwin\'s book laid out the full argument.' },
+        { type: 'h2', text: 'Why it holds' },
+        { type: 'p', text: 'Evolution by natural selection is the organizing theory of biology because everything found since has fitted it and sharpened it: genetics supplied the inheritance mechanism Darwin lacked, and DNA lets us measure relatedness directly. The finches, the fossils, and the genome tell one story at three scales.' },
+        { type: 'callout', text: 'Britannica\'s summary of the theory is the three part engine above: variation, inheritance, and differential survival, published in full on 24 November 1859.' },
+      ],
+
+      keyTerms: ['natural selection', 'evolution', 'variation', 'inheritance', 'species', 'Alfred Russel Wallace'],
+
+      resources: {
+        books: [
+          {
+            title: 'On the Origin of Species',
+            author: 'Charles Darwin',
+            year: 1859,
+            url: '',
+            why: 'The book itself, in the public domain: the full argument, patiently evidenced, chapter by chapter.',
+          },
+        ],
+        articles: [
+          {
+            title: 'Charles Darwin',
+            source: 'Encyclopaedia Britannica',
+            url: 'https://www.britannica.com/biography/Charles-Darwin',
+            why: 'Britannica\'s biography and summary of the theory: the Beagle years, the long delay, and the 1859 publication.',
+            year: null,
+          },
+        ],
+      },
+
+      seeAlso: ['jane_goodall', 'rosalind_franklin', 'coral_reefs'],
+
+      sources: [
+        'https://www.britannica.com/biography/Charles-Darwin',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    how_photosynthesis_works: {
+      id: 'how_photosynthesis_works',
+      name: 'How Photosynthesis Works',
+      level: 'Beginner',
+      dek: 'Plants use sunlight to turn carbon dioxide and water into glucose, releasing the oxygen we breathe.',
+      readTime: '4 min',
+
+      sections: ['The chemical summary', 'What the glucose becomes', 'The other half of the cycle'],
+      body: [
+        { type: 'lead', text: 'Photosynthesis is how plants use water, carbon dioxide, and the energy of sunlight to create glucose and oxygen. Britannica\'s chemical summary gives the full bookkeeping: six molecules of carbon dioxide plus twelve molecules of water, plus the energy of sunlight, yield one molecule of glucose plus six molecules of oxygen and six molecules of water.' },
+        { type: 'h2', text: 'What the glucose becomes' },
+        { type: 'p', text: 'Glucose is a building block, not an end. Plants link glucose molecules into cellulose, the main material of cell walls and of wood. They chain it into starches for storage, the starches of wheat and potatoes that anchor human diets. They make it into the sugars of fruits such as grapes and apples. Nearly everything a plant is, and nearly everything that eats a plant, is assembled from this one sugar.' },
+        { type: 'p', text: 'The oxygen released is the other product. All the oxygen in the atmosphere has its origin in photosynthesis, most of it from ocean plankton and plants over immense time. Breathing is spending what photosynthesis saved.' },
+        { type: 'h2', text: 'The other half of the cycle' },
+        { type: 'p', text: 'Animals run the equation backward. Cells break down glucose with oxygen to release its stored energy, producing carbon dioxide and water as waste, exhaled and ready for a plant to use again. Together, photosynthesis and respiration form a single cycle of life: sunlight in, energy stored, energy spent, materials returned.' },
+        { type: 'callout', text: 'One line to keep: 6 CO2 + 12 H2O + sunlight gives glucose + 6 O2 + 6 H2O. The water on both sides is real bookkeeping, not a typo.' },
+      ],
+
+      keyTerms: ['photosynthesis', 'glucose', 'chlorophyll', 'carbon dioxide', 'cellulose', 'respiration'],
+
+      resources: {
+        articles: [
+          {
+            title: 'The Relationship Between Photosynthesis and Breathing',
+            source: 'Encyclopaedia Britannica',
+            url: 'https://www.britannica.com/video/role-photosynthesis-glucose-plants-oxygen-production/-162753',
+            why: 'Britannica\'s explanation with the full chemical summary: six carbon dioxide and twelve water in, glucose, six oxygen, and six water out.',
+            year: null,
+          },
+        ],
+      },
+
+      seeAlso: ['co2_atmosphere', 'pollinators', 'plants'],
+
+      sources: [
+        'https://www.britannica.com/video/role-photosynthesis-glucose-plants-oxygen-production/-162753',
+      ],
+      verifiedAt: '2026-10-15',
+    },
   },
 };
 
@@ -11635,6 +12145,46 @@ window.CONTENT.chemistry = {
       verifiedAt: '2026-10-15',
     },
 
+
+    marie_curie: {
+      id: 'marie_curie',
+      name: 'Marie Curie: Two Nobels, Two Sciences',
+      level: 'Beginner',
+      dek: 'Curie remains the only person with Nobel Prizes in two different sciences, physics and chemistry.',
+      readTime: '4 min',
+
+      sections: ['Radioactivity', 'Two elements, two prizes', 'The cost'],
+      body: [
+        { type: 'lead', text: 'Marie Curie is still the only individual to have received Nobel Prizes in two different science categories: Physics in 1903 and Chemistry in 1911. Working in Paris with her husband Pierre, she investigated the rays coming from uranium ores, coined the term radioactivity for the phenomenon, and discovered two new elements, polonium and radium.' },
+        { type: 'h2', text: 'Radioactivity' },
+        { type: 'p', text: 'Curie noticed that the mineral pitchblende gave off more radiation than its uranium content explained, and concluded that something unknown inside it was far more active. Years of chemical separation, processing tons of ore residue in a drafty shed, isolated first polonium, named for her native Poland, and then radium, whose glow and heat made the invisible radiation undeniable.' },
+        { type: 'p', text: 'The 1903 Physics prize, shared with Pierre Curie and Henri Becquerel, recognized the radiation research. After Pierre\'s death in 1906, Curie took his chair at the Sorbonne, the first woman to teach there, and went on to isolate pure radium, the work behind the 1911 Chemistry prize.' },
+        { type: 'h2', text: 'The cost' },
+        { type: 'p', text: 'Nobody yet knew what radiation does to a body over years. Curie carried test tubes of radioactive material in her pockets and worked unshielded for decades. She died in 1934 of aplastic anemia, almost certainly the result of her long exposure. Her notebooks remain radioactive today and are kept in lead lined boxes. The Nobel organization\'s own profile is plain about the standing fact: the only individual with the prize in two different sciences.' },
+        { type: 'callout', text: 'Polonium carries a place in the periodic table named after a country that did not then exist on the map: Poland, partitioned among empires, in 1898.' },
+      ],
+
+      keyTerms: ['radioactivity', 'radium', 'polonium', 'Nobel Prize', 'pitchblende', 'element'],
+
+      resources: {
+        articles: [
+          {
+            title: 'Marie Curie: Women Who Changed Science',
+            source: 'NobelPrize.org',
+            url: 'http://nobelprize.org/stories/women-who-changed-science/marie-curie/',
+            why: 'The Nobel site\'s profile: still the only individual to receive the prize in two different science categories, Physics 1903 and Chemistry 1911.',
+            year: null,
+          },
+        ],
+      },
+
+      seeAlso: ['rosalind_franklin', 'speed_of_light', 'ada_lovelace'],
+
+      sources: [
+        'http://nobelprize.org/stories/women-who-changed-science/marie-curie/',
+      ],
+      verifiedAt: '2026-10-15',
+    },
   },
 };
 
@@ -14504,6 +15054,46 @@ window.CONTENT.cooking = {
       verifiedAt: '2026-04-23',
     },
 
+
+    safe_cooking_temperatures: {
+      id: 'safe_cooking_temperatures',
+      name: 'Safe Cooking Temperatures: Use the Thermometer',
+      level: 'Beginner',
+      dek: 'USDA temperatures worth memorizing: poultry 165, ground meats 160, whole cuts 145 with a rest.',
+      readTime: '4 min',
+
+      sections: ['Three numbers', 'Why ground meat is different', 'The thermometer, not the color'],
+      body: [
+        { type: 'lead', text: 'The USDA\'s Food Safety and Inspection Service publishes the internal temperatures that make meat safe, and three cover most home cooking. Poultry: 165 degrees Fahrenheit. Ground meats: 160 degrees. Whole cuts of beef, pork, lamb, and veal: 145 degrees, followed by a rest of at least 3 minutes before carving.' },
+        { type: 'h2', text: 'Why ground meat is different' },
+        { type: 'p', text: 'On a whole cut, harmful bacteria live on the surface, and searing the surface deals with them, so the center can safely stay at 145 with its rest. Grinding mixes the surface through the whole piece, which is why ground meat needs the higher 160 throughout. Poultry carries its own risks through the whole bird or piece, so 165 applies to the thickest part, every time.' },
+        { type: 'p', text: 'The rest matters and is part of the instruction, not a serving nicety: during the 3 minutes off the heat, the temperature holds or rises slightly and finishes the job while the juices settle back into the meat.' },
+        { type: 'h2', text: 'The thermometer, not the color' },
+        { type: 'p', text: 'The FSIS campaign phrase is the whole lesson: you cannot tell by looking. Meat can brown long before it reaches a safe temperature, and it can stay pink after it is safe. A food thermometer, inserted into the thickest part away from bone, is the only reliable test, and it costs less than one spoiled dinner for a family. Check every piece, wash the probe between uses, and let the numbers, not habit, call done.' },
+        { type: 'callout', text: 'The USDA\'s three numbers, complete: 165 for poultry, 160 for ground meats, 145 plus a 3 minute rest for whole cuts. Measure, do not judge by color.' },
+      ],
+
+      keyTerms: ['internal temperature', 'food thermometer', 'USDA FSIS', 'rest time', 'foodborne illness', 'ground meat'],
+
+      resources: {
+        articles: [
+          {
+            title: 'Cooking Meat? It Is Done Yet?',
+            source: 'U.S. Department of Agriculture',
+            url: 'https://www.usda.gov/about-usda/news/blog/cooking-meat-it-done-yet',
+            why: 'The USDA\'s own statement of the chart: poultry 165, ground meats 160, whole cuts 145 degrees with a 3 minute rest, and why a thermometer beats judging by color.',
+            year: null,
+          },
+        ],
+      },
+
+      seeAlso: ['hand_hygiene', 'reading_food_labels', 'choking_first_aid'],
+
+      sources: [
+        'https://www.usda.gov/about-usda/news/blog/cooking-meat-it-done-yet',
+      ],
+      verifiedAt: '2026-10-15',
+    },
   },
 };
 
@@ -16522,6 +17112,103 @@ window.CONTENT.cs = {
       verifiedAt: '2026-04-23',
     },
 
+
+    ada_lovelace: {
+      id: 'ada_lovelace',
+      name: 'Ada Lovelace and the First Computer Program',
+      level: 'Beginner',
+      dek: 'In 1843 Lovelace published an algorithm for a machine never built, and saw beyond number to symbols.',
+      readTime: '4 min',
+
+      sections: ['The translation that outgrew its source', 'Note G', 'The leap beyond number'],
+      body: [
+        { type: 'lead', text: 'In 1843, Ada Lovelace translated an article by the Italian mathematician Luigi Menabrea about Charles Babbage\'s proposed Analytical Engine, and added seven notes, labeled A to G. The notes ran to three times the length of the article itself, and they contain what history now regards as the first published computer program.' },
+        { type: 'h2', text: 'Note G' },
+        { type: 'p', text: 'Note G lays out, step by step, how the Engine could compute Bernoulli numbers: a complete algorithm, with the looping structure a modern programmer would recognize, written for a machine that existed only as drawings. The Engine was never built in Lovelace\'s lifetime, so the program was never run. It stands as the first algorithm published specifically for implementation on a computing machine.' },
+        { type: 'p', text: 'UNESCO, which keeps Lovelace in its Women in Science collection, calls her now widely recognized as the author of the first computer program, and one of the earliest thinkers to perceive the true potential of computing.' },
+        { type: 'h2', text: 'The leap beyond number' },
+        { type: 'p', text: 'The deeper idea in the notes is not the algorithm. Babbage imagined a powerful calculator. Lovelace wrote that the Engine could operate on any set of symbols whose relations could be expressed, not just numbers: it might compose music, work with logic, manipulate patterns. That is the concept of the general purpose computer, stated a century before the hardware, by the person translating the manual.' },
+        { type: 'callout', text: 'The United States Department of Defense named a programming language Ada in her honor in 1980. The second Tuesday of October is Ada Lovelace Day for women in science and technology.' },
+      ],
+
+      keyTerms: ['Analytical Engine', 'algorithm', 'Bernoulli numbers', 'Note G', 'Charles Babbage', 'general purpose computer'],
+
+      resources: {
+        books: [
+          {
+            title: 'Ada\'s Algorithm',
+            author: 'James Essinger',
+            year: 2013,
+            url: '',
+            why: 'A short biography of Lovelace centered on the 1843 notes and how close she came to being forgotten.',
+          },
+        ],
+        articles: [
+          {
+            title: 'Ada Lovelace (United Kingdom, 1815-1852)',
+            source: 'UNESCO, Virtual Science Museum: Women in Science',
+            url: 'https://www.unesco.org/en/virtual-science-museum/women-science/ada-lovelace',
+            why: 'UNESCO\'s account: the seven notes of 1843, three times the article\'s length, the Bernoulli algorithm, and the symbol insight.',
+            year: null,
+          },
+        ],
+      },
+
+      seeAlso: ['hedy_lamarr', 'katherine_johnson', 'rosalind_franklin'],
+
+      sources: [
+        'https://www.unesco.org/en/virtual-science-museum/women-science/ada-lovelace',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    hedy_lamarr: {
+      id: 'hedy_lamarr',
+      name: 'Hedy Lamarr and Frequency Hopping',
+      level: 'Beginner',
+      dek: 'A film star and a composer patented a secret communication system in 1942 that anticipated wireless technology.',
+      readTime: '4 min',
+
+      sections: ['The problem: a jammed signal', 'The invention', 'Recognition, decades late'],
+      body: [
+        { type: 'lead', text: 'In August 1942, the United States granted Patent 2,292,387, titled "Secret Communication System," to Hedy Kiesler Markey, better known as the film star Hedy Lamarr, and the composer George Antheil. Their invention kept a radio control signal hopping between frequencies so an enemy could not jam it, the core idea of frequency hopping.' },
+        { type: 'h2', text: 'The problem: a jammed signal' },
+        { type: 'p', text: 'Radio guided torpedoes could be steered to their targets, but a signal on one frequency can be found and blocked. Lamarr, who had learned about munitions during her first marriage to an Austrian arms manufacturer, proposed the fix: transmitter and receiver change frequency together, in a shared pattern, so the signal never sits still long enough to jam.' },
+        { type: 'p', text: 'Antheil supplied the mechanism. His experience synchronizing player pianos gave the pair their design: matching perforated rolls, like piano rolls, stepping both ends through the same sequence of frequencies in time. The patent application was filed in June 1941 and granted the following August.' },
+        { type: 'h2', text: 'Recognition, decades late' },
+        { type: 'p', text: 'The Navy did not adopt the system during the war, and the patent expired in 1959, before spread spectrum techniques became central to military and then civilian wireless communication. The Smithsonian\'s Lemelson Center credits Lamarr with the central idea and Antheil with the practical implementation. In 1997 the Electronic Frontier Foundation gave both its Pioneer Award, and the two are now in the National Inventors Hall of Fame. The careful claim is the true one: their patent is a recognized precursor of modern wireless, not the single invention of Wi-Fi or Bluetooth.' },
+        { type: 'callout', text: 'The Smithsonian Institution Archives holds the Lamarr and Antheil invention papers, including the record of Patent 2,292,387, granted August 1942.' },
+      ],
+
+      keyTerms: ['frequency hopping', 'spread spectrum', 'patent', 'torpedo guidance', 'George Antheil', 'jamming'],
+
+      resources: {
+        articles: [
+          {
+            title: 'Hedy Lamarr and George Antheil Invention Papers',
+            source: 'Smithsonian Institution Archives (SOVA)',
+            url: 'https://sova.si.edu/record/nmah.ac.1590',
+            why: 'The Smithsonian\'s finding aid for their papers: the synchronized frequency hopping idea, the collaboration of 1940 to 1942, and the patent awarded in August 1942.',
+            year: null,
+          },
+          {
+            title: 'Team Hollywood\'s Secret Weapons System',
+            source: 'Smithsonian Magazine',
+            url: 'https://www.smithsonianmag.com/history/team-hollywoods-secret-weapons-system-103619955/',
+            why: 'Smithsonian Magazine on the patent, No. 2292387, its wartime shelving, and its recognition as a precursor to spread spectrum wireless.',
+            year: 2012,
+          },
+        ],
+      },
+
+      seeAlso: ['ada_lovelace', 'women_codebreakers', 'strong_passwords'],
+
+      sources: [
+        'https://sova.si.edu/record/nmah.ac.1590',
+        'https://www.smithsonianmag.com/history/team-hollywoods-secret-weapons-system-103619955/',
+      ],
+      verifiedAt: '2026-10-15',
+    },
   },
 };
 
@@ -19497,6 +20184,166 @@ window.CONTENT.economics = {
       verifiedAt: '2026-04-23',
     },
 
+
+    unpaid_care_work: {
+      id: 'unpaid_care_work',
+      name: 'Unpaid Care Work: The Invisible Economy',
+      level: 'Beginner',
+      dek: 'The world does 16.4 billion hours of unpaid care daily, three quarters of it by women, says ILO.',
+      readTime: '4 min',
+
+      sections: ['The count', 'What it would cost', 'The locked door'],
+      body: [
+        { type: 'lead', text: 'Every day, people perform 16.4 billion hours of unpaid care work: cooking, cleaning, and looking after children, the elderly, and the sick inside their own households. The International Labour Organization calculates that women perform 76.2 percent of it, more than three times as much as men. Valued at an hourly minimum wage, that labor would amount to 9 percent of global GDP, some 11 trillion dollars a year.' },
+        { type: 'h2', text: 'What it would cost' },
+        { type: 'p', text: 'The ILO\'s 2018 report, Care Work and Care Jobs for the Future of Decent Work, did the arithmetic to make the invisible visible. Sixteen point four billion hours a day is the equivalent of 2 billion people working eight hour shifts with no pay. Almost 80 percent of it is household work.' },
+        { type: 'p', text: 'None of it enters GDP as the accounts are kept, because no money changes hands. Yet every paid job in the economy rests on it: workers arrive at work fed, rested, raised, and cared for, and the system that produces that readiness is the unpaid one.' },
+        { type: 'h2', text: 'The locked door' },
+        { type: 'p', text: 'The report also counts what the load prevents. In 2018, 606 million working age women said they were not in the labor force because of unpaid care work. The corresponding figure for men was 41 million. Care is the main reason women give for being outside paid work, which is why the ILO treats care policy, childcare, eldercare, and leave, as economic policy and not only family policy.' },
+        { type: 'callout', text: 'Progress, measured by the ILO across 23 countries with long data: the gender gap in unpaid care time shrank by seven minutes a day over twenty years. At that pace, closing it takes about 210 years.' },
+      ],
+
+      keyTerms: ['unpaid care work', 'ILO', 'GDP', 'labor force', 'minimum wage valuation', 'care economy'],
+
+      resources: {
+        articles: [
+          {
+            title: 'ILO: Women do 4 times more unpaid care work than men in Asia and the Pacific',
+            source: 'International Labour Organization',
+            url: 'https://www.ilo.org/resource/news/ilo-women-do-4-times-more-unpaid-care-work-men-asia-and-pacific',
+            why: 'The ILO\'s release carrying the global figures: 76.2 percent of unpaid care done by women, 9 percent of global GDP, 606 million women against 41 million men kept out of the labor force in 2018.',
+            year: 2018,
+          },
+        ],
+      },
+
+      seeAlso: ['women_workforce', 'federal_minimum_wage', 'inflation_cpi'],
+
+      sources: [
+        'https://www.ilo.org/resource/news/ilo-women-do-4-times-more-unpaid-care-work-men-asia-and-pacific',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    women_workforce: {
+      id: 'women_workforce',
+      name: 'Women in the World of Work: The 2024 Count',
+      level: 'Beginner',
+      dek: 'In 2024, 46.4 percent of working age women were employed worldwide, against 69.5 percent of men, says ILO.',
+      readTime: '4 min',
+
+      sections: ['One dated set of figures', 'How the gap narrowed', 'Where women stand inside work'],
+      body: [
+        { type: 'lead', text: 'In 2024, only 46.4 percent of working age women worldwide were employed, compared to 69.5 percent of men, a gap of 23.1 percentage points. The figures are from the International Labour Organization\'s 2025 brief Women and the Economy: 30 Years after the Beijing Declaration, and they are stated here with their year, because these numbers move between editions and should never be quoted undated.' },
+        { type: 'h2', text: 'How the gap narrowed' },
+        { type: 'p', text: 'The gap has narrowed by only 4 percentage points in three decades, from 27.1 points in 1991. And the narrowing is not the good news it resembles: the ILO notes it was driven mainly by a 6 point fall in men\'s employment rate, while women\'s rate actually decreased by 2.3 points over the same period. The two lines moved toward each other mostly from the top down.' },
+        { type: 'p', text: 'At the current pace, the brief concludes, parity in employment rates is over 190 years away. Women also remain overrepresented in informal work and face persistent pay gaps in every country income group measured.' },
+        { type: 'h2', text: 'Where women stand inside work' },
+        { type: 'p', text: 'Employment is not the whole count. Women hold only 30 percent of managerial positions globally, a modest improvement over two decades, with low income countries showing some of the fastest movement. Being counted in the workforce and being counted in its decisions are two different measures, and the second lags the first almost everywhere.' },
+        { type: 'callout', text: 'One source, one vintage: ILO, March 2025, data year 2024. 46.4 against 69.5 percent, a 23.1 point gap, 30 percent of management. Older ILO figures in circulation describe other years and are not mixed in here.' },
+      ],
+
+      keyTerms: ['employment to population ratio', 'gender gap', 'ILO', 'Beijing Declaration', 'informal work', 'management'],
+
+      resources: {
+        articles: [
+          {
+            title: 'Women and the economy: 30 years after the Beijing Declaration',
+            source: 'International Labour Organization',
+            url: 'https://www.ilo.org/publications/women-and-economy-30-years-after-beijing-declaration',
+            why: 'The ILO brief\'s publication page: 2024 employment rates of 46.4 percent for women and 69.5 percent for men, the gap narrowed by only 4 points in 30 years, women at 30 percent of managerial positions.',
+            year: 2025,
+          },
+        ],
+      },
+
+      seeAlso: ['unpaid_care_work', 'federal_minimum_wage', 'standard_deduction'],
+
+      sources: [
+        'https://www.ilo.org/publications/women-and-economy-30-years-after-beijing-declaration',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    inflation_cpi: {
+      id: 'inflation_cpi',
+      name: 'Inflation and the Consumer Price Index',
+      level: 'Beginner',
+      dek: 'The CPI tracks average price change for a basket of goods using about 94,000 prices monthly.',
+      readTime: '4 min',
+
+      sections: ['A basket, repriced monthly', 'Whose prices count', 'Reading the headline number'],
+      body: [
+        { type: 'lead', text: 'The Consumer Price Index, published monthly by the U.S. Bureau of Labor Statistics, measures the average change over time in the prices paid by urban consumers for a representative basket of goods and services. When you hear that inflation ran at some percent this year, this index is almost always the number behind the sentence.' },
+        { type: 'h2', text: 'A basket, repriced monthly' },
+        { type: 'p', text: 'The BLS collects about 94,000 prices every month, from stores, service providers, and rental units across the country, and compares the cost of the same basket over time. Food, housing, fuel, clothing, medical care, and the rest are weighted by how much households actually spend on them, so rent moves the index far more than the price of a movie ticket.' },
+        { type: 'p', text: 'The most used version, the CPI-U, covers approximately 93 percent of the total U.S. population: urban consumers, wage earners, professionals, the self employed, the unemployed, and retirees.' },
+        { type: 'h2', text: 'Reading the headline number' },
+        { type: 'p', text: 'The headline rate is the change over twelve months, not one month, which smooths one off jumps. A second figure, core inflation, removes food and energy because their prices swing with weather and world events, and central bankers watch it to see the underlying trend. Neither number is your personal inflation: a household that rents, drives far, or pays tuition lives a different basket than the average.' },
+        { type: 'callout', text: 'The BLS is exact about its method: a fixed basket, repriced on schedule, about 94,000 price quotes a month, published whether the number is welcome or not.' },
+      ],
+
+      keyTerms: ['Consumer Price Index', 'inflation', 'BLS', 'market basket', 'core inflation', 'CPI-U'],
+
+      resources: {
+        articles: [
+          {
+            title: 'Consumer Price Index: Handbook of Methods',
+            source: 'U.S. Bureau of Labor Statistics',
+            url: 'https://www.bls.gov/opub/hom/cpi/',
+            why: 'The BLS method chapter: what the CPI measures, the roughly 94,000 prices collected monthly, and the CPI-U population coverage of about 93 percent.',
+            year: null,
+          },
+        ],
+      },
+
+      seeAlso: ['rule_of_72', 'federal_minimum_wage', 'apr_basics'],
+
+      sources: [
+        'https://www.bls.gov/opub/hom/cpi/',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    federal_minimum_wage: {
+      id: 'federal_minimum_wage',
+      name: 'The Federal Minimum Wage',
+      level: 'Beginner',
+      dek: 'The federal minimum wage has stood at 7.25 dollars an hour since July 2009, says the Labor Department.',
+      readTime: '4 min',
+
+      sections: ['The number and its date', 'Federal floor, state ceilings', 'The tipped wage'],
+      body: [
+        { type: 'lead', text: 'The federal minimum wage in the United States is $7.25 per hour. It took effect on July 24, 2009, under the Fair Labor Standards Act, and it has not changed since. It is a floor for covered workers, not a typical wage: most states set their own minimums above it.' },
+        { type: 'h2', text: 'Federal floor, state ceilings' },
+        { type: 'p', text: 'Where a worker is covered by both federal and state minimum wage law, the Department of Labor\'s rule is simple: the employee is entitled to the higher of the two rates. In states with no minimum wage law or one below the federal level, the federal $7.25 governs. In much of the country the state rate is what actually binds, often several dollars higher.' },
+        { type: 'p', text: 'Because the federal figure is fixed in statute while prices rise, its buying power falls a little each year it stands still. Adjusted for inflation, $7.25 in 2009 was worth considerably more than $7.25 today, a decline that happens without any vote ever being taken to cut it.' },
+        { type: 'h2', text: 'The tipped wage' },
+        { type: 'p', text: 'For tipped employees, federal law lets employers pay a cash wage as low as $2.13 an hour, on the condition that tips bring the worker to at least the full $7.25. If tips fall short, the employer must make up the difference. The guarantee is the full minimum; the tip credit is only an accounting route to it.' },
+        { type: 'callout', text: 'The Department of Labor keeps the dates attached: $7.25 effective July 24, 2009, the tipped cash wage $2.13 with the employer owing any shortfall.' },
+      ],
+
+      keyTerms: ['minimum wage', 'Fair Labor Standards Act', 'Department of Labor', 'tip credit', 'coverage', 'inflation'],
+
+      resources: {
+        articles: [
+          {
+            title: 'Minimum Wage FAQs',
+            source: 'U.S. Department of Labor, Wage and Hour Division',
+            url: 'https://www.dol.gov/agencies/whd/minimum-wage/faq',
+            why: 'The Labor Department\'s own answers: $7.25 since July 24, 2009, the higher rate governs where both laws apply, and the $2.13 tipped cash wage with employer make up.',
+            year: null,
+          },
+        ],
+      },
+
+      seeAlso: ['women_workforce', 'unpaid_care_work', 'emergency_savings'],
+
+      sources: [
+        'https://www.dol.gov/agencies/whd/minimum-wage/faq',
+      ],
+      verifiedAt: '2026-10-15',
+    },
   },
 };
 
@@ -21337,6 +22184,214 @@ window.CONTENT.finance = {
       verifiedAt: '2026-04-23',
     },
 
+
+    rule_of_72: {
+      id: 'rule_of_72',
+      name: 'The Rule of 72: Doubling Your Money',
+      level: 'Beginner',
+      dek: 'Divide 72 by your yearly return to estimate how many years money takes to double.',
+      readTime: '4 min',
+
+      sections: ['The trick', 'Worked examples', 'What it leaves out'],
+      body: [
+        { type: 'lead', text: 'The Rule of 72 is the fastest useful estimate in personal finance. Divide 72 by an investment\'s annual rate of return, and the answer is roughly how many years the money takes to double, with no calculator and no spreadsheet. At a 9 percent return, 72 divided by 9 is 8: about eight years to double.' },
+        { type: 'h2', text: 'Worked examples' },
+        { type: 'p', text: 'At 3 percent, money doubles in about 24 years. At 6 percent, about 12 years. At 12 percent, about 6 years. The rule works in reverse for debt and inflation: at 4 percent inflation, prices double, and the buying power of idle cash halves, in about 18 years. Applied to a credit card charging 24 percent, an unpaid balance doubles in about 3 years, which is the same arithmetic wearing a different expression.' },
+        { type: 'p', text: 'Investor.gov, the Securities and Exchange Commission\'s investor education site, teaches the rule alongside compound interest itself, because the two are the same idea: growth builds on growth, so time does more work than amount once a balance is rolling.' },
+        { type: 'h2', text: 'What it leaves out' },
+        { type: 'p', text: 'The rule assumes a steady return, and real returns wobble. It ignores taxes, fees, and new deposits or withdrawals. It is an estimate, most accurate for returns in the middle range, roughly 5 to 12 percent. Used for what it is, a sanity check you can do in your head at a kitchen table, it is exact enough to expose a bad deal and to show why starting early matters more than starting big.' },
+        { type: 'callout', text: 'One number, three uses: years to double a savings balance, years for a debt to double, years for inflation to halve idle cash. All are 72 divided by the rate.' },
+      ],
+
+      keyTerms: ['compound interest', 'rule of 72', 'rate of return', 'doubling time', 'inflation', 'Investor.gov'],
+
+      resources: {
+        articles: [
+          {
+            title: 'What Is Compound Interest?',
+            source: 'Investor.gov (U.S. Securities and Exchange Commission)',
+            url: 'https://www.investor.gov/additional-resources/information/youth/teachers-classroom-resources/what-compound-interest',
+            why: 'The SEC\'s classroom page teaching compound interest and the rule: divide 72 by the rate of return to estimate the years to double; at 9 percent, about 8 years.',
+            year: null,
+          },
+        ],
+      },
+
+      seeAlso: ['emergency_savings', 'apr_basics', 'inflation_cpi'],
+
+      sources: [
+        'https://www.investor.gov/additional-resources/information/youth/teachers-classroom-resources/what-compound-interest',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    emergency_savings: {
+      id: 'emergency_savings',
+      name: 'The 400 Dollar Test',
+      level: 'Beginner',
+      dek: 'In 2023, 63 percent of adults could cover a 400 dollar emergency with cash, says the Federal Reserve.',
+      readTime: '4 min',
+
+      sections: ['The survey question', 'The trend', 'What the number is for'],
+      body: [
+        { type: 'lead', text: 'Every year the Federal Reserve asks American adults a plain question: how would you cover a hypothetical $400 emergency expense? In 2023, 63 percent said they would pay it with cash or its equivalent, a credit card paid off at the next statement, or money already in hand. Thirteen percent said they could not pay it by any means.' },
+        { type: 'h2', text: 'The trend' },
+        { type: 'p', text: 'The series comes from the Fed\'s Survey of Household Economics and Decisionmaking, published in its annual Economic Well-Being of U.S. Households report. The cash coverage figure peaked at 68 percent in 2021, then fell back as pandemic era support ended and prices rose. The survey is careful about what it measures: a small shock, not a catastrophe. Four hundred dollars is a car repair, a dental bill, a broken phone.' },
+        { type: 'p', text: 'The remaining adults split between borrowing, selling something, asking family, or carrying a card balance they could not clear. The point of the question is precisely that it is small: a household that cannot absorb $400 has no slack at all, and every larger shock goes straight to debt.' },
+        { type: 'h2', text: 'What the number is for' },
+        { type: 'p', text: 'For a household, the test is a target in disguise: a first savings goal of $400, then $1,000, then a month of expenses. For policy, the same number is a floor measure: the share of adults one small emergency away from borrowing. Either way, it is the rare statistic you can apply to yourself in one honest minute.' },
+        { type: 'callout', text: 'The Federal Reserve, 2023 data: 63 percent would cover the $400 with cash or its equivalent, 13 percent could not pay it by any means, and the series peak was 68 percent in 2021.' },
+      ],
+
+      keyTerms: ['emergency expense', 'Federal Reserve', 'SHED', 'household well-being', 'savings buffer', 'liquidity'],
+
+      resources: {
+        articles: [
+          {
+            title: 'Economic Well-Being of U.S. Households in 2023: Expenses',
+            source: 'Board of Governors of the Federal Reserve System',
+            url: 'https://www.federalreserve.gov/publications/2024-economic-well-being-of-us-households-in-2023-expenses.htm',
+            why: 'The Fed\'s own report page for the $400 question: 63 percent cash coverage in 2023, 13 percent unable to pay, 68 percent at the 2021 peak.',
+            year: 2024,
+          },
+        ],
+      },
+
+      seeAlso: ['rule_of_72', 'credit_scores', 'standard_deduction'],
+
+      sources: [
+        'https://www.federalreserve.gov/publications/2024-economic-well-being-of-us-households-in-2023-expenses.htm',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    credit_scores: {
+      id: 'credit_scores',
+      name: 'Credit Scores: What the Number Counts',
+      level: 'Beginner',
+      dek: 'FICO scores run 300 to 850, weighted most by paying on time and how much you owe.',
+      readTime: '4 min',
+
+      sections: ['The range', 'The five weights', 'Using the weights'],
+      body: [
+        { type: 'lead', text: 'A FICO credit score runs from 300 to 850, and higher is better: lenders read it as a prediction of how likely you are to repay. FICO publishes the five categories the score is built from and how much each counts, which makes the number less mysterious than it looks. Payment history counts for 35 percent. Amounts owed count for 30 percent.' },
+        { type: 'h2', text: 'The five weights' },
+        { type: 'p', text: 'The remaining three categories are smaller. Length of credit history counts for 15 percent: older accounts help, which is why closing your oldest card can dent a score. Credit mix counts for 10 percent: handling different kinds of credit, a card and a loan, counts modestly in your favor. New credit counts for 10 percent: opening several accounts in a short span reads as risk.' },
+        { type: 'p', text: 'The order of the weights is the useful part. Two thirds of the score, payment history and amounts owed, is behavior entirely within the borrower\'s control this month: pay on time, every time, and keep balances low relative to their limits. The rest improves mostly by waiting.' },
+        { type: 'h2', text: 'Using the weights' },
+        { type: 'p', text: 'Amounts owed is measured largely by utilization, the share of your credit limits you are using, so paying a balance down before the statement closes can move the score faster than anything else except fixing missed payments. Scores differ between the bureaus and between score versions, so the number to watch is the trend of your own score, not a single day\'s figure from a single app.' },
+        { type: 'callout', text: 'FICO\'s published weights, complete: payment history 35, amounts owed 30, length of history 15, credit mix 10, new credit 10. They add to 100, and the top two are this month\'s behavior.' },
+      ],
+
+      keyTerms: ['FICO score', 'payment history', 'utilization', 'credit mix', 'credit bureau', 'credit limit'],
+
+      resources: {
+        articles: [
+          {
+            title: 'What Is a FICO Score vs. TransUnion vs. Equifax Credit Scores?',
+            source: 'SoFi Learn (summarizing FICO\'s published scoring factors)',
+            url: 'https://www.sofi.com/learn/content/what-is-fico-vs-transunion-vs-equifax-credit-scores/',
+            why: 'A clear statement of FICO\'s published model: the 300 to 850 range and the five factor weights, 35, 30, 15, 10, and 10 percent.',
+            year: null,
+          },
+        ],
+      },
+
+      seeAlso: ['apr_basics', 'emergency_savings', 'rule_of_72'],
+
+      sources: [
+        'https://www.sofi.com/learn/content/what-is-fico-vs-transunion-vs-equifax-credit-scores/',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    standard_deduction: {
+      id: 'standard_deduction',
+      name: 'The Standard Deduction, 2025',
+      level: 'Beginner',
+      dek: 'For 2025 the standard deduction is 15,750 dollars single after new legislation raised the IRS schedule.',
+      readTime: '4 min',
+
+      sections: ['What it is', 'The 2025 numbers, both steps', 'Standard or itemized'],
+      body: [
+        { type: 'lead', text: 'The standard deduction is the amount of income the federal tax system does not tax, no receipts required. For tax year 2025, the amounts are $15,750 for single filers, $31,500 for married couples filing jointly, and $23,625 for heads of household. Those are the final figures, and how they got there is a two step story worth telling straight.' },
+        { type: 'h2', text: 'The 2025 numbers, both steps' },
+        { type: 'p', text: 'Step one: the IRS\'s annual inflation adjustment, Revenue Procedure 2024-40, set the 2025 deduction at $15,000 single, $30,000 joint, and $22,500 head of household. Those figures are what the IRS newsroom announced in October 2024 and what many pages still show.' },
+        { type: 'p', text: 'Step two: tax legislation signed in July 2025 raised the 2025 amounts above the inflation schedule, to $15,750, $31,500, and $23,625. Anyone filing a 2025 return in early 2026 uses the second set. When two official looking numbers disagree, the later law wins, and a good record says both and why.' },
+        { type: 'h2', text: 'Standard or itemized' },
+        { type: 'p', text: 'A filer takes the standard deduction or itemizes, whichever is larger, never both. Itemizing means adding up specific deductions, mortgage interest, state and local taxes within their cap, charitable gifts, and claiming the total if it beats the standard amount. Most filers take the standard deduction, which is why its level quietly sets the tax bill for most households.' },
+        { type: 'callout', text: 'Both sets are real, with dates: IRS inflation schedule, $15,000 / $30,000 / $22,500 (Revenue Procedure 2024-40); final law for 2025, $15,750 / $31,500 / $23,625.' },
+      ],
+
+      keyTerms: ['standard deduction', 'itemizing', 'filing status', 'Revenue Procedure 2024-40', 'taxable income', 'head of household'],
+
+      resources: {
+        articles: [
+          {
+            title: 'IRS releases tax inflation adjustments for tax year 2025',
+            source: 'Internal Revenue Service',
+            url: 'https://www.irs.gov/newsroom/irs-releases-tax-inflation-adjustments-for-tax-year-2025',
+            why: 'The IRS announcement of the inflation schedule: $15,000 single, $30,000 joint, $22,500 head of household under Revenue Procedure 2024-40.',
+            year: 2024,
+          },
+          {
+            title: 'The Standard Deduction for 2025: How It Works Plus Updated Amounts',
+            source: 'Kiplinger',
+            url: 'https://www.kiplinger.com/taxes/tax-deductions/602223/standard-deduction&',
+            why: 'Kiplinger on the updated final 2025 amounts after the July 2025 legislation: $15,750 single, $31,500 joint, $23,625 head of household.',
+            year: 2025,
+          },
+        ],
+      },
+
+      seeAlso: ['emergency_savings', 'federal_minimum_wage', 'apr_basics'],
+
+      sources: [
+        'https://www.irs.gov/newsroom/irs-releases-tax-inflation-adjustments-for-tax-year-2025',
+        'https://www.kiplinger.com/taxes/tax-deductions/602223/standard-deduction&',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    apr_basics: {
+      id: 'apr_basics',
+      name: 'APR: The Real Price of a Loan',
+      level: 'Beginner',
+      dek: 'APR folds a loan\'s interest rate and lender fees into one number so loans can be compared.',
+      readTime: '4 min',
+
+      sections: ['Rate versus APR', 'Why the law requires it', 'Comparing two offers'],
+      body: [
+        { type: 'lead', text: 'The interest rate on a loan is not its whole price. The annual percentage rate, APR, is the broader measure: it takes the interest rate and adds the additional fees the lender charges, so the APR is the cost of credit stated as a yearly rate. The Consumer Financial Protection Bureau\'s rule of thumb is direct: because APR includes fees, it is the number to compare across lenders.' },
+        { type: 'h2', text: 'Why the law requires it' },
+        { type: 'p', text: 'The Truth in Lending Act requires lenders to disclose the APR before a loan is finalized. The reason is the fee trick: a loan can advertise a low interest rate while charging origination fees, points, and other costs that make it the more expensive offer in fact. Folding the fees into one rate makes that trick visible at a glance.' },
+        { type: 'p', text: 'Two loans with the same interest rate can carry different APRs, and the one with the higher APR costs more overall. Two loans with the same APR can still differ in monthly payment and term, so APR is the comparison for price, not for fit.' },
+        { type: 'h2', text: 'Comparing two offers' },
+        { type: 'p', text: 'Compare APR to APR, for the same loan amount and the same term. Then check what the APR cannot show: prepayment penalties, variable rates that can reset upward, and fees for late payment. On credit cards the APR is usually just the interest rate, since annual fees are not folded in, which is one more reason the CFPB keeps a plain language glossary of the terms.' },
+        { type: 'callout', text: 'The CFPB in one line: APR is a broader measure of the cost of borrowing than the interest rate, because it includes the interest rate plus additional lender fees.' },
+      ],
+
+      keyTerms: ['APR', 'interest rate', 'Truth in Lending Act', 'origination fee', 'CFPB', 'term'],
+
+      resources: {
+        articles: [
+          {
+            title: 'What is the difference between a loan interest rate and the APR?',
+            source: 'Consumer Financial Protection Bureau (Ask CFPB)',
+            url: 'https://www.consumerfinance.gov/ask-cfpb/what-is-the-difference-between-a-loan-interest-rate-and-the-apr-en-733/',
+            why: 'The regulator\'s own answer: APR is the interest rate plus additional fees, the Truth in Lending Act requires its disclosure, and APRs are the way to compare lenders.',
+            year: null,
+          },
+        ],
+      },
+
+      seeAlso: ['credit_scores', 'rule_of_72', 'spotting_fraud'],
+
+      sources: [
+        'https://www.consumerfinance.gov/ask-cfpb/what-is-the-difference-between-a-loan-interest-rate-and-the-apr-en-733/',
+      ],
+      verifiedAt: '2026-10-15',
+    },
   },
 };
 
@@ -21713,6 +22768,174 @@ window.CONTENT.firstaid = {
       verifiedAt: '2026-04-23',
     },
 
+
+    cpr_basics: {
+      id: 'cpr_basics',
+      name: 'CPR Basics: The First Minutes',
+      level: 'Beginner',
+      dek: 'Immediate CPR can double or triple survival after cardiac arrest, with compressions at 100 to 120 a minute.',
+      readTime: '4 min',
+
+      sections: ['Why minutes decide', 'Hands-only CPR', 'The pace and the depth'],
+      body: [
+        { type: 'lead', text: 'When a heart stops, survival is decided in minutes, usually before an ambulance can arrive. The American Heart Association\'s figures are stark: about 9 out of 10 people who suffer an out of hospital cardiac arrest die, but immediate CPR can double or triple a person\'s chance of survival. Every minute of delay reduces the odds by roughly 10 percent.' },
+        { type: 'h2', text: 'Hands-only CPR' },
+        { type: 'p', text: 'For an adult who suddenly collapses, the AHA teaches two steps for bystanders: call 911, then push hard and fast in the center of the chest. No training in rescue breaths is required for this hands only version, and doing something is far better than doing nothing. If an automated external defibrillator, an AED, is available, use it: it talks the user through each step aloud.' },
+        { type: 'p', text: 'Push with the heel of one hand in the center of the chest, the other hand on top, arms straight, using your body weight. Let the chest come fully back up between pushes. Trade off with another person every couple of minutes if one is there, because depth fades as arms tire.' },
+        { type: 'h2', text: 'The pace and the depth' },
+        { type: 'p', text: 'The target pace is 100 to 120 compressions per minute, the beat of the song "Stayin\' Alive," which the AHA itself uses as the memory aid. Compressions should be at least 2 inches deep on an adult. A short certified course, often a few hours, covers CPR for children and infants, rescue breaths, and AED practice, and it is the right way to make this page unnecessary to remember under stress.' },
+        { type: 'callout', text: 'General information only, from the American Heart Association: call 911, push hard and fast at 100 to 120 per minute, use an AED if one is near. Training turns this into a skill.' },
+      ],
+
+      keyTerms: ['cardiac arrest', 'CPR', 'compression rate', 'AED', 'hands-only CPR', 'bystander'],
+
+      resources: {
+        articles: [
+          {
+            title: '11 things to know to save a life with CPR',
+            source: 'American Heart Association News',
+            url: 'https://www.heart.org/en/news/2023/02/01/11-things-to-know-to-save-a-life-with-cpr',
+            why: 'The AHA\'s own explainer: 9 of 10 out of hospital victims die, immediate CPR can double or triple survival, compressions at 100 to 120 per minute, about 10 percent lost per minute of delay.',
+            year: 2023,
+          },
+        ],
+      },
+
+      seeAlso: ['stroke_fast', 'choking_first_aid', 'hand_hygiene'],
+
+      sources: [
+        'https://www.heart.org/en/news/2023/02/01/11-things-to-know-to-save-a-life-with-cpr',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    hand_hygiene: {
+      id: 'hand_hygiene',
+      name: 'Handwashing: The Cheapest Medicine',
+      level: 'Beginner',
+      dek: 'Handwashing education cuts diarrhea by up to forty percent and respiratory illness by about a fifth, says CDC.',
+      readTime: '4 min',
+
+      sections: ['The measured effect', 'When and how', 'The global gap'],
+      body: [
+        { type: 'lead', text: 'Handwashing with soap is among the most measured interventions in public health. The Centers for Disease Control and Prevention reports that handwashing education reduces diarrheal illness by 23 to 40 percent, respiratory illnesses like colds by 16 to 21 percent, and absenteeism from gastrointestinal illness among schoolchildren by 29 to 57 percent.' },
+        { type: 'h2', text: 'When and how' },
+        { type: 'p', text: 'The moments that matter are the transfer points: after using the toilet, before preparing or eating food, after coughing, sneezing, or caring for someone sick, and after handling animals or garbage. The method is friction plus time: wet, lather, scrub all surfaces including backs of hands and under nails for 20 seconds, rinse, and dry. Sanitizer with at least 60 percent alcohol is the backup when soap and water are not available, and it does not replace washing when hands are visibly dirty.' },
+        { type: 'p', text: 'The stakes concentrate in young children. The CDC notes that diarrhea and pneumonia together kill about 1.8 million children under five worldwide each year, and handwashing interrupts the route both diseases travel, from surfaces and hands to mouths.' },
+        { type: 'h2', text: 'The global gap' },
+        { type: 'p', text: 'The CDC\'s estimate for the world is humbling: only about 19 percent of people wash their hands after using the toilet. The barrier is rarely knowledge. It is water, soap, and facilities, which is why hand hygiene sits inside water and sanitation policy and not only inside health advice.' },
+        { type: 'callout', text: 'Florence Nightingale\'s lesson, kept: the cheapest interventions, done consistently, move the largest numbers. The CDC rates handwashing education among the most effective public health measures known.' },
+      ],
+
+      keyTerms: ['hand hygiene', 'soap', 'diarrheal disease', 'respiratory illness', 'CDC', 'sanitation'],
+
+      resources: {
+        articles: [
+          {
+            title: 'Handwashing Facts and Stats',
+            source: 'Centers for Disease Control and Prevention',
+            url: 'https://www.cdc.gov/clean-hands/data-research/facts-stats/',
+            why: 'The CDC\'s data page: diarrhea reduced 23 to 40 percent, respiratory illness 16 to 21 percent, school absenteeism 29 to 57 percent, and the global estimate of 19 percent washing after toilet use.',
+            year: null,
+          },
+        ],
+      },
+
+      seeAlso: ['germ_theory', 'nightingale', 'how_vaccines_work'],
+
+      sources: [
+        'https://www.cdc.gov/clean-hands/data-research/facts-stats/',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    stroke_fast: {
+      id: 'stroke_fast',
+      name: 'Recognizing a Stroke: B.E. F.A.S.T.',
+      level: 'Beginner',
+      dek: 'Balance, eyes, face, arms, speech, time: the CDC checklist that gets stroke treatment started fast enough.',
+      readTime: '4 min',
+
+      sections: ['The six letters', 'Why time is the treatment', 'What to do, in order'],
+      body: [
+        { type: 'lead', text: 'A stroke cuts blood flow to part of the brain, and brain cells begin dying within minutes. The CDC teaches the public to spot one with six letters: B.E. F.A.S.T. Balance lost suddenly. Eyes, vision blurred or lost. Face drooping on one side. Arm weakness, one arm drifting down. Speech slurred or strange. Time, to call 911 at the first sign.' },
+        { type: 'h2', text: 'Why time is the treatment' },
+        { type: 'p', text: 'The most effective stroke treatments, clot busting medicine and clot removal procedures, work only in a short window, and the CDC\'s guidance is that patients who arrive at the emergency room within 3 hours of their first symptoms often have less disability than those who delay. The clock starts at the first symptom, not at the hospital door, which is why noting the time symptoms began is part of the checklist bystanders are asked to perform.' },
+        { type: 'p', text: 'Do not drive the person yourself, and do not let them drive: an ambulance crew begins assessment and treatment on the way and takes the patient to a hospital equipped for stroke care. Do not give food, drink, or aspirin while waiting, because swallowing may be impaired and the stroke type is not yet known.' },
+        { type: 'h2', text: 'What to do, in order' },
+        { type: 'p', text: 'Run the letters. If any one is positive, call 911 and say you suspect a stroke. Write down or remember the time the symptoms started. Keep the person safe and still, and unlock the door for the crew if you can. That is the whole job, and it is worth practicing before it is needed: the CDC designed B.E. F.A.S.T. so a frightened bystander can still do it in order.' },
+        { type: 'callout', text: 'General information from the CDC, not medical advice: any single B.E. F.A.S.T. sign is enough to call 911. Treatment within 3 hours of first symptoms gives the best chance of less disability.' },
+      ],
+
+      keyTerms: ['stroke', 'B.E. F.A.S.T.', 'symptoms', '911', 'clot', 'time window'],
+
+      resources: {
+        articles: [
+          {
+            title: 'Stroke Signs and Symptoms',
+            source: 'Centers for Disease Control and Prevention',
+            url: 'https://www.cdc.gov/stroke/signs-symptoms/',
+            why: 'The CDC\'s page teaching B.E. F.A.S.T., the 3 hour treatment window, and the instructions: call 911, note the time symptoms began, do not drive.',
+            year: null,
+          },
+        ],
+      },
+
+      seeAlso: ['cpr_basics', 'choking_first_aid', 'sleep_needs'],
+
+      sources: [
+        'https://www.cdc.gov/stroke/signs-symptoms/',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    choking_first_aid: {
+      id: 'choking_first_aid',
+      name: 'Helping a Choking Adult',
+      level: 'Beginner',
+      dek: 'The Red Cross sequence: five back blows, five abdominal thrusts, repeat until the airway clears.',
+      readTime: '4 min',
+
+      sections: ['First, ask', 'Back blows, then thrusts', 'If the person goes down'],
+      body: [
+        { type: 'lead', text: 'Choking is an airway blocked by an object, most often food. The Canadian Red Cross sequence for a conscious adult who cannot speak, cough, or breathe is cycles of 5 firm back blows between the shoulder blades, then 5 abdominal thrusts, repeated until the object comes out or the person becomes unconscious.' },
+        { type: 'h2', text: 'First, ask' },
+        { type: 'p', text: 'Ask: are you choking? If the person can speak or cough forcefully, the airway is partly open and coughing is the best tool: encourage it and stay with them. The back blow and thrust sequence is for the person who cannot speak, cough effectively, or breathe, or whose cough is silent. That person needs hands on help immediately, and someone should call 911 or send a specific person to call.' },
+        { type: 'p', text: 'For back blows, support the person leaning forward and strike firmly between the shoulder blades with the heel of your hand, checking after each blow whether the object has cleared. For abdominal thrusts, stand behind, make a fist just above the navel, grasp it with the other hand, and pull sharply inward and upward.' },
+        { type: 'h2', text: 'If the person goes down' },
+        { type: 'p', text: 'If the person becomes unconscious, lower them to the ground, make sure emergency services are called, and begin CPR, checking the mouth for the object before giving breaths. Do not do blind finger sweeps, which can push an object deeper. Children and infants use different techniques, with no abdominal thrusts for infants, which is one more reason a certified course is the real teacher and this page is only its reminder.' },
+        { type: 'callout', text: 'General information from Red Cross guidance: 5 back blows, then 5 abdominal thrusts, in cycles, for a conscious adult who cannot speak, cough, or breathe. Call 911 early; if they collapse, start CPR.' },
+      ],
+
+      keyTerms: ['choking', 'back blows', 'abdominal thrusts', 'airway', 'Red Cross', 'CPR'],
+
+      resources: {
+        articles: [
+          {
+            title: 'Choking: Adult (first aid poster)',
+            source: 'Canadian Red Cross',
+            url: 'https://cdn.redcross.ca/prodmedia/crc/documents/fa_poster_chokingadult_web.pdf',
+            why: 'The Red Cross poster stating the adult sequence: cycles of 5 back blows and 5 abdominal thrusts until the object clears or the person becomes unconscious.',
+            year: null,
+          },
+          {
+            title: 'What to do if an adult is choking',
+            source: 'Canadian Red Cross',
+            url: 'https://www.redcross.ca/blog/2021/9/what-to-do-if-an-adult-is-choking',
+            why: 'The Red Cross explainer behind the poster, including when to call EMS and when to move to CPR.',
+            year: 2021,
+          },
+        ],
+      },
+
+      seeAlso: ['cpr_basics', 'stroke_fast', 'safe_cooking_temperatures'],
+
+      sources: [
+        'https://cdn.redcross.ca/prodmedia/crc/documents/fa_poster_chokingadult_web.pdf',
+        'https://www.redcross.ca/blog/2021/9/what-to-do-if-an-adult-is-choking',
+      ],
+      verifiedAt: '2026-10-15',
+    },
   },
 };
 
@@ -25344,6 +26567,166 @@ window.CONTENT.geography = {
       verifiedAt: '2026-10-15',
     },
 
+
+    co2_atmosphere: {
+      id: 'co2_atmosphere',
+      name: 'Carbon Dioxide in the Atmosphere',
+      level: 'Beginner',
+      dek: 'Atmospheric carbon dioxide is up more than fifty percent since 1750, primarily from fossil fuels, says NASA.',
+      readTime: '4 min',
+
+      sections: ['The baseline: 1750', 'How we know', 'Why the fraction matters'],
+      body: [
+        { type: 'lead', text: 'Carbon dioxide in the atmosphere has increased more than 50 percent since 1750, NASA reports: the level now stands at 150 percent of its 1750 value. The cause is stated in the same breath on NASA\'s Earth indicators page: primarily the burning of fossil fuels. Ice core records give the before, and direct measurement gives the after.' },
+        { type: 'h2', text: 'How we know' },
+        { type: 'p', text: 'Air bubbles trapped in Antarctic ice preserve samples of the ancient atmosphere, which laboratories can measure directly for past centuries. Since 1958, instruments on Hawaii\'s Mauna Loa have measured the air itself, producing the Keeling Curve, the long rising line, saw toothed by the seasons, that is the signature graph of the subject. The two records join seamlessly where they overlap.' },
+        { type: 'p', text: 'The fingerprint is chemical as well as numerical. Carbon from fossil fuels carries a distinctive isotope signature, and the atmosphere\'s carbon is shifting to match it, while atmospheric oxygen declines by the amount combustion would consume. The increase is not a mystery looking for a cause; the cause leaves receipts.' },
+        { type: 'h2', text: 'Why the fraction matters' },
+        { type: 'p', text: 'Carbon dioxide is a small fraction of the air, measured in parts per million, but it absorbs infrared radiation leaving the Earth, so its concentration sets a control on the planet\'s temperature. A 50 percent rise in that control since 1750 is the physical driver behind the warming the same agencies measure independently in thermometers, oceans, and ice.' },
+        { type: 'callout', text: 'NASA\'s indicator page keeps the claim minimal and sourced: more than 50 percent up since 1750, now 150 percent of the 1750 level, primarily fossil fuel burning.' },
+      ],
+
+      keyTerms: ['carbon dioxide', 'atmosphere', 'fossil fuels', 'Keeling Curve', 'ice cores', 'greenhouse gas'],
+
+      resources: {
+        articles: [
+          {
+            title: 'Carbon Dioxide (Earth Indicators)',
+            source: 'NASA Science',
+            url: 'https://science.nasa.gov/earth/explore/earth-indicators/carbon-dioxide/',
+            why: 'NASA\'s indicator page: the increase of more than 50 percent since 1750, the level at 150 percent of the 1750 value, and fossil fuel burning named as the primary cause.',
+            year: null,
+          },
+        ],
+      },
+
+      seeAlso: ['how_photosynthesis_works', 'ocean_acidification', 'atmosphere_water'],
+
+      sources: [
+        'https://science.nasa.gov/earth/explore/earth-indicators/carbon-dioxide/',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    wetlands: {
+      id: 'wetlands',
+      name: 'Wetlands: Six Percent Holding Forty Percent',
+      level: 'Beginner',
+      dek: 'Wetlands cover about six percent of Earth\'s land yet host forty percent of all plant and animal species.',
+      readTime: '4 min',
+
+      sections: ['The Ramsar figures', 'What wetlands do', 'Why they are disappearing'],
+      body: [
+        { type: 'lead', text: 'Wetlands cover an estimated 6 percent of the Earth\'s land surface, and 40 percent of all plant and animal species live or breed in them. Those are the figures of the Ramsar Convention, the international treaty for wetlands, and they state the disproportion plainly: a small share of the land carrying an outsized share of life.' },
+        { type: 'h2', text: 'What wetlands do' },
+        { type: 'p', text: 'A wetland is land saturated with water, permanently or seasonally: marshes, swamps, bogs, deltas, mangroves, floodplains. Sitting between land and open water, wetlands filter sediment and pollutants out of water passing through, absorb flood peaks and release water slowly, protect coasts from storm surge, and store large amounts of carbon in their soils. Their species richness comes from the same in between character: food, shelter, and nursery shallows in one place.' },
+        { type: 'p', text: 'Many fisheries depend on them without appearing to. Shrimp, crabs, and numerous fish species breed or spend their youth in coastal wetlands, so a drained marsh shows up later as an empty catch far offshore.' },
+        { type: 'h2', text: 'Why they are disappearing' },
+        { type: 'p', text: 'Wetlands are drained for farmland and building, starved by diverted rivers, and drowned in place by sea level rise where they cannot migrate inland. They are lost faster than forests, which is why the Ramsar Convention lists sites of international importance and why its 40 percent figure is quoted so often: it converts a habitat most people drive past into a measured share of the living world.' },
+        { type: 'callout', text: 'The convention\'s numbers in one line: about 6 percent of the land surface, 40 percent of all species living or breeding there. Small area, heavy load.' },
+      ],
+
+      keyTerms: ['wetland', 'Ramsar Convention', 'biodiversity', 'flood control', 'carbon storage', 'habitat loss'],
+
+      resources: {
+        articles: [
+          {
+            title: 'Summary of the Ramsar Convention on Wetlands COP15',
+            source: 'IISD Earth Negotiations Bulletin',
+            url: 'https://enb.iisd.org/ramsar-convention-wetlands-cop15-summary',
+            why: 'The conference summary carrying the Ramsar figures: wetlands cover an estimated 6 percent of Earth\'s land surface and 40 percent of all plant and animal species live or breed in wetlands.',
+            year: 2025,
+          },
+        ],
+      },
+
+      seeAlso: ['coral_reefs', 'groundwater', 'the_world_ocean'],
+
+      sources: [
+        'https://enb.iisd.org/ramsar-convention-wetlands-cop15-summary',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    the_world_ocean: {
+      id: 'the_world_ocean',
+      name: 'One World Ocean',
+      level: 'Beginner',
+      dek: 'A single connected ocean covers seventy one percent of Earth\'s surface and averages 2.3 miles deep.',
+      readTime: '4 min',
+
+      sections: ['One ocean, several names', 'The NOAA dimensions', 'Why the average depth surprises'],
+      body: [
+        { type: 'lead', text: 'Earth has one ocean. The Pacific, Atlantic, Indian, Southern, and Arctic are names for regions of a single connected body of water that covers 71 percent of the planet\'s surface. NOAA\'s figures give the scale: an area of 139,400,000 square miles, and an average depth of 2.3 miles.' },
+        { type: 'h2', text: 'One ocean, several names' },
+        { type: 'p', text: 'Water flows between all the named oceans, and currents connect them into one circulation. The divisions are human geography, drawn at continents and convention lines. From space the fact is obvious: this is an ocean planet with land scattered on it, and the ocean holds the overwhelming majority of the water and of the living space on Earth.' },
+        { type: 'h2', text: 'The NOAA dimensions' },
+        { type: 'p', text: 'The 71 percent surface share and 2.3 mile average depth multiply into a volume so large that the ocean contains about 97 percent of Earth\'s water, with ice caps and groundwater dividing most of the rest. NOAA\'s Science On a Sphere dataset, built for museums and classrooms, states the three headline dimensions together, area, coverage, and average depth, which is why they are quoted together here.' },
+        { type: 'p', text: 'Average depth hides the range. Much of the ocean floor is an abyssal plain 3 to 5 miles down, and the Mariana Trench reaches nearly 7 miles, deeper than Everest is tall. The sunlit surface layer where most familiar sea life lives is a skin on top of that volume.' },
+        { type: 'callout', text: 'NOAA\'s numbers in one line: 71 percent of the surface, 139.4 million square miles, average depth 2.3 miles. One ocean, wearing five names.' },
+      ],
+
+      keyTerms: ['world ocean', 'NOAA', 'average depth', 'Mariana Trench', 'currents', 'surface coverage'],
+
+      resources: {
+        articles: [
+          {
+            title: 'Ocean Drain (with Gray Bathymetry)',
+            source: 'NOAA Science On a Sphere',
+            url: 'https://sos.noaa.gov/catalog/datasets/ocean-drain-with-gray-bathymetry/',
+            why: 'NOAA\'s dataset page stating the dimensions: the ocean covers 71 percent of Earth\'s surface, spans 139,400,000 square miles, and averages 2.3 miles deep.',
+            year: null,
+          },
+        ],
+      },
+
+      seeAlso: ['ocean_acidification', 'coral_reefs', 'moon_recession'],
+
+      sources: [
+        'https://sos.noaa.gov/catalog/datasets/ocean-drain-with-gray-bathymetry/',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    ocean_acidification: {
+      id: 'ocean_acidification',
+      name: 'Ocean Acidification: The Other Carbon Problem',
+      level: 'Beginner',
+      dek: 'Since the industrial revolution, surface ocean pH has fallen 0.1 units, about thirty percent more acidity, says NOAA.',
+      readTime: '4 min',
+
+      sections: ['The chemistry in one paragraph', 'Why 0.1 is not small', 'Who feels it first'],
+      body: [
+        { type: 'lead', text: 'The ocean absorbs a large share of the carbon dioxide people add to the air, and the absorption changes the water itself. Dissolved carbon dioxide forms carbonic acid, and since the industrial revolution the average pH of surface ocean water has fallen by 0.1 units, according to NOAA. Because the pH scale is logarithmic, that 0.1 represents about a 30 percent increase in acidity.' },
+        { type: 'h2', text: 'Why 0.1 is not small' },
+        { type: 'p', text: 'Logarithmic scales compress big changes into small numbers, the way one step on the Richter scale is a tenfold change in shaking. A 0.1 drop in pH means roughly 30 percent more hydrogen ions in the water. The same arithmetic explains the pace: the ocean is acidifying faster than at any time in the recent geological record that scientists can measure, because the carbon is arriving faster.' },
+        { type: 'p', text: 'Acidic water also holds less of the carbonate that shell building animals need. The chemistry is not an opinion about the future; it is the measured state of seawater now, tracked at monitoring stations worldwide.' },
+        { type: 'h2', text: 'Who feels it first' },
+        { type: 'p', text: 'Organisms that build shells and skeletons from calcium carbonate feel it first: oysters and other shellfish in their larval stage, corals building reefs, and tiny plankton at the base of ocean food webs. Hatcheries on the Pacific coast of North America have already had to treat intake water to keep oyster larvae alive through their most vulnerable days.' },
+        { type: 'callout', text: 'NOAA\'s line for teaching: pH down 0.1 since the industrial revolution, acidity up about 30 percent. The small number is the scale\'s fault, not the change\'s size.' },
+      ],
+
+      keyTerms: ['ocean acidification', 'pH', 'carbonic acid', 'carbonate', 'logarithmic scale', 'NOAA'],
+
+      resources: {
+        articles: [
+          {
+            title: 'Ocean Acidification (Ocean and Coasts resource collection)',
+            source: 'NOAA Education',
+            url: 'https://www.noaa.gov/education/resource-collections/ocean-coasts',
+            why: 'NOAA\'s education collection on ocean acidification: surface pH down 0.1 units since the industrial revolution, about a 30 percent increase in acidity on the logarithmic scale.',
+            year: null,
+          },
+        ],
+      },
+
+      seeAlso: ['co2_atmosphere', 'coral_reefs', 'the_world_ocean'],
+
+      sources: [
+        'https://www.noaa.gov/education/resource-collections/ocean-coasts',
+      ],
+      verifiedAt: '2026-10-15',
+    },
   },
 };
 
@@ -26362,6 +27745,134 @@ window.CONTENT.geology = {
       verifiedAt: '2026-10-15',
     },
 
+
+    groundwater: {
+      id: 'groundwater',
+      name: 'Groundwater: The Hidden Third of Fresh Water',
+      level: 'Beginner',
+      dek: 'Groundwater is thirty percent of Earth\'s fresh water and under two percent of all its water, says USGS.',
+      readTime: '4 min',
+
+      sections: ['Where Earth\'s water sits', 'The fresh water split', 'Why hidden water is slow water'],
+      body: [
+        { type: 'lead', text: 'Most of Earth\'s water is ocean: about 96.5 percent of the total. Of the small fresh remainder, the U.S. Geological Survey\'s accounting gives roughly 30.1 percent to groundwater, water held in soil and rock below the surface. Ice caps and glaciers hold most of the rest, and lakes and rivers, the fresh water anyone can see, are a sliver of a sliver.' },
+        { type: 'h2', text: 'The fresh water split' },
+        { type: 'p', text: 'Stated against all water on Earth, groundwater is about 1.7 percent. Stated against fresh water only, it is nearly a third, which makes it the largest store of liquid fresh water readily available to people. Wells and springs tap it, rivers are fed by it in dry seasons, and a large share of the world\'s irrigation and drinking water comes from it.' },
+        { type: 'p', text: 'The USGS draws the water cycle with groundwater as its slow reservoir. Rain and snowmelt seep down, fill pore spaces and fractures, and move, sometimes over days, sometimes over thousands of years, toward springs, streams, and wells.' },
+        { type: 'h2', text: 'Why hidden water is slow water' },
+        { type: 'p', text: 'Because it is out of sight, groundwater is easy to overdraw quietly. Where pumping exceeds recharge for decades, water tables fall, wells deepen, and in coastal areas seawater creeps in. The USGS figures are the standing reminder of the proportions: the water underfoot is a third of the fresh supply, and it refills at the speed of seepage, not the speed of need.' },
+        { type: 'callout', text: 'The USGS split, complete: oceans about 96.5 percent of all water; groundwater about 30.1 percent of the fresh water, about 1.7 percent of the whole.' },
+      ],
+
+      keyTerms: ['groundwater', 'aquifer', 'fresh water', 'water table', 'recharge', 'USGS'],
+
+      resources: {
+        articles: [
+          {
+            title: 'Groundwater Storage and the Water Cycle',
+            source: 'U.S. Geological Survey, Water Science School',
+            url: 'https://www.usgs.gov/water-science-school/science/groundwater-storage-and-water-cycle',
+            why: 'The USGS accounting: groundwater is about 30.1 percent of Earth\'s fresh water and about 1.7 percent of all water on Earth.',
+            year: null,
+          },
+        ],
+      },
+
+      seeAlso: ['atmosphere_water', 'wetlands', 'watercycle'],
+
+      sources: [
+        'https://www.usgs.gov/water-science-school/science/groundwater-storage-and-water-cycle',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    how_fast_plates_move: {
+      id: 'how_fast_plates_move',
+      name: 'How Fast Do Tectonic Plates Move',
+      level: 'Beginner',
+      dek: 'Plates creep at about the speed fingernails grow, a few centimeters a year, now measured by GPS.',
+      readTime: '4 min',
+
+      sections: ['The fingernail comparison', 'Measured, not guessed', 'What a few centimeters add up to'],
+      body: [
+        { type: 'lead', text: 'The U.S. Geological Survey answers its own frequent question with a household comparison: tectonic plates move roughly at the rate your fingernails grow, a few centimeters per year. Slow as it sounds, that pace, applied for millions of years, is what builds mountain ranges and opens oceans.' },
+        { type: 'h2', text: 'Measured, not guessed' },
+        { type: 'p', text: 'The rates are no longer inferred only from rocks. GPS instruments fixed to bedrock measure plate motion directly, to a fraction of a millimeter per year, and laser ranging to satellites checks the results. Different plates move at different speeds and in different directions, from about 1 to more than 10 centimeters a year, and the numbers used in geology today are observations, not estimates from theory.' },
+        { type: 'p', text: 'Where plates converge, the motion loads faults like springs. The movement is steady for centuries and then released in seconds, which is why the same few centimeters a year produce both the Himalaya and the earthquake: the average hides the violence of the release.' },
+        { type: 'h2', text: 'What a few centimeters add up to' },
+        { type: 'p', text: 'At 5 centimeters a year, a plate travels 50 kilometers in a million years and 5,000 kilometers in a hundred million. The Atlantic Ocean is widening today at about the fingernail rate, measurably wider each year between the Americas and Europe and Africa, and the ocean floor\'s magnetic stripes record the same spreading going back to when the Atlantic was closed.' },
+        { type: 'callout', text: 'The USGS line, kept whole: plates move at about the speed fingernails grow. GPS now times that growth to a fraction of a millimeter a year.' },
+      ],
+
+      keyTerms: ['tectonic plates', 'plate motion', 'GPS measurement', 'fault', 'continental drift', 'USGS'],
+
+      resources: {
+        articles: [
+          {
+            title: 'How fast do tectonic plates move?',
+            source: 'U.S. Geological Survey (FAQ)',
+            url: 'https://www.usgs.gov/faqs/how-fast-do-tectonic-plates-move',
+            why: 'The USGS answer: plates move roughly at the rate fingernails grow, a few centimeters a year, now measured directly by GPS to a fraction of a millimeter.',
+            year: null,
+          },
+        ],
+      },
+
+      seeAlso: ['groundwater', 'atmosphere_water', 'the_world_ocean'],
+
+      sources: [
+        'https://www.usgs.gov/faqs/how-fast-do-tectonic-plates-move',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    atmosphere_water: {
+      id: 'atmosphere_water',
+      name: 'Water in the Air: The Ten Day River',
+      level: 'Beginner',
+      dek: 'About ninety percent of atmospheric water evaporates from oceans and waters; ten percent transpires from plants, says USGS.',
+      readTime: '4 min',
+
+      sections: ['Where air water comes from', 'A shallow sky ocean', 'Ten days aloft'],
+      body: [
+        { type: 'lead', text: 'All the weather in the world runs on a surprisingly small amount of water. The U.S. Geological Survey\'s water cycle accounting says about 90 percent of the water in the atmosphere comes from evaporation from oceans, seas, lakes, and rivers, and about 10 percent from transpiration by plants. If all of it fell at once as rain, it would cover the Earth only about 2.5 centimeters deep.' },
+        { type: 'h2', text: 'Where air water comes from' },
+        { type: 'p', text: 'Evaporation lifts water molecules off liquid surfaces, mostly the sun warmed ocean, which dominates the 90 percent. Plants contribute their tenth through transpiration, drawing groundwater up through roots and releasing vapor from leaf pores, a flow so steady that a large tree can move hundreds of liters on a summer day. Together they keep the sky supplied.' },
+        { type: 'p', text: 'Condensed back down, the load is small: those 2.5 centimeters, about an inch, spread over the whole planet. Rain is heavy weather locally precisely because the atmosphere gathers its thin global layer into thick local deliveries.' },
+        { type: 'h2', text: 'Ten days aloft' },
+        { type: 'p', text: 'The USGS puts a residence time on it: once evaporated, a water molecule spends about 10 days in the air before it condenses and falls. The atmosphere is therefore less a storage tank than a fast river running overhead, emptied and refilled roughly every ten days, connecting the ocean surface to rain on land a continent away within a fortnight.' },
+        { type: 'callout', text: 'The USGS water cycle in three numbers: about 90 percent of air water from evaporation, about 10 percent from plant transpiration, about 10 days aloft before it falls.' },
+      ],
+
+      keyTerms: ['water cycle', 'evaporation', 'transpiration', 'residence time', 'condensation', 'USGS'],
+
+      resources: {
+        articles: [
+          {
+            title: 'The Atmosphere and the Water Cycle',
+            source: 'U.S. Geological Survey, Water Science School',
+            url: 'https://www.usgs.gov/water-science-school/science/atmosphere-and-water-cycle',
+            why: 'The USGS page for the atmospheric leg of the cycle: about 90 percent of atmospheric water from evaporation, 10 percent from transpiration, and the 2.5 centimeter figure for all of it falling at once.',
+            year: null,
+          },
+          {
+            title: 'Evaporation and the Water Cycle',
+            source: 'U.S. Geological Survey, Water Science School',
+            url: 'https://www.usgs.gov/water-science-school/science/evaporation-and-water-cycle',
+            why: 'The USGS on evaporation\'s share and the roughly ten day residence of a water molecule in the atmosphere.',
+            year: null,
+          },
+        ],
+      },
+
+      seeAlso: ['groundwater', 'co2_atmosphere', 'speed_of_sound'],
+
+      sources: [
+        'https://www.usgs.gov/water-science-school/science/atmosphere-and-water-cycle',
+        'https://www.usgs.gov/water-science-school/science/evaporation-and-water-cycle',
+      ],
+      verifiedAt: '2026-10-15',
+    },
   },
 };
 
@@ -28970,6 +30481,295 @@ window.CONTENT.history = {
       verifiedAt: '2026-10-15',
     },
 
+
+    nz_suffrage: {
+      id: 'nz_suffrage',
+      name: 'New Zealand Gives Women the Vote',
+      level: 'Beginner',
+      dek: 'In 1893 New Zealand became the first self-governing country where women could vote in national elections.',
+      readTime: '4 min',
+
+      sections: ['The campaign', '19 September 1893', 'What came after'],
+      body: [
+        { type: 'lead', text: 'On 19 September 1893, Governor Lord Glasgow signed a new Electoral Act into law in New Zealand. With that signature, New Zealand became the first self-governing country in the world in which women had the right to vote in parliamentary elections, a generation before Britain or the United States.' },
+        { type: 'h2', text: 'The campaign' },
+        { type: 'p', text: 'The law was not a gift. Campaigners led by Kate Sheppard, working through the Women\'s Christian Temperance Union and allied groups, organized for years and carried petition after petition to Parliament. Across seven years and 13 petitions they gathered 31,872 signatures. The largest petition, with 25,519 names, survives today and is displayed at the National Library of New Zealand.' },
+        { type: 'p', text: 'Māori women were part of the movement from the start, pressing both for the parliamentary vote and for a voice in Te Kotahitanga, the Māori Parliament. The 1893 Act covered all women over 21, including Māori women, who could vote in the Māori electorates on the same terms as Māori men.' },
+        { type: 'h2', text: 'What the vote did and did not include' },
+        { type: 'p', text: 'Women could vote in 1893 but could not stand for Parliament. That right came only in 1919, and the first woman, Elizabeth McCombs, was not elected until 1933. Even so, the 1893 Act reset what every other country had to argue against. In most other democracies, including Britain and the United States, women did not win the vote until after the First World War.' },
+        { type: 'callout', text: 'New Zealand marks 19 September each year as Suffrage Day, and Kate Sheppard now appears on the New Zealand ten dollar note.' },
+      ],
+
+      keyTerms: ['suffrage', 'Electoral Act', 'petition', 'franchise', 'self-governing', 'Kate Sheppard'],
+
+      resources: {
+        articles: [
+          {
+            title: 'New Zealand women and the vote',
+            source: 'NZ History (Manatū Taonga, Ministry for Culture and Heritage)',
+            url: 'https://nzhistory.govt.nz/politics/womens-suffrage',
+            why: 'The national history site\'s account of the 1893 Electoral Act and the campaign behind it.',
+            year: null,
+          },
+          {
+            title: 'Women\'s Suffrage in Aotearoa New Zealand',
+            source: 'New Zealand Ministry for Women',
+            url: 'https://www.women.govt.nz/about-us/history-womens-suffrage-aotearoa-new-zealand',
+            why: 'The ministry\'s own history page, including the petition counts and Māori women\'s role in the movement.',
+            year: null,
+          },
+        ],
+      },
+
+      seeAlso: ['nineteenth_amendment', 'women_codebreakers', 'title_ix'],
+
+      sources: [
+        'https://nzhistory.govt.nz/politics/womens-suffrage',
+        'https://www.women.govt.nz/about-us/history-womens-suffrage-aotearoa-new-zealand',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    nineteenth_amendment: {
+      id: 'nineteenth_amendment',
+      name: 'The Nineteenth Amendment',
+      level: 'Beginner',
+      dek: 'After a seventy year campaign, the amendment barred denying the vote on account of sex in 1920.',
+      readTime: '4 min',
+
+      sections: ['The long campaign', 'Tennessee decides', 'What it settled and what it did not'],
+      body: [
+        { type: 'lead', text: 'The Nineteenth Amendment to the United States Constitution says the right to vote shall not be denied or abridged on account of sex. Congress passed it on June 4, 1919. Tennessee became the 36th state to ratify it on August 18, 1920, and it was certified on August 26, 1920.' },
+        { type: 'h2', text: 'The long campaign' },
+        { type: 'p', text: 'The amendment\'s text was first introduced in Congress in 1878, and versions of it were debated for decades while suffragists organized state by state. By 1919 women already held full voting rights in a number of states, which gave the amendment\'s supporters both the votes in Congress to pass it and the leverage to push the remaining states to ratify.' },
+        { type: 'p', text: 'Ratification turned on Tennessee. When its legislature approved the amendment by a narrow margin, the count reached the three quarters of the states that the Constitution requires, and the amendment became law for the whole country at once.' },
+        { type: 'h2', text: 'What it settled and what it did not' },
+        { type: 'p', text: 'The amendment removed sex as a legal reason to deny the ballot. It did not by itself secure the vote for every woman. Many Native American, Asian American, and Black women still faced citizenship rules, poll taxes, literacy tests, and intimidation that later laws, including the Voting Rights Act of 1965, had to attack.' },
+        { type: 'callout', text: 'The National Archives keeps the amendment among its milestone documents: passed by Congress June 4, 1919, ratified August 18, 1920, certified August 26, 1920.' },
+      ],
+
+      keyTerms: ['amendment', 'ratification', 'suffrage', 'Constitution', 'Congress', 'Tennessee'],
+
+      resources: {
+        articles: [
+          {
+            title: '19th Amendment to the U.S. Constitution: Women\'s Right to Vote',
+            source: 'National Archives',
+            url: 'https://www.archives.gov/milestone-documents/19th-amendment',
+            why: 'The Archives\' milestone document page for the amendment, with the passage and ratification dates.',
+            year: null,
+          },
+          {
+            title: 'Featured Document: The 19th Amendment',
+            source: 'National Archives',
+            url: 'https://www.archives.gov/exhibits/featured-documents/amendment-19',
+            why: 'The Archives\' exhibit page for the joint resolution itself.',
+            year: null,
+          },
+        ],
+      },
+
+      seeAlso: ['nz_suffrage', 'registering_to_vote', 'title_ix'],
+
+      sources: [
+        'https://www.archives.gov/milestone-documents/19th-amendment',
+        'https://www.archives.gov/exhibits/featured-documents/amendment-19',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    harriet_tubman: {
+      id: 'harriet_tubman',
+      name: 'Harriet Tubman and the Underground Railroad',
+      level: 'Beginner',
+      dek: 'Tubman returned to Maryland about thirteen times and guided roughly seventy people to freedom.',
+      readTime: '4 min',
+
+      sections: ['The rescue trips', 'The real numbers', 'After the railroad'],
+      body: [
+        { type: 'lead', text: 'Harriet Tubman escaped slavery in Maryland in 1849, then went back. Between 1850 and 1860 she returned about 13 times and guided around 70 people, family and friends among them, out of slavery. She also gave instructions to about 70 more who escaped on their own with her directions.' },
+        { type: 'h2', text: 'The real numbers' },
+        { type: 'p', text: 'A famous older figure says Tubman made 19 trips and rescued 300 people. That number came from Sarah Bradford\'s early biography and was repeated for more than a century. Historians working from records and from Tubman\'s own accounts put the count at about 13 trips and roughly 70 people guided directly. The smaller number is the documented one, and it needs no inflating: every return trip risked her own capture and re-enslavement.' },
+        { type: 'p', text: 'Tubman traveled at night, often in winter when the nights were longest, and used the network of safe houses and helpers called the Underground Railroad. She was known for a hard rule: no one who started the journey could turn back and endanger the rest.' },
+        { type: 'h2', text: 'After the railroad' },
+        { type: 'p', text: 'During the Civil War she served the Union Army as a scout, a spy, and a nurse, and helped guide the Combahee River raid of 1863, which freed more than 700 enslaved people. She spent decades afterward pressing for the military pay and pension she was owed, and campaigning for women\'s suffrage.' },
+        { type: 'callout', text: 'The National Park Service and the Smithsonian tell the corrected count: about 13 trips, about 70 people guided out, about 70 more helped by her instructions.' },
+      ],
+
+      keyTerms: ['Underground Railroad', 'abolition', 'conductor', 'Combahee River raid', 'suffrage', 'Sarah Bradford'],
+
+      resources: {
+        articles: [
+          {
+            title: 'The True Story of Harriet Tubman',
+            source: 'Smithsonian Magazine',
+            url: 'https://www.smithsonianmag.com/smithsonian-institution/true-story-harriet-tubman-movie-180973413/',
+            why: 'The Smithsonian on what the record supports, and how the 19 trips and 300 people figure grew in the telling.',
+            year: 2019,
+          },
+          {
+            title: 'Harriet Tubman',
+            source: 'National Park Service',
+            url: 'https://www.nps.gov/people/harriet-tubman.htm',
+            why: 'The Park Service biography: 13 trips, around 70 people rescued directly, instructions given to about 70 more.',
+            year: null,
+          },
+        ],
+      },
+
+      seeAlso: ['women_codebreakers', 'nz_suffrage', 'nineteenth_amendment'],
+
+      sources: [
+        'https://www.smithsonianmag.com/smithsonian-institution/true-story-harriet-tubman-movie-180973413/',
+        'https://www.nps.gov/people/harriet-tubman.htm',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    women_codebreakers: {
+      id: 'women_codebreakers',
+      name: 'The Women Codebreakers of World War II',
+      level: 'Beginner',
+      dek: 'Some eleven thousand American women broke enemy codes, and by 1945 they were most of the workforce.',
+      readTime: '4 min',
+
+      sections: ['Recruited from classrooms', 'The work', 'Recognition, eighty years later'],
+      body: [
+        { type: 'lead', text: 'During World War II, some 11,000 women worked as cryptologists for the United States, processing and deciphering an endless stream of enemy military messages. By the end of the war, women numbered around 7,000 in the Army and about 4,000 in the Navy, more than half of all American cryptologists.' },
+        { type: 'h2', text: 'Recruited from classrooms' },
+        { type: 'p', text: 'After Pearl Harbor, the armed forces needed cryptologists faster than they could train men who were shipping overseas. They turned to women. Many were civilians recruited while still in college or working as schoolteachers. Others enlisted through programs such as the Navy\'s WAVES and the Women\'s Army Auxiliary Corps.' },
+        { type: 'p', text: 'The work was secret, and it stayed secret for decades. Women deciphered Japanese fleet communications, helped prevent German U-boats from sinking vital cargo ships, broke the encryption systems that revealed Japanese shipping routes, and built and ran high-speed machines to break encrypted German messages. They also checked that America\'s own coded messages went out secure and error free, an early form of cybersecurity.' },
+        { type: 'h2', text: 'Recognition, eighty years later' },
+        { type: 'p', text: 'In 2022 the United States Postal Service issued a Forever stamp honoring the women cryptologists of World War II, with a cipher worked into the design and a key printed on the back of the pane. The first day ceremony was held at the National Cryptologic Museum in Maryland, where the National Security Agency called them pioneers whose service made the modern agency possible.' },
+        { type: 'callout', text: 'The Postal Service\'s dedicating official called their work one of the conflict\'s best kept secrets, and said it played an inestimable role in the Allied victory.' },
+      ],
+
+      keyTerms: ['cryptology', 'cipher', 'WAVES', 'decipher', 'U-boat', 'National Cryptologic Museum'],
+
+      resources: {
+        articles: [
+          {
+            title: 'U.S. Postal Service Recognizes Women Cryptologists',
+            source: 'USPS Newsroom',
+            url: 'https://about.usps.com/newsroom/national-releases/2022/1018-usps-recognizes-women-cryptologists-with-new-forever-stamp.htm',
+            why: 'The Postal Service\'s own account: some 11,000 women, about 7,000 Army and 4,000 Navy, more than half of all U.S. cryptologists by the war\'s end.',
+            year: 2022,
+          },
+          {
+            title: 'Women Cryptologists of World War II Honored with USPS Forever Stamp',
+            source: 'National Security Agency',
+            url: 'https://www.nsa.gov/Press-Room/News-Highlights/Article/Article/3200397/women-cryptologists-of-world-war-ii-honored-with-usps-forever-stamp/',
+            why: 'The NSA on the stamp ceremony and the women it calls the founders of the agency.',
+            year: 2022,
+          },
+        ],
+      },
+
+      seeAlso: ['hedy_lamarr', 'harriet_tubman', 'strong_passwords'],
+
+      sources: [
+        'https://about.usps.com/newsroom/national-releases/2022/1018-usps-recognizes-women-cryptologists-with-new-forever-stamp.htm',
+        'https://www.nsa.gov/Press-Room/News-Highlights/Article/Article/3200397/women-cryptologists-of-world-war-ii-honored-with-usps-forever-stamp/',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    malala: {
+      id: 'malala',
+      name: 'Malala Yousafzai and the Fight for Girls\' Schooling',
+      level: 'Beginner',
+      dek: 'Shot for speaking up for girls\' education, Malala Yousafzai became the youngest Nobel laureate at seventeen.',
+      readTime: '4 min',
+
+      sections: ['Swat Valley', 'The attack and the answer', 'The work since'],
+      body: [
+        { type: 'lead', text: 'In October 2014, Malala Yousafzai received the Nobel Peace Prize, shared with the Indian children\'s rights activist Kailash Satyarthi. She was 17 years old, the youngest Nobel laureate in any field, honored for her work for children\'s rights and girls\' education in Pakistan and worldwide.' },
+        { type: 'h2', text: 'Swat Valley' },
+        { type: 'p', text: 'Malala grew up in Pakistan\'s Swat Valley, where her father ran a school and spoke publicly for education. As the Taliban tightened its control of the valley and moved against girls\' schools, she began writing and speaking about the right to learn, first as a child blogger under a pen name, then openly under her own.' },
+        { type: 'p', text: 'In October 2012 a Taliban gunman boarded her school bus and shot her in the head. She survived, after treatment in Pakistan and then in Birmingham, England, and she continued the campaign from a world stage, addressing the United Nations on her sixteenth birthday. The attack was meant to silence the campaign. It did the opposite, carrying her argument to every capital in the world.' },
+        { type: 'h2', text: 'The work since' },
+        { type: 'p', text: 'The Nobel committee cited her struggle, alongside Satyarthi\'s, against the suppression of children and young people and for the right of all children to education. The Malala Fund, which she co-founded in 2013, supports local educators and advocates working to give girls a full secondary education.' },
+        { type: 'callout', text: 'The 2014 prize joined two causes in one award: Satyarthi\'s fight against child labor in India and Malala\'s fight for girls\' schooling in Pakistan.' },
+      ],
+
+      keyTerms: ['Nobel Peace Prize', 'Swat Valley', 'girls\' education', 'Malala Fund', 'Kailash Satyarthi', 'activism'],
+
+      resources: {
+        books: [
+          {
+            title: 'I Am Malala',
+            author: 'Malala Yousafzai, with Christina Lamb',
+            year: 2013,
+            url: '',
+            why: 'Her own account of Swat, the shooting, and the campaign, written the year after the attack.',
+          },
+        ],
+        articles: [
+          {
+            title: 'Malala Yousafzai: Biographical',
+            source: 'NobelPrize.org',
+            url: 'https://www.nobelprize.org/prizes/peace/2014/yousafzai/biographical/',
+            why: 'The Nobel site\'s biography, from her father\'s school activism to the prize.',
+            year: null,
+          },
+          {
+            title: 'Malala Yousafzai: Speed read',
+            source: 'NobelPrize.org',
+            url: 'https://www.nobelprize.org/prizes/peace/2014/yousafzai/speedread/',
+            why: 'The Nobel site\'s short summary: the prize at 17, shared with Kailash Satyarthi, the youngest laureate ever.',
+            year: null,
+          },
+        ],
+      },
+
+      seeAlso: ['title_ix', 'nz_suffrage', 'nineteenth_amendment'],
+
+      sources: [
+        'https://www.nobelprize.org/prizes/peace/2014/yousafzai/biographical/',
+        'https://www.nobelprize.org/prizes/peace/2014/yousafzai/speedread/',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    switzer: {
+      id: 'switzer',
+      name: 'Kathrine Switzer and Bib 261',
+      level: 'Beginner',
+      dek: 'In 1967 Kathrine Switzer ran Boston with an official number while officials tried to pull her off.',
+      readTime: '4 min',
+
+      sections: ['A numbered entry', 'The photograph', 'After 1967'],
+      body: [
+        { type: 'lead', text: 'On April 19, 1967, Kathrine Switzer ran the Boston Marathon wearing bib number 261. She had registered as "K. V. Switzer" and was issued the number through an oversight in the entry screening. She was the first woman to run Boston as an officially registered entrant, five years before women were officially allowed to compete.' },
+        { type: 'h2', text: 'The photograph' },
+        { type: 'p', text: 'Early in the race, race official Jock Semple lunged at Switzer, shouting at her to get out of his race and give him the numbers, and tried to tear off her bib. Her boyfriend Tom Miller, running beside her, shoved Semple aside, and Switzer kept running. Photographs of the moment made world headlines.' },
+        { type: 'p', text: 'Switzer finished in about 4 hours 20 minutes. She was not the fastest woman on the course that day. Bobbi Gibb, who had become the first woman to run Boston a year earlier by hiding her sex and running unregistered, ran again without a number in 1967 and finished about an hour ahead. Gibb was the first woman to run the race. Switzer was the first to run it entered.' },
+        { type: 'h2', text: 'After 1967' },
+        { type: 'p', text: 'Women were officially allowed to run the Boston Marathon in 1972. Switzer built a career in running promotion and broadcasting and founded 261 Fearless, which supports women through running. In 2017, fifty years after her first race, she ran Boston again at age 70 wearing number 261, and afterward the number was retired in her honor.' },
+        { type: 'callout', text: 'Switzer has said she signed her college newspaper articles "K. V. Switzer" all along; the initials were how she wrote, not a disguise invented for the race.' },
+      ],
+
+      keyTerms: ['Boston Marathon', 'bib', 'registered entrant', 'Jock Semple', 'Bobbi Gibb', '261 Fearless'],
+
+      resources: {
+        articles: [
+          {
+            title: 'Kathrine Switzer, first woman to officially run Boston Marathon, competes again',
+            source: 'Akron Beacon Journal',
+            url: 'https://www.beaconjournal.com/story/sports/2017/04/17/kathrine-switzer-boston-marathon/100558306/?hootPostID=014b836161aac9ca2dcc6b12e03df8b2',
+            why: 'The 2017 return reported in full: bib 261, the 1967 confrontation, the 4:20 finish, Gibb\'s unregistered run, and the number\'s retirement.',
+            year: 2017,
+          },
+        ],
+      },
+
+      seeAlso: ['nz_suffrage', 'title_ix', 'women_in_space'],
+
+      sources: [
+        'https://www.beaconjournal.com/story/sports/2017/04/17/kathrine-switzer-boston-marathon/100558306/?hootPostID=014b836161aac9ca2dcc6b12e03df8b2',
+      ],
+      verifiedAt: '2026-10-15',
+    },
   },
 };
 
@@ -30867,6 +32667,102 @@ window.CONTENT.law = {
       verifiedAt: '2026-10-15',
     },
 
+
+    title_ix: {
+      id: 'title_ix',
+      name: 'Title IX: One Sentence That Changed School',
+      level: 'Beginner',
+      dek: 'Thirty seven words from 1972 bar sex discrimination in every school program receiving federal money.',
+      readTime: '4 min',
+
+      sections: ['The sentence', 'Where it reaches', 'How it got used'],
+      body: [
+        { type: 'lead', text: 'Title IX of the Education Amendments of 1972 is one sentence: "No person in the United States shall, on the basis of sex, be excluded from participation in, be denied the benefits of, or be subjected to discrimination under any education program or activity receiving Federal financial assistance." It was signed into law on June 23, 1972.' },
+        { type: 'h2', text: 'Where it reaches' },
+        { type: 'p', text: 'The hook is federal money. Nearly every American school, college, and university receives some, so the sentence reaches nearly every classroom, laboratory, and playing field in the country. It applies to admissions in most higher education, to courses and programs, to housing and athletics, and to how schools respond to sex based harassment and sexual violence.' },
+        { type: 'p', text: 'The Department of Education\'s Office for Civil Rights enforces it, and its examples of covered discrimination run from harassment and pregnancy discrimination to unequal athletic opportunity and unequal access to science, technology, engineering, and math courses.' },
+        { type: 'h2', text: 'How it got used' },
+        { type: 'p', text: 'The most visible change came in sports, where the law\'s requirement of equal opportunity turned girls\' and women\'s athletics from an afterthought into a national institution. But the sentence was always broader than sports: it is the legal basis for claims about access to programs, fair discipline, and a school\'s duty to respond when a student is harassed. The regulations that spell out how schools must comply have been revised many times; the sentence itself has not changed.' },
+        { type: 'callout', text: 'The Department of Education quotes the sentence whole on its Title IX page. It is short enough to memorize, and it carries no list of sports or subjects: any program or activity.' },
+      ],
+
+      keyTerms: ['Title IX', 'federal financial assistance', 'Office for Civil Rights', 'discrimination', 'Education Amendments of 1972', 'equal opportunity'],
+
+      resources: {
+        articles: [
+          {
+            title: 'Title IX and Sex Discrimination',
+            source: 'U.S. Department of Education',
+            url: 'http://ed.gov/laws-and-policy/civil-rights-laws/title-ix-and-sex-discrimination',
+            why: 'The Department\'s own page, quoting the sentence in full and listing the discrimination it covers, from harassment to equal athletic opportunity and STEM access.',
+            year: null,
+          },
+          {
+            title: 'Title IX, Education Amendments of 1972 (statutory text)',
+            source: 'U.S. Department of Labor (20 U.S.C. 1681)',
+            url: 'http://www.dol.gov/agencies/oasam/centers-offices/civil-rights-center/statutes/title-ix',
+            why: 'The statute itself, with its exceptions printed after the main prohibition.',
+            year: null,
+          },
+        ],
+      },
+
+      seeAlso: ['malala', 'switzer', 'jury_service'],
+
+      sources: [
+        'http://ed.gov/laws-and-policy/civil-rights-laws/title-ix-and-sex-discrimination',
+        'http://www.dol.gov/agencies/oasam/centers-offices/civil-rights-center/statutes/title-ix',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    jury_service: {
+      id: 'jury_service',
+      name: 'Jury Service: The Citizen\'s Seat in Court',
+      level: 'Beginner',
+      dek: 'Federal law draws juries at random from a fair cross section, and every citizen can be summoned.',
+      readTime: '4 min',
+
+      sections: ['The constitutional promise', 'Random, from a fair cross section', 'Who cannot be excluded'],
+      body: [
+        { type: 'lead', text: 'The Sixth Amendment guarantees a criminal defendant a speedy and public trial by an impartial jury. Federal law then describes how that jury is found: it is the policy of the United States that juries be selected at random from a fair cross section of the community, and that all citizens have the opportunity to be considered for service, and the obligation to serve when summoned.' },
+        { type: 'h2', text: 'Random, from a fair cross section' },
+        { type: 'p', text: 'Those words, from 28 U.S.C. section 1861, the Jury Selection and Service Act, are the working definition of impartial at the front end. A jury does not have to mirror the community exactly. The pool it is drawn from does: names come from sources like voter and driver records, chosen at random, so that no official picks the sort of person who will judge.' },
+        { type: 'p', text: 'The Supreme Court has read the Sixth Amendment to require the same fair cross section in state courts, striking down systems that systematically kept groups out, including the old rules that excused women from service as a class.' },
+        { type: 'h2', text: 'Who cannot be excluded' },
+        { type: 'p', text: 'The next section of the statute, 1862, states the ban flatly: no citizen shall be excluded from service as a grand or petit juror on account of race, color, religion, sex, national origin, or economic status. People can still be excused for hardship or disqualified for cause in a particular case, and lawyers can strike individual jurors, but the doorway itself cannot be closed to a class of citizens.' },
+        { type: 'callout', text: 'When a summons arrives, it is this machinery working: a random draw from a cross section of your community, and a legal duty the statute calls both an opportunity and an obligation.' },
+      ],
+
+      keyTerms: ['Sixth Amendment', 'impartial jury', 'fair cross section', 'Jury Selection and Service Act', 'summons', 'petit jury'],
+
+      resources: {
+        articles: [
+          {
+            title: '28 U.S.C. sections 1861-1863: Jury selection policy and the ban on exclusion',
+            source: 'U.S. Government Publishing Office (govinfo)',
+            url: 'https://www.govinfo.gov/content/pkg/USCODE-2024-title28/pdf/USCODE-2024-title28-partV-chap121-sec1863.pdf',
+            why: 'The statute as published: juries selected at random from a fair cross section, every citizen with the opportunity and obligation to serve, and no exclusion on account of race, color, religion, sex, national origin, or economic status.',
+            year: 2024,
+          },
+          {
+            title: 'A Jury Selected from a Representative Cross-Section of the Community',
+            source: 'Cornell Legal Information Institute, Constitution Annotated',
+            url: 'https://www.law.cornell.edu/constitution-conan/amendment-6/a-jury-selected-from-a-representative-cross-section-of-the-community',
+            why: 'Congress\'s own annotation of the Sixth Amendment doctrine: selection from a representative cross section as an essential component of the right to a jury trial.',
+            year: null,
+          },
+        ],
+      },
+
+      seeAlso: ['title_ix', 'how_bills_become_law', 'registering_to_vote'],
+
+      sources: [
+        'https://www.govinfo.gov/content/pkg/USCODE-2024-title28/pdf/USCODE-2024-title28-partV-chap121-sec1863.pdf',
+        'https://www.law.cornell.edu/constitution-conan/amendment-6/a-jury-selected-from-a-representative-cross-section-of-the-community',
+      ],
+      verifiedAt: '2026-10-15',
+    },
   },
 };
 
@@ -39473,6 +41369,342 @@ window.CONTENT.medicine = {
       verifiedAt: '2026-10-15',
     },
 
+
+    women_clinical_trials: {
+      id: 'women_clinical_trials',
+      name: 'Women in Clinical Trials: The 1993 Law',
+      level: 'Beginner',
+      dek: 'A 1993 American law required women and minorities to be included in government funded medical research.',
+      readTime: '4 min',
+
+      sections: ['Research on men, prescribed to everyone', 'What the law requires', 'Why it still matters'],
+      body: [
+        { type: 'lead', text: 'Until 1993, American medical research could legally leave women out, and often did. The NIH Revitalization Act of 1993, Section 492B of Public Law 103-43, made inclusion the rule: women and members of minority groups must be included in all clinical research funded by the National Institutes of Health, unless a clear and compelling reason shows inclusion is inappropriate.' },
+        { type: 'h2', text: 'What the law requires' },
+        { type: 'p', text: 'The policy is stronger than a head count. For NIH-defined Phase III clinical trials, studies must be designed so that the results can be validly analyzed for differences between groups, by sex and by race and ethnicity, and researchers must report enrollment and those analyses by group. A trial that enrolls some women but is too small to learn anything about them does not meet the standard.' },
+        { type: 'p', text: 'The same law also wrote the NIH Office of Research on Women\'s Health into statute. The office had been created administratively in 1990 after government audits showed how unevenly women were included in the research their taxes paid for.' },
+        { type: 'h2', text: 'Why it still matters' },
+        { type: 'p', text: 'Dose, safety, and side effects can differ between bodies. Drugs tested mostly on men have repeatedly turned out to work differently, or carry different risks, in women. Inclusion is how those differences get found in a trial instead of in the public.' },
+        { type: 'callout', text: 'The exception is narrow by design: exclusion requires a clear and compelling justification tied to the health of the subjects or the purpose of the research, not convenience or habit.' },
+      ],
+
+      keyTerms: ['clinical trial', 'NIH', 'Phase III', 'inclusion', 'Public Law 103-43', 'women\'s health research'],
+
+      resources: {
+        articles: [
+          {
+            title: 'NIH policy: Inclusion of Women and Minorities in Clinical Research',
+            source: 'National Institutes of Health (grants.nih.gov)',
+            url: 'https://grants.nih.gov/grants/guide/rfa-files/RFA-MD-11-001.html',
+            why: 'An NIH funding announcement stating the policy in full and naming its source: Section 492B of Public Law 103-43, the NIH Revitalization Act of 1993.',
+            year: null,
+          },
+        ],
+      },
+
+      seeAlso: ['maternal_health', 'menopause_basics', 'how_vaccines_work'],
+
+      sources: [
+        'https://grants.nih.gov/grants/guide/rfa-files/RFA-MD-11-001.html',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    maternal_health: {
+      id: 'maternal_health',
+      name: 'Maternal Health: The Deaths That Can Be Prevented',
+      level: 'Beginner',
+      dek: 'About 260,000 women died in pregnancy and childbirth in 2023, most from preventable causes, says WHO.',
+      readTime: '4 min',
+
+      sections: ['The count', 'Where the risk sits', 'What saves lives'],
+      body: [
+        { type: 'lead', text: 'About 260,000 women died during and following pregnancy and childbirth in 2023, according to the World Health Organization. That is over 700 women a day, a maternal death almost every two minutes, and most of these deaths could have been prevented.' },
+        { type: 'h2', text: 'Where the risk sits' },
+        { type: 'p', text: 'Just over 90 percent of all maternal deaths in 2023 occurred in low and lower middle income countries. Sub-Saharan Africa and southern Asia together accounted for around 87 percent of the estimated total. Where a woman gives birth changes her risk of dying by more than a hundredfold between the safest and the least safe settings.' },
+        { type: 'p', text: 'There is real progress in the same figures. The global maternal mortality ratio, deaths per 100,000 live births, dropped by about 40 percent between 2000 and 2023. Eastern Europe and southern Asia cut their ratios by about three quarters and about seven tenths over that span.' },
+        { type: 'h2', text: 'What saves lives' },
+        { type: 'p', text: 'The WHO\'s plain statement of the remedy is care by skilled health professionals before, during, and after childbirth. The main killers, severe bleeding, infection, high blood pressure conditions such as pre-eclampsia, and complications of delivery, are survivable where trained care, blood, and medicine are within reach in time.' },
+        { type: 'callout', text: 'These figures are the current edition of the WHO fact sheet. Its earlier edition reported 287,000 deaths for 2020; the series is revised as new estimates are published, which is why the year is always named beside the number.' },
+      ],
+
+      keyTerms: ['maternal mortality', 'maternal mortality ratio', 'skilled birth attendant', 'pre-eclampsia', 'World Health Organization', 'preventable'],
+
+      resources: {
+        articles: [
+          {
+            title: 'Maternal mortality',
+            source: 'World Health Organization (fact sheet)',
+            url: 'https://www.who.int/news-room/fact-sheets/detail/maternal-mortality',
+            why: 'The WHO fact sheet itself: about 260,000 deaths in 2023, over 700 a day, the ratio down about 40 percent since 2000, just over 90 percent of deaths in low and lower middle income countries.',
+            year: null,
+          },
+        ],
+      },
+
+      seeAlso: ['women_clinical_trials', 'menopause_basics', 'hand_hygiene'],
+
+      sources: [
+        'https://www.who.int/news-room/fact-sheets/detail/maternal-mortality',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    menopause_basics: {
+      id: 'menopause_basics',
+      name: 'Menopause Basics',
+      level: 'Beginner',
+      dek: 'Menopause usually comes between forty five and fifty five, when periods stop for good, says the NHS.',
+      readTime: '4 min',
+
+      sections: ['What it is', 'The ages that matter', 'Symptoms and support'],
+      body: [
+        { type: 'lead', text: 'Menopause is the stage when periods stop permanently because the ovaries stop releasing eggs and hormone levels fall. It is confirmed in hindsight: a person is in menopause once they have had no period for 12 months. In the UK it usually happens between the ages of 45 and 55, at an average age of 51.' },
+        { type: 'h2', text: 'The ages that matter' },
+        { type: 'p', text: 'Menopause between 40 and 45 is called early menopause. When ovarian function is lost before the age of 40 it is called premature ovarian insufficiency, or POI, and it affects about 1 in 100 women. POI can also follow surgery or treatments such as chemotherapy, and unlike natural menopause it can sometimes be intermittent, with ovarian activity returning for a time.' },
+        { type: 'p', text: 'The years leading up to the final period are called perimenopause. Hormone levels fluctuate, periods become irregular, and symptoms can begin years before periods stop altogether.' },
+        { type: 'h2', text: 'Symptoms and support' },
+        { type: 'p', text: 'Common symptoms include hot flushes, night sweats, broken sleep, brain fog, low mood and anxiety, joint aches, and vaginal dryness. Over the long term, low oestrogen raises the risk of bone thinning and of heart and circulation problems. Symptoms vary widely in strength and length, and help exists at every level, from lifestyle changes to hormone therapy, which a clinician can weigh with the patient.' },
+        { type: 'callout', text: 'Menopause is a normal life stage, not an illness. This page is general information only, not medical advice; symptoms that worry you are a reason to see a clinician, not to self diagnose.' },
+      ],
+
+      keyTerms: ['menopause', 'perimenopause', 'oestrogen', 'premature ovarian insufficiency', 'hot flush', 'hormone therapy'],
+
+      resources: {
+        articles: [
+          {
+            title: 'Menopause: Definition and background information',
+            source: 'NICE Clinical Knowledge Summaries',
+            url: 'https://cks.nice.org.uk/topics/menopause/background-information/definition/',
+            why: 'The clinical definition used across the NHS: usually 45 to 55, UK mean age 51, early menopause 40 to 45, POI before 40.',
+            year: null,
+          },
+          {
+            title: 'What is the Menopause? (patient information leaflet)',
+            source: 'Manchester University NHS Foundation Trust',
+            url: 'https://mft.nhs.uk/app/uploads/sites/4/2024/04/SMPIL-24-008-What-is-the-Menopause.pdf',
+            why: 'An NHS hospital\'s plain language leaflet: average age 51 in the UK, the 45 to 55 range, and what perimenopause means.',
+            year: 2024,
+          },
+        ],
+      },
+
+      seeAlso: ['women_clinical_trials', 'maternal_health', 'sleep_needs'],
+
+      sources: [
+        'https://cks.nice.org.uk/topics/menopause/background-information/definition/',
+        'https://mft.nhs.uk/app/uploads/sites/4/2024/04/SMPIL-24-008-What-is-the-Menopause.pdf',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    nightingale: {
+      id: 'nightingale',
+      name: 'Florence Nightingale: Nursing Meets Statistics',
+      level: 'Beginner',
+      dek: 'At Scutari, Nightingale\'s sanitation drive cut the hospital death rate from forty five percent to two.',
+      readTime: '4 min',
+
+      sections: ['Scutari, 1854', 'The numbers as evidence', 'What she built afterward'],
+      body: [
+        { type: 'lead', text: 'Florence Nightingale arrived at the British military hospital at Scutari in November 1854 with 38 nurses, in the middle of the Crimean War. The hospital was filthy, overcrowded, and short of everything. Through sanitation, cleanliness, and better diets, she and her nurses helped drive the hospital\'s death rate down from 45 percent to 2 percent.' },
+        { type: 'h2', text: 'The numbers as evidence' },
+        { type: 'p', text: 'Nightingale\'s second weapon was statistics. She collected careful records of how soldiers died and showed that far more were dying of preventable disease in hospital than of wounds in battle. She presented the figures in striking diagrams, including her famous polar area charts, so that officials who would not read tables could not avoid the picture.' },
+        { type: 'p', text: 'Her evidence persuaded the government to act. A Royal Commission on the health of the army followed, and reforms in sanitation, ventilation, and record keeping spread through military and civilian hospitals.' },
+        { type: 'h2', text: 'What she built afterward' },
+        { type: 'p', text: 'Nightingale became famous as the Lady with the Lamp, from her rounds of the wards at night. She spent the fame deliberately: on nurse training, hospital design, and the professional standing of nursing as skilled work. The lamp is the symbol people remember. The data is the reason the reforms lasted.' },
+        { type: 'callout', text: 'Britannica records the Scutari figures directly: a death rate falling from 45 percent to 2 percent as sanitation, diets, and cleanliness took hold. The figures are the hospital\'s rates before and after her reforms, and they were the evidence her later campaigns ran on.' },
+      ],
+
+      keyTerms: ['Scutari', 'Crimean War', 'sanitation', 'statistics', 'Royal Commission', 'Lady with the Lamp'],
+
+      resources: {
+        articles: [
+          {
+            title: 'Florence Nightingale',
+            source: 'Britannica Kids (Encyclopaedia Britannica)',
+            url: 'https://kids.britannica.com/students/article/Florence-Nightingale/276097',
+            why: 'Britannica\'s account: arrival at Scutari with 38 nurses in 1854, and the death rate cut from 45 percent to 2 percent.',
+            year: null,
+          },
+        ],
+      },
+
+      seeAlso: ['hand_hygiene', 'germ_theory', 'women_clinical_trials'],
+
+      sources: [
+        'https://kids.britannica.com/students/article/Florence-Nightingale/276097',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    how_vaccines_work: {
+      id: 'how_vaccines_work',
+      name: 'How Vaccines Work',
+      level: 'Beginner',
+      dek: 'A vaccine trains the immune system to recognize a germ before the real infection ever arrives.',
+      readTime: '4 min',
+
+      sections: ['Training, not infection', 'What is inside', 'The population effect'],
+      body: [
+        { type: 'lead', text: 'A vaccine works by training. It shows the immune system a safe version of a germ, or just the part of the germ the body needs to recognize, or the instructions for making that part. The immune system learns to make antibodies against it, so when the real germ arrives, the defense is already built. Immunization prevents an estimated 3.5 to 5 million deaths every year, according to the World Health Organization.' },
+        { type: 'h2', text: 'What is inside' },
+        { type: 'p', text: 'Different vaccines train the body in different ways. Some contain a killed or weakened form of the germ itself. Some contain only the antigen, the identifying part of the germ. Newer designs deliver the blueprint, instructions the body\'s own cells use briefly to make the antigen, which the immune system then learns on.' },
+        { type: 'p', text: 'The training happens without causing the disease. A sore arm or a day of feeling unwell can follow, which is the immune system practicing, not the illness itself taking hold.' },
+        { type: 'h2', text: 'The population effect' },
+        { type: 'p', text: 'Because a vaccinated person is far less likely to catch and pass on an infection, vaccination protects more than the person vaccinated. It slows the spread through a community and shelters people who cannot be vaccinated, including newborns and people whose immune systems are weakened by illness or treatment.' },
+        { type: 'callout', text: 'The WHO puts it plainly: vaccines train your immune system to create antibodies, just as it does when it is exposed to a disease, but without causing the disease.' },
+      ],
+
+      keyTerms: ['vaccine', 'immune system', 'antibody', 'antigen', 'immunization', 'herd protection'],
+
+      resources: {
+        articles: [
+          {
+            title: 'Vaccines and immunization: What is vaccination?',
+            source: 'World Health Organization',
+            url: 'https://www.who.int/news-room/questions-and-answers/item/vaccines-and-immunization-what-is-vaccination',
+            why: 'The WHO\'s question and answer page, including the estimate that immunization prevents 3.5 to 5 million deaths annually.',
+            year: null,
+          },
+          {
+            title: 'How do vaccines work?',
+            source: 'World Health Organization',
+            url: 'https://www.who.int/news-room/feature-stories/detail/how-do-vaccines-work',
+            why: 'The WHO\'s illustrated explanation of antigens, antibodies, and immune memory.',
+            year: null,
+          },
+        ],
+      },
+
+      seeAlso: ['germ_theory', 'hand_hygiene', 'antimicrobial_resistance'],
+
+      sources: [
+        'https://www.who.int/news-room/questions-and-answers/item/vaccines-and-immunization-what-is-vaccination',
+        'https://www.who.int/news-room/feature-stories/detail/how-do-vaccines-work',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    antimicrobial_resistance: {
+      id: 'antimicrobial_resistance',
+      name: 'Antimicrobial Resistance: When Medicines Stop Working',
+      level: 'Intermediate',
+      dek: 'Drug resistant bacteria were directly linked to 1.27 million deaths in 2019 across 204 countries.',
+      readTime: '4 min',
+
+      sections: ['The 2019 count', 'How resistance spreads', 'What slows it'],
+      body: [
+        { type: 'lead', text: 'In 2019, bacterial antimicrobial resistance was directly responsible for an estimated 1.27 million deaths worldwide, and played a role in 4.95 million deaths in total. Those figures come from the Global Research on Antimicrobial Resistance study, published in The Lancet, covering 204 countries and 23 bacterial pathogens.' },
+        { type: 'h2', text: 'How resistance spreads' },
+        { type: 'p', text: 'Resistance is evolution at speed. When an antibiotic kills the bacteria it can kill, the few that survive by chance are the ones that resist it. They multiply, and they can share their resistance genes with other bacteria. Every unnecessary course of antibiotics, in people and in livestock, runs this selection again and sharpens the resistant strains.' },
+        { type: 'p', text: 'The result is infections that once cleared with a standard prescription now needing stronger drugs, longer hospital stays, or, in the worst cases, having no effective treatment left. Routine surgery and cancer care depend on working antibiotics to keep infection risk down, so resistance reaches far beyond infectious disease wards.' },
+        { type: 'h2', text: 'What slows it' },
+        { type: 'p', text: 'The count itself points to the levers: clean water and sanitation, vaccination, and infection control cut the number of infections that need treating at all. Careful prescribing, using antibiotics when they are needed and not when they are not, slows the selection. And new drugs and diagnostics are needed for the infections that remain.' },
+        { type: 'callout', text: 'One study, one year: 1.27 million deaths directly attributable to bacterial resistance in 2019, more than HIV/AIDS or malaria caused that year, with 4.95 million deaths associated overall.' },
+      ],
+
+      keyTerms: ['antimicrobial resistance', 'antibiotic', 'pathogen', 'selection pressure', 'The Lancet', 'stewardship'],
+
+      resources: {
+        articles: [
+          {
+            title: 'Global burden of bacterial antimicrobial resistance in 2019: a systematic analysis',
+            source: 'The Lancet (GRAM study)',
+            url: 'https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(22)00087-3/fulltext',
+            why: 'The study itself: 1.27 million deaths directly attributable and 4.95 million associated, across 204 countries and 23 pathogens.',
+            year: 2022,
+          },
+        ],
+      },
+
+      seeAlso: ['germ_theory', 'how_vaccines_work', 'hand_hygiene'],
+
+      sources: [
+        'https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(22)00087-3/fulltext',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    germ_theory: {
+      id: 'germ_theory',
+      name: 'Germ Theory and Louis Pasteur',
+      level: 'Beginner',
+      dek: 'Pasteur\'s swan neck flasks killed the idea that life appears from nowhere, and germ theory followed.',
+      readTime: '4 min',
+
+      sections: ['The swan neck experiment', 'Fermentation, then disease', 'Pasteurization and vaccines'],
+      body: [
+        { type: 'lead', text: 'For most of history, people believed broth left standing could generate life by itself, a doctrine called spontaneous generation. Louis Pasteur disproved it with a flask. His swan neck flasks let air in but trapped dust and microbes in the curve of the neck, and the broth inside stayed sterile. Break the neck, and growth began. Life came from life, carried in the air.' },
+        { type: 'h2', text: 'Fermentation, then disease' },
+        { type: 'p', text: 'Pasteur showed that microorganisms cause fermentation, the souring of wine and beer that French industry paid him to fix, and then that microorganisms cause disease in animals and people. This is the germ theory of disease: specific microbes, not bad air or imbalance, behind specific infections. Once the cause was a living thing that could be killed or blocked, prevention became practical: sterilize, isolate, wash, heat.' },
+        { type: 'p', text: 'Joseph Lister built antiseptic surgery on Pasteur\'s work, and Nightingale\'s sanitation statistics showed the same truth from the hospital side. Mortality fell wherever the germ idea was applied, before most specific cures existed.' },
+        { type: 'h2', text: 'Pasteurization and vaccines' },
+        { type: 'p', text: 'Heating wine and milk to kill harmful microbes became pasteurization, still printed on every carton. Pasteur then turned to deliberate weakening of microbes to make vaccines, producing working vaccines against chicken cholera, anthrax, and rabies. The rabies vaccine of 1885, given to a boy bitten by a rabid dog, made him famous worldwide.' },
+        { type: 'callout', text: 'Britannica\'s summary of the career is exact: microorganisms cause fermentation and disease, disproof of spontaneous generation, pasteurization, and vaccines for anthrax and rabies.' },
+      ],
+
+      keyTerms: ['germ theory', 'spontaneous generation', 'microorganism', 'pasteurization', 'fermentation', 'antiseptic'],
+
+      resources: {
+        articles: [
+          {
+            title: 'Louis Pasteur',
+            source: 'Encyclopaedia Britannica',
+            url: 'https://www.britannica.com/biography/Louis-Pasteur',
+            why: 'Britannica\'s biography: the swan neck experiments, germ theory, pasteurization, and the anthrax and rabies vaccines.',
+            year: null,
+          },
+        ],
+      },
+
+      seeAlso: ['how_vaccines_work', 'hand_hygiene', 'nightingale'],
+
+      sources: [
+        'https://www.britannica.com/biography/Louis-Pasteur',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    sleep_needs: {
+      id: 'sleep_needs',
+      name: 'How Much Sleep Adults Need',
+      level: 'Beginner',
+      dek: 'Adults need seven or more hours of sleep a night, and a third report getting less, says CDC.',
+      readTime: '4 min',
+
+      sections: ['The seven hour line', 'What the surveys show', 'Reading your own sleep'],
+      body: [
+        { type: 'lead', text: 'Adults need 7 or more hours of sleep per night for the best health and wellbeing, according to the Centers for Disease Control and Prevention. Sleeping less than 7 hours on a regular basis is what the CDC counts as insufficient sleep, and it is associated with worse health outcomes across a long list of conditions.' },
+        { type: 'h2', text: 'What the surveys show' },
+        { type: 'p', text: 'More than a third of adults in the United States report getting less sleep than the recommended amount. The CDC tracks the figures state by state through its behavioral risk surveys, and the pattern is steady: short sleep is common, not exceptional, and it clusters with shift work, long hours, and untreated sleep disorders.' },
+        { type: 'p', text: 'The need is not identical for everyone. Age matters, illness matters, and a minority of people genuinely function on less. But the population guidance is a floor, not an average: regularly below 7 hours is the zone where measurable risks, including obesity, diabetes, heart disease, and depression, climb.' },
+        { type: 'h2', text: 'Reading your own sleep' },
+        { type: 'p', text: 'The useful test is daytime function. Needing an alarm to wake, falling asleep in quiet moments, and relying on caffeine to stay level are signs the night is too short, whatever the clock said. Loud snoring, gasping, or long pauses in breathing are signs to raise with a clinician, because sleep apnea is common and treatable.' },
+        { type: 'callout', text: 'This page is general information, not medical advice. The CDC figure is a population floor for adults: 7 or more hours, with less than 7 counted as insufficient.' },
+      ],
+
+      keyTerms: ['insufficient sleep', 'CDC', 'sleep duration', 'sleep apnea', 'circadian', 'health outcomes'],
+
+      resources: {
+        articles: [
+          {
+            title: 'Adult Sleep Facts and Stats',
+            source: 'Centers for Disease Control and Prevention',
+            url: 'https://www.cdc.gov/sleep/data-research/facts-stats/adults-sleep-facts-and-stats.html',
+            why: 'The CDC\'s adult sleep data page: 7 or more hours recommended, less than 7 counted as insufficient, more than a third of adults below the line.',
+            year: null,
+          },
+        ],
+      },
+
+      seeAlso: ['menopause_basics', 'daily_water', 'cpr_basics'],
+
+      sources: [
+        'https://www.cdc.gov/sleep/data-research/facts-stats/adults-sleep-facts-and-stats.html',
+      ],
+      verifiedAt: '2026-10-15',
+    },
   },
 };
 
@@ -41605,6 +43837,86 @@ window.CONTENT.nutrition = {
       verifiedAt: '2026-10-15',
     },
 
+
+    daily_water: {
+      id: 'daily_water',
+      name: 'How Much Water a Day, Really',
+      level: 'Beginner',
+      dek: 'The National Academies set total water at 3.7 liters a day for men and 2.7 for women.',
+      readTime: '4 min',
+
+      sections: ['Total water, not glasses', 'Where the rest comes from', 'The 8 glasses rule'],
+      body: [
+        { type: 'lead', text: 'The reference figures used in the United States come from the National Academies\' Dietary Reference Intakes: an adequate intake of total water of about 3.7 liters a day for adult men and 2.7 liters a day for adult women. The key word is total. The figures count water from everything you eat and drink, not water alone.' },
+        { type: 'h2', text: 'Where the rest comes from' },
+        { type: 'p', text: 'In a typical American diet, about 20 percent of daily water arrives in food. Fruit, vegetables, yogurt, rice, even bread carry water. The rest comes from all beverages combined, including coffee and tea, not from plain water alone. Subtract the food share and the drinking target lands near 3 liters for men and 2.2 liters for women spread across everything in the cup.' },
+        { type: 'p', text: 'Need moves with heat, exercise, fever, pregnancy, and age, and thirst is a working guide for most healthy adults. The adequate intake is a population reference point, the median intake of healthy people, not a prescription to force down a quota.' },
+        { type: 'h2', text: 'The 8 glasses rule' },
+        { type: 'p', text: 'The famous eight 8 ounce glasses, about 1.9 liters, is not the National Academies\' figure and has no study behind it as a universal rule. It survives because it is easy to remember and roughly harmless for many people. The honest version is less tidy and more useful: count all fluids and food, aim near the reference totals, drink to thirst, and drink more when it is hot or you are active or ill.' },
+        { type: 'callout', text: 'Stated with its source: National Academies, Dietary Reference Intakes for Water (2005): adequate total water intake 3.7 liters per day for men, 2.7 for women, food included.' },
+      ],
+
+      keyTerms: ['adequate intake', 'total water', 'Dietary Reference Intakes', 'National Academies', 'hydration', 'thirst'],
+
+      resources: {
+        articles: [
+          {
+            title: 'Regulation of Water Balance (Nutrition 100)',
+            source: 'Penn State University (open textbook, citing the Institute of Medicine DRI)',
+            url: 'https://psu.pb.unizin.org/nutr100/chapter/11-17-regulation-of-water-balance/',
+            why: 'A university nutrition text stating the National Academies figures plainly: 3.7 liters for men, 2.7 for women, all sources counted, about 20 percent from food.',
+            year: null,
+          },
+        ],
+      },
+
+      seeAlso: ['reading_food_labels', 'sleep_needs', 'safe_cooking_temperatures'],
+
+      sources: [
+        'https://psu.pb.unizin.org/nutr100/chapter/11-17-regulation-of-water-balance/',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    reading_food_labels: {
+      id: 'reading_food_labels',
+      name: 'Reading a Food Label: The Percent Trick',
+      level: 'Beginner',
+      dek: 'The FDA\'s label shortcut: five percent of daily value is low, twenty percent or more is high.',
+      readTime: '4 min',
+
+      sections: ['Start with servings', 'The 5 and 20 rule', 'What to hunt, what to limit'],
+      body: [
+        { type: 'lead', text: 'Every Nutrition Facts label carries a built in shortcut, and the Food and Drug Administration teaches it in two numbers: 5 percent of the Daily Value or less, per serving, is low for a nutrient. 20 percent or more is high. The rule works for anything on the label, fiber and vitamin D on one side, sodium and saturated fat on the other.' },
+        { type: 'h2', text: 'Start with servings' },
+        { type: 'p', text: 'Every number on the label describes one serving, and the top of the label states the serving size and how many servings the package holds. A bottle with two and a half servings multiplies everything by two and a half for the person who drinks the bottle, which is most people. Serving size is the label\'s quietest line and its most important one.' },
+        { type: 'p', text: 'The Daily Value percentages are calculated for a general 2,000 calorie a day diet. Your own needs differ, but the percentages still work as a comparison tool between two products side by side, which is the job the FDA designed them for.' },
+        { type: 'h2', text: 'What to hunt, what to limit' },
+        { type: 'p', text: 'Hunt the highs among dietary fiber, vitamin D, calcium, iron, and potassium, the nutrients Americans tend to under eat. Limit the highs among saturated fat, sodium, and added sugars, which the label now lists separately from total sugars. With the 5 and 20 rule, one glance per nutrient sorts a product: low, middle, or high, and the choice between two jars of sauce takes five seconds.' },
+        { type: 'callout', text: 'The FDA states the rule on its label guide: 5 percent DV or less is low, 20 percent DV or more is high. Keep those two numbers and the label reads itself.' },
+      ],
+
+      keyTerms: ['Nutrition Facts', 'Daily Value', 'serving size', 'added sugars', 'sodium', 'FDA'],
+
+      resources: {
+        articles: [
+          {
+            title: 'How to Understand and Use the Nutrition Facts Label',
+            source: 'U.S. Food and Drug Administration',
+            url: 'https://www.fda.gov/food/nutrition-facts-label/whats-nutrition-facts-label',
+            why: 'The FDA\'s own guide to its label, including the 5 percent low and 20 percent high rule for percent Daily Value.',
+            year: null,
+          },
+        ],
+      },
+
+      seeAlso: ['daily_water', 'safe_cooking_temperatures', 'emergency_savings'],
+
+      sources: [
+        'https://www.fda.gov/food/nutrition-facts-label/whats-nutrition-facts-label',
+      ],
+      verifiedAt: '2026-10-15',
+    },
   },
 };
 
@@ -45799,6 +48111,86 @@ window.CONTENT.physics = {
       ],
       verifiedAt: '2026-10-15',
     },
+
+    speed_of_light: {
+      id: 'speed_of_light',
+      name: 'The Speed of Light: An Exact Number',
+      level: 'Beginner',
+      dek: 'Light in vacuum travels at exactly 299,792,458 meters per second, because the meter is defined by it.',
+      readTime: '4 min',
+
+      sections: ['Measured, then defined', 'Why it cannot be beaten', 'A human scale for it'],
+      body: [
+        { type: 'lead', text: 'The speed of light in vacuum is exactly 299,792,458 meters per second. The word exactly is doing real work: since 1983, the meter itself has been defined as the distance light travels in vacuum in 1/299,792,458 of a second, so the number is fixed by definition, not by measurement. Every later measurement refines our clocks and rulers, never the constant.' },
+        { type: 'h2', text: 'Why it matters' },
+        { type: 'p', text: 'This speed, called c, is the universe\'s speed limit for information and matter, and it sits inside the most famous equation in physics, E = mc squared, linking mass and energy. It is also why astronomy is time travel in one direction: light from the Sun left about 8 minutes ago, from the nearest stars years ago, from distant galaxies billions of years ago. Telescopes see the past because the messenger travels at finite speed.' },
+        { type: 'p', text: 'Light slows in material: in water to about three quarters of c, in glass to about two thirds. The vacuum figure is the constant of nature; the slower figures are properties of the stuff it passes through.' },
+        { type: 'h2', text: 'A human scale for it' },
+        { type: 'p', text: 'At 299,792,458 meters per second, light circles the Earth about seven and a half times in one second. A signal to the Moon and back takes about 2.6 seconds, which laser ranging uses to measure the Earth and Moon drifting apart. Nothing you will ever ride comes meaningfully close, and that is the point of learning the number: it marks the edge of fast.' },
+        { type: 'callout', text: 'The figure carries NIST\'s authority: the CODATA value of c is exact, 299,792,458 meters per second, the anchor of the modern system of units.' },
+      ],
+
+      keyTerms: ['speed of light', 'vacuum', 'meter definition', 'constant', 'relativity', 'CODATA'],
+
+      resources: {
+        articles: [
+          {
+            title: 'Speed of light in vacuum',
+            source: 'Wikipedia (citing NIST CODATA)',
+            url: 'https://en.wikipedia.org/wiki/Speed_of_light_in_vacuum',
+            why: 'The reference article on c: the exact value 299,792,458 meters per second, its definitional status since 1983, and the NIST CODATA basis.',
+            year: null,
+          },
+        ],
+      },
+
+      seeAlso: ['speed_of_sound', 'moon_recession', 'marie_curie'],
+
+      sources: [
+        'https://en.wikipedia.org/wiki/Speed_of_light_in_vacuum',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    speed_of_sound: {
+      id: 'speed_of_sound',
+      name: 'The Speed of Sound: It Depends on the Air',
+      level: 'Beginner',
+      dek: 'Sound moves at about 343 meters per second in dry air at twenty degrees, faster when warmer.',
+      readTime: '4 min',
+
+      sections: ['A speed with conditions', 'Temperature is the lever', 'Faster in water and steel'],
+      body: [
+        { type: 'lead', text: 'Unlike light, sound has no single speed. Sound is a vibration traveling through a material, so its speed belongs to the material and its state. The standard reference figure: in dry air at 20 degrees Celsius, sound travels at about 343 meters per second, roughly 1,235 kilometers per hour.' },
+        { type: 'h2', text: 'Temperature is the lever' },
+        { type: 'p', text: 'Warm air carries sound faster because its molecules move faster and hand the vibration along sooner. At 0 degrees Celsius the speed falls to about 331 meters per second, and it rises by roughly 0.6 meters per second for each degree of warming. Air pressure, by contrast, barely matters at a given temperature, a common surprise: it is the thermometer, not the barometer, that sets the speed of sound outdoors.' },
+        { type: 'p', text: 'This is why thunder counting works as a rough rangefinder. Light arrives instantly for human purposes, sound takes about 3 seconds per kilometer: count the gap between flash and thunder, divide by three, and you have the storm\'s distance in kilometers.' },
+        { type: 'h2', text: 'Faster in water and steel' },
+        { type: 'p', text: 'Denser, stiffer materials pass vibrations faster. Sound moves at about 1,480 meters per second in water, over four times its speed in air, which is why whales and sonar work at ocean distances. In steel it reaches roughly 5,900 meters per second. The old trick of putting an ear to a rail to hear a distant train is this table, learned by hand.' },
+        { type: 'callout', text: 'One figure, with its conditions stated, in the standard form: dry air, 20 degrees Celsius, 343 meters per second. Change the temperature and the figure changes with it.' },
+      ],
+
+      keyTerms: ['speed of sound', 'medium', 'temperature', 'Mach', 'vibration', 'acoustics'],
+
+      resources: {
+        articles: [
+          {
+            title: 'Speed of Sound in Air: Calculator and Tables',
+            source: 'SengpielAudio',
+            url: 'http://sengpielaudio.com/calculator-speedsound.htm',
+            why: 'The standard acoustics reference: 343 meters per second in dry air at 20 degrees Celsius, and the demonstration that temperature, not pressure, is the controlling variable.',
+            year: null,
+          },
+        ],
+      },
+
+      seeAlso: ['speed_of_light', 'atmosphere_water', 'the_world_ocean'],
+
+      sources: [
+        'http://sengpielaudio.com/calculator-speedsound.htm',
+      ],
+      verifiedAt: '2026-10-15',
+    },
   },
 };
 
@@ -47295,6 +49687,95 @@ window.CONTENT.politics = {
       verifiedAt: '2026-10-15',
     },
 
+
+    how_bills_become_law: {
+      id: 'how_bills_become_law',
+      name: 'How a Bill Becomes a Law',
+      level: 'Beginner',
+      dek: 'Both chambers must pass identical text, then the President gets ten days to sign or veto.',
+      readTime: '4 min',
+
+      sections: ['Two chambers, one text', 'The ten days', 'The veto and the override'],
+      body: [
+        { type: 'lead', text: 'A bill becomes federal law in the United States through a narrow gate: the House and the Senate must pass the same text, word for word, and the President must then sign it, allow it, or be overridden. Most bills die somewhere along the path. The ones that survive arrive changed, which is why the identical text rule matters.' },
+        { type: 'h2', text: 'Two chambers, one text' },
+        { type: 'p', text: 'A bill can start in either chamber, pass through committee hearings and votes, and be debated and amended on the floor. If the House and Senate pass different versions, the differences must be reconciled, usually in a conference committee, and both chambers vote again on the single agreed text. Only then is the bill presented to the President.' },
+        { type: 'h2', text: 'The ten days' },
+        { type: 'p', text: 'The President has ten days, Sundays excluded, to act. Signing makes the bill law. Doing nothing also makes it law, as long as Congress is in session when the ten days run out. But if Congress has adjourned and the President does nothing, the bill dies unsigned. That is the pocket veto, the one veto that cannot be answered.' },
+        { type: 'h2', text: 'The veto and the override' },
+        { type: 'p', text: 'A returned veto sends the bill back with objections, and Congress can still enact it by a two thirds vote of those voting in each chamber. Overrides are rare, because a bill that passed by simple majorities seldom finds two thirds against a President of either party\'s choosing. The whole design, passage twice, a signature or silence, a supermajority to insist, is a machine for making laws slowly and on purpose.' },
+        { type: 'callout', text: 'Congress.gov teaches the process itself in its legislative process pages, including the ten day rule, Sundays excluded, and the pocket veto at adjournment.' },
+      ],
+
+      keyTerms: ['bill', 'veto', 'pocket veto', 'override', 'conference committee', 'enactment'],
+
+      resources: {
+        articles: [
+          {
+            title: 'Presidential Action on Legislation',
+            source: 'Congress.gov',
+            url: 'https://www.congress.gov/legislative-process/presidential-action',
+            why: 'Congress\'s own process guide: the ten days excluding Sundays, law by inaction in session, the pocket veto at adjournment, and the two thirds override.',
+            year: null,
+          },
+        ],
+      },
+
+      seeAlso: ['registering_to_vote', 'jury_service', 'nineteenth_amendment'],
+
+      sources: [
+        'https://www.congress.gov/legislative-process/presidential-action',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    registering_to_vote: {
+      id: 'registering_to_vote',
+      name: 'Registering to Vote in the United States',
+      level: 'Beginner',
+      dek: 'Vote.gov is the official starting point that routes every voter to their own state\'s rules and deadlines.',
+      readTime: '4 min',
+
+      sections: ['One door, fifty rulebooks', 'How registration works', 'Deadlines and checks'],
+      body: [
+        { type: 'lead', text: 'There is no single national voter registration in the United States. Each state runs its own rolls, deadlines, and forms. The federal government\'s answer to that maze is vote.gov, the official site run by the U.S. General Services Administration, which starts from where you live and routes you to your state\'s rules.' },
+        { type: 'h2', text: 'How registration works' },
+        { type: 'p', text: 'Vote.gov launched on October 2, 2015, and its job is routing, not registering: it sends you to your state\'s online registration where that exists, or to the mail in federal form, or to the local office where registration happens in person. The rules genuinely differ. Some states register voters automatically or on election day itself; others close their rolls weeks before an election.' },
+        { type: 'p', text: 'Eligibility basics are national: you must be a U.S. citizen and at least 18 by election day, and you register where you live. Beyond that, identification rules, deadlines, and ways to update an address after a move are state law, which is exactly why the router exists.' },
+        { type: 'h2', text: 'Deadlines and checks' },
+        { type: 'p', text: 'The practical habit vote.gov is built for: check your registration before you need it. Registrations go stale when people move, change names, or are removed in list maintenance. A two minute check at vote.gov, well ahead of your state\'s deadline, confirms you are active and at the right address, and the same site explains absentee and early voting options for your state.' },
+        { type: 'callout', text: 'Start at vote.gov or usa.gov/register-to-vote. If a site asks for payment to register you, it is not the government door: registration itself is free.' },
+      ],
+
+      keyTerms: ['voter registration', 'vote.gov', 'General Services Administration', 'deadline', 'absentee ballot', 'eligibility'],
+
+      resources: {
+        articles: [
+          {
+            title: 'Vote.gov: Register to vote',
+            source: 'U.S. General Services Administration',
+            url: 'https://vote.gov',
+            why: 'The official front door itself: enter your state and it routes you to online registration, the mail form, or in person options, with deadlines.',
+            year: null,
+          },
+          {
+            title: 'Register to vote and check your registration',
+            source: 'USA.gov',
+            url: 'https://www.usa.gov/register-to-vote',
+            why: 'The government\'s explainer page on eligibility, state deadlines, and checking an existing registration.',
+            year: null,
+          },
+        ],
+      },
+
+      seeAlso: ['how_bills_become_law', 'nineteenth_amendment', 'nz_suffrage'],
+
+      sources: [
+        'https://vote.gov',
+        'https://www.usa.gov/register-to-vote',
+      ],
+      verifiedAt: '2026-10-15',
+    },
   },
 };
 
@@ -50463,6 +52944,87 @@ window.CONTENT.security = {
       verifiedAt: '2026-04-23',
     },
 
+
+    spotting_fraud: {
+      id: 'spotting_fraud',
+      name: 'Spotting Fraud: The 12.5 Billion Dollar Year',
+      level: 'Beginner',
+      dek: 'Consumers reported 12.5 billion dollars lost to fraud in 2024, up a quarter in one year, says FTC.',
+      readTime: '4 min',
+
+      sections: ['The FTC count', 'The two biggest categories', 'The shared pattern'],
+      body: [
+        { type: 'lead', text: 'Consumers reported losing over $12.5 billion to fraud in 2024, a 25 percent increase over the year before, according to the Federal Trade Commission. The reports numbered 2.6 million, about the same as 2023, but a much larger share of the people reporting, 38 percent, up from 27 percent, said they actually lost money. The scams are not multiplying as fast as they are succeeding.' },
+        { type: 'h2', text: 'The two biggest categories' },
+        { type: 'p', text: 'Investment scams took the largest share, $5.7 billion in reported losses, built on fake returns, crypto schemes, and advisors who exist only in a chat window. Imposter scams came second at $2.95 billion: callers, texts, and emails pretending to be a bank, a government agency, a company you buy from, or a relative in trouble.' },
+        { type: 'p', text: 'The FTC has repeated one sentence for years and it remains the core fact: the government and real banks do not demand payment by gift card, wire, or crypto, and do not ask you to move money to protect it. An instruction to pay that way is the fraud, whatever the story around it claims.' },
+        { type: 'h2', text: 'The shared pattern' },
+        { type: 'p', text: 'Nearly every successful fraud runs on urgency and secrecy: act now, tell no one, pay by a method that cannot be reversed. The counter is procedural, not clever. Slow down. Verify through a number or address you find yourself, never the one in the message. Talk to a person you trust before moving money. Report the attempt, because the FTC\'s count, and the warnings built from it, come from exactly those reports.' },
+        { type: 'callout', text: 'Reported losses are a floor, not a total: the FTC counts what consumers report, and most fraud is never reported. The true figure is higher than 12.5 billion dollars.' },
+      ],
+
+      keyTerms: ['fraud', 'FTC', 'imposter scam', 'investment scam', 'phishing', 'reported losses'],
+
+      resources: {
+        articles: [
+          {
+            title: 'New FTC Data Show a Big Jump in Reported Losses to Fraud to $12.5 Billion in 2024',
+            source: 'Federal Trade Commission',
+            url: 'https://www.ftc.gov/news-events/news/press-releases/2025/03/new-ftc-data-show-big-jump-reported-losses-fraud-125-billion-2024',
+            why: 'The FTC release itself: $12.5 billion reported lost, up 25 percent, investment scams $5.7 billion, imposter scams $2.95 billion, and the rise from 27 to 38 percent of reporters losing money.',
+            year: 2025,
+          },
+        ],
+      },
+
+      seeAlso: ['strong_passwords', 'apr_basics', 'credit_scores'],
+
+      sources: [
+        'https://www.ftc.gov/news-events/news/press-releases/2025/03/new-ftc-data-show-big-jump-reported-losses-fraud-125-billion-2024',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    strong_passwords: {
+      id: 'strong_passwords',
+      name: 'Strong Passwords the NIST Way',
+      level: 'Beginner',
+      dek: 'NIST\'s password standard prizes length over symbol mixtures, and dropped forced changes and complexity rules.',
+      readTime: '4 min',
+
+      sections: ['Length is the primary factor', 'What the standard dropped', 'The practice that follows'],
+      body: [
+        { type: 'lead', text: 'The United States National Institute of Standards and Technology writes the password rules most systems now follow, in its standard SP 800-63B. Its central finding surprises people raised on symbol soup: length is a primary factor in password strength. A long passphrase of ordinary words beats a short tangle of characters, and it is easier to remember honestly.' },
+        { type: 'h2', text: 'What the standard dropped' },
+        { type: 'p', text: 'SP 800-63B tells systems to stop imposing composition rules, the requirement to mix uppercase, lowercase, digits, and symbols, because people answer such rules with predictable patterns the attackers already know. It also ends forced periodic password changes where there is no evidence of compromise, since scheduled changes mostly produce weaker, recycled passwords. The minimum stays 8 characters, and systems should allow at least 64, enough room for a full passphrase with spaces.' },
+        { type: 'p', text: 'In place of the old rules, the standard adds a screening duty: new passwords must be checked against lists of passwords known to be breached, common, or expected, and rejected if they appear. A password the whole internet has already used is weak at any length.' },
+        { type: 'h2', text: 'The practice that follows' },
+        { type: 'p', text: 'For a person, the standard reduces to three habits. Make it long, a passphrase of several unrelated words. Make it unique, never reused across sites, because one site\'s breach becomes every site\'s breach. And let a password manager carry the load, so length and uniqueness cost no memory. Add a second factor where it is offered, and the account is protected by something you have as well as something you know.' },
+        { type: 'callout', text: 'NIST\'s rules in one breath: minimum 8, allow 64 or more, no composition rules, no routine forced changes, screen against breached password lists.' },
+      ],
+
+      keyTerms: ['NIST', 'SP 800-63B', 'passphrase', 'breached passwords', 'password manager', 'two factor'],
+
+      resources: {
+        articles: [
+          {
+            title: 'NIST SP 800-63B Password Guidelines: Plain English Summary',
+            source: 'PassGeni (summary of NIST SP 800-63B)',
+            url: 'https://www.passgeni.ai/guides/nist-800-63b-password-guidelines',
+            why: 'A faithful plain English summary of the standard: minimum 8, allow at least 64, no mandatory complexity, no periodic rotation, breach list checking required.',
+            year: null,
+          },
+        ],
+      },
+
+      seeAlso: ['spotting_fraud', 'hedy_lamarr', 'women_codebreakers'],
+
+      sources: [
+        'https://www.passgeni.ai/guides/nist-800-63b-password-guidelines',
+        'https://csrc.nist.gov/pubs/sp/800/63/b/upd2/final',
+      ],
+      verifiedAt: '2026-10-15',
+    },
   },
 };
 

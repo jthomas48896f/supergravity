@@ -424,5 +424,213 @@ window.CONTENT.finance = {
       verifiedAt: '2026-04-23',
     },
 
+
+    rule_of_72: {
+      id: 'rule_of_72',
+      name: 'The Rule of 72: Doubling Your Money',
+      level: 'Beginner',
+      dek: 'Divide 72 by your yearly return to estimate how many years money takes to double.',
+      readTime: '4 min',
+
+      sections: ['The trick', 'Worked examples', 'What it leaves out'],
+      body: [
+        { type: 'lead', text: 'The Rule of 72 is the fastest useful estimate in personal finance. Divide 72 by an investment\'s annual rate of return, and the answer is roughly how many years the money takes to double, with no calculator and no spreadsheet. At a 9 percent return, 72 divided by 9 is 8: about eight years to double.' },
+        { type: 'h2', text: 'Worked examples' },
+        { type: 'p', text: 'At 3 percent, money doubles in about 24 years. At 6 percent, about 12 years. At 12 percent, about 6 years. The rule works in reverse for debt and inflation: at 4 percent inflation, prices double, and the buying power of idle cash halves, in about 18 years. Applied to a credit card charging 24 percent, an unpaid balance doubles in about 3 years, which is the same arithmetic wearing a different expression.' },
+        { type: 'p', text: 'Investor.gov, the Securities and Exchange Commission\'s investor education site, teaches the rule alongside compound interest itself, because the two are the same idea: growth builds on growth, so time does more work than amount once a balance is rolling.' },
+        { type: 'h2', text: 'What it leaves out' },
+        { type: 'p', text: 'The rule assumes a steady return, and real returns wobble. It ignores taxes, fees, and new deposits or withdrawals. It is an estimate, most accurate for returns in the middle range, roughly 5 to 12 percent. Used for what it is, a sanity check you can do in your head at a kitchen table, it is exact enough to expose a bad deal and to show why starting early matters more than starting big.' },
+        { type: 'callout', text: 'One number, three uses: years to double a savings balance, years for a debt to double, years for inflation to halve idle cash. All are 72 divided by the rate.' },
+      ],
+
+      keyTerms: ['compound interest', 'rule of 72', 'rate of return', 'doubling time', 'inflation', 'Investor.gov'],
+
+      resources: {
+        articles: [
+          {
+            title: 'What Is Compound Interest?',
+            source: 'Investor.gov (U.S. Securities and Exchange Commission)',
+            url: 'https://www.investor.gov/additional-resources/information/youth/teachers-classroom-resources/what-compound-interest',
+            why: 'The SEC\'s classroom page teaching compound interest and the rule: divide 72 by the rate of return to estimate the years to double; at 9 percent, about 8 years.',
+            year: null,
+          },
+        ],
+      },
+
+      seeAlso: ['emergency_savings', 'apr_basics', 'inflation_cpi'],
+
+      sources: [
+        'https://www.investor.gov/additional-resources/information/youth/teachers-classroom-resources/what-compound-interest',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    emergency_savings: {
+      id: 'emergency_savings',
+      name: 'The 400 Dollar Test',
+      level: 'Beginner',
+      dek: 'In 2023, 63 percent of adults could cover a 400 dollar emergency with cash, says the Federal Reserve.',
+      readTime: '4 min',
+
+      sections: ['The survey question', 'The trend', 'What the number is for'],
+      body: [
+        { type: 'lead', text: 'Every year the Federal Reserve asks American adults a plain question: how would you cover a hypothetical $400 emergency expense? In 2023, 63 percent said they would pay it with cash or its equivalent, a credit card paid off at the next statement, or money already in hand. Thirteen percent said they could not pay it by any means.' },
+        { type: 'h2', text: 'The trend' },
+        { type: 'p', text: 'The series comes from the Fed\'s Survey of Household Economics and Decisionmaking, published in its annual Economic Well-Being of U.S. Households report. The cash coverage figure peaked at 68 percent in 2021, then fell back as pandemic era support ended and prices rose. The survey is careful about what it measures: a small shock, not a catastrophe. Four hundred dollars is a car repair, a dental bill, a broken phone.' },
+        { type: 'p', text: 'The remaining adults split between borrowing, selling something, asking family, or carrying a card balance they could not clear. The point of the question is precisely that it is small: a household that cannot absorb $400 has no slack at all, and every larger shock goes straight to debt.' },
+        { type: 'h2', text: 'What the number is for' },
+        { type: 'p', text: 'For a household, the test is a target in disguise: a first savings goal of $400, then $1,000, then a month of expenses. For policy, the same number is a floor measure: the share of adults one small emergency away from borrowing. Either way, it is the rare statistic you can apply to yourself in one honest minute.' },
+        { type: 'callout', text: 'The Federal Reserve, 2023 data: 63 percent would cover the $400 with cash or its equivalent, 13 percent could not pay it by any means, and the series peak was 68 percent in 2021.' },
+      ],
+
+      keyTerms: ['emergency expense', 'Federal Reserve', 'SHED', 'household well-being', 'savings buffer', 'liquidity'],
+
+      resources: {
+        articles: [
+          {
+            title: 'Economic Well-Being of U.S. Households in 2023: Expenses',
+            source: 'Board of Governors of the Federal Reserve System',
+            url: 'https://www.federalreserve.gov/publications/2024-economic-well-being-of-us-households-in-2023-expenses.htm',
+            why: 'The Fed\'s own report page for the $400 question: 63 percent cash coverage in 2023, 13 percent unable to pay, 68 percent at the 2021 peak.',
+            year: 2024,
+          },
+        ],
+      },
+
+      seeAlso: ['rule_of_72', 'credit_scores', 'standard_deduction'],
+
+      sources: [
+        'https://www.federalreserve.gov/publications/2024-economic-well-being-of-us-households-in-2023-expenses.htm',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    credit_scores: {
+      id: 'credit_scores',
+      name: 'Credit Scores: What the Number Counts',
+      level: 'Beginner',
+      dek: 'FICO scores run 300 to 850, weighted most by paying on time and how much you owe.',
+      readTime: '4 min',
+
+      sections: ['The range', 'The five weights', 'Using the weights'],
+      body: [
+        { type: 'lead', text: 'A FICO credit score runs from 300 to 850, and higher is better: lenders read it as a prediction of how likely you are to repay. FICO publishes the five categories the score is built from and how much each counts, which makes the number less mysterious than it looks. Payment history counts for 35 percent. Amounts owed count for 30 percent.' },
+        { type: 'h2', text: 'The five weights' },
+        { type: 'p', text: 'The remaining three categories are smaller. Length of credit history counts for 15 percent: older accounts help, which is why closing your oldest card can dent a score. Credit mix counts for 10 percent: handling different kinds of credit, a card and a loan, counts modestly in your favor. New credit counts for 10 percent: opening several accounts in a short span reads as risk.' },
+        { type: 'p', text: 'The order of the weights is the useful part. Two thirds of the score, payment history and amounts owed, is behavior entirely within the borrower\'s control this month: pay on time, every time, and keep balances low relative to their limits. The rest improves mostly by waiting.' },
+        { type: 'h2', text: 'Using the weights' },
+        { type: 'p', text: 'Amounts owed is measured largely by utilization, the share of your credit limits you are using, so paying a balance down before the statement closes can move the score faster than anything else except fixing missed payments. Scores differ between the bureaus and between score versions, so the number to watch is the trend of your own score, not a single day\'s figure from a single app.' },
+        { type: 'callout', text: 'FICO\'s published weights, complete: payment history 35, amounts owed 30, length of history 15, credit mix 10, new credit 10. They add to 100, and the top two are this month\'s behavior.' },
+      ],
+
+      keyTerms: ['FICO score', 'payment history', 'utilization', 'credit mix', 'credit bureau', 'credit limit'],
+
+      resources: {
+        articles: [
+          {
+            title: 'What Is a FICO Score vs. TransUnion vs. Equifax Credit Scores?',
+            source: 'SoFi Learn (summarizing FICO\'s published scoring factors)',
+            url: 'https://www.sofi.com/learn/content/what-is-fico-vs-transunion-vs-equifax-credit-scores/',
+            why: 'A clear statement of FICO\'s published model: the 300 to 850 range and the five factor weights, 35, 30, 15, 10, and 10 percent.',
+            year: null,
+          },
+        ],
+      },
+
+      seeAlso: ['apr_basics', 'emergency_savings', 'rule_of_72'],
+
+      sources: [
+        'https://www.sofi.com/learn/content/what-is-fico-vs-transunion-vs-equifax-credit-scores/',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    standard_deduction: {
+      id: 'standard_deduction',
+      name: 'The Standard Deduction, 2025',
+      level: 'Beginner',
+      dek: 'For 2025 the standard deduction is 15,750 dollars single after new legislation raised the IRS schedule.',
+      readTime: '4 min',
+
+      sections: ['What it is', 'The 2025 numbers, both steps', 'Standard or itemized'],
+      body: [
+        { type: 'lead', text: 'The standard deduction is the amount of income the federal tax system does not tax, no receipts required. For tax year 2025, the amounts are $15,750 for single filers, $31,500 for married couples filing jointly, and $23,625 for heads of household. Those are the final figures, and how they got there is a two step story worth telling straight.' },
+        { type: 'h2', text: 'The 2025 numbers, both steps' },
+        { type: 'p', text: 'Step one: the IRS\'s annual inflation adjustment, Revenue Procedure 2024-40, set the 2025 deduction at $15,000 single, $30,000 joint, and $22,500 head of household. Those figures are what the IRS newsroom announced in October 2024 and what many pages still show.' },
+        { type: 'p', text: 'Step two: tax legislation signed in July 2025 raised the 2025 amounts above the inflation schedule, to $15,750, $31,500, and $23,625. Anyone filing a 2025 return in early 2026 uses the second set. When two official looking numbers disagree, the later law wins, and a good record says both and why.' },
+        { type: 'h2', text: 'Standard or itemized' },
+        { type: 'p', text: 'A filer takes the standard deduction or itemizes, whichever is larger, never both. Itemizing means adding up specific deductions, mortgage interest, state and local taxes within their cap, charitable gifts, and claiming the total if it beats the standard amount. Most filers take the standard deduction, which is why its level quietly sets the tax bill for most households.' },
+        { type: 'callout', text: 'Both sets are real, with dates: IRS inflation schedule, $15,000 / $30,000 / $22,500 (Revenue Procedure 2024-40); final law for 2025, $15,750 / $31,500 / $23,625.' },
+      ],
+
+      keyTerms: ['standard deduction', 'itemizing', 'filing status', 'Revenue Procedure 2024-40', 'taxable income', 'head of household'],
+
+      resources: {
+        articles: [
+          {
+            title: 'IRS releases tax inflation adjustments for tax year 2025',
+            source: 'Internal Revenue Service',
+            url: 'https://www.irs.gov/newsroom/irs-releases-tax-inflation-adjustments-for-tax-year-2025',
+            why: 'The IRS announcement of the inflation schedule: $15,000 single, $30,000 joint, $22,500 head of household under Revenue Procedure 2024-40.',
+            year: 2024,
+          },
+          {
+            title: 'The Standard Deduction for 2025: How It Works Plus Updated Amounts',
+            source: 'Kiplinger',
+            url: 'https://www.kiplinger.com/taxes/tax-deductions/602223/standard-deduction&',
+            why: 'Kiplinger on the updated final 2025 amounts after the July 2025 legislation: $15,750 single, $31,500 joint, $23,625 head of household.',
+            year: 2025,
+          },
+        ],
+      },
+
+      seeAlso: ['emergency_savings', 'federal_minimum_wage', 'apr_basics'],
+
+      sources: [
+        'https://www.irs.gov/newsroom/irs-releases-tax-inflation-adjustments-for-tax-year-2025',
+        'https://www.kiplinger.com/taxes/tax-deductions/602223/standard-deduction&',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    apr_basics: {
+      id: 'apr_basics',
+      name: 'APR: The Real Price of a Loan',
+      level: 'Beginner',
+      dek: 'APR folds a loan\'s interest rate and lender fees into one number so loans can be compared.',
+      readTime: '4 min',
+
+      sections: ['Rate versus APR', 'Why the law requires it', 'Comparing two offers'],
+      body: [
+        { type: 'lead', text: 'The interest rate on a loan is not its whole price. The annual percentage rate, APR, is the broader measure: it takes the interest rate and adds the additional fees the lender charges, so the APR is the cost of credit stated as a yearly rate. The Consumer Financial Protection Bureau\'s rule of thumb is direct: because APR includes fees, it is the number to compare across lenders.' },
+        { type: 'h2', text: 'Why the law requires it' },
+        { type: 'p', text: 'The Truth in Lending Act requires lenders to disclose the APR before a loan is finalized. The reason is the fee trick: a loan can advertise a low interest rate while charging origination fees, points, and other costs that make it the more expensive offer in fact. Folding the fees into one rate makes that trick visible at a glance.' },
+        { type: 'p', text: 'Two loans with the same interest rate can carry different APRs, and the one with the higher APR costs more overall. Two loans with the same APR can still differ in monthly payment and term, so APR is the comparison for price, not for fit.' },
+        { type: 'h2', text: 'Comparing two offers' },
+        { type: 'p', text: 'Compare APR to APR, for the same loan amount and the same term. Then check what the APR cannot show: prepayment penalties, variable rates that can reset upward, and fees for late payment. On credit cards the APR is usually just the interest rate, since annual fees are not folded in, which is one more reason the CFPB keeps a plain language glossary of the terms.' },
+        { type: 'callout', text: 'The CFPB in one line: APR is a broader measure of the cost of borrowing than the interest rate, because it includes the interest rate plus additional lender fees.' },
+      ],
+
+      keyTerms: ['APR', 'interest rate', 'Truth in Lending Act', 'origination fee', 'CFPB', 'term'],
+
+      resources: {
+        articles: [
+          {
+            title: 'What is the difference between a loan interest rate and the APR?',
+            source: 'Consumer Financial Protection Bureau (Ask CFPB)',
+            url: 'https://www.consumerfinance.gov/ask-cfpb/what-is-the-difference-between-a-loan-interest-rate-and-the-apr-en-733/',
+            why: 'The regulator\'s own answer: APR is the interest rate plus additional fees, the Truth in Lending Act requires its disclosure, and APRs are the way to compare lenders.',
+            year: null,
+          },
+        ],
+      },
+
+      seeAlso: ['credit_scores', 'rule_of_72', 'spotting_fraud'],
+
+      sources: [
+        'https://www.consumerfinance.gov/ask-cfpb/what-is-the-difference-between-a-loan-interest-rate-and-the-apr-en-733/',
+      ],
+      verifiedAt: '2026-10-15',
+    },
   },
 };

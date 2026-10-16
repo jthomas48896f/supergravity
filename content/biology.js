@@ -1346,5 +1346,329 @@ window.CONTENT.biology = {
       verifiedAt: '2026-10-15',
     },
 
+
+    rosalind_franklin: {
+      id: 'rosalind_franklin',
+      name: 'Rosalind Franklin and Photo 51',
+      level: 'Beginner',
+      dek: 'Franklin\'s X-ray photograph showed DNA\'s helical shape and gave the double helix its key measurements.',
+      readTime: '4 min',
+
+      sections: ['King\'s College, 1952', 'How the photograph traveled', 'The credit question'],
+      body: [
+        { type: 'lead', text: 'Photo 51 is an X-ray diffraction image of the B form of DNA, made by Rosalind Franklin and Raymond Gosling at King\'s College London. The exposure began on 2 May 1952 and ran for about 62 hours. The clear X shape at its center showed that DNA is a helix, and measurements taken from the image supplied key dimensions for the double helix model.' },
+        { type: 'h2', text: 'How the photograph traveled' },
+        { type: 'p', text: 'In January 1953, Maurice Wilkins showed Photo 51 to James Watson, without Franklin\'s knowledge. Watson recognized what the pattern meant. Weeks later, Watson and Francis Crick published their double helix model, built with Franklin\'s data among its foundations. Franklin\'s own papers on the A and B forms appeared in the same journal issue, presented as supporting work.' },
+        { type: 'p', text: 'Franklin moved to Birkbeck College and did respected work on the structure of viruses. She died of ovarian cancer in 1958, aged 37. In 1962 the Nobel Prize for the DNA structure went to Watson, Crick, and Wilkins. Nobel Prizes are not awarded after death, and her part in the discovery was widely underplayed in the first accounts of it.' },
+        { type: 'h2', text: 'The credit question' },
+        { type: 'p', text: 'The record is now plain in the sources themselves: the photograph, the measurements, and the timing are documented, and King\'s College and the Science History Institute both tell the story with her at the center of the experimental work. Photo 51 is remembered as her image, and the gap between the work and the credit is the lesson that travels with it.' },
+        { type: 'callout', text: 'The image took about 62 hours of exposure to make. It is catalogued today as a work of Franklin and Gosling, held in the Science History Institute\'s digital collections.' },
+      ],
+
+      keyTerms: ['X-ray diffraction', 'DNA', 'double helix', 'B form', 'Photo 51', 'King\'s College'],
+
+      resources: {
+        books: [
+          {
+            title: 'Rosalind Franklin: The Dark Lady of DNA',
+            author: 'Brenda Maddox',
+            year: 2002,
+            url: '',
+            why: 'The standard biography, careful with the King\'s College record and the timing of the photograph\'s use.',
+          },
+        ],
+        articles: [
+          {
+            title: 'Photo 51 (Franklin and Gosling)',
+            source: 'Science History Institute, Digital Collections',
+            url: 'https://digital.sciencehistory.org/works/skau3rn',
+            why: 'The image itself, catalogued by the institute: made at King\'s in May 1952, B form DNA, the X pattern of a helix.',
+            year: null,
+          },
+        ],
+      },
+
+      seeAlso: ['marie_curie', 'origin_of_species', 'ada_lovelace'],
+
+      sources: [
+        'https://digital.sciencehistory.org/works/skau3rn',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    jane_goodall: {
+      id: 'jane_goodall',
+      name: 'Jane Goodall and the Chimpanzees of Gombe',
+      level: 'Beginner',
+      dek: 'In 1960 Goodall watched a chimpanzee make a tool, and the definition of being human moved.',
+      readTime: '4 min',
+
+      sections: ['November 4, 1960', 'Redefine tool, redefine man', 'The long watch'],
+      body: [
+        { type: 'lead', text: 'On November 4, 1960, at Gombe Stream in Tanzania, Jane Goodall watched a chimpanzee she had named David Greybeard strip the leaves from a twig and use it to fish termites from a mound. It was the first recorded observation of a non human animal making and using a tool in the wild.' },
+        { type: 'h2', text: 'Redefine tool, redefine man' },
+        { type: 'p', text: 'Goodall reported the observation to her mentor, the paleoanthropologist Louis Leakey. His reply became famous: now we must redefine tool, redefine man, or accept chimpanzees as human. Tool making had been treated as the line between humans and other animals. A chimpanzee preparing a twig, choosing it, stripping it, and using it for a purpose, stood on the human side of that line.' },
+        { type: 'p', text: 'The same early months broke another assumption. Chimpanzees were thought to be vegetarian. Goodall observed them eating meat, a freshly killed bush pig, and later hunting. Diet, tools, and social life all turned out richer than the science of the day allowed.' },
+        { type: 'h2', text: 'The long watch' },
+        { type: 'p', text: 'Goodall began at Gombe in 1960, aged 26, without a university degree, naming her subjects instead of numbering them, against the custom of the field. The study she started is now the longest running continuous study of wild animals in their natural habitat, carried on by the Jane Goodall Institute\'s research center at Gombe, and her methods, patience, and named individuals reshaped how field biology is done.' },
+        { type: 'callout', text: 'History.com keeps the day on its calendar: November 4, 1960, the day a chimpanzee\'s stripped twig changed what counts as a tool, and who counts as a maker.' },
+      ],
+
+      keyTerms: ['primatology', 'tool use', 'Gombe', 'David Greybeard', 'Louis Leakey', 'field study'],
+
+      resources: {
+        books: [
+          {
+            title: 'In the Shadow of Man',
+            author: 'Jane Goodall',
+            year: 1971,
+            url: '',
+            why: 'Her own account of the Gombe years: the naming, the patience, and the observations as she recorded them.',
+          },
+        ],
+        articles: [
+          {
+            title: 'Jane Goodall observes a chimpanzee making and using tools',
+            source: 'History.com',
+            url: 'http://www.history.com/this-day-in-history/november-4/jane-goodall-observes-a-chimpanzee-making-and-using-tools',
+            why: 'The dated record of the observation: November 4, 1960, David Greybeard, and Leakey\'s telegram in reply.',
+            year: null,
+          },
+          {
+            title: '50 Years of Chimpanzee Discoveries at Gombe',
+            source: 'Smithsonian Magazine',
+            url: 'https://www.smithsonianmag.com/science-nature/50-years-of-chimpanzee-discoveries-at-gombe-31517394/',
+            why: 'The Smithsonian\'s summary of the Gombe findings, tools among them, across fifty years of the study.',
+            year: null,
+          },
+        ],
+      },
+
+      seeAlso: ['origin_of_species', 'rachel_carson', 'pollinators'],
+
+      sources: [
+        'http://www.history.com/this-day-in-history/november-4/jane-goodall-observes-a-chimpanzee-making-and-using-tools',
+        'https://www.smithsonianmag.com/science-nature/50-years-of-chimpanzee-discoveries-at-gombe-31517394/',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    rachel_carson: {
+      id: 'rachel_carson',
+      name: 'Rachel Carson and Silent Spring',
+      level: 'Beginner',
+      dek: 'Carson\'s Silent Spring documented what pesticides were doing, and national policy turned within a decade.',
+      readTime: '4 min',
+
+      sections: ['A marine biologist turns inland', 'The book', 'What changed'],
+      body: [
+        { type: 'lead', text: 'Rachel Carson was an American marine biologist and writer whose 1962 book Silent Spring documented the damage done by the indiscriminate use of synthetic pesticides, above all DDT. The book spurred a reversal in national pesticide policy, led to a nationwide ban on DDT, and inspired the grassroots environmental movement that led to the creation of the U.S. Environmental Protection Agency.' },
+        { type: 'h2', text: 'A marine biologist turns inland' },
+        { type: 'p', text: 'Carson worked for the U.S. Bureau of Fisheries, later the Fish and Wildlife Service, from 1936 to 1952, ending as editor in chief of its publications. Her sea books, The Sea Around Us above all, made her famous as a writer who combined scientific accuracy with lyrical prose. In the late 1950s she turned to conservation and spent four years gathering the evidence for Silent Spring.' },
+        { type: 'p', text: 'The title imagines a spring without birdsong. The argument was documented, not poetic license: pesticides sprayed for insects were moving through food chains, thinning the eggs of birds of prey and accumulating in living tissue, while the chemical industry disputed her at every step.' },
+        { type: 'h2', text: 'What changed' },
+        { type: 'p', text: 'The book was a bestseller, survived fierce industry opposition, and was upheld by the President\'s Science Advisory Committee. The environmental movement it galvanized produced the EPA in 1970, and the United States banned DDT for agricultural use in 1972. Carson died in 1964, before either happened. Britannica\'s judgment: Silent Spring became one of the most influential books in the modern environmental movement and gave the impetus for tighter control of pesticides, including DDT.' },
+        { type: 'callout', text: 'Carson was posthumously awarded the Presidential Medal of Freedom in 1980. The sea trilogy and Silent Spring are all still in print.' },
+      ],
+
+      keyTerms: ['Silent Spring', 'DDT', 'pesticide', 'environmental movement', 'EPA', 'food chain'],
+
+      resources: {
+        books: [
+          {
+            title: 'Silent Spring',
+            author: 'Rachel Carson',
+            year: 1962,
+            url: '',
+            why: 'The book itself: the documented case against indiscriminate pesticide use that changed national policy.',
+          },
+        ],
+        articles: [
+          {
+            title: 'Rachel Carson',
+            source: 'Encyclopaedia Britannica',
+            url: 'https://www.britannica.com/biography/Rachel-Carson',
+            why: 'Britannica\'s biography: the Fish and Wildlife Service career, the sea trilogy, and Silent Spring\'s impetus for tighter pesticide control.',
+            year: null,
+          },
+        ],
+      },
+
+      seeAlso: ['pollinators', 'jane_goodall', 'coral_reefs'],
+
+      sources: [
+        'https://www.britannica.com/biography/Rachel-Carson',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    coral_reefs: {
+      id: 'coral_reefs',
+      name: 'Coral Reefs: A Quarter of Ocean Life',
+      level: 'Beginner',
+      dek: 'Reefs cover under a tenth of one percent of ocean floor, yet shelter a quarter of marine life.',
+      readTime: '4 min',
+
+      sections: ['Small floor, crowded house', 'How a reef is built', 'Why reefs are at risk'],
+      body: [
+        { type: 'lead', text: 'Coral reefs are home to about 25 percent of all marine life, while covering less than 0.1 percent of the world\'s ocean floor. That crowding, a quarter of the ocean\'s species on a sliver of its area, is the basic fact of reef biology, and the reason reef loss counts so heavily.' },
+        { type: 'h2', text: 'How a reef is built' },
+        { type: 'p', text: 'A reef is built by animals. Coral polyps, small relatives of jellyfish, secrete limestone skeletons, and colonies grow over centuries into structures that shelter fish, crustaceans, mollusks, and thousands of other species. Most reef corals host algae inside their tissues that photosynthesize and share the food, which is why reefs thrive in clear, sunlit, nutrient poor water, a paradox of richness in a near desert.' },
+        { type: 'p', text: 'The structure is the service. Crevices and overhangs give young fish somewhere to hide, so reefs act as nurseries for species that later live in open water, including many that people catch and eat far from any reef.' },
+        { type: 'h2', text: 'Why reefs are at risk' },
+        { type: 'p', text: 'Warming water drives bleaching, when stressed corals expel their algae and starve if the heat lasts. Ocean acidification slows the limestone building itself. NOAA\'s educational materials put the two headline numbers side by side, 25 percent of marine life, under 0.1 percent of the floor, as the measure of what is concentrated in one threatened habitat.' },
+        { type: 'callout', text: 'The comparison in one line, from NOAA: about a quarter of all marine species live on reefs that cover less than one tenth of one percent of the ocean floor.' },
+      ],
+
+      keyTerms: ['coral polyp', 'reef', 'biodiversity', 'bleaching', 'symbiosis', 'nursery habitat'],
+
+      resources: {
+        articles: [
+          {
+            title: 'Coral Reefs and Climate Change (teacher background)',
+            source: 'NOAA Global Monitoring Laboratory, Education',
+            url: 'https://gml.noaa.gov/education/info_activities/pdfs/TBI_coral_reefs_and_climate_change.pdf',
+            why: 'NOAA\'s teacher background sheet carrying both figures: roughly 25 percent of marine life, less than 0.1 percent of the ocean floor.',
+            year: null,
+          },
+        ],
+      },
+
+      seeAlso: ['ocean_acidification', 'pollinators', 'the_world_ocean'],
+
+      sources: [
+        'https://gml.noaa.gov/education/info_activities/pdfs/TBI_coral_reefs_and_climate_change.pdf',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    pollinators: {
+      id: 'pollinators',
+      name: 'Pollinators and the Food Supply',
+      level: 'Beginner',
+      dek: 'Three fourths of flowering plants and a third of food crops depend on animal pollinators, says USDA.',
+      readTime: '4 min',
+
+      sections: ['One bite in three', 'Who does the work', 'What is happening to them'],
+      body: [
+        { type: 'lead', text: 'Three fourths of the world\'s flowering plants and about 35 percent of the world\'s food crops depend on animal pollinators to reproduce, according to the U.S. Department of Agriculture. Put on a plate, the USDA\'s figure is famous: one out of every three bites of food you eat is there because of pollinators.' },
+        { type: 'h2', text: 'Who does the work' },
+        { type: 'p', text: 'Bees do much of it, managed honey bees and thousands of wild bee species, but not all. Butterflies, moths, beetles, flies, hummingbirds, and bats all carry pollen between flowers. Many crops lean on particular partners: almonds on honey bees trucked in by the millions, cacao on tiny midges, squash on native squash bees that rise before dawn.' },
+        { type: 'p', text: 'Pollination is a byproduct. The animal comes for nectar or pollen as food, and grains stick and travel. The plant\'s reproduction rides on the animal\'s appetite, which is why the system is both robust, many species overlap, and fragile, each partnership tuned over long time.' },
+        { type: 'h2', text: 'What is happening to them' },
+        { type: 'p', text: 'Pollinator numbers are under pressure from habitat loss, pesticides, disease, and a shifting climate that can move flowering and emergence out of step. The USDA\'s advice is correspondingly ordinary: plant flowers, including native ones, reduce pesticide use, and leave nesting ground undisturbed. A third of the menu is a large thing to protect with such small tools, which is the point of listing them.' },
+        { type: 'callout', text: 'The USDA figures, stated whole: three fourths of flowering plants, about 35 percent of food crops, one bite in three.' },
+      ],
+
+      keyTerms: ['pollination', 'pollen', 'honey bee', 'food crops', 'habitat', 'USDA'],
+
+      resources: {
+        articles: [
+          {
+            title: 'The Importance of Pollinators',
+            source: 'U.S. Department of Agriculture',
+            url: 'https://www.usda.gov/about-usda/general-information/initiatives-and-highlighted-programs/peoples-garden/importance-pollinators',
+            why: 'The USDA\'s own page: three fourths of flowering plants, about 35 percent of world food crops, one of every three bites.',
+            year: null,
+          },
+        ],
+      },
+
+      seeAlso: ['rachel_carson', 'plants', 'how_photosynthesis_works'],
+
+      sources: [
+        'https://www.usda.gov/about-usda/general-information/initiatives-and-highlighted-programs/peoples-garden/importance-pollinators',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    origin_of_species: {
+      id: 'origin_of_species',
+      name: 'Darwin and Natural Selection',
+      level: 'Beginner',
+      dek: 'In 1859 Darwin published the mechanism of evolution: variation, inheritance, and struggle favoring the fit.',
+      readTime: '4 min',
+
+      sections: ['24 November 1859', 'The mechanism in three parts', 'Why it holds'],
+      body: [
+        { type: 'lead', text: 'Charles Darwin\'s On the Origin of Species was published on November 24, 1859. It proposed the mechanism that explains how species change over time: natural selection. Individuals vary, offspring inherit variations, and more are born than can survive, so the variations that help their bearers survive and reproduce become more common, generation by generation.' },
+        { type: 'h2', text: 'The mechanism in three parts' },
+        { type: 'p', text: 'Variation: members of a species differ, in size, color, speed, resistance, and a thousand other traits. Inheritance: offspring resemble their parents, so differences pass down. Struggle: every species produces more young than the environment can support, so only some survive to reproduce. From those three plain observations, selection follows without any designer: the traits that remain are the ones that worked.' },
+        { type: 'p', text: 'Darwin built the case from twenty years of evidence, breeding pigeons, barnacles, fossils, and the distribution of species he had recorded as naturalist aboard HMS Beagle. Alfred Russel Wallace arrived at the same mechanism independently, and their ideas were presented together in 1858, before Darwin\'s book laid out the full argument.' },
+        { type: 'h2', text: 'Why it holds' },
+        { type: 'p', text: 'Evolution by natural selection is the organizing theory of biology because everything found since has fitted it and sharpened it: genetics supplied the inheritance mechanism Darwin lacked, and DNA lets us measure relatedness directly. The finches, the fossils, and the genome tell one story at three scales.' },
+        { type: 'callout', text: 'Britannica\'s summary of the theory is the three part engine above: variation, inheritance, and differential survival, published in full on 24 November 1859.' },
+      ],
+
+      keyTerms: ['natural selection', 'evolution', 'variation', 'inheritance', 'species', 'Alfred Russel Wallace'],
+
+      resources: {
+        books: [
+          {
+            title: 'On the Origin of Species',
+            author: 'Charles Darwin',
+            year: 1859,
+            url: '',
+            why: 'The book itself, in the public domain: the full argument, patiently evidenced, chapter by chapter.',
+          },
+        ],
+        articles: [
+          {
+            title: 'Charles Darwin',
+            source: 'Encyclopaedia Britannica',
+            url: 'https://www.britannica.com/biography/Charles-Darwin',
+            why: 'Britannica\'s biography and summary of the theory: the Beagle years, the long delay, and the 1859 publication.',
+            year: null,
+          },
+        ],
+      },
+
+      seeAlso: ['jane_goodall', 'rosalind_franklin', 'coral_reefs'],
+
+      sources: [
+        'https://www.britannica.com/biography/Charles-Darwin',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    how_photosynthesis_works: {
+      id: 'how_photosynthesis_works',
+      name: 'How Photosynthesis Works',
+      level: 'Beginner',
+      dek: 'Plants use sunlight to turn carbon dioxide and water into glucose, releasing the oxygen we breathe.',
+      readTime: '4 min',
+
+      sections: ['The chemical summary', 'What the glucose becomes', 'The other half of the cycle'],
+      body: [
+        { type: 'lead', text: 'Photosynthesis is how plants use water, carbon dioxide, and the energy of sunlight to create glucose and oxygen. Britannica\'s chemical summary gives the full bookkeeping: six molecules of carbon dioxide plus twelve molecules of water, plus the energy of sunlight, yield one molecule of glucose plus six molecules of oxygen and six molecules of water.' },
+        { type: 'h2', text: 'What the glucose becomes' },
+        { type: 'p', text: 'Glucose is a building block, not an end. Plants link glucose molecules into cellulose, the main material of cell walls and of wood. They chain it into starches for storage, the starches of wheat and potatoes that anchor human diets. They make it into the sugars of fruits such as grapes and apples. Nearly everything a plant is, and nearly everything that eats a plant, is assembled from this one sugar.' },
+        { type: 'p', text: 'The oxygen released is the other product. All the oxygen in the atmosphere has its origin in photosynthesis, most of it from ocean plankton and plants over immense time. Breathing is spending what photosynthesis saved.' },
+        { type: 'h2', text: 'The other half of the cycle' },
+        { type: 'p', text: 'Animals run the equation backward. Cells break down glucose with oxygen to release its stored energy, producing carbon dioxide and water as waste, exhaled and ready for a plant to use again. Together, photosynthesis and respiration form a single cycle of life: sunlight in, energy stored, energy spent, materials returned.' },
+        { type: 'callout', text: 'One line to keep: 6 CO2 + 12 H2O + sunlight gives glucose + 6 O2 + 6 H2O. The water on both sides is real bookkeeping, not a typo.' },
+      ],
+
+      keyTerms: ['photosynthesis', 'glucose', 'chlorophyll', 'carbon dioxide', 'cellulose', 'respiration'],
+
+      resources: {
+        articles: [
+          {
+            title: 'The Relationship Between Photosynthesis and Breathing',
+            source: 'Encyclopaedia Britannica',
+            url: 'https://www.britannica.com/video/role-photosynthesis-glucose-plants-oxygen-production/-162753',
+            why: 'Britannica\'s explanation with the full chemical summary: six carbon dioxide and twelve water in, glucose, six oxygen, and six water out.',
+            year: null,
+          },
+        ],
+      },
+
+      seeAlso: ['co2_atmosphere', 'pollinators', 'plants'],
+
+      sources: [
+        'https://www.britannica.com/video/role-photosynthesis-glucose-plants-oxygen-production/-162753',
+      ],
+      verifiedAt: '2026-10-15',
+    },
   },
 };

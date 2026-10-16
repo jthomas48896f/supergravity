@@ -2011,5 +2011,102 @@ window.CONTENT.cs = {
       verifiedAt: '2026-04-23',
     },
 
+
+    ada_lovelace: {
+      id: 'ada_lovelace',
+      name: 'Ada Lovelace and the First Computer Program',
+      level: 'Beginner',
+      dek: 'In 1843 Lovelace published an algorithm for a machine never built, and saw beyond number to symbols.',
+      readTime: '4 min',
+
+      sections: ['The translation that outgrew its source', 'Note G', 'The leap beyond number'],
+      body: [
+        { type: 'lead', text: 'In 1843, Ada Lovelace translated an article by the Italian mathematician Luigi Menabrea about Charles Babbage\'s proposed Analytical Engine, and added seven notes, labeled A to G. The notes ran to three times the length of the article itself, and they contain what history now regards as the first published computer program.' },
+        { type: 'h2', text: 'Note G' },
+        { type: 'p', text: 'Note G lays out, step by step, how the Engine could compute Bernoulli numbers: a complete algorithm, with the looping structure a modern programmer would recognize, written for a machine that existed only as drawings. The Engine was never built in Lovelace\'s lifetime, so the program was never run. It stands as the first algorithm published specifically for implementation on a computing machine.' },
+        { type: 'p', text: 'UNESCO, which keeps Lovelace in its Women in Science collection, calls her now widely recognized as the author of the first computer program, and one of the earliest thinkers to perceive the true potential of computing.' },
+        { type: 'h2', text: 'The leap beyond number' },
+        { type: 'p', text: 'The deeper idea in the notes is not the algorithm. Babbage imagined a powerful calculator. Lovelace wrote that the Engine could operate on any set of symbols whose relations could be expressed, not just numbers: it might compose music, work with logic, manipulate patterns. That is the concept of the general purpose computer, stated a century before the hardware, by the person translating the manual.' },
+        { type: 'callout', text: 'The United States Department of Defense named a programming language Ada in her honor in 1980. The second Tuesday of October is Ada Lovelace Day for women in science and technology.' },
+      ],
+
+      keyTerms: ['Analytical Engine', 'algorithm', 'Bernoulli numbers', 'Note G', 'Charles Babbage', 'general purpose computer'],
+
+      resources: {
+        books: [
+          {
+            title: 'Ada\'s Algorithm',
+            author: 'James Essinger',
+            year: 2013,
+            url: '',
+            why: 'A short biography of Lovelace centered on the 1843 notes and how close she came to being forgotten.',
+          },
+        ],
+        articles: [
+          {
+            title: 'Ada Lovelace (United Kingdom, 1815-1852)',
+            source: 'UNESCO, Virtual Science Museum: Women in Science',
+            url: 'https://www.unesco.org/en/virtual-science-museum/women-science/ada-lovelace',
+            why: 'UNESCO\'s account: the seven notes of 1843, three times the article\'s length, the Bernoulli algorithm, and the symbol insight.',
+            year: null,
+          },
+        ],
+      },
+
+      seeAlso: ['hedy_lamarr', 'katherine_johnson', 'rosalind_franklin'],
+
+      sources: [
+        'https://www.unesco.org/en/virtual-science-museum/women-science/ada-lovelace',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    hedy_lamarr: {
+      id: 'hedy_lamarr',
+      name: 'Hedy Lamarr and Frequency Hopping',
+      level: 'Beginner',
+      dek: 'A film star and a composer patented a secret communication system in 1942 that anticipated wireless technology.',
+      readTime: '4 min',
+
+      sections: ['The problem: a jammed signal', 'The invention', 'Recognition, decades late'],
+      body: [
+        { type: 'lead', text: 'In August 1942, the United States granted Patent 2,292,387, titled "Secret Communication System," to Hedy Kiesler Markey, better known as the film star Hedy Lamarr, and the composer George Antheil. Their invention kept a radio control signal hopping between frequencies so an enemy could not jam it, the core idea of frequency hopping.' },
+        { type: 'h2', text: 'The problem: a jammed signal' },
+        { type: 'p', text: 'Radio guided torpedoes could be steered to their targets, but a signal on one frequency can be found and blocked. Lamarr, who had learned about munitions during her first marriage to an Austrian arms manufacturer, proposed the fix: transmitter and receiver change frequency together, in a shared pattern, so the signal never sits still long enough to jam.' },
+        { type: 'p', text: 'Antheil supplied the mechanism. His experience synchronizing player pianos gave the pair their design: matching perforated rolls, like piano rolls, stepping both ends through the same sequence of frequencies in time. The patent application was filed in June 1941 and granted the following August.' },
+        { type: 'h2', text: 'Recognition, decades late' },
+        { type: 'p', text: 'The Navy did not adopt the system during the war, and the patent expired in 1959, before spread spectrum techniques became central to military and then civilian wireless communication. The Smithsonian\'s Lemelson Center credits Lamarr with the central idea and Antheil with the practical implementation. In 1997 the Electronic Frontier Foundation gave both its Pioneer Award, and the two are now in the National Inventors Hall of Fame. The careful claim is the true one: their patent is a recognized precursor of modern wireless, not the single invention of Wi-Fi or Bluetooth.' },
+        { type: 'callout', text: 'The Smithsonian Institution Archives holds the Lamarr and Antheil invention papers, including the record of Patent 2,292,387, granted August 1942.' },
+      ],
+
+      keyTerms: ['frequency hopping', 'spread spectrum', 'patent', 'torpedo guidance', 'George Antheil', 'jamming'],
+
+      resources: {
+        articles: [
+          {
+            title: 'Hedy Lamarr and George Antheil Invention Papers',
+            source: 'Smithsonian Institution Archives (SOVA)',
+            url: 'https://sova.si.edu/record/nmah.ac.1590',
+            why: 'The Smithsonian\'s finding aid for their papers: the synchronized frequency hopping idea, the collaboration of 1940 to 1942, and the patent awarded in August 1942.',
+            year: null,
+          },
+          {
+            title: 'Team Hollywood\'s Secret Weapons System',
+            source: 'Smithsonian Magazine',
+            url: 'https://www.smithsonianmag.com/history/team-hollywoods-secret-weapons-system-103619955/',
+            why: 'Smithsonian Magazine on the patent, No. 2292387, its wartime shelving, and its recognition as a precursor to spread spectrum wireless.',
+            year: 2012,
+          },
+        ],
+      },
+
+      seeAlso: ['ada_lovelace', 'women_codebreakers', 'strong_passwords'],
+
+      sources: [
+        'https://sova.si.edu/record/nmah.ac.1590',
+        'https://www.smithsonianmag.com/history/team-hollywoods-secret-weapons-system-103619955/',
+      ],
+      verifiedAt: '2026-10-15',
+    },
   },
 };

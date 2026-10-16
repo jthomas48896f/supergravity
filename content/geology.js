@@ -1011,5 +1011,133 @@ window.CONTENT.geology = {
       verifiedAt: '2026-10-15',
     },
 
+
+    groundwater: {
+      id: 'groundwater',
+      name: 'Groundwater: The Hidden Third of Fresh Water',
+      level: 'Beginner',
+      dek: 'Groundwater is thirty percent of Earth\'s fresh water and under two percent of all its water, says USGS.',
+      readTime: '4 min',
+
+      sections: ['Where Earth\'s water sits', 'The fresh water split', 'Why hidden water is slow water'],
+      body: [
+        { type: 'lead', text: 'Most of Earth\'s water is ocean: about 96.5 percent of the total. Of the small fresh remainder, the U.S. Geological Survey\'s accounting gives roughly 30.1 percent to groundwater, water held in soil and rock below the surface. Ice caps and glaciers hold most of the rest, and lakes and rivers, the fresh water anyone can see, are a sliver of a sliver.' },
+        { type: 'h2', text: 'The fresh water split' },
+        { type: 'p', text: 'Stated against all water on Earth, groundwater is about 1.7 percent. Stated against fresh water only, it is nearly a third, which makes it the largest store of liquid fresh water readily available to people. Wells and springs tap it, rivers are fed by it in dry seasons, and a large share of the world\'s irrigation and drinking water comes from it.' },
+        { type: 'p', text: 'The USGS draws the water cycle with groundwater as its slow reservoir. Rain and snowmelt seep down, fill pore spaces and fractures, and move, sometimes over days, sometimes over thousands of years, toward springs, streams, and wells.' },
+        { type: 'h2', text: 'Why hidden water is slow water' },
+        { type: 'p', text: 'Because it is out of sight, groundwater is easy to overdraw quietly. Where pumping exceeds recharge for decades, water tables fall, wells deepen, and in coastal areas seawater creeps in. The USGS figures are the standing reminder of the proportions: the water underfoot is a third of the fresh supply, and it refills at the speed of seepage, not the speed of need.' },
+        { type: 'callout', text: 'The USGS split, complete: oceans about 96.5 percent of all water; groundwater about 30.1 percent of the fresh water, about 1.7 percent of the whole.' },
+      ],
+
+      keyTerms: ['groundwater', 'aquifer', 'fresh water', 'water table', 'recharge', 'USGS'],
+
+      resources: {
+        articles: [
+          {
+            title: 'Groundwater Storage and the Water Cycle',
+            source: 'U.S. Geological Survey, Water Science School',
+            url: 'https://www.usgs.gov/water-science-school/science/groundwater-storage-and-water-cycle',
+            why: 'The USGS accounting: groundwater is about 30.1 percent of Earth\'s fresh water and about 1.7 percent of all water on Earth.',
+            year: null,
+          },
+        ],
+      },
+
+      seeAlso: ['atmosphere_water', 'wetlands', 'watercycle'],
+
+      sources: [
+        'https://www.usgs.gov/water-science-school/science/groundwater-storage-and-water-cycle',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    how_fast_plates_move: {
+      id: 'how_fast_plates_move',
+      name: 'How Fast Do Tectonic Plates Move',
+      level: 'Beginner',
+      dek: 'Plates creep at about the speed fingernails grow, a few centimeters a year, now measured by GPS.',
+      readTime: '4 min',
+
+      sections: ['The fingernail comparison', 'Measured, not guessed', 'What a few centimeters add up to'],
+      body: [
+        { type: 'lead', text: 'The U.S. Geological Survey answers its own frequent question with a household comparison: tectonic plates move roughly at the rate your fingernails grow, a few centimeters per year. Slow as it sounds, that pace, applied for millions of years, is what builds mountain ranges and opens oceans.' },
+        { type: 'h2', text: 'Measured, not guessed' },
+        { type: 'p', text: 'The rates are no longer inferred only from rocks. GPS instruments fixed to bedrock measure plate motion directly, to a fraction of a millimeter per year, and laser ranging to satellites checks the results. Different plates move at different speeds and in different directions, from about 1 to more than 10 centimeters a year, and the numbers used in geology today are observations, not estimates from theory.' },
+        { type: 'p', text: 'Where plates converge, the motion loads faults like springs. The movement is steady for centuries and then released in seconds, which is why the same few centimeters a year produce both the Himalaya and the earthquake: the average hides the violence of the release.' },
+        { type: 'h2', text: 'What a few centimeters add up to' },
+        { type: 'p', text: 'At 5 centimeters a year, a plate travels 50 kilometers in a million years and 5,000 kilometers in a hundred million. The Atlantic Ocean is widening today at about the fingernail rate, measurably wider each year between the Americas and Europe and Africa, and the ocean floor\'s magnetic stripes record the same spreading going back to when the Atlantic was closed.' },
+        { type: 'callout', text: 'The USGS line, kept whole: plates move at about the speed fingernails grow. GPS now times that growth to a fraction of a millimeter a year.' },
+      ],
+
+      keyTerms: ['tectonic plates', 'plate motion', 'GPS measurement', 'fault', 'continental drift', 'USGS'],
+
+      resources: {
+        articles: [
+          {
+            title: 'How fast do tectonic plates move?',
+            source: 'U.S. Geological Survey (FAQ)',
+            url: 'https://www.usgs.gov/faqs/how-fast-do-tectonic-plates-move',
+            why: 'The USGS answer: plates move roughly at the rate fingernails grow, a few centimeters a year, now measured directly by GPS to a fraction of a millimeter.',
+            year: null,
+          },
+        ],
+      },
+
+      seeAlso: ['groundwater', 'atmosphere_water', 'the_world_ocean'],
+
+      sources: [
+        'https://www.usgs.gov/faqs/how-fast-do-tectonic-plates-move',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    atmosphere_water: {
+      id: 'atmosphere_water',
+      name: 'Water in the Air: The Ten Day River',
+      level: 'Beginner',
+      dek: 'About ninety percent of atmospheric water evaporates from oceans and waters; ten percent transpires from plants, says USGS.',
+      readTime: '4 min',
+
+      sections: ['Where air water comes from', 'A shallow sky ocean', 'Ten days aloft'],
+      body: [
+        { type: 'lead', text: 'All the weather in the world runs on a surprisingly small amount of water. The U.S. Geological Survey\'s water cycle accounting says about 90 percent of the water in the atmosphere comes from evaporation from oceans, seas, lakes, and rivers, and about 10 percent from transpiration by plants. If all of it fell at once as rain, it would cover the Earth only about 2.5 centimeters deep.' },
+        { type: 'h2', text: 'Where air water comes from' },
+        { type: 'p', text: 'Evaporation lifts water molecules off liquid surfaces, mostly the sun warmed ocean, which dominates the 90 percent. Plants contribute their tenth through transpiration, drawing groundwater up through roots and releasing vapor from leaf pores, a flow so steady that a large tree can move hundreds of liters on a summer day. Together they keep the sky supplied.' },
+        { type: 'p', text: 'Condensed back down, the load is small: those 2.5 centimeters, about an inch, spread over the whole planet. Rain is heavy weather locally precisely because the atmosphere gathers its thin global layer into thick local deliveries.' },
+        { type: 'h2', text: 'Ten days aloft' },
+        { type: 'p', text: 'The USGS puts a residence time on it: once evaporated, a water molecule spends about 10 days in the air before it condenses and falls. The atmosphere is therefore less a storage tank than a fast river running overhead, emptied and refilled roughly every ten days, connecting the ocean surface to rain on land a continent away within a fortnight.' },
+        { type: 'callout', text: 'The USGS water cycle in three numbers: about 90 percent of air water from evaporation, about 10 percent from plant transpiration, about 10 days aloft before it falls.' },
+      ],
+
+      keyTerms: ['water cycle', 'evaporation', 'transpiration', 'residence time', 'condensation', 'USGS'],
+
+      resources: {
+        articles: [
+          {
+            title: 'The Atmosphere and the Water Cycle',
+            source: 'U.S. Geological Survey, Water Science School',
+            url: 'https://www.usgs.gov/water-science-school/science/atmosphere-and-water-cycle',
+            why: 'The USGS page for the atmospheric leg of the cycle: about 90 percent of atmospheric water from evaporation, 10 percent from transpiration, and the 2.5 centimeter figure for all of it falling at once.',
+            year: null,
+          },
+          {
+            title: 'Evaporation and the Water Cycle',
+            source: 'U.S. Geological Survey, Water Science School',
+            url: 'https://www.usgs.gov/water-science-school/science/evaporation-and-water-cycle',
+            why: 'The USGS on evaporation\'s share and the roughly ten day residence of a water molecule in the atmosphere.',
+            year: null,
+          },
+        ],
+      },
+
+      seeAlso: ['groundwater', 'co2_atmosphere', 'speed_of_sound'],
+
+      sources: [
+        'https://www.usgs.gov/water-science-school/science/atmosphere-and-water-cycle',
+        'https://www.usgs.gov/water-science-school/science/evaporation-and-water-cycle',
+      ],
+      verifiedAt: '2026-10-15',
+    },
   },
 };

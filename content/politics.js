@@ -1158,5 +1158,94 @@ window.CONTENT.politics = {
       verifiedAt: '2026-10-15',
     },
 
+
+    how_bills_become_law: {
+      id: 'how_bills_become_law',
+      name: 'How a Bill Becomes a Law',
+      level: 'Beginner',
+      dek: 'Both chambers must pass identical text, then the President gets ten days to sign or veto.',
+      readTime: '4 min',
+
+      sections: ['Two chambers, one text', 'The ten days', 'The veto and the override'],
+      body: [
+        { type: 'lead', text: 'A bill becomes federal law in the United States through a narrow gate: the House and the Senate must pass the same text, word for word, and the President must then sign it, allow it, or be overridden. Most bills die somewhere along the path. The ones that survive arrive changed, which is why the identical text rule matters.' },
+        { type: 'h2', text: 'Two chambers, one text' },
+        { type: 'p', text: 'A bill can start in either chamber, pass through committee hearings and votes, and be debated and amended on the floor. If the House and Senate pass different versions, the differences must be reconciled, usually in a conference committee, and both chambers vote again on the single agreed text. Only then is the bill presented to the President.' },
+        { type: 'h2', text: 'The ten days' },
+        { type: 'p', text: 'The President has ten days, Sundays excluded, to act. Signing makes the bill law. Doing nothing also makes it law, as long as Congress is in session when the ten days run out. But if Congress has adjourned and the President does nothing, the bill dies unsigned. That is the pocket veto, the one veto that cannot be answered.' },
+        { type: 'h2', text: 'The veto and the override' },
+        { type: 'p', text: 'A returned veto sends the bill back with objections, and Congress can still enact it by a two thirds vote of those voting in each chamber. Overrides are rare, because a bill that passed by simple majorities seldom finds two thirds against a President of either party\'s choosing. The whole design, passage twice, a signature or silence, a supermajority to insist, is a machine for making laws slowly and on purpose.' },
+        { type: 'callout', text: 'Congress.gov teaches the process itself in its legislative process pages, including the ten day rule, Sundays excluded, and the pocket veto at adjournment.' },
+      ],
+
+      keyTerms: ['bill', 'veto', 'pocket veto', 'override', 'conference committee', 'enactment'],
+
+      resources: {
+        articles: [
+          {
+            title: 'Presidential Action on Legislation',
+            source: 'Congress.gov',
+            url: 'https://www.congress.gov/legislative-process/presidential-action',
+            why: 'Congress\'s own process guide: the ten days excluding Sundays, law by inaction in session, the pocket veto at adjournment, and the two thirds override.',
+            year: null,
+          },
+        ],
+      },
+
+      seeAlso: ['registering_to_vote', 'jury_service', 'nineteenth_amendment'],
+
+      sources: [
+        'https://www.congress.gov/legislative-process/presidential-action',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    registering_to_vote: {
+      id: 'registering_to_vote',
+      name: 'Registering to Vote in the United States',
+      level: 'Beginner',
+      dek: 'Vote.gov is the official starting point that routes every voter to their own state\'s rules and deadlines.',
+      readTime: '4 min',
+
+      sections: ['One door, fifty rulebooks', 'How registration works', 'Deadlines and checks'],
+      body: [
+        { type: 'lead', text: 'There is no single national voter registration in the United States. Each state runs its own rolls, deadlines, and forms. The federal government\'s answer to that maze is vote.gov, the official site run by the U.S. General Services Administration, which starts from where you live and routes you to your state\'s rules.' },
+        { type: 'h2', text: 'How registration works' },
+        { type: 'p', text: 'Vote.gov launched on October 2, 2015, and its job is routing, not registering: it sends you to your state\'s online registration where that exists, or to the mail in federal form, or to the local office where registration happens in person. The rules genuinely differ. Some states register voters automatically or on election day itself; others close their rolls weeks before an election.' },
+        { type: 'p', text: 'Eligibility basics are national: you must be a U.S. citizen and at least 18 by election day, and you register where you live. Beyond that, identification rules, deadlines, and ways to update an address after a move are state law, which is exactly why the router exists.' },
+        { type: 'h2', text: 'Deadlines and checks' },
+        { type: 'p', text: 'The practical habit vote.gov is built for: check your registration before you need it. Registrations go stale when people move, change names, or are removed in list maintenance. A two minute check at vote.gov, well ahead of your state\'s deadline, confirms you are active and at the right address, and the same site explains absentee and early voting options for your state.' },
+        { type: 'callout', text: 'Start at vote.gov or usa.gov/register-to-vote. If a site asks for payment to register you, it is not the government door: registration itself is free.' },
+      ],
+
+      keyTerms: ['voter registration', 'vote.gov', 'General Services Administration', 'deadline', 'absentee ballot', 'eligibility'],
+
+      resources: {
+        articles: [
+          {
+            title: 'Vote.gov: Register to vote',
+            source: 'U.S. General Services Administration',
+            url: 'https://vote.gov',
+            why: 'The official front door itself: enter your state and it routes you to online registration, the mail form, or in person options, with deadlines.',
+            year: null,
+          },
+          {
+            title: 'Register to vote and check your registration',
+            source: 'USA.gov',
+            url: 'https://www.usa.gov/register-to-vote',
+            why: 'The government\'s explainer page on eligibility, state deadlines, and checking an existing registration.',
+            year: null,
+          },
+        ],
+      },
+
+      seeAlso: ['how_bills_become_law', 'nineteenth_amendment', 'nz_suffrage'],
+
+      sources: [
+        'https://vote.gov',
+        'https://www.usa.gov/register-to-vote',
+      ],
+      verifiedAt: '2026-10-15',
+    },
   },
 };

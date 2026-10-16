@@ -518,5 +518,85 @@ window.CONTENT.nutrition = {
       verifiedAt: '2026-10-15',
     },
 
+
+    daily_water: {
+      id: 'daily_water',
+      name: 'How Much Water a Day, Really',
+      level: 'Beginner',
+      dek: 'The National Academies set total water at 3.7 liters a day for men and 2.7 for women.',
+      readTime: '4 min',
+
+      sections: ['Total water, not glasses', 'Where the rest comes from', 'The 8 glasses rule'],
+      body: [
+        { type: 'lead', text: 'The reference figures used in the United States come from the National Academies\' Dietary Reference Intakes: an adequate intake of total water of about 3.7 liters a day for adult men and 2.7 liters a day for adult women. The key word is total. The figures count water from everything you eat and drink, not water alone.' },
+        { type: 'h2', text: 'Where the rest comes from' },
+        { type: 'p', text: 'In a typical American diet, about 20 percent of daily water arrives in food. Fruit, vegetables, yogurt, rice, even bread carry water. The rest comes from all beverages combined, including coffee and tea, not from plain water alone. Subtract the food share and the drinking target lands near 3 liters for men and 2.2 liters for women spread across everything in the cup.' },
+        { type: 'p', text: 'Need moves with heat, exercise, fever, pregnancy, and age, and thirst is a working guide for most healthy adults. The adequate intake is a population reference point, the median intake of healthy people, not a prescription to force down a quota.' },
+        { type: 'h2', text: 'The 8 glasses rule' },
+        { type: 'p', text: 'The famous eight 8 ounce glasses, about 1.9 liters, is not the National Academies\' figure and has no study behind it as a universal rule. It survives because it is easy to remember and roughly harmless for many people. The honest version is less tidy and more useful: count all fluids and food, aim near the reference totals, drink to thirst, and drink more when it is hot or you are active or ill.' },
+        { type: 'callout', text: 'Stated with its source: National Academies, Dietary Reference Intakes for Water (2005): adequate total water intake 3.7 liters per day for men, 2.7 for women, food included.' },
+      ],
+
+      keyTerms: ['adequate intake', 'total water', 'Dietary Reference Intakes', 'National Academies', 'hydration', 'thirst'],
+
+      resources: {
+        articles: [
+          {
+            title: 'Regulation of Water Balance (Nutrition 100)',
+            source: 'Penn State University (open textbook, citing the Institute of Medicine DRI)',
+            url: 'https://psu.pb.unizin.org/nutr100/chapter/11-17-regulation-of-water-balance/',
+            why: 'A university nutrition text stating the National Academies figures plainly: 3.7 liters for men, 2.7 for women, all sources counted, about 20 percent from food.',
+            year: null,
+          },
+        ],
+      },
+
+      seeAlso: ['reading_food_labels', 'sleep_needs', 'safe_cooking_temperatures'],
+
+      sources: [
+        'https://psu.pb.unizin.org/nutr100/chapter/11-17-regulation-of-water-balance/',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    reading_food_labels: {
+      id: 'reading_food_labels',
+      name: 'Reading a Food Label: The Percent Trick',
+      level: 'Beginner',
+      dek: 'The FDA\'s label shortcut: five percent of daily value is low, twenty percent or more is high.',
+      readTime: '4 min',
+
+      sections: ['Start with servings', 'The 5 and 20 rule', 'What to hunt, what to limit'],
+      body: [
+        { type: 'lead', text: 'Every Nutrition Facts label carries a built in shortcut, and the Food and Drug Administration teaches it in two numbers: 5 percent of the Daily Value or less, per serving, is low for a nutrient. 20 percent or more is high. The rule works for anything on the label, fiber and vitamin D on one side, sodium and saturated fat on the other.' },
+        { type: 'h2', text: 'Start with servings' },
+        { type: 'p', text: 'Every number on the label describes one serving, and the top of the label states the serving size and how many servings the package holds. A bottle with two and a half servings multiplies everything by two and a half for the person who drinks the bottle, which is most people. Serving size is the label\'s quietest line and its most important one.' },
+        { type: 'p', text: 'The Daily Value percentages are calculated for a general 2,000 calorie a day diet. Your own needs differ, but the percentages still work as a comparison tool between two products side by side, which is the job the FDA designed them for.' },
+        { type: 'h2', text: 'What to hunt, what to limit' },
+        { type: 'p', text: 'Hunt the highs among dietary fiber, vitamin D, calcium, iron, and potassium, the nutrients Americans tend to under eat. Limit the highs among saturated fat, sodium, and added sugars, which the label now lists separately from total sugars. With the 5 and 20 rule, one glance per nutrient sorts a product: low, middle, or high, and the choice between two jars of sauce takes five seconds.' },
+        { type: 'callout', text: 'The FDA states the rule on its label guide: 5 percent DV or less is low, 20 percent DV or more is high. Keep those two numbers and the label reads itself.' },
+      ],
+
+      keyTerms: ['Nutrition Facts', 'Daily Value', 'serving size', 'added sugars', 'sodium', 'FDA'],
+
+      resources: {
+        articles: [
+          {
+            title: 'How to Understand and Use the Nutrition Facts Label',
+            source: 'U.S. Food and Drug Administration',
+            url: 'https://www.fda.gov/food/nutrition-facts-label/whats-nutrition-facts-label',
+            why: 'The FDA\'s own guide to its label, including the 5 percent low and 20 percent high rule for percent Daily Value.',
+            year: null,
+          },
+        ],
+      },
+
+      seeAlso: ['daily_water', 'safe_cooking_temperatures', 'emergency_savings'],
+
+      sources: [
+        'https://www.fda.gov/food/nutrition-facts-label/whats-nutrition-facts-label',
+      ],
+      verifiedAt: '2026-10-15',
+    },
   },
 };

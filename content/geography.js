@@ -1868,5 +1868,165 @@ window.CONTENT.geography = {
       verifiedAt: '2026-10-15',
     },
 
+
+    co2_atmosphere: {
+      id: 'co2_atmosphere',
+      name: 'Carbon Dioxide in the Atmosphere',
+      level: 'Beginner',
+      dek: 'Atmospheric carbon dioxide is up more than fifty percent since 1750, primarily from fossil fuels, says NASA.',
+      readTime: '4 min',
+
+      sections: ['The baseline: 1750', 'How we know', 'Why the fraction matters'],
+      body: [
+        { type: 'lead', text: 'Carbon dioxide in the atmosphere has increased more than 50 percent since 1750, NASA reports: the level now stands at 150 percent of its 1750 value. The cause is stated in the same breath on NASA\'s Earth indicators page: primarily the burning of fossil fuels. Ice core records give the before, and direct measurement gives the after.' },
+        { type: 'h2', text: 'How we know' },
+        { type: 'p', text: 'Air bubbles trapped in Antarctic ice preserve samples of the ancient atmosphere, which laboratories can measure directly for past centuries. Since 1958, instruments on Hawaii\'s Mauna Loa have measured the air itself, producing the Keeling Curve, the long rising line, saw toothed by the seasons, that is the signature graph of the subject. The two records join seamlessly where they overlap.' },
+        { type: 'p', text: 'The fingerprint is chemical as well as numerical. Carbon from fossil fuels carries a distinctive isotope signature, and the atmosphere\'s carbon is shifting to match it, while atmospheric oxygen declines by the amount combustion would consume. The increase is not a mystery looking for a cause; the cause leaves receipts.' },
+        { type: 'h2', text: 'Why the fraction matters' },
+        { type: 'p', text: 'Carbon dioxide is a small fraction of the air, measured in parts per million, but it absorbs infrared radiation leaving the Earth, so its concentration sets a control on the planet\'s temperature. A 50 percent rise in that control since 1750 is the physical driver behind the warming the same agencies measure independently in thermometers, oceans, and ice.' },
+        { type: 'callout', text: 'NASA\'s indicator page keeps the claim minimal and sourced: more than 50 percent up since 1750, now 150 percent of the 1750 level, primarily fossil fuel burning.' },
+      ],
+
+      keyTerms: ['carbon dioxide', 'atmosphere', 'fossil fuels', 'Keeling Curve', 'ice cores', 'greenhouse gas'],
+
+      resources: {
+        articles: [
+          {
+            title: 'Carbon Dioxide (Earth Indicators)',
+            source: 'NASA Science',
+            url: 'https://science.nasa.gov/earth/explore/earth-indicators/carbon-dioxide/',
+            why: 'NASA\'s indicator page: the increase of more than 50 percent since 1750, the level at 150 percent of the 1750 value, and fossil fuel burning named as the primary cause.',
+            year: null,
+          },
+        ],
+      },
+
+      seeAlso: ['how_photosynthesis_works', 'ocean_acidification', 'atmosphere_water'],
+
+      sources: [
+        'https://science.nasa.gov/earth/explore/earth-indicators/carbon-dioxide/',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    wetlands: {
+      id: 'wetlands',
+      name: 'Wetlands: Six Percent Holding Forty Percent',
+      level: 'Beginner',
+      dek: 'Wetlands cover about six percent of Earth\'s land yet host forty percent of all plant and animal species.',
+      readTime: '4 min',
+
+      sections: ['The Ramsar figures', 'What wetlands do', 'Why they are disappearing'],
+      body: [
+        { type: 'lead', text: 'Wetlands cover an estimated 6 percent of the Earth\'s land surface, and 40 percent of all plant and animal species live or breed in them. Those are the figures of the Ramsar Convention, the international treaty for wetlands, and they state the disproportion plainly: a small share of the land carrying an outsized share of life.' },
+        { type: 'h2', text: 'What wetlands do' },
+        { type: 'p', text: 'A wetland is land saturated with water, permanently or seasonally: marshes, swamps, bogs, deltas, mangroves, floodplains. Sitting between land and open water, wetlands filter sediment and pollutants out of water passing through, absorb flood peaks and release water slowly, protect coasts from storm surge, and store large amounts of carbon in their soils. Their species richness comes from the same in between character: food, shelter, and nursery shallows in one place.' },
+        { type: 'p', text: 'Many fisheries depend on them without appearing to. Shrimp, crabs, and numerous fish species breed or spend their youth in coastal wetlands, so a drained marsh shows up later as an empty catch far offshore.' },
+        { type: 'h2', text: 'Why they are disappearing' },
+        { type: 'p', text: 'Wetlands are drained for farmland and building, starved by diverted rivers, and drowned in place by sea level rise where they cannot migrate inland. They are lost faster than forests, which is why the Ramsar Convention lists sites of international importance and why its 40 percent figure is quoted so often: it converts a habitat most people drive past into a measured share of the living world.' },
+        { type: 'callout', text: 'The convention\'s numbers in one line: about 6 percent of the land surface, 40 percent of all species living or breeding there. Small area, heavy load.' },
+      ],
+
+      keyTerms: ['wetland', 'Ramsar Convention', 'biodiversity', 'flood control', 'carbon storage', 'habitat loss'],
+
+      resources: {
+        articles: [
+          {
+            title: 'Summary of the Ramsar Convention on Wetlands COP15',
+            source: 'IISD Earth Negotiations Bulletin',
+            url: 'https://enb.iisd.org/ramsar-convention-wetlands-cop15-summary',
+            why: 'The conference summary carrying the Ramsar figures: wetlands cover an estimated 6 percent of Earth\'s land surface and 40 percent of all plant and animal species live or breed in wetlands.',
+            year: 2025,
+          },
+        ],
+      },
+
+      seeAlso: ['coral_reefs', 'groundwater', 'the_world_ocean'],
+
+      sources: [
+        'https://enb.iisd.org/ramsar-convention-wetlands-cop15-summary',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    the_world_ocean: {
+      id: 'the_world_ocean',
+      name: 'One World Ocean',
+      level: 'Beginner',
+      dek: 'A single connected ocean covers seventy one percent of Earth\'s surface and averages 2.3 miles deep.',
+      readTime: '4 min',
+
+      sections: ['One ocean, several names', 'The NOAA dimensions', 'Why the average depth surprises'],
+      body: [
+        { type: 'lead', text: 'Earth has one ocean. The Pacific, Atlantic, Indian, Southern, and Arctic are names for regions of a single connected body of water that covers 71 percent of the planet\'s surface. NOAA\'s figures give the scale: an area of 139,400,000 square miles, and an average depth of 2.3 miles.' },
+        { type: 'h2', text: 'One ocean, several names' },
+        { type: 'p', text: 'Water flows between all the named oceans, and currents connect them into one circulation. The divisions are human geography, drawn at continents and convention lines. From space the fact is obvious: this is an ocean planet with land scattered on it, and the ocean holds the overwhelming majority of the water and of the living space on Earth.' },
+        { type: 'h2', text: 'The NOAA dimensions' },
+        { type: 'p', text: 'The 71 percent surface share and 2.3 mile average depth multiply into a volume so large that the ocean contains about 97 percent of Earth\'s water, with ice caps and groundwater dividing most of the rest. NOAA\'s Science On a Sphere dataset, built for museums and classrooms, states the three headline dimensions together, area, coverage, and average depth, which is why they are quoted together here.' },
+        { type: 'p', text: 'Average depth hides the range. Much of the ocean floor is an abyssal plain 3 to 5 miles down, and the Mariana Trench reaches nearly 7 miles, deeper than Everest is tall. The sunlit surface layer where most familiar sea life lives is a skin on top of that volume.' },
+        { type: 'callout', text: 'NOAA\'s numbers in one line: 71 percent of the surface, 139.4 million square miles, average depth 2.3 miles. One ocean, wearing five names.' },
+      ],
+
+      keyTerms: ['world ocean', 'NOAA', 'average depth', 'Mariana Trench', 'currents', 'surface coverage'],
+
+      resources: {
+        articles: [
+          {
+            title: 'Ocean Drain (with Gray Bathymetry)',
+            source: 'NOAA Science On a Sphere',
+            url: 'https://sos.noaa.gov/catalog/datasets/ocean-drain-with-gray-bathymetry/',
+            why: 'NOAA\'s dataset page stating the dimensions: the ocean covers 71 percent of Earth\'s surface, spans 139,400,000 square miles, and averages 2.3 miles deep.',
+            year: null,
+          },
+        ],
+      },
+
+      seeAlso: ['ocean_acidification', 'coral_reefs', 'moon_recession'],
+
+      sources: [
+        'https://sos.noaa.gov/catalog/datasets/ocean-drain-with-gray-bathymetry/',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    ocean_acidification: {
+      id: 'ocean_acidification',
+      name: 'Ocean Acidification: The Other Carbon Problem',
+      level: 'Beginner',
+      dek: 'Since the industrial revolution, surface ocean pH has fallen 0.1 units, about thirty percent more acidity, says NOAA.',
+      readTime: '4 min',
+
+      sections: ['The chemistry in one paragraph', 'Why 0.1 is not small', 'Who feels it first'],
+      body: [
+        { type: 'lead', text: 'The ocean absorbs a large share of the carbon dioxide people add to the air, and the absorption changes the water itself. Dissolved carbon dioxide forms carbonic acid, and since the industrial revolution the average pH of surface ocean water has fallen by 0.1 units, according to NOAA. Because the pH scale is logarithmic, that 0.1 represents about a 30 percent increase in acidity.' },
+        { type: 'h2', text: 'Why 0.1 is not small' },
+        { type: 'p', text: 'Logarithmic scales compress big changes into small numbers, the way one step on the Richter scale is a tenfold change in shaking. A 0.1 drop in pH means roughly 30 percent more hydrogen ions in the water. The same arithmetic explains the pace: the ocean is acidifying faster than at any time in the recent geological record that scientists can measure, because the carbon is arriving faster.' },
+        { type: 'p', text: 'Acidic water also holds less of the carbonate that shell building animals need. The chemistry is not an opinion about the future; it is the measured state of seawater now, tracked at monitoring stations worldwide.' },
+        { type: 'h2', text: 'Who feels it first' },
+        { type: 'p', text: 'Organisms that build shells and skeletons from calcium carbonate feel it first: oysters and other shellfish in their larval stage, corals building reefs, and tiny plankton at the base of ocean food webs. Hatcheries on the Pacific coast of North America have already had to treat intake water to keep oyster larvae alive through their most vulnerable days.' },
+        { type: 'callout', text: 'NOAA\'s line for teaching: pH down 0.1 since the industrial revolution, acidity up about 30 percent. The small number is the scale\'s fault, not the change\'s size.' },
+      ],
+
+      keyTerms: ['ocean acidification', 'pH', 'carbonic acid', 'carbonate', 'logarithmic scale', 'NOAA'],
+
+      resources: {
+        articles: [
+          {
+            title: 'Ocean Acidification (Ocean and Coasts resource collection)',
+            source: 'NOAA Education',
+            url: 'https://www.noaa.gov/education/resource-collections/ocean-coasts',
+            why: 'NOAA\'s education collection on ocean acidification: surface pH down 0.1 units since the industrial revolution, about a 30 percent increase in acidity on the logarithmic scale.',
+            year: null,
+          },
+        ],
+      },
+
+      seeAlso: ['co2_atmosphere', 'coral_reefs', 'the_world_ocean'],
+
+      sources: [
+        'https://www.noaa.gov/education/resource-collections/ocean-coasts',
+      ],
+      verifiedAt: '2026-10-15',
+    },
   },
 };

@@ -1380,5 +1380,45 @@ window.CONTENT.chemistry = {
       verifiedAt: '2026-10-15',
     },
 
+
+    marie_curie: {
+      id: 'marie_curie',
+      name: 'Marie Curie: Two Nobels, Two Sciences',
+      level: 'Beginner',
+      dek: 'Curie remains the only person with Nobel Prizes in two different sciences, physics and chemistry.',
+      readTime: '4 min',
+
+      sections: ['Radioactivity', 'Two elements, two prizes', 'The cost'],
+      body: [
+        { type: 'lead', text: 'Marie Curie is still the only individual to have received Nobel Prizes in two different science categories: Physics in 1903 and Chemistry in 1911. Working in Paris with her husband Pierre, she investigated the rays coming from uranium ores, coined the term radioactivity for the phenomenon, and discovered two new elements, polonium and radium.' },
+        { type: 'h2', text: 'Radioactivity' },
+        { type: 'p', text: 'Curie noticed that the mineral pitchblende gave off more radiation than its uranium content explained, and concluded that something unknown inside it was far more active. Years of chemical separation, processing tons of ore residue in a drafty shed, isolated first polonium, named for her native Poland, and then radium, whose glow and heat made the invisible radiation undeniable.' },
+        { type: 'p', text: 'The 1903 Physics prize, shared with Pierre Curie and Henri Becquerel, recognized the radiation research. After Pierre\'s death in 1906, Curie took his chair at the Sorbonne, the first woman to teach there, and went on to isolate pure radium, the work behind the 1911 Chemistry prize.' },
+        { type: 'h2', text: 'The cost' },
+        { type: 'p', text: 'Nobody yet knew what radiation does to a body over years. Curie carried test tubes of radioactive material in her pockets and worked unshielded for decades. She died in 1934 of aplastic anemia, almost certainly the result of her long exposure. Her notebooks remain radioactive today and are kept in lead lined boxes. The Nobel organization\'s own profile is plain about the standing fact: the only individual with the prize in two different sciences.' },
+        { type: 'callout', text: 'Polonium carries a place in the periodic table named after a country that did not then exist on the map: Poland, partitioned among empires, in 1898.' },
+      ],
+
+      keyTerms: ['radioactivity', 'radium', 'polonium', 'Nobel Prize', 'pitchblende', 'element'],
+
+      resources: {
+        articles: [
+          {
+            title: 'Marie Curie: Women Who Changed Science',
+            source: 'NobelPrize.org',
+            url: 'http://nobelprize.org/stories/women-who-changed-science/marie-curie/',
+            why: 'The Nobel site\'s profile: still the only individual to receive the prize in two different science categories, Physics 1903 and Chemistry 1911.',
+            year: null,
+          },
+        ],
+      },
+
+      seeAlso: ['rosalind_franklin', 'speed_of_light', 'ada_lovelace'],
+
+      sources: [
+        'http://nobelprize.org/stories/women-who-changed-science/marie-curie/',
+      ],
+      verifiedAt: '2026-10-15',
+    },
   },
 };

@@ -817,5 +817,341 @@ window.CONTENT.medicine = {
       verifiedAt: '2026-10-15',
     },
 
+
+    women_clinical_trials: {
+      id: 'women_clinical_trials',
+      name: 'Women in Clinical Trials: The 1993 Law',
+      level: 'Beginner',
+      dek: 'A 1993 American law required women and minorities to be included in government funded medical research.',
+      readTime: '4 min',
+
+      sections: ['Research on men, prescribed to everyone', 'What the law requires', 'Why it still matters'],
+      body: [
+        { type: 'lead', text: 'Until 1993, American medical research could legally leave women out, and often did. The NIH Revitalization Act of 1993, Section 492B of Public Law 103-43, made inclusion the rule: women and members of minority groups must be included in all clinical research funded by the National Institutes of Health, unless a clear and compelling reason shows inclusion is inappropriate.' },
+        { type: 'h2', text: 'What the law requires' },
+        { type: 'p', text: 'The policy is stronger than a head count. For NIH-defined Phase III clinical trials, studies must be designed so that the results can be validly analyzed for differences between groups, by sex and by race and ethnicity, and researchers must report enrollment and those analyses by group. A trial that enrolls some women but is too small to learn anything about them does not meet the standard.' },
+        { type: 'p', text: 'The same law also wrote the NIH Office of Research on Women\'s Health into statute. The office had been created administratively in 1990 after government audits showed how unevenly women were included in the research their taxes paid for.' },
+        { type: 'h2', text: 'Why it still matters' },
+        { type: 'p', text: 'Dose, safety, and side effects can differ between bodies. Drugs tested mostly on men have repeatedly turned out to work differently, or carry different risks, in women. Inclusion is how those differences get found in a trial instead of in the public.' },
+        { type: 'callout', text: 'The exception is narrow by design: exclusion requires a clear and compelling justification tied to the health of the subjects or the purpose of the research, not convenience or habit.' },
+      ],
+
+      keyTerms: ['clinical trial', 'NIH', 'Phase III', 'inclusion', 'Public Law 103-43', 'women\'s health research'],
+
+      resources: {
+        articles: [
+          {
+            title: 'NIH policy: Inclusion of Women and Minorities in Clinical Research',
+            source: 'National Institutes of Health (grants.nih.gov)',
+            url: 'https://grants.nih.gov/grants/guide/rfa-files/RFA-MD-11-001.html',
+            why: 'An NIH funding announcement stating the policy in full and naming its source: Section 492B of Public Law 103-43, the NIH Revitalization Act of 1993.',
+            year: null,
+          },
+        ],
+      },
+
+      seeAlso: ['maternal_health', 'menopause_basics', 'how_vaccines_work'],
+
+      sources: [
+        'https://grants.nih.gov/grants/guide/rfa-files/RFA-MD-11-001.html',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    maternal_health: {
+      id: 'maternal_health',
+      name: 'Maternal Health: The Deaths That Can Be Prevented',
+      level: 'Beginner',
+      dek: 'About 260,000 women died in pregnancy and childbirth in 2023, most from preventable causes, says WHO.',
+      readTime: '4 min',
+
+      sections: ['The count', 'Where the risk sits', 'What saves lives'],
+      body: [
+        { type: 'lead', text: 'About 260,000 women died during and following pregnancy and childbirth in 2023, according to the World Health Organization. That is over 700 women a day, a maternal death almost every two minutes, and most of these deaths could have been prevented.' },
+        { type: 'h2', text: 'Where the risk sits' },
+        { type: 'p', text: 'Just over 90 percent of all maternal deaths in 2023 occurred in low and lower middle income countries. Sub-Saharan Africa and southern Asia together accounted for around 87 percent of the estimated total. Where a woman gives birth changes her risk of dying by more than a hundredfold between the safest and the least safe settings.' },
+        { type: 'p', text: 'There is real progress in the same figures. The global maternal mortality ratio, deaths per 100,000 live births, dropped by about 40 percent between 2000 and 2023. Eastern Europe and southern Asia cut their ratios by about three quarters and about seven tenths over that span.' },
+        { type: 'h2', text: 'What saves lives' },
+        { type: 'p', text: 'The WHO\'s plain statement of the remedy is care by skilled health professionals before, during, and after childbirth. The main killers, severe bleeding, infection, high blood pressure conditions such as pre-eclampsia, and complications of delivery, are survivable where trained care, blood, and medicine are within reach in time.' },
+        { type: 'callout', text: 'These figures are the current edition of the WHO fact sheet. Its earlier edition reported 287,000 deaths for 2020; the series is revised as new estimates are published, which is why the year is always named beside the number.' },
+      ],
+
+      keyTerms: ['maternal mortality', 'maternal mortality ratio', 'skilled birth attendant', 'pre-eclampsia', 'World Health Organization', 'preventable'],
+
+      resources: {
+        articles: [
+          {
+            title: 'Maternal mortality',
+            source: 'World Health Organization (fact sheet)',
+            url: 'https://www.who.int/news-room/fact-sheets/detail/maternal-mortality',
+            why: 'The WHO fact sheet itself: about 260,000 deaths in 2023, over 700 a day, the ratio down about 40 percent since 2000, just over 90 percent of deaths in low and lower middle income countries.',
+            year: null,
+          },
+        ],
+      },
+
+      seeAlso: ['women_clinical_trials', 'menopause_basics', 'hand_hygiene'],
+
+      sources: [
+        'https://www.who.int/news-room/fact-sheets/detail/maternal-mortality',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    menopause_basics: {
+      id: 'menopause_basics',
+      name: 'Menopause Basics',
+      level: 'Beginner',
+      dek: 'Menopause usually comes between forty five and fifty five, when periods stop for good, says the NHS.',
+      readTime: '4 min',
+
+      sections: ['What it is', 'The ages that matter', 'Symptoms and support'],
+      body: [
+        { type: 'lead', text: 'Menopause is the stage when periods stop permanently because the ovaries stop releasing eggs and hormone levels fall. It is confirmed in hindsight: a person is in menopause once they have had no period for 12 months. In the UK it usually happens between the ages of 45 and 55, at an average age of 51.' },
+        { type: 'h2', text: 'The ages that matter' },
+        { type: 'p', text: 'Menopause between 40 and 45 is called early menopause. When ovarian function is lost before the age of 40 it is called premature ovarian insufficiency, or POI, and it affects about 1 in 100 women. POI can also follow surgery or treatments such as chemotherapy, and unlike natural menopause it can sometimes be intermittent, with ovarian activity returning for a time.' },
+        { type: 'p', text: 'The years leading up to the final period are called perimenopause. Hormone levels fluctuate, periods become irregular, and symptoms can begin years before periods stop altogether.' },
+        { type: 'h2', text: 'Symptoms and support' },
+        { type: 'p', text: 'Common symptoms include hot flushes, night sweats, broken sleep, brain fog, low mood and anxiety, joint aches, and vaginal dryness. Over the long term, low oestrogen raises the risk of bone thinning and of heart and circulation problems. Symptoms vary widely in strength and length, and help exists at every level, from lifestyle changes to hormone therapy, which a clinician can weigh with the patient.' },
+        { type: 'callout', text: 'Menopause is a normal life stage, not an illness. This page is general information only, not medical advice; symptoms that worry you are a reason to see a clinician, not to self diagnose.' },
+      ],
+
+      keyTerms: ['menopause', 'perimenopause', 'oestrogen', 'premature ovarian insufficiency', 'hot flush', 'hormone therapy'],
+
+      resources: {
+        articles: [
+          {
+            title: 'Menopause: Definition and background information',
+            source: 'NICE Clinical Knowledge Summaries',
+            url: 'https://cks.nice.org.uk/topics/menopause/background-information/definition/',
+            why: 'The clinical definition used across the NHS: usually 45 to 55, UK mean age 51, early menopause 40 to 45, POI before 40.',
+            year: null,
+          },
+          {
+            title: 'What is the Menopause? (patient information leaflet)',
+            source: 'Manchester University NHS Foundation Trust',
+            url: 'https://mft.nhs.uk/app/uploads/sites/4/2024/04/SMPIL-24-008-What-is-the-Menopause.pdf',
+            why: 'An NHS hospital\'s plain language leaflet: average age 51 in the UK, the 45 to 55 range, and what perimenopause means.',
+            year: 2024,
+          },
+        ],
+      },
+
+      seeAlso: ['women_clinical_trials', 'maternal_health', 'sleep_needs'],
+
+      sources: [
+        'https://cks.nice.org.uk/topics/menopause/background-information/definition/',
+        'https://mft.nhs.uk/app/uploads/sites/4/2024/04/SMPIL-24-008-What-is-the-Menopause.pdf',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    nightingale: {
+      id: 'nightingale',
+      name: 'Florence Nightingale: Nursing Meets Statistics',
+      level: 'Beginner',
+      dek: 'At Scutari, Nightingale\'s sanitation drive cut the hospital death rate from forty five percent to two.',
+      readTime: '4 min',
+
+      sections: ['Scutari, 1854', 'The numbers as evidence', 'What she built afterward'],
+      body: [
+        { type: 'lead', text: 'Florence Nightingale arrived at the British military hospital at Scutari in November 1854 with 38 nurses, in the middle of the Crimean War. The hospital was filthy, overcrowded, and short of everything. Through sanitation, cleanliness, and better diets, she and her nurses helped drive the hospital\'s death rate down from 45 percent to 2 percent.' },
+        { type: 'h2', text: 'The numbers as evidence' },
+        { type: 'p', text: 'Nightingale\'s second weapon was statistics. She collected careful records of how soldiers died and showed that far more were dying of preventable disease in hospital than of wounds in battle. She presented the figures in striking diagrams, including her famous polar area charts, so that officials who would not read tables could not avoid the picture.' },
+        { type: 'p', text: 'Her evidence persuaded the government to act. A Royal Commission on the health of the army followed, and reforms in sanitation, ventilation, and record keeping spread through military and civilian hospitals.' },
+        { type: 'h2', text: 'What she built afterward' },
+        { type: 'p', text: 'Nightingale became famous as the Lady with the Lamp, from her rounds of the wards at night. She spent the fame deliberately: on nurse training, hospital design, and the professional standing of nursing as skilled work. The lamp is the symbol people remember. The data is the reason the reforms lasted.' },
+        { type: 'callout', text: 'Britannica records the Scutari figures directly: a death rate falling from 45 percent to 2 percent as sanitation, diets, and cleanliness took hold. The figures are the hospital\'s rates before and after her reforms, and they were the evidence her later campaigns ran on.' },
+      ],
+
+      keyTerms: ['Scutari', 'Crimean War', 'sanitation', 'statistics', 'Royal Commission', 'Lady with the Lamp'],
+
+      resources: {
+        articles: [
+          {
+            title: 'Florence Nightingale',
+            source: 'Britannica Kids (Encyclopaedia Britannica)',
+            url: 'https://kids.britannica.com/students/article/Florence-Nightingale/276097',
+            why: 'Britannica\'s account: arrival at Scutari with 38 nurses in 1854, and the death rate cut from 45 percent to 2 percent.',
+            year: null,
+          },
+        ],
+      },
+
+      seeAlso: ['hand_hygiene', 'germ_theory', 'women_clinical_trials'],
+
+      sources: [
+        'https://kids.britannica.com/students/article/Florence-Nightingale/276097',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    how_vaccines_work: {
+      id: 'how_vaccines_work',
+      name: 'How Vaccines Work',
+      level: 'Beginner',
+      dek: 'A vaccine trains the immune system to recognize a germ before the real infection ever arrives.',
+      readTime: '4 min',
+
+      sections: ['Training, not infection', 'What is inside', 'The population effect'],
+      body: [
+        { type: 'lead', text: 'A vaccine works by training. It shows the immune system a safe version of a germ, or just the part of the germ the body needs to recognize, or the instructions for making that part. The immune system learns to make antibodies against it, so when the real germ arrives, the defense is already built. Immunization prevents an estimated 3.5 to 5 million deaths every year, according to the World Health Organization.' },
+        { type: 'h2', text: 'What is inside' },
+        { type: 'p', text: 'Different vaccines train the body in different ways. Some contain a killed or weakened form of the germ itself. Some contain only the antigen, the identifying part of the germ. Newer designs deliver the blueprint, instructions the body\'s own cells use briefly to make the antigen, which the immune system then learns on.' },
+        { type: 'p', text: 'The training happens without causing the disease. A sore arm or a day of feeling unwell can follow, which is the immune system practicing, not the illness itself taking hold.' },
+        { type: 'h2', text: 'The population effect' },
+        { type: 'p', text: 'Because a vaccinated person is far less likely to catch and pass on an infection, vaccination protects more than the person vaccinated. It slows the spread through a community and shelters people who cannot be vaccinated, including newborns and people whose immune systems are weakened by illness or treatment.' },
+        { type: 'callout', text: 'The WHO puts it plainly: vaccines train your immune system to create antibodies, just as it does when it is exposed to a disease, but without causing the disease.' },
+      ],
+
+      keyTerms: ['vaccine', 'immune system', 'antibody', 'antigen', 'immunization', 'herd protection'],
+
+      resources: {
+        articles: [
+          {
+            title: 'Vaccines and immunization: What is vaccination?',
+            source: 'World Health Organization',
+            url: 'https://www.who.int/news-room/questions-and-answers/item/vaccines-and-immunization-what-is-vaccination',
+            why: 'The WHO\'s question and answer page, including the estimate that immunization prevents 3.5 to 5 million deaths annually.',
+            year: null,
+          },
+          {
+            title: 'How do vaccines work?',
+            source: 'World Health Organization',
+            url: 'https://www.who.int/news-room/feature-stories/detail/how-do-vaccines-work',
+            why: 'The WHO\'s illustrated explanation of antigens, antibodies, and immune memory.',
+            year: null,
+          },
+        ],
+      },
+
+      seeAlso: ['germ_theory', 'hand_hygiene', 'antimicrobial_resistance'],
+
+      sources: [
+        'https://www.who.int/news-room/questions-and-answers/item/vaccines-and-immunization-what-is-vaccination',
+        'https://www.who.int/news-room/feature-stories/detail/how-do-vaccines-work',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    antimicrobial_resistance: {
+      id: 'antimicrobial_resistance',
+      name: 'Antimicrobial Resistance: When Medicines Stop Working',
+      level: 'Intermediate',
+      dek: 'Drug resistant bacteria were directly linked to 1.27 million deaths in 2019 across 204 countries.',
+      readTime: '4 min',
+
+      sections: ['The 2019 count', 'How resistance spreads', 'What slows it'],
+      body: [
+        { type: 'lead', text: 'In 2019, bacterial antimicrobial resistance was directly responsible for an estimated 1.27 million deaths worldwide, and played a role in 4.95 million deaths in total. Those figures come from the Global Research on Antimicrobial Resistance study, published in The Lancet, covering 204 countries and 23 bacterial pathogens.' },
+        { type: 'h2', text: 'How resistance spreads' },
+        { type: 'p', text: 'Resistance is evolution at speed. When an antibiotic kills the bacteria it can kill, the few that survive by chance are the ones that resist it. They multiply, and they can share their resistance genes with other bacteria. Every unnecessary course of antibiotics, in people and in livestock, runs this selection again and sharpens the resistant strains.' },
+        { type: 'p', text: 'The result is infections that once cleared with a standard prescription now needing stronger drugs, longer hospital stays, or, in the worst cases, having no effective treatment left. Routine surgery and cancer care depend on working antibiotics to keep infection risk down, so resistance reaches far beyond infectious disease wards.' },
+        { type: 'h2', text: 'What slows it' },
+        { type: 'p', text: 'The count itself points to the levers: clean water and sanitation, vaccination, and infection control cut the number of infections that need treating at all. Careful prescribing, using antibiotics when they are needed and not when they are not, slows the selection. And new drugs and diagnostics are needed for the infections that remain.' },
+        { type: 'callout', text: 'One study, one year: 1.27 million deaths directly attributable to bacterial resistance in 2019, more than HIV/AIDS or malaria caused that year, with 4.95 million deaths associated overall.' },
+      ],
+
+      keyTerms: ['antimicrobial resistance', 'antibiotic', 'pathogen', 'selection pressure', 'The Lancet', 'stewardship'],
+
+      resources: {
+        articles: [
+          {
+            title: 'Global burden of bacterial antimicrobial resistance in 2019: a systematic analysis',
+            source: 'The Lancet (GRAM study)',
+            url: 'https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(22)00087-3/fulltext',
+            why: 'The study itself: 1.27 million deaths directly attributable and 4.95 million associated, across 204 countries and 23 pathogens.',
+            year: 2022,
+          },
+        ],
+      },
+
+      seeAlso: ['germ_theory', 'how_vaccines_work', 'hand_hygiene'],
+
+      sources: [
+        'https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(22)00087-3/fulltext',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    germ_theory: {
+      id: 'germ_theory',
+      name: 'Germ Theory and Louis Pasteur',
+      level: 'Beginner',
+      dek: 'Pasteur\'s swan neck flasks killed the idea that life appears from nowhere, and germ theory followed.',
+      readTime: '4 min',
+
+      sections: ['The swan neck experiment', 'Fermentation, then disease', 'Pasteurization and vaccines'],
+      body: [
+        { type: 'lead', text: 'For most of history, people believed broth left standing could generate life by itself, a doctrine called spontaneous generation. Louis Pasteur disproved it with a flask. His swan neck flasks let air in but trapped dust and microbes in the curve of the neck, and the broth inside stayed sterile. Break the neck, and growth began. Life came from life, carried in the air.' },
+        { type: 'h2', text: 'Fermentation, then disease' },
+        { type: 'p', text: 'Pasteur showed that microorganisms cause fermentation, the souring of wine and beer that French industry paid him to fix, and then that microorganisms cause disease in animals and people. This is the germ theory of disease: specific microbes, not bad air or imbalance, behind specific infections. Once the cause was a living thing that could be killed or blocked, prevention became practical: sterilize, isolate, wash, heat.' },
+        { type: 'p', text: 'Joseph Lister built antiseptic surgery on Pasteur\'s work, and Nightingale\'s sanitation statistics showed the same truth from the hospital side. Mortality fell wherever the germ idea was applied, before most specific cures existed.' },
+        { type: 'h2', text: 'Pasteurization and vaccines' },
+        { type: 'p', text: 'Heating wine and milk to kill harmful microbes became pasteurization, still printed on every carton. Pasteur then turned to deliberate weakening of microbes to make vaccines, producing working vaccines against chicken cholera, anthrax, and rabies. The rabies vaccine of 1885, given to a boy bitten by a rabid dog, made him famous worldwide.' },
+        { type: 'callout', text: 'Britannica\'s summary of the career is exact: microorganisms cause fermentation and disease, disproof of spontaneous generation, pasteurization, and vaccines for anthrax and rabies.' },
+      ],
+
+      keyTerms: ['germ theory', 'spontaneous generation', 'microorganism', 'pasteurization', 'fermentation', 'antiseptic'],
+
+      resources: {
+        articles: [
+          {
+            title: 'Louis Pasteur',
+            source: 'Encyclopaedia Britannica',
+            url: 'https://www.britannica.com/biography/Louis-Pasteur',
+            why: 'Britannica\'s biography: the swan neck experiments, germ theory, pasteurization, and the anthrax and rabies vaccines.',
+            year: null,
+          },
+        ],
+      },
+
+      seeAlso: ['how_vaccines_work', 'hand_hygiene', 'nightingale'],
+
+      sources: [
+        'https://www.britannica.com/biography/Louis-Pasteur',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    sleep_needs: {
+      id: 'sleep_needs',
+      name: 'How Much Sleep Adults Need',
+      level: 'Beginner',
+      dek: 'Adults need seven or more hours of sleep a night, and a third report getting less, says CDC.',
+      readTime: '4 min',
+
+      sections: ['The seven hour line', 'What the surveys show', 'Reading your own sleep'],
+      body: [
+        { type: 'lead', text: 'Adults need 7 or more hours of sleep per night for the best health and wellbeing, according to the Centers for Disease Control and Prevention. Sleeping less than 7 hours on a regular basis is what the CDC counts as insufficient sleep, and it is associated with worse health outcomes across a long list of conditions.' },
+        { type: 'h2', text: 'What the surveys show' },
+        { type: 'p', text: 'More than a third of adults in the United States report getting less sleep than the recommended amount. The CDC tracks the figures state by state through its behavioral risk surveys, and the pattern is steady: short sleep is common, not exceptional, and it clusters with shift work, long hours, and untreated sleep disorders.' },
+        { type: 'p', text: 'The need is not identical for everyone. Age matters, illness matters, and a minority of people genuinely function on less. But the population guidance is a floor, not an average: regularly below 7 hours is the zone where measurable risks, including obesity, diabetes, heart disease, and depression, climb.' },
+        { type: 'h2', text: 'Reading your own sleep' },
+        { type: 'p', text: 'The useful test is daytime function. Needing an alarm to wake, falling asleep in quiet moments, and relying on caffeine to stay level are signs the night is too short, whatever the clock said. Loud snoring, gasping, or long pauses in breathing are signs to raise with a clinician, because sleep apnea is common and treatable.' },
+        { type: 'callout', text: 'This page is general information, not medical advice. The CDC figure is a population floor for adults: 7 or more hours, with less than 7 counted as insufficient.' },
+      ],
+
+      keyTerms: ['insufficient sleep', 'CDC', 'sleep duration', 'sleep apnea', 'circadian', 'health outcomes'],
+
+      resources: {
+        articles: [
+          {
+            title: 'Adult Sleep Facts and Stats',
+            source: 'Centers for Disease Control and Prevention',
+            url: 'https://www.cdc.gov/sleep/data-research/facts-stats/adults-sleep-facts-and-stats.html',
+            why: 'The CDC\'s adult sleep data page: 7 or more hours recommended, less than 7 counted as insufficient, more than a third of adults below the line.',
+            year: null,
+          },
+        ],
+      },
+
+      seeAlso: ['menopause_basics', 'daily_water', 'cpr_basics'],
+
+      sources: [
+        'https://www.cdc.gov/sleep/data-research/facts-stats/adults-sleep-facts-and-stats.html',
+      ],
+      verifiedAt: '2026-10-15',
+    },
   },
 };

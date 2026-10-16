@@ -1049,5 +1049,101 @@ window.CONTENT.law = {
       verifiedAt: '2026-10-15',
     },
 
+
+    title_ix: {
+      id: 'title_ix',
+      name: 'Title IX: One Sentence That Changed School',
+      level: 'Beginner',
+      dek: 'Thirty seven words from 1972 bar sex discrimination in every school program receiving federal money.',
+      readTime: '4 min',
+
+      sections: ['The sentence', 'Where it reaches', 'How it got used'],
+      body: [
+        { type: 'lead', text: 'Title IX of the Education Amendments of 1972 is one sentence: "No person in the United States shall, on the basis of sex, be excluded from participation in, be denied the benefits of, or be subjected to discrimination under any education program or activity receiving Federal financial assistance." It was signed into law on June 23, 1972.' },
+        { type: 'h2', text: 'Where it reaches' },
+        { type: 'p', text: 'The hook is federal money. Nearly every American school, college, and university receives some, so the sentence reaches nearly every classroom, laboratory, and playing field in the country. It applies to admissions in most higher education, to courses and programs, to housing and athletics, and to how schools respond to sex based harassment and sexual violence.' },
+        { type: 'p', text: 'The Department of Education\'s Office for Civil Rights enforces it, and its examples of covered discrimination run from harassment and pregnancy discrimination to unequal athletic opportunity and unequal access to science, technology, engineering, and math courses.' },
+        { type: 'h2', text: 'How it got used' },
+        { type: 'p', text: 'The most visible change came in sports, where the law\'s requirement of equal opportunity turned girls\' and women\'s athletics from an afterthought into a national institution. But the sentence was always broader than sports: it is the legal basis for claims about access to programs, fair discipline, and a school\'s duty to respond when a student is harassed. The regulations that spell out how schools must comply have been revised many times; the sentence itself has not changed.' },
+        { type: 'callout', text: 'The Department of Education quotes the sentence whole on its Title IX page. It is short enough to memorize, and it carries no list of sports or subjects: any program or activity.' },
+      ],
+
+      keyTerms: ['Title IX', 'federal financial assistance', 'Office for Civil Rights', 'discrimination', 'Education Amendments of 1972', 'equal opportunity'],
+
+      resources: {
+        articles: [
+          {
+            title: 'Title IX and Sex Discrimination',
+            source: 'U.S. Department of Education',
+            url: 'http://ed.gov/laws-and-policy/civil-rights-laws/title-ix-and-sex-discrimination',
+            why: 'The Department\'s own page, quoting the sentence in full and listing the discrimination it covers, from harassment to equal athletic opportunity and STEM access.',
+            year: null,
+          },
+          {
+            title: 'Title IX, Education Amendments of 1972 (statutory text)',
+            source: 'U.S. Department of Labor (20 U.S.C. 1681)',
+            url: 'http://www.dol.gov/agencies/oasam/centers-offices/civil-rights-center/statutes/title-ix',
+            why: 'The statute itself, with its exceptions printed after the main prohibition.',
+            year: null,
+          },
+        ],
+      },
+
+      seeAlso: ['malala', 'switzer', 'jury_service'],
+
+      sources: [
+        'http://ed.gov/laws-and-policy/civil-rights-laws/title-ix-and-sex-discrimination',
+        'http://www.dol.gov/agencies/oasam/centers-offices/civil-rights-center/statutes/title-ix',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    jury_service: {
+      id: 'jury_service',
+      name: 'Jury Service: The Citizen\'s Seat in Court',
+      level: 'Beginner',
+      dek: 'Federal law draws juries at random from a fair cross section, and every citizen can be summoned.',
+      readTime: '4 min',
+
+      sections: ['The constitutional promise', 'Random, from a fair cross section', 'Who cannot be excluded'],
+      body: [
+        { type: 'lead', text: 'The Sixth Amendment guarantees a criminal defendant a speedy and public trial by an impartial jury. Federal law then describes how that jury is found: it is the policy of the United States that juries be selected at random from a fair cross section of the community, and that all citizens have the opportunity to be considered for service, and the obligation to serve when summoned.' },
+        { type: 'h2', text: 'Random, from a fair cross section' },
+        { type: 'p', text: 'Those words, from 28 U.S.C. section 1861, the Jury Selection and Service Act, are the working definition of impartial at the front end. A jury does not have to mirror the community exactly. The pool it is drawn from does: names come from sources like voter and driver records, chosen at random, so that no official picks the sort of person who will judge.' },
+        { type: 'p', text: 'The Supreme Court has read the Sixth Amendment to require the same fair cross section in state courts, striking down systems that systematically kept groups out, including the old rules that excused women from service as a class.' },
+        { type: 'h2', text: 'Who cannot be excluded' },
+        { type: 'p', text: 'The next section of the statute, 1862, states the ban flatly: no citizen shall be excluded from service as a grand or petit juror on account of race, color, religion, sex, national origin, or economic status. People can still be excused for hardship or disqualified for cause in a particular case, and lawyers can strike individual jurors, but the doorway itself cannot be closed to a class of citizens.' },
+        { type: 'callout', text: 'When a summons arrives, it is this machinery working: a random draw from a cross section of your community, and a legal duty the statute calls both an opportunity and an obligation.' },
+      ],
+
+      keyTerms: ['Sixth Amendment', 'impartial jury', 'fair cross section', 'Jury Selection and Service Act', 'summons', 'petit jury'],
+
+      resources: {
+        articles: [
+          {
+            title: '28 U.S.C. sections 1861-1863: Jury selection policy and the ban on exclusion',
+            source: 'U.S. Government Publishing Office (govinfo)',
+            url: 'https://www.govinfo.gov/content/pkg/USCODE-2024-title28/pdf/USCODE-2024-title28-partV-chap121-sec1863.pdf',
+            why: 'The statute as published: juries selected at random from a fair cross section, every citizen with the opportunity and obligation to serve, and no exclusion on account of race, color, religion, sex, national origin, or economic status.',
+            year: 2024,
+          },
+          {
+            title: 'A Jury Selected from a Representative Cross-Section of the Community',
+            source: 'Cornell Legal Information Institute, Constitution Annotated',
+            url: 'https://www.law.cornell.edu/constitution-conan/amendment-6/a-jury-selected-from-a-representative-cross-section-of-the-community',
+            why: 'Congress\'s own annotation of the Sixth Amendment doctrine: selection from a representative cross section as an essential component of the right to a jury trial.',
+            year: null,
+          },
+        ],
+      },
+
+      seeAlso: ['title_ix', 'how_bills_become_law', 'registering_to_vote'],
+
+      sources: [
+        'https://www.govinfo.gov/content/pkg/USCODE-2024-title28/pdf/USCODE-2024-title28-partV-chap121-sec1863.pdf',
+        'https://www.law.cornell.edu/constitution-conan/amendment-6/a-jury-selected-from-a-representative-cross-section-of-the-community',
+      ],
+      verifiedAt: '2026-10-15',
+    },
   },
 };

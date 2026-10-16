@@ -1119,5 +1119,191 @@ window.CONTENT.astronomy = {
       verifiedAt: '2026-10-15',
     },
 
+
+    katherine_johnson: {
+      id: 'katherine_johnson',
+      name: 'Katherine Johnson: The Human Computer',
+      level: 'Beginner',
+      dek: 'Johnson calculated the path for the first American in space, then checked the computer for orbital flight.',
+      readTime: '4 min',
+
+      sections: ['Langley, 1953', '"Get the girl"', 'Recognition'],
+      body: [
+        { type: 'lead', text: 'Katherine Johnson was a mathematician at NASA\'s Langley Research Center whose hand calculations helped open American spaceflight. She calculated the trajectory for Alan Shepard\'s 1961 flight, the first for an American in space. A year later, astronaut John Glenn asked for her by role before his orbital flight: get the girl to check the computer\'s numbers. She did, and he flew.' },
+        { type: 'h2', text: '"Get the girl"' },
+        { type: 'p', text: 'For Glenn\'s Friendship 7 mission in February 1962, NASA used a new electronic computer to work out the orbital equations. Glenn trusted the machine less than he trusted Johnson. He asked engineers to have her run the same equations by hand, and said he would not fly until she confirmed them. The check took her about a day and a half, working through the numbers on paper, and the figures matched.' },
+        { type: 'p', text: 'Johnson worked at Langley from 1953, first in a segregated computing pool of Black women mathematicians whose work the agency depended on, then directly with the flight research teams. Her trajectory analysis reports were among the first from her division to carry a woman\'s name as author.' },
+        { type: 'h2', text: 'Recognition' },
+        { type: 'p', text: 'In 2015, President Barack Obama awarded Johnson the Presidential Medal of Freedom, the highest civilian honor in the United States. Her story reached a wide public with the book and film Hidden Figures, named for the computers, human ones, whom history had left out of the frame.' },
+        { type: 'callout', text: 'NASA\'s own phrasing for the 1962 check: Glenn asked, in effect, if Katherine said the numbers were good, he was ready to go.' },
+      ],
+
+      keyTerms: ['trajectory', 'orbital mechanics', 'Langley', 'Friendship 7', 'Presidential Medal of Freedom', 'human computer'],
+
+      resources: {
+        books: [
+          {
+            title: 'Hidden Figures',
+            author: 'Margot Lee Shetterly',
+            year: 2016,
+            url: '',
+            why: 'The book that brought Johnson and the Langley computers to a wide public, researched from NASA records and interviews.',
+          },
+        ],
+        articles: [
+          {
+            title: 'Human Computer, Hidden No More',
+            source: 'NASA',
+            url: 'https://nasa.gov/image-article/human-computer-hidden-no-more/',
+            why: 'NASA\'s own article on Johnson: the Shepard trajectory, the Glenn check, and the 2015 Medal of Freedom.',
+            year: null,
+          },
+          {
+            title: 'Glenn, Johnson, and "Hidden Figures"',
+            source: 'Smithsonian National Air and Space Museum',
+            url: 'https://airandspace.si.edu/stories/editorial/glenn-johnson-hidden-figures',
+            why: 'The museum on the 1962 verification: Glenn\'s request, Johnson\'s day and a half of hand calculation, and the matching numbers.',
+            year: null,
+          },
+        ],
+      },
+
+      seeAlso: ['women_in_space', 'vera_rubin', 'ada_lovelace'],
+
+      sources: [
+        'https://nasa.gov/image-article/human-computer-hidden-no-more/',
+        'https://airandspace.si.edu/stories/editorial/glenn-johnson-hidden-figures',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    vera_rubin: {
+      id: 'vera_rubin',
+      name: 'Vera Rubin and the Case for Dark Matter',
+      level: 'Intermediate',
+      dek: 'Rubin found galaxy edges spinning too fast, evidence that most of a galaxy\'s mass is invisible.',
+      readTime: '4 min',
+
+      sections: ['The measurement', 'Five to ten times more', 'Why it convinced people'],
+      body: [
+        { type: 'lead', text: 'Vera Rubin measured how fast stars orbit in spiral galaxies and found something gravity, as then understood, could not explain. Stars at the outer edges moved about as fast as stars near the center. The rotation curves were flat. For the galaxies to hold together, they had to contain far more mass than their light showed: five to ten times more, in halos of matter that does not shine.' },
+        { type: 'h2', text: 'The measurement' },
+        { type: 'p', text: 'Working with astronomer Kent Ford and his unusually sensitive image tube spectrograph, Rubin measured the Andromeda galaxy in 1970 and found its outer stars refusing to slow down. Planets behave the opposite way: the farther from the Sun, the slower the orbit. Galaxies, Rubin showed, do not follow the visible mass.' },
+        { type: 'p', text: 'A wider survey settled it. By 1980, Rubin, Ford, and their colleagues had measured 21 spiral galaxies, and the flat curves held across the sample. It was not one strange galaxy. It was a general property of galaxies.' },
+        { type: 'h2', text: 'Why it convinced people' },
+        { type: 'p', text: 'Earlier hints of missing mass existed, including Fritz Zwicky\'s work in the 1930s, but Rubin\'s curves were precise, repeatable, and hard to explain away. They became the first persuasive evidence that dark matter halos surround galaxies, and they redrew the universe\'s budget: the visible matter is the minority.' },
+        { type: 'callout', text: 'Rubin was careful about the inference. The flat curves are the observation; dark matter is the explanation they point to, and she kept both in view throughout her career.' },
+      ],
+
+      keyTerms: ['rotation curve', 'dark matter', 'galaxy', 'Andromeda', 'Kent Ford', 'spectrograph'],
+
+      resources: {
+        articles: [
+          {
+            title: 'Vera Rubin: Opening Doors to Dark Matter and Women in STEM',
+            source: 'Carnegie Science',
+            url: 'https://carnegiescience.edu/vera-rubin-opening-doors-dark-matter-and-women-stem',
+            why: 'Her own institution on the Rubin and Ford measurements: the flat curve found on the first nights, and what it implied.',
+            year: null,
+          },
+          {
+            title: 'New Quarter Honors Vera Rubin, Astronomer Who Revealed the Universe\'s Hidden Mass',
+            source: 'Smithsonian American Women\'s History Museum',
+            url: 'http://womenshistory.si.edu/blog/new-quarter-honors-vera-rubin-astronomer-who-revealed-universes-hidden-mass',
+            why: 'The Smithsonian on her studies of more than 75 galaxies and the estimate that most of a galaxy\'s mass could be dark.',
+            year: 2025,
+          },
+        ],
+      },
+
+      seeAlso: ['katherine_johnson', 'women_in_space', 'solar'],
+
+      sources: [
+        'https://carnegiescience.edu/vera-rubin-opening-doors-dark-matter-and-women-stem',
+        'http://womenshistory.si.edu/blog/new-quarter-honors-vera-rubin-astronomer-who-revealed-universes-hidden-mass',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    women_in_space: {
+      id: 'women_in_space',
+      name: 'Women in Space: Tereshkova and Ride',
+      level: 'Beginner',
+      dek: 'Tereshkova orbited Earth in 1963 aged twenty six; Ride followed as first American woman twenty years later.',
+      readTime: '4 min',
+
+      sections: ['1963: Vostok 6', '1983: STS-7', 'The gap between them'],
+      body: [
+        { type: 'lead', text: 'The first woman to orbit the Earth was a 26 year old Soviet cosmonaut, Valentina Tereshkova, who flew alone aboard Vostok 6 on June 16, 1963. The first American woman in space, Sally Ride, flew twenty years later, aboard the shuttle Challenger on mission STS-7, launched June 18, 1983.' },
+        { type: 'h2', text: '1963: Vostok 6' },
+        { type: 'p', text: 'Tereshkova, a textile worker and amateur parachutist, was chosen from hundreds of applicants for the Soviet program. Her solo flight circled the Earth 48 times over almost three days, still the only solo spaceflight ever made by a woman. The Soviet Union did not fly another woman until 1982.' },
+        { type: 'h2', text: '1983: STS-7' },
+        { type: 'p', text: 'Ride was a physicist finishing her doctorate at Stanford when she answered a NASA newspaper advertisement. From over 8,000 applicants, she was one of 35 people selected for the astronaut class of 1978, the first NASA class to include women. At 32 she was the youngest astronaut aboard STS-7, where she operated the shuttle\'s robot arm, a system she had helped develop, to deploy communications satellites.' },
+        { type: 'h2', text: 'The gap between them' },
+        { type: 'p', text: 'Between 1963 and 1983, spaceflight was almost entirely closed to women in both programs. The two flights bookend the closure: a Soviet first, achieved for prestige, and an American first that came only after NASA opened its astronaut corps in law and in practice. The ordinary presence of women in spaceflight since then was built in the second opening, not the first.' },
+        { type: 'callout', text: 'Ride recalled the press asking about makeup for the flight. Her answer, in substance: they did not care how well prepared she was to operate the arm.' },
+      ],
+
+      keyTerms: ['Vostok 6', 'STS-7', 'cosmonaut', 'astronaut corps', 'robot arm', 'Valentina Tereshkova', 'Sally Ride'],
+
+      resources: {
+        articles: [
+          {
+            title: '40 years ago, Sally Ride became the first American woman in space',
+            source: 'NPR (via WAMC)',
+            url: 'https://www.wamc.org/2023-06-16/40-years-ago-sally-ride-became-the-first-american-woman-in-space',
+            why: 'The NPR report on the STS-7 anniversary: Tereshkova at 26 in 1963, Ride at 32 in 1983, chosen from over 8,000 applicants among 35 selected.',
+            year: 2023,
+          },
+        ],
+      },
+
+      seeAlso: ['katherine_johnson', 'vera_rubin', 'moon_recession'],
+
+      sources: [
+        'https://www.wamc.org/2023-06-16/40-years-ago-sally-ride-became-the-first-american-woman-in-space',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    moon_recession: {
+      id: 'moon_recession',
+      name: 'The Moon Is Drifting Away',
+      level: 'Beginner',
+      dek: 'Laser measurements show Earth and Moon separating by about 1.5 inches every year, driven by tides.',
+      readTime: '4 min',
+
+      sections: ['Measuring with mirrors', 'Why it happens', 'What it changes'],
+      body: [
+        { type: 'lead', text: 'The Moon is moving away from Earth at about 1.5 inches, roughly 3.8 centimeters, per year. We know this precisely because Apollo astronauts left reflectors on the lunar surface, and observatories still bounce laser beams off them and time the return, a measurement called laser ranging.' },
+        { type: 'h2', text: 'Why it happens' },
+        { type: 'p', text: 'The cause is the tides. The Moon\'s gravity raises bulges in Earth\'s oceans, and Earth\'s rotation drags those bulges slightly ahead of the Moon\'s position. The bulges pull the Moon forward in its orbit, which lifts it into a slightly higher, slower orbit. The energy comes from Earth\'s spin: as the Moon gains distance, Earth\'s day very slowly lengthens.' },
+        { type: 'p', text: 'The rate was not always what it is now. It depends on the shape of the oceans and continents the tides move through, so it has varied across Earth\'s history, and fossils and tidal deposits let geologists read older rates from rock.' },
+        { type: 'h2', text: 'What it changes' },
+        { type: 'p', text: 'In the far future, total solar eclipses will end, because the Moon will appear too small to cover the Sun. That is hundreds of millions of years away. The measured drift matters now for a nearer reason: it is the cleanest demonstration that the Earth and Moon are one evolving system, still exchanging energy four centuries after the telescope found them.' },
+        { type: 'callout', text: 'NASA describes the drift directly: Earth and the Moon are drifting apart at about 1.5 inches a year, measured by laser beams reflected between them.' },
+      ],
+
+      keyTerms: ['laser ranging', 'retroreflector', 'tides', 'orbit', 'Apollo', 'angular momentum'],
+
+      resources: {
+        articles: [
+          {
+            title: 'Laser Beams Reflected Between Earth and Moon Boost Science',
+            source: 'NASA',
+            url: 'https://www.nasa.gov/feature/goddard/2020/laser-beams-reflected-between-earth-and-moon-boost-science/',
+            why: 'NASA on the reflector experiments: the 1.5 inches per year drift, the Apollo era mirrors, and the tidal interaction behind it.',
+            year: 2020,
+          },
+        ],
+      },
+
+      seeAlso: ['women_in_space', 'solar', 'the_world_ocean'],
+
+      sources: [
+        'https://www.nasa.gov/feature/goddard/2020/laser-beams-reflected-between-earth-and-moon-boost-science/',
+      ],
+      verifiedAt: '2026-10-15',
+    },
   },
 };

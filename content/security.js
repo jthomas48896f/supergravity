@@ -471,5 +471,86 @@ window.CONTENT.security = {
       verifiedAt: '2026-04-23',
     },
 
+
+    spotting_fraud: {
+      id: 'spotting_fraud',
+      name: 'Spotting Fraud: The 12.5 Billion Dollar Year',
+      level: 'Beginner',
+      dek: 'Consumers reported 12.5 billion dollars lost to fraud in 2024, up a quarter in one year, says FTC.',
+      readTime: '4 min',
+
+      sections: ['The FTC count', 'The two biggest categories', 'The shared pattern'],
+      body: [
+        { type: 'lead', text: 'Consumers reported losing over $12.5 billion to fraud in 2024, a 25 percent increase over the year before, according to the Federal Trade Commission. The reports numbered 2.6 million, about the same as 2023, but a much larger share of the people reporting, 38 percent, up from 27 percent, said they actually lost money. The scams are not multiplying as fast as they are succeeding.' },
+        { type: 'h2', text: 'The two biggest categories' },
+        { type: 'p', text: 'Investment scams took the largest share, $5.7 billion in reported losses, built on fake returns, crypto schemes, and advisors who exist only in a chat window. Imposter scams came second at $2.95 billion: callers, texts, and emails pretending to be a bank, a government agency, a company you buy from, or a relative in trouble.' },
+        { type: 'p', text: 'The FTC has repeated one sentence for years and it remains the core fact: the government and real banks do not demand payment by gift card, wire, or crypto, and do not ask you to move money to protect it. An instruction to pay that way is the fraud, whatever the story around it claims.' },
+        { type: 'h2', text: 'The shared pattern' },
+        { type: 'p', text: 'Nearly every successful fraud runs on urgency and secrecy: act now, tell no one, pay by a method that cannot be reversed. The counter is procedural, not clever. Slow down. Verify through a number or address you find yourself, never the one in the message. Talk to a person you trust before moving money. Report the attempt, because the FTC\'s count, and the warnings built from it, come from exactly those reports.' },
+        { type: 'callout', text: 'Reported losses are a floor, not a total: the FTC counts what consumers report, and most fraud is never reported. The true figure is higher than 12.5 billion dollars.' },
+      ],
+
+      keyTerms: ['fraud', 'FTC', 'imposter scam', 'investment scam', 'phishing', 'reported losses'],
+
+      resources: {
+        articles: [
+          {
+            title: 'New FTC Data Show a Big Jump in Reported Losses to Fraud to $12.5 Billion in 2024',
+            source: 'Federal Trade Commission',
+            url: 'https://www.ftc.gov/news-events/news/press-releases/2025/03/new-ftc-data-show-big-jump-reported-losses-fraud-125-billion-2024',
+            why: 'The FTC release itself: $12.5 billion reported lost, up 25 percent, investment scams $5.7 billion, imposter scams $2.95 billion, and the rise from 27 to 38 percent of reporters losing money.',
+            year: 2025,
+          },
+        ],
+      },
+
+      seeAlso: ['strong_passwords', 'apr_basics', 'credit_scores'],
+
+      sources: [
+        'https://www.ftc.gov/news-events/news/press-releases/2025/03/new-ftc-data-show-big-jump-reported-losses-fraud-125-billion-2024',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    strong_passwords: {
+      id: 'strong_passwords',
+      name: 'Strong Passwords the NIST Way',
+      level: 'Beginner',
+      dek: 'NIST\'s password standard prizes length over symbol mixtures, and dropped forced changes and complexity rules.',
+      readTime: '4 min',
+
+      sections: ['Length is the primary factor', 'What the standard dropped', 'The practice that follows'],
+      body: [
+        { type: 'lead', text: 'The United States National Institute of Standards and Technology writes the password rules most systems now follow, in its standard SP 800-63B. Its central finding surprises people raised on symbol soup: length is a primary factor in password strength. A long passphrase of ordinary words beats a short tangle of characters, and it is easier to remember honestly.' },
+        { type: 'h2', text: 'What the standard dropped' },
+        { type: 'p', text: 'SP 800-63B tells systems to stop imposing composition rules, the requirement to mix uppercase, lowercase, digits, and symbols, because people answer such rules with predictable patterns the attackers already know. It also ends forced periodic password changes where there is no evidence of compromise, since scheduled changes mostly produce weaker, recycled passwords. The minimum stays 8 characters, and systems should allow at least 64, enough room for a full passphrase with spaces.' },
+        { type: 'p', text: 'In place of the old rules, the standard adds a screening duty: new passwords must be checked against lists of passwords known to be breached, common, or expected, and rejected if they appear. A password the whole internet has already used is weak at any length.' },
+        { type: 'h2', text: 'The practice that follows' },
+        { type: 'p', text: 'For a person, the standard reduces to three habits. Make it long, a passphrase of several unrelated words. Make it unique, never reused across sites, because one site\'s breach becomes every site\'s breach. And let a password manager carry the load, so length and uniqueness cost no memory. Add a second factor where it is offered, and the account is protected by something you have as well as something you know.' },
+        { type: 'callout', text: 'NIST\'s rules in one breath: minimum 8, allow 64 or more, no composition rules, no routine forced changes, screen against breached password lists.' },
+      ],
+
+      keyTerms: ['NIST', 'SP 800-63B', 'passphrase', 'breached passwords', 'password manager', 'two factor'],
+
+      resources: {
+        articles: [
+          {
+            title: 'NIST SP 800-63B Password Guidelines: Plain English Summary',
+            source: 'PassGeni (summary of NIST SP 800-63B)',
+            url: 'https://www.passgeni.ai/guides/nist-800-63b-password-guidelines',
+            why: 'A faithful plain English summary of the standard: minimum 8, allow at least 64, no mandatory complexity, no periodic rotation, breach list checking required.',
+            year: null,
+          },
+        ],
+      },
+
+      seeAlso: ['spotting_fraud', 'hedy_lamarr', 'women_codebreakers'],
+
+      sources: [
+        'https://www.passgeni.ai/guides/nist-800-63b-password-guidelines',
+        'https://csrc.nist.gov/pubs/sp/800/63/b/upd2/final',
+      ],
+      verifiedAt: '2026-10-15',
+    },
   },
 };

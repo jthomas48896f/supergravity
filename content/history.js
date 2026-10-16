@@ -2307,5 +2307,294 @@ window.CONTENT.history = {
       verifiedAt: '2026-10-15',
     },
 
+
+    nz_suffrage: {
+      id: 'nz_suffrage',
+      name: 'New Zealand Gives Women the Vote',
+      level: 'Beginner',
+      dek: 'In 1893 New Zealand became the first self-governing country where women could vote in national elections.',
+      readTime: '4 min',
+
+      sections: ['The campaign', '19 September 1893', 'What came after'],
+      body: [
+        { type: 'lead', text: 'On 19 September 1893, Governor Lord Glasgow signed a new Electoral Act into law in New Zealand. With that signature, New Zealand became the first self-governing country in the world in which women had the right to vote in parliamentary elections, a generation before Britain or the United States.' },
+        { type: 'h2', text: 'The campaign' },
+        { type: 'p', text: 'The law was not a gift. Campaigners led by Kate Sheppard, working through the Women\'s Christian Temperance Union and allied groups, organized for years and carried petition after petition to Parliament. Across seven years and 13 petitions they gathered 31,872 signatures. The largest petition, with 25,519 names, survives today and is displayed at the National Library of New Zealand.' },
+        { type: 'p', text: 'Māori women were part of the movement from the start, pressing both for the parliamentary vote and for a voice in Te Kotahitanga, the Māori Parliament. The 1893 Act covered all women over 21, including Māori women, who could vote in the Māori electorates on the same terms as Māori men.' },
+        { type: 'h2', text: 'What the vote did and did not include' },
+        { type: 'p', text: 'Women could vote in 1893 but could not stand for Parliament. That right came only in 1919, and the first woman, Elizabeth McCombs, was not elected until 1933. Even so, the 1893 Act reset what every other country had to argue against. In most other democracies, including Britain and the United States, women did not win the vote until after the First World War.' },
+        { type: 'callout', text: 'New Zealand marks 19 September each year as Suffrage Day, and Kate Sheppard now appears on the New Zealand ten dollar note.' },
+      ],
+
+      keyTerms: ['suffrage', 'Electoral Act', 'petition', 'franchise', 'self-governing', 'Kate Sheppard'],
+
+      resources: {
+        articles: [
+          {
+            title: 'New Zealand women and the vote',
+            source: 'NZ History (Manatū Taonga, Ministry for Culture and Heritage)',
+            url: 'https://nzhistory.govt.nz/politics/womens-suffrage',
+            why: 'The national history site\'s account of the 1893 Electoral Act and the campaign behind it.',
+            year: null,
+          },
+          {
+            title: 'Women\'s Suffrage in Aotearoa New Zealand',
+            source: 'New Zealand Ministry for Women',
+            url: 'https://www.women.govt.nz/about-us/history-womens-suffrage-aotearoa-new-zealand',
+            why: 'The ministry\'s own history page, including the petition counts and Māori women\'s role in the movement.',
+            year: null,
+          },
+        ],
+      },
+
+      seeAlso: ['nineteenth_amendment', 'women_codebreakers', 'title_ix'],
+
+      sources: [
+        'https://nzhistory.govt.nz/politics/womens-suffrage',
+        'https://www.women.govt.nz/about-us/history-womens-suffrage-aotearoa-new-zealand',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    nineteenth_amendment: {
+      id: 'nineteenth_amendment',
+      name: 'The Nineteenth Amendment',
+      level: 'Beginner',
+      dek: 'After a seventy year campaign, the amendment barred denying the vote on account of sex in 1920.',
+      readTime: '4 min',
+
+      sections: ['The long campaign', 'Tennessee decides', 'What it settled and what it did not'],
+      body: [
+        { type: 'lead', text: 'The Nineteenth Amendment to the United States Constitution says the right to vote shall not be denied or abridged on account of sex. Congress passed it on June 4, 1919. Tennessee became the 36th state to ratify it on August 18, 1920, and it was certified on August 26, 1920.' },
+        { type: 'h2', text: 'The long campaign' },
+        { type: 'p', text: 'The amendment\'s text was first introduced in Congress in 1878, and versions of it were debated for decades while suffragists organized state by state. By 1919 women already held full voting rights in a number of states, which gave the amendment\'s supporters both the votes in Congress to pass it and the leverage to push the remaining states to ratify.' },
+        { type: 'p', text: 'Ratification turned on Tennessee. When its legislature approved the amendment by a narrow margin, the count reached the three quarters of the states that the Constitution requires, and the amendment became law for the whole country at once.' },
+        { type: 'h2', text: 'What it settled and what it did not' },
+        { type: 'p', text: 'The amendment removed sex as a legal reason to deny the ballot. It did not by itself secure the vote for every woman. Many Native American, Asian American, and Black women still faced citizenship rules, poll taxes, literacy tests, and intimidation that later laws, including the Voting Rights Act of 1965, had to attack.' },
+        { type: 'callout', text: 'The National Archives keeps the amendment among its milestone documents: passed by Congress June 4, 1919, ratified August 18, 1920, certified August 26, 1920.' },
+      ],
+
+      keyTerms: ['amendment', 'ratification', 'suffrage', 'Constitution', 'Congress', 'Tennessee'],
+
+      resources: {
+        articles: [
+          {
+            title: '19th Amendment to the U.S. Constitution: Women\'s Right to Vote',
+            source: 'National Archives',
+            url: 'https://www.archives.gov/milestone-documents/19th-amendment',
+            why: 'The Archives\' milestone document page for the amendment, with the passage and ratification dates.',
+            year: null,
+          },
+          {
+            title: 'Featured Document: The 19th Amendment',
+            source: 'National Archives',
+            url: 'https://www.archives.gov/exhibits/featured-documents/amendment-19',
+            why: 'The Archives\' exhibit page for the joint resolution itself.',
+            year: null,
+          },
+        ],
+      },
+
+      seeAlso: ['nz_suffrage', 'registering_to_vote', 'title_ix'],
+
+      sources: [
+        'https://www.archives.gov/milestone-documents/19th-amendment',
+        'https://www.archives.gov/exhibits/featured-documents/amendment-19',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    harriet_tubman: {
+      id: 'harriet_tubman',
+      name: 'Harriet Tubman and the Underground Railroad',
+      level: 'Beginner',
+      dek: 'Tubman returned to Maryland about thirteen times and guided roughly seventy people to freedom.',
+      readTime: '4 min',
+
+      sections: ['The rescue trips', 'The real numbers', 'After the railroad'],
+      body: [
+        { type: 'lead', text: 'Harriet Tubman escaped slavery in Maryland in 1849, then went back. Between 1850 and 1860 she returned about 13 times and guided around 70 people, family and friends among them, out of slavery. She also gave instructions to about 70 more who escaped on their own with her directions.' },
+        { type: 'h2', text: 'The real numbers' },
+        { type: 'p', text: 'A famous older figure says Tubman made 19 trips and rescued 300 people. That number came from Sarah Bradford\'s early biography and was repeated for more than a century. Historians working from records and from Tubman\'s own accounts put the count at about 13 trips and roughly 70 people guided directly. The smaller number is the documented one, and it needs no inflating: every return trip risked her own capture and re-enslavement.' },
+        { type: 'p', text: 'Tubman traveled at night, often in winter when the nights were longest, and used the network of safe houses and helpers called the Underground Railroad. She was known for a hard rule: no one who started the journey could turn back and endanger the rest.' },
+        { type: 'h2', text: 'After the railroad' },
+        { type: 'p', text: 'During the Civil War she served the Union Army as a scout, a spy, and a nurse, and helped guide the Combahee River raid of 1863, which freed more than 700 enslaved people. She spent decades afterward pressing for the military pay and pension she was owed, and campaigning for women\'s suffrage.' },
+        { type: 'callout', text: 'The National Park Service and the Smithsonian tell the corrected count: about 13 trips, about 70 people guided out, about 70 more helped by her instructions.' },
+      ],
+
+      keyTerms: ['Underground Railroad', 'abolition', 'conductor', 'Combahee River raid', 'suffrage', 'Sarah Bradford'],
+
+      resources: {
+        articles: [
+          {
+            title: 'The True Story of Harriet Tubman',
+            source: 'Smithsonian Magazine',
+            url: 'https://www.smithsonianmag.com/smithsonian-institution/true-story-harriet-tubman-movie-180973413/',
+            why: 'The Smithsonian on what the record supports, and how the 19 trips and 300 people figure grew in the telling.',
+            year: 2019,
+          },
+          {
+            title: 'Harriet Tubman',
+            source: 'National Park Service',
+            url: 'https://www.nps.gov/people/harriet-tubman.htm',
+            why: 'The Park Service biography: 13 trips, around 70 people rescued directly, instructions given to about 70 more.',
+            year: null,
+          },
+        ],
+      },
+
+      seeAlso: ['women_codebreakers', 'nz_suffrage', 'nineteenth_amendment'],
+
+      sources: [
+        'https://www.smithsonianmag.com/smithsonian-institution/true-story-harriet-tubman-movie-180973413/',
+        'https://www.nps.gov/people/harriet-tubman.htm',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    women_codebreakers: {
+      id: 'women_codebreakers',
+      name: 'The Women Codebreakers of World War II',
+      level: 'Beginner',
+      dek: 'Some eleven thousand American women broke enemy codes, and by 1945 they were most of the workforce.',
+      readTime: '4 min',
+
+      sections: ['Recruited from classrooms', 'The work', 'Recognition, eighty years later'],
+      body: [
+        { type: 'lead', text: 'During World War II, some 11,000 women worked as cryptologists for the United States, processing and deciphering an endless stream of enemy military messages. By the end of the war, women numbered around 7,000 in the Army and about 4,000 in the Navy, more than half of all American cryptologists.' },
+        { type: 'h2', text: 'Recruited from classrooms' },
+        { type: 'p', text: 'After Pearl Harbor, the armed forces needed cryptologists faster than they could train men who were shipping overseas. They turned to women. Many were civilians recruited while still in college or working as schoolteachers. Others enlisted through programs such as the Navy\'s WAVES and the Women\'s Army Auxiliary Corps.' },
+        { type: 'p', text: 'The work was secret, and it stayed secret for decades. Women deciphered Japanese fleet communications, helped prevent German U-boats from sinking vital cargo ships, broke the encryption systems that revealed Japanese shipping routes, and built and ran high-speed machines to break encrypted German messages. They also checked that America\'s own coded messages went out secure and error free, an early form of cybersecurity.' },
+        { type: 'h2', text: 'Recognition, eighty years later' },
+        { type: 'p', text: 'In 2022 the United States Postal Service issued a Forever stamp honoring the women cryptologists of World War II, with a cipher worked into the design and a key printed on the back of the pane. The first day ceremony was held at the National Cryptologic Museum in Maryland, where the National Security Agency called them pioneers whose service made the modern agency possible.' },
+        { type: 'callout', text: 'The Postal Service\'s dedicating official called their work one of the conflict\'s best kept secrets, and said it played an inestimable role in the Allied victory.' },
+      ],
+
+      keyTerms: ['cryptology', 'cipher', 'WAVES', 'decipher', 'U-boat', 'National Cryptologic Museum'],
+
+      resources: {
+        articles: [
+          {
+            title: 'U.S. Postal Service Recognizes Women Cryptologists',
+            source: 'USPS Newsroom',
+            url: 'https://about.usps.com/newsroom/national-releases/2022/1018-usps-recognizes-women-cryptologists-with-new-forever-stamp.htm',
+            why: 'The Postal Service\'s own account: some 11,000 women, about 7,000 Army and 4,000 Navy, more than half of all U.S. cryptologists by the war\'s end.',
+            year: 2022,
+          },
+          {
+            title: 'Women Cryptologists of World War II Honored with USPS Forever Stamp',
+            source: 'National Security Agency',
+            url: 'https://www.nsa.gov/Press-Room/News-Highlights/Article/Article/3200397/women-cryptologists-of-world-war-ii-honored-with-usps-forever-stamp/',
+            why: 'The NSA on the stamp ceremony and the women it calls the founders of the agency.',
+            year: 2022,
+          },
+        ],
+      },
+
+      seeAlso: ['hedy_lamarr', 'harriet_tubman', 'strong_passwords'],
+
+      sources: [
+        'https://about.usps.com/newsroom/national-releases/2022/1018-usps-recognizes-women-cryptologists-with-new-forever-stamp.htm',
+        'https://www.nsa.gov/Press-Room/News-Highlights/Article/Article/3200397/women-cryptologists-of-world-war-ii-honored-with-usps-forever-stamp/',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    malala: {
+      id: 'malala',
+      name: 'Malala Yousafzai and the Fight for Girls\' Schooling',
+      level: 'Beginner',
+      dek: 'Shot for speaking up for girls\' education, Malala Yousafzai became the youngest Nobel laureate at seventeen.',
+      readTime: '4 min',
+
+      sections: ['Swat Valley', 'The attack and the answer', 'The work since'],
+      body: [
+        { type: 'lead', text: 'In October 2014, Malala Yousafzai received the Nobel Peace Prize, shared with the Indian children\'s rights activist Kailash Satyarthi. She was 17 years old, the youngest Nobel laureate in any field, honored for her work for children\'s rights and girls\' education in Pakistan and worldwide.' },
+        { type: 'h2', text: 'Swat Valley' },
+        { type: 'p', text: 'Malala grew up in Pakistan\'s Swat Valley, where her father ran a school and spoke publicly for education. As the Taliban tightened its control of the valley and moved against girls\' schools, she began writing and speaking about the right to learn, first as a child blogger under a pen name, then openly under her own.' },
+        { type: 'p', text: 'In October 2012 a Taliban gunman boarded her school bus and shot her in the head. She survived, after treatment in Pakistan and then in Birmingham, England, and she continued the campaign from a world stage, addressing the United Nations on her sixteenth birthday. The attack was meant to silence the campaign. It did the opposite, carrying her argument to every capital in the world.' },
+        { type: 'h2', text: 'The work since' },
+        { type: 'p', text: 'The Nobel committee cited her struggle, alongside Satyarthi\'s, against the suppression of children and young people and for the right of all children to education. The Malala Fund, which she co-founded in 2013, supports local educators and advocates working to give girls a full secondary education.' },
+        { type: 'callout', text: 'The 2014 prize joined two causes in one award: Satyarthi\'s fight against child labor in India and Malala\'s fight for girls\' schooling in Pakistan.' },
+      ],
+
+      keyTerms: ['Nobel Peace Prize', 'Swat Valley', 'girls\' education', 'Malala Fund', 'Kailash Satyarthi', 'activism'],
+
+      resources: {
+        books: [
+          {
+            title: 'I Am Malala',
+            author: 'Malala Yousafzai, with Christina Lamb',
+            year: 2013,
+            url: '',
+            why: 'Her own account of Swat, the shooting, and the campaign, written the year after the attack.',
+          },
+        ],
+        articles: [
+          {
+            title: 'Malala Yousafzai: Biographical',
+            source: 'NobelPrize.org',
+            url: 'https://www.nobelprize.org/prizes/peace/2014/yousafzai/biographical/',
+            why: 'The Nobel site\'s biography, from her father\'s school activism to the prize.',
+            year: null,
+          },
+          {
+            title: 'Malala Yousafzai: Speed read',
+            source: 'NobelPrize.org',
+            url: 'https://www.nobelprize.org/prizes/peace/2014/yousafzai/speedread/',
+            why: 'The Nobel site\'s short summary: the prize at 17, shared with Kailash Satyarthi, the youngest laureate ever.',
+            year: null,
+          },
+        ],
+      },
+
+      seeAlso: ['title_ix', 'nz_suffrage', 'nineteenth_amendment'],
+
+      sources: [
+        'https://www.nobelprize.org/prizes/peace/2014/yousafzai/biographical/',
+        'https://www.nobelprize.org/prizes/peace/2014/yousafzai/speedread/',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    switzer: {
+      id: 'switzer',
+      name: 'Kathrine Switzer and Bib 261',
+      level: 'Beginner',
+      dek: 'In 1967 Kathrine Switzer ran Boston with an official number while officials tried to pull her off.',
+      readTime: '4 min',
+
+      sections: ['A numbered entry', 'The photograph', 'After 1967'],
+      body: [
+        { type: 'lead', text: 'On April 19, 1967, Kathrine Switzer ran the Boston Marathon wearing bib number 261. She had registered as "K. V. Switzer" and was issued the number through an oversight in the entry screening. She was the first woman to run Boston as an officially registered entrant, five years before women were officially allowed to compete.' },
+        { type: 'h2', text: 'The photograph' },
+        { type: 'p', text: 'Early in the race, race official Jock Semple lunged at Switzer, shouting at her to get out of his race and give him the numbers, and tried to tear off her bib. Her boyfriend Tom Miller, running beside her, shoved Semple aside, and Switzer kept running. Photographs of the moment made world headlines.' },
+        { type: 'p', text: 'Switzer finished in about 4 hours 20 minutes. She was not the fastest woman on the course that day. Bobbi Gibb, who had become the first woman to run Boston a year earlier by hiding her sex and running unregistered, ran again without a number in 1967 and finished about an hour ahead. Gibb was the first woman to run the race. Switzer was the first to run it entered.' },
+        { type: 'h2', text: 'After 1967' },
+        { type: 'p', text: 'Women were officially allowed to run the Boston Marathon in 1972. Switzer built a career in running promotion and broadcasting and founded 261 Fearless, which supports women through running. In 2017, fifty years after her first race, she ran Boston again at age 70 wearing number 261, and afterward the number was retired in her honor.' },
+        { type: 'callout', text: 'Switzer has said she signed her college newspaper articles "K. V. Switzer" all along; the initials were how she wrote, not a disguise invented for the race.' },
+      ],
+
+      keyTerms: ['Boston Marathon', 'bib', 'registered entrant', 'Jock Semple', 'Bobbi Gibb', '261 Fearless'],
+
+      resources: {
+        articles: [
+          {
+            title: 'Kathrine Switzer, first woman to officially run Boston Marathon, competes again',
+            source: 'Akron Beacon Journal',
+            url: 'https://www.beaconjournal.com/story/sports/2017/04/17/kathrine-switzer-boston-marathon/100558306/?hootPostID=014b836161aac9ca2dcc6b12e03df8b2',
+            why: 'The 2017 return reported in full: bib 261, the 1967 confrontation, the 4:20 finish, Gibb\'s unregistered run, and the number\'s retirement.',
+            year: 2017,
+          },
+        ],
+      },
+
+      seeAlso: ['nz_suffrage', 'title_ix', 'women_in_space'],
+
+      sources: [
+        'https://www.beaconjournal.com/story/sports/2017/04/17/kathrine-switzer-boston-marathon/100558306/?hootPostID=014b836161aac9ca2dcc6b12e03df8b2',
+      ],
+      verifiedAt: '2026-10-15',
+    },
   },
 };

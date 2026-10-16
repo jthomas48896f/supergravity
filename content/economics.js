@@ -957,5 +957,165 @@ window.CONTENT.economics = {
       verifiedAt: '2026-04-23',
     },
 
+
+    unpaid_care_work: {
+      id: 'unpaid_care_work',
+      name: 'Unpaid Care Work: The Invisible Economy',
+      level: 'Beginner',
+      dek: 'The world does 16.4 billion hours of unpaid care daily, three quarters of it by women, says ILO.',
+      readTime: '4 min',
+
+      sections: ['The count', 'What it would cost', 'The locked door'],
+      body: [
+        { type: 'lead', text: 'Every day, people perform 16.4 billion hours of unpaid care work: cooking, cleaning, and looking after children, the elderly, and the sick inside their own households. The International Labour Organization calculates that women perform 76.2 percent of it, more than three times as much as men. Valued at an hourly minimum wage, that labor would amount to 9 percent of global GDP, some 11 trillion dollars a year.' },
+        { type: 'h2', text: 'What it would cost' },
+        { type: 'p', text: 'The ILO\'s 2018 report, Care Work and Care Jobs for the Future of Decent Work, did the arithmetic to make the invisible visible. Sixteen point four billion hours a day is the equivalent of 2 billion people working eight hour shifts with no pay. Almost 80 percent of it is household work.' },
+        { type: 'p', text: 'None of it enters GDP as the accounts are kept, because no money changes hands. Yet every paid job in the economy rests on it: workers arrive at work fed, rested, raised, and cared for, and the system that produces that readiness is the unpaid one.' },
+        { type: 'h2', text: 'The locked door' },
+        { type: 'p', text: 'The report also counts what the load prevents. In 2018, 606 million working age women said they were not in the labor force because of unpaid care work. The corresponding figure for men was 41 million. Care is the main reason women give for being outside paid work, which is why the ILO treats care policy, childcare, eldercare, and leave, as economic policy and not only family policy.' },
+        { type: 'callout', text: 'Progress, measured by the ILO across 23 countries with long data: the gender gap in unpaid care time shrank by seven minutes a day over twenty years. At that pace, closing it takes about 210 years.' },
+      ],
+
+      keyTerms: ['unpaid care work', 'ILO', 'GDP', 'labor force', 'minimum wage valuation', 'care economy'],
+
+      resources: {
+        articles: [
+          {
+            title: 'ILO: Women do 4 times more unpaid care work than men in Asia and the Pacific',
+            source: 'International Labour Organization',
+            url: 'https://www.ilo.org/resource/news/ilo-women-do-4-times-more-unpaid-care-work-men-asia-and-pacific',
+            why: 'The ILO\'s release carrying the global figures: 76.2 percent of unpaid care done by women, 9 percent of global GDP, 606 million women against 41 million men kept out of the labor force in 2018.',
+            year: 2018,
+          },
+        ],
+      },
+
+      seeAlso: ['women_workforce', 'federal_minimum_wage', 'inflation_cpi'],
+
+      sources: [
+        'https://www.ilo.org/resource/news/ilo-women-do-4-times-more-unpaid-care-work-men-asia-and-pacific',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    women_workforce: {
+      id: 'women_workforce',
+      name: 'Women in the World of Work: The 2024 Count',
+      level: 'Beginner',
+      dek: 'In 2024, 46.4 percent of working age women were employed worldwide, against 69.5 percent of men, says ILO.',
+      readTime: '4 min',
+
+      sections: ['One dated set of figures', 'How the gap narrowed', 'Where women stand inside work'],
+      body: [
+        { type: 'lead', text: 'In 2024, only 46.4 percent of working age women worldwide were employed, compared to 69.5 percent of men, a gap of 23.1 percentage points. The figures are from the International Labour Organization\'s 2025 brief Women and the Economy: 30 Years after the Beijing Declaration, and they are stated here with their year, because these numbers move between editions and should never be quoted undated.' },
+        { type: 'h2', text: 'How the gap narrowed' },
+        { type: 'p', text: 'The gap has narrowed by only 4 percentage points in three decades, from 27.1 points in 1991. And the narrowing is not the good news it resembles: the ILO notes it was driven mainly by a 6 point fall in men\'s employment rate, while women\'s rate actually decreased by 2.3 points over the same period. The two lines moved toward each other mostly from the top down.' },
+        { type: 'p', text: 'At the current pace, the brief concludes, parity in employment rates is over 190 years away. Women also remain overrepresented in informal work and face persistent pay gaps in every country income group measured.' },
+        { type: 'h2', text: 'Where women stand inside work' },
+        { type: 'p', text: 'Employment is not the whole count. Women hold only 30 percent of managerial positions globally, a modest improvement over two decades, with low income countries showing some of the fastest movement. Being counted in the workforce and being counted in its decisions are two different measures, and the second lags the first almost everywhere.' },
+        { type: 'callout', text: 'One source, one vintage: ILO, March 2025, data year 2024. 46.4 against 69.5 percent, a 23.1 point gap, 30 percent of management. Older ILO figures in circulation describe other years and are not mixed in here.' },
+      ],
+
+      keyTerms: ['employment to population ratio', 'gender gap', 'ILO', 'Beijing Declaration', 'informal work', 'management'],
+
+      resources: {
+        articles: [
+          {
+            title: 'Women and the economy: 30 years after the Beijing Declaration',
+            source: 'International Labour Organization',
+            url: 'https://www.ilo.org/publications/women-and-economy-30-years-after-beijing-declaration',
+            why: 'The ILO brief\'s publication page: 2024 employment rates of 46.4 percent for women and 69.5 percent for men, the gap narrowed by only 4 points in 30 years, women at 30 percent of managerial positions.',
+            year: 2025,
+          },
+        ],
+      },
+
+      seeAlso: ['unpaid_care_work', 'federal_minimum_wage', 'standard_deduction'],
+
+      sources: [
+        'https://www.ilo.org/publications/women-and-economy-30-years-after-beijing-declaration',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    inflation_cpi: {
+      id: 'inflation_cpi',
+      name: 'Inflation and the Consumer Price Index',
+      level: 'Beginner',
+      dek: 'The CPI tracks average price change for a basket of goods using about 94,000 prices monthly.',
+      readTime: '4 min',
+
+      sections: ['A basket, repriced monthly', 'Whose prices count', 'Reading the headline number'],
+      body: [
+        { type: 'lead', text: 'The Consumer Price Index, published monthly by the U.S. Bureau of Labor Statistics, measures the average change over time in the prices paid by urban consumers for a representative basket of goods and services. When you hear that inflation ran at some percent this year, this index is almost always the number behind the sentence.' },
+        { type: 'h2', text: 'A basket, repriced monthly' },
+        { type: 'p', text: 'The BLS collects about 94,000 prices every month, from stores, service providers, and rental units across the country, and compares the cost of the same basket over time. Food, housing, fuel, clothing, medical care, and the rest are weighted by how much households actually spend on them, so rent moves the index far more than the price of a movie ticket.' },
+        { type: 'p', text: 'The most used version, the CPI-U, covers approximately 93 percent of the total U.S. population: urban consumers, wage earners, professionals, the self employed, the unemployed, and retirees.' },
+        { type: 'h2', text: 'Reading the headline number' },
+        { type: 'p', text: 'The headline rate is the change over twelve months, not one month, which smooths one off jumps. A second figure, core inflation, removes food and energy because their prices swing with weather and world events, and central bankers watch it to see the underlying trend. Neither number is your personal inflation: a household that rents, drives far, or pays tuition lives a different basket than the average.' },
+        { type: 'callout', text: 'The BLS is exact about its method: a fixed basket, repriced on schedule, about 94,000 price quotes a month, published whether the number is welcome or not.' },
+      ],
+
+      keyTerms: ['Consumer Price Index', 'inflation', 'BLS', 'market basket', 'core inflation', 'CPI-U'],
+
+      resources: {
+        articles: [
+          {
+            title: 'Consumer Price Index: Handbook of Methods',
+            source: 'U.S. Bureau of Labor Statistics',
+            url: 'https://www.bls.gov/opub/hom/cpi/',
+            why: 'The BLS method chapter: what the CPI measures, the roughly 94,000 prices collected monthly, and the CPI-U population coverage of about 93 percent.',
+            year: null,
+          },
+        ],
+      },
+
+      seeAlso: ['rule_of_72', 'federal_minimum_wage', 'apr_basics'],
+
+      sources: [
+        'https://www.bls.gov/opub/hom/cpi/',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    federal_minimum_wage: {
+      id: 'federal_minimum_wage',
+      name: 'The Federal Minimum Wage',
+      level: 'Beginner',
+      dek: 'The federal minimum wage has stood at 7.25 dollars an hour since July 2009, says the Labor Department.',
+      readTime: '4 min',
+
+      sections: ['The number and its date', 'Federal floor, state ceilings', 'The tipped wage'],
+      body: [
+        { type: 'lead', text: 'The federal minimum wage in the United States is $7.25 per hour. It took effect on July 24, 2009, under the Fair Labor Standards Act, and it has not changed since. It is a floor for covered workers, not a typical wage: most states set their own minimums above it.' },
+        { type: 'h2', text: 'Federal floor, state ceilings' },
+        { type: 'p', text: 'Where a worker is covered by both federal and state minimum wage law, the Department of Labor\'s rule is simple: the employee is entitled to the higher of the two rates. In states with no minimum wage law or one below the federal level, the federal $7.25 governs. In much of the country the state rate is what actually binds, often several dollars higher.' },
+        { type: 'p', text: 'Because the federal figure is fixed in statute while prices rise, its buying power falls a little each year it stands still. Adjusted for inflation, $7.25 in 2009 was worth considerably more than $7.25 today, a decline that happens without any vote ever being taken to cut it.' },
+        { type: 'h2', text: 'The tipped wage' },
+        { type: 'p', text: 'For tipped employees, federal law lets employers pay a cash wage as low as $2.13 an hour, on the condition that tips bring the worker to at least the full $7.25. If tips fall short, the employer must make up the difference. The guarantee is the full minimum; the tip credit is only an accounting route to it.' },
+        { type: 'callout', text: 'The Department of Labor keeps the dates attached: $7.25 effective July 24, 2009, the tipped cash wage $2.13 with the employer owing any shortfall.' },
+      ],
+
+      keyTerms: ['minimum wage', 'Fair Labor Standards Act', 'Department of Labor', 'tip credit', 'coverage', 'inflation'],
+
+      resources: {
+        articles: [
+          {
+            title: 'Minimum Wage FAQs',
+            source: 'U.S. Department of Labor, Wage and Hour Division',
+            url: 'https://www.dol.gov/agencies/whd/minimum-wage/faq',
+            why: 'The Labor Department\'s own answers: $7.25 since July 24, 2009, the higher rate governs where both laws apply, and the $2.13 tipped cash wage with employer make up.',
+            year: null,
+          },
+        ],
+      },
+
+      seeAlso: ['women_workforce', 'unpaid_care_work', 'emergency_savings'],
+
+      sources: [
+        'https://www.dol.gov/agencies/whd/minimum-wage/faq',
+      ],
+      verifiedAt: '2026-10-15',
+    },
   },
 };
