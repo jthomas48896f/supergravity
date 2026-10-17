@@ -1,9 +1,9 @@
 # Tutor eval results (baseline)
 
-Run: 2026-10-16T22:21:35.651Z. Questions: 17. Mode: baseline.
+Run: 2026-10-17T13:20:28.474Z. Questions: 17. Mode: baseline.
 
 - Groundedness (expected atlas facts present in the answer): **0.804** (gate: 0.75)
-- Citation rate (answers naming at least one source): **1** (gate: 1)
+- Citation rate (answers naming at least one retrieved source and no unretrieved source; enforcement in scoreAnswer): **1** (gate: 1)
 - Correct source rate (cited the subject file the question targets): **0.765** (gate: 0.75)
 
 | Question | Subject | Facts found | Cited | Correct source | Retrieved from |

@@ -1,6 +1,6 @@
 {
   "mode": "baseline",
-  "date": "2026-10-16T22:21:35.651Z",
+  "date": "2026-10-17T13:20:28.474Z",
   "questions": 17,
   "thresholds": {
     "groundedness": 0.75,
@@ -26,7 +26,8 @@
       "correctSource": true,
       "citations": [
         "chess.js"
-      ]
+      ],
+      "invalidCitations": []
     },
     {
       "id": "plumbing-drain-slope",
@@ -41,7 +42,8 @@
       "correctSource": true,
       "citations": [
         "plumbing.js"
-      ]
+      ],
+      "invalidCitations": []
     },
     {
       "id": "astronomy-hubble",
@@ -58,7 +60,8 @@
       "citations": [
         "astronomy.js",
         "physics.js"
-      ]
+      ],
+      "invalidCitations": []
     },
     {
       "id": "beekeeping-varroa",
@@ -73,7 +76,8 @@
       "correctSource": true,
       "citations": [
         "beekeeping.js"
-      ]
+      ],
+      "invalidCitations": []
     },
     {
       "id": "sailing-jibe",
@@ -88,7 +92,8 @@
       "correctSource": true,
       "citations": [
         "sailing.js"
-      ]
+      ],
+      "invalidCitations": []
     },
     {
       "id": "knots-three-kinds",
@@ -103,7 +108,8 @@
       "correctSource": true,
       "citations": [
         "knots.js"
-      ]
+      ],
+      "invalidCitations": []
     },
     {
       "id": "welding-mig-tig",
@@ -118,7 +124,8 @@
       "correctSource": true,
       "citations": [
         "welding.js"
-      ]
+      ],
+      "invalidCitations": []
     },
     {
       "id": "gardening-soil",
@@ -135,7 +142,8 @@
       "citations": [
         "biology.js",
         "composting.js"
-      ]
+      ],
+      "invalidCitations": []
     },
     {
       "id": "bbq-brisket",
@@ -152,7 +160,8 @@
       "citations": [
         "cooking.js",
         "economics.js"
-      ]
+      ],
+      "invalidCitations": []
     },
     {
       "id": "survival-priorities",
@@ -169,7 +178,8 @@
       "citations": [
         "history.js",
         "hunting.js"
-      ]
+      ],
+      "invalidCitations": []
     },
     {
       "id": "physics-frameworks",
@@ -186,7 +196,8 @@
       "citations": [
         "math.js",
         "physics.js"
-      ]
+      ],
+      "invalidCitations": []
     },
     {
       "id": "geology-basics",
@@ -203,7 +214,8 @@
       "citations": [
         "astronomy.js",
         "geology.js"
-      ]
+      ],
+      "invalidCitations": []
     },
     {
       "id": "firstaid-cpr",
@@ -218,7 +230,8 @@
       "correctSource": true,
       "citations": [
         "firstaid.js"
-      ]
+      ],
+      "invalidCitations": []
     },
     {
       "id": "finance-budget",
@@ -233,7 +246,8 @@
       "correctSource": false,
       "citations": [
         "economics.js"
-      ]
+      ],
+      "invalidCitations": []
     },
     {
       "id": "nutrition-prout",
@@ -250,7 +264,8 @@
       "citations": [
         "nutrition.js",
         "chemistry.js"
-      ]
+      ],
+      "invalidCitations": []
     },
     {
       "id": "law-contracts",
@@ -267,7 +282,8 @@
       "citations": [
         "history.js",
         "law.js"
-      ]
+      ],
+      "invalidCitations": []
     },
     {
       "id": "medicine-harvey",
@@ -284,7 +300,8 @@
       "citations": [
         "medicine.js",
         "biology.js"
-      ]
+      ],
+      "invalidCitations": []
     }
   ]
 }

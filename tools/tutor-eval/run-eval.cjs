@@ -125,17 +125,54 @@ async function llmAnswer(hits, question) {
   return data.choices?.[0]?.message?.content ?? '';
 }
 
-function scoreAnswer(answer, q) {
+// Citation enforcement (added October 17, 2026). Why this exists: before
+// enforcement, an answer scored citation credit for naming any file in the
+// [source: ...] form, including files that were never retrieved for the
+// question, so a confident hallucinated citation scored the same as a real
+// one. Enforcement rule: a citation counts only if it names a file that was
+// actually retrieved for this question. An answer carrying any citation
+// outside the retrieved set earns no citation credit at all, and the
+// offending citations are named in the results row. The baseline answerer
+// cites exactly its retrieved sources, so baseline scores should not move;
+// LLM mode is where enforcement bites.
+function enforceCitations(citations, retrievedFrom) {
+  const retrieved = new Set(retrievedFrom);
+  const validCitations = citations.filter(c => retrieved.has(c));
+  const invalidCitations = citations.filter(c => !retrieved.has(c));
+  return { validCitations, invalidCitations, enforced: invalidCitations.length === 0 };
+}
+
+// The enforcement checks run on every eval invocation, before scoring, so
+// CI exercises them. Each case states the behavior it pins.
+function enforcementSelfChecks() {
+  const cases = [
+    { name: 'valid citation passes', citations: ['law.js'], retrieved: ['law.js', 'history.js'], want: { cited: true, enforced: true } },
+    { name: 'hallucinated citation earns no credit', citations: ['law.js', 'physics.js'], retrieved: ['law.js'], want: { cited: false, enforced: false } },
+    { name: 'no citation earns no credit', citations: [], retrieved: ['law.js'], want: { cited: false, enforced: true } },
+  ];
+  for (const c of cases) {
+    const r = enforceCitations(c.citations, c.retrieved);
+    const cited = r.enforced && r.validCitations.length > 0;
+    if (cited !== c.want.cited || r.enforced !== c.want.enforced) {
+      throw new Error(`Citation enforcement self-check failed: ${c.name}`);
+    }
+  }
+}
+
+function scoreAnswer(answer, q, retrievedFrom) {
   const a = answer.toLowerCase();
   const factsFound = q.facts.filter(f => a.includes(f.toLowerCase()));
   const citations = [...answer.matchAll(/\[source:\s*([^\]]+)\]/gi)].map(m => m[1].trim());
+  const { validCitations, invalidCitations, enforced } = enforceCitations(citations, retrievedFrom);
+  const cited = enforced && validCitations.length > 0;
   return {
     factsExpected: q.facts.length,
     factsFound: factsFound.length,
     groundedness: factsFound.length / q.facts.length,
-    cited: citations.length > 0,
-    correctSource: citations.includes(`${q.subject}.js`),
+    cited,
+    correctSource: cited && validCitations.includes(`${q.subject}.js`),
     citations,
+    invalidCitations,
   };
 }
 
@@ -162,11 +199,13 @@ async function main() {
     return;
   }
 
+  enforcementSelfChecks();
   const rows = [];
   for (const q of QUESTIONS) {
     const hits = retrieve(chunks, q.question);
     const answer = mode === 'llm' ? await llmAnswer(hits, q.question) : baselineAnswer(hits);
-    rows.push({ id: q.id, subject: q.subject, retrievedFrom: [...new Set(hits.map(h => h.file))], ...scoreAnswer(answer, q) });
+    const retrievedFrom = [...new Set(hits.map(h => h.file))];
+    rows.push({ id: q.id, subject: q.subject, retrievedFrom, ...scoreAnswer(answer, q, retrievedFrom) });
   }
 
   const n = rows.length;
@@ -191,7 +230,7 @@ async function main() {
     `Run: ${results.date}. Questions: ${n}. Mode: ${mode}.`,
     '',
     `- Groundedness (expected atlas facts present in the answer): **${summary.groundedness}** (gate: ${THRESHOLDS.groundedness})`,
-    `- Citation rate (answers naming at least one source): **${summary.citationRate}** (gate: ${THRESHOLDS.citationRate})`,
+    `- Citation rate (answers naming at least one retrieved source and no unretrieved source; enforcement in scoreAnswer): **${summary.citationRate}** (gate: ${THRESHOLDS.citationRate})`,
     `- Correct source rate (cited the subject file the question targets): **${summary.correctSourceRate}** (gate: ${THRESHOLDS.correctSourceRate})`,
     '',
     '| Question | Subject | Facts found | Cited | Correct source | Retrieved from |',
