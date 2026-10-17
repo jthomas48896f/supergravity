@@ -1,6 +1,6 @@
 {
   "mode": "baseline",
-  "date": "2026-10-17T13:20:28.474Z",
+  "date": "2026-10-17T15:19:11.910Z",
   "questions": 17,
   "thresholds": {
     "groundedness": 0.75,
@@ -10,7 +10,7 @@
   "summary": {
     "groundedness": 0.804,
     "citationRate": 1,
-    "correctSourceRate": 0.765
+    "correctSourceRate": 0.824
   },
   "rows": [
     {
@@ -132,16 +132,16 @@
       "subject": "gardening",
       "retrievedFrom": [
         "biology.js",
-        "composting.js"
+        "gardening.js"
       ],
       "factsExpected": 3,
       "factsFound": 3,
       "groundedness": 1,
       "cited": true,
-      "correctSource": false,
+      "correctSource": true,
       "citations": [
         "biology.js",
-        "composting.js"
+        "gardening.js"
       ],
       "invalidCitations": []
     },
@@ -150,6 +150,7 @@
       "subject": "bbq",
       "retrievedFrom": [
         "cooking.js",
+        "cs.js",
         "economics.js"
       ],
       "factsExpected": 3,
@@ -159,6 +160,7 @@
       "correctSource": false,
       "citations": [
         "cooking.js",
+        "cs.js",
         "economics.js"
       ],
       "invalidCitations": []
@@ -168,7 +170,8 @@
       "subject": "survival",
       "retrievedFrom": [
         "history.js",
-        "hunting.js"
+        "hunting.js",
+        "parenting.js"
       ],
       "factsExpected": 3,
       "factsFound": 1,
@@ -177,7 +180,8 @@
       "correctSource": false,
       "citations": [
         "history.js",
-        "hunting.js"
+        "hunting.js",
+        "parenting.js"
       ],
       "invalidCitations": []
     },
@@ -237,6 +241,7 @@
       "id": "finance-budget",
       "subject": "finance",
       "retrievedFrom": [
+        "art.js",
         "economics.js"
       ],
       "factsExpected": 3,
@@ -245,6 +250,7 @@
       "cited": true,
       "correctSource": false,
       "citations": [
+        "art.js",
         "economics.js"
       ],
       "invalidCitations": []
@@ -254,7 +260,8 @@
       "subject": "nutrition",
       "retrievedFrom": [
         "nutrition.js",
-        "chemistry.js"
+        "chemistry.js",
+        "history.js"
       ],
       "factsExpected": 3,
       "factsFound": 3,
@@ -263,7 +270,8 @@
       "correctSource": true,
       "citations": [
         "nutrition.js",
-        "chemistry.js"
+        "chemistry.js",
+        "history.js"
       ],
       "invalidCitations": []
     },
@@ -272,7 +280,9 @@
       "subject": "law",
       "retrievedFrom": [
         "history.js",
-        "law.js"
+        "law.js",
+        "b04-enhance.js",
+        "electrical.js"
       ],
       "factsExpected": 3,
       "factsFound": 3,
@@ -281,7 +291,9 @@
       "correctSource": true,
       "citations": [
         "history.js",
-        "law.js"
+        "law.js",
+        "b04-enhance.js",
+        "electrical.js"
       ],
       "invalidCitations": []
     },
@@ -290,7 +302,8 @@
       "subject": "medicine",
       "retrievedFrom": [
         "medicine.js",
-        "biology.js"
+        "biology.js",
+        "astronomy.js"
       ],
       "factsExpected": 3,
       "factsFound": 2,
@@ -299,7 +312,8 @@
       "correctSource": true,
       "citations": [
         "medicine.js",
-        "biology.js"
+        "biology.js",
+        "astronomy.js"
       ],
       "invalidCitations": []
     }

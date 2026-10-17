@@ -1,6 +1,6 @@
 // content/_bundle.js
 // AUTO-GENERATED — do not edit by hand.
-// Built: 2026-10-16T05:17:08Z
+// Built: 2026-10-17T15:15:39Z
 // To regenerate: ./tools/build-content-bundle.sh
 
 window.CONTENT = window.CONTENT || {};
@@ -8695,6 +8695,54 @@ window.CONTENT.biology = {
 
       sources: [
         'https://www.usda.gov/about-usda/general-information/initiatives-and-highlighted-programs/peoples-garden/importance-pollinators',
+      ],
+      verifiedAt: '2026-10-15',
+    },
+
+    soil_microbes: {
+      id: 'soil_microbes',
+      name: 'The Living Soil',
+      level: 'Beginner',
+      dek: 'A teaspoon of healthy soil can hold more microorganisms than there are people living on Earth.',
+      readTime: '4 min',
+
+      sections: ['A crowded teaspoon', 'What the microbes do', 'Reading this claim carefully'],
+      body: [
+        { type: 'lead', text: 'Soil is alive. A teaspoon of healthy soil can hold more microorganisms, bacteria, fungi, and other microscopic life, than there are people on Earth. The comparison is a standard teaching line in soil health work, used by soil scientists to convey a density of life that the eye cannot check on its own.' },
+        { type: 'h2', text: 'What the microbes do' },
+        { type: 'p', text: 'Soil organisms run the underground economy. They decompose dead material and release its nutrients in forms plant roots can take up. They move carbon into the soil and hold some of it there. Fungal networks trade nutrients with plant roots for sugars. Predators among them, protozoa and nematodes, graze on bacteria and keep the cycle turning. A soil with a working community resists erosion and disease better than a sterile one.' },
+        { type: 'p', text: 'This is why soil health practice aims at feeding the community: keep living roots in the ground, disturb the soil less, keep it covered, and diversify what grows. Each principle is a way of not breaking the habitat of things too small to see.' },
+        { type: 'h2', text: 'Reading this claim carefully' },
+        { type: 'p', text: 'Counts vary with the soil, the season, and the counting method, and the teaspoon comparison is an illustration of scale, not a census. It travels through soil science teaching, including material drawn from the USDA\'s soil biology work, and through scientists such as Michigan State\'s Christine Sprunger, who uses it to explain why deteriorating soil health matters. Treat it as a well supported order of magnitude, stated by the field, rather than a figure measured spoon by spoon.' },
+        { type: 'callout', text: 'Honest label: this is the field\'s standard comparison, reported through soil health teaching and interviews with soil scientists, not a number from a single primary measurement.' },
+      ],
+
+      keyTerms: ['microorganism', 'soil health', 'decomposition', 'fungal network', 'nutrient cycle', 'organic matter'],
+
+      resources: {
+        articles: [
+          {
+            title: 'Deteriorating soil health: "A teaspoon of soil contains more life than there are humans on earth"',
+            source: 'Open Access Government (interview with Prof. Christine Sprunger, Michigan State University)',
+            url: 'https://www.openaccessgovernment.org/article/deteriorating-soil-health-a-teaspoon-of-soil-contains-more-life-than-there-are-humans-on-earth/145512/',
+            why: 'A soil scientist using the comparison on the record, and explaining what soil biodiversity loss does to the whole food web.',
+            year: null,
+          },
+          {
+            title: 'Soil Health: A Close Up Look',
+            source: 'Contra Costa Resource Conservation District (reproducing USDA NRCS soil biology material)',
+            url: 'https://ctrcd.org/wp-content/uploads/2019/10/Soil-Health-A-Close-Up-Look.pdf',
+            why: 'Soil health teaching slides built on the USDA Natural Resources Conservation Service Soil Biology Primer, carrying the teaspoon comparison.',
+            year: 2019,
+          },
+        ],
+      },
+
+      seeAlso: ['pollinators', 'groundwater', 'how_photosynthesis_works'],
+
+      sources: [
+        'https://www.openaccessgovernment.org/article/deteriorating-soil-health-a-teaspoon-of-soil-contains-more-life-than-there-are-humans-on-earth/145512/',
+        'https://ctrcd.org/wp-content/uploads/2019/10/Soil-Health-A-Close-Up-Look.pdf',
       ],
       verifiedAt: '2026-10-15',
     },

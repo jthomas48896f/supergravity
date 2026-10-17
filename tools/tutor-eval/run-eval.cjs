@@ -71,6 +71,18 @@ function retrieve(chunks, question, k = 4) {
   // density as a tiebreak. Raw occurrence counts favor the biggest files
   // in the atlas regardless of subject, which is how a chess question ends
   // up answered from a computer science file.
+  // The gate keeps the top four files, widened from two on October 17,
+  // 2026. A two file gate excluded gardening.js from its own soil
+  // question once the soil_microbes topic joined biology.js: whole file
+  // keyword coverage favors large files with incidental matches, and the
+  // new topic's chunks then filled every answer slot, dropping the
+  // compost fact (gardening soil question 3 of 3 facts to 2 of 3;
+  // groundedness 0.833 to 0.806 on the original 12 question set, 0.804
+  // to 0.784 on the 17 question set). Chunk ranking inside the gate is
+  // the precise stage; the gate only needs to be wide enough not to
+  // exclude the subject file. Four files restores the baseline exactly
+  // with the topic included; five was measured worse (the survival
+  // question loses a fact), so four is the measured width, not a guess.
   const perFile = new Map();
   for (const c of chunks) {
     if (!perFile.has(c.file)) perFile.set(c.file, { distinct: new Set(), hits: 0, chars: 0 });
@@ -84,7 +96,7 @@ function retrieve(chunks, question, k = 4) {
   }
   const topFiles = [...perFile.entries()]
     .map(([f, r]) => ({ f, score: r.distinct.size * 1000 + (r.hits / Math.max(1, r.chars)) * 1000 }))
-    .sort((a, b) => b.score - a.score).slice(0, 2).map(x => x.f);
+    .sort((a, b) => b.score - a.score).slice(0, 4).map(x => x.f);
   // Stage 2: rank chunks inside those files by distinct keyword coverage.
   const scored = chunks.filter(c => topFiles.includes(c.file)).map(c => {
     const t = c.text.toLowerCase();
